@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Transformed with v1v2002_4_cornell.xsl -->
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "../dtds/ead.dtd">
-	 
-<?xml-stylesheet type="text/xsl" href="../styles/style.xsl" ?>
-<ead>
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1"
-      scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us"
-         publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01870::Howard E. Evans papers)//EN"
-         >RMA01870.xml</eadid>
+<ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
+      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01870::Howard E. Evans papers)//EN">RMA01870.xml</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Howard E. Evans papers, 1943-2012</titleproper>
@@ -56,8 +50,7 @@
                   Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
                   <lb/>
-                  <extref href="http://rmc.library.cornell.edu"
-                     >http://rmc.library.cornell.edu</extref>
+                  <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
                   <lb/></item>
             </defitem>
             <defitem>
@@ -84,16 +77,13 @@
    <archdesc level="collection">
       <did>
          <head>DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:">Howard E. Evans papers, <unitdate type="inclusive"
-               >1943-2012</unitdate>
+         <unittitle label="Title:">Howard E. Evans papers, <unitdate type="inclusive">1943-2012</unitdate>
          </unittitle>
          <unitid label="Collection Number:">24-02-1870</unitid>
          <origination label="Creator:">
-            <persname
-               normal="[give the MARC presentation of creator here, i.e., surname first; include dates]"
-               >Evans, Howard E. (Howard Edward), 1922- </persname>
+            <persname normal="[give the MARC presentation of creator here, i.e., surname first; include dates]">Evans, Howard E. (Howard Edward), 1922- </persname>
          </origination>
-         <physdesc label="Quantity:">59.3 cubic ft.</physdesc>
+         <physdesc label="Quantity:"><extent>59.3 cubic ft.</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, minutes, manuscripts,
             photographs.</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -102,8 +92,7 @@
             ca.1950-2002; minutes and printed material on the Veterinary College, the University
             faculty, and the Board of Trustees. Also, Veterinary College grade books, 1891-1989,
             kept by Professors Hopkins, Miller, and Evans and scrapbooks, 1987-2012.</abstract>
-         <langmaterial label="Language:">Collection material in <language encodinganalog="041"
-               langcode="eng">English</language>
+         <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language>
          </langmaterial>
       </did>
       <bioghist>
@@ -1715,7 +1704,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"></container>
+                  <container type="map-case"/>
                   <unitid>O/S Folder</unitid>
                   <unittitle>Panorama group photograph of Officer Candidate School, Class 35, Camp Lee, Virginia</unittitle>
                   <unitdate>1944</unitdate>

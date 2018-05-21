@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Transformed with v1v2002_4_cornell.xsl -->
-
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "../dtds/ead.dtd">
-	 
-<?xml-stylesheet type="text/xsl" href="../styles/style.xsl" ?>
-<ead>
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1"
-      scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us"
-         publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM00539::Davenport family papers)//EN"
-         >RMM00539.xml</eadid>
+<ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
+      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM00539::Davenport family papers)//EN">RMM00539.xml</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Davenport family papers, 1800-1941.</titleproper>
@@ -19,7 +12,7 @@
          <publicationstmt>
             <publisher>Division of Rare and Manuscript Collections, Cornell University
                Library</publisher>
-            <date><?xm-replace_text {date the *electronic file* was published}??></date>
+            <date/>
          </publicationstmt>
          <notestmt>
             <note audience="internal">
@@ -55,8 +48,7 @@
                   Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
                   <lb/>
-                  <extref href="http://rmc.library.cornell.edu"
-                     >http://rmc.library.cornell.edu</extref>
+                  <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
                   <lb/></item>
             </defitem>
             <defitem>
@@ -78,8 +70,7 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Davenport family papers, <unitdate
-               type="inclusive" encodinganalog="MARC 245">1800-1941.</unitdate>
+         <unittitle label="Title:" encodinganalog="MARC 245">Davenport family papers, <unitdate type="inclusive" encodinganalog="MARC 245">1800-1941.</unitdate>
          </unittitle>
          <unitid label="Collection Number:">539</unitid>
          <origination label="Creator:">
@@ -89,8 +80,8 @@
 
 
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300">41.2 cubic ft; 29 v.; 2 reels movie
-            film; 3 oversize folders.</physdesc>
+         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>41.2 cubic ft; 29 v.; 2 reels movie
+            film; 3 oversize folders.</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, financial records,\ legal papers,
             maps, photographs, and movie films.</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -100,8 +91,7 @@
             photographs, and movie films of the Davenport family of Angelica, Allegany County, New
             York and Bath, Steuben County, and of related Cameron, Waterman, French, and other
             families.</abstract>
-         <langmaterial label="Language:">Collection material in <language encodinganalog="041"
-               langcode="eng">English</language>
+         <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language>
          </langmaterial>
       </did>
       <scopecontent encodinganalog="MARC 520">

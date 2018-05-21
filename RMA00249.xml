@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Transformed with v1v2002_4_cornell.xsl -->
-
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "../dtds/ead.dtd">
-	 
-<?xml-stylesheet type="text/xsl" href="../styles/style.xsl" ?>
-<ead>
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1"
-      scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us"
-         publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00249::Charles Henry Hull papers)//EN"
-         >RMA00249.xml</eadid>
+<ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
+      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00249::Charles Henry Hull papers)//EN">RMA00249.xml</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Charles Henry Hull papers</titleproper>
@@ -19,7 +12,7 @@
          <publicationstmt>
             <publisher>Division of Rare and Manuscript Collections, Cornell University
                Library</publisher>
-            <date><?xm-replace_text {date the *electronic file* was published}??></date>
+            <date/>
          </publicationstmt>
          <notestmt>
             <note audience="internal">
@@ -33,7 +26,7 @@
       </filedesc>
       <profiledesc>
          <creation>Finding aid encoded by RMC Staff
-            <date><?xm-replace_text {date}??></date>
+            <date/>
          </creation>
       </profiledesc>
       <revisiondesc>
@@ -57,8 +50,7 @@
                   Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
                   <lb/>
-                  <extref href="http://rmc.library.cornell.edu"
-                     >http://rmc.library.cornell.edu</extref>
+                  <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
                   <lb/></item>
             </defitem>
             <defitem>
@@ -67,7 +59,7 @@
             </defitem>
             <defitem>
                <label>Date completed:</label>
-               <item><?xm-replace_text {date}??></item>
+               <item/>
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
@@ -84,25 +76,22 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Charles Henry Hull papers, <unitdate
-               type="bulk" encodinganalog="MARC 245">1850-1945.</unitdate>
+         <unittitle label="Title:" encodinganalog="MARC 245">Charles Henry Hull papers, <unitdate type="bulk" encodinganalog="MARC 245">1850-1945.</unitdate>
          </unittitle>
          <unitid label="Collection Number:">14-17-249</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Hull, Charles Henry, b. 1864.">Charles Henry
                Hull, b. 1864.</persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300">5.1 cubic ft.</physdesc>
-         <physdesc label="Forms of Material:"
-            >Correspondence, manuscripts, printed materials, financial and legal records, and lantern slides.</physdesc>
+         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>5.1 cubic ft.</extent></physdesc>
+         <physdesc label="Forms of Material:">Correspondence, manuscripts, printed materials, financial and legal records, and lantern slides.</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
             University Library</repository>
          <abstract label="Abstract:">Correspondence, manuscripts, printed materials, regarding his professional career
              and financial accounts pertaining to Ithaca, N.Y. organizations. Additional records include deeds, 
              mortgage and survey (1733-1803) on lands in Albany and Montgomery Counties and newspaper clippings 
              and handwritten notes about the early Ithaca "Moral Society". One box of lantern slides.</abstract>
-         <langmaterial label="Language:">Collection material in <language encodinganalog="041"
-               langcode="eng">English</language>
+         <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language>
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
@@ -188,8 +177,7 @@
          <c01 level="series"> 
             <did> 
                <unittitle> 
-                  <extref
-                     href="http://rmc.library.cornell.edu/EAD/pdf_guides/RMA00249.pdf">Link to a
+                  <extref href="http://rmc.library.cornell.edu/EAD/pdf_guides/RMA00249.pdf">Link to a
                      partial finding aid.</extref> </unittitle> 
             </did> 
             <scopecontent> 

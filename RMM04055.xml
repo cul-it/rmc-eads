@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Transformed with v1v2002_4_cornell.xsl -->
-
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "../dtds/ead.dtd">
- 
-<?xml-stylesheet type="text/xsl" href="../styles/style.xsl" ?>
-<ead>
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1"
-      scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us"
-         publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04055::Alfred E. Kahn papers)//EN"
-         >RMM04055.xml</eadid>
+<ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
+      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04055::Alfred E. Kahn papers)//EN">RMM04055.xml</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Alfred E. Kahn papers, 1942-1994</titleproper>
@@ -52,8 +45,7 @@
                   Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
                   <lb/>
-                  <extref href="http://rmc.library.cornell.edu"
-                     >http://rmc.library.cornell.edu</extref>
+                  <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
                   <lb/></item>
             </defitem>
             <defitem>
@@ -75,15 +67,14 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Alfred E. Kahn papers, <unitdate
-               type="inclusive" encodinganalog="MARC 245">1942-1994.</unitdate>
+         <unittitle label="Title:" encodinganalog="MARC 245">Alfred E. Kahn papers, <unitdate type="inclusive" encodinganalog="MARC 245">1942-1994.</unitdate>
          </unittitle>
          <unitid label="Collection Number:">4055</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Kahn, Alfred Edward, 1917-">Alfred Edward, Kahn
                1917-2010</persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300">34.6 cubic ft.</physdesc>
+         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>34.6 cubic ft.</extent></physdesc>
          <physdesc label="Forms of Material:">Thesis notes and typescripts, legal records,
             administrative files, and other materials.</physdesc>
          <repository label="Repository:"> Division of Rare and Manuscript Collections, Cornell
@@ -95,8 +86,7 @@
             ca.1956-1970; and his participation in proceedings involving a Honolulu anti-trust case,
             n.d. Also material from Cornell years, including files on Economics Department, Deanship
             of College of Arts and Sciences, and the Kahn-Bowers Report.</abstract>
-         <langmaterial label="Language:">Collection material in <language encodinganalog="041"
-               langcode="eng">English</language>
+         <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language>
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
@@ -164,7 +154,7 @@
                   </ref>
                </emph></p>
          <p><emph render="bold">
-            <ref target="s4"  show="replace"  actuate="onrequest">Series IV. US Civil Aeronautics Board
+            <ref target="s4" show="replace" actuate="onrequest">Series IV. US Civil Aeronautics Board
             </ref></emph>
          </p>
          <p>
@@ -467,7 +457,7 @@
             <c02 level="file"><did><container type="box">127</container><container type="folder">15</container><unitdate>1974-1977</unitdate><unittitle>Generic Hearings Discrimination</unittitle></did></c02>
             <c02 level="file"><did><container type="box">127</container><container type="folder">16</container><unitdate>1974-1977</unitdate><unittitle>Distribution Costs Generic Hearings - C. 26806</unittitle></did></c02>
             <c02 level="file"><did><container type="box">128</container><container type="folder">1-12</container><unitdate>1974-1977</unitdate><unittitle>Minutes of Case Hearing 26806 and 26887</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">129</container><container type="folder"></container><unitdate>1974-1977</unitdate><unittitle>Minutes of Case Hearing 26806 and 26888</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">129</container><container type="folder"/><unitdate>1974-1977</unitdate><unittitle>Minutes of Case Hearing 26806 and 26888</unittitle></did></c02>
             
          </c01>
          <c01 level="series">
@@ -512,9 +502,9 @@
             <c02 level="file"><did><container type="box">28</container><container type="folder">20</container><unitdate>1977 - 78</unitdate><unittitle>Correspondence "Y"</unittitle></did></c02>
             <c02 level="file"><did><container type="box">28</container><container type="folder">21</container><unitdate>1977 - 78</unitdate><unittitle>Correspondence "Z"</unittitle></did></c02>
             <c02 level="file"><did><container type="box">135</container><container type="folder">1</container><unitdate>1985</unitdate><unittitle>Investigation into Competitive marketing of air transportation agreements phases</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">135</container><container type="folder">2</container><unitdate></unitdate><unittitle>Regulatory actions</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">135</container><container type="folder">3</container><unitdate></unitdate><unittitle>Correspondence</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">135</container><container type="folder">4</container><unitdate></unitdate><unittitle>Miscellaneous</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">135</container><container type="folder">2</container><unitdate/><unittitle>Regulatory actions</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">135</container><container type="folder">3</container><unitdate/><unittitle>Correspondence</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">135</container><container type="folder">4</container><unitdate/><unittitle>Miscellaneous</unittitle></did></c02>
             
          </c01>
          <c01 level="series">
@@ -529,7 +519,7 @@
             <c02 level="file"><did><container type="box">13</container><container type="folder">7</container><unitdate>1979 - 80</unitdate><unittitle>Airlines</unittitle></did></c02>
             <c02 level="file"><did><container type="box">13</container><container type="folder">8</container><unitdate>1980</unitdate><unittitle>Aspen Energy Conference - Summer 1980</unittitle></did></c02>
             <c02 level="file"><did><container type="box">13</container><container type="folder">9</container><unitdate>1978 - 82</unitdate><unittitle>Anti-trust</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">13</container><container type="folder">10</container><unitdate></unitdate><unittitle>Autos</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">13</container><container type="folder">10</container><unitdate/><unittitle>Autos</unittitle></did></c02>
             <c02 level="file"><did><container type="box">13</container><container type="folder">11</container><unitdate>1980</unitdate><unittitle>Auto Bumper Standards</unittitle></did></c02>
             <c02 level="file"><did><container type="box">13</container><container type="folder">12</container><unitdate>1978</unitdate><unittitle>Benzene</unittitle></did></c02>
             <c02 level="file"><did><container type="box">13</container><container type="folder">13</container><unitdate>1980 - 82</unitdate><unittitle>Budget</unittitle></did></c02>
@@ -539,7 +529,7 @@
             <c02 level="file"><did><container type="box">13</container><container type="folder">17</container><unitdate>1979</unitdate><unittitle>Coal</unittitle></did></c02>
             <c02 level="file"><did><container type="box">13</container><container type="folder">18</container><unitdate>1979</unitdate><unittitle>Coin</unittitle></did></c02>
             <c02 level="file"><did><container type="box">13</container><container type="folder">19</container><unitdate>1978 - 79</unitdate><unittitle>Collective Bargaining Committee</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">13</container><container type="folder">20</container><unitdate></unitdate><unittitle>Common Cause</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">13</container><container type="folder">20</container><unitdate/><unittitle>Common Cause</unittitle></did></c02>
             <c02 level="file"><did><container type="box">13</container><container type="folder">21</container><unitdate>1980</unitdate><unittitle>Communications</unittitle></did></c02>
             <c02 level="file"><did><container type="box">13</container><container type="folder">22</container><unitdate>1979</unitdate><unittitle>Comparative Inflation Rates</unittitle></did></c02>
             <c02 level="file"><did><container type="box">13</container><container type="folder">23</container><unitdate>1979</unitdate><unittitle>Congressional</unittitle></did></c02>
@@ -556,7 +546,7 @@
             <c02 level="file"><did><container type="box">14</container><container type="folder">11</container><unitdate>1979 - 80</unitdate><unittitle>EPG Minutes</unittitle></did></c02>
             <c02 level="file"><did><container type="box">14</container><container type="folder">12</container><unitdate>1979</unitdate><unittitle>Electric Utilities</unittitle></did></c02>
             <c02 level="file"><did><container type="box">14</container><container type="folder">13</container><unitdate>1979</unitdate><unittitle>Energy</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">14</container><container type="folder">14</container><unitdate></unitdate><unittitle>Energy Coordinating Committee</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">14</container><container type="folder">14</container><unitdate/><unittitle>Energy Coordinating Committee</unittitle></did></c02>
             <c02 level="file"><did><container type="box">14</container><container type="folder">15</container><unitdate>1980</unitdate><unittitle>Energy Modeling Forum</unittitle></did></c02>
             <c02 level="file"><did><container type="box">14</container><container type="folder">16</container><unitdate>1978 - 79</unitdate><unittitle>Environmental</unittitle></did></c02>
             <c02 level="file"><did><container type="box">14</container><container type="folder">17</container><unitdate>1978 - 79</unitdate><unittitle>EPA</unittitle></did></c02>
@@ -638,7 +628,7 @@
             <c02 level="file"><did><container type="box">18</container><container type="folder">23</container><unitdate>1979 - 80</unitdate><unittitle>Steel</unittitle></did></c02>
             <c02 level="file"><did><container type="box">19</container><container type="folder">1</container><unitdate>1979</unitdate><unittitle>Stockpiles</unittitle></did></c02>
             <c02 level="file"><did><container type="box">19</container><container type="folder">2</container><unitdate>1979</unitdate><unittitle>Structural Employment</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">19</container><container type="folder">3</container><unitdate></unitdate><unittitle>Style Memo</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">19</container><container type="folder">3</container><unitdate/><unittitle>Style Memo</unittitle></did></c02>
             <c02 level="file"><did><container type="box">19</container><container type="folder">4</container><unitdate>1979</unitdate><unittitle>Sugar</unittitle></did></c02>
             <c02 level="file"><did><container type="box">19</container><container type="folder">5</container><unitdate>1979</unitdate><unittitle>Support Letters</unittitle></did></c02>
             <c02 level="file"><did><container type="box">19</container><container type="folder">6</container><unitdate>1979 - 85</unitdate><unittitle>Tax</unittitle></did></c02>
@@ -1612,7 +1602,7 @@
 <c02 level="file"><did><container type="box">118</container><container type="folder">9</container><unitdate>1982</unitdate><unittitle>PA Bell</unittitle></did></c02>
 <c02 level="file"><did><container type="box">118</container><container type="folder">10</container><unitdate>1985</unitdate><unittitle>Paribas - Hold</unittitle></did></c02>
 <c02 level="file"><did><container type="box">118</container><container type="folder">11</container><unitdate>1980</unitdate><unittitle>Memo to President Carter 12/12/80</unittitle></did></c02>
-<c02 level="file"><did><container type="box">118</container><container type="folder">12</container><unitdate></unitdate><unittitle>Route 96</unittitle></did></c02>
+<c02 level="file"><did><container type="box">118</container><container type="folder">12</container><unitdate/><unittitle>Route 96</unittitle></did></c02>
 <c02 level="file"><did><container type="box">118</container><container type="folder">13</container><unitdate>1985</unitdate><unittitle>Rochester Telephone Co. </unittitle></did></c02>
 <c02 level="file"><did><container type="box">118</container><container type="folder">14</container><unitdate>1979</unitdate><unittitle>Schlesinger, Arthur Jr.</unittitle></did></c02>
 <c02 level="file"><did><container type="box">118</container><container type="folder">15</container><unitdate>1984</unitdate><unittitle>Taps Cross-Examination</unittitle></did></c02>
@@ -1820,7 +1810,7 @@
          </c01>
          <c01 level="series">
             <did>
-               <unittitle id="s11">>Series XI. Correspondence</unittitle></did>
+               <unittitle id="s11">&gt;Series XI. Correspondence</unittitle></did>
             <c02 level="file"><did><container type="box">67</container><container type="folder">1</container><unitdate>1982-83</unitdate><unittitle>A-C</unittitle></did></c02>
             <c02 level="file"><did><container type="box">67</container><container type="folder">2</container><unitdate>1982-83</unitdate><unittitle>D-K</unittitle></did></c02>
             <c02 level="file"><did><container type="box">67</container><container type="folder">3</container><unitdate>1982-83</unitdate><unittitle>L-P</unittitle></did></c02>
@@ -2323,7 +2313,7 @@
 <c02 level="file"><did><container type="box">84</container><container type="folder">16</container><unitdate>2006</unitdate><unittitle>Airline Mergers</unittitle></did></c02>
 <c02 level="file"><did><container type="box">84</container><container type="folder">17</container><unitdate>2002</unitdate><unittitle>Airlines - Misleading Advertising</unittitle></did></c02>
 <c02 level="file"><did><container type="box">84</container><container type="folder">18</container><unitdate>1983</unitdate><unittitle>Airlines: New Entrants</unittitle></did></c02>
-<c02 level="file"><did><container type="box">84</container><container type="folder">19</container><unitdate></unitdate><unittitle>Airlines - Override Commission</unittitle></did></c02>
+<c02 level="file"><did><container type="box">84</container><container type="folder">19</container><unitdate/><unittitle>Airlines - Override Commission</unittitle></did></c02>
 <c02 level="file"><did><container type="box">84</container><container type="folder">20</container><unitdate>2003</unitdate><unittitle>Airlines - Predation</unittitle></did></c02>
 <c02 level="file"><did><container type="box">84</container><container type="folder">21</container><unitdate>2006</unitdate><unittitle>Airlines - Pricing</unittitle></did></c02>
 <c02 level="file"><did><container type="box">84</container><container type="folder">22</container><unitdate>1998</unitdate><unittitle>Airlines - Regulation Mexico</unittitle></did></c02>
@@ -2335,7 +2325,7 @@
 <c02 level="file"><did><container type="box">85</container><container type="folder">3</container><unitdate>1999</unitdate><unittitle>Airports Council International Keynote Address 8th Regional Conference 10/25/99</unittitle></did></c02>
 <c02 level="file"><did><container type="box">85</container><container type="folder">4</container><unitdate>2001</unitdate><unittitle>Airports -Single Till</unittitle></did></c02>
 <c02 level="file"><did><container type="box">85</container><container type="folder">5</container><unitdate>1986</unitdate><unittitle>Airport Slots</unittitle></did></c02>
-<c02 level="file"><did><container type="box">85</container><container type="folder">6</container><unitdate></unitdate><unittitle>Airports</unittitle></did></c02>
+<c02 level="file"><did><container type="box">85</container><container type="folder">6</container><unitdate/><unittitle>Airports</unittitle></did></c02>
 <c02 level="file"><did><container type="box">85</container><container type="folder">7</container><unitdate>2004</unitdate><unittitle>Airports - Tompkins County</unittitle></did></c02>
 <c02 level="file"><did><container type="box">85</container><container type="folder">8</container><unitdate>1989</unitdate><unittitle>Airport Rentals</unittitle></did></c02>
 <c02 level="file"><did><container type="box">85</container><container type="folder">9</container><unitdate>2001</unitdate><unittitle>Air Traffic Controllers</unittitle></did></c02>
@@ -2347,7 +2337,7 @@
 <c02 level="file"><did><container type="box">85</container><container type="folder">15</container><unitdate>2010</unitdate><unittitle>American Antitrust Institute</unittitle></did></c02>
 <c02 level="file"><did><container type="box">85</container><container type="folder">16</container><unitdate>1996</unitdate><unittitle>American Heritage Dictionary</unittitle></did></c02>
 <c02 level="file"><did><container type="box">85</container><container type="folder">17</container><unitdate>1995</unitdate><unittitle>Ameritech </unittitle></did></c02>
-<c02 level="file"><did><container type="box">85</container><container type="folder">18</container><unitdate></unitdate><unittitle>Archives - Cornell</unittitle></did></c02>
+<c02 level="file"><did><container type="box">85</container><container type="folder">18</container><unitdate/><unittitle>Archives - Cornell</unittitle></did></c02>
 <c02 level="file"><did><container type="box">85</container><container type="folder">19</container><unitdate>1997</unitdate><unittitle>Argentina</unittitle></did></c02>
 <c02 level="file"><did><container type="box">85</container><container type="folder">20</container><unitdate>1986</unitdate><unittitle>Arizona Public Service</unittitle></did></c02>
 <c02 level="file"><did><container type="box">85</container><container type="folder">21</container><unitdate>1986</unitdate><unittitle>Arkansas Power &amp; Light</unittitle></did></c02>
@@ -2402,7 +2392,7 @@
 <c02 level="file"><did><container type="box">98</container><container type="folder">13</container><unitdate>1991</unitdate><unittitle>Bank of America</unittitle></did></c02>
 <c02 level="file"><did><container type="box">98</container><container type="folder">14</container><unitdate>2002</unitdate><unittitle>Dave Barry</unittitle></did></c02>
 <c02 level="file"><did><container type="box">98</container><container type="folder">15</container><unitdate>2002</unitdate><unittitle>Barsky, Arthur (Joe) &amp; Susan</unittitle></did></c02>
-<c02 level="file"><did><container type="box">98</container><container type="folder">16</container><unitdate></unitdate><unittitle>Baumol, William J.</unittitle></did></c02>
+<c02 level="file"><did><container type="box">98</container><container type="folder">16</container><unitdate/><unittitle>Baumol, William J.</unittitle></did></c02>
 <c02 level="file"><did><container type="box">98</container><container type="folder">17</container><unitdate>1970</unitdate><unittitle>Baumol-Eckstrom-Kahn. "Competition and Monopoly in Telecommunications Services"</unittitle></did></c02>
 <c02 level="file"><did><container type="box">98</container><container type="folder">18</container><unitdate>1995</unitdate><unittitle>Baumol-Bailey-Willig-Panzar</unittitle></did></c02>
 <c02 level="file"><did><container type="box">98</container><container type="folder">19</container><unitdate>1986</unitdate><unittitle>Beer</unittitle></did></c02>
@@ -2436,12 +2426,12 @@
 <c02 level="file"><did><container type="box">86</container><container type="folder">10</container><unitdate>2000s</unitdate><unittitle>Bubbles</unittitle></did></c02>
 <c02 level="file"><did><container type="box">86</container><container type="folder">11</container><unitdate>1986</unitdate><unittitle>Budget</unittitle></did></c02>
 <c02 level="file"><did><container type="box">86</container><container type="folder">12</container><unitdate>1989</unitdate><unittitle>Budget Cuts</unittitle></did></c02>
-<c02 level="file"><did><container type="box">86</container><container type="folder">13</container><unitdate></unitdate><unittitle>Burlington Northern &amp; CNW</unittitle></did></c02>
+<c02 level="file"><did><container type="box">86</container><container type="folder">13</container><unitdate/><unittitle>Burlington Northern &amp; CNW</unittitle></did></c02>
 <c02 level="file"><did><container type="box">86</container><container type="folder">14</container><unitdate>1985</unitdate><unittitle>Bus and Coach Council</unittitle></did></c02>
 <c02 level="file"><did><container type="box">86</container><container type="folder">15</container><unitdate>1987</unitdate><unittitle>Bus Deregulation</unittitle></did></c02>
 <c02 level="file"><did><container type="box">86</container><container type="folder">16</container><unitdate>1988</unitdate><unittitle>Bypass</unittitle></did></c02>
 <c02 level="file"><did><container type="box">86</container><container type="folder">17</container><unitdate>2001</unitdate><unittitle>C-7</unittitle></did></c02>
-<c02 level="file"><did><container type="box">86</container><container type="folder">18</container><unitdate></unitdate><unittitle>C &amp; P Telephone(Chesapeaka &amp; Potomac)</unittitle></did></c02>
+<c02 level="file"><did><container type="box">86</container><container type="folder">18</container><unitdate/><unittitle>C &amp; P Telephone(Chesapeaka &amp; Potomac)</unittitle></did></c02>
 <c02 level="file"><did><container type="box">86</container><container type="folder">19</container><unitdate>1994</unitdate><unittitle>Cable Regulation</unittitle></did></c02>
 <c02 level="file"><did><container type="box">86</container><container type="folder">20</container><unitdate>1994</unitdate><unittitle>Cable TV </unittitle></did></c02>
 <c02 level="file"><did><container type="box">86</container><container type="folder">21</container><unitdate>1995</unitdate><unittitle>TV: Fines, Interest &amp; Syndication</unittitle></did></c02>
@@ -2456,7 +2446,7 @@
 <c02 level="file"><did><container type="box">86</container><container type="folder">30</container><unitdate>1985</unitdate><unittitle>Cellular Radio</unittitle></did></c02>
 <c02 level="file"><did><container type="box">87</container><container type="folder">1</container><unitdate>1993</unitdate><unittitle>Centel - Illinois/Florida</unittitle></did></c02>
 <c02 level="file"><did><container type="box">87</container><container type="folder">2</container><unitdate>1984</unitdate><unittitle>Central Hudson Gas &amp; Electric</unittitle></did></c02>
-<c02 level="file"><did><container type="box">87</container><container type="folder">3</container><unitdate></unitdate><unittitle>Central Maine Memo</unittitle></did></c02>
+<c02 level="file"><did><container type="box">87</container><container type="folder">3</container><unitdate/><unittitle>Central Maine Memo</unittitle></did></c02>
 <c02 level="file"><did><container type="box">87</container><container type="folder">4</container><unitdate>1994</unitdate><unittitle>Cereal </unittitle></did></c02>
 <c02 level="file"><did><container type="box">87</container><container type="folder">5</container><unitdate>1987</unitdate><unittitle>CMP Hydro Quebec</unittitle></did></c02>
 <c02 level="file"><did><container type="box">87</container><container type="folder">6</container><unitdate>1984</unitdate><unittitle>CMP: Pricing Transmission Services</unittitle></did></c02>
@@ -2527,7 +2517,7 @@
 <c02 level="file"><did><container type="box">99</container><container type="folder">10</container><unitdate>2006</unitdate><unittitle>Diefenbach, Jane(Boone)</unittitle></did></c02>
 <c02 level="file"><did><container type="box">99</container><container type="folder">11</container><unitdate>1987</unitdate><unittitle>Disneyland</unittitle></did></c02>
 <c02 level="file"><did><container type="box">99</container><container type="folder">12</container><unitdate>1980</unitdate><unittitle>Disposable Income</unittitle></did></c02>
-<c02 level="file"><did><container type="box">99</container><container type="folder">13</container><unitdate></unitdate><unittitle>DOJ Ameritech</unittitle></did></c02>
+<c02 level="file"><did><container type="box">99</container><container type="folder">13</container><unitdate/><unittitle>DOJ Ameritech</unittitle></did></c02>
 <c02 level="file"><did><container type="box">99</container><container type="folder">14</container><unitdate>1998</unitdate><unittitle>DOJ</unittitle></did></c02>
 <c02 level="file"><did><container type="box">99</container><container type="folder">15</container><unitdate>1994</unitdate><unittitle>Dow Jones</unittitle></did></c02>
 <c02 level="file"><did><container type="box">99</container><container type="folder">16</container><unitdate>1994</unitdate><unittitle>Drugs</unittitle></did></c02>
@@ -2615,7 +2605,7 @@
 <c02 level="file"><did><container type="box">90</container><container type="folder">22</container><unitdate>1989</unitdate><unittitle>ETSI</unittitle></did></c02>
 <c02 level="file"><did><container type="box">100</container><container type="folder">1</container><unitdate>1987</unitdate><unittitle>Express Mail</unittitle></did></c02>
 <c02 level="file"><did><container type="box">100</container><container type="folder">2</container><unitdate>1984</unitdate><unittitle>Express Mail Cross-Exam</unittitle></did></c02>
-<c02 level="file"><did><container type="box">100</container><container type="folder">3</container><unitdate></unitdate><unittitle>Externalities</unittitle></did></c02>
+<c02 level="file"><did><container type="box">100</container><container type="folder">3</container><unitdate/><unittitle>Externalities</unittitle></did></c02>
 <c02 level="file"><did><container type="box">100</container><container type="folder">4</container><unitdate>1993</unitdate><unittitle>Europe</unittitle></did></c02>
 <c02 level="file"><did><container type="box">100</container><container type="folder">5</container><unitdate>2003</unitdate><unittitle>Falk, Jonathan</unittitle></did></c02>
 <c02 level="file"><did><container type="box">100</container><container type="folder">6</container><unitdate>2004</unitdate><unittitle>Fascism, Nazis, etc.</unittitle></did></c02>
@@ -2664,7 +2654,7 @@
 <c02 level="file"><did><container type="box">101</container><container type="folder">17</container><unitdate>2002</unitdate><unittitle>Immigration</unittitle></did></c02>
 <c02 level="file"><did><container type="box">101</container><container type="folder">18</container><unitdate>1982</unitdate><unittitle>ICC Interstate Commerce Comm.</unittitle></did></c02>
 <c02 level="file"><did><container type="box">101</container><container type="folder">19</container><unitdate>1988</unitdate><unittitle>ICC: Railroad Revenue Adequacy</unittitle></did></c02>
-<c02 level="file"><did><container type="box">101</container><container type="folder">20</container><unitdate></unitdate><unittitle>Income Distribution</unittitle></did></c02>
+<c02 level="file"><did><container type="box">101</container><container type="folder">20</container><unitdate/><unittitle>Income Distribution</unittitle></did></c02>
 <c02 level="file"><did><container type="box">101</container><container type="folder">21</container><unitdate>1983</unitdate><unittitle>Indexation</unittitle></did></c02>
 <c02 level="file"><did><container type="box">101</container><container type="folder">22</container><unitdate>1992</unitdate><unittitle>India</unittitle></did></c02>
 <c02 level="file"><did><container type="box">101</container><container type="folder">23</container><unitdate>1984</unitdate><unittitle>Indiana Telephone</unittitle></did></c02>
@@ -2704,7 +2694,7 @@
 <c02 level="file"><did><container type="box">91</container><container type="folder">31</container><unitdate>1995</unitdate><unittitle>Liberalism Paper</unittitle></did></c02>
 <c02 level="file"><did><container type="box">91</container><container type="folder">32</container><unitdate>2006</unitdate><unittitle>Liberalism/Progressivism</unittitle></did></c02>
 <c02 level="file"><did><container type="box">91</container><container type="folder">33</container><unitdate>1983</unitdate><unittitle>Liberman</unittitle></did></c02>
-<c02 level="file"><did><container type="box">91</container><container type="folder">34</container><unitdate></unitdate><unittitle>Lilco v. Cuomo</unittitle></did></c02>
+<c02 level="file"><did><container type="box">91</container><container type="folder">34</container><unitdate/><unittitle>Lilco v. Cuomo</unittitle></did></c02>
 <c02 level="file"><did><container type="box">77</container><container type="folder">1</container><unitdate>1990</unitdate><unittitle>LILCO - Rico Suit</unittitle></did></c02>
 <c02 level="file"><did><container type="box">77</container><container type="folder">2</container><unitdate>1999</unitdate><unittitle>Line Sharing</unittitle></did></c02>
 <c02 level="file"><did><container type="box">77</container><container type="folder">3</container><unitdate>2001</unitdate><unittitle>Linkline</unittitle></did></c02>
@@ -2713,7 +2703,7 @@
 <c02 level="file"><did><container type="box">77</container><container type="folder">6</container><unitdate>1989</unitdate><unittitle>Long Beach</unittitle></did></c02>
 <c02 level="file"><did><container type="box">77</container><container type="folder">7</container><unitdate>1994</unitdate><unittitle>Lorenzo, Frank </unittitle></did></c02>
 <c02 level="file"><did><container type="box">77</container><container type="folder">8</container><unitdate>1985</unitdate><unittitle>Lovins</unittitle></did></c02>
-<c02 level="file"><did><container type="box">77</container><container type="folder">9</container><unitdate></unitdate><unittitle>LRIC</unittitle></did></c02>
+<c02 level="file"><did><container type="box">77</container><container type="folder">9</container><unitdate/><unittitle>LRIC</unittitle></did></c02>
 <c02 level="file"><did><container type="box">77</container><container type="folder">10</container><unitdate>1988</unitdate><unittitle>MacArthur Foundation</unittitle></did></c02>
 <c02 level="file"><did><container type="box">77</container><container type="folder">11</container><unitdate>2006</unitdate><unittitle>MACK, Martin NY Deputy Attorney General</unittitle></did></c02>
 <c02 level="file"><did><container type="box">77</container><container type="folder">12</container><unitdate>1995</unitdate><unittitle>Macroeconomics</unittitle></did></c02>
@@ -2756,20 +2746,20 @@
 <c02 level="file"><did><container type="box">78</container><container type="folder">19</container><unitdate>1986</unitdate><unittitle>NTIA Nat'l Telecommunications &amp; Info. Admin.</unittitle></did></c02>
 <c02 level="file"><did><container type="box">78</container><container type="folder">20</container><unitdate>1993</unitdate><unittitle>Natural Gas</unittitle></did></c02>
 <c02 level="file"><did><container type="box">78</container><container type="folder">21</container><unitdate>1987</unitdate><unittitle>Natural Gas - Distribution</unittitle></did></c02>
-<c02 level="file"><did><container type="box">78</container><container type="folder">22</container><unitdate></unitdate><unittitle>Natural Gas - Inventory Holding Charge</unittitle></did></c02>
-<c02 level="file"><did><container type="box">78</container><container type="folder">23</container><unitdate></unitdate><unittitle>Natural Gas Pipelines</unittitle></did></c02>
+<c02 level="file"><did><container type="box">78</container><container type="folder">22</container><unitdate/><unittitle>Natural Gas - Inventory Holding Charge</unittitle></did></c02>
+<c02 level="file"><did><container type="box">78</container><container type="folder">23</container><unitdate/><unittitle>Natural Gas Pipelines</unittitle></did></c02>
 <c02 level="file"><did><container type="box">78</container><container type="folder">24</container><unitdate>1991</unitdate><unittitle>NBR Material</unittitle></did></c02>
-<c02 level="file"><did><container type="box">78</container><container type="folder">25</container><unitdate></unitdate><unittitle>N. Gas Pipelines Opinion 436</unittitle></did></c02>
+<c02 level="file"><did><container type="box">78</container><container type="folder">25</container><unitdate/><unittitle>N. Gas Pipelines Opinion 436</unittitle></did></c02>
 <c02 level="file"><did><container type="box">78</container><container type="folder">26</container><unitdate>2005</unitdate><unittitle>Natural Monopoly</unittitle></did></c02>
 <c02 level="file"><did><container type="box">78</container><container type="folder">27</container><unitdate>1981</unitdate><unittitle>NERA - Antitrust Cases</unittitle></did></c02>
 <c02 level="file"><did><container type="box">78</container><container type="folder">28</container><unitdate>1983</unitdate><unittitle>NERA - Business</unittitle></did></c02>
 <c02 level="file"><did><container type="box">78</container><container type="folder">29</container><unitdate>1990</unitdate><unittitle>NERA - ERG File</unittitle></did></c02>
-<c02 level="file"><did><container type="box">78</container><container type="folder">30</container><unitdate></unitdate><unittitle>NERA - Gas</unittitle></did></c02>
+<c02 level="file"><did><container type="box">78</container><container type="folder">30</container><unitdate/><unittitle>NERA - Gas</unittitle></did></c02>
 <c02 level="file"><did><container type="box">78</container><container type="folder">31</container><unitdate>1988</unitdate><unittitle>NERA Personnel Vitas</unittitle></did></c02>
 <c02 level="file"><did><container type="box">78</container><container type="folder">32</container><unitdate>1989</unitdate><unittitle>NERA Seminars</unittitle></did></c02>
 <c02 level="file"><did><container type="box">92</container><container type="folder">1</container><unitdate>1988</unitdate><unittitle>NERA Staff</unittitle></did></c02>
-<c02 level="file"><did><container type="box">92</container><container type="folder">2</container><unitdate></unitdate><unittitle>NERA Topics</unittitle></did></c02>
-<c02 level="file"><did><container type="box">136</container><container type="folder"></container><unitdate>1969-1972</unitdate><unittitle>NERA files</unittitle></did></c02>
+<c02 level="file"><did><container type="box">92</container><container type="folder">2</container><unitdate/><unittitle>NERA Topics</unittitle></did></c02>
+<c02 level="file"><did><container type="box">136</container><container type="folder"/><unitdate>1969-1972</unitdate><unittitle>NERA files</unittitle></did></c02>
 <c02 level="file"><did><container type="box">92</container><container type="folder">3</container><unitdate>1985</unitdate><unittitle>Net Demand</unittitle></did></c02>
 <c02 level="file"><did><container type="box">92</container><container type="folder">4</container><unitdate>1987</unitdate><unittitle>Net Taper Extension</unittitle></did></c02>
 <c02 level="file"><did><container type="box">92</container><container type="folder">5</container><unitdate>2009</unitdate><unittitle>Neumann, Richard D.</unittitle></did></c02>
@@ -2809,7 +2799,7 @@
 <c02 level="file"><did><container type="box">79</container><container type="folder">15</container><unitdate>1998</unitdate><unittitle>Noll, Roger</unittitle></did></c02>
 <c02 level="file"><did><container type="box">79</container><container type="folder">16</container><unitdate>1985</unitdate><unittitle>Noll, Cornell</unittitle></did></c02>
 <c02 level="file"><did><container type="box">79</container><container type="folder">17</container><unitdate>2001</unitdate><unittitle>Ed Beauvais - Northern Airlines</unittitle></did></c02>
-<c02 level="file"><did><container type="box">79</container><container type="folder">18</container><unitdate></unitdate><unittitle>Northern Indiana Public Service Company</unittitle></did></c02>
+<c02 level="file"><did><container type="box">79</container><container type="folder">18</container><unitdate/><unittitle>Northern Indiana Public Service Company</unittitle></did></c02>
 <c02 level="file"><did><container type="box">79</container><container type="folder">19</container><unitdate>1999</unitdate><unittitle>Northwest Airlines</unittitle></did></c02>
 <c02 level="file"><did><container type="box">79</container><container type="folder">20</container><unitdate>1984</unitdate><unittitle>Northwest Bell - Iowa</unittitle></did></c02>
 <c02 level="file"><did><container type="box">79</container><container type="folder">21</container><unitdate>1988</unitdate><unittitle>Northwest Bell - Nebraska</unittitle></did></c02>
@@ -2817,7 +2807,7 @@
 <c02 level="file"><did><container type="box">79</container><container type="folder">23</container><unitdate>2001</unitdate><unittitle>Nuclear Power</unittitle></did></c02>
 <c02 level="file"><did><container type="box">79</container><container type="folder">24</container><unitdate>1999</unitdate><unittitle>NYNEX</unittitle></did></c02>
 <c02 level="file"><did><container type="box">79</container><container type="folder">25</container><unitdate>1999</unitdate><unittitle>NYSEG</unittitle></did></c02>
-<c02 level="file"><did><container type="box">79</container><container type="folder">26</container><unitdate></unitdate><unittitle>OBITS</unittitle></did></c02>
+<c02 level="file"><did><container type="box">79</container><container type="folder">26</container><unitdate/><unittitle>OBITS</unittitle></did></c02>
 <c02 level="file"><did><container type="box">79</container><container type="folder">27</container><unitdate>1982</unitdate><unittitle>Office of Technology Assessment 11/23/82</unittitle></did></c02>
 <c02 level="file"><did><container type="box">79</container><container type="folder">28</container><unitdate>1986</unitdate><unittitle>Office Space</unittitle></did></c02>
 <c02 level="file"><did><container type="box">79</container><container type="folder">29</container><unitdate>1993</unitdate><unittitle>OFTEL</unittitle></did></c02>
@@ -2858,7 +2848,7 @@
 <c02 level="file"><did><container type="box">94</container><container type="folder">5</container><unitdate>1998</unitdate><unittitle>Petroleum</unittitle></did></c02>
 <c02 level="file"><did><container type="box">94</container><container type="folder">6</container><unitdate>2006</unitdate><unittitle>Pevsner</unittitle></did></c02>
 <c02 level="file"><did><container type="box">94</container><container type="folder">7</container><unitdate>1994</unitdate><unittitle>Pharmaceutical</unittitle></did></c02>
-<c02 level="file"><did><container type="box">94</container><container type="folder">8</container><unitdate></unitdate><unittitle>Phillips Curve</unittitle></did></c02>
+<c02 level="file"><did><container type="box">94</container><container type="folder">8</container><unitdate/><unittitle>Phillips Curve</unittitle></did></c02>
 <c02 level="file"><did><container type="box">94</container><container type="folder">9</container><unitdate>1981</unitdate><unittitle>Physician Supply</unittitle></did></c02>
 <c02 level="file"><did><container type="box">94</container><container type="folder">10</container><unitdate>1986</unitdate><unittitle>Piedmont</unittitle></did></c02>
 <c02 level="file"><did><container type="box">94</container><container type="folder">11</container><unitdate>1988</unitdate><unittitle>Pittston</unittitle></did></c02>
@@ -2954,7 +2944,7 @@
 <c02 level="file"><did><container type="box">102</container><container type="folder">23</container><unitdate>1993</unitdate><unittitle>Trucking Deregulation</unittitle></did></c02>
 <c02 level="file"><did><container type="box">102</container><container type="folder">24</container><unitdate>1996</unitdate><unittitle>Tye, Bill</unittitle></did></c02>
 <c02 level="file"><did><container type="box">102</container><container type="folder">25</container><unitdate>1990</unitdate><unittitle>Unemployment</unittitle></did></c02>
-<c02 level="file"><did><container type="box">102</container><container type="folder">26</container><unitdate></unitdate><unittitle>Union Gas</unittitle></did></c02>
+<c02 level="file"><did><container type="box">102</container><container type="folder">26</container><unitdate/><unittitle>Union Gas</unittitle></did></c02>
 <c02 level="file"><did><container type="box">102</container><container type="folder">27</container><unitdate>2001</unitdate><unittitle>Union Pacific</unittitle></did></c02>
 <c02 level="file"><did><container type="box">102</container><container type="folder">28</container><unitdate>1985</unitdate><unittitle>United Airlines - Pan Am</unittitle></did></c02>
 <c02 level="file"><did><container type="box">102</container><container type="folder">29</container><unitdate>2001</unitdate><unittitle>United Airlines/US Air</unittitle></did></c02>
@@ -2983,7 +2973,7 @@
 <c02 level="file"><did><container type="box">103</container><container type="folder">2</container><unitdate>1988</unitdate><unittitle>Used and Useful</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">3</container><unitdate>1997</unitdate><unittitle>USWest - Washington</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">4</container><unitdate>1985</unitdate><unittitle>Utilities - Diverstification</unittitle></did></c02>
-<c02 level="file"><did><container type="box">103</container><container type="folder">5</container><unitdate></unitdate><unittitle>Utility Regulation</unittitle></did></c02>
+<c02 level="file"><did><container type="box">103</container><container type="folder">5</container><unitdate/><unittitle>Utility Regulation</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">6</container><unitdate>1982</unitdate><unittitle>VAT Value Added Tax</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">7</container><unitdate>1999</unitdate><unittitle>Verizon</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">8</container><unitdate>1987</unitdate><unittitle>Vermont, Central</unittitle></did></c02>
@@ -2992,10 +2982,10 @@
 <c02 level="file"><did><container type="box">103</container><container type="folder">11</container><unitdate>1993</unitdate><unittitle>Wages</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">12</container><unitdate>1997</unitdate><unittitle>Washington Research Group</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">13</container><unitdate>1994</unitdate><unittitle>Waste Management</unittitle></did></c02>
-<c02 level="file"><did><container type="box">103</container><container type="folder">14</container><unitdate></unitdate><unittitle>Myron Watkins</unittitle></did></c02>
+<c02 level="file"><did><container type="box">103</container><container type="folder">14</container><unitdate/><unittitle>Myron Watkins</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">15</container><unitdate>1990</unitdate><unittitle>WDRJ-TV</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">16</container><unitdate>2007</unitdate><unittitle>Weiser, Philip</unittitle></did></c02>
-<c02 level="file"><did><container type="box">103</container><container type="folder">17</container><unitdate></unitdate><unittitle>Weiser Articles</unittitle></did></c02>
+<c02 level="file"><did><container type="box">103</container><container type="folder">17</container><unitdate/><unittitle>Weiser Articles</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">18</container><unitdate>2009</unitdate><unittitle>Weisman Articles</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">19</container><unitdate>2004</unitdate><unittitle>Welfare</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">20</container><unitdate>2008</unitdate><unittitle>Weisman, Dennis</unittitle></did></c02>
@@ -3013,7 +3003,7 @@
 <c02 level="file"><did><container type="box">103</container><container type="folder">32</container><unitdate>1991</unitdate><unittitle>Public Utility Holding Co. Act</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">33</container><unitdate>1999</unitdate><unittitle>Purpa</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">34</container><unitdate>2007</unitdate><unittitle>QWEST</unittitle></did></c02>
-<c02 level="file"><did><container type="box">103</container><container type="folder">35</container><unitdate></unitdate><unittitle>Radon</unittitle></did></c02>
+<c02 level="file"><did><container type="box">103</container><container type="folder">35</container><unitdate/><unittitle>Radon</unittitle></did></c02>
 <c02 level="file"><did><container type="box">103</container><container type="folder">36</container><unitdate>2002</unitdate><unittitle>Railroads-Coal Rates</unittitle></did></c02>
 <c02 level="file"><did><container type="box">112</container><container type="folder">1</container><unitdate>2003</unitdate><unittitle>American Airlines</unittitle></did></c02>
 <c02 level="file"><did><container type="box">112</container><container type="folder">2</container><unitdate>1994</unitdate><unittitle>American Airlines - Code Sharing</unittitle></did></c02>
@@ -3209,7 +3199,7 @@
             <c02 level="file"><did><container type="box">119</container><container type="folder">7</container><unitdate>1957</unitdate><unittitle>Newspaper Clips</unittitle></did></c02>
             <c02 level="file"><did><container type="box">119</container><container type="folder">8</container><unitdate>1946</unitdate><unittitle>Annals of the American Academy</unittitle></did></c02>
             <c02 level="file"><did><container type="box">119</container><container type="folder">9</container><unitdate>1945</unitdate><unittitle>Antitrust Suits</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">119</container><container type="folder">10</container><unitdate></unitdate><unittitle>Foreign Investment in India</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">119</container><container type="folder">10</container><unitdate/><unittitle>Foreign Investment in India</unittitle></did></c02>
             <c02 level="file"><did><container type="box">119</container><container type="folder">11</container><unitdate>1973</unitdate><unittitle>Letter to the Editor of NYTimes</unittitle></did></c02>
             <c02 level="file"><did><container type="box">119</container><container type="folder">12</container><unitdate>1944</unitdate><unittitle>Palestine: A Problem in Economic Evaluation </unittitle></did></c02>
             <c02 level="file"><did><container type="box">119</container><container type="folder">13</container><unitdate>1940</unitdate><unittitle>Interism Report on the Plastice Industry</unittitle></did></c02>
@@ -3227,115 +3217,115 @@
          <c01 level="series">
             <did>
                <unittitle id="s16">Series XVI. Miscellaneous Documents</unittitle></did>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">1</container><unitdate></unitdate><unittitle>Test file, Eco. 501, 502, 352</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">1</container><unitdate/><unittitle>Test file, Eco. 501, 502, 352</unittitle></did></c02>
             <c02 level="file"><did><container type="box">131</container><container type="folder">2</container><unitdate>1969</unitdate><unittitle>Economics 354 exam</unittitle></did></c02>
             <c02 level="file"><did><container type="box">131</container><container type="folder">3</container><unitdate>1968</unitdate><unittitle>Economics 353 exam</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">4</container><unitdate></unitdate><unittitle>Economics 351 exam</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">5</container><unitdate></unitdate><unittitle>351 Dispersed Industries</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">6</container><unitdate></unitdate><unittitle>Exams</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">7</container><unitdate></unitdate><unittitle>351 Miscellaneous Concentrations</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">8</container><unitdate></unitdate><unittitle>351 Miscellaneous Guideposts</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">9</container><unitdate></unitdate><unittitle>651 Total Monopoly problem</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">10</container><unitdate></unitdate><unittitle>651 Vertical integration</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">11</container><unitdate></unitdate><unittitle>651 Structure, Innovation, Growth</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">12</container><unitdate></unitdate><unittitle>651 Concentration</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">13</container><unitdate></unitdate><unittitle>Palestine</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">14</container><unitdate></unitdate><unittitle>Frank Graham, Dollar Shortage Articles</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">15</container><unitdate></unitdate><unittitle>Italy--US Antitrust</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">16</container><unitdate></unitdate><unittitle>Proposed Text- International Monetary Economics</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">17</container><unitdate></unitdate><unittitle>Frank Graham</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">18</container><unitdate></unitdate><unittitle>Exchange Rate Changes</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">19</container><unitdate></unitdate><unittitle>Tenion Producing</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">20</container><unitdate></unitdate><unittitle>61-1 Foster Rebuttal</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">21</container><unitdate></unitdate><unittitle>61-1 </unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">4</container><unitdate/><unittitle>Economics 351 exam</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">5</container><unitdate/><unittitle>351 Dispersed Industries</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">6</container><unitdate/><unittitle>Exams</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">7</container><unitdate/><unittitle>351 Miscellaneous Concentrations</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">8</container><unitdate/><unittitle>351 Miscellaneous Guideposts</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">9</container><unitdate/><unittitle>651 Total Monopoly problem</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">10</container><unitdate/><unittitle>651 Vertical integration</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">11</container><unitdate/><unittitle>651 Structure, Innovation, Growth</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">12</container><unitdate/><unittitle>651 Concentration</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">13</container><unitdate/><unittitle>Palestine</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">14</container><unitdate/><unittitle>Frank Graham, Dollar Shortage Articles</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">15</container><unitdate/><unittitle>Italy--US Antitrust</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">16</container><unitdate/><unittitle>Proposed Text- International Monetary Economics</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">17</container><unitdate/><unittitle>Frank Graham</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">18</container><unitdate/><unittitle>Exchange Rate Changes</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">19</container><unitdate/><unittitle>Tenion Producing</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">20</container><unitdate/><unittitle>61-1 Foster Rebuttal</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">21</container><unitdate/><unittitle>61-1 </unittitle></did></c02>
             <c02 level="file"><did><container type="box">131</container><container type="folder">22</container><unitdate>1964</unitdate><unittitle>61-1 Wenner</unittitle></did></c02>
             <c02 level="file"><did><container type="box">131</container><container type="folder">23</container><unitdate>1963</unitdate><unittitle>Rate Design</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">24</container><unitdate></unitdate><unittitle>Replacement Cost approaches</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">24</container><unitdate/><unittitle>Replacement Cost approaches</unittitle></did></c02>
             <c02 level="file"><did><container type="box">131</container><container type="folder">25</container><unitdate>1961</unitdate><unittitle>RAR</unittitle></did></c02>
             <c02 level="file"><did><container type="box">131</container><container type="folder">26</container><unitdate>1961</unitdate><unittitle>Pipeline economics and storage</unittitle></did></c02>
             <c02 level="file"><did><container type="box">131</container><container type="folder">27</container><unitdate>1973</unitdate><unittitle>National Gas Survey</unittitle></did></c02>
             <c02 level="file"><did><container type="box">131</container><container type="folder">28</container><unitdate>1961</unitdate><unittitle>McAvoy</unittitle></did></c02>
             <c02 level="file"><did><container type="box">131</container><container type="folder">29</container><unitdate>1965</unitdate><unittitle>Gas- 64-1</unittitle></did></c02>
             <c02 level="file"><did><container type="box">131</container><container type="folder">30</container><unitdate>1969-1973</unitdate><unittitle>Gas regulation</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">31</container><unitdate></unitdate><unittitle>End Use control</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">32</container><unitdate></unitdate><unittitle>Price Discrimination</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">31</container><unitdate/><unittitle>End Use control</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">32</container><unitdate/><unittitle>Price Discrimination</unittitle></did></c02>
             <c02 level="file"><did><container type="box">131</container><container type="folder">33</container><unitdate>1962</unitdate><unittitle>Cost Trends</unittitle></did></c02>
             <c02 level="file"><did><container type="box">131</container><container type="folder">34</container><unitdate>1957</unitdate><unittitle>Cost Allocation methods</unittitle></did></c02>
             <c02 level="file"><did><container type="box">131</container><container type="folder">35</container><unitdate>1957</unitdate><unittitle>Correspondence</unittitle></did></c02>
             <c02 level="file"><did><container type="box">131</container><container type="folder">36</container><unitdate>1956</unitdate><unittitle>Certification</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">37</container><unitdate></unitdate><unittitle>Argument Testimony Brief</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">38</container><unitdate></unitdate><unittitle>Project</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">39</container><unitdate></unitdate><unittitle>Statements</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">40</container><unitdate></unitdate><unittitle>US Federal Power Commission</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">131</container><container type="folder">41</container><unitdate></unitdate><unittitle>US Federal Power Commission</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">132</container><container type="folder">1</container><unitdate></unitdate><unittitle>Public Service of Indiana</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">132</container><container type="folder">2</container><unitdate></unitdate><unittitle>Shoreham/LILCO</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">132</container><container type="folder">3</container><unitdate></unitdate><unittitle>Shoreham/LILCO</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">132</container><container type="folder">4</container><unitdate></unitdate><unittitle>Shoreham commission</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">132</container><container type="folder">5</container><unitdate></unitdate><unittitle>Shoreham commission</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">132</container><container type="folder">6</container><unitdate></unitdate><unittitle>Miscellaneous</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">132</container><container type="folder">7</container><unitdate></unitdate><unittitle>Miscellaneous</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">132</container><container type="folder">8</container><unitdate></unitdate><unittitle>AT+T</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">37</container><unitdate/><unittitle>Argument Testimony Brief</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">38</container><unitdate/><unittitle>Project</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">39</container><unitdate/><unittitle>Statements</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">40</container><unitdate/><unittitle>US Federal Power Commission</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">131</container><container type="folder">41</container><unitdate/><unittitle>US Federal Power Commission</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">132</container><container type="folder">1</container><unitdate/><unittitle>Public Service of Indiana</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">132</container><container type="folder">2</container><unitdate/><unittitle>Shoreham/LILCO</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">132</container><container type="folder">3</container><unitdate/><unittitle>Shoreham/LILCO</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">132</container><container type="folder">4</container><unitdate/><unittitle>Shoreham commission</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">132</container><container type="folder">5</container><unitdate/><unittitle>Shoreham commission</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">132</container><container type="folder">6</container><unitdate/><unittitle>Miscellaneous</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">132</container><container type="folder">7</container><unitdate/><unittitle>Miscellaneous</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">132</container><container type="folder">8</container><unitdate/><unittitle>AT+T</unittitle></did></c02>
             <c02 level="file"><did><container type="box">132</container><container type="folder">9</container><unitdate>1964</unitdate><unittitle>The Depletion Allowance in the context of Cartelization</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">132</container><container type="folder">10</container><unitdate></unitdate><unittitle>Sawhill Commission</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">132</container><container type="folder">11</container><unitdate></unitdate><unittitle>Sawhill Commission</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">132</container><container type="folder">12</container><unitdate></unitdate><unittitle>Skybus</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">1</container><unitdate></unitdate><unittitle>FIAT Money Inflatin in France, AD White </unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">2</container><unitdate></unitdate><unittitle>Econ 651</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">3</container><unitdate></unitdate><unittitle>Drafts of early articles</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">132</container><container type="folder">10</container><unitdate/><unittitle>Sawhill Commission</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">132</container><container type="folder">11</container><unitdate/><unittitle>Sawhill Commission</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">132</container><container type="folder">12</container><unitdate/><unittitle>Skybus</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">1</container><unitdate/><unittitle>FIAT Money Inflatin in France, AD White </unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">2</container><unitdate/><unittitle>Econ 651</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">3</container><unitdate/><unittitle>Drafts of early articles</unittitle></did></c02>
             <c02 level="file"><did><container type="box">133</container><container type="folder">4</container><unitdate>1968-1974</unitdate><unittitle>Miscellaneous documents</unittitle></did></c02>
             <c02 level="file"><did><container type="box">133</container><container type="folder">5</container><unitdate>1968-1975</unitdate><unittitle>Miscellaneous documents</unittitle></did></c02>
             <c02 level="file"><did><container type="box">133</container><container type="folder">6</container><unitdate>1968-1976</unitdate><unittitle>Miscellaneous documents</unittitle></did></c02>
             <c02 level="file"><did><container type="box">133</container><container type="folder">7</container><unitdate>1953-1958</unitdate><unittitle>Miscellaneous documents</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">8</container><unitdate></unitdate><unittitle>AG Committee Correspondence</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">8</container><unitdate/><unittitle>AG Committee Correspondence</unittitle></did></c02>
             <c02 level="file"><did><container type="box">133</container><container type="folder">9</container><unitdate>1974</unitdate><unittitle>Taxes</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">10</container><unitdate></unitdate><unittitle>Oil Book</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">11</container><unitdate></unitdate><unittitle>Oil-Correspondence</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">12</container><unitdate></unitdate><unittitle>Interviews- AEK</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">13</container><unitdate></unitdate><unittitle>Integration</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">14</container><unitdate></unitdate><unittitle>Honolulu Oil</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">15</container><unitdate></unitdate><unittitle>Galbraith, John Kenneth</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">16</container><unitdate></unitdate><unittitle>McGee Bork</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">10</container><unitdate/><unittitle>Oil Book</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">11</container><unitdate/><unittitle>Oil-Correspondence</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">12</container><unitdate/><unittitle>Interviews- AEK</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">13</container><unitdate/><unittitle>Integration</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">14</container><unitdate/><unittitle>Honolulu Oil</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">15</container><unitdate/><unittitle>Galbraith, John Kenneth</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">16</container><unitdate/><unittitle>McGee Bork</unittitle></did></c02>
             <c02 level="file"><did><container type="box">133</container><container type="folder">17</container><unitdate>1960</unitdate><unittitle>Liberalism</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">18</container><unitdate></unitdate><unittitle>Legislation Pending</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">19</container><unitdate></unitdate><unittitle>ADH Kaplan</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">18</container><unitdate/><unittitle>Legislation Pending</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">19</container><unitdate/><unittitle>ADH Kaplan</unittitle></did></c02>
             <c02 level="file"><did><container type="box">133</container><container type="folder">20</container><unitdate>1967-1968</unitdate><unittitle>Ithaca Theaters</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">21</container><unitdate></unitdate><unittitle>Monopoly and Stagnation Italy</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">22</container><unitdate></unitdate><unittitle>NY Stock Exchange</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">21</container><unitdate/><unittitle>Monopoly and Stagnation Italy</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">22</container><unitdate/><unittitle>NY Stock Exchange</unittitle></did></c02>
             <c02 level="file"><did><container type="box">133</container><container type="folder">23</container><unitdate>1952</unitdate><unittitle>Oil Misc.</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">24</container><unitdate></unitdate><unittitle>Patents</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">24</container><unitdate/><unittitle>Patents</unittitle></did></c02>
             <c02 level="file"><did><container type="box">133</container><container type="folder">25</container><unitdate>1972</unitdate><unittitle>Price Commission</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">26</container><unitdate></unitdate><unittitle>Concentration</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">27</container><unitdate></unitdate><unittitle>Antitrust Committee</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">133</container><container type="folder">28</container><unitdate></unitdate><unittitle>Dewey</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">26</container><unitdate/><unittitle>Concentration</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">27</container><unitdate/><unittitle>Antitrust Committee</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">133</container><container type="folder">28</container><unitdate/><unittitle>Dewey</unittitle></did></c02>
             <c02 level="file"><did><container type="box">133</container><container type="folder">29</container><unitdate>1940s</unitdate><unittitle>Notebook</unittitle></did></c02>
             <c02 level="file"><did><container type="box">134</container><container type="folder">1</container><unitdate>1984-1985</unitdate><unittitle>NBR Commentaries</unittitle></did></c02>
             <c02 level="file"><did><container type="box">134</container><container type="folder">2</container><unitdate>1989-1993</unitdate><unittitle>Nightly Business Report Commentaries</unittitle></did></c02>
             <c02 level="file"><did><container type="box">134</container><container type="folder">3</container><unitdate>1986-1987</unitdate><unittitle>Nightly Business Report Commentaries</unittitle></did></c02>
             <c02 level="file"><did><container type="box">134</container><container type="folder">4</container><unitdate>1988-1989</unitdate><unittitle>Nightly Business Report Commentaries</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">5</container><unitdate></unitdate><unittitle>Notebooks</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">6</container><unitdate></unitdate><unittitle>Electric and Utility regulation</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">7</container><unitdate></unitdate><unittitle>Miscellaneous</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">8</container><unitdate></unitdate><unittitle>Letters from and to airline pilots</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">9</container><unitdate></unitdate><unittitle>Econ 353</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">10</container><unitdate></unitdate><unittitle>Boces Talk</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">11</container><unitdate></unitdate><unittitle>AEK Class notes</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">5</container><unitdate/><unittitle>Notebooks</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">6</container><unitdate/><unittitle>Electric and Utility regulation</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">7</container><unitdate/><unittitle>Miscellaneous</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">8</container><unitdate/><unittitle>Letters from and to airline pilots</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">9</container><unitdate/><unittitle>Econ 353</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">10</container><unitdate/><unittitle>Boces Talk</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">11</container><unitdate/><unittitle>AEK Class notes</unittitle></did></c02>
             <c02 level="file"><did><container type="box">134</container><container type="folder">12</container><unitdate>1989</unitdate><unittitle>Econ 201</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">13</container><unitdate></unitdate><unittitle>Cornell articles</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">14</container><unitdate></unitdate><unittitle>Ithaca miscellaneous</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">15</container><unitdate></unitdate><unittitle>Editorials clippings AEK</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">16</container><unitdate></unitdate><unittitle>Thompson Medicinal company</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">17</container><unitdate></unitdate><unittitle>Tie Communications</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">18</container><unitdate></unitdate><unittitle>Western Union</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">19</container><unitdate></unitdate><unittitle>White House File</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">20</container><unitdate></unitdate><unittitle>White House Personal</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">21</container><unitdate></unitdate><unittitle>Whyte, William</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">22</container><unitdate></unitdate><unittitle>Wind Farms</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">23</container><unitdate></unitdate><unittitle>Wirth Bill</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">134</container><container type="folder">24</container><unitdate></unitdate><unittitle>"The Folklore of Capitalism" </unittitle></did></c02>
-            <c02 level="file"><did><container type="box">135</container><container type="folder">5</container><unitdate></unitdate><unittitle>Miscellaneous notes</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">135</container><container type="folder">6</container><unitdate></unitdate><unittitle>Public Service Commission cases</unittitle></did></c02>
-            <c02 level="file"><did><container type="box">135</container><container type="folder">7</container><unitdate></unitdate><unittitle>Miscellaneous Publications</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">13</container><unitdate/><unittitle>Cornell articles</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">14</container><unitdate/><unittitle>Ithaca miscellaneous</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">15</container><unitdate/><unittitle>Editorials clippings AEK</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">16</container><unitdate/><unittitle>Thompson Medicinal company</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">17</container><unitdate/><unittitle>Tie Communications</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">18</container><unitdate/><unittitle>Western Union</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">19</container><unitdate/><unittitle>White House File</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">20</container><unitdate/><unittitle>White House Personal</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">21</container><unitdate/><unittitle>Whyte, William</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">22</container><unitdate/><unittitle>Wind Farms</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">23</container><unitdate/><unittitle>Wirth Bill</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">134</container><container type="folder">24</container><unitdate/><unittitle>"The Folklore of Capitalism" </unittitle></did></c02>
+            <c02 level="file"><did><container type="box">135</container><container type="folder">5</container><unitdate/><unittitle>Miscellaneous notes</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">135</container><container type="folder">6</container><unitdate/><unittitle>Public Service Commission cases</unittitle></did></c02>
+            <c02 level="file"><did><container type="box">135</container><container type="folder">7</container><unitdate/><unittitle>Miscellaneous Publications</unittitle></did></c02>
             
          </c01>
          <c01 level="series">

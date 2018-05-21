@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Transformed with v1v2002_4_cornell.xsl -->
-
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "../dtds/ead.dtd">
- 
-<?xml-stylesheet type="text/xsl" href="../styles/style.xsl" ?>
-<ead>
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1"
-      scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us"
-         publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04883::Tuol Sleng confessions and photographs)//EN"
-         >RMM04883.xml</eadid>
+<ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
+      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04883::Tuol Sleng confessions and photographs)//EN">RMM04883.xml</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Tuol Sleng confessions and photographs,
@@ -58,8 +51,7 @@
                   Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
                   <lb/>
-                  <extref href="http://rmc.library.cornell.edu"
-                     >http://rmc.library.cornell.edu</extref>
+                  <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
                   <lb/></item>
             </defitem>
             <defitem>
@@ -85,19 +77,17 @@
    <archdesc level="collection">
       <did>
          <head>DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:">Tuol Sleng confessions and photographs, <unitdate
-               type="inclusive">1991-1993</unitdate>
+         <unittitle label="Title:">Tuol Sleng confessions and photographs, <unitdate type="inclusive">1991-1993</unitdate>
          </unittitle>
          <unitid label="Collection Number:">4883</unitid>
-         <physdesc label="Quantity:">215 reels microfilm, 5 albums</physdesc>
+         <physdesc label="Quantity:"><extent>215 reels microfilm, 5 albums</extent></physdesc>
          <physdesc label="Forms of Material:">Microfilm Reels.</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
             University Library</repository>
          <abstract label="Abstract:">Transcripts of confessions obtained from prisoners at Tuol
             Sleng Prison, Phnom Penh, Cambodia. Also, five thousand photographs of Tuol Sleng
             prisoners.</abstract>
-         <langmaterial label="Language:">Collection material in <language encodinganalog="041"
-               langcode="eng">English</language>
+         <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language>
          </langmaterial>
       </did>
       <scopecontent>
@@ -145,12 +135,8 @@
       </descgrp>
       <relatedmaterial>
          <head>RELATED MATERIAL</head>
-         <p>See also: Guide to Cambodia Documentation Commission Records <extref
-               href="http://rmc.library.cornell.edu/ead/htmldocs/RMM04499.html" show="new"
-               >(collection #4499)</extref></p>
-         <p> See also: <extref
-            href="http://cgp.research.yale.edu/cgp/cbio/cbiosearch.jsp" show="new"
-            >  Yale University Cambodian Genocide Program Database</extref> for more detailed information about what is on our microfilm. To use this database for materials from this collection, search under "Sources" for "Tuol Sleng Catalogue of Confessions".
+         <p>See also: Guide to Cambodia Documentation Commission Records <extref href="http://rmc.library.cornell.edu/ead/htmldocs/RMM04499.html" show="new">(collection #4499)</extref></p>
+         <p> See also: <extref href="http://cgp.research.yale.edu/cgp/cbio/cbiosearch.jsp" show="new">  Yale University Cambodian Genocide Program Database</extref> for more detailed information about what is on our microfilm. To use this database for materials from this collection, search under "Sources" for "Tuol Sleng Catalogue of Confessions".
          </p>
       </relatedmaterial>
       <arrangement>
@@ -191,12 +177,12 @@
             <lb/><ref target="s3ss3">Names: Q</ref>
             <lb/><ref target="s3ss4">Names: R</ref>
             <lb/><ref target="s3ss5">Names: S</ref>
-            <lb/>&#160; &#160; &#160;<ref target="s3ss5ss1">Names: Sa</ref>
-            <lb/>&#160; &#160; &#160;<ref target="s3ss5ss2">Names: Sb-Se</ref>
-            <lb/>&#160; &#160; &#160;<ref target="s3ss5ss3">Names: Si</ref>
-            <lb/>&#160; &#160; &#160;<ref target="s3ss5ss4">Names: So</ref>
-            <lb/>&#160; &#160; &#160;<ref target="s3ss5ss5">Names: Sr</ref>
-            <lb/>&#160; &#160; &#160;<ref target="s3ss5ss6">Names: Su-Sy</ref>
+            <lb/>     <ref target="s3ss5ss1">Names: Sa</ref>
+            <lb/>     <ref target="s3ss5ss2">Names: Sb-Se</ref>
+            <lb/>     <ref target="s3ss5ss3">Names: Si</ref>
+            <lb/>     <ref target="s3ss5ss4">Names: So</ref>
+            <lb/>     <ref target="s3ss5ss5">Names: Sr</ref>
+            <lb/>     <ref target="s3ss5ss6">Names: Su-Sy</ref>
          </p> 
          <p>
             <emph render="bold">
@@ -1566,7 +1552,7 @@
  <c03 level="file"><did><container type="reel">45</container><container type="frame">16</container><unitdate>N/A</unitdate><unittitle>Ket Pann</unittitle></did><scopecontent><p><emph render="bold">Sex: </emph>N/A<lb/><emph render="bold">Age: </emph>25<lb/><emph render="bold">Dates of Confessions: </emph>N/A</p></scopecontent></c03>
  <c03 level="file"><did><container type="reel">46</container><container type="frame">5</container><unitdate>N/A</unitdate><unittitle>Keth Chau</unittitle></did><scopecontent><p><emph render="bold">Sex: </emph>male<lb/><emph render="bold">Age: </emph>N/A<lb/><emph render="bold">Dates of Confessions: </emph>19/3/1977; 20/3/1977; 22/3/1977; 1/4/1977; 21/4/1977</p></scopecontent></c03>
  <c03 level="file"><did><container type="reel">56</container><container type="frame">16</container><unitdate>N/A</unitdate><unittitle>Keut Khan</unittitle></did><scopecontent><p><emph render="bold">Sex: </emph>male<lb/><emph render="bold">Age: </emph>25<lb/><emph render="bold">Dates of Confessions: </emph>19/8/1977</p></scopecontent></c03>
- <c03 level="file"><did><container type="reel">53</container><container type="frame">20</container><unitdate></unitdate><unittitle>Key Khem</unittitle></did><scopecontent><p><emph render="bold">Sex: </emph>male<lb/><emph render="bold">Age: </emph>30<lb/><emph render="bold">Dates of Confessions: </emph>6/12/1977</p></scopecontent></c03>
+ <c03 level="file"><did><container type="reel">53</container><container type="frame">20</container><unitdate/><unittitle>Key Khem</unittitle></did><scopecontent><p><emph render="bold">Sex: </emph>male<lb/><emph render="bold">Age: </emph>30<lb/><emph render="bold">Dates of Confessions: </emph>6/12/1977</p></scopecontent></c03>
  <c03 level="file"><did><container type="reel">55</container><container type="frame">25</container><unitdate>N/A</unitdate><unittitle>Khan Phirun</unittitle></did><scopecontent><p><emph render="bold">Sex: </emph>male<lb/><emph render="bold">Age: </emph>20<lb/><emph render="bold">Dates of Confessions: </emph>20/5/1977</p></scopecontent></c03>
  <c03 level="file"><did><container type="reel">185</container><container type="frame">28</container><unitdate>21/12/1975 </unitdate><unittitle>Khanm Sirak Phann</unittitle></did><scopecontent><p><emph render="bold">Sex: </emph>male<lb/><emph render="bold">Age: </emph>38<lb/><emph render="bold">Dates of Confessions: </emph>N/A<lb/><emph render="bold">Nationality (if foreign): </emph>Unknown</p></scopecontent></c03>
  <c03 level="file"><did><container type="reel">44</container><container type="frame">7</container><unitdate>N/A</unitdate><unittitle>Khann</unittitle></did><scopecontent><p><emph render="bold">Sex: </emph>female<lb/><emph render="bold">Age: </emph>25<lb/><emph render="bold">Dates of Confessions: </emph>N/A</p></scopecontent></c03>

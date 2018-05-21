@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Transformed with v1v2002_4_cornell.xsl -->
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "../dtds/ead.dtd">
-<?xml-stylesheet type="text/xsl" href="../styles/style.xsl"?>
-<ead>
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1"
-    scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us"
-      publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01102::Elfriede Abbe papers)//EN"
-      >RMA01102.xml</eadid>
+<ead xmlns:xlink="https://www.w3.org/1999/xlink">
+  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
+    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01102::Elfriede Abbe papers)//EN">RMA01102.xml</eadid>
 
     <filedesc>
       <titlestmt>
@@ -78,15 +73,14 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">Elfriede Abbe papers, <unitdate
-          type="inclusive" encodinganalog="MARC 245">1840-2010.</unitdate>
+      <unittitle label="Title:" encodinganalog="MARC 245">Elfriede Abbe papers, <unitdate type="inclusive" encodinganalog="MARC 245">1840-2010.</unitdate>
       </unittitle>
       <unitid label="Collection Number:">13-7-1102</unitid>
       <origination label="Creator:">
         <persname encodinganalog="100" normal="Abbe, Elfriede Martha, 1919-">Elfriede Martha Abbe,
           1919-</persname>
       </origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300">4.9 cubic ft.</physdesc>
+      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>4.9 cubic ft.</extent></physdesc>
       <physdesc label="Forms of Material:">Correspondence, photographs, calendars, catalogs,
         manuscripts, notes, prints, sketches, pamphlets, mimeographed typescripts, news articles,
         and printing equipment.</physdesc>
@@ -99,8 +93,7 @@
         books she illustrated; sketches; wood engraving blocks; announcements of publications of her
         books and of her gallery shows; typescripts of lectures given; and news articles on her
         works of art. </abstract>
-      <langmaterial label="Language:">Collection material in <language encodinganalog="041"
-          langcode="eng">English</language>
+      <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language>
       </langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">

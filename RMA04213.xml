@@ -1,12 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="../styles/style.xsl" ?>
-<!DOCTYPE ead PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "../dtds/ead.dtd">
-<ead>
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1"
-    scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us"
-      publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04213::Guide to the Cornell University Center for Aerial Photographic Studies
-      records)//EN"
-      >RMA04213.xml</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<ead xmlns:xlink="https://www.w3.org/1999/xlink">
+  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
+    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04213::Guide to the Cornell University Center for Aerial Photographic Studies       records)//EN">RMA04213.xml</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Cornell University Center for Aerial Photographic Studies
@@ -36,8 +31,7 @@
   <frontmatter>
     <titlepage>
       <titleproper>Guide to the Cornell University Center For Aerial Photographic Studies
-        Records,<lb/><date type="inclusive" encodinganalog="245$f"
-          >.</date></titleproper>
+        Records,<lb/><date type="inclusive" encodinganalog="245$f">.</date></titleproper>
       <num>Collection Number: 16-4-4213</num>
       <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
         Library</publisher>
@@ -46,11 +40,7 @@
           <label>Contact Information:</label>
           <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
             Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/><extref
-              href="mailto:rareref@cornell.edu"
-              >rareref@cornell.edu</extref><lb/><extref
-                href="http://rmc.library.cornell.edu"
-                >http://rmc.library.cornell.edu</extref><lb/></item>
+            255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
         </defitem>
         <defitem>
           <label>Compiled by:</label>
@@ -77,15 +67,14 @@
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
       <unittitle label="Title:" encodinganalog="MARC 245">Cornell University Center for Aerial
-        Photographic Studies records, <unitdate encodinganalog="MARC 245" type="inclusive"
-          >.</unitdate>
+        Photographic Studies records, <unitdate encodinganalog="MARC 245" type="inclusive">.</unitdate>
       </unittitle>
       <unitid label="Collection Number:">16-4-4213</unitid>
       <origination label="Creator:">
         <corpname encodinganalog="MARC 110">Cornell University Center for Aerial
           Photographic Studies.</corpname>
       </origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300">59</physdesc>
+      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>59</extent></physdesc>
       <physdesc label="Forms of Material:">Manuals, reports, publications, photographs and roll film</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
         University Library</repository>
@@ -94,8 +83,7 @@
         conducted by Cornell faculty for engineering projects, such as road siting,
         railroads, landslide analysis, etc. Sites include Bahamas, Brazil, Canada,
         Guatemala, New Guinea, Panama, &amp; Puerto Rico and others.</abstract>
-      <langmaterial label="Language:">Collection material in <language encodinganalog="041"
-        langcode="eng">English</language></langmaterial>
+      <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">
       <head id="a2" altrender="organization">ORGANIZATIONAL HISTORY </head>
@@ -186,12 +174,12 @@
           <ref target="s1" show="replace" actuate="onrequest">Series I. Skylab </ref>
         </emph>
        </p>
-      <p> <ref  target="s1ss2">Subseries Ia. Skylab Documents</ref>
-        <lb/><ref  target="s1ss2">Subseries Ib. Skylab II Roll Film</ref>
-        <lb/><ref  target="s1ss3">Subseries Ic. Skylab III Roll Film</ref>
-        <lb/> &#160; &#160; &#160;<ref target="s1ss3sss1">Unknown locations</ref>
-        <lb/><ref  target="s1ss4">Subseries Id. Skylab IV Roll Film</ref>
-        <lb/> &#160; &#160; &#160;<ref target="s1ss4sss1">Unknown locations</ref>
+      <p> <ref target="s1ss2">Subseries Ia. Skylab Documents</ref>
+        <lb/><ref target="s1ss2">Subseries Ib. Skylab II Roll Film</ref>
+        <lb/><ref target="s1ss3">Subseries Ic. Skylab III Roll Film</ref>
+        <lb/>      <ref target="s1ss3sss1">Unknown locations</ref>
+        <lb/><ref target="s1ss4">Subseries Id. Skylab IV Roll Film</ref>
+        <lb/>      <ref target="s1ss4sss1">Unknown locations</ref>
        
      </p>   
       <p>
@@ -199,7 +187,7 @@
           <ref target="s2" show="replace" actuate="onrequest">Series II. Cornell/EPA </ref>
         </emph>
         </p>
-      <p> <ref  target="s1ss1">Subseries IIa. Documents</ref>
+      <p> <ref target="s1ss1">Subseries IIa. Documents</ref>
         <lb/><ref target="s2ss2">Subseries IIb. Mission 278 Roll Film and Documents</ref>
         <lb/><ref target="s2ss3">Subseries IIc. Mission 280 Roll Film and Documents</ref>
         <lb/><ref target="s2ss4">Subseries IId. Fairchild Mission I Roll Film</ref>
@@ -213,21 +201,21 @@
           <ref target="s3" show="replace" actuate="onrequest">Series III. Additional Roll Film and Documents</ref>
         </emph>
         </p>
-      <p><ref  target="s3ss1">Subseries IIIa. Documents</ref>
-        <lb/><ref  target="s3ss2">Subseries IIIb. Mission 186</ref>
-        <lb/><ref  target="s3ss3">Subseries IIIc. Mission 192</ref>
-        <lb/><ref  target="s3ss4">Subseries IIId. Mission 235</ref>
-        <lb/><ref  target="s3ss5">Subseries IIIe. Mission 253</ref>
-        <lb/><ref  target="s3ss6">Subseries IIIf. Mission 258 and 337</ref>
-        <lb/><ref  target="s3ss7">Subseries IIIg. Mission 361 and 367</ref>
-        <lb/><ref  target="s3ss8">Subseries IIIh. Mission 382 and 387</ref>
-        <lb/><ref  target="s3ss9">Subseries IIIi. Mission 404 and 430</ref>
-        <lb/><ref  target="s3ss10">Subseries IIIj. AT</ref>
-        <lb/><ref  target="s3ss11">Subseries IIIk. New York State Lakes</ref>
-        <lb/><ref  target="s3ss12">Subseries IIIl. Texas VI</ref>
-        <lb/><ref  target="s3ss13">Subseries IIIm. Texas VII</ref>
-        <lb/><ref  target="s3ss14">Subseries IIIn. High Altitude mission 4</ref>
-        <lb/><ref  target="s3ss15">Subseries IIIo. Unknown missions</ref>
+      <p><ref target="s3ss1">Subseries IIIa. Documents</ref>
+        <lb/><ref target="s3ss2">Subseries IIIb. Mission 186</ref>
+        <lb/><ref target="s3ss3">Subseries IIIc. Mission 192</ref>
+        <lb/><ref target="s3ss4">Subseries IIId. Mission 235</ref>
+        <lb/><ref target="s3ss5">Subseries IIIe. Mission 253</ref>
+        <lb/><ref target="s3ss6">Subseries IIIf. Mission 258 and 337</ref>
+        <lb/><ref target="s3ss7">Subseries IIIg. Mission 361 and 367</ref>
+        <lb/><ref target="s3ss8">Subseries IIIh. Mission 382 and 387</ref>
+        <lb/><ref target="s3ss9">Subseries IIIi. Mission 404 and 430</ref>
+        <lb/><ref target="s3ss10">Subseries IIIj. AT</ref>
+        <lb/><ref target="s3ss11">Subseries IIIk. New York State Lakes</ref>
+        <lb/><ref target="s3ss12">Subseries IIIl. Texas VI</ref>
+        <lb/><ref target="s3ss13">Subseries IIIm. Texas VII</ref>
+        <lb/><ref target="s3ss14">Subseries IIIn. High Altitude mission 4</ref>
+        <lb/><ref target="s3ss15">Subseries IIIo. Unknown missions</ref>
       </p> 
       <p>
         <emph render="bold">
@@ -236,7 +224,7 @@
       <p>
         <emph render="bold">
           <ref target="s5" show="replace" actuate="onrequest">Series V. Documents and Publications</ref>
-        </emph> </p><p> <ref  target="s5ss1">Subseries Va. General</ref>
+        </emph> </p><p> <ref target="s5ss1">Subseries Va. General</ref>
           <lb/><ref target="s5ss2">Subseries Vb. Cornell Publications and Reports, Published in Ithaca</ref>
           <lb/><ref target="s5ss3">Subseries Vc. Panama Project</ref>
           <lb/><ref target="s5ss4">Subseries Vd. Puerto Rico Project</ref>
@@ -817,7 +805,7 @@
           <c03 level="item"> <did><container type="box"> 10 </container><unitdate> October, 1971 </unitdate><unittitle> Mission 186, roll 3 </unittitle></did> </c03>
           </c02>
         <c02 level="subseries">
-          <did><unittitle  id="s3ss3">Subseries III c. Mission 192</unittitle></did>
+          <did><unittitle id="s3ss3">Subseries III c. Mission 192</unittitle></did>
           <c03>
             <did>
               <container type="box">44</container>
@@ -1736,7 +1724,7 @@
            </c03><c03>
              <did>
                <container type="box">47</container>
-               <container type="folder"></container>
+               <container type="folder"/>
              
                <unittitle>Rafael Pico, "Nueva Geografia de Puerto Rico"</unittitle></did>
            </c03><c03>
@@ -2054,4 +2042,4 @@
     
     </dsc> 
   </archdesc> 
-</ead> 
+</ead>
