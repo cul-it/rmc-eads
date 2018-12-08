@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02033::Gould family papers)//EN">RMM02033</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02033::Gould family papers)//EN">RMM02033</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Gould family papers, 1799-[ca. 1869]</titleproper>
@@ -29,6 +28,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -37,19 +42,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Gould Family Papers, <lb/>1799-[ca. 1869]</titleproper>
+         <titleproper>Guide to the Gould Family Papers, 1799-[ca. 1869]</titleproper>
          <num>Collection Number: 2033</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -74,13 +79,14 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Gould family papers, <unitdate type="inclusive" encodinganalog="MARC 245">1799-[ca. 1869]</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Gould family papers, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1799- 1869</unitdate>
          <unitid label="Collection Number:">2033</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Gould family. ">Gould family.</persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>3.4 cubic ft.; 9 v.; 8 o/s flds.; 6
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>3.4 cubic ft.; 9 v.; 8 o/s flds.; 6
             reels microfilm.</extent></physdesc>
          <physdesc label="Forms of Material:">Diaries, letters, family papers, genealogical charts,
             photographs.</physdesc>
@@ -102,7 +108,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE</head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE</head>
          <p>Stephen Wanton Gould (1781-1838) was a clockmaker in Rhode Island. John Stanton Gould
             (1810-1874), his son, was a New York State legislator, agriculturist, Cornell University
             trustee and non-resident faculty member.</p>
@@ -225,23 +231,11 @@
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Diaries.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Genealogies.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Diaries.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Genealogies.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <userestrict>
-            <head>Restrictions on use:</head>
-            <p>Microfilm Diary no. 11, 1812-1815 may not be loaned or copied. Contact Quaker
-               Collection, Haverford College, Haverford, Pa.</p>
-         </userestrict>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Gould family papers, #2033. Division of Rare and Manuscript Collections, Cornell
-               University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <relatedmaterial>
          <head id="a5">RELATED MATERIALS</head>
          <p>Includes collections #2034, #2054, #2556, 2558, #2592.</p>
@@ -254,8 +248,8 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">17</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">17</container>
                   <unittitle>Indenture</unittitle>
                </did>
                <scopecontent>
@@ -264,8 +258,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">17</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">17</container>
                   <unittitle>Legal document</unittitle>
                </did>
                <scopecontent>
@@ -274,8 +268,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">2</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">2</container>
                   <unittitle>Indenture</unittitle>
                   <unitdate>1630</unitdate>
                </did>
@@ -286,8 +280,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">3</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">3</container>
                   <unittitle>Indenture</unittitle>
                   <unitdate>1633</unitdate>
                </did>
@@ -298,8 +292,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">4</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">4</container>
                   <unittitle>Will</unittitle>
                   <unitdate>1637</unitdate>
                </did>
@@ -309,8 +303,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">5</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">5</container>
                   <unittitle>Court document</unittitle>
                   <unitdate>1637</unitdate>
                </did>
@@ -322,8 +316,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">3</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">3</container>
                   <unittitle>Notice of Marriage</unittitle>
                   <unitdate>1666</unitdate>
                </did>
@@ -334,8 +328,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">6</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">6</container>
                   <unittitle>Indenture</unittitle>
                   <unitdate>1668</unitdate>
                </did>
@@ -347,8 +341,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">4</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">4</container>
                   <unittitle>Indenture</unittitle>
                   <unitdate>1668</unitdate>
                </did>
@@ -358,8 +352,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">5</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">5</container>
                   <unittitle>Indenture</unittitle>
                   <unitdate>1690</unitdate>
                </did>
@@ -370,8 +364,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">4</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">4</container>
                   <unittitle>Indenture</unittitle>
                   <unitdate>1691</unitdate>
                </did>
@@ -382,8 +376,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">2</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">2</container>
                   <unittitle>Deed or Indenture</unittitle>
                   <unitdate>1698</unitdate>
                </did>
@@ -394,8 +388,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">6</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">6</container>
                   <unittitle>Indenture</unittitle>
                   <unitdate>1698</unitdate>
                </did>
@@ -406,8 +400,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">4</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">4</container>
                   <unittitle>Indenture</unittitle>
                   <unitdate>1699</unitdate>
                </did>
@@ -418,8 +412,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">4</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">4</container>
                   <unittitle>Document</unittitle>
                   <unitdate>1699</unitdate>
                </did>
@@ -430,8 +424,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">7</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">7</container>
                   <unittitle>Will</unittitle>
                   <unitdate>1716</unitdate>
                </did>
@@ -441,8 +435,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">2</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">2</container>
                   <unittitle>Legal Document</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
@@ -453,8 +447,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">2</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">2</container>
                   <unittitle>Legal Document</unittitle>
                   <unitdate>1726</unitdate>
                </did>
@@ -465,8 +459,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">2</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">2</container>
                   <unittitle>Will</unittitle>
                   <unitdate>1749</unitdate>
                </did>
@@ -476,8 +470,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">5</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">5</container>
                   <unittitle>Indenture</unittitle>
                   <unitdate>1744</unitdate>
                </did>
@@ -489,8 +483,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">2</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">2</container>
                   <unittitle>Accounting</unittitle>
                   <unitdate>1782</unitdate>
                </did>
@@ -501,8 +495,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">2</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">2</container>
                   <unittitle>Opinion</unittitle>
                   <unitdate>1785</unitdate>
                </did>
@@ -512,8 +506,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">2</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">2</container>
                   <unittitle>Indenture in Three Parts</unittitle>
                   <unitdate>1788-1789</unitdate>
                </did>
@@ -526,8 +520,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">7</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">7</container>
                   <unittitle>Indenture</unittitle>
                   <unitdate>1792</unitdate>
                </did>
@@ -538,8 +532,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">7</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">7</container>
                   <unittitle>Indenture</unittitle>
                   <unitdate>1793</unitdate>
                </did>
@@ -550,8 +544,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">2</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">2</container>
                   <unittitle>Agreement</unittitle>
                   <unitdate>1810</unitdate>
                </did>
@@ -563,8 +557,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">2</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">2</container>
                   <unittitle>Agreement</unittitle>
                   <unitdate>1823</unitdate>
                </did>
@@ -575,8 +569,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">2</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">2</container>
                   <unittitle>Case</unittitle>
                   <unitdate>1834</unitdate>
                </did>
@@ -587,8 +581,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">2</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">2</container>
                   <unittitle>Further Case</unittitle>
                   <unitdate>1834</unitdate>
                </did>
@@ -600,8 +594,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">8</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">8</container>
                   <unittitle>Legal document</unittitle>
                </did>
                <scopecontent>
@@ -610,8 +604,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">8</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">8</container>
                   <unittitle>Indenture</unittitle>
                </did>
                <scopecontent>
@@ -620,8 +614,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">8</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">8</container>
                   <unittitle>Indenture</unittitle>
                   
                </did>
@@ -631,8 +625,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">8</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">8</container>
                   <unittitle>Legal document</unittitle>
                </did>
                <scopecontent>
@@ -641,8 +635,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">9</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">9</container>
                   <unittitle>Lease</unittitle>
                   <unitdate>1752</unitdate>
                </did>
@@ -653,8 +647,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">9</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">9</container>
                   <unittitle>Deed</unittitle>
                   <unitdate>1782</unitdate>
                </did>
@@ -665,8 +659,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">10</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">10</container>
                   <unittitle>Document</unittitle>
                   <unitdate>184?</unitdate>
                </did>
@@ -677,8 +671,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">9</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">9</container>
                   <unittitle>Indenture</unittitle>
                   <unitdate>1829</unitdate>
                </did>
@@ -689,8 +683,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">9</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">9</container>
                   <unittitle>Indenture</unittitle>
                   <unitdate>1834</unitdate>
                </did>
@@ -701,8 +695,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">9</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">9</container>
                   <unittitle>Certificate</unittitle>
                   <unitdate>1869</unitdate>
                </did>
@@ -714,8 +708,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">9</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">9</container>
                   <unittitle>Certificate</unittitle>
                   <unitdate>1870</unitdate>
                </did>
@@ -726,8 +720,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">9</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">9</container>
                   <unittitle>Chart</unittitle>
                   <unitdate>post 1888</unitdate>
                </did>
@@ -737,8 +731,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">1</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">1</container>
                   <unittitle>Indenture</unittitle>
                   <unitdate>1598</unitdate>
                </did>
@@ -750,8 +744,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">1</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">1</container>
                   <unittitle>Land transaction</unittitle>
                   <unitdate>1687</unitdate>
                </did>
@@ -769,8 +763,8 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">Env. 1</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">Env. 1</container>
                   <unittitle>Letter from Sebastien Râle</unittitle>
                   <unitdate>8/17/1718</unitdate>
                </did>
@@ -781,8 +775,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Benjamin Franklin Letter</unittitle>
                   <unitdate>7/22/1756</unitdate>
                </did>
@@ -794,8 +788,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Thomas Wright Correspondence</unittitle>
                   <unitdate>1812-1846</unitdate>
                </did>
@@ -807,8 +801,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Stephen Wanton Gould Letters</unittitle>
                   <unitdate>1814-1830</unitdate>
                </did>
@@ -820,8 +814,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>John Stanton Gould Correspondence</unittitle>
                   <unitdate>1830-1870</unitdate>
                </did>
@@ -833,8 +827,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Miscellaneous Correspondence</unittitle>
                   <unitdate>1832-1896</unitdate>
                </did>
@@ -845,8 +839,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Letters to Hannah Wright Gould</unittitle>
                   <unitdate>1834-1881</unitdate>
                </did>
@@ -857,8 +851,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Letters to John Stanton Gould</unittitle>
                   <unitdate>1842-1872</unitdate>
                </did>
@@ -870,10 +864,10 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Letters to Hannah Wright Gould</unittitle>
-                  <unitdate>1863-c.1881</unitdate>
+                  <unitdate certainty="approximate">1863-1881</unitdate>
                </did>
                <scopecontent>
                   <p>Small notebook: "A Journal of childhood of son Romeyn and daughter Harriet,
@@ -886,8 +880,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Elizabeth Wright Gould Correspondence</unittitle>
                   <unitdate>1868-1918</unitdate>
                </did>
@@ -897,8 +891,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Letters from John Stanton Gould</unittitle>
                   <unitdate>1871-1872</unitdate>
                </did>
@@ -909,8 +903,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Letters to Hannah Wright Gould</unittitle>
                   <unitdate>1874</unitdate>
                </did>
@@ -921,8 +915,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>"Barbara Frietchie" Items and John Greenleaf Whittier Letters, </unittitle>
                   <unitdate>1872-1886</unitdate>
                </did>
@@ -934,8 +928,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Hannah W. Gould Correspondence</unittitle>
                   <unitdate>1856-1872</unitdate>
                </did>
@@ -945,8 +939,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Letters to Dr. J. Romeyn Berry and His Family, </unittitle>
                   <unitdate>1869-1891</unitdate>
                </did>
@@ -959,8 +953,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">15</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">15</container>
                   <unittitle>Julia E. Sanford Correspondence</unittitle>
                   <unitdate>1873-1889</unitdate>
                </did>
@@ -970,8 +964,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">16</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">16</container>
                   <unittitle>W. Bogardus Berry and Son, Romeyn Berry Correspondence, </unittitle>
                   <unitdate>1883-1889</unitdate>
                </did>
@@ -981,8 +975,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Genealogy</unittitle>
                   <unitdate>No date</unitdate>
                </did>
@@ -992,7 +986,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unittitle>Bound Volumes of Letters</unittitle>
                   <unitdate>1862-1868</unitdate>
                </did>
@@ -1004,7 +998,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Bound Volumes of Letters</unittitle>
                   <unitdate>1862-1868</unitdate>
                </did>
@@ -1016,8 +1010,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Hannah Johnson Stoddard Correspondence</unittitle>
                   <unitdate>1900-1942</unitdate>
                </did>
@@ -1027,8 +1021,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Hannah Johnson Stoddard Correspondence</unittitle>
                   <unitdate>1901</unitdate>
                </did>
@@ -1038,8 +1032,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Hannah Johnson Stoddard Correspondence</unittitle>
                   <unitdate>1902</unitdate>
                </did>
@@ -1050,8 +1044,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Hannah Johnson Stoddard Correspondence</unittitle>
                   <unitdate>1911-1912</unitdate>
                </did>
@@ -1061,8 +1055,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Mrs. Elizabeth Berry and Daughter Harriet Correspondence, </unittitle>
                   <unitdate>1913</unitdate>
                </did>
@@ -1072,8 +1066,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Harriet G. J. Stoddard Letters</unittitle>
                   <unitdate>1913-1920</unitdate>
                </did>
@@ -1084,8 +1078,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Miscellaneous Correspondence</unittitle>
                   <unitdate>1919</unitdate>
                </did>
@@ -1095,8 +1089,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Hannah Gould Johnson Letter</unittitle>
                   <unitdate>[1908]</unitdate>
                </did>
@@ -1106,8 +1100,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Hannah Johnson Stoddard Correspondence</unittitle>
                   <unitdate>1908-1910</unitdate>
                </did>
@@ -1117,8 +1111,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Hannah Johnson Stoddard Correspondence</unittitle>
                   <unitdate>1910-1912</unitdate>
                </did>
@@ -1128,8 +1122,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Hannah Johnson Stoddard Correspondence</unittitle>
                   <unitdate>1912-1915</unitdate>
                </did>
@@ -1139,8 +1133,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>Hannah Johnson Stoddard Correspondence</unittitle>
                   <unitdate>1916-1920</unitdate>
                </did>
@@ -1150,8 +1144,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Postcards</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
@@ -1161,8 +1155,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Postcards</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
@@ -1172,14 +1166,14 @@
                </scopecontent>
             </c02>
          </c01>
-         <c01>
+         <c01 level="otherlevel" otherlevel="unspecified">
             <did>
                <unittitle>Series III. Diaries</unittitle>
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1799-1803</unitdate>
                </did>
@@ -1189,8 +1183,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1803-1804</unitdate>
                </did>
@@ -1200,8 +1194,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1804</unitdate>
                </did>
@@ -1211,8 +1205,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1804-1805</unitdate>
                </did>
@@ -1222,8 +1216,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1805</unitdate>
                </did>
@@ -1233,8 +1227,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1806</unitdate>
                </did>
@@ -1244,8 +1238,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1806</unitdate>
                </did>
@@ -1255,8 +1249,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1807</unitdate>
                </did>
@@ -1266,8 +1260,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1807-1809</unitdate>
                </did>
@@ -1277,8 +1271,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">7</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1809-1812</unitdate>
                </did>
@@ -1288,8 +1282,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">7</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1812-1815</unitdate>
                </did>
@@ -1300,8 +1294,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">7</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1815-1823</unitdate>
                </did>
@@ -1311,8 +1305,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">8</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">8</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1823-1829</unitdate>
                </did>
@@ -1322,8 +1316,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">8</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">8</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1829-1832</unitdate>
                </did>
@@ -1333,8 +1327,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">9</container>
-                  <container type="folder">15</container>
+                  <container label="unspecified" type="box">9</container>
+                  <container label="unspecified" type="folder">15</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1833-1836</unitdate>
                </did>
@@ -1344,8 +1338,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">9</container>
-                  <container type="folder">16</container>
+                  <container label="unspecified" type="box">9</container>
+                  <container label="unspecified" type="folder">16</container>
                   <unittitle>Stephen Wanton Gould Diary</unittitle>
                   <unitdate>1836-1838</unitdate>
                </did>
@@ -1361,7 +1355,7 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">10</container>
+                  <container label="unspecified" type="box">10</container>
                   <unittitle>Records</unittitle>
                   <unitdate>1676-1707</unitdate>
                </did>
@@ -1372,7 +1366,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">10</container>
+                  <container label="unspecified" type="box">10</container>
                   <unittitle>Journal</unittitle>
                   <unitdate>1812</unitdate>
                </did>
@@ -1383,7 +1377,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">10</container>
+                  <container label="unspecified" type="box">10</container>
                   <unittitle>Journal</unittitle>
                   <unitdate>1823</unitdate>
                </did>
@@ -1393,7 +1387,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">10</container>
+                  <container label="unspecified" type="box">10</container>
                   <unittitle>Journal</unittitle>
                   <unitdate>1824</unitdate>
                </did>
@@ -1404,7 +1398,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">10</container>
+                  <container label="unspecified" type="box">10</container>
                   <unittitle>Journal</unittitle>
                   <unitdate>1847-1850</unitdate>
                </did>
@@ -1414,7 +1408,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">10</container>
+                  <container label="unspecified" type="box">10</container>
                   <unittitle>Journal</unittitle>
                   <unitdate>1866-1869</unitdate>
                </did>
@@ -1424,7 +1418,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">10</container>
+                  <container label="unspecified" type="box">10</container>
                   <unittitle>Travel Journal</unittitle>
                   <unitdate>1931</unitdate>
                </did>
@@ -1434,7 +1428,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">10</container>
+                  <container label="unspecified" type="box">10</container>
                   <unittitle>Volume</unittitle>
                   <unitdate>1922</unitdate>
                </did>
@@ -1444,7 +1438,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">10</container>
+                  <container label="unspecified" type="box">10</container>
                   <unittitle>Volume</unittitle>
                   <unitdate>1924</unitdate>
                </did>
@@ -1454,7 +1448,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unittitle>Volume</unittitle>
                   <unitdate>1821</unitdate>
                </did>
@@ -1464,7 +1458,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unittitle>Volume</unittitle>
                   <unitdate>1840</unitdate>
                </did>
@@ -1474,7 +1468,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unittitle>Volume</unittitle>
                   <unitdate>1850</unitdate>
                </did>
@@ -1484,7 +1478,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unittitle>Volume</unittitle>
                   <unitdate>1874</unitdate>
                </did>
@@ -1494,7 +1488,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unittitle>Volume</unittitle>
                   <unitdate>1890</unitdate>
                </did>
@@ -1504,7 +1498,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unittitle>Volume</unittitle>
                   <unitdate>1915</unitdate>
                </did>
@@ -1514,7 +1508,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unittitle>Volume</unittitle>
                   <unitdate>1928</unitdate>
                </did>
@@ -1524,7 +1518,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unittitle>Volume</unittitle>
                   <unitdate>1935</unitdate>
                </did>
@@ -1534,7 +1528,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unittitle>Volume</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
@@ -1544,7 +1538,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unittitle>Volume</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
@@ -1554,8 +1548,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Lecture notes</unittitle>
                   <unitdate>post 1848</unitdate>
                </did>
@@ -1566,8 +1560,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Sermons</unittitle>
                   <unitdate>1825, 1854</unitdate>
                </did>
@@ -1578,7 +1572,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1848</unitdate>
                </did>
@@ -1593,7 +1587,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1861</unitdate>
                </did>
@@ -1604,7 +1598,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1862</unitdate>
                </did>
@@ -1616,7 +1610,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1862</unitdate>
                </did>
@@ -1626,7 +1620,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1864</unitdate>
                </did>
@@ -1637,7 +1631,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1870</unitdate>
                </did>
@@ -1649,7 +1643,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1870</unitdate>
                </did>
@@ -1659,7 +1653,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1870</unitdate>
                </did>
@@ -1669,7 +1663,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1871</unitdate>
                </did>
@@ -1679,7 +1673,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1871</unitdate>
                </did>
@@ -1690,7 +1684,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1871</unitdate>
                </did>
@@ -1700,7 +1694,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1872</unitdate>
                </did>
@@ -1710,7 +1704,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1873</unitdate>
                </did>
@@ -1720,7 +1714,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1876</unitdate>
                </did>
@@ -1731,7 +1725,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1876</unitdate>
                </did>
@@ -1741,7 +1735,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1876</unitdate>
                </did>
@@ -1751,7 +1745,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1876</unitdate>
                </did>
@@ -1761,7 +1755,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1877</unitdate>
                </did>
@@ -1771,7 +1765,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1877</unitdate>
                </did>
@@ -1782,7 +1776,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1878</unitdate>
                </did>
@@ -1794,7 +1788,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1878</unitdate>
                </did>
@@ -1804,7 +1798,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1878</unitdate>
                </did>
@@ -1814,7 +1808,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1878</unitdate>
                </did>
@@ -1824,7 +1818,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1879</unitdate>
                </did>
@@ -1834,7 +1828,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1879</unitdate>
                </did>
@@ -1846,7 +1840,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1879</unitdate>
                </did>
@@ -1856,7 +1850,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1880</unitdate>
                </did>
@@ -1866,7 +1860,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1881</unitdate>
                </did>
@@ -1877,7 +1871,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1881</unitdate>
                </did>
@@ -1888,7 +1882,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1881</unitdate>
                </did>
@@ -1899,7 +1893,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1881</unitdate>
                </did>
@@ -1909,7 +1903,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1882</unitdate>
                </did>
@@ -1920,7 +1914,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1882</unitdate>
                </did>
@@ -1931,7 +1925,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1883</unitdate>
                </did>
@@ -1941,7 +1935,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1884</unitdate>
                </did>
@@ -1951,7 +1945,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1884</unitdate>
                </did>
@@ -1961,7 +1955,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1884</unitdate>
                </did>
@@ -1972,7 +1966,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1884</unitdate>
                </did>
@@ -1983,7 +1977,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1884</unitdate>
                </did>
@@ -1993,7 +1987,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1885</unitdate>
                </did>
@@ -2003,7 +1997,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1885</unitdate>
                </did>
@@ -2014,7 +2008,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1885</unitdate>
                </did>
@@ -2024,7 +2018,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1886</unitdate>
                </did>
@@ -2034,7 +2028,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1886</unitdate>
                </did>
@@ -2044,7 +2038,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1886</unitdate>
                </did>
@@ -2054,7 +2048,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1886</unitdate>
                </did>
@@ -2064,7 +2058,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1886</unitdate>
                </did>
@@ -2075,7 +2069,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1887</unitdate>
                </did>
@@ -2085,7 +2079,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1887</unitdate>
                </did>
@@ -2095,7 +2089,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1887</unitdate>
                </did>
@@ -2106,7 +2100,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1888</unitdate>
                </did>
@@ -2117,7 +2111,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1888</unitdate>
                </did>
@@ -2127,7 +2121,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1888</unitdate>
                </did>
@@ -2138,7 +2132,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1890</unitdate>
                </did>
@@ -2148,7 +2142,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1890</unitdate>
                </did>
@@ -2158,7 +2152,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                   <unitdate>1891</unitdate>
                </did>
@@ -2168,7 +2162,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Sermon</unittitle>
                </did>
                <scopecontent>
@@ -2178,7 +2172,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Reprint of Article</unittitle>
                   <unitdate>1890</unitdate>
                </did>
@@ -2188,7 +2182,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Reprint of Article</unittitle>
                </did>
                <scopecontent>
@@ -2197,7 +2191,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Volume</unittitle>
                   <unitdate>1885</unitdate>
                </did>
@@ -2207,8 +2201,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Religious certifications of Rev. William Bogardus and of Rev. J. Romeyn
                      Berry.</unittitle>
                </did>
@@ -2219,8 +2213,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Newspaper Clippings of the Rev. J. Romeyn Berry, b. 1827, d.
                      6/5/1891</unittitle>
                </did>
@@ -2235,8 +2229,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Rev. J. Romeyn Berry, Miscellany</unittitle>
                </did>
                <scopecontent>
@@ -2245,8 +2239,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Two Volumes</unittitle>
                   <unitdate>1816, 1828</unitdate>
                </did>
@@ -2258,8 +2252,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Writings</unittitle>
                   <unitdate>1890-1892</unitdate>
                </did>
@@ -2269,8 +2263,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Printed Materials</unittitle>
                   <unitdate>1874-1927</unitdate>
                </did>
@@ -2286,8 +2280,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Printed Materials</unittitle>
                   <unitdate>1924-1925</unitdate>
                </did>
@@ -2297,8 +2291,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Miscellaneous Materials</unittitle>
                   <unitdate>1888-1911</unitdate>
                </did>
@@ -2315,8 +2309,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Clippings</unittitle>
                   <unitdate>1914-1938</unitdate>
                </did>
@@ -2326,8 +2320,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Miscellany</unittitle>
                   <unitdate>1804, n.d.</unitdate>
                </did>
@@ -2339,8 +2333,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Sketches</unittitle>
                </did>
                <scopecontent>
@@ -2349,8 +2343,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Writings</unittitle>
                   <unitdate>1940-1943</unitdate>
                </did>
@@ -2360,8 +2354,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Genealogy</unittitle>
                   <unitdate>1777-1826</unitdate>
                </did>
@@ -2372,8 +2366,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Genealogy</unittitle>
                   <unitdate>1840</unitdate>
                </did>
@@ -2386,8 +2380,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>Family Reunion</unittitle>
                   <unitdate>1859</unitdate>
                </did>
@@ -2403,8 +2397,8 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Manuscript and Printed Items</unittitle>
                   <unitdate>1709-1792</unitdate>
                </did>
@@ -2424,8 +2418,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Legal Documents</unittitle>
                   <unitdate>1811-1824</unitdate>
                </did>
@@ -2436,8 +2430,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Legal Documents (continued)</unittitle>
                   <unitdate>1811-1824</unitdate>
                </did>
@@ -2449,8 +2443,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Legal Documents</unittitle>
                   <unitdate>1854-1879</unitdate>
                </did>
@@ -2469,8 +2463,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Legal Documents, Hannah Wright Gould</unittitle>
                   <unitdate>1886-1913</unitdate>
                </did>
@@ -2487,8 +2481,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Legal Documents, Hannah Wright Gould (continued), </unittitle>
                   <unitdate>1886-1913</unitdate>
                </did>
@@ -2507,8 +2501,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Legal Documents, John Stanton Gould</unittitle>
                   <unitdate>1854-1915</unitdate>
                </did>
@@ -2526,8 +2520,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Legal Documents, John Stanton Gould, Marshall Estate Papers, </unittitle>
                   <unitdate>1848-1969</unitdate>
                </did>
@@ -2556,8 +2550,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Legal Documents, John Stanton Gould, Marshall Estate Papers (continued, </unittitle>
                   <unitdate>1848-1969</unitdate>
                </did>
@@ -2570,8 +2564,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Legal Documents, John Stanton Gould, Guardianship and Trustee Papers, </unittitle>
                   <unitdate>1855-1871</unitdate>
                </did>
@@ -2589,8 +2583,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Legal Documents, John Stanton Gould, Coventry and Reynold Papers, </unittitle>
                   <unitdate>1836-1867</unitdate>
                </did>
@@ -2604,8 +2598,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Legal Documents, John Stanton Gould, Coventry and Reynold Papers
                      (continued)</unittitle>
                   <unitdate>1836-1867</unitdate>
@@ -2618,8 +2612,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Legal Documents, Miscellaneous</unittitle>
                   <unitdate>1847-1906</unitdate>
                </did>
@@ -2644,8 +2638,8 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Photograph</unittitle>
                </did>
                <scopecontent>
@@ -2654,8 +2648,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Stereopticon Slide</unittitle>
                </did>
                <scopecontent>
@@ -2664,8 +2658,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -2674,8 +2668,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -2684,8 +2678,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Photographic Image</unittitle>
                </did>
                <scopecontent>
@@ -2694,8 +2688,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Photograph</unittitle>
                </did>
                <scopecontent>
@@ -2704,8 +2698,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Photograph</unittitle>
                </did>
                <scopecontent>
@@ -2714,8 +2708,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Photograph</unittitle>
                </did>
                <scopecontent>
@@ -2724,8 +2718,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Photograph</unittitle>
                </did>
                <scopecontent>
@@ -2735,8 +2729,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Photograph</unittitle>
                </did>
                <scopecontent>
@@ -2745,8 +2739,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Photograph</unittitle>
                   <unitdate>1880</unitdate>
                </did>
@@ -2756,8 +2750,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -2766,8 +2760,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Photograph</unittitle>
                </did>
                <scopecontent>
@@ -2776,8 +2770,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Photograph</unittitle>
                </did>
                <scopecontent>
@@ -2786,8 +2780,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">15</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">15</container>
                   <unittitle>Photograph</unittitle>
                   <unitdate>1896</unitdate>
                </did>
@@ -2797,8 +2791,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">16</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">16</container>
                   <unittitle>Photograph</unittitle>
                </did>
                <scopecontent>
@@ -2807,8 +2801,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">17</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">17</container>
                   <unittitle>Photograph</unittitle>
                </did>
                <scopecontent>
@@ -2817,8 +2811,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">18</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">18</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -2827,8 +2821,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">19</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">19</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -2837,8 +2831,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Photographs</unittitle>
                   <unitdate>1896, 1904</unitdate>
                </did>
@@ -2848,8 +2842,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Photographs</unittitle>
                   <unitdate>1901</unitdate>
                </did>
@@ -2859,8 +2853,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Photographs</unittitle>
                   <unitdate>1901</unitdate>
                </did>
@@ -2870,8 +2864,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Photographs</unittitle>
                   <unitdate>1910</unitdate>
                </did>
@@ -2881,8 +2875,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Photographs</unittitle>
                   <unitdate>1910(?)</unitdate>
                </did>
@@ -2892,8 +2886,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Photographs</unittitle>
                   <unitdate>1913, 1914</unitdate>
                </did>
@@ -2904,8 +2898,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Photographs</unittitle>
                   <unitdate>1918</unitdate>
                </did>
@@ -2915,8 +2909,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Photographs</unittitle>
                   <unitdate>1920</unitdate>
                </did>
@@ -2926,8 +2920,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Photographs</unittitle>
                   <unitdate>1920</unitdate>
                </did>
@@ -2937,8 +2931,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Photographic Negatives</unittitle>
                   <unitdate>1922, 1923</unitdate>
                </did>
@@ -2948,8 +2942,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -2958,8 +2952,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -2968,8 +2962,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -2978,8 +2972,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -2988,8 +2982,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">15</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">15</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -2998,8 +2992,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">16</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">16</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -3008,8 +3002,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">17</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">17</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -3019,8 +3013,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">18</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">18</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -3029,8 +3023,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">19</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">19</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -3039,38 +3033,38 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">20-21</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">20-21</container>
                   <unittitle>Photographs - unidentified</unittitle>
                </did>
                <scopecontent>
-                  <p/>
+                  
                </scopecontent>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">22-23</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">22-23</container>
                   <unittitle>Photographs - trip to Europe?</unittitle>
                </did>
                <scopecontent>
-                  <p/>
+                  
                </scopecontent>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">24-27</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">24-27</container>
                   <unittitle>Photographs - Western U.S.A., Native Americans and Native American structures, </unittitle>
                </did>
                <scopecontent>
-                  <p/>
+                  
                </scopecontent>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">28</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">28</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -3079,8 +3073,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">29</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">29</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -3090,8 +3084,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">30</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">30</container>
                   <unittitle>Photographs</unittitle>
                </did>
                <scopecontent>
@@ -3100,8 +3094,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">31</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">31</container>
                   <unittitle>Photograph</unittitle>
                </did>
                <scopecontent>
@@ -3110,8 +3104,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>Photograph</unittitle>
                </did>
                <scopecontent>
@@ -3120,8 +3114,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">33</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">33</container>
                   <unittitle>Photograph</unittitle>
                </did>
                <scopecontent>
@@ -3130,8 +3124,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">34</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">34</container>
                   <unittitle>Photograph</unittitle>
                </did>
                <scopecontent>
@@ -3153,7 +3147,7 @@
             </scopecontent>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>Diary #1</unittitle>
                   <unitdate>1799-1803</unitdate>
                </did>
@@ -3163,7 +3157,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">2</container>
+                  <container label="unspecified" type="reel">2</container>
                   <unittitle>Diaries #2-10</unittitle>
                   <unitdate>1803-1812</unitdate>
                </did>
@@ -3173,7 +3167,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">3</container>
+                  <container label="unspecified" type="reel">3</container>
                   <unittitle>Diary #11</unittitle>
                   <unitdate>1812-1815</unitdate>
                </did>
@@ -3184,7 +3178,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">4</container>
+                  <container label="unspecified" type="reel">4</container>
                   <unittitle>Diaries #12-16</unittitle>
                   <unitdate>1815-1838</unitdate>
                </did>
@@ -3195,7 +3189,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">5</container>
+                  <container label="unspecified" type="reel">5</container>
                   <unittitle>History of the Gould Family</unittitle>
                   <unitdate>1862-1868</unitdate>
                </did>
@@ -3206,7 +3200,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">6</container>
+                  <container label="unspecified" type="reel">6</container>
                   <unittitle>History of the Gould Family</unittitle>
                   <unitdate>1862-1864</unitdate>
                </did>
@@ -3217,7 +3211,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">7</container>
+                  <container label="unspecified" type="reel">7</container>
                   <unittitle>Diary and Genealogy</unittitle>
                   <unitdate>1851-1862</unitdate>
                </did>
@@ -3228,7 +3222,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">8</container>
+                  <container label="unspecified" type="reel">8</container>
                   <unittitle>Journal</unittitle>
                   <unitdate>1847-1850</unitdate>
                </did>
@@ -3238,7 +3232,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">9</container>
+                  <container label="unspecified" type="reel">9</container>
                   <unittitle>Letter</unittitle>
                   <unitdate>1718</unitdate>
                </did>
@@ -3249,7 +3243,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">10</container>
+                  <container label="unspecified" type="reel">10</container>
                   <unittitle>Diary #1</unittitle>
                   <unitdate>1799-1803</unitdate>
                </did>
@@ -3259,7 +3253,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">11</container>
+                  <container label="unspecified" type="reel">11</container>
                   <unittitle>Diaries #2-10</unittitle>
                   <unitdate>1803-1812</unitdate>
                </did>
@@ -3269,7 +3263,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">12</container>
+                  <container label="unspecified" type="reel">12</container>
                   <unittitle>Diaries #12-16</unittitle>
                   <unitdate>1815-1838</unitdate>
                </did>
@@ -3279,7 +3273,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">13</container>
+                  <container label="unspecified" type="reel">13</container>
                   <unittitle>History of the Gould Family</unittitle>
                   <unitdate>1862-1868</unitdate>
                </did>
@@ -3289,7 +3283,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">14</container>
+                  <container label="unspecified" type="reel">14</container>
                   <unittitle>History of the Gould Family</unittitle>
                   <unitdate>1862-1864</unitdate>
                </did>
@@ -3299,7 +3293,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">15</container>
+                  <container label="unspecified" type="reel">15</container>
                   <unittitle>Diary and Genealogy</unittitle>
                   <unitdate>1851-1862</unitdate>
                </did>
@@ -3309,7 +3303,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">16</container>
+                  <container label="unspecified" type="reel">16</container>
                   <unittitle>Journal</unittitle>
                   <unitdate>1847-1850</unitdate>
                </did>
@@ -3319,7 +3313,7 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">17</container>
+                  <container label="unspecified" type="reel">17</container>
                   <unittitle>Letter</unittitle>
                   <unitdate>1718</unitdate>
                </did>
@@ -3329,5 +3323,13 @@
             </c02>
          </c01>
       </dsc>
-   </archdesc>
+   <userestrict>
+            <head>Restrictions on use:</head>
+            <p>Microfilm Diary no. 11, 1812-1815 may not be loaned or copied. Contact Quaker
+               Collection, Haverford College, Haverford, Pa.</p>
+         </userestrict><prefercite>
+            <head>Cite As:</head>
+            <p>Gould family papers, #2033. Division of Rare and Manuscript Collections, Cornell
+               University Library.</p>
+         </prefercite></archdesc>
 </ead>

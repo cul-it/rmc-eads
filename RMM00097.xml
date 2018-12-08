@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM00097::Fowler and Wells families papers)//EN">RMM00097</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM00097::Fowler and Wells families papers)//EN">RMM00097</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Fowler and Wells families papers, 1807-1968,</titleproper>
@@ -28,6 +27,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -36,22 +41,22 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Fowler And Wells Families Papers,<lb/>1807-1968,1836-1901(bulk)</titleproper>
+         <titleproper>Guide to the Fowler And Wells Families Papers,1807-1968,1836-1901(bulk)</titleproper>
          <num>Collection Number: 97</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+         <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/>
-2B Carl A. Kroch Library<lb/>
-Cornell University<lb/>
-Ithaca, NY 14853<lb/>
-(607) 255-3530<lb/>
-Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections
+2B Carl A. Kroch Library
+Cornell University
+Ithaca, NY 14853
+(607) 255-3530
+Fax: (607) 255-9524
 <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
 <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -76,19 +81,15 @@ Fax: (607) 255-9524<lb/>
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Fowler and Wells families papers, 
-		<unitdate type="inclusive" encodinganalog="MARC 245">1807-1968,</unitdate>
-		
-            <unitdate type="bulk" encodinganalog="MARC 245">1836-1901(bulk)</unitdate>
-		
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Fowler and Wells families papers, 
+		</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1807-1968,</unitdate><unitdate encodinganalog="MARC 245" type="bulk">1836-1901(bulk)</unitdate>
          <unitid label="Collection Number:">97</unitid>
          <origination label="Creator:"> 
 		  
             <persname encodinganalog="100" normal="Fowler family.">Fowler family</persname>
 		
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.9 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.9 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, Photographs, Printed Materials.</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
          <abstract label="Abstract:">Correspondence, articles, lectures, photos, printed matter, and other papers relating to the practice of phrenology by various members of the Fowler and Wells families, including Orson and Lorenzo N. Fowler, Samuel Roberts Wells, and Charlotte Fowler Wells. Includes material relating to "The Phrenological Journal" and "The Practical Phrenologist," periodicals with which the family was associated. Also includes a small number of Civil War letters. Also, originals and transcribed copies of the wills of Charlotte Fowler Howe and Charlotte Fowler Wells, and other letters.</abstract>
@@ -170,21 +171,14 @@ Fax: (607) 255-9524<lb/>
             <geogname encodinganalog="MARC 651">United States--History--Civil War, 1861-1865.</geogname>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Fowler and Wells families papers, #97. Division of Rare and Manuscript Collections, Cornell University Library.</p>
-         </prefercite>
-         <relatedmaterial><p>A PDF with additional details is available upon request.</p></relatedmaterial>
-      </descgrp>
+      
       
       <arrangement>
          <head>SERIES LIST</head>
          <p> <emph render="bold">
-            <ref target="s1" show="replace" actuate="onrequest">Series I. Correspondence and Family Papers</ref> </emph> <lb/> </p>
+            <ref actuate="onrequest" show="replace" target="s1">Series I. Correspondence and Family Papers</ref> </emph>  </p>
          <p> <emph render="bold">
-            <ref target="s2" show="replace" actuate="onrequest">Series II. Photographs</ref> </emph> <lb/> </p>
+            <ref actuate="onrequest" show="replace" target="s2">Series II. Photographs</ref> </emph>  </p>
       </arrangement>
       
       <dsc type="combined">
@@ -202,8 +196,8 @@ Fax: (607) 255-9524<lb/>
         
       <c02 level="file">
        <did>
-        <container type="box">2</container>
- <unitdate type="inclusive" certainty="Circa" normal="1846/DateTo">1846-DateTo</unitdate>
+        <container label="unspecified" type="box">2</container>
+ <unitdate certainty="approximate" normal="1846/DateTo" type="inclusive">1846-DateTo</unitdate>
         <unittitle>Synopsis of Phrenology and the Phrenological Developments Together with the Character and Talents of Paul S. Howe, Esq., as given by Charlotte Fowler</unittitle>
        </did>
        <controlaccess><persname>Howe, Paul S. </persname></controlaccess>
@@ -211,8 +205,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
- <unitdate type="inclusive" normal="1846-06-08">1846-06-08</unitdate>
+        <container label="unspecified" type="box">2</container>
+ <unitdate normal="1846-06-08" type="inclusive">1846-06-08</unitdate>
         <unittitle>Synopsis of Phrenology and the Phrenological Developments Together with the Character and Talents of Philip C. Howard, as given by Lorenzo Fowler</unittitle>
        </did>
        <controlaccess><persname>Howard, Philip C. </persname></controlaccess>
@@ -220,25 +214,25 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">1</container>
- <unitdate type="inclusive" normal="1848/1859">1848-1859</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">1</container>
+ <unitdate normal="1848/1859" type="inclusive">1848-1859</unitdate>
         <unittitle>Letters</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">1</container>
- <unitdate type="inclusive" normal="1849/1892">1849-1892</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">1</container>
+ <unitdate normal="1849/1892" type="inclusive">1849-1892</unitdate>
         <unittitle>Papers</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">1</container>
- <unitdate type="inclusive" normal="1850">1850</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">1</container>
+ <unitdate normal="1850" type="inclusive">1850</unitdate>
         <unittitle>Manuscript report by Mrs. Wells of spiritualist meetings held in New York City during 1850 with comments on the participation of Horace Greeley and other notables</unittitle>
        </did>
        <controlaccess><persname>Mrs. Wells</persname></controlaccess>
@@ -246,8 +240,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
- <unitdate type="inclusive" normal="1851-10-24">1851-10-24</unitdate>
+        <container label="unspecified" type="box">2</container>
+ <unitdate normal="1851-10-24" type="inclusive">1851-10-24</unitdate>
         <unittitle>The Illustrated Self-Instructor in Phrenology and Physiology with One Hundred Engravings and a Chart of the Character of Paul Howe, as given by Nelson Sizer</unittitle>
        </did>
        <controlaccess><persname>Howe, Paul </persname></controlaccess>
@@ -255,64 +249,64 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1860/1965">1860-1965</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1860/1965" type="inclusive">1860-1965</unitdate>
         <unittitle>Letters</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">3</container>
- <unitdate type="inclusive" normal="1866">1866</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">3</container>
+ <unitdate normal="1866" type="inclusive">1866</unitdate>
         <unittitle>Letters</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">4</container>
- <unitdate type="inclusive" normal="1867">1867</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">4</container>
+ <unitdate normal="1867" type="inclusive">1867</unitdate>
         <unittitle>Letters</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">5</container>
- <unitdate type="inclusive" normal="1868/1869">1868-1869</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">5</container>
+ <unitdate normal="1868/1869" type="inclusive">1868-1869</unitdate>
         <unittitle>Letters</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">6</container>
- <unitdate type="inclusive" normal="1870/1872">1870-1872</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">6</container>
+ <unitdate normal="1870/1872" type="inclusive">1870-1872</unitdate>
         <unittitle>Letters</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">7</container>
- <unitdate type="inclusive" normal="1873/1879">1873-1879</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1873/1879" type="inclusive">1873-1879</unitdate>
         <unittitle>Letters</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">8</container>
- <unitdate type="bulk" normal="1881/1901">1881-1887, 1901</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1881/1901" type="bulk">1881-1887, 1901</unitdate>
         <unittitle>Letters</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
- <unitdate type="inclusive" normal="1891-08">1891-08</unitdate>
+        <container label="unspecified" type="box">2</container>
+ <unitdate normal="1891-08" type="inclusive">1891-08</unitdate>
         <unittitle>The Practice of the Water Cure</unittitle>
        <origination label="Creator"><persname>Wilson, James </persname></origination> 
        <origination label="Creator"><persname> Manby Gully, James</persname></origination> 
@@ -321,17 +315,17 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">4</container>
- <unitdate type="inclusive" normal="1899-01">1899-01</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">4</container>
+ <unitdate normal="1899-01" type="inclusive">1899-01</unitdate>
         <unittitle>Ulrich is Domestic</unittitle>
        <origination label="Creator"><corpname>Human Nature IX #1</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
- <unitdate type="inclusive" normal="1968-05">1968-05</unitdate>
+        <container label="unspecified" type="box">2</container>
+ <unitdate normal="1968-05" type="inclusive">1968-05</unitdate>
         <unittitle>Poe: "The Mental Temperament" for Phrenologists</unittitle>
        <origination label="Creator"><persname>Stern, Madeline B.</persname></origination> 
        <origination label="Creator"><corpname>American Literature Vol. XL, No. 2</corpname></origination> 
@@ -339,15 +333,15 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
- <unitdate type="inclusive" normal="1993">1993</unitdate>
+        <container label="unspecified" type="box">4</container>
+ <unitdate normal="1993" type="inclusive">1993</unitdate>
         <unittitle>Index and handwritten genealogy</unittitle>
        <origination label="Creator"><persname>Howe, Harlan L.</persname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Fowler and Wells family letters (c. 113 - primarily from Charlotte Fowler Wells to Paul Howe) and envelopes</unittitle>
        </did>
@@ -356,7 +350,7 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Copies of obituaries of Charlotte Fowler Wells and Lydia Folger Fowler</unittitle>
        </did>
@@ -365,8 +359,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">9</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">9</container>
  <unitdate>Undated</unitdate>
         <unittitle>Undated and Miscellaneous</unittitle>
        </did>
@@ -374,7 +368,7 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
  <unitdate>Undated</unitdate>
         <unittitle>Phrenological Dictionary</unittitle>
        <origination label="Creator"><persname>Fowler, Lorenzo </persname></origination> 
@@ -384,7 +378,7 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
  <unitdate>Undated</unitdate>
         <unittitle>Professor Lorenzo Fowler - A biographical Sketch also includes Facts About Mesmerism</unittitle>
        <origination label="Creator"><persname>Fowler, Lorenzo</persname></origination> 
@@ -393,38 +387,38 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">2</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">2</container>
  <unitdate>Undated</unitdate>
         <unittitle>Papers</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">3</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">3</container>
  <unitdate>Undated</unitdate>
         <unittitle>Papers</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">4</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Miscellaneous</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Typescript transcripts</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Letter from Horace Greeley to Dr. Almira L. Fowler</unittitle>
        <origination label="Creator"><persname>Greeley, Horace</persname></origination> 
@@ -434,14 +428,14 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Typescript transcript copies of phrenological descriptions</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Copy of will of Charlotte Fowler Howe</unittitle>
        <origination label="Creator"><persname>Fowler Howe, Charlotee</persname></origination> 
@@ -449,7 +443,7 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Howe-Fowler family letters</unittitle>
        </did>
@@ -458,21 +452,21 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Bound volume of transcribed letters</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
  <unitdate>Undated</unitdate>
         <unittitle>Phrenological studies</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
  <unitdate>Undated</unitdate>
         <unittitle>Clippings</unittitle>
        </did>
@@ -485,24 +479,24 @@ Fax: (607) 255-9524<lb/>
        <arrangement><p>Arranged by physical location.</p></arrangement>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">10</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">10</container>
  <unitdate>Undated</unitdate>
         <unittitle>11 Photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">11</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">11</container>
  <unitdate>Undated</unitdate>
         <unittitle>6 Engravings and 2 Photographs of Engravings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">2</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">2</container>
  <unitdate>Undated</unitdate>
         <unittitle>Group photograph including Mrs. Wells, as indicated on reverse</unittitle>
        </did>
@@ -510,24 +504,24 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">3</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">3</container>
  <unitdate>Undated</unitdate>
         <unittitle>5 photographs (plus 1 duplicate)</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">4</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>5 photographs (3 of S.R. Wells)</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">5</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">5</container>
  <unitdate>Undated</unitdate>
         <unittitle>Group photograph including Mrs. Wells, as indicated on reverse</unittitle>
        </did>
@@ -535,8 +529,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">5</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">5</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs</unittitle>
        </did>
@@ -544,8 +538,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">6</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">6</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs</unittitle>
        </did>
@@ -553,8 +547,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">7</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">7</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs</unittitle>
        </did>
@@ -562,8 +556,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">8</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">8</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs (3)</unittitle>
        </did>
@@ -571,8 +565,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">9</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">9</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs</unittitle>
        </did>
@@ -580,8 +574,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">10</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">10</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs</unittitle>
        </did>
@@ -590,8 +584,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">11</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">11</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs</unittitle>
        </did>
@@ -599,8 +593,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">12</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">12</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs</unittitle>
        </did>
@@ -608,8 +602,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">13</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">13</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs</unittitle>
        </did>
@@ -617,8 +611,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">14</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">14</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs</unittitle>
        </did>
@@ -626,8 +620,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">15</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">15</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs</unittitle>
        </did>
@@ -635,8 +629,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">16</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">16</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs</unittitle>
        </did>
@@ -644,8 +638,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">17</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">17</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photograph, group</unittitle>
        </did>
@@ -654,8 +648,8 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">18</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">18</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photograph, 5 persons (Office group)</unittitle>
        </did>
@@ -663,7 +657,7 @@ Fax: (607) 255-9524<lb/>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs</unittitle>
        </did>
@@ -671,5 +665,8 @@ Fax: (607) 255-9524<lb/>
    </c01>
          
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Fowler and Wells families papers, #97. Division of Rare and Manuscript Collections, Cornell University Library.</p>
+         </prefercite><relatedmaterial><p>A PDF with additional details is available upon request.</p></relatedmaterial></archdesc>
 </ead>

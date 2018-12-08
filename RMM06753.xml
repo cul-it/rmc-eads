@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM0::)//EN">RMM06753</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM0::)//EN">RMM06753</eadid>
     
     <filedesc> 
       <titlestmt> 
@@ -26,22 +26,28 @@
       <creation>Finding aid encoded by Evan Fay Earle, 
         <date>April 2009</date></creation> 
     </profiledesc> 
-  </eadheader> 
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader> 
   <frontmatter> 
     <titlepage> 
-      <titleproper>Guide to the Derek Shearer Papers,<lb/> 
-        <date type="inclusive" encodinganalog="245$f">1972-2005.</date></titleproper> 
+      <titleproper>Guide to the Derek Shearer Papers, 
+        <date encodinganalog="245$f" type="inclusive">1972-2005.</date></titleproper> 
       <num>Collection Number: 6753</num> 
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+      <publisher>Division of Rare and Manuscript Collections Cornell
         University Library</publisher> 
       <list type="deflist"> 
         <defitem> 
           <label>Contact Information:</label> 
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-            Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/> 
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/> 
-            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A.
+            Kroch Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524 
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
+            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
           
         </defitem> 
         <defitem> 
@@ -64,14 +70,16 @@
   <archdesc level="collection"> 
     <did> 
       <head id="a1">DESCRIPTIVE SUMMARY</head> 
-      <unittitle label="Title:" encodinganalog="MARC 245">Derek Shearer papers,
+      <unittitle encodinganalog="MARC 245" label="Title:">Derek Shearer papers,
         
-        <unitdate encodinganalog="MARC 245" type="inclusive">1972-2005.</unitdate> </unittitle> 
+        </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1972-2005.</unitdate> 
       <unitid label="Collection Number:">6753</unitid> 
       <origination label="Creator:"> 
         <persname encodinganalog="100" normal="Shearer, Derek. ">Derek. Shearer
           </persname></origination> 
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1 cubic
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>1 cubic
         ft.</extent></physdesc> 
       <physdesc label="Forms of Material:">Printed Materials, Publications,
         Reports, Research Materials</physdesc> 
@@ -99,14 +107,7 @@
           Monica.</subject> 
       </controlaccess> 
     </controlaccess> 
-    <descgrp> 
-      <head id="a8">INFORMATION FOR USERS</head> 
-      <prefercite> 
-        <head>Cite As:</head> 
-        <p>Derek Shearer papers, #6753. Division of Rare and Manuscript
-          Collections, Cornell University Library.</p> 
-      </prefercite> 
-    </descgrp> 
+     
     <odd type="notes"> 
       <head id="a5">NOTES</head> 
       <p>Forms part of Progressive Cities and Neighborhood Planning
@@ -116,8 +117,8 @@
       <head>CONTAINER LIST</head> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">1</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">1</container> 
           <unitdate>November 1, 1983</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>City of Santa Monica
@@ -128,8 +129,8 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">2</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">2</container> 
           <unitdate>October 23, 1984</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>City of Santa Monica
@@ -140,8 +141,8 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">3</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">3</container> 
           <unitdate>1983</unitdate> 
           <unittitle> 
             <persname>Appelbaum, Richard P.; Gilderbloom, John.
@@ -152,9 +153,9 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">3</container> 
-          <unitdate>c.1983</unitdate> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">3</container> 
+          <unitdate certainty="approximate">1983</unitdate> 
           <unittitle> 
             <persname>Johnston, Robert A.; Schwartz, Seymour I..
               </persname>Inclusionary Housing Programs. (1983) [journal name not
@@ -164,9 +165,9 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">3</container> 
-          <unitdate>c. 1984</unitdate> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">3</container> 
+          <unitdate certainty="approximate">1984</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>Santa Monica Real Estate
             Trends - A Report on 1984, A Forecast for 1985. Santa Monica: Museli Commercial
@@ -176,8 +177,8 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">3</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">3</container> 
           <unitdate>March 7, 1986</unitdate> 
           <unittitle> 
             <persname>Capek, Stella. </persname>Tenant Organizations and Urban
@@ -188,8 +189,8 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">3</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">3</container> 
           <unitdate>July 1983</unitdate> 
           <unittitle> 
             <persname>Daykin, David S.. </persname>The Limits to Neighborhood
@@ -200,8 +201,8 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">4,5,6,7</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">4,5,6,7</container> 
           <unitdate>August 1, 1980</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>Urban Self Management in
@@ -216,8 +217,8 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">8</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">8</container> 
           <unitdate>July 2005</unitdate> 
           <unittitle> 
             <persname>multiple. </persname>The Derek Shearer Archive Collection
@@ -228,8 +229,8 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">8</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">8</container> 
           <unitdate>July 1972</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>Derek Shearer Planning
@@ -240,9 +241,9 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">10</container> 
-          <unitdate>c. 1984</unitdate> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">10</container> 
+          <unitdate certainty="approximate">1984</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>Guidebook for Home-Energy
             Fitness. Santa Monica: Energy Fitness Program, 1984</unittitle> 
@@ -254,9 +255,9 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">9</container> 
-          <unitdate>c. 1980</unitdate> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">9</container> 
+          <unitdate certainty="approximate">1980</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>Santa Monica Neighborhood
             Census 1980. </unittitle> 
@@ -268,8 +269,8 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">10</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">10</container> 
           <unitdate>February 1983</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>Guide to Property
@@ -280,8 +281,8 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">11</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">11</container> 
           <unitdate>1982 - 2000</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>City of Santa Monica Land
@@ -291,8 +292,8 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">10</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">10</container> 
           <unitdate>[no date provided]</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>Join Your Neighbors…Santa
@@ -305,9 +306,9 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">10</container> 
-          <unitdate>c. 1983</unitdate> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">10</container> 
+          <unitdate certainty="approximate">1983</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>How to Qualify for Home
             Weatherization. Southern California Gas Company, 1983.</unittitle> 
@@ -320,9 +321,9 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">12</container> 
-          <unitdate>c. 1985</unitdate> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">12</container> 
+          <unitdate certainty="approximate">1985</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>From the Studio to the
             Street: Proceedings of a Forum for Public Art and Update on Santa Monica's
@@ -332,9 +333,9 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">13</container> 
-          <unitdate>c. 1983</unitdate> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">13</container> 
+          <unitdate certainty="approximate">1983</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>Santa Monica Pier
             Guidelines. 1983.</unittitle> 
@@ -347,8 +348,8 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">15</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">15</container> 
           <unitdate>June 1981</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>Cooperative Conversion
@@ -362,8 +363,8 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">14</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">14</container> 
           <unitdate>March 1982</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>Review of California
@@ -377,8 +378,8 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">10</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">10</container> 
           <unitdate>April 1981</unitdate> 
           <unittitle> 
             <persname>[no author provided] </persname>Santa Monica Rent
@@ -392,8 +393,8 @@
       </c01> 
       <c01 level="item"> 
         <did> 
-          <container type="box">1</container> 
-          <container type="folder">13</container> 
+          <container label="unspecified" type="box">1</container> 
+          <container label="unspecified" type="folder">13</container> 
           <unitdate>May 1980</unitdate> 
           <unittitle> 
             <persname>Gilderbloom, John. </persname>Moderate Rent Control - The
@@ -406,5 +407,9 @@
         </scopecontent> 
       </c01> 
     </dsc> 
-  </archdesc> 
+  <prefercite> 
+        <head>Cite As:</head> 
+        <p>Derek Shearer papers, #6753. Division of Rare and Manuscript
+          Collections, Cornell University Library.</p> 
+      </prefercite></archdesc> 
 </ead>

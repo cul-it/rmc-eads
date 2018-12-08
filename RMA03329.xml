@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03329::James Law papers)//EN">RMA03329</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03329::James Law papers)//EN">RMA03329</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the James Law Papers, 1862-1914 (bulk 1895-1908)</titleproper>
@@ -32,6 +31,12 @@
          </langusage>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -40,19 +45,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the James Law Papers, <lb/>1862-1914 (bulk 1895-1908)</titleproper>
+         <titleproper>Guide to the James Law Papers, 1862-1914 (bulk 1895-1908)</titleproper>
          <num>Collection Number: 24-1-3329</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -77,14 +82,12 @@
    <archdesc level="collection">
       <did>
          <head>DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:">James Law papers, <unitdate type="inclusive">1862-1914 </unitdate>
-            <unitdate type="bulk">(bulk 1895-1908)</unitdate>
-         </unittitle>
+         <unittitle label="Title:">James Law papers, </unittitle><unitdate type="inclusive">1862-1914 </unitdate><unitdate type="bulk">(bulk 1895-1908)</unitdate>
          <unitid label="Collection Number:">24-1-3329</unitid>
          <origination label="Creator:">
             <persname normal="[give the MARC presentation of creator here, i.e., surname first; include dates]">Law, James, 1838-1921.</persname>
          </origination>
-         <physdesc label="Quantity:"><extent>1 cubic foot</extent></physdesc>
+         <physdesc label="Quantity:"><extent>1 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence.</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
             University Library</repository>
@@ -115,7 +118,7 @@
          <p>For more biographical information about James Law, see the essay in <extref href="http://www.anb.org/articles/index.html" show="new"> American National
                Biography</extref> as well as Ellis Leonard's description in <title>A Cornell
                Heritage</title>.</p>
-         <p/>
+         
       </bioghist>
       <scopecontent>
          <head>COLLECTION DESCRIPTION</head>
@@ -153,19 +156,7 @@
             <subject encodinganalog="MARC 650">Veterinary medicine--Study and teaching.</subject>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head>INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>James Law papers, #24-1-3329. Division of Rare and Manuscript Collections, Cornell
-               University Library.</p>
-         </prefercite>
-         <acqinfo>
-            <head>PROVENANCE</head>
-            <p>This collection was removed from the <extref href="http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMA00119" show="new">Veranus A. Moore papers</extref> during processing in 2003-2004. See
-               the Collection Arrangement note in that guide for further explanation.</p>
-         </acqinfo>
-      </descgrp>
+      
       <relatedmaterial>
          <head>RELATED MATERIAL</head>
          <p>RMC Collection # 24-1-119. <extref href="http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMA00119" show="new">Veranus A. Moore papers</extref>
@@ -182,60 +173,60 @@
          <head>CONTAINER LIST</head>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">1</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">1</container>
                <unittitle>Biography</unittitle>
                <unitdate> 1905-1909</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">2</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">2</container>
                <unittitle>Incoming Correspondence</unittitle>
                <unitdate> 1895-1908</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">3</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">3</container>
                <unittitle>Outgoing Correspondence</unittitle>
                <unitdate> 1884, 1896-1908, 1914, n.d.</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">4</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">4</container>
                <unittitle>Miscellaneous</unittitle>
                <unitdate> 1885, n.d.</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
+               <container label="unspecified" type="box">2</container>
                <unittitle> 2 Notebooks</unittitle>
                <unitdate> n.d.</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
+               <container label="unspecified" type="box">2</container>
                <unittitle>Loose Notes</unittitle>
                <unitdate> n.d.</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>James Law's Microscope</unittitle>
                <unitdate>1862</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>Woodcuts from book "The Farmer's Veterinary Advisor: A Guide to the
                   Treatment of Disease in Domestic Animals"</unittitle>
                <unitdate>1876</unitdate>
@@ -243,14 +234,14 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>Two cooper print wooden block photo negatives of James Law</unittitle>
                <unitdate>Undated</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
+               <container label="unspecified" type="box">4</container>
                <unitid>MU-1509</unitid>
                <unittitle>Paper Mache Horse Leg Model</unittitle>
                <unitdate>Undated</unitdate>
@@ -260,5 +251,13 @@
                the anatomy of the horse.</p></scopecontent>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>James Law papers, #24-1-3329. Division of Rare and Manuscript Collections, Cornell
+               University Library.</p>
+         </prefercite><acqinfo>
+            <head>PROVENANCE</head>
+            <p>This collection was removed from the <extref href="http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMA00119" show="new">Veranus A. Moore papers</extref> during processing in 2003-2004. See
+               the Collection Arrangement note in that guide for further explanation.</p>
+         </acqinfo></archdesc>
 </ead>

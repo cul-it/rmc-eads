@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead>
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01433::Department of Landscape Architecture design problems)//EN">RMA01433</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01433::Department of Landscape Architecture design problems)//EN">RMA01433</eadid>
   <filedesc>
     <titlestmt>
       <titleproper>Guide to the Department of Landscape Architecture design problems, <date>1924-1940.</date></titleproper>
@@ -15,7 +15,7 @@
     <notestmt>
       <note audience="internal">
         <p>
-           <subject/>
+           
         </p>
       </note>
     </notestmt>
@@ -23,16 +23,22 @@
   <profiledesc>
     <creation>Finding aid encoded by RMC Staff, <date>October 2018</date></creation>
   </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
            <titlepage>
-                   <titleproper>Guide to the Department of Landscape Architecture design problems, <lb/><date type="inclusive" encodinganalog="245$f">1924-1940.</date></titleproper>
+                   <titleproper>Guide to the Department of Landscape Architecture design problems, <date encodinganalog="245$f" type="inclusive">1924-1940.</date></titleproper>
            <num>Collection Number: 15-5-1433</num>
-           <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+           <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
            <list type="deflist">
                    <defitem>
                            <label>Contact Information:</label>
-                           <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+                           <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
                    </defitem>
                    <defitem>
                            <label>Compiled by:</label>
@@ -57,14 +63,15 @@
   <archdesc level="collection">
     <did>
             <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245">Department of Landscape Architecture design problems,
-            <unitdate encodinganalog="MARC 245" type="inclusive">1924-1940.</unitdate>
-            </unittitle>
+            <unittitle encodinganalog="MARC 245" label="Title:">Department of Landscape Architecture design problems,
+            </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1924-1940.</unitdate>
             <unitid label="Collection Number:">15-5-1433</unitid>
             <origination label="Creator:">
                     <corpname encodinganalog="110" normal="Cornell University. Department of Landscape Architecture. ">Cornell University. Department of Landscape Architecture. </corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1 cubic ft., 4 map case drawers.</extent></physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>1 cubic ft., 4 map case drawers.</extent></physdesc>
            
             <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
             <abstract label="Abstract:">Exchange problems between Cornell and other universities, and landscape problems set by Bryant Fleming and Eugene D. Montillon; survey data and planting plans, 1908-1921; student projects, 1913-1931; student work for the American Academy in Rome by Edward Lawson, R. E. Griswold, and others; files on New York State institutions used as study data, 1898-1933; plans and measured drawings of historic estates by E. Gorton Davis, 1914-1929.</abstract>
@@ -94,30 +101,23 @@
       <subject encodinganalog="MARC 650">Landscape architecture --  Study and teaching</subject>
     </controlaccess>
   </controlaccess>
-    <descgrp>
-           <head id="a8">INFORMATION FOR USERS</head>
-                  <prefercite>
-                          <head>Cite As:</head>
-                                   <p>Department of Landscape Architecture Design Problems, #15-5-1433.  Division of Rare and Manuscript Collections, Cornell University Library.
-                                   </p>
-                  </prefercite>
-    </descgrp>
+    
              <arrangement>
              <head>SERIES LIST</head>
              <p> <emph render="bold">
-             <ref target="s1" show="replace" actuate="onrequest">Series I.  Design Problems, Survey Data</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s1">Series I.  Design Problems, Survey Data</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s2" show="replace" actuate="onrequest">Series II. Students' Work</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s2">Series II. Students' Work</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s3" show="replace" actuate="onrequest">Series III. Student Work of and for the American Academy in Rome</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s3">Series III. Student Work of and for the American Academy in Rome</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s4" show="replace" actuate="onrequest">Series IV. New York State Institutions</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s4">Series IV. New York State Institutions</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s5" show="replace" actuate="onrequest">Series V. E. Gorton Davis and others</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s5">Series V. E. Gorton Davis and others</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s6" show="replace" actuate="onrequest">Series VI.  Measured drawings of Italian villas</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s6">Series VI.  Measured drawings of Italian villas</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s7" show="replace" actuate="onrequest">Series VII. Other Material</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s7">Series VII. Other Material</ref> </emph>  </p>
              </arrangement>
     <dsc type="combined">
       <head>CONTAINER LIST</head>
@@ -128,133 +128,133 @@
         <userestrict><p>Use Restrictions</p></userestrict> 
       <c02 level="item">
        <did>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1917/1921">Expression</unitdate>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1917/1921" type="inclusive">Expression</unitdate>
         <unittitle>Survey data landscape design problem</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1921">1921</unitdate>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1921" type="inclusive">1921</unitdate>
         <unittitle>Survey data landscape design problem</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1921">1921</unitdate>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1921" type="inclusive">1921</unitdate>
         <unittitle>Landscape design problem survey</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1912">1912</unitdate>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1912" type="inclusive">1912</unitdate>
         <unittitle>Design problem department LA rural community center</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">2</container>
+        <container label="unspecified" type="folder">2</container>
  <unitdate>Undated</unitdate>
         <unittitle>Planting details problem 8</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">3</container>
- <unitdate type="inclusive" normal="1913">1913</unitdate>
+        <container label="unspecified" type="folder">3</container>
+ <unitdate normal="1913" type="inclusive">1913</unitdate>
         <unittitle>Township of Gouverneur, NY, CULA dept.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">3</container>
+        <container label="unspecified" type="folder">3</container>
  <unitdate>Undated</unitdate>
         <unittitle>Township of Gouverneur</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1916">1916</unitdate>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1916" type="inclusive">1916</unitdate>
         <unittitle>Survey data design problem</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1916">1916</unitdate>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1916" type="inclusive">1916</unitdate>
         <unittitle>Senior design problem survey data</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">5</container>
- <unitdate type="inclusive" normal="1914/1921">1914-1921</unitdate>
+        <container label="unspecified" type="folder">5</container>
+ <unitdate normal="1914/1921" type="inclusive">1914-1921</unitdate>
         <unittitle>Senior, junior, and sophomore design sketch problems</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1916">1916</unitdate>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1916" type="inclusive">1916</unitdate>
         <unittitle>Planting plan with prices from Eastern Nurseries, Jamaica Plain, Mass and Bay State Nurseries, North Avington, Mass, EE Long</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">2</container>
+        <container label="unspecified" type="folder">2</container>
  <unitdate>Undated</unitdate>
         <unittitle>Recreation Park outline planting plan Problem 3 Course 17</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">2</container>
+        <container label="unspecified" type="folder">2</container>
  <unitdate>Undated</unitdate>
         <unittitle>Survey data sketch senior design problem Ward "Hillside" Wyoming, NY</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">2</container>
+        <container label="unspecified" type="folder">2</container>
  <unitdate>Undated</unitdate>
         <unittitle>Planting plan for J.H. Robertson, Detroit, Michigan. Problem 2 course 17</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">4</container>
- <unitdate type="inclusive" normal="1914">1914</unitdate>
+        <container label="unspecified" type="folder">4</container>
+ <unitdate normal="1914" type="inclusive">1914</unitdate>
         <unittitle>Study data plot plan relocation of roads, Rome Custodial Asylum, NY</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">4</container>
+        <container label="unspecified" type="folder">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs of Buttermilk Wading Pool Project</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1908">1908</unitdate>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1908" type="inclusive">1908</unitdate>
         <unittitle>Survey data Cascadilla Creek</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1910">1910</unitdate>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Survey data Six Mile Creek</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">2</container>
+        <container label="unspecified" type="folder">2</container>
  <unitdate>Undated</unitdate>
         <unittitle>Survey of Six Mile Creek watershed</unittitle>
        </did>
@@ -266,189 +266,189 @@
        </did>
       <c02 level="item">
        <did>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1916">1916</unitdate>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1916" type="inclusive">1916</unitdate>
         <unittitle>Bryant, M.W</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1922">1922</unitdate>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1922" type="inclusive">1922</unitdate>
         <unittitle>Cooley, C.R.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1913">1913</unitdate>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1913" type="inclusive">1913</unitdate>
         <unittitle>Clarke, G.D.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">7</container>
- <unitdate type="inclusive" normal="1916">1916</unitdate>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1916" type="inclusive">1916</unitdate>
         <unittitle>Davis, F.A.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">9</container>
+        <container label="unspecified" type="folder">9</container>
  <unitdate>Undated</unitdate>
         <unittitle>Davis, L.W.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">8</container>
+        <container label="unspecified" type="folder">8</container>
  <unitdate>Undated</unitdate>
         <unittitle>Faulhaber, F.A.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">7</container>
- <unitdate type="inclusive" normal="1919">1919</unitdate>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1919" type="inclusive">1919</unitdate>
         <unittitle>Fuller, J.E.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1921">1921</unitdate>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1921" type="inclusive">1921</unitdate>
         <unittitle>Gardner, J.C.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">6, 8</container>
- <unitdate type="inclusive" normal="1916">1916</unitdate>
+        <container label="unspecified" type="folder">6, 8</container>
+ <unitdate normal="1916" type="inclusive">1916</unitdate>
         <unittitle>Griswold, R.E.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1916">1916</unitdate>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1916" type="inclusive">1916</unitdate>
         <unittitle>Halsted, R.M.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1916">1916</unitdate>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1916" type="inclusive">1916</unitdate>
         <unittitle>Hartjoy, Jr.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1916">1916</unitdate>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1916" type="inclusive">1916</unitdate>
         <unittitle>Hoffman, A.P.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1922">1922</unitdate>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1922" type="inclusive">1922</unitdate>
         <unittitle>Huls, R.T.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">6</container>
- <unitdate type="inclusive" normal="1931">1931</unitdate>
+        <container label="unspecified" type="folder">6</container>
+ <unitdate normal="1931" type="inclusive">1931</unitdate>
         <unittitle>Lister, J.M.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1922">1922</unitdate>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1922" type="inclusive">1922</unitdate>
         <unittitle>Merrill, H.A.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">7</container>
+        <container label="unspecified" type="folder">7</container>
  <unitdate>Undated</unitdate>
         <unittitle>Newton, N.J.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1916">1916</unitdate>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1916" type="inclusive">1916</unitdate>
         <unittitle>Raymore, H.B.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1921">1921</unitdate>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1921" type="inclusive">1921</unitdate>
         <unittitle>Sandford, H.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">9</container>
+        <container label="unspecified" type="folder">9</container>
  <unitdate>Undated</unitdate>
         <unittitle>Schultheis, Henry</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1916">1916</unitdate>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1916" type="inclusive">1916</unitdate>
         <unittitle>Spalding, Helen</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">7</container>
+        <container label="unspecified" type="folder">7</container>
  <unitdate>Undated</unitdate>
         <unittitle>Strong, H.H.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">6, 7</container>
- <unitdate type="inclusive" normal="1917">1917</unitdate>
+        <container label="unspecified" type="folder">6, 7</container>
+ <unitdate normal="1917" type="inclusive">1917</unitdate>
         <unittitle>Tapscott, K.A.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">7, 9</container>
- <unitdate type="inclusive" normal="1921">1921</unitdate>
+        <container label="unspecified" type="folder">7, 9</container>
+ <unitdate normal="1921" type="inclusive">1921</unitdate>
         <unittitle>Tonow, P.T.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">7</container>
- <unitdate type="inclusive" normal="1919">1919</unitdate>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1919" type="inclusive">1919</unitdate>
         <unittitle>Wiedorn, W.S.</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1913">1913</unitdate>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1913" type="inclusive">1913</unitdate>
         <unittitle>Survey of Cayuga Lake</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1926">1926</unitdate>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1926" type="inclusive">1926</unitdate>
         <unittitle>Suggested development of entrance to Cascadilla Gorge</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">9</container>
+        <container label="unspecified" type="folder">9</container>
  <unitdate>Undated</unitdate>
         <unittitle>Unidentified</unittitle>
        </did>
@@ -460,36 +460,36 @@
        </did>
       <c02 level="item">
        <did>
-        <container type="folder">10</container>
+        <container label="unspecified" type="folder">10</container>
  <unitdate>Undated</unitdate>
         <unittitle>Lawson, Edward. Villa Gamberaia at Settignano, Planting plan</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">10</container>
+        <container label="unspecified" type="folder">10</container>
  <unitdate>Undated</unitdate>
         <unittitle>Lawson, Edward. Villa Medici at Rome</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">10</container>
- <unitdate type="inclusive" normal="1920">1920</unitdate>
+        <container label="unspecified" type="folder">10</container>
+ <unitdate normal="1920" type="inclusive">1920</unitdate>
         <unittitle>Griswold, R.E., Smith, F.M., White, S. Submission for competition fellowship at the American Academy in Rome</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">10</container>
+        <container label="unspecified" type="folder">10</container>
  <unitdate>Undated</unitdate>
         <unittitle>Doorway of Papa Guilio by Vignola</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">10</container>
- <unitdate type="inclusive" normal="1922">1922</unitdate>
+        <container label="unspecified" type="folder">10</container>
+ <unitdate normal="1922" type="inclusive">1922</unitdate>
         <unittitle>Villa Torlonia Frascati</unittitle>
        </did>
            </c02>
@@ -500,57 +500,57 @@
        </did>
       <c02 level="item">
        <did>
-        <container type="folder">11</container>
- <unitdate type="inclusive" normal="1914/1915">1914-1915</unitdate>
+        <container label="unspecified" type="folder">11</container>
+ <unitdate normal="1914/1915" type="inclusive">1914-1915</unitdate>
         <unittitle>Delhi Agricultural School</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">12</container>
+        <container label="unspecified" type="folder">12</container>
  <unitdate>Undated</unitdate>
         <unittitle>Bathouse on Eastern State Parkway</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">11</container>
- <unitdate type="inclusive" normal="1911">1911</unitdate>
+        <container label="unspecified" type="folder">11</container>
+ <unitdate normal="1911" type="inclusive">1911</unitdate>
         <unittitle>Morrisville School of Agriculture</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">11, 12</container>
- <unitdate type="inclusive" normal="1933/1935">1933-1935</unitdate>
+        <container label="unspecified" type="folder">11, 12</container>
+ <unitdate normal="1933/1935" type="inclusive">1933-1935</unitdate>
         <unittitle>Mount Morris hospital for the treatment of tuberculosis</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">12</container>
+        <container label="unspecified" type="folder">12</container>
  <unitdate>Undated</unitdate>
         <unittitle>Newark school</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">12</container>
+        <container label="unspecified" type="folder">12</container>
  <unitdate>Undated</unitdate>
         <unittitle>New Paltz school</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">12</container>
- <unitdate type="inclusive" normal="1898">1898</unitdate>
+        <container label="unspecified" type="folder">12</container>
+ <unitdate normal="1898" type="inclusive">1898</unitdate>
         <unittitle>Oxford Women's Relief Corps Home</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">12</container>
- <unitdate type="inclusive" normal="1916">1916</unitdate>
+        <container label="unspecified" type="folder">12</container>
+ <unitdate normal="1916" type="inclusive">1916</unitdate>
         <unittitle>Map of the State of New York showing the Improved Highways and many points of historic interest</unittitle>
        </did>
            </c02>
@@ -561,105 +561,105 @@
        </did>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1916">1916</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1916" type="inclusive">1916</unitdate>
         <unittitle>Ahles, R.L. location survey, East Williston LI</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1914">1914</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1914" type="inclusive">1914</unitdate>
         <unittitle>Comstock, Professor J.H. Ithaca, NY</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1917">1917</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1917" type="inclusive">1917</unitdate>
         <unittitle>Littlejohn, R.M., LI</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1917">1917</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1917" type="inclusive">1917</unitdate>
         <unittitle>Munson Edgar Planting Plan, Williamsport PA</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1914">1914</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1914" type="inclusive">1914</unitdate>
         <unittitle>Rathbone, J. Arnot, Elmira</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1920">1920</unitdate>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1920" type="inclusive">1920</unitdate>
         <unittitle>Grand Lodge Home and Orphanage Group Plan</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1927">1927</unitdate>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1927" type="inclusive">1927</unitdate>
         <unittitle>Grampian, house at, Williamsport PA</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
+        <container label="unspecified" type="folder">14</container>
  <unitdate>Undated</unitdate>
         <unittitle>Illustration various arrangements of planting</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
+        <container label="unspecified" type="folder">14</container>
  <unitdate>Undated</unitdate>
         <unittitle>Arrangement for small town property</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
+        <container label="unspecified" type="folder">13</container>
  <unitdate>Undated</unitdate>
         <unittitle>Untitled survey drawing</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
+        <container label="unspecified" type="folder">13</container>
  <unitdate>Undated</unitdate>
         <unittitle>Property of Mrs. AW Sumner, Moorestown, NJ</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
+        <container label="unspecified" type="folder">13</container>
  <unitdate>Undated</unitdate>
         <unittitle>Master Development plan, Blue Ridge parkway and parks</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
+        <container label="unspecified" type="folder">13</container>
  <unitdate>Undated</unitdate>
         <unittitle>Plan of a garden, after the garden of Mrs. Herbert Pratt, Glen Cove, LI</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
+        <container label="unspecified" type="folder">13</container>
  <unitdate>Undated</unitdate>
         <unittitle>Plan of a small property</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
+        <container label="unspecified" type="folder">14</container>
  <unitdate>Undated</unitdate>
         <unittitle>Annapolis, Md. Rideout House</unittitle>
        </did>
@@ -667,22 +667,22 @@
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13, 14</container>
- <unitdate type="inclusive" normal="1919">1919</unitdate>
+        <container label="unspecified" type="folder">13, 14</container>
+ <unitdate normal="1919" type="inclusive">1919</unitdate>
         <unittitle>Ashland, Lexington KY, Res. Of Henry Clay</unittitle>
        </did>
        <scopecontent><p>Measured by: E.G. Davis</p></scopecontent>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
+        <container label="unspecified" type="folder">14</container>
  <unitdate>Undated</unitdate>
         <unittitle>Babbit House, Bristol, RI</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
+        <container label="unspecified" type="folder">14</container>
  <unitdate>Undated</unitdate>
         <unittitle>Brandon on the James River, VA</unittitle>
        </did>
@@ -690,37 +690,37 @@
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1929">1929</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1929" type="inclusive">1929</unitdate>
         <unittitle>Cambridge, MD, old res.</unittitle>
        </did>
        <scopecontent><p>Measured by: E.G. Davis</p></scopecontent>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1929">1929</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1929" type="inclusive">1929</unitdate>
         <unittitle>Fredericksburg, VA, Martha Washington House, sundial from</unittitle>
        </did>
        <scopecontent><p>Measured by: E.G. Davis</p></scopecontent>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
+        <container label="unspecified" type="folder">13</container>
  <unitdate>Undated</unitdate>
         <unittitle>Fredericksburg, VA, Colonel Fielding Lewis 1749</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
+        <container label="unspecified" type="folder">13</container>
  <unitdate>Undated</unitdate>
         <unittitle>Georgian House</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
+        <container label="unspecified" type="folder">14</container>
  <unitdate>Undated</unitdate>
         <unittitle>Hampton, NY, box garden</unittitle>
        </did>
@@ -728,112 +728,112 @@
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
+        <container label="unspecified" type="folder">13</container>
  <unitdate>Undated</unitdate>
         <unittitle>Laurens Ante-Bellum property</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1922">1922</unitdate>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1922" type="inclusive">1922</unitdate>
         <unittitle>Lower Brandon, James River, VA</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1922">1922</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1922" type="inclusive">1922</unitdate>
         <unittitle>Manice Estate Queens, LI, 1830</unittitle>
        </did>
        <scopecontent><p>Measured by: J.V.L.</p></scopecontent>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1922">1922</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1922" type="inclusive">1922</unitdate>
         <unittitle>Marmion near Shiloh, King George County, VA, 1672</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1925">1925</unitdate>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1925" type="inclusive">1925</unitdate>
         <unittitle>Middleton Place on the Ashley near Charleston, SC</unittitle>
        </did>
        <scopecontent><p>Measured by: W.B. Gerhart</p></scopecontent>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
+        <container label="unspecified" type="folder">14</container>
  <unitdate>Undated</unitdate>
         <unittitle>Myrtle Grove, Easton, MD</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1929">1929</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1929" type="inclusive">1929</unitdate>
         <unittitle>New Castle, Delaware, George Read Res.</unittitle>
        </did>
        <scopecontent><p>Measured by: E.G. Davis</p></scopecontent>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1929">1929</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1929" type="inclusive">1929</unitdate>
         <unittitle>Oxmoor Estate of the Bullitt family, Jefferson KY</unittitle>
        </did>
        <scopecontent><p>This drawing was used in an article by E. Gorton Davis entitled "An Example of Early American Landscape Architecture", in American Landscape Architect, December 1929</p></scopecontent>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1929">1929</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1929" type="inclusive">1929</unitdate>
         <unittitle>Port Royal, VA, old res.</unittitle>
        </did>
        <scopecontent><p>Measured by: E.G. Davis</p></scopecontent>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1922">1922</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1922" type="inclusive">1922</unitdate>
         <unittitle>Ratcliffe Manor, Easton, MD</unittitle>
        </did>
        <scopecontent><p>Measured by: E.A. Piester</p></scopecontent>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1922">1922</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1922" type="inclusive">1922</unitdate>
         <unittitle>Sabine Hall, Warsaw, VA</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1915">1915</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1915" type="inclusive">1915</unitdate>
         <unittitle>Shirley Plan of a Colonial Estate on the James River, VA</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1922">1922</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1922" type="inclusive">1922</unitdate>
         <unittitle>Stratford, VA</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13, 14</container>
+        <container label="unspecified" type="folder">13, 14</container>
  <unitdate>Undated</unitdate>
         <unittitle>Sylvester Manor, 1744</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1922">1922</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1922" type="inclusive">1922</unitdate>
         <unittitle>Westover, Roxbury, VA, sketch plan of on the James River</unittitle>
        </did>
        <scopecontent><p>Measured by: E.G. Davis and others</p></scopecontent>
@@ -845,50 +845,50 @@
        </did>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1921">1921</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1921" type="inclusive">1921</unitdate>
         <unittitle>Villa Palmieri Florence</unittitle>
        </did>
        <scopecontent><p>Measured by: Raymond W. Blanchard</p></scopecontent>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1922">1922</unitdate>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1922" type="inclusive">1922</unitdate>
         <unittitle>Villa Plinina Lake Como</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
+        <container label="unspecified" type="folder">13</container>
  <unitdate>Undated</unitdate>
         <unittitle>Peretti Palace, Rome</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
+        <container label="unspecified" type="folder">13</container>
  <unitdate>Undated</unitdate>
         <unittitle>Villa Medici Roma, 1909</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
+        <container label="unspecified" type="folder">13</container>
  <unitdate>Undated</unitdate>
         <unittitle>Stucco details in bedroom Pompeii, 200 BCE</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">13</container>
+        <container label="unspecified" type="folder">13</container>
  <unitdate>Undated</unitdate>
         <unittitle>Villa Cicogna</unittitle>
        </did>
            </c02>
       <c02 level="item">
        <did>
-        <container type="folder">1</container>
+        <container label="unspecified" type="folder">1</container>
  <unitdate>Undated</unitdate>
         <unittitle>Garden bed plans</unittitle>
        </did>
@@ -900,12 +900,16 @@
        </did>
       <c02 level="item">
        <did>
-        <container type="mapcase-folder">Frame 1</container>
+        <container label="unspecified" type="mapcase-folder">Frame 1</container>
  <unitdate>Undated</unitdate>
         <unittitle>Portrait of Olaf Brauner</unittitle>
        </did>
        </c02>
    </c01>
     </dsc>
-  </archdesc>
+  <prefercite>
+                          <head>Cite As:</head>
+                                   <p>Department of Landscape Architecture Design Problems, #15-5-1433.  Division of Rare and Manuscript Collections, Cornell University Library.
+                                   </p>
+                  </prefercite></archdesc>
  </ead>

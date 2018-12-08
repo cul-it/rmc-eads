@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08566::Bob Shultz Political Americana collection)//EN">RMM08566</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08566::Bob Shultz Political Americana collection)//EN">RMM08566</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the Bob Shultz Political Americana collection, <date>circa
@@ -25,18 +24,24 @@
   <profiledesc>
    <creation>Finding aid encoded by RMC Staff, <date>June 2018</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the Bob Shultz Political Americana collection,<lb/><date type="inclusive" encodinganalog="245$f">circa 1960-2016</date></titleproper>
+   <titleproper>Guide to the Bob Shultz Political Americana collection,<date encodinganalog="245$f" type="inclusive">circa 1960-2016</date></titleproper>
    <num>Collection Number: 8566</num>
-   <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+   <publisher>Division of Rare and Manuscript Collections Cornell University
     Library</publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell
-      University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+     <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell
+      University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
     </defitem>
     <defitem>
      <label>Compiled by:</label>
@@ -62,16 +67,17 @@
  <archdesc level="collection">
   <did>
    <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245">Bob Shultz Political Americana collection,
-     <unitdate encodinganalog="MARC 245" type="inclusive">circa 1960-2016</unitdate>
-   </unittitle>
+   <unittitle encodinganalog="MARC 245" label="Title:">Bob Shultz Political Americana collection,
+     </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1960-2016</unitdate>
    <unitid label="Collection Number:">8566</unitid>
    <origination label="Creator:">
     <persname encodinganalog="100" normal="Schultz, Robert, 1951- "> Robert, Schultz, 1951-
     </persname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>Circa 23 cubic
-    feet.</extent></physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>Circa 23 cubic
+    feet.</extent></physdesc><physdesc>Extent is approximate.</physdesc>
    <physdesc label="Forms of Material:">Ephemera, posters, printed material, toys, dishes, textiles,
     and buttons.</physdesc>
    <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University
@@ -85,7 +91,7 @@
    </langmaterial>
   </did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+   <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
    <p>Robert (Bob) D. Schultz received is BA (1977) and his MBA (1978) from Cornell University. He
     spent 25 years collecting political campaign memorabilia, primarily from the early 1960s onward.
     He donated his collection to Cornell University Library in 2016.</p>
@@ -141,294 +147,287 @@
     <genreform encodinganalog="MARC 655" source="aat">Ephemera.</genreform>
    </controlaccess>
   </controlaccess>
-  <descgrp>
-   <head id="a8">INFORMATION FOR USERS</head>
-   <prefercite>
-    <head>Cite As:</head>
-    <p>Bob Shultz Political Americana collection, #8566. Division of Rare and Manuscript
-     Collections, Cornell University Library. </p>
-   </prefercite>
-  </descgrp>
+  
   <arrangement>
    <head>SERIES LIST</head>
    <p>
     <emph render="bold">
-     <ref target="s1" show="replace" actuate="onrequest">Series I. Toys and other large election
+     <ref actuate="onrequest" show="replace" target="s1">Series I. Toys and other large election
       ephemera</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s2" show="replace" actuate="onrequest">Series II. Pins and buttons</ref>
+     <ref actuate="onrequest" show="replace" target="s2">Series II. Pins and buttons</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s3" show="replace" actuate="onrequest">Series III. Paper ephemera</ref>
+     <ref actuate="onrequest" show="replace" target="s3">Series III. Paper ephemera</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s4" show="replace" actuate="onrequest">Series IV. Oversized posters and
+     <ref actuate="onrequest" show="replace" target="s4">Series IV. Oversized posters and
       flyers</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s5" show="replace" actuate="onrequest">Series V. Media</ref>
+     <ref actuate="onrequest" show="replace" target="s5">Series V. Media</ref>
     </emph>
-    <lb/>
+    
    </p>
   </arrangement>
   <dsc type="combined">
    <head>CONTAINER LIST</head>
-   <c01 level="series" id="s1">
+   <c01 id="s1" level="series">
     <did>
      <unittitle>Toys and other large election ephemera</unittitle>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1992/2004">1992-2004</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <unitdate certainty="approximate" normal="1992/2004" type="inclusive">1992-2004</unitdate>
       <unittitle>Toys - George W. Bush, John Kerry, Hilary and Bill Clinton</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">2</container>
+      <container label="unspecified" type="box">2</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Toy and dolls from various elections</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">3</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1990/2000">1990-2000</unitdate>
+      <container label="unspecified" type="box">3</container>
+      <unitdate certainty="approximate" normal="1990/2000" type="inclusive">1990-2000</unitdate>
       <unittitle>Dolls and collectibles related to Saddam Hussein, George Bush and Bill
        Clinton</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">4</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1994/2012">1994-2012</unitdate>
+      <container label="unspecified" type="box">4</container>
+      <unitdate certainty="approximate" normal="1994/2012" type="inclusive">1994-2012</unitdate>
       <unittitle>Hats, glasses, pillow from various elections</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">5</container>
-      <unitdate type="inclusive" certainty="Circa" normal="2007/2016">2007-2016</unitdate>
+      <container label="unspecified" type="box">5</container>
+      <unitdate certainty="approximate" normal="2007/2016" type="inclusive">2007-2016</unitdate>
       <unittitle>Toys - George W. Bush, John Kerry, Hillary and Bill Clinton</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">6</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1988/1992">1988-1992</unitdate>
+      <container label="unspecified" type="box">6</container>
+      <unitdate certainty="approximate" normal="1988/1992" type="inclusive">1988-1992</unitdate>
       <unittitle>Slippers - Reagan and George H.W. Bush</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">9</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1980/2000">1980-2000</unitdate>
+      <container label="unspecified" type="box">9</container>
+      <unitdate certainty="approximate" normal="1980/2000" type="inclusive">1980-2000</unitdate>
       <unittitle>Toys - Regan, George H. W. Bush, and Bill Clinton</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">10</container>
+      <container label="unspecified" type="box">10</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Textiles and T-shirts</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">11</container>
+      <container label="unspecified" type="box">11</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Masks - Carter, Reagan, George W. Bush, and Bill Clinton</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">12</container>
+      <container label="unspecified" type="box">12</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Glasses, plates and other fragile items</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">13</container>
+      <container label="unspecified" type="box">13</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Fragile items, bookends, and busts</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">14</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1988/2000">1988-2000</unitdate>
+      <container label="unspecified" type="box">14</container>
+      <unitdate certainty="approximate" normal="1988/2000" type="inclusive">1988-2000</unitdate>
       <unittitle>Various items relating to Bill Clinton, Al Gore, George H.W. Bush and the 200th
        anniversary of the White House</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">15</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1976/1980">1976-1980</unitdate>
+      <container label="unspecified" type="box">15</container>
+      <unitdate certainty="approximate" normal="1976/1980" type="inclusive">1976-1980</unitdate>
       <unittitle>Various items relating to Jimmy Carter</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">16</container>
-      <unitdate type="inclusive" certainty="Circa" normal="2000/2004">2000-2004</unitdate>
+      <container label="unspecified" type="box">16</container>
+      <unitdate certainty="approximate" normal="2000/2004" type="inclusive">2000-2004</unitdate>
       <unittitle>Various items relating to George W. Bush, Kerry, and McCain</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">17</container>
-      <unitdate type="inclusive" certainty="Circa" normal="2012">2012</unitdate>
+      <container label="unspecified" type="box">17</container>
+      <unitdate certainty="approximate" normal="2012" type="inclusive">2012</unitdate>
       <unittitle>Various items relating to Romney and Obama</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">18</container>
+      <container label="unspecified" type="box">18</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Hats and other small items from various elections</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">19</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1992">1992</unitdate>
+      <container label="unspecified" type="box">19</container>
+      <unitdate certainty="approximate" normal="1992" type="inclusive">1992</unitdate>
       <unittitle>Various items related to Clinton</unittitle>
       <physdesc><dimensions>Includes some items from other elections.</dimensions></physdesc>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">20</container>
+      <container label="unspecified" type="box">20</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Matchbooks, tin plates and a Nixon shower head.</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">33</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1960/2016">1960-2016</unitdate>
+      <container label="unspecified" type="box">33</container>
+      <unitdate certainty="approximate" normal="1960/2016" type="inclusive">1960-2016</unitdate>
       <unittitle>911 Material, toys, Russian nesting dolls, hats, Clinton memorabilia</unittitle>
      </did>
     </c02>
    </c01>
-   <c01 level="series" id="s2">
+   <c01 id="s2" level="series">
     <did>
      <unittitle>Pins and buttons</unittitle>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">7</container>
+      <container label="unspecified" type="box">7</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Buttons</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">8</container>
+      <container label="unspecified" type="box">8</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Buttons</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">20</container>
+      <container label="unspecified" type="box">20</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Buttons </unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">24</container>
+      <container label="unspecified" type="box">24</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Pins and Buttons</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">25</container>
+      <container label="unspecified" type="box">25</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Pins and Buttons</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">26</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1972/2002">1972-2002</unitdate>
+      <container label="unspecified" type="box">26</container>
+      <unitdate certainty="approximate" normal="1972/2002" type="inclusive">1972-2002</unitdate>
       <unittitle>Pins and buttons - New York and other state and local elections</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">29</container>
+      <container label="unspecified" type="box">29</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Pins and buttons: Taft through Bill Clinton</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">31</container>
-      <container type="folder">1</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1950/2016">1950-2016</unitdate>
+      <container label="unspecified" type="box">31</container>
+      <container label="unspecified" type="folder">1</container>
+      <unitdate certainty="approximate" normal="1950/2016" type="inclusive">1950-2016</unitdate>
       <unittitle>Political buttons</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">31</container>
-      <container type="folder">2</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1950/2016">1950-2016</unitdate>
+      <container label="unspecified" type="box">31</container>
+      <container label="unspecified" type="folder">2</container>
+      <unitdate certainty="approximate" normal="1950/2016" type="inclusive">1950-2016</unitdate>
       <unittitle>Political buttons</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">31</container>
-      <container type="folder">3</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1950/2016">1950-2016</unitdate>
+      <container label="unspecified" type="box">31</container>
+      <container label="unspecified" type="folder">3</container>
+      <unitdate certainty="approximate" normal="1950/2016" type="inclusive">1950-2016</unitdate>
       <unittitle>Political buttons</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">31</container>
-      <container type="folder">4</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1960/2016">1960-2016</unitdate>
+      <container label="unspecified" type="box">31</container>
+      <container label="unspecified" type="folder">4</container>
+      <unitdate certainty="approximate" normal="1960/2016" type="inclusive">1960-2016</unitdate>
       <unittitle>Political buttons</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">31</container>
-      <container type="folder">5</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1960/2016">1960-2016</unitdate>
+      <container label="unspecified" type="box">31</container>
+      <container label="unspecified" type="folder">5</container>
+      <unitdate certainty="approximate" normal="1960/2016" type="inclusive">1960-2016</unitdate>
       <unittitle>Political buttons</unittitle>
      </did>
     </c02>
    </c01>
-   <c01 level="series" id="s3">
+   <c01 id="s3" level="series">
     <did>
      <unittitle>Paper ephemera</unittitle>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">26</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1936/2000">1936-2000</unitdate>
+      <container label="unspecified" type="box">26</container>
+      <unitdate certainty="approximate" normal="1936/2000" type="inclusive">1936-2000</unitdate>
       <unittitle>Presidential: F.D. Roosevelt through Ralph Nader</unittitle>
       <physdesc><dimensions>Includes stickers and some campaign give aways such as pens and
         matchbooks</dimensions></physdesc>
@@ -436,8 +435,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">27</container>
-      <unitdate type="inclusive" certainty="Circa" normal="2004/2016">2004-2016</unitdate>
+      <container label="unspecified" type="box">27</container>
+      <unitdate certainty="approximate" normal="2004/2016" type="inclusive">2004-2016</unitdate>
       <unittitle>Presidential: John Kerry through Ben Carson</unittitle>
       <physdesc><dimensions>Includes stickers and some campaign give aways such as pens and
         matchbooks</dimensions></physdesc>
@@ -445,120 +444,120 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">29</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1960/2016">1960-2016</unitdate>
+      <container label="unspecified" type="box">29</container>
+      <unitdate certainty="approximate" normal="1960/2016" type="inclusive">1960-2016</unitdate>
       <unittitle>Presidential: John F. Kennedy through 2016 candidates</unittitle>
       <physdesc><dimensions>Includes legal sized materials.</dimensions></physdesc>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">1</container>
-      <unitdate type="inclusive" normal="1932/1952">1932-1952</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">1</container>
+      <unitdate normal="1932/1952" type="inclusive">1932-1952</unitdate>
       <unittitle>F.D.R., Eisenhower, and Varia</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">2</container>
-      <unitdate type="inclusive" normal="1946">1946</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">2</container>
+      <unitdate normal="1946" type="inclusive">1946</unitdate>
       <unittitle>Lyndon B. Johnson material</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">3</container>
-      <unitdate type="inclusive" normal="1960">1960</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">3</container>
+      <unitdate normal="1960" type="inclusive">1960</unitdate>
       <unittitle>Kennedy Johnson Texas Democratic Campaign</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">4</container>
-      <unitdate type="inclusive" normal="1972">1972</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">4</container>
+      <unitdate normal="1972" type="inclusive">1972</unitdate>
       <unittitle>George McGovern campaign material</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">5</container>
-      <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">5</container>
+      <unitdate normal="1974/1977" type="inclusive">1974-1977</unitdate>
       <unittitle>Carter, Alexander, campaign material</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">6</container>
-      <unitdate type="inclusive" normal="1980/1988">1980-1988</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">6</container>
+      <unitdate normal="1980/1988" type="inclusive">1980-1988</unitdate>
       <unittitle>Gore, Kemp, Regan, campaign material</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">7</container>
-      <unitdate type="inclusive" normal="1992/1996">1992-1996</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">7</container>
+      <unitdate normal="1992/1996" type="inclusive">1992-1996</unitdate>
       <unittitle>Dole, Bush, Tsongas, campaign material</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">8</container>
-      <unitdate type="inclusive" normal="1992/2000">1992-2000</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">8</container>
+      <unitdate normal="1992/2000" type="inclusive">1992-2000</unitdate>
       <unittitle>Gore, Clinton, campaign material</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">12</container>
-      <unitdate type="inclusive" normal="2004-07-07">2004-07-07</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">12</container>
+      <unitdate normal="2004-07-07" type="inclusive">2004-07-07</unitdate>
       <unittitle>Bill Clinton, My Life</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">9</container>
-      <unitdate type="inclusive" normal="2016">2016</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">9</container>
+      <unitdate normal="2016" type="inclusive">2016</unitdate>
       <unittitle>Hillary Clinton campaign material</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">10</container>
-      <unitdate type="inclusive" normal="2016">2016</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">10</container>
+      <unitdate normal="2016" type="inclusive">2016</unitdate>
       <unittitle>Donald Trump campaign material</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">11</container>
-      <unitdate type="inclusive" normal="2016-01-22">2016-01-22</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">11</container>
+      <unitdate normal="2016-01-22" type="inclusive">2016-01-22</unitdate>
       <unittitle>First in the National Presidential Town Hall</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">32</container>
-      <container type="folder">1</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1980/2000">1980-2000</unitdate>
+      <container label="unspecified" type="box">32</container>
+      <container label="unspecified" type="folder">1</container>
+      <unitdate certainty="approximate" normal="1980/2000" type="inclusive">1980-2000</unitdate>
       <unittitle>Reagan, Lazio campaign material</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">27</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1952/2002">1952-2002</unitdate>
+      <container label="unspecified" type="box">27</container>
+      <unitdate certainty="approximate" normal="1952/2002" type="inclusive">1952-2002</unitdate>
       <unittitle>New York and other state and local elections</unittitle>
       <physdesc><dimensions>Includes state elections for individuals who would go on to be president
         such as John F. Kennedy and George W. Bush</dimensions></physdesc>
@@ -566,14 +565,14 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">29</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1994/2006">1994-2006</unitdate>
+      <container label="unspecified" type="box">29</container>
+      <unitdate certainty="approximate" normal="1994/2006" type="inclusive">1994-2006</unitdate>
       <unittitle>New York and other state and local elections</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">27</container>
+      <container label="unspecified" type="box">27</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Non-election related material</unittitle>
       <physdesc><dimensions>Includes some republican committee items, drug prevention and Y2K
@@ -582,87 +581,87 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">13</container>
-      <unitdate type="inclusive" normal="1963">1963</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">13</container>
+      <unitdate normal="1963" type="inclusive">1963</unitdate>
       <unittitle>Martin Luther King Jr. material</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">14</container>
-      <unitdate type="inclusive" normal="1989-10">1989-10</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">14</container>
+      <unitdate normal="1989-10" type="inclusive">1989-10</unitdate>
       <unittitle>Space Program Ad Council</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">15</container>
-      <unitdate type="inclusive" normal="1989-03">1989-03</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">15</container>
+      <unitdate normal="1989-03" type="inclusive">1989-03</unitdate>
       <unittitle>Child Abuse Ad Council</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">16</container>
-      <unitdate type="inclusive" normal="1989-10">1989-10</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">16</container>
+      <unitdate normal="1989-10" type="inclusive">1989-10</unitdate>
       <unittitle>The Statue of Liberty - Ellis Islan Restoration Ad Council</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">17</container>
-      <unitdate type="inclusive" normal="1989">1989</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">17</container>
+      <unitdate normal="1989" type="inclusive">1989</unitdate>
       <unittitle>United Way of America</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">18</container>
-      <unitdate type="inclusive" normal="1989">1989</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">18</container>
+      <unitdate normal="1989" type="inclusive">1989</unitdate>
       <unittitle>Bicentennial of the Constitution Ad Council</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">19</container>
-      <unitdate type="inclusive" normal="1988/1989">Summer 1989</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">19</container>
+      <unitdate normal="1988/1989" type="inclusive">Summer 1989</unitdate>
       <unittitle>NPCP, Crime Prevention Ad Council</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">20</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1994">1994</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">20</container>
+      <unitdate certainty="approximate" normal="1994" type="inclusive">1994</unitdate>
       <unittitle>Misc. Ad Council Campaigns</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">30</container>
-      <container type="folder">21</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1985/1995">1985-1995</unitdate>
+      <container label="unspecified" type="box">30</container>
+      <container label="unspecified" type="folder">21</container>
+      <unitdate certainty="approximate" normal="1985/1995" type="inclusive">1985-1995</unitdate>
       <unittitle>Ad Council Advertisement </unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">32</container>
-      <container type="folder">2</container>
+      <container label="unspecified" type="box">32</container>
+      <container label="unspecified" type="folder">2</container>
       <unitdate>Undated</unitdate>
       <unittitle>Political Stickers</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">21</container>
+      <container label="unspecified" type="box">21</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Magazines</unittitle>
       <physdesc><dimensions>Mainly related to Bill and Hilary Clinton.</dimensions></physdesc>
@@ -670,16 +669,16 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">22</container>
+      <container label="unspecified" type="box">22</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Newpapers, books, and magazines</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">31</container>
-      <container type="folder">6</container>
-      <unitdate type="inclusive" normal="1930-05-10">1930-05-10</unitdate>
+      <container label="unspecified" type="box">31</container>
+      <container label="unspecified" type="folder">6</container>
+      <unitdate normal="1930-05-10" type="inclusive">1930-05-10</unitdate>
       <unittitle>Liberty magazine</unittitle>
      </did>
      <userestrict>
@@ -688,8 +687,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">34</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1945/2017">1945-2017</unitdate>
+      <container label="unspecified" type="box">34</container>
+      <unitdate certainty="approximate" normal="1945/2017" type="inclusive">1945-2017</unitdate>
       <unittitle>Magazines, newspapers</unittitle>
      </did>
      <scopecontent>
@@ -699,7 +698,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">23</container>
+      <container label="unspecified" type="box">23</container>
       <unitdate>Date Unknown</unitdate>
       <unittitle>Shopping bags and other giveaway bags </unittitle>
       <physdesc><dimensions>Mainly paper, some fabric or plastic.</dimensions></physdesc>
@@ -707,13 +706,13 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">35</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1960/2017">1960-2017</unitdate>
+      <container label="unspecified" type="box">35</container>
+      <unitdate certainty="approximate" normal="1960/2017" type="inclusive">1960-2017</unitdate>
       <unittitle>Political Bags</unittitle>
      </did>
     </c02>
    </c01>
-   <c01 level="series" id="s4">
+   <c01 id="s4" level="series">
     <did>
      <unittitle>Oversized posters and flyers</unittitle>
     </did>
@@ -723,63 +722,63 @@
      </did>
      <c03 level="file">
       <did>
-       <container type="box">32</container>
-       <container type="folder">3</container>
+       <container label="unspecified" type="box">32</container>
+       <container label="unspecified" type="folder">3</container>
        <unitdate>Undated</unitdate>
        <unittitle>Coolidge and Dawes broadside</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">23</container>
-       <container type="folder">1</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1952/1968">1952-1968</unitdate>
+       <container label="unspecified" type="box">23</container>
+       <container label="unspecified" type="folder">1</container>
+       <unitdate certainty="approximate" normal="1952/1968" type="inclusive">1952-1968</unitdate>
        <unittitle>John F. Kennedy, Robert Kennedy, Eisenhower</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">30</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1960">1960</unitdate>
+       <container label="unspecified" type="mapcase-folder">30</container>
+       <unitdate certainty="approximate" normal="1960" type="inclusive">1960</unitdate>
        <unittitle>Electoral campaign posters</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">23</container>
-       <container type="folder">2</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1968/1972">1968-1972</unitdate>
+       <container label="unspecified" type="box">23</container>
+       <container label="unspecified" type="folder">2</container>
+       <unitdate certainty="approximate" normal="1968/1972" type="inclusive">1968-1972</unitdate>
        <unittitle>Nixon and McGovern</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">10</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1973">1973</unitdate>
+       <container label="unspecified" type="mapcase-folder">10</container>
+       <unitdate certainty="approximate" normal="1973" type="inclusive">1973</unitdate>
        <unittitle>Nixon </unittitle>
        <physdesc><dimensions>Extra large poster</dimensions></physdesc>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">23</container>
-       <container type="folder">3</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1976/1980">1976-1980</unitdate>
+       <container label="unspecified" type="box">23</container>
+       <container label="unspecified" type="folder">3</container>
+       <unitdate certainty="approximate" normal="1976/1980" type="inclusive">1976-1980</unitdate>
        <unittitle>Edward Kennedy and Carter</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">1</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1980/1984">1980-1984</unitdate>
+       <container label="unspecified" type="mapcase-folder">1</container>
+       <unitdate certainty="approximate" normal="1980/1984" type="inclusive">1980-1984</unitdate>
        <unittitle>Mondale and Reagan</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">23</container>
-       <container type="folder">4</container>
-       <unitdate type="inclusive" normal="1988">1988</unitdate>
+       <container label="unspecified" type="box">23</container>
+       <container label="unspecified" type="folder">4</container>
+       <unitdate normal="1988" type="inclusive">1988</unitdate>
        <unittitle>George H.W. Bush and Gore</unittitle>
        <physdesc><dimensions>This Gore material is from when he ran for president in
          1988</dimensions></physdesc>
@@ -787,81 +786,81 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">2</container>
-       <unitdate type="inclusive" normal="1992">1992</unitdate>
+       <container label="unspecified" type="mapcase-folder">2</container>
+       <unitdate normal="1992" type="inclusive">1992</unitdate>
        <unittitle>Bill Clinton and Gore</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">10</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1993">1993</unitdate>
+       <container label="unspecified" type="mapcase-folder">10</container>
+       <unitdate certainty="approximate" normal="1993" type="inclusive">1993</unitdate>
        <unittitle>Bill Clinton </unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">3</container>
-       <unitdate type="inclusive" normal="1992/1996">1992-1996</unitdate>
+       <container label="unspecified" type="mapcase-folder">3</container>
+       <unitdate normal="1992/1996" type="inclusive">1992-1996</unitdate>
        <unittitle>George H.W. Bush, Perot, Bill Clinton, and Bob Dole</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">11</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1992">1992</unitdate>
+       <container label="unspecified" type="mapcase-folder">11</container>
+       <unitdate certainty="approximate" normal="1992" type="inclusive">1992</unitdate>
        <unittitle>Clinton, George H.W. Bush, and Perot </unittitle>
        <physdesc><dimensions>Standing posters with removable numbers</dimensions></physdesc>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">4</container>
-       <unitdate type="inclusive" normal="2000">2000</unitdate>
+       <container label="unspecified" type="mapcase-folder">4</container>
+       <unitdate normal="2000" type="inclusive">2000</unitdate>
        <unittitle>Gore and George W. Bush</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">5</container>
-       <unitdate type="inclusive" normal="2004/2008">2004-2008</unitdate>
+       <container label="unspecified" type="mapcase-folder">5</container>
+       <unitdate normal="2004/2008" type="inclusive">2004-2008</unitdate>
        <unittitle>Dodd, Thompson, Giuliani, McCain, Santorum, Obama, Hillary Clinton, Edwards,
         Kerry</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">6</container>
-       <unitdate type="inclusive" normal="2012">2012</unitdate>
+       <container label="unspecified" type="mapcase-folder">6</container>
+       <unitdate normal="2012" type="inclusive">2012</unitdate>
        <unittitle>Gingrich, Romney, Perry, Huntsman, Obama</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">23</container>
-       <container type="folder">5</container>
-       <unitdate type="inclusive" normal="2016">2016</unitdate>
+       <container label="unspecified" type="box">23</container>
+       <container label="unspecified" type="folder">5</container>
+       <unitdate normal="2016" type="inclusive">2016</unitdate>
        <unittitle>Hillary Clinton, Rubio, Rand Paul</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">29</container>
-       <unitdate type="inclusive" normal="2016">2016</unitdate>
+       <container label="unspecified" type="mapcase-folder">29</container>
+       <unitdate normal="2016" type="inclusive">2016</unitdate>
        <unittitle>Clinton/Trump</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">31</container>
+       <container label="unspecified" type="mapcase-folder">31</container>
        <unitdate>Undated</unitdate>
        <unittitle>Miscellaneous political posters</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">33</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1960/2006">1960-2006</unitdate>
+       <container label="unspecified" type="mapcase-folder">33</container>
+       <unitdate certainty="approximate" normal="1960/2006" type="inclusive">1960-2006</unitdate>
        <unittitle>Assorted campaign posters</unittitle>
       </did>
      </c03>
@@ -872,8 +871,8 @@
      </did>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">16</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1960/1985">1960-1985</unitdate>
+       <container label="unspecified" type="mapcase-folder">16</container>
+       <unitdate certainty="approximate" normal="1960/1985" type="inclusive">1960-1985</unitdate>
        <unittitle>Nixon, John F. Kennedy, Robert Kennedy, Carter, and Reagan</unittitle>
       </did>
      </c03>
@@ -884,18 +883,18 @@
      </did>
      <c03 level="file">
       <did>
-       <container type="box">23</container>
-       <container type="folder">6</container>
+       <container label="unspecified" type="box">23</container>
+       <container label="unspecified" type="folder">6</container>
        <unitid> </unitid>
-       <unitdate type="inclusive" normal="1936">1936</unitdate>
+       <unitdate normal="1936" type="inclusive">1936</unitdate>
        <unittitle>Bleakley</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">23</container>
-       <container type="folder">7</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1960/1969">1960-1969</unitdate>
+       <container label="unspecified" type="box">23</container>
+       <container label="unspecified" type="folder">7</container>
+       <unitdate certainty="approximate" normal="1960/1969" type="inclusive">1960-1969</unitdate>
        <unittitle>1960s elections</unittitle>
        <physdesc><dimensions>Includes Edward Kennedy, Wallace, Goldwater, Reagan, Rockefeller,
          Javits</dimensions></physdesc>
@@ -903,8 +902,8 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">7</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1970/1979">1970-1979</unitdate>
+       <container label="unspecified" type="mapcase-folder">7</container>
+       <unitdate certainty="approximate" normal="1970/1979" type="inclusive">1970-1979</unitdate>
        <unittitle>1970s elections</unittitle>
        <physdesc><dimensions>Includes Moynihan, Ottinger, Goldberg, Tip
         O'Neill</dimensions></physdesc>
@@ -912,25 +911,25 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">8</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1980/1989">1980-1989</unitdate>
+       <container label="unspecified" type="mapcase-folder">8</container>
+       <unitdate certainty="approximate" normal="1980/1989" type="inclusive">1980-1989</unitdate>
        <unittitle>1980s elections</unittitle>
        <physdesc><dimensions>Includes Edward Kennedy </dimensions></physdesc>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">23</container>
-       <container type="folder">8</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1982/1990">1982-1990</unitdate>
+       <container label="unspecified" type="box">23</container>
+       <container label="unspecified" type="folder">8</container>
+       <unitdate certainty="approximate" normal="1982/1990" type="inclusive">1982-1990</unitdate>
        <unittitle>Bill Clinton (Governor) </unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">23</container>
-       <container type="folder">9</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1990/1999">1990-1999</unitdate>
+       <container label="unspecified" type="box">23</container>
+       <container label="unspecified" type="folder">9</container>
+       <unitdate certainty="approximate" normal="1990/1999" type="inclusive">1990-1999</unitdate>
        <unittitle>1990s elections</unittitle>
        <physdesc><dimensions>Includes George W. Bush, D'Amato, Dodd, Moynihan, Pataki,
          Cuomo</dimensions></physdesc>
@@ -938,8 +937,8 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">9</container>
-       <unitdate type="inclusive" certainty="Circa" normal="2000/2009">2000-2009</unitdate>
+       <container label="unspecified" type="mapcase-folder">9</container>
+       <unitdate certainty="approximate" normal="2000/2009" type="inclusive">2000-2009</unitdate>
        <unittitle>2000s elections</unittitle>
        <physdesc><dimensions>Includes Cuomo, Spitzer, Hillary Clinton, Lazio</dimensions></physdesc>
       </did>
@@ -951,181 +950,181 @@
      </did>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">12</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1942/2008">1942-2008</unitdate>
+       <container label="unspecified" type="mapcase-folder">12</container>
+       <unitdate certainty="approximate" normal="1942/2008" type="inclusive">1942-2008</unitdate>
        <unittitle>War and veteran themes</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">13</container>
-       <unitdate type="inclusive" certainty="Circa" normal="2001/2002">2001-2002</unitdate>
+       <container label="unspecified" type="mapcase-folder">13</container>
+       <unitdate certainty="approximate" normal="2001/2002" type="inclusive">2001-2002</unitdate>
        <unittitle>Patriotic and 9/11 themes</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">14</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1980/1999">1980-1999</unitdate>
+       <container label="unspecified" type="mapcase-folder">14</container>
+       <unitdate certainty="approximate" normal="1980/1999" type="inclusive">1980-1999</unitdate>
        <unittitle>Public service announcements and Ad Council</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">15</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1971/1989">1971-1989</unitdate>
+       <container label="unspecified" type="mapcase-folder">15</container>
+       <unitdate certainty="approximate" normal="1971/1989" type="inclusive">1971-1989</unitdate>
        <unittitle>Environment and forest fire themes</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">18</container>
+       <container label="unspecified" type="mapcase-folder">18</container>
        <unitdate>Undated</unitdate>
        <unittitle>Ad Council advertising</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">19</container>
+       <container label="unspecified" type="mapcase-folder">19</container>
        <unitdate>Undated</unitdate>
        <unittitle>Ad Council advertising</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">20</container>
+       <container label="unspecified" type="mapcase-folder">20</container>
        <unitdate>Undated</unitdate>
        <unittitle>Ad Council advertising</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">21</container>
+       <container label="unspecified" type="mapcase-folder">21</container>
        <unitdate>Undated</unitdate>
        <unittitle>Ad Council advertising</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">22</container>
+       <container label="unspecified" type="mapcase-folder">22</container>
        <unitdate>Undated</unitdate>
        <unittitle>Ad Council advertising</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">23</container>
+       <container label="unspecified" type="mapcase-folder">23</container>
        <unitdate>Undated</unitdate>
        <unittitle>Ad Council advertising</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">24</container>
+       <container label="unspecified" type="mapcase-folder">24</container>
        <unitdate>Undated</unitdate>
        <unittitle>Ad Council advertising</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">25</container>
+       <container label="unspecified" type="mapcase-folder">25</container>
        <unitdate>Undated</unitdate>
        <unittitle>Ad Council advertising</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">26</container>
+       <container label="unspecified" type="mapcase-folder">26</container>
        <unitdate>Undated</unitdate>
        <unittitle>Ad Council advertising</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">27</container>
+       <container label="unspecified" type="mapcase-folder">27</container>
        <unitdate>Undated</unitdate>
        <unittitle>Ad Council advertising</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">28</container>
+       <container label="unspecified" type="mapcase-folder">28</container>
        <unitdate>Undated</unitdate>
        <unittitle>Drugs, HIU, Cancer</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">32</container>
-       <unitdate type="inclusive" certainty="Circa" normal="2001">2001</unitdate>
+       <container label="unspecified" type="mapcase-folder">32</container>
+       <unitdate certainty="approximate" normal="2001" type="inclusive">2001</unitdate>
        <unittitle>It Touches Us All posters</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">34</container>
-       <unitdate type="inclusive" normal="2000">2000</unitdate>
+       <container label="unspecified" type="mapcase-folder">34</container>
+       <unitdate normal="2000" type="inclusive">2000</unitdate>
        <unittitle>Budweiser God Bless America</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="mapcase-folder">35</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1968/2001">1968-2001</unitdate>
+       <container label="unspecified" type="mapcase-folder">35</container>
+       <unitdate certainty="approximate" normal="1968/2001" type="inclusive">1968-2001</unitdate>
        <unittitle>PSA and campaign posters</unittitle>
       </did>
      </c03>
     </c02>
    </c01>
-   <c01 level="series" id="s5">
+   <c01 id="s5" level="series">
     <did>
      <unittitle>Media</unittitle>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">28</container>
+      <container label="unspecified" type="box">28</container>
       <unitid>CD-3449</unitid>
-      <unitdate type="inclusive" normal="2000">2000</unitdate>
+      <unitdate normal="2000" type="inclusive">2000</unitdate>
       <unittitle>It Takes a Village by Antonio</unittitle>
       <physdesc><dimensions>CD with "Vote for Hillary" on the back cover</dimensions></physdesc>
      </did>
      <c03 level="file">
       <did>
-       <container type="box">28</container>
+       <container label="unspecified" type="box">28</container>
        <unitid>CD-3450</unitid>
        <unittitle>William Jefferson Clinton Presidential Center and Partk virtual tour</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">28</container>
+       <container label="unspecified" type="box">28</container>
        <unitid>CD-3451-3456</unitid>
-       <unitdate type="inclusive" normal="2004">2004</unitdate>
+       <unitdate normal="2004" type="inclusive">2004</unitdate>
        <unittitle>My Life by Bill Clinton</unittitle>
        <physdesc><dimensions>Book on CD read by Bill Clinton</dimensions></physdesc>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">28</container>
+       <container label="unspecified" type="box">28</container>
        <unitid>TR-11668</unitid>
-       <unitdate type="inclusive" normal="1991">1991</unitdate>
+       <unitdate normal="1991" type="inclusive">1991</unitdate>
        <unittitle>Mario Cuomo - Keynote Session: Management</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">28</container>
+       <container label="unspecified" type="box">28</container>
        <unitid>SR-15350-15352</unitid>
-       <unitdate type="inclusive" normal="1960">1960</unitdate>
+       <unitdate normal="1960" type="inclusive">1960</unitdate>
        <unittitle>The Three Great Debates of the 1960 Presidential Political Campaign</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">28</container>
+       <container label="unspecified" type="box">28</container>
        <unitid>SR-15353</unitid>
-       <unitdate type="inclusive" normal="1963">1963</unitdate>
+       <unitdate normal="1963" type="inclusive">1963</unitdate>
        <unittitle>John F. Kennedy - The Presidential Years 1960-1963</unittitle>
        <physdesc><dimensions>Recordings of speeches given by Kennedy during his
          presidency</dimensions></physdesc>
@@ -1133,34 +1132,34 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">28</container>
+       <container label="unspecified" type="box">28</container>
        <unitid>SR-15354</unitid>
-       <unitdate type="inclusive" normal="1962">1962</unitdate>
+       <unitdate normal="1962" type="inclusive">1962</unitdate>
        <unittitle>The First Family featuring Vaughn Meader</unittitle>
        <physdesc><dimensions>Comedic recording.</dimensions></physdesc>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">28</container>
+       <container label="unspecified" type="box">28</container>
        <unitid>SR-15355</unitid>
-       <unitdate type="inclusive" certainty="Circa" normal="1963">1963</unitdate>
+       <unitdate certainty="approximate" normal="1963" type="inclusive">1963</unitdate>
        <unittitle>Wallace souvenir album</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">28</container>
+       <container label="unspecified" type="box">28</container>
        <unitid>SR-15356</unitid>
-       <unitdate type="inclusive" normal="1972">1972</unitdate>
+       <unitdate normal="1972" type="inclusive">1972</unitdate>
        <unittitle>The Wallace Stand</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">29</container>
+       <container label="unspecified" type="box">29</container>
        <unitid>V-9812</unitid>
-       <unitdate type="inclusive" certainty="Circa" normal="1996">1996</unitdate>
+       <unitdate certainty="approximate" normal="1996" type="inclusive">1996</unitdate>
        <unittitle>The Man from Hope</unittitle>
       </did>
       <scopecontent>
@@ -1169,23 +1168,23 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">29</container>
+       <container label="unspecified" type="box">29</container>
        <unitid>V-9813</unitid>
-       <unitdate type="inclusive" certainty="Circa" normal="2000">2000</unitdate>
+       <unitdate certainty="approximate" normal="2000" type="inclusive">2000</unitdate>
        <unittitle>Hillary</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">29</container>
+       <container label="unspecified" type="box">29</container>
        <unitid>V-9814</unitid>
-       <unitdate type="inclusive" normal="2000-11-04">2000-11-04</unitdate>
+       <unitdate normal="2000-11-04" type="inclusive">2000-11-04</unitdate>
        <unittitle>Team Hillary "Garbage"</unittitle>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">29</container>
+       <container label="unspecified" type="box">29</container>
        <unitid>ZD-82</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>NY Times Clinton Book review</unittitle>
@@ -1193,7 +1192,7 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">36</container>
+       <container label="unspecified" type="box">36</container>
        <unitid>tr-16728</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Reclaiming America, a political profile of Robert F. Kennedy, 1 of 2</unittitle>
@@ -1204,7 +1203,7 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">36</container>
+       <container label="unspecified" type="box">36</container>
        <unitid>tr-16729</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Reclaiming America, a political profile of Robert F. Kennedy, 2 of 2</unittitle>
@@ -1215,9 +1214,9 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">36</container>
+       <container label="unspecified" type="box">36</container>
        <unitid>tr-16730</unitid>
-       <unitdate type="inclusive" normal="1964">1964</unitdate>
+       <unitdate normal="1964" type="inclusive">1964</unitdate>
        <unittitle>Robert F. Kennedy, in his own words/Address to the DNC</unittitle>
       </did>
       <controlaccess>
@@ -1226,7 +1225,7 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">36</container>
+       <container label="unspecified" type="box">36</container>
        <unitid>tr-16731</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>The toughest job in the world </unittitle>
@@ -1240,7 +1239,7 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">36</container>
+       <container label="unspecified" type="box">36</container>
        <unitid>V-10464-10465</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>The toughest job in the world</unittitle>
@@ -1254,7 +1253,7 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">36</container>
+       <container label="unspecified" type="box">36</container>
        <unitid>V-10466</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Bob Schultz Cornell Club presentation</unittitle>
@@ -1265,9 +1264,9 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">36</container>
+       <container label="unspecified" type="box">36</container>
        <unitid>SR-20851</unitid>
-       <unitdate type="inclusive" normal="1989">1989</unitdate>
+       <unitdate normal="1989" type="inclusive">1989</unitdate>
        <unittitle>"What a Wonderful World", "America the Beautiful"</unittitle>
       </did>
       <scopecontent>
@@ -1281,5 +1280,9 @@
     </c02>
    </c01>
   </dsc>
- </archdesc>
+ <prefercite>
+    <head>Cite As:</head>
+    <p>Bob Shultz Political Americana collection, #8566. Division of Rare and Manuscript
+     Collections, Cornell University Library. </p>
+   </prefercite></archdesc>
 </ead>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07845::Harry Gittelson collection)//EN">RMM07845</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07845::Harry Gittelson collection)//EN">RMM07845</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Harry Gittelson collection, <date>circa
@@ -25,19 +25,25 @@
     <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>March 2018</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Harry Gittelson collection, <lb/><date type="inclusive" encodinganalog="245$f">circa 1977-2007.</date></titleproper>
+      <titleproper>Guide to the Harry Gittelson collection, <date encodinganalog="245$f" type="inclusive">circa 1977-2007.</date></titleproper>
       <num>Collection Number: 7845</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-            Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607)
-              255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+            Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607)
+              255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
         </defitem>
         <defitem>
           <label>Compiled by:</label>
@@ -59,13 +65,14 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">Harry Gittelson collection, <unitdate encodinganalog="MARC 245" type="inclusive">circa 1977-2007.</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">Harry Gittelson collection, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1977-2007.</unitdate>
       <unitid label="Collection Number:">7845</unitid>
       <origination label="Creator:">
         <persname encodinganalog="100" normal="Gittelson, Harry. "> Harry. Gittelson </persname>
       </origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.4 cubic
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>.4 cubic
         feet.</extent></physdesc>
       <physdesc label="Forms of Material:">Photographs, ephemeral, audio recordings, printed
         material.</physdesc>
@@ -82,7 +89,7 @@
       </langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">
-      <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+      <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
       <p>Cornell class of 1977. Vice President of the Los Angeles Business and Professional
         Association (BAPA) in the 1980s, he helped to develop membership as well as programing.</p>
     </bioghist>
@@ -110,35 +117,20 @@
         <subject encodinganalog="MARC 650">Wedding cakes</subject>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <userestrict>
-        <head>Restrictions on Use:</head>
-        <p>Due to the fragility and potential degradation of moving image and sound recordings,
-          viewing and listening is limited to items that have been digitized. If an item is in
-          another media format, you may request to have the item digitized for access.
-          Information on ordering access copies may be found on our <extref href="https://rare.library.cornell.edu/services/reproductions"> Reproductions and
-            Permissions</extref> page.</p>
-      </userestrict>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>Harry Gittelson collection, #7845. Division of Rare and Manuscript Collections, Cornell
-          University Library. </p>
-      </prefercite>
-    </descgrp>
+    
     <dsc type="combined">
       <head>CONTAINER LIST</head>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unitid>DVD-2631</unitid>
-          <unitdate type="inclusive" normal="2014">2014</unitdate>
+          <unitdate normal="2014" type="inclusive">2014</unitdate>
           <unittitle>The Normal Heart</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unitid>DVD-2632</unitid>
           <unitdate>Undated</unitdate>
           <unittitle>Edith Ann, 3 episodes</unittitle>
@@ -146,9 +138,9 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">1</container>
-          <unitdate type="inclusive" normal="1977-02-25">1977-02-25</unitdate>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">1</container>
+          <unitdate normal="1977-02-25" type="inclusive">1977-02-25</unitdate>
           <unittitle>Portrait</unittitle>
         </did>
         <scopecontent>
@@ -160,47 +152,47 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>Undated</unitdate>
           <unittitle>Classroom resource kit on hate crimes</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">3</container>
-          <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">3</container>
+          <unitdate normal="1986/1988" type="inclusive">1986-1988</unitdate>
           <unittitle>BAPA newsletters</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">4</container>
-          <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">4</container>
+          <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
           <unittitle>BAPA directory</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">5</container>
-          <unitdate type="inclusive" normal="1988-10-10">1988-10-10</unitdate>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">5</container>
+          <unitdate normal="1988-10-10" type="inclusive">1988-10-10</unitdate>
           <unittitle>BAPA recognition letter regarding President's Award</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>Undated</unitdate>
           <unittitle>Dr. Judd Marmor obituary</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
+          <container label="unspecified" type="box">2</container>
           <unitid>MU-1931</unitid>
           <unitdate>Undated</unitdate>
           <unittitle>Cake topper with 2 male figures</unittitle>
@@ -208,15 +200,15 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
+          <container label="unspecified" type="box">2</container>
           <unitid>MU-1932</unitid>
-          <unitdate type="inclusive" certainty="Circa" normal="1990">1990</unitdate>
+          <unitdate certainty="approximate" normal="1990" type="inclusive">1990</unitdate>
           <unittitle>Lalique, 1990s statuette in original box</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
+          <container label="unspecified" type="box">2</container>
           <unitid>MU-1933</unitid>
           <unitdate>Undated</unitdate>
           <unittitle>Edith Ann doll</unittitle>
@@ -224,7 +216,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
+          <container label="unspecified" type="box">2</container>
           <unitid>MU-1934</unitid>
           <unitdate>Undated</unitdate>
           <unittitle>"Anita Bryant sucks oranges" button</unittitle>
@@ -233,7 +225,7 @@
       <c01 level="item">
         <did>
           <unitid>SR-26423</unitid>
-          <unitdate type="inclusive" normal="1973">1973</unitdate>
+          <unitdate normal="1973" type="inclusive">1973</unitdate>
           <unittitle>Battle hymn of the republic</unittitle>
           <origination label="Creator"><persname>Bryant, Anita</persname></origination>
         </did>
@@ -245,5 +237,16 @@
         </controlaccess>
       </c01>
     </dsc>
-  </archdesc>
+  <userestrict>
+        <head>Restrictions on Use:</head>
+        <p>Due to the fragility and potential degradation of moving image and sound recordings,
+          viewing and listening is limited to items that have been digitized. If an item is in
+          another media format, you may request to have the item digitized for access.
+          Information on ordering access copies may be found on our <extref href="https://rare.library.cornell.edu/services/reproductions"> Reproductions and
+            Permissions</extref> page.</p>
+      </userestrict><prefercite>
+        <head>Cite As:</head>
+        <p>Harry Gittelson collection, #7845. Division of Rare and Manuscript Collections, Cornell
+          University Library. </p>
+      </prefercite></archdesc>
 </ead>

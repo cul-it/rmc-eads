@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04621::William Wordsworth collection)//EN">RMM04621</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04621::William Wordsworth collection)//EN">RMM04621</eadid>
     
     <filedesc> 
       <titlestmt> 
@@ -27,9 +26,15 @@
     </filedesc> 
     <profiledesc> 
       <creation>Finding aid encoded by Liz Muller
-        <date/> </creation> 
+         </creation> 
     </profiledesc> 
-    <revisiondesc> 
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+ 
       <change encodinganalog="583"> 
         <date normal="2007-05-29">2007-05-29</date> 
         <item>converted from EAD 1.0 to EAD 2002 </item> 
@@ -38,20 +43,20 @@
   </eadheader> 
   <frontmatter> 
     <titlepage> 
-      <titleproper>Guide to the William Wordsworth Collection, 1656-1987 (bulk 1798-1850)<lb/>
+      <titleproper>Guide to the William Wordsworth Collection, 1656-1987 (bulk 1798-1850)
         </titleproper> 
       <num>Collection Number: 4621</num> 
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+      <publisher>Division of Rare and Manuscript Collections Cornell
         University Library</publisher> 
       <list type="deflist"> 
         <defitem> 
           <label>Contact Information:</label> 
-          <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-            Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/> 
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> <lb/> 
+          <item>Division of Rare and Manuscript Collections 2B Carl A.
+            Kroch Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524 
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>  
             <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-            <lb/></item> 
+            </item> 
         </defitem> 
         <defitem> 
           <label>Compiled by:</label> 
@@ -77,16 +82,17 @@
   <archdesc level="collection"> 
     <did> 
       <head id="a1">DESCRIPTIVE SUMMARY</head> 
-      <unittitle label="Title:" encodinganalog="MARC 245">William Wordsworth
+      <unittitle encodinganalog="MARC 245" label="Title:">William Wordsworth
         collection, 
-        <unitdate type="inclusive" encodinganalog="MARC 245">1656-1987</unitdate> 
-        <unitdate type="bulk" encodinganalog="MARC 245">(bulk
-          1798-1850)</unitdate> </unittitle> 
+        </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1656-1987</unitdate><unitdate encodinganalog="MARC 245" type="bulk">(bulk
+          1798-1850)</unitdate> 
       <unitid label="Collection Number:">4621</unitid> 
       <origination label="Creator:"> 
         <persname encodinganalog="100" normal="Wordsworth, William, 1770-1850.">William Wordsworth,
           1770-1850.</persname> </origination> 
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>35.8 linear
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>35.8 linear
         ft.</extent></physdesc> 
       <physdesc label="Forms of Material:">Letters, manuscripts, broadsides,
         pictures, documents, and objects.</physdesc> 
@@ -102,7 +108,7 @@
         </langmaterial> 
     </did> 
     <bioghist encodinganalog="MARC 545"> 
-      <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head> 
+      <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head> 
       <p>English poet, one of the founders of the Romantic movement in English
         literature.</p> 
     </bioghist> 
@@ -279,26 +285,10 @@
       </controlaccess> 
       <controlaccess> 
         <head>Form and Genre Terms:</head> 
-        <genreform source="aat" encodinganalog="MARC 655">Portraits.</genreform> 
+        <genreform encodinganalog="MARC 655" source="aat">Portraits.</genreform> 
       </controlaccess> 
     </controlaccess> 
-    <descgrp type="admininfo"> 
-      <head id="a8">INFORMATION FOR USERS</head> 
-      <p>The container list below currently includes only the bound manuscript
-      items in the collection.</p> 
-      <p>Dove Cottage manuscripts are reproductions of the originals.</p>
-      <userestrict> 
-        <head>Restrictions on use:</head> 
-        <p>By appointment only. To be used one folder at a time. <lb/>Copyright restriction: photocopies can only be made from originals
-          held by this Division. Dove Cottage manuscripts may not be quoted without
-          permission from the owning repository.</p> 
-      </userestrict> 
-      <prefercite> 
-        <head>Cite As:</head> 
-        <p>William Wordsworth collection, #4621. Division of Rare and
-          Manuscript Collections, Cornell University Library.</p> 
-      </prefercite> 
-    </descgrp> 
+     
     <relatedmaterial> 
       <head id="a5">RELATED MATERIALS</head> 
       <p>Large collection of books by and about Wordsworth is also held in the
@@ -319,7 +309,7 @@
       <head>SERIES LIST</head>
       <p>
         <emph render="bold">
-          <ref target="s1" show="replace" actuate="onrequest">Series I. Loose Manuscripts</ref>
+          <ref actuate="onrequest" show="replace" target="s1">Series I. Loose Manuscripts</ref>
         </emph>
         </p>
       <p><ref target="s1ss1">Correspondence and Manuscripts By and To Others</ref>
@@ -327,18 +317,18 @@
       
       <p>
         <emph render="bold">
-          <ref target="s2" show="replace" actuate="onrequest">Series II. Bound Manuscripts</ref>
+          <ref actuate="onrequest" show="replace" target="s2">Series II. Bound Manuscripts</ref>
         </emph></p>
       
       <p>
         <emph render="bold">
-          <ref target="s3" show="replace" actuate="onrequest">Series III. Wordsworthiana and Other Material</ref>
+          <ref actuate="onrequest" show="replace" target="s3">Series III. Wordsworthiana and Other Material</ref>
         </emph>
       </p>
       
       <p>
         <emph render="bold">
-          <ref target="s4" show="replace" actuate="onrequest">Series IV. Dove Cottage manuscripts, photocopies</ref>
+          <ref actuate="onrequest" show="replace" target="s4">Series IV. Dove Cottage manuscripts, photocopies</ref>
         </emph></p>
     </arrangement>
     
@@ -350,34 +340,34 @@
         </did> 
          <c02 level="file"> 
         <did> 
-         <container type="box">1</container>          
+         <container label="unspecified" type="box">1</container>          
           <unittitle>Manuscripts and Documents</unittitle> 
         </did><scopecontent><p>Includes Healey numbers 2277-2279, 2283, 2286, 2289-2294 and 2297 that are referenced in "The Cornell Wordsworth collection, a catalogue of books and manuscripts presented to the University by Mr. Victor Emanuel, Cornell 1919"</p></scopecontent>
       </c02>
         <c02 level="file"> 
           <did> 
-            <container type="box">3</container>
+            <container label="unspecified" type="box">3</container>
             <unitdate>1796-1829</unitdate> 
             <unittitle>Outgoing Correspondence</unittitle> 
           </did> 
         </c02>
         <c02 level="file"> 
           <did> 
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             <unitdate>1830-1836</unitdate> 
             <unittitle>Outgoing Correspondence</unittitle> 
           </did> 
         </c02>
         <c02 level="file"> 
           <did> 
-            <container type="box">5</container>
+            <container label="unspecified" type="box">5</container>
             <unitdate>1837-1843</unitdate> 
             <unittitle>Outgoing Correspondence</unittitle> 
           </did> 
         </c02>
         <c02 level="file"> 
           <did> 
-            <container type="box">6</container>
+            <container label="unspecified" type="box">6</container>
             <unitdate>1844-1850, undated</unitdate> 
             <unittitle>Outgoing Correspondence</unittitle> 
           </did> 
@@ -389,186 +379,186 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">7</container>              
+              <container label="unspecified" type="box">7</container>              
               <unittitle>A-B</unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">8</container>              
+              <container label="unspecified" type="box">8</container>              
               <unittitle>C-Col</unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">9</container>             
+              <container label="unspecified" type="box">9</container>             
               <unitdate>1772-1834</unitdate>
               <unittitle>Coleridge, Samuel Taylor manuscripts</unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container>             
+              <container label="unspecified" type="box">10</container>             
               <unitdate>1772-1834</unitdate>
               <unittitle>Coleridge, Samuel Taylor Correspondence </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">11</container>             
+              <container label="unspecified" type="box">11</container>             
               <unittitle> Com - G </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">12</container>             
+              <container label="unspecified" type="box">12</container>             
               <unitdate>1786-1846</unitdate>
               <unittitle> Field, Barron [facsimile] "Memoirs of the Life and Poetry of William Wordsworth" </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">13</container>             
+              <container label="unspecified" type="box">13</container>             
              <unittitle> Hamilton - Howard </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">14</container>             
+              <container label="unspecified" type="box">14</container>             
             <unittitle> Hudson - Jamieson (excluding Hutchinson) </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">15</container>             
+              <container label="unspecified" type="box">15</container>             
              <unittitle> Hutchinson, A - Hutchinson, J </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">16</container>             
+              <container label="unspecified" type="box">16</container>             
               <unittitle> Hutchinson, K - Hutchinson, R </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">17</container>             
+              <container label="unspecified" type="box">17</container>             
               <unittitle> Hutchinson, Sara </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">18</container>             
+              <container label="unspecified" type="box">18</container>             
               <unittitle> Hutchinson, Sara - end of Hutchinson </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">19</container>             
+              <container label="unspecified" type="box">19</container>             
               <unittitle> K - L </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">20</container>             
+              <container label="unspecified" type="box">20</container>             
               <unitdate>1809</unitdate>
               <unittitle> M - Monkhouse, John, letters through 1809 </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">21</container>             
+              <container label="unspecified" type="box">21</container>             
               <unitdate>1810</unitdate>
               <unittitle> Monkhouse, John, letters 1810 - N </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">22</container>             
+              <container label="unspecified" type="box">22</container>             
               <unittitle> O - P </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">23</container>             
+              <container label="unspecified" type="box">23</container>             
               <unitdate>1841</unitdate>
               <unittitle> Q - Reed, Henry, letters through 1841 </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">24 </container>             
+              <container label="unspecified" type="box">24 </container>             
               <unitdate>1842</unitdate>
               <unittitle> Reed, Henry, letters 1842 - Rz </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">25 </container>             
+              <container label="unspecified" type="box">25 </container>             
              <unittitle> S- Sn </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">26 </container>             
+              <container label="unspecified" type="box">26 </container>             
               <unittitle> Southey, Caroline Anne, Charles Cuthbert, Edith (Fricker), Robert </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">27 </container>             
+              <container label="unspecified" type="box">27 </container>             
               <unittitle> Sp - V </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">28 </container>             
+              <container label="unspecified" type="box">28 </container>             
               <unitdate>1810</unitdate>
               <unittitle> W - Wordsworth, Christopher, Sr., letters through 1810 </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">29 </container>             
+              <container label="unspecified" type="box">29 </container>             
               <unitdate>1810</unitdate>
               <unittitle> Wordsworth, Christopher, Sr., letters 1810 - Wordsworth, Christopher, Jr. </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">30 </container>             
+              <container label="unspecified" type="box">30 </container>             
               <unittitle> Wordsworth, Dora, (later) Quillinan </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">31 </container>             
+              <container label="unspecified" type="box">31 </container>             
               <unittitle> Wordsworth, Dorothy </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">32 </container>             
+              <container label="unspecified" type="box">32 </container>             
               <unittitle> Wordsworth, Elizabeth - Wordsworth, John </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">33 </container>             
+              <container label="unspecified" type="box">33 </container>             
               <unitdate>1829</unitdate>
               <unittitle> Wordsworth, Mary (Hutchinson) through 1829 </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">34 </container>             
+              <container label="unspecified" type="box">34 </container>             
               <unitdate>1830 - 1859</unitdate>
               <unittitle> Wordsworth, Mary (Hutchinson) </unittitle> 
             </did> 
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">35 </container>             
+              <container label="unspecified" type="box">35 </container>             
               <unittitle> Wordsworth, Priscilla (Lloyd) - Z, unknown </unittitle> 
             </did> 
           </c03>
@@ -587,7 +577,7 @@
         <c02 level="item"> 
           <did> 
             <unitid label="4621 Bd. Ms. ">2</unitid> 
-            <unitdate>Circa 1840</unitdate> 
+            <unitdate certainty="approximate">Circa 1840</unitdate> 
             <unittitle>Harriet L. Barnes, Journal of a tour to the Lakes in the
               autumn of 1840</unittitle> 
           </did> 
@@ -603,7 +593,7 @@
         <c02 level="item"> 
           <did> 
             <unitid label="4621 Bd. Ms. ">4 +</unitid> 
-            <unitdate>Circa 1834-1837</unitdate> 
+            <unitdate certainty="approximate">Circa 1834-1837</unitdate> 
             <unittitle>Baron George Gordon Byron, Lord Byron "Childe Harold"
               proofs and letter</unittitle> 
           </did> 
@@ -665,7 +655,7 @@
         <c02 level="item"> 
           <did> 
             <unitid label="4621 Bd. Ms. ">14 +</unitid> 
-            <unitdate>Circa 1830-1899</unitdate> 
+            <unitdate certainty="approximate">Circa 1830-1899</unitdate> 
             <unittitle>Fanny Johnstone, "Dorothy Wordsworth" play</unittitle> 
           </did> 
         </c02> 
@@ -680,7 +670,7 @@
         <c02 level="item"> 
           <did> 
             <unitid label="4621 Bd. Ms. ">18-19</unitid> 
-            <unitdate>Circa 1800</unitdate> 
+            <unitdate certainty="approximate">Circa 1800</unitdate> 
             <unittitle>Charles Lloyd, Isabel, a domestick tale, or, Godwin vs.
               Godwin</unittitle> 
           </did> 
@@ -695,7 +685,7 @@
         <c02 level="item"> 
           <did> 
             <unitid label="4621 Bd. Ms. ">21 +</unitid> 
-            <unitdate>Circa 1840</unitdate> 
+            <unitdate certainty="approximate">Circa 1840</unitdate> 
             <unittitle>C. Partridge and M. Partridge, Smiles and
               tears</unittitle> 
           </did> 
@@ -718,14 +708,14 @@
         <c02 level="item"> 
           <did> 
             <unitid label="4621 Bd. Ms. ">24 +</unitid> 
-            <unitdate>Circa 1890</unitdate> 
+            <unitdate certainty="approximate">Circa 1890</unitdate> 
             <unittitle>J.R. Tutin, The Wordsworth year-book</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
             <unitid label="4621 Bd. Ms. ">25</unitid> 
-            <unitdate>Circa 1900-1919</unitdate> 
+            <unitdate certainty="approximate">Circa 1900-1919</unitdate> 
             <unittitle>Cynthia Morgan St. John, A scrap book of
               parodies</unittitle> 
           </did> 
@@ -754,35 +744,35 @@
         <c02 level="item"> 
           <did> 
             <unitid label="4621 Bd. Ms. ">29 ++</unitid> 
-            <unitdate>Circa 1839</unitdate> 
+            <unitdate certainty="approximate">Circa 1839</unitdate> 
             <unittitle>William Wordsworth, Poem and note</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
             <unitid label="4621 Bd. Ms. ">30 tiny</unitid> 
-            <unitdate>Circa 1833</unitdate> 
+            <unitdate certainty="approximate">Circa 1833</unitdate> 
             <unittitle>William and Mary Wordsworth, Notebook</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
             <unitid label="4621 Bd. Ms. ">31</unitid> 
-            <unitdate>Circa 1828</unitdate> 
+            <unitdate certainty="approximate">Circa 1828</unitdate> 
             <unittitle>Wordsworth portrait and letter</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
             <unitid label="4621 Bd. Ms. ">32 ++</unitid> 
-            <unitdate>Circa 1800-1848</unitdate> 
+            <unitdate certainty="approximate">Circa 1800-1848</unitdate> 
             <unittitle>Wordsworth portraits and letter</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
             <unitid label="4621 Bd. Ms. ">33 +++</unitid> 
-            <unitdate>Circa 1807</unitdate> 
+            <unitdate certainty="approximate">Circa 1807</unitdate> 
             <unittitle>William Wordsworth, Poems in two volumes</unittitle> 
           </did> 
         </c02> 
@@ -797,7 +787,7 @@
         <c02 level="item"> 
           <did> 
             <unitid label="4621 Bd. Ms. ">353 +</unitid> 
-            <unitdate>Circa 1830-1839</unitdate> 
+            <unitdate certainty="approximate">Circa 1830-1839</unitdate> 
             <unittitle>Benjamin Robert Haydon, Album</unittitle> 
           </did> 
         </c02> 
@@ -831,31 +821,31 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container>            
+            <container label="unspecified" type="box">2</container>            
             <unittitle>Reviews, Pamphlets, etc.</unittitle> 
           </did> 
         </c02>
         <c02 level="file"> 
           <did> 
-            <container type="box">36</container>   
+            <container label="unspecified" type="box">36</container>   
             <unittitle> Sotheby's Auction Photocopies </unittitle> 
           </did> 
         </c02>
         <c02 level="file"> 
           <did> 
-            <container type="box">37</container>   
+            <container label="unspecified" type="box">37</container>   
             <unittitle>  Wordsworthiana Keepsakes </unittitle> 
           </did> 
         </c02>
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container>   
+            <container label="unspecified" type="box">38</container>   
             <unittitle>  Wordsworthiana Portraits </unittitle> 
           </did> 
         </c02>
         <c02 level="file"> 
           <did> 
-            <container type="box">39</container>   
+            <container label="unspecified" type="box">39</container>   
             <unittitle>  Wordsworthiana Homes and Haunts </unittitle> 
           </did> 
         </c02>
@@ -874,7 +864,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">35</unitid> 
-              <unitdate>Circa 1785-1786</unitdate> 
+              <unitdate certainty="approximate">Circa 1785-1786</unitdate> 
               <unittitle>William Wordsworth, Lines written as a school exercise
                 at Hawkshead, D.C. Ms. Verse 1, photocopy</unittitle> 
             </did> 
@@ -890,7 +880,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">37</unitid> 
-              <unitdate>Circa 1787</unitdate> 
+              <unitdate certainty="approximate">Circa 1787</unitdate> 
               <unittitle>William Wordsworth, The vale of Esthwaite, D.C. Ms.
                 Verse 3, photocopy</unittitle> 
             </did> 
@@ -932,7 +922,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">42</unitid> 
-              <unitdate>Circa 1793</unitdate> 
+              <unitdate certainty="approximate">Circa 1793</unitdate> 
               <unittitle>William Wordsworth, 1793 edition of An evening walk
                 (two copies with ms. corrections), D.C. Ms. Verse 8-9, photocopy</unittitle> 
             </did> 
@@ -983,7 +973,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">48</unitid> 
-              <unitdate>Circa 1798-1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1798-1805</unitdate> 
               <unittitle>William Wordsworth, The prelude, The borderers (Ms.
                 2), D.C. Ms. Verse 15, photocopy</unittitle> 
             </did> 
@@ -991,7 +981,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">49</unitid> 
-              <unitdate>Circa 1798-1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1798-1805</unitdate> 
               <unittitle>William Wordsworth, The prelude, The borderers (Ms.
                 2), D.C. Ms. Verse 15, photocopy</unittitle> 
             </did> 
@@ -1015,7 +1005,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">52</unitid> 
-              <unitdate>Circa 1800</unitdate> 
+              <unitdate certainty="approximate">Circa 1800</unitdate> 
               <unittitle>William Wordsworth, Christabel, D.C. Ms. Verse 18,
                 part 1, photocopy</unittitle> 
             </did> 
@@ -1023,7 +1013,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">53</unitid> 
-              <unitdate>Circa 1800</unitdate> 
+              <unitdate certainty="approximate">Circa 1800</unitdate> 
               <unittitle>William Wordsworth, Christabel, D.C. Ms. Verse 18,
                 part 2, photocopy</unittitle> 
             </did> 
@@ -1031,7 +1021,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">54</unitid> 
-              <unitdate>Circa 1793-1794</unitdate> 
+              <unitdate certainty="approximate">Circa 1793-1794</unitdate> 
               <unittitle>William Wordsworth, Matthew poems, Fragments of The
                 Prelude, Fragments of The excursion, A character, Nutting, Andrew Jones,
                 Salisbury Plain, D.C. Ms. Verse 18A, photocopy</unittitle> 
@@ -1040,7 +1030,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">55</unitid> 
-              <unitdate>Circa 1797-1798</unitdate> 
+              <unitdate certainty="approximate">Circa 1797-1798</unitdate> 
               <unittitle>William Wordsworth, The Alfoxden notebook, D.C. Ms.
                 Verse 19, photocopy</unittitle> 
             </did> 
@@ -1112,7 +1102,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">64</unitid> 
-              <unitdate>Circa 1798-1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1798-1805</unitdate> 
               <unittitle>William Wordsworth, The prelude, D.C. Ms. Verse 24,
                 books 1-4, photocopy</unittitle> 
             </did> 
@@ -1120,7 +1110,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">65</unitid> 
-              <unitdate>Circa 1798-1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1798-1805</unitdate> 
               <unittitle>William Wordsworth, The prelude, D.C. Ms. Verse 24,
                 books 5-7, photocopy</unittitle> 
             </did> 
@@ -1128,7 +1118,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">66</unitid> 
-              <unitdate>Circa 1798-1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1798-1805</unitdate> 
               <unittitle>William Wordsworth, The prelude, D.C. Ms. Verse 24,
                 books 8-10, photocopy</unittitle> 
             </did> 
@@ -1169,7 +1159,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">71</unitid> 
-              <unitdate>Circa 1798</unitdate> 
+              <unitdate certainty="approximate">Circa 1798</unitdate> 
               <unittitle>William Wordsworth, The prelude (Ms. V), D.C. Ms.
                 Verse 26, photocopy</unittitle> 
             </did> 
@@ -1177,7 +1167,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">72</unitid> 
-              <unitdate>Circa 1798</unitdate> 
+              <unitdate certainty="approximate">Circa 1798</unitdate> 
               <unittitle>William Wordsworth, The prelude (Ms. V), D.C. Ms.
                 Verse 26, photocopy</unittitle> 
             </did> 
@@ -1201,7 +1191,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">75</unitid> 
-              <unitdate>Circa 1798-1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1798-1805</unitdate> 
               <unittitle>William Wordsworth, The prelude (Ms. X), D.C. Ms.
                 Verse 28, photocopy</unittitle> 
             </did> 
@@ -1209,7 +1199,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">76</unitid> 
-              <unitdate>Circa 1798-1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1798-1805</unitdate> 
               <unittitle>William Wordsworth, The prelude (Ms. X), D.C. Ms.
                 Verse 28, photocopy</unittitle> 
             </did> 
@@ -1217,7 +1207,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">77</unitid> 
-              <unitdate>Circa 1798-1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1798-1805</unitdate> 
               <unittitle>William Wordsworth, The prelude (Ms. Y), D.C. Ms.
                 Verse 29, photocopy</unittitle> 
             </did> 
@@ -1225,7 +1215,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">78</unitid> 
-              <unitdate>Circa 1798-1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1798-1805</unitdate> 
               <unittitle>William Wordsworth, The prelude (Ms. Y), D.C. Ms.
                 Verse 29, photocopy</unittitle> 
             </did> 
@@ -1233,7 +1223,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">79</unitid> 
-              <unitdate>Circa 1798-1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1798-1805</unitdate> 
               <unittitle>William Wordsworth, The prelude (Ms. Z), D.C. Ms.
                 Verse 30, photocopy</unittitle> 
             </did> 
@@ -1241,7 +1231,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">80</unitid> 
-              <unitdate>Circa 1798-1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1798-1805</unitdate> 
               <unittitle>William Wordsworth, The prelude (Ms. Z), D.C. Ms.
                 Verse 30, photocopy</unittitle> 
             </did> 
@@ -1257,7 +1247,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">82</unitid> 
-              <unitdate>Circa 1796-1798</unitdate> 
+              <unitdate certainty="approximate">Circa 1796-1798</unitdate> 
               <unittitle>William Wordsworth, The ruined cottage, D.C. Ms. Verse
                 32, photocopy</unittitle> 
             </did> 
@@ -1265,7 +1255,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">83</unitid> 
-              <unitdate>Circa 1800</unitdate> 
+              <unitdate certainty="approximate">Circa 1800</unitdate> 
               <unittitle>William Wordsworth, The ruined cottage (Excursion I,
                 Ms. B), D.C. Ms. Verse 33B, photocopy</unittitle> 
             </did> 
@@ -1273,7 +1263,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">84</unitid> 
-              <unitdate>Circa 1800</unitdate> 
+              <unitdate certainty="approximate">Circa 1800</unitdate> 
               <unittitle>William Wordsworth, The ruined cottage (Excursion I,
                 Ms. E), D.C. Ms. Verse 33E, photocopy</unittitle> 
             </did> 
@@ -1281,7 +1271,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">85</unitid> 
-              <unitdate>Circa 1800</unitdate> 
+              <unitdate certainty="approximate">Circa 1800</unitdate> 
               <unittitle>William Wordsworth, Peter Bell, D.C. Ms. Verse
                 34, photocopy</unittitle> 
             </did> 
@@ -1289,7 +1279,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">86 tiny</unitid> 
-              <unitdate>Circa 1800</unitdate> 
+              <unitdate certainty="approximate">Circa 1800</unitdate> 
               <unittitle>William Wordsworth, Peter Bell, D.C. Ms. Verse
                 35, photocopy</unittitle> 
             </did> 
@@ -1297,7 +1287,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">87 tiny</unitid> 
-              <unitdate>Circa 1800</unitdate> 
+              <unitdate certainty="approximate">Circa 1800</unitdate> 
               <unittitle>William Wordsworth, Peter Bell, D.C. Ms. Verse
                 36, photocopy</unittitle> 
             </did> 
@@ -1305,7 +1295,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">88 tiny</unitid> 
-              <unitdate>Circa 1800</unitdate> 
+              <unitdate certainty="approximate">Circa 1800</unitdate> 
               <unittitle>William Wordsworth, Poems, D.C. Ms. Verse
                 37, photocopy</unittitle> 
             </did> 
@@ -1313,7 +1303,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">89</unitid> 
-              <unitdate>Circa 1800</unitdate> 
+              <unitdate certainty="approximate">Circa 1800</unitdate> 
               <unittitle>William Wordsworth, Poems probably sent to Thomas
                 Poole in 1800, D.C. Ms. Verse 37A, photocopy</unittitle> 
             </did> 
@@ -1337,7 +1327,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">92</unitid> 
-              <unitdate>Circa 1800</unitdate> 
+              <unitdate certainty="approximate">Circa 1800</unitdate> 
               <unittitle>William Wordsworth, The recluse (Ms. 2), D.C. Ms.
                 Verse 40, photocopy</unittitle> 
             </did> 
@@ -1345,7 +1335,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">93 tiny</unitid> 
-              <unitdate>Circa 1800</unitdate> 
+              <unitdate certainty="approximate">Circa 1800</unitdate> 
               <unittitle>William Wordsworth, Poems, D.C. Ms. Verse
                 42, photocopy</unittitle> 
             </did> 
@@ -1353,7 +1343,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">94 tiny</unitid> 
-              <unitdate>Circa 1800</unitdate> 
+              <unitdate certainty="approximate">Circa 1800</unitdate> 
               <unittitle>William Wordsworth, Poems, D.C. Ms. Verse
                 43, photocopy</unittitle> 
             </did> 
@@ -1402,7 +1392,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">100</unitid> 
-              <unitdate>Circa 1800-1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1800-1805</unitdate> 
               <unittitle>William Wordsworth, To the cuckoo, D.C. Ms. Verse
                 49, photocopy</unittitle> 
             </did> 
@@ -1451,7 +1441,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">106</unitid> 
-              <unitdate>Circa 1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1805</unitdate> 
               <unittitle>William Wordsworth, From Bolton's old monastic tower,
                 D.C. Ms. Verse 53, photocopy</unittitle> 
             </did> 
@@ -1459,7 +1449,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">107 tiny</unitid> 
-              <unitdate>Circa 1808</unitdate> 
+              <unitdate certainty="approximate">Circa 1808</unitdate> 
               <unittitle>William Wordsworth, Poems, D.C. Ms. Verse
                 54, photocopy</unittitle> 
             </did> 
@@ -1491,7 +1481,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">111 tiny</unitid> 
-              <unitdate>Circa 1806</unitdate> 
+              <unitdate certainty="approximate">Circa 1806</unitdate> 
               <unittitle>William Wordsworth, Fragments of The excursion, mostly
                 Book IV, D.C. Ms. Verse 58, photocopy</unittitle> 
             </did> 
@@ -1499,7 +1489,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">112 tiny</unitid> 
-              <unitdate>Circa 1806</unitdate> 
+              <unitdate certainty="approximate">Circa 1806</unitdate> 
               <unittitle>William Wordsworth, Fragments of The excursion, Books
                 I-III, D.C. Ms. Verse 59, photocopy</unittitle> 
             </did> 
@@ -1507,7 +1497,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">113</unitid> 
-              <unitdate>Circa 1806</unitdate> 
+              <unitdate certainty="approximate">Circa 1806</unitdate> 
               <unittitle>William Wordsworth, Fragments of The excursion, Books
                 IV, VI, and IX, D.C. Ms. Verse 60, photocopy</unittitle> 
             </did> 
@@ -1515,7 +1505,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">114</unitid> 
-              <unitdate>Circa 1806</unitdate> 
+              <unitdate certainty="approximate">Circa 1806</unitdate> 
               <unittitle>William Wordsworth, The excursion, Book V, D.C. Ms.
                 Verse 61, part 1, photocopy</unittitle> 
             </did> 
@@ -1523,7 +1513,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">115</unitid> 
-              <unitdate>Circa 1806</unitdate> 
+              <unitdate certainty="approximate">Circa 1806</unitdate> 
               <unittitle>William Wordsworth, The excursion, Book V, fragments
                 of Books V-IX, D.C. Ms. Verse 61, part 2, photocopy</unittitle> 
             </did> 
@@ -1531,7 +1521,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">116</unitid> 
-              <unitdate>Circa 1806</unitdate> 
+              <unitdate certainty="approximate">Circa 1806</unitdate> 
               <unittitle>William Wordsworth, Fragments of The excursion and The
                 Prelude, D.C. Ms. Verse 61, part 3, photocopy</unittitle> 
             </did> 
@@ -1539,7 +1529,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">117</unitid> 
-              <unitdate>Circa 1806</unitdate> 
+              <unitdate certainty="approximate">Circa 1806</unitdate> 
               <unittitle>William Wordsworth, Fragments of The excursion, Books
                 V and VII-IX, D.C. Ms. Verse 62, photocopy</unittitle> 
             </did> 
@@ -1547,7 +1537,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">118 tiny</unitid> 
-              <unitdate>Circa 1806</unitdate> 
+              <unitdate certainty="approximate">Circa 1806</unitdate> 
               <unittitle>William Wordsworth, Fragments of The excursion, D.C.
                 Ms. Verse 62A, photocopy</unittitle> 
             </did> 
@@ -1555,7 +1545,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">119</unitid> 
-              <unitdate>Circa 1815-1820</unitdate> 
+              <unitdate certainty="approximate">Circa 1815-1820</unitdate> 
               <unittitle>William Wordsworth, Vaudracour and Julia, D.C. Ms.
                 Verse 63, photocopy</unittitle> 
             </did> 
@@ -1595,7 +1585,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">124 tiny</unitid> 
-              <unitdate>Circa 1819</unitdate> 
+              <unitdate certainty="approximate">Circa 1819</unitdate> 
               <unittitle>William Wordsworth, Fragments of sonnets and poems,
                 D.C. Ms. Verse 67B, photocopy</unittitle> 
             </did> 
@@ -1603,7 +1593,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">125</unitid> 
-              <unitdate>Circa 1820</unitdate> 
+              <unitdate certainty="approximate">Circa 1820</unitdate> 
               <unittitle>William Wordsworth, Fragments of Dogmatic teachers and
                 Duddon sonnet no. 29, D.C. Ms. Verse 68, photocopy</unittitle> 
             </did> 
@@ -1611,7 +1601,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">126</unitid> 
-              <unitdate>Circa 1817</unitdate> 
+              <unitdate certainty="approximate">Circa 1817</unitdate> 
               <unittitle>William Wordsworth, Fragments of book written in
                 preparation for 1820 volume, D.C. Ms. Verse 69, photocopy</unittitle> 
             </did> 
@@ -1675,7 +1665,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">134</unitid> 
-              <unitdate>Circa 1829</unitdate> 
+              <unitdate certainty="approximate">Circa 1829</unitdate> 
               <unittitle>William Wordsworth, Humantiy and Liberty as one poem
                 with the title To a friend, In these fair vales..., Haydon! Let worthier
                 judges..., D.C. Ms. Verse 76, photocopy</unittitle> 
@@ -1684,7 +1674,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">135</unitid> 
-              <unitdate>Circa 1830</unitdate> 
+              <unitdate certainty="approximate">Circa 1830</unitdate> 
               <unittitle>William Wordsworth, Miscellaneous poems, D.C. Ms.
                 Verse 77, photocopy</unittitle> 
             </did> 
@@ -1692,7 +1682,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">136</unitid> 
-              <unitdate>Circa 1830-1835</unitdate> 
+              <unitdate certainty="approximate">Circa 1830-1835</unitdate> 
               <unittitle>William Wordsworth, The somnabulist, The poet and the
                 caged turtledove, The Russian fugitive, D.C. Ms. Verse 78, photocopy</unittitle> 
             </did> 
@@ -1708,7 +1698,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">138</unitid> 
-              <unitdate>Circa 1826-1835</unitdate> 
+              <unitdate certainty="approximate">Circa 1826-1835</unitdate> 
               <unittitle>William Wordsworth, Poems mostly incorporated in
                 Yarrow revisited, D.C. Ms. Verse 80, photocopy</unittitle> 
             </did> 
@@ -1724,7 +1714,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">140 tiny</unitid> 
-              <unitdate>Circa 1833</unitdate> 
+              <unitdate certainty="approximate">Circa 1833</unitdate> 
               <unittitle>William Wordsworth, Poems included in Yarrow
                 revisited, chiefly transcribed by Dora Wordsworth, D.C. Ms. Verse
                 81A, photocopy</unittitle> 
@@ -1854,7 +1844,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">156</unitid> 
-              <unitdate>Circa 1838</unitdate> 
+              <unitdate certainty="approximate">Circa 1838</unitdate> 
               <unittitle>William Wordsworth, On the ground of Waterloo..., D.C.
                 Ms. Verse 94, photocopy</unittitle> 
             </did> 
@@ -1878,7 +1868,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">159</unitid> 
-              <unitdate>Circa 1840</unitdate> 
+              <unitdate certainty="approximate">Circa 1840</unitdate> 
               <unittitle>William Wordsworth, Private memorials not to be
                 printed, D.C. Ms. Verse 97, photocopy</unittitle> 
             </did> 
@@ -1902,7 +1892,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">162</unitid> 
-              <unitdate>Circa 1842</unitdate> 
+              <unitdate certainty="approximate">Circa 1842</unitdate> 
               <unittitle>William Wordsworth, Translation of Virgil's Aeneid,
                 D.C. Ms. Verse 100A, photocopy</unittitle> 
             </did> 
@@ -1910,7 +1900,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">163</unitid> 
-              <unitdate>Circa 1842</unitdate> 
+              <unitdate certainty="approximate">Circa 1842</unitdate> 
               <unittitle>William Wordsworth, Translation of Virgil's Aeneid,
                 D.C. Ms. Verse 100B, photocopy</unittitle> 
             </did> 
@@ -1918,7 +1908,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">164</unitid> 
-              <unitdate>Circa 1820-1846</unitdate> 
+              <unitdate certainty="approximate">Circa 1820-1846</unitdate> 
               <unittitle>William Wordsworth, Large folio of poems, D.C. Ms.
                 Verse 101, photocopy</unittitle> 
             </did> 
@@ -1926,7 +1916,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">165</unitid> 
-              <unitdate>Circa 1842</unitdate> 
+              <unitdate certainty="approximate">Circa 1842</unitdate> 
               <unittitle>William Wordsworth, Memorials of a tour in Italy, mss.
                 and revisions for 1842 edition, D.C. Ms. Verse 102, part 1, photocopy</unittitle> 
             </did> 
@@ -1934,7 +1924,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">166</unitid> 
-              <unitdate>Circa 1789-1821</unitdate> 
+              <unitdate certainty="approximate">Circa 1789-1821</unitdate> 
               <unittitle>William Wordsworth, Incidents on Salisbury Plain, The
                 Schoolmaster, Address to the scholars of the village school..., At the grave of
                 Burns, D.C. Ms. Verse 102, part 2, photocopy</unittitle> 
@@ -1943,7 +1933,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">167</unitid> 
-              <unitdate>Circa 1842</unitdate> 
+              <unitdate certainty="approximate">Circa 1842</unitdate> 
               <unittitle>William Wordsworth, Memorials of a tour in Italy, mss.
                 of the notes to the 1842 edition, D.C. Ms. Verse 102, part 3, photocopy</unittitle> 
             </did> 
@@ -1951,7 +1941,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">168</unitid> 
-              <unitdate>Circa 1842</unitdate> 
+              <unitdate certainty="approximate">Circa 1842</unitdate> 
               <unittitle>William Wordsworth, Memorials of a tour in Italy,
                 drafts as returned from the printer, D.C. Ms. Verse 102, part 4, photocopy</unittitle> 
             </did> 
@@ -1959,7 +1949,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">169</unitid> 
-              <unitdate>Circa 1842</unitdate> 
+              <unitdate certainty="approximate">Circa 1842</unitdate> 
               <unittitle>William Wordsworth, Memorials of a tour in Italy,
                 drafts as returned from the printer, D.C. Ms. Verse 102, part 5, photocopy</unittitle> 
             </did> 
@@ -1967,7 +1957,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">170</unitid> 
-              <unitdate>Circa 1842</unitdate> 
+              <unitdate certainty="approximate">Circa 1842</unitdate> 
               <unittitle>William Wordsworth, Memorials of a tour in Italy,
                 revised proofs of 1842 edition, D.C. Ms. Verse 102, part 6, photocopy</unittitle> 
             </did> 
@@ -2040,7 +2030,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">179</unitid> 
-              <unitdate>Dec. 27, 1812, Jan. 8, 1813</unitdate> 
+              <unitdate certainty="approximate">Dec. 27, 1812, Jan. 8, 1813</unitdate> 
               <unittitle>William Wordsworth, Draft of two letters to Lord
                 Lonsdale, D.C. Ms. Prose 9, photocopy</unittitle> 
             </did> 
@@ -2048,7 +2038,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">180</unitid> 
-              <unitdate>Dec. 27, 1812, Jan. 8, 1813</unitdate> 
+              <unitdate certainty="approximate">Dec. 27, 1812, Jan. 8, 1813</unitdate> 
               <unittitle>William Wordsworth, Draft of two letters to Lord
                 Lonsdale, D.C. Ms. Prose 9, photocopy</unittitle> 
             </did> 
@@ -2072,7 +2062,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">183</unitid> 
-              <unitdate>Dec. 4, 1821</unitdate> 
+              <unitdate certainty="approximate">Dec. 4, 1821</unitdate> 
               <unittitle>William Wordsworth, Letter to James Losh, D.C. Ms.
                 Prose 11, photocopy</unittitle> 
             </did> 
@@ -2080,7 +2070,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">184</unitid> 
-              <unitdate>Dec. 4, 1821</unitdate> 
+              <unitdate certainty="approximate">Dec. 4, 1821</unitdate> 
               <unittitle>William Wordsworth, Letter to James Losh, D.C. Ms.
                 Prose 11, photocopy</unittitle> 
             </did> 
@@ -2112,7 +2102,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">188</unitid> 
-              <unitdate>Circa 1835</unitdate> 
+              <unitdate certainty="approximate">Circa 1835</unitdate> 
               <unittitle>William Wordsworth, Draft for Appendix to the 1835
                 edition of the Poems, D.C. Ms. Prose 14, photocopy</unittitle> 
             </did> 
@@ -2128,7 +2118,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">190 tiny</unitid> 
-              <unitdate>Dec. 16, 1845</unitdate> 
+              <unitdate certainty="approximate">Dec. 16, 1845</unitdate> 
               <unittitle>William Wordsworth, Letter to Seymour Femenhere, Esq.,
                 on education, D.C. Ms. Prose 16, photocopy</unittitle> 
             </did> 
@@ -2144,7 +2134,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">192</unitid> 
-              <unitdate>Circa 1800-1820</unitdate> 
+              <unitdate certainty="approximate">Circa 1800-1820</unitdate> 
               <unittitle>William Wordsworth, Unidentified manuscript, D.C. Ms.
                 Prose 18, photocopy</unittitle> 
             </did> 
@@ -2152,7 +2142,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">193</unitid> 
-              <unitdate>Circa 1810</unitdate> 
+              <unitdate certainty="approximate">Circa 1810</unitdate> 
               <unittitle>William Wordsworth, Guide to the lakes:
                 Approaches-Lancaster-Furness Abbey, General Introduction, D.C. Ms. Prose
                 19, photocopy</unittitle> 
@@ -2161,7 +2151,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">194</unitid> 
-              <unitdate>Circa 1810</unitdate> 
+              <unitdate certainty="approximate">Circa 1810</unitdate> 
               <unittitle>William Wordsworth, Guide to the lakes: Dunnerdale,
                 D.C. Ms. Prose 20, photocopy</unittitle> 
             </did> 
@@ -2169,7 +2159,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">195</unitid> 
-              <unitdate>Circa 1810</unitdate> 
+              <unitdate certainty="approximate">Circa 1810</unitdate> 
               <unittitle>William Wordsworth, Guide to the lakes: Coniston Lake,
                 D.C. Ms. Prose 21, photocopy</unittitle> 
             </did> 
@@ -2177,7 +2167,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">196</unitid> 
-              <unitdate>Circa 1810</unitdate> 
+              <unitdate certainty="approximate">Circa 1810</unitdate> 
               <unittitle>William Wordsworth, Guide to the lakes: Tilberthwaite
                 and Yewdale, D.C. Ms. Prose 22, photocopy</unittitle> 
             </did> 
@@ -2185,7 +2175,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">197</unitid> 
-              <unitdate>Circa 1810</unitdate> 
+              <unitdate certainty="approximate">Circa 1810</unitdate> 
               <unittitle>William Wordsworth, Guide to the lakes:
                 Coniston-Hawkshead-To the Feny, D.C. Ms. Prose 23, photocopy</unittitle> 
             </did> 
@@ -2193,7 +2183,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">198</unitid> 
-              <unitdate>Circa 1810</unitdate> 
+              <unitdate certainty="approximate">Circa 1810</unitdate> 
               <unittitle>William Wordsworth, Guide to the lakes: Windermere,
                 Bowness, Staveley, D.C. Ms. Prose 24, photocopy</unittitle> 
             </did> 
@@ -2201,7 +2191,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">199</unitid> 
-              <unitdate>Circa 1810</unitdate> 
+              <unitdate certainty="approximate">Circa 1810</unitdate> 
               <unittitle>William Wordsworth, Guide to the lakes: Grasmere and
                 Thirlmere, D.C. Ms. Prose 25, photocopy</unittitle> 
             </did> 
@@ -2209,7 +2199,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">200</unitid> 
-              <unitdate>Circa 1810</unitdate> 
+              <unitdate certainty="approximate">Circa 1810</unitdate> 
               <unittitle>William Wordsworth, Guide to the lakes: Borrowdale,
                 D.C. Ms. Prose 26, photocopy</unittitle> 
             </did> 
@@ -2217,7 +2207,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">201</unitid> 
-              <unitdate>Circa 1810</unitdate> 
+              <unitdate certainty="approximate">Circa 1810</unitdate> 
               <unittitle>William Wordsworth, Guide to the lakes: Patterdale,
                 Ullswater, etc., D.C. Ms. Prose 27, photocopy</unittitle> 
             </did> 
@@ -2225,7 +2215,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">202</unitid> 
-              <unitdate>Circa 1810</unitdate> 
+              <unitdate certainty="approximate">Circa 1810</unitdate> 
               <unittitle>William Wordsworth, Guide to the lakes: The Sublime
                 and the Beautiful, D.C. Ms. Prose 28, photocopy</unittitle> 
             </did> 
@@ -2233,7 +2223,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">203</unitid> 
-              <unitdate>Circa 1810</unitdate> 
+              <unitdate certainty="approximate">Circa 1810</unitdate> 
               <unittitle>William Wordsworth, Guide to the lakes: Keswick to
                 Buttermere, D.C. Ms. Prose 29, photocopy</unittitle> 
             </did> 
@@ -2241,7 +2231,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">204</unitid> 
-              <unitdate>Circa 1810</unitdate> 
+              <unitdate certainty="approximate">Circa 1810</unitdate> 
               <unittitle>William Wordsworth, Guide to the lakes: Lakes and
                 islands, D.C. Ms. Prose 30, photocopy</unittitle> 
             </did> 
@@ -2265,7 +2255,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">207 tiny</unitid> 
-              <unitdate>May 14-Dec. 22, 1800</unitdate> 
+              <unitdate certainty="approximate">May 14-Dec. 22, 1800</unitdate> 
               <unittitle>Dorothy Wordsworth, Grasmere Journal, D.C. Ms. Journal
                 3, photocopy</unittitle> 
             </did> 
@@ -2297,7 +2287,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">211 tiny</unitid> 
-              <unitdate>Circa 1803</unitdate> 
+              <unitdate certainty="approximate">Circa 1803</unitdate> 
               <unittitle>Dorothy Wordsworth, Pencil memoranda of Scotch tour,
                 D.C. Ms. Journal 7, photocopy</unittitle> 
             </did> 
@@ -2305,7 +2295,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">212</unitid> 
-              <unitdate>Circa 1804-1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1804-1805</unitdate> 
               <unittitle>Dorothy Wordsworth, Recollections of a tour in
                 Scotland, 1803, copied by Mrs. Clarkson (Ms. A), D.C. Ms. Journal 8, photocopy</unittitle>
               
@@ -2322,7 +2312,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">214</unitid> 
-              <unitdate>Circa 1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1805</unitdate> 
               <unittitle>Dorothy Wordsworth, Recollections of a tour in
                 Scotland, 1803 (Ms. B), D.C. Ms. Journal 10, photocopy</unittitle> 
             </did> 
@@ -2330,7 +2320,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">215</unitid> 
-              <unitdate>Circa 1805</unitdate> 
+              <unitdate certainty="approximate">Circa 1805</unitdate> 
               <unittitle>Dorothy Wordsworth, Recollections of a tour in
                 Scotland, 1803 (Ms. B), D.C. Ms. Journal 11, photocopy</unittitle> 
             </did> 
@@ -2402,7 +2392,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">224 tiny</unitid> 
-              <unitdate>Dec. 1, 1824-Dec. 9, 1825</unitdate> 
+              <unitdate certainty="approximate">Dec. 1, 1824-Dec. 9, 1825</unitdate> 
               <unittitle>Dorothy Wordsworth, Journal, D.C. Ms. Journal 18, part
                 1, photocopy</unittitle> 
             </did> 
@@ -2474,7 +2464,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">233 tiny</unitid> 
-              <unitdate>Nov. 17, 1828-Dec 1829</unitdate> 
+              <unitdate certainty="approximate">Nov. 17, 1828-Dec 1829</unitdate> 
               <unittitle>Dorothy Wordsworth, Journal, D.C. Ms. Journal 18, part
                 10, photocopy</unittitle> 
             </did> 
@@ -2522,7 +2512,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">239</unitid> 
-              <unitdate>Circa 1835</unitdate> 
+              <unitdate certainty="approximate">Circa 1835</unitdate> 
               <unittitle>Dorothy Wordsworth, Notes on readings, D.C. Ms.
                 Journal 20, photocopy</unittitle> 
             </did> 
@@ -2530,7 +2520,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">240</unitid> 
-              <unitdate>Circa 1826-1832</unitdate> 
+              <unitdate certainty="approximate">Circa 1826-1832</unitdate> 
               <unittitle>Dorothy Wordsworth, Copies of poems by William
                 Wordsworth and Dorothy Wordsworth, D.C. Ms. Journal 21, photocopy</unittitle> 
             </did> 
@@ -2538,7 +2528,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">241</unitid> 
-              <unitdate>Circa 1826-1832</unitdate> 
+              <unitdate certainty="approximate">Circa 1826-1832</unitdate> 
               <unittitle>Dorothy Wordsworth, Pet lamb and three poems, D.C. Ms.
                 Journal 22, photocopy</unittitle> 
             </did> 
@@ -2586,7 +2576,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">247</unitid> 
-              <unitdate>Circa 1821</unitdate> 
+              <unitdate certainty="approximate">Circa 1821</unitdate> 
               <unittitle>Mary Wordsworth, Journal of a tour on the Continent,
                 1820, amended draft, D.C. Ms. Journal 25, photocopy</unittitle> 
             </did> 
@@ -2594,7 +2584,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">248</unitid> 
-              <unitdate>Circa 1821</unitdate> 
+              <unitdate certainty="approximate">Circa 1821</unitdate> 
               <unittitle>Mary Wordsworth, Journal of a tour on the Continent,
                 1820, copied by Sara Hutchinson, D.C. Ms. Journal 26, photocopy</unittitle> 
             </did> 
@@ -2602,7 +2592,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">249</unitid> 
-              <unitdate>Circa 1821</unitdate> 
+              <unitdate certainty="approximate">Circa 1821</unitdate> 
               <unittitle>Mary Wordsworth, Journal of a tour on the Continent,
                 1820, unidentified copyist, D.C. Ms. Journal 27, photocopy</unittitle> 
             </did> 
@@ -2642,7 +2632,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">254</unitid> 
-              <unitdate>Circa 1811-1813</unitdate> 
+              <unitdate certainty="approximate">Circa 1811-1813</unitdate> 
               <unittitle>Basil Montagu, Narrative, D.C. Ms. Journal
                 32, photocopy</unittitle> 
             </did> 
@@ -2701,7 +2691,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">261</unitid> 
-              <unitdate>Circa 1804-1847</unitdate> 
+              <unitdate certainty="approximate">Circa 1804-1847</unitdate> 
               <unittitle>Dora Wordsworth, Collection of letters (autograph
                 book), D.C. Ms. Misc. 7, photocopy</unittitle> 
             </did> 
@@ -2742,7 +2732,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">266</unitid> 
-              <unitdate>Circa 1950-1960</unitdate> 
+              <unitdate certainty="approximate">Circa 1950-1960</unitdate> 
               <unittitle>Catalogue of the mss., etc., in the Wordsworth Museum
                 at Grasmere, D.C. Ms. Misc. 12, photocopy</unittitle> 
             </did> 
@@ -2774,7 +2764,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">270</unitid> 
-              <unitdate>Circa 1798-1809</unitdate> 
+              <unitdate certainty="approximate">Circa 1798-1809</unitdate> 
               <unittitle>William and Dorothy Wordsworth, Letters to Samuel
                 Taylor Coleridge, D.C. Ms. Misc. 15, photocopy</unittitle> 
             </did> 
@@ -2906,7 +2896,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">286</unitid> 
-              <unitdate>Circa 1805 and earlier</unitdate> 
+              <unitdate certainty="approximate">Circa 1805 and earlier</unitdate> 
               <unittitle>Charles and Mary Lamb, Seven poems published in the
                 works of Charles Lamb, 1818, D.C. Ms. Misc. 31, photocopy</unittitle> 
             </did> 
@@ -2914,7 +2904,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">287</unitid> 
-              <unitdate>Circa 1823</unitdate> 
+              <unitdate certainty="approximate">Circa 1823</unitdate> 
               <unittitle>Charles Lamb, Miscellaneous letters, D.C. Ms. Misc.
                 32, photocopy</unittitle> 
             </did> 
@@ -2922,7 +2912,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">288</unitid> 
-              <unitdate>Circa 1820s</unitdate> 
+              <unitdate certainty="approximate">Circa 1820s</unitdate> 
               <unittitle>Charles Lamb, Fragment of notes written to Moxon, D.C.
                 Ms. Misc. 33, photocopy</unittitle> 
             </did> 
@@ -3002,7 +2992,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">298</unitid> 
-              <unitdate>Circa 1816-1818</unitdate> 
+              <unitdate certainty="approximate">Circa 1816-1818</unitdate> 
               <unittitle>Sara Hutchinson, Letters, D.C. Ms. Misc.
                 43, photocopy</unittitle> 
             </did> 
@@ -3107,7 +3097,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">311</unitid> 
-              <unitdate>Circa 1892-1932</unitdate> 
+              <unitdate certainty="approximate">Circa 1892-1932</unitdate> 
               <unittitle>Misc. papers and letters concerning John Wordsworth,
                 D.C. Ms. Misc. 56, photocopy</unittitle> 
             </did> 
@@ -3155,7 +3145,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">317</unitid> 
-              <unitdate>Circa 1835-1850</unitdate> 
+              <unitdate certainty="approximate">Circa 1835-1850</unitdate> 
               <unittitle>William Wordsworth, Letters to Miss Fenwick, D.C. Ms.
                 Misc. 58, photocopy</unittitle> 
             </did> 
@@ -3163,7 +3153,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">318</unitid> 
-              <unitdate>Circa 1835-1850</unitdate> 
+              <unitdate certainty="approximate">Circa 1835-1850</unitdate> 
               <unittitle>S. Rogers, Robert Southey, and others, Letters to
                 William Wordsworth on the death of Sara Hutchinson and Dora Quillinan, D.C. Ms.
                 Misc. 59, photocopy</unittitle> 
@@ -3204,7 +3194,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">323</unitid> 
-              <unitdate>Circa 1834</unitdate> 
+              <unitdate certainty="approximate">Circa 1834</unitdate> 
               <unittitle>William Wordsworth, Proof of Ode in memory of Charles
                 Lamb, with alterations in the hand of Mary Wordsworth, D.C. Ms. Misc.
                 64, photocopy</unittitle> 
@@ -3213,7 +3203,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="4621 Bd. Ms. ">324 tiny</unitid> 
-              <unitdate>Circa 1800-1843</unitdate> 
+              <unitdate certainty="approximate">Circa 1800-1843</unitdate> 
               <unittitle>Robert Southey, Miscellaneous manuscripts, D.C. Ms.
                 Misc. 65, photocopy</unittitle> 
             </did> 
@@ -3221,7 +3211,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">325</unitid> 
-              <unitdate>Circa 1843</unitdate> 
+              <unitdate certainty="approximate">Circa 1843</unitdate> 
               <unittitle>William Wordsworth, Epitaph on Robert Southey, D.C.
                 Ms. Misc. 66, photocopy</unittitle> 
             </did> 
@@ -3237,7 +3227,7 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">327</unitid> 
-              <unitdate>Circa 1800</unitdate> 
+              <unitdate certainty="approximate">Circa 1800</unitdate> 
               <unittitle>Misc. newspaper clippings, D.C. Ms. Misc.
                 68, photocopy</unittitle> 
             </did> 
@@ -3269,12 +3259,22 @@
           <c02 level="item"> 
             <did> 
               <unitid label="Off site 4621 Bd. Ms. ">331</unitid> 
-              <unitdate>Circa 1773-1793</unitdate> 
+              <unitdate certainty="approximate">Circa 1773-1793</unitdate> 
               <unittitle>John Wordsworth, Miscellaneous accounts, documents,
                 etc., D.C. Ms. Misc. 6, photocopy</unittitle> 
             </did> 
           </c02> 
         </c01>
     </dsc> 
-  </archdesc> 
+  <odd><p>The container list below currently includes only the bound manuscript
+      items in the collection.</p></odd><odd><p>Dove Cottage manuscripts are reproductions of the originals.</p></odd><userestrict> 
+        <head>Restrictions on use:</head> 
+        <p>By appointment only. To be used one folder at a time. Copyright restriction: photocopies can only be made from originals
+          held by this Division. Dove Cottage manuscripts may not be quoted without
+          permission from the owning repository.</p> 
+      </userestrict><prefercite> 
+        <head>Cite As:</head> 
+        <p>William Wordsworth collection, #4621. Division of Rare and
+          Manuscript Collections, Cornell University Library.</p> 
+      </prefercite></archdesc> 
 </ead>

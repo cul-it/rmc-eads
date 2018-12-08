@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03687::Guide to the Cornell University Publications and Marketing Group records)//EN">RMA03687</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03687::Guide to the Cornell University Publications and Marketing Group records)//EN">RMA03687</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Cornell University Publications and Marketing Group
@@ -24,20 +24,26 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>August 2014</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
 			<titleproper>Guide to the Cornell University Publications and Marketing Group
-					records,<lb/><date type="inclusive" encodinganalog="245$f">1990-2014.</date></titleproper>
+					records,<date encodinganalog="245$f" type="inclusive">1990-2014.</date></titleproper>
 			<num>Collection Number: 4-3-3687</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -63,13 +69,12 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Cornell University Publications and
-				Marketing Group records, <unitdate encodinganalog="MARC 245" type="inclusive">1990-2014.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Cornell University Publications and
+				Marketing Group records, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1990-2014.</unitdate>
 			<unitid label="Collection Number:">4-3-3687</unitid>
 			<origination label="Creator:"><corpname encodinganalog="MARC 110">Cornell University.
 					University Communications. Publications and Marketing.</corpname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>6.5 cubic feet.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>6.5 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Photographs, printed material,
 				publications</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -78,7 +83,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="organization">ORGANIZATIONAL HISTORY </head>
+			<head altrender="organization" id="a2">ORGANIZATIONAL HISTORY </head>
 			<p>Cornell Publications and Marketing is a full-service marketing communications agency
 				available to the Cornell community, which includes graphic designers, editors,
 				researchers, and writers, and produces print publications on all aspects of the
@@ -103,14 +108,7 @@
 					relations.</corpname>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Cornell University Publications and Marketing Group records, #4-3-3687. Division
-					of Rare and Manuscript Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			  <c01 level="series">
@@ -125,7 +123,7 @@
         </scopecontent>
         <c02 level="subseries">
           <did>
-            <container type="box">1</container>
+            <container label="unspecified" type="box">1</container>
             <unittitle>Undergraduate Admissions</unittitle>
           </did>
           <scopecontent>
@@ -140,22 +138,22 @@
 
 			  	<c02 level="subseries">
           <did>
-            <container type="box">1</container>
+            <container label="unspecified" type="box">1</container>
             <unittitle>Cornell Abroad</unittitle>
           </did>
           <scopecontent>
-            <p/>
+            
           </scopecontent>
         </c02>
 			  	<c02 level="subseries">
           <did>
-            <container type="box">1</container>
+            <container label="unspecified" type="box">1</container>
             <unittitle>Telluride Association</unittitle>
           </did>       
         </c02>
 			  	<c02 level="subseries">
           <did>
-            <container type="box">1</container>
+            <container label="unspecified" type="box">1</container>
             <unittitle>Cornell's Urban Semester in NYC</unittitle>
           </did>
           <scopecontent>
@@ -164,22 +162,22 @@
         </c02>
 			  	<c02 level="subseries">
           <did>
-            <container type="box">1</container>
+            <container label="unspecified" type="box">1</container>
             <unittitle>Cornell in Washington</unittitle>
           </did>
           <scopecontent>
-            <p/>
+            
           </scopecontent>
         </c02>
 			  	<c02 level="subseries">
 			  		<did>
-			  			<container type="box">1</container>
+			  			<container label="unspecified" type="box">1</container>
 			  			<unittitle>Shoals Marine Lab</unittitle>
 			  		</did>			  		
 			  	</c02>
 			  	<c02 level="subseries">
           <did>
-            <container type="box">1</container>
+            <container label="unspecified" type="box">1</container>
             <unittitle>College of Agriculture</unittitle>
           </did>
           <scopecontent>
@@ -195,7 +193,7 @@
 
 			  	<c02 level="subseries">
           <did>
-            <container type="box">2</container>
+            <container label="unspecified" type="box">2</container>
             <unittitle>College of Art, Architecture, and Planning</unittitle>
           </did>
           <scopecontent>
@@ -207,7 +205,7 @@
         </c02>
 			  	<c02 level="subseries">
           <did>
-            <container type="box">2</container>
+            <container label="unspecified" type="box">2</container>
             <unittitle>College of Arts and Sciences</unittitle>
           </did>
           <scopecontent>
@@ -219,7 +217,7 @@
         </c02>
 			  	<c02 level="subseries">
           <did>
-            <container type="box">2</container>
+            <container label="unspecified" type="box">2</container>
             <unittitle>College of Engineering</unittitle>
           </did>
           <scopecontent>
@@ -233,7 +231,7 @@
         </c02>
 			  	<c02 level="subseries">
           <did>
-            <container type="box">3</container>
+            <container label="unspecified" type="box">3</container>
             <unittitle>School of Hotel Administration</unittitle>
           </did>
           <scopecontent>
@@ -247,7 +245,7 @@
         </c02>
 			  	<c02 level="subseries">
           <did>
-            <container type="box">3</container>
+            <container label="unspecified" type="box">3</container>
             <unittitle>College of Human Ecology</unittitle>
           </did>
           <scopecontent>
@@ -260,7 +258,7 @@
         </c02>
 			  	<c02 level="subseries">
           <did>
-            <container type="box">3</container>
+            <container label="unspecified" type="box">3</container>
             <unittitle>School of Industrial and Labor Relations</unittitle>
           </did>
           <scopecontent>
@@ -274,7 +272,7 @@
 
 			  	<c02 level="subseries">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             <unittitle>Graduate School</unittitle>
           </did>
           <scopecontent>
@@ -285,7 +283,7 @@
         </c02>
 			  	<c02 level="subseries">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             <unittitle>Johnson Graduate School of Management</unittitle>
           </did>
           <scopecontent>
@@ -295,21 +293,21 @@
 
 			  	<c02 level="subseries">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             <unittitle>Law School</unittitle>
           </did>
         
         </c02>
 			  	<c02 level="subseries">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             <unittitle>Weill Cornell Medical College</unittitle>
           </did>
      
         </c02>
 			  	<c02 level="subseries">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             <unittitle>College of Veterinary Medicine</unittitle>
           </did>
           <scopecontent>
@@ -321,7 +319,7 @@
 
 			  	<c02 level="subseries">
           <did>
-            <container type="box">5</container>
+            <container label="unspecified" type="box">5</container>
             <unittitle>Alumni Relations, Campaigns, Donor Publications</unittitle>
           </did>
           <scopecontent>
@@ -334,7 +332,7 @@
         </c02>
 			  	<c02 level="subseries">
           <did>
-            <container type="box">5</container>
+            <container label="unspecified" type="box">5</container>
             <unittitle>Various Reports</unittitle>
           </did>
           <scopecontent>
@@ -350,7 +348,7 @@
 
 			  	<c02 level="subseries">
           <did>
-            <container type="box">6</container>
+            <container label="unspecified" type="box">6</container>
             <unittitle>General and Miscellaneous</unittitle>
           </did>
           <scopecontent>
@@ -378,24 +376,24 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">1</container>
             <unitdate>1990s</unitdate>
             <unittitle>Logos</unittitle>
           </did><scopecontent><p>Includes Style Manual for University Stationary, information on use of Cornell logos, and designs for a new University logo.</p></scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">2</container>
             <unitdate>1990s-2000s</unitdate>
             <unittitle>Identity Information for other Universities</unittitle>
           </did><scopecontent><p>Style manuals and identity packets from other institutions.</p></scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">3</container>
             <unitdate>1990s-2000s</unitdate>
             <unittitle>Miscellaneous office items</unittitle>
           </did>
@@ -403,87 +401,91 @@
      
         <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">4</container>
             <unitdate>1998-2000</unitdate>
             <unittitle>Office correspondence</unittitle>
           </did><scopecontent><p>E-mails regarding logos and signatures.</p></scopecontent>
         </c02>
            <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">5</container>
             <unitdate>1999</unitdate>
             <unittitle>Cornell University Communication Marketing Plan, Lippincott and Margulies</unittitle>
           </did><scopecontent><p>Plan, recommendations, and presentation regarding the future direction of Cornell's image and marketing.</p></scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">6</container>
             <unitdate>1990s</unitdate>
             <unittitle>Card designs</unittitle>
           </did><scopecontent><p>Various images and designs for President Rhodes' holiday cards. Includes many photos of Cornell in winter. Also image used for Dean Call's retirement card</p></scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">7</container>
             <unitdate>1980s-200s</unitdate>
             <unittitle>Slides by Jon Reis and George Robinson</unittitle>
           </did><scopecontent><p>Photographs of various campus activities and people for potential use in marketing materials. Also some slides of Philadelphia.</p></scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">7</container>
             <unitdate>2000s</unitdate>
             <unittitle>CDs of photographs.</unittitle>
           </did><scopecontent><p>Hi-res photographs of various campus activities and people for potential use in marketing materials. CD-2115 and CD-2116</p></scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">8</container>
             <unitdate>2007</unitdate>
             <unittitle>President Skorton travel press kits</unittitle>
           </did><scopecontent><p>DVD press kits produced by the office for the Cornell University Delegation Visit to India December - January 2007 and East Asia October - November 2007. DVD-1128 and DVD 1129. Also an alternate label disc for the India trip that is blank, DVD-1130.</p></scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">9</container>
             <unitdate>2011</unitdate>
             <unittitle>Assessment of Cornell Research Communications with Recommendations for Improvement</unittitle>
           </did><scopecontent><p>Produced by Maguire Associates</p></scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
              <unitdate>1985</unitdate>
             <unittitle>Binder of slides by Wayne Calabrese</unittitle>
           </did><scopecontent><p>Photographs of various campus activities and people for potential use in marketing materials. </p></scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitdate>1986-1988</unitdate>
             <unittitle>Binder of slides by Jose Azel</unittitle>
           </did><scopecontent><p>Photographs of various campus activities and people for potential use in marketing materials. </p></scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">7</container>            
+            <container label="unspecified" type="box">7</container>            
             <unittitle>Pins for Cornell Now and working at Cornell</unittitle>
           </did>
         </c02>    
         <c02 level="file">
           <did>
-            <container type="map-case">Z-23</container>            
+            <container label="unspecified" type="map-case">Z-23</container>            
             <unittitle>Oversize items and artwork</unittitle>
           </did><scopecontent><p>Original artwork for publications, including images of campus, bear mascots, and items for reunion. Also a campus maps and posters for the Cornell Tech Campus in New York City.</p></scopecontent>
         </c02> 
       </c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Cornell University Publications and Marketing Group records, #4-3-3687. Division
+					of Rare and Manuscript Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

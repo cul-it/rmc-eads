@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead>
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04310::The Sherwoods records)//EN">RMA04310</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04310::The Sherwoods records)//EN">RMA04310</eadid>
   <filedesc>
     <titlestmt>
       <titleproper>Guide to the The Sherwoods records, <date>1957-1973.</date></titleproper>
@@ -23,16 +23,22 @@
   <profiledesc>
     <creation>Finding aid encoded by RMC Staff, <date>September 2018</date></creation>
   </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
            <titlepage>
-                   <titleproper>Guide to the The Sherwoods records, <lb/><date type="inclusive" encodinganalog="245$f">1957-1973.</date></titleproper>
+                   <titleproper>Guide to the The Sherwoods records, <date encodinganalog="245$f" type="inclusive">1957-1973.</date></titleproper>
            <num>Collection Number: 37-6-4310</num>
-           <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+           <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
            <list type="deflist">
                    <defitem>
                            <label>Contact Information:</label>
-                           <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+                           <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
                    </defitem>
                    <defitem>
                            <label>Compiled by:</label>
@@ -57,14 +63,13 @@
   <archdesc level="collection">
     <did>
             <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245">The Sherwoods records,
-            <unitdate encodinganalog="MARC 245" type="inclusive">1957-1973.</unitdate>
-            </unittitle>
+            <unittitle encodinganalog="MARC 245" label="Title:">The Sherwoods records,
+            </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1957-1973.</unitdate>
             <unitid label="Collection Number:">37-6-4310</unitid>
             <origination label="Creator:">
                     <corpname encodinganalog="110" normal="The Sherwoods. ">The Sherwoods. </corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1 cubic feet.</extent></physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 cubic feet</extent></physdesc>
             <physdesc label="Forms of Material:">Documents, recordings</physdesc>
             <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
             <abstract label="Abstract:">Records include photographs, correspondence, travel documentation, publicity and flyers, two phonograph records and a CD.</abstract>
@@ -72,7 +77,7 @@
             </langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">
-       <head id="a2" altrender="organization">ORGANIZATIONAL HISTORY</head>
+       <head altrender="organization" id="a2">ORGANIZATIONAL HISTORY</head>
             <p>The Sherwoods were a Glee Club spinoff a cappella group formed in 1956.</p>
     </bioghist>
     <scopecontent encodinganalog="MARC 520">
@@ -92,26 +97,19 @@
       <subject encodinganalog="MARC 650">A cappella . . .</subject>
     </controlaccess>
   </controlaccess>
-    <descgrp>
-           <head id="a8">INFORMATION FOR USERS</head>
-                  <prefercite>
-                          <head>Cite As:</head>
-                                   <p>The Sherwoods records, #37-6-4310. Division of Rare and Manuscript Collections, Cornell University Library.
-                                   </p>
-                  </prefercite>
-    </descgrp>
+    
              <arrangement>
              <head>SERIES LIST</head>
              <p> <emph render="bold">
-             <ref target="s1" show="replace" actuate="onrequest">Series I. Travel Correspondence and Planning Notes</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s1">Series I. Travel Correspondence and Planning Notes</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s2" show="replace" actuate="onrequest">Series II. Publicity</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s2">Series II. Publicity</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s3" show="replace" actuate="onrequest">Series III. Cornell University Activities</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s3">Series III. Cornell University Activities</ref> </emph>  </p>
              <p> <emph render="bold">
-                 <ref target="s4" show="replace" actuate="onrequest">Series IV. Performances</ref> </emph> <lb/> </p>
+                 <ref actuate="onrequest" show="replace" target="s4">Series IV. Performances</ref> </emph>  </p>
                  <p> <emph render="bold">
-                     <ref target="s5" show="replace" actuate="onrequest">Series V. Audio Material</ref> </emph> <lb/> </p>
+                     <ref actuate="onrequest" show="replace" target="s5">Series V. Audio Material</ref> </emph>  </p>
              </arrangement>
     <dsc type="combined">
       <head>CONTAINER LIST</head>
@@ -121,141 +119,141 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">1</container>
- <unitdate type="bulk" normal="1957-03/1960-04">Mar 1957 - Apr 1960, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">1</container>
+ <unitdate normal="1957-03/1960-04" type="bulk">Mar 1957 - Apr 1960, undated</unitdate>
         <unittitle>Trip Correspondence (Old) - Ski Lodges - Castle Harbour Hotel, Bermuda</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">2</container>
- <unitdate type="bulk" normal="1959-07/1959-12">July 1959 - Dec 1959, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate certainty="approximate" normal="1959-07/1959-12" type="bulk">July 1959 - Dec 1959, undated</unitdate>
         <unittitle>Christmas Vacation - Correspondence and Planning Notes</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">3</container>
- <unitdate type="bulk" normal="1959-08/1961-09">Aug 1959 - Sept 1961, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">3</container>
+ <unitdate normal="1959-08/1961-09" type="bulk">Aug 1959 - Sept 1961, undated</unitdate>
         <unittitle>Half Moon Hotel</unittitle>
        </did>
        <scopecontent><p>Includes lyrics of a song; itinerary; expense tabs</p></scopecontent>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">4</container>
- <unitdate type="inclusive" normal="1963-01/1964-01">1963-01-1964-01</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">4</container>
+ <unitdate normal="1963-01/1964-01" type="inclusive">1963-01-1964-01</unitdate>
         <unittitle>Spring Tour 1964</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">5</container>
- <unitdate type="inclusive" normal="1964-11/1965-03">1964-11-1965-03</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">5</container>
+ <unitdate normal="1964-11/1965-03" type="inclusive">1964-11-1965-03</unitdate>
         <unittitle>Trip 1965 - Caneel Bay Plantation</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">6</container>
- <unitdate type="bulk" normal="1957-03/1960-01">Mar 1957 - Jan 1960, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">6</container>
+ <unitdate normal="1957-03/1960-01" type="bulk">Mar 1957 - Jan 1960, undated</unitdate>
         <unittitle>Assorted Hotel Correspondence (1 of 5)</unittitle>
        </did>
        <scopecontent><p>Newspaper clippings of cruise advertisements</p></scopecontent>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">7</container>
- <unitdate type="bulk" normal="1957-03/1958-05">Mar 1957 - May 1958, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1957-03/1958-05" type="bulk">Mar 1957 - May 1958, undated</unitdate>
         <unittitle>Assorted Hotel Correspondence (2 of 5)</unittitle>
        </did>
        <scopecontent><p>Handwritten planning notes; correspondence for 1958 trip; hotel newspaper advertisement</p></scopecontent>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">8</container>
- <unitdate type="bulk" normal="1959-07/1959-09">July - Sept 1959, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1959-07/1959-09" type="bulk">July - Sept 1959, undated</unitdate>
         <unittitle>Assorted Hotel Correspondence (3 of 5)</unittitle>
        </did>
        <scopecontent><p>Poster titled "Hotel Continental at New York International Airport" with a note handwritten on the back to possibly a member of the Sherwoods</p></scopecontent>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">9</container>
- <unitdate type="bulk" normal="1964/1967">1964-1967, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1964/1967" type="bulk">1964-1967, undated</unitdate>
         <unittitle>Assorted Hotel Correspondence (4 of 5)</unittitle>
        </did>
        <scopecontent><p>Mailed letters; newspaper clippings of hotel advertisements; a map of New Jersey; a map of Aspen, Colorado</p></scopecontent>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">10</container>
- <unitdate type="bulk" normal="1971/1972">1971-1972, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">10</container>
+ <unitdate normal="1971/1972" type="bulk">1971-1972, undated</unitdate>
         <unittitle>Assorted Hotel Correspondence (5 of 5)</unittitle>
        </did>
        <scopecontent><p>Receipt for printing service; handwritten correspondence</p></scopecontent>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">11</container>
- <unitdate type="bulk" normal="1966/1967">1966-1967, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">11</container>
+ <unitdate normal="1966/1967" type="bulk">1966-1967, undated</unitdate>
         <unittitle>Expenses</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">12</container>
- <unitdate type="bulk" normal="1963/1971">1963, 1971, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">12</container>
+ <unitdate normal="1963/1971" type="bulk">1963, 1971, undated</unitdate>
         <unittitle>Brochures</unittitle>
        </did>
            </c02>
       </c01>
       <c01 level="series">
        <did>
- <unitdate type="inclusive" normal="1959/1972">1959-1972</unitdate>
+ <unitdate normal="1959/1972" type="inclusive">1959-1972</unitdate>
         <unittitle id="s2">Series II. Publicity</unittitle>
        </did>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">13</container>
- <unitdate type="bulk" normal="1959/1972">1959-1965, 1971-1972, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1959/1972" type="bulk">1959-1965, 1971-1972, undated</unitdate>
         <unittitle>Publicity</unittitle>
        </did>
        <scopecontent><p>Flyers; performance programs; flyer/poster/logo designs; flyer draft; correspondence; newsletters; record publicity</p></scopecontent>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">14</container>
- <unitdate type="bulk" normal="1960/1972">1960-1961, 1972</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1960/1972" type="bulk">1960-1961, 1972</unitdate>
         <unittitle>Hotel Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">15</container>
- <unitdate type="bulk" normal="1964/1967">1964-1967, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">15</container>
+ <unitdate normal="1964/1967" type="bulk">1964-1967, undated</unitdate>
         <unittitle>Flyers of Other Singing Groups</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">16</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">16</container>
  <unitdate>Undated</unitdate>
         <unittitle>Flyer and Poster Design Layouts</unittitle>
        </did>
@@ -263,40 +261,40 @@
       </c01>
       <c01 level="series">
        <did>
- <unitdate type="inclusive" normal="1956/1973">1956-1973</unitdate>
+ <unitdate normal="1956/1973" type="inclusive">1956-1973</unitdate>
         <unittitle id="s3">Series III. Cornell University Activities</unittitle>
        </did>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">17</container>
- <unitdate type="inclusive" normal="1967">1967</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">17</container>
+ <unitdate normal="1967" type="inclusive">1967</unitdate>
         <unittitle>Cornell University Activities</unittitle>
        </did>
        <scopecontent><p>Includes booklet of Cornell songs; flyers of the Sherwoods; flyer for auditions and try-out form; pamphlet of the Cornell University Glee Club; Policies and Regulations on Student Conduct; Policies and Procedures Affecting Student Organizations</p></scopecontent>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">18</container>
- <unitdate type="bulk" normal="1965/1972">1965-1972, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">18</container>
+ <unitdate normal="1965/1972" type="bulk">1965-1972, undated</unitdate>
         <unittitle>Fall Tonic Concert</unittitle>
        </did>
        <scopecontent><p>Correspondence; expenses and revenues</p></scopecontent>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">19</container>
- <unitdate type="bulk" normal="1956/1960">1956-1960, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">19</container>
+ <unitdate normal="1956/1960" type="bulk">1956-1960, undated</unitdate>
         <unittitle>General Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">20</container>
- <unitdate type="bulk" normal="1972/1973">1972-1973, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">20</container>
+ <unitdate normal="1972/1973" type="bulk">1972-1973, undated</unitdate>
         <unittitle>James H. Hood File</unittitle>
        </did>
        <scopecontent><p>Copies of song lyrics/poetry; correspondence; empty envelope with a written note on the back</p></scopecontent>
@@ -304,66 +302,66 @@
       </c01>
       <c01 level="series">
        <did>
- <unitdate type="inclusive" normal="1956/1972">1956-1972</unitdate>
+ <unitdate normal="1956/1972" type="inclusive">1956-1972</unitdate>
         <unittitle id="s4">Series IV. Performances</unittitle>
        </did>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">21</container>
- <unitdate type="inclusive" normal="1956-11/1961-06">1956-11-1961-06</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">21</container>
+ <unitdate normal="1956-11/1961-06" type="inclusive">1956-11-1961-06</unitdate>
         <unittitle>Performance Requests and Payments (1 of 3)</unittitle>
        </did>
        <scopecontent><p>Handwritten cards and typed correspondence</p></scopecontent>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">22</container>
- <unitdate type="bulk" normal="1957/1971">1957-1971, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">22</container>
+ <unitdate normal="1957/1971" type="bulk">1957-1971, undated</unitdate>
         <unittitle>Performance Requests and Payments (2 of 3)</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">23</container>
- <unitdate type="bulk" normal="1971/1972">1971-1972, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">23</container>
+ <unitdate normal="1971/1972" type="bulk">1971-1972, undated</unitdate>
         <unittitle>Performance Requests and Payments (3 of 3)</unittitle>
        </did>
        <scopecontent><p>Request to included in 1972 Cornellian Yearbook; draft of Fall Tonic concert flyer; receipts</p></scopecontent>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">24</container>
- <unitdate type="inclusive" normal="1959-04/1966-02">1959-04-1966-02</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">24</container>
+ <unitdate normal="1959-04/1966-02" type="inclusive">1959-04-1966-02</unitdate>
         <unittitle>Robert L. Maxwell - Artist Representative, Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">25</container>
- <unitdate type="bulk" normal="1964-11/1965-04">Nov 1964 - Apr 1965, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">25</container>
+ <unitdate normal="1964-11/1965-04" type="bulk">Nov 1964 - Apr 1965, undated</unitdate>
         <unittitle>Collegiate Sound Productions</unittitle>
        </did>
        <scopecontent><p>Correspondence; program; newspaper advertisement; handwritten planning notes;</p></scopecontent>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">26</container>
- <unitdate type="bulk" normal="1959/1962">1959-1962, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">26</container>
+ <unitdate normal="1959/1962" type="bulk">1959-1962, undated</unitdate>
         <unittitle>Reunion</unittitle>
        </did>
        <scopecontent><p>Correspondence and lists</p></scopecontent>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">27</container>
- <unitdate type="bulk" normal="1962-10/1962-12">Oct-Dec 1962, undated</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">27</container>
+ <unitdate certainty="approximate" normal="1962-10/1962-12" type="bulk">Oct-Dec 1962, undated</unitdate>
         <unittitle>Performances at Girls Schools</unittitle>
        </did>
        <scopecontent><p>Newspaper clipping advertisement; Russell Sage College newsletter;</p></scopecontent>
@@ -371,20 +369,24 @@
    </c01>
         <c01 level="series">
             <did><unittitle id="s6">Series VI. Audio Material</unittitle></did>
-            <c02><did> <container type="box">1</container>
+            <c02 level="otherlevel" otherlevel="unspecified"><did> <container label="unspecified" type="box">1</container>
                 <unitid>CD-5145</unitid>
                 <unitdate>Undated</unitdate>
                 <unittitle>Try to Remember: The Reunion Album, Vol. 1</unittitle>
-            </did></c02> <c02><did> 
+            </did></c02> <c02 level="otherlevel" otherlevel="unspecified"><did> 
                 <unitid>SR-31465</unitid>
                 <unitdate>Undated</unitdate>
                 <unittitle>What's All This Noise</unittitle>
-            </did></c02> <c02><did> 
+            </did></c02> <c02 level="otherlevel" otherlevel="unspecified"><did> 
                 <unitid>SR-31466</unitid>
                 <unitdate>Undated</unitdate>
                 <unittitle>Sherwood's at Zinck's</unittitle>
             </did></c02>
         </c01>
     </dsc>
-  </archdesc>
+  <prefercite>
+                          <head>Cite As:</head>
+                                   <p>The Sherwoods records, #37-6-4310. Division of Rare and Manuscript Collections, Cornell University Library.
+                                   </p>
+                  </prefercite></archdesc>
  </ead>

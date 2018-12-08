@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00134::)//EN">RMA00134</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00134::)//EN">RMA00134</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Goldwin Smith papers,
@@ -28,19 +28,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>April 2017</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Goldwin Smith Papers,<lb/><date type="inclusive" encodinganalog="245$f">1819-1921,</date><date type="bulk" encodinganalog="245$g"> [1844-1915 (bulk).]</date></titleproper>
+			<titleproper>Guide to the Goldwin Smith Papers,<date encodinganalog="245$f" type="inclusive">1819-1921,</date><date encodinganalog="245$g" type="bulk"> [1844-1915 (bulk).]</date></titleproper>
 			<num>Collection Number: 14-17-134</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -66,15 +72,14 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Goldwin Smith papers, <unitdate encodinganalog="MARC 245" type="inclusive">1819-1921,</unitdate>
-				<unitdate encodinganalog="MARC 245" type="bulk">1844-1915
-				(bulk).</unitdate></unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Goldwin Smith papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1819-1921,</unitdate><unitdate encodinganalog="MARC 245" type="bulk">1844-1915
+				(bulk).</unitdate>
 			<unitid label="Collection Number:">14-17-134</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="100" normal="Smith, Goldwin,  1823-1910. ">Smith, Goldwin,
 				</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>30 cubic ft.,</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>30 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">&gt;Correspondence, Manuscripts,
 				Newspapers, Microfilm, Printed Materials, Publications.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -85,7 +90,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Historian, journalist, professor at Cornell University.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
@@ -322,12 +327,8 @@
 			</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Goldwin Smith. Papers, #14-17-134. Division of Rare and Manuscript Collections,
-					Cornell University Library.</p>
-			</prefercite>
+			
+			
 		 
 		  <otherfindaid>
 		    <head>Other Finding Aids:</head><p> <extref href="http://rmc.library.cornell.edu/EAD/pdf_guides/RMA00134.pdf">PDF of item-level lists for boxes available.</extref>  </p></otherfindaid>
@@ -342,7 +343,7 @@
      
         <c02 level="file">
         <did>
-          <container type="box">1</container>   
+          <container label="unspecified" type="box">1</container>   
           <unitdate>August 1844-March 1866</unitdate>
           <unittitle>Correspondence</unittitle>
         </did>
@@ -350,168 +351,168 @@
         
         <c02 level="file">
           <did>
-            <container type="box">2</container>   
+            <container label="unspecified" type="box">2</container>   
             <unitdate>April 1866- December 1873</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>   
+            <container label="unspecified" type="box">3</container>   
             <unitdate>January 1874-June 1881</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">4</container>   
+            <container label="unspecified" type="box">4</container>   
             <unitdate>July 1881-December 1887</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">5</container>   
+            <container label="unspecified" type="box">5</container>   
             <unitdate>January 1888-September 1892</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">6</container>   
+            <container label="unspecified" type="box">6</container>   
             <unitdate>October 1892-August 1894</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">7</container>   
+            <container label="unspecified" type="box">7</container>   
             <unitdate>September 1894-December 1895</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">8</container>   
+            <container label="unspecified" type="box">8</container>   
             <unitdate>January 1896-May1897</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">9</container>   
+            <container label="unspecified" type="box">9</container>   
             <unitdate>June 1897-August 1898</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">10</container>   
+            <container label="unspecified" type="box">10</container>   
             <unitdate>September 1898-November 15, 1899</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">11</container>   
+            <container label="unspecified" type="box">11</container>   
             <unitdate>November 16, 1899-October 1900</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">12</container>   
+            <container label="unspecified" type="box">12</container>   
             <unitdate>November 1900-November 1901</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">13</container>   
+            <container label="unspecified" type="box">13</container>   
             <unitdate>December 1901-October 1902</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">14</container>   
+            <container label="unspecified" type="box">14</container>   
             <unitdate>November 1902-October 1903</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">15</container>   
+            <container label="unspecified" type="box">15</container>   
             <unitdate>November 1903-August 1904</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">16</container>   
+            <container label="unspecified" type="box">16</container>   
             <unitdate>September 1904-March 1905</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">17</container>   
+            <container label="unspecified" type="box">17</container>   
             <unitdate>April 1905-December 1905</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">18</container>   
+            <container label="unspecified" type="box">18</container>   
             <unitdate>January 1906-August 1906</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">19</container>   
+            <container label="unspecified" type="box">19</container>   
             <unitdate>September 1906-April 1907</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">20</container>   
+            <container label="unspecified" type="box">20</container>   
             <unitdate>May1907-February 1908</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">21</container>   
+            <container label="unspecified" type="box">21</container>   
             <unitdate>March 1908-November 1908</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">22</container>   
+            <container label="unspecified" type="box">22</container>   
             <unitdate>December 1908-June 1909</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">23</container>   
+            <container label="unspecified" type="box">23</container>   
             <unitdate>July 1909-December 1909</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">24</container>   
+            <container label="unspecified" type="box">24</container>   
             <unitdate>January 1910-1921</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">25</container>   
+            <container label="unspecified" type="box">25</container>   
             <unitdate>Undated</unitdate>
             <unittitle>Correspondence</unittitle>
           </did>
@@ -523,531 +524,535 @@
          
          <c02 level="file">
           <did>
-            <container type="box">25</container>   
-            <unitdate/>
+            <container label="unspecified" type="box">25</container>   
+            
             <unittitle>Lists of pamphlets and "Weekly Sun" articles, of contributions to the "Canadian Monthly", MS fragments, and a list of correspondents for a proposed book of Smith letters prepared by TA Haultain </unittitle>
           </did>
         </c02>
        
         <c02 level="file">
           <did>
-            <container type="box">26</container>   
-            <unitdate/>
+            <container label="unspecified" type="box">26</container>   
+            
             <unittitle>Index and bibliographical cards prepared by Haultain</unittitle>
           </did>
         </c02>
          <c02 level="file">
            <did>
-             <container type="box">27</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">27</container>   
+             
              <unittitle>MS of introduction and much of the text of "The United States", written in the hand of Charles F. Benjamin</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">27</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">27</container>   
+             
              <unittitle>Typescript of a projected volume of Smith letters "comprising chiefly letters to his American friends"</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">27</container>   
+             <container label="unspecified" type="box">27</container>   
              <unitdate>1882</unitdate>
              <unittitle>Partial scrapbook of clippings in England</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">27</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">27</container>   
+             
              <unittitle>Two loose-leaf typescript copies of a Hewett bibliography of Smith works</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">27</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">27</container>   
+             
              <unittitle>Carbon copy of the membership of the National Continental Union League</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">27</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">27</container>   
+             
              <unittitle>Galley proof of "My Memory of Gladstone", and others of the same work</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">27</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">27</container>   
+             
              <unittitle>Manuscripts for articles</unittitle>
            </did><scopecontent><p>Includes "The Early Days of Cornell" typescript, "Abraham Lincoln" typescripts and clipping, "Chatham", "Cromwell", "Labour and Socialism", "Peace with Justice", "Guesses at the Riddle of Existence", and miscellaneous fragments</p></scopecontent>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">28</container>   
+             <container label="unspecified" type="box">28</container>   
              <unitdate>1904</unitdate>
              <unittitle>MS of Goldwin Smith address at the laying of the cornerstone of Goldwin Smith Hall, bound in red leather</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">28</container>   
+             <container label="unspecified" type="box">28</container>   
              <unitdate>1903, 1918</unitdate>
              <unittitle>Letter from Smith to Schurman (1903) and accompanying letter from Dean of Arts and Sciences (1918)</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">28</container>   
+             <container label="unspecified" type="box">28</container>   
              <unitdate>1891, 1893-1900</unitdate>
              <unittitle>Letter registers recoding letters and MSS sent by Haultain</unittitle>
            </did><scopecontent><p>See also box 38</p></scopecontent>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">28</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">28</container>   
+             
              <unittitle>Notebooks with translations from the classics</unittitle>
            </did><scopecontent><p>Related to material in box 35</p></scopecontent>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">28</container>   
+             <container label="unspecified" type="box">28</container>   
              <unitdate>January 1889-July 1990</unitdate>
              <unittitle>Scrapbook of press clippings</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">28</container>   
+             <container label="unspecified" type="box">28</container>   
              <unitdate>1908-1909</unitdate>
              <unittitle>Scrapbook of contributions to periodicals</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">28</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">28</container>   
+             
              <unittitle>Portfolio of early studies in English history on: Athelstan; Becket; Henry I, II, and III; Simon de Montfors; Edward I, II and III; William the Conqueror, and more</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">29</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">29</container>   
+             
              <unittitle>Rough draft and proofs of a projected history of England up to the Restoration</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">29</container>   
+             <container label="unspecified" type="box">29</container>   
              <unitdate>1893</unitdate>
              <unittitle>Scrapbook of clippings, including reviews of "Canada and the Canadian Question"</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">29</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">29</container>   
+             
              <unittitle>Scrapbook of clipped reviews of "The United States", including some letters of criticism</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">29</container>   
+             <container label="unspecified" type="box">29</container>   
              <unitdate>1894-1895</unitdate>
              <unittitle>Scrapbook of clippings</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">30</container>   
+             <container label="unspecified" type="box">30</container>   
              <unitdate>1880</unitdate>
              <unittitle>Scrapbook of clippings on Canadian events, including reviews and comments on "The Bystander"</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">30</container>   
+             <container label="unspecified" type="box">30</container>   
              <unitdate>December 6, 1883-January 15, 1885</unitdate>
              <unittitle>Scrapbook of Smith contributions to "The Week"</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">30</container>   
+             <container label="unspecified" type="box">30</container>   
              <unitdate>1885-1890</unitdate>
              <unittitle>Bundle of copies of "The Week"</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">30</container>   
+             <container label="unspecified" type="box">30</container>   
              <unitdate>June 4, 1890-July 8, 1891</unitdate>
              <unittitle>Scrapbook of clippings, mostly Smith letters to newspapers</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">30</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">30</container>   
+             
              <unittitle>"From a Trans-Atlantic Point of View", Smith article against Home Rule</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">30</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">30</container>   
+             
              <unittitle>Clippings preserved by G. Mercer Adam, but not containing the signature of Smith</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">31</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">31</container>   
+             
              <unittitle>Typed manuscript of Smith's "Reminiscences"</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">31</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">31</container>   
+             
              <unittitle>Chapters of a book on the United Kingdom</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">31</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">31</container>   
+             
              <unittitle>Manuscript of "The Present and Future of Religion", a projected volume of contributions to the "New York Sun"</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">31</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">31</container>   
+             
              <unittitle>Miscellaneous articles and lectures</unittitle>
            </did><scopecontent><p>Including The Schism in the Anglo-Saxon Race, The Weak Point of the Elective System, Article on Froude's "Divorce of Catherine of Aragon", a response to a toast at a Psi Upsilon meeting, and a lecture on The Old University through the Ages</p></scopecontent>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">31</container>   
+             <container label="unspecified" type="box">31</container>   
              <unitdate>1884, 1887-1888</unitdate>
              <unittitle>Notes and copies of exam questions used by Trinity College, and proof sheets of exams prepared by Smith at Trinity</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">32</container>   
+             <container label="unspecified" type="box">32</container>   
              <unitdate>1880-1890</unitdate>
              <unittitle>Selections from "The Bystander", chosen by Haultain with the intention of publishing them</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">32</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">32</container>   
+             
              <unittitle>Draft of Smith's "Reminiscences"</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">33</container>   
+             <container label="unspecified" type="box">33</container>   
              <unitdate>1888-1893, 1904-1910</unitdate>
              <unittitle>Scrapbooks of clippings by or about Smith</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">33</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">33</container>   
+             
              <unittitle>Bound group of clippings withdrawn from Cornell Library shelves</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">34</container>   
+             <container label="unspecified" type="box">34</container>   
              <unitdate>1904-1910</unitdate>
              <unittitle>"Bystander" articles from the original files of the "Toronto Weekly Sun"</unittitle>
            </did><scopecontent><p>Presented to Cornell by Walter Dymond Gregory, 1939</p></scopecontent>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">35</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">35</container>   
+             
              <unittitle>12 MS notebooks "Translation of Arundel Manuscripts"</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">35</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">35</container>   
+             
              <unittitle>14 MS notebooks with Smith's translations of poetry, classical school work, and political and historical fragments</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">35</container>   
+             <container label="unspecified" type="box">35</container>   
              <unitdate>1894</unitdate>
              <unittitle>Notebook with printed pages, MS notes  and typed copies of correspondence regarding Smith and St. George's </unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">36</container>   
+             <container label="unspecified" type="box">36</container>   
              <unitdate>1894-1896, 1904-1913</unitdate>
              <unittitle>Press clippings, mostly reviews of Smith's published works</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">37</container>   
+             <container label="unspecified" type="box">37</container>   
              <unitdate>1893-1894, 1897, 1902, 1907</unitdate>
              <unittitle>Press clippings, further reviews</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">37</container>   
-             <unitdate>ca. 1900-1910</unitdate>
+             <container label="unspecified" type="box">37</container>   
+             <unitdate certainty="approximate">1900-1910</unitdate>
              <unittitle>Manuscripts</unittitle>
            </did><scopecontent><p>Including "Party Government", "The Future of Poetry", In the Court of History", "Nationality and Empire", "White Man's Burden", and the first four chapters of a school history of the US</p></scopecontent>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">37</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">37</container>   
+             
              <unittitle>Volume II of Haultain's republication plan, entitled "Historical and Political America"</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">38</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">38</container>   
+             
              <unittitle>Smith's notebooks</unittitle>
            </did><scopecontent><p>Lists of Oxford students, ethics, Greek, and Latin composition, Essay on murders of Caesar and Marat, address books and pocket diaries</p></scopecontent>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">38</container>   
+             <container label="unspecified" type="box">38</container>   
              <unitdate>1901-1910</unitdate>
              <unittitle>Letter registers</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">38</container>   
+             <container label="unspecified" type="box">38</container>   
              <unitdate>1913-1915</unitdate>
              <unittitle>Waterman Hewett notebooks, mostly Smith's bibliographic notes and Hewett's travel itinerary</unittitle>
            </did><scopecontent><p>Includes file cards of references to Smith in works of other writers</p></scopecontent>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">39</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">39</container>   
+             
              <unittitle>Early manuscripts</unittitle>
            </did><scopecontent><p>Notebooks on England, list of Cornell students and notes to Howell, Bibliographic notes on religious parties</p></scopecontent>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">39</container>   
+             <container label="unspecified" type="box">39</container>   
              <unitdate>1895-1910</unitdate>
              <unittitle>Later manuscripts</unittitle>
            </did><scopecontent><p>"The Bases of the Empire", "The Founder of Christendom", "Progress or Revolution", "Labour and Socialism", "Unionism is not Socialism", "Socialism in Action"</p></scopecontent>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">39</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">39</container>   
+             
              <unittitle>Literary articles assembled by Haultain for republication</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">40</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">40</container>   
+             
              <unittitle>Journal of Smith's mother Elizabeth Breton Smith</unittitle>
            </did><scopecontent><p>Includes records of births, deaths, family events, journeys to Paris, English Lakes, and Welshpool</p></scopecontent>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">40</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">40</container>   
+             
              <unittitle>Lectures on English history, outlines, and fragments on Athenaeum Club stationary</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">40</container>   
+             <container label="unspecified" type="box">40</container>   
              <unitdate>1885-1897</unitdate>
              <unittitle>Bills and Receipts, notes accompanying payment for articles, proofs and printed articles and letters to editors</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">43</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">43</container>   
+             
              <unittitle>Manuscripts</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">44</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">44</container>   
+             
              <unittitle>Articles, pamphlets, and autograph address at cornerstone laying of Sage College</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">44</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">44</container>   
+             
              <unittitle>Manuscripts</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">45</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">45</container>   
+             
              <unittitle>Copies of Smith's editorials in the "Weekly Sun"</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">46</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">46</container>   
+             
              <unittitle>Two scrapbooks of "Bystander" columns, plus pages of other scrapbooks</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">46</container>   
+             <container label="unspecified" type="box">46</container>   
              <unitdate>1902</unitdate>
              <unittitle>New Zealand clippings</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">46</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">46</container>   
+             
              <unittitle>Clippings on Smith after death</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">46</container>   
+             <container label="unspecified" type="box">46</container>   
              <unitdate>1889-1890</unitdate>
              <unittitle>"Bystander" magazine</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">46</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">46</container>   
+             
              <unittitle>Manuscripts, Book of tracts</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">46</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">46</container>   
+             
              <unittitle>Smith pamphlets and articles clipped from periodicals, written by Smith, and many other clipped articles</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">47</container>   
+             <container label="unspecified" type="box">47</container>   
              <unitdate>1896-1903</unitdate>
              <unittitle>"Bystander" column clippings</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">48</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">48</container>   
+             
              <unittitle>Scrapbooks of clippings, Hewett's bibliography of Smith's writings, draft of  "The United Kingdom"</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">49</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">49</container>   
+             
              <unittitle>Project for reprint publication by Haultain</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">49</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">49</container>   
+             
              <unittitle>Clippings</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">50</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">50</container>   
+             
              <unittitle>Manuscripts and clippings</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">51</container>   
+             <container label="unspecified" type="box">51</container>   
              <unitdate>1893-1905</unitdate>
              <unittitle>Theodore Arnold Haultain correspondence</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">52</container>   
+             <container label="unspecified" type="box">52</container>   
              <unitdate>1906-1913</unitdate>
              <unittitle>Theodore Arnold Haultain correspondence</unittitle>
            </did>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">53</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">53</container>   
+             
              <unittitle>Photographs</unittitle>
            </did><scopecontent><p>The Grange, Smith, marble bust of Smith's wife, cartoons from Oxford of Smith</p></scopecontent>
          </c02>
          <c02 level="file">
            <did>
-             <container type="box">53</container>   
-             <unitdate/>
+             <container label="unspecified" type="box">53</container>   
+             
              <unittitle>Clippings, Smith's will copy, list of Smith's works at Art Gallery in Toronto, and photocopy of letter and medallion of Napoleon</unittitle>
            </did>
          </c02>
       
       <c02 level="file">
           <did>
-            <container type="box">41</container>   
+            <container label="unspecified" type="box">41</container>   
             <unitdate>1845-1889</unitdate>
             <unittitle>Printed pamphlets</unittitle>
           </did>
         </c02>
          <c02 level="file">
            <did>
-             <container type="box">42</container>   
+             <container label="unspecified" type="box">42</container>   
              <unitdate>1890-1907</unitdate>
              <unittitle>Printed material by Goldwin Smith</unittitle>
            </did>
          </c02> <c02 level="file">
            <did>
-             <container type="box">42</container>   
+             <container label="unspecified" type="box">42</container>   
              <unitdate>1855-1910</unitdate>
              <unittitle>Printed material</unittitle>
            </did>
          </c02>
         <c02 level="file">
           <did>
-            <container type="box">46</container>   
-            <unitdate/>
+            <container label="unspecified" type="box">46</container>   
+            
             <unittitle>Pamphlets and printed items</unittitle>
           </did>
         </c02>
         </c01>
     </dsc>
-  </archdesc> 
+  <prefercite>
+				<head>Cite As:</head>
+				<p>Goldwin Smith. Papers, #14-17-134. Division of Rare and Manuscript Collections,
+					Cornell University Library.</p>
+			</prefercite></archdesc> 
 </ead>

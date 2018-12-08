@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07645::Barbara Gittings and Kay Tobin Lahusen collection)//EN">RMM07645</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07645::Barbara Gittings and Kay Tobin Lahusen collection)//EN">RMM07645</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Barbara Gittings and Kay Tobin Lahusen
@@ -30,6 +29,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -39,19 +44,19 @@
    <frontmatter>
       <titlepage>
          <titleproper>Guide to the Barbara Gittings and Kay Tobin Lahusen
-            collection,<lb/>1965-2007</titleproper>
+            collection,1965-2007</titleproper>
          <num>Collection Number: 7645</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -63,7 +68,7 @@
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
-               <item>Andrea Hektor<lb/>Peter Martinez, June 2003<lb/>Evan Fay Earle, July
+               <item>Andrea HektorPeter Martinez, June 2003Evan Fay Earle, July
                   2007</item>
             </defitem>
             <defitem>
@@ -77,15 +82,14 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Barbara Gittings and Kay Tobin Lahusen
-            collection, <unitdate type="inclusive" encodinganalog="MARC 245">1965-2007.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Barbara Gittings and Kay Tobin Lahusen
+            collection, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1965-2007.</unitdate>
          <unitid label="Collection Number:">7645</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Gittings, Barbara, 1932-">Barbara
                Gittings</persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>0.4 cubic feet</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>0.4 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Publications, photographs.</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
             University Library</repository>
@@ -104,7 +108,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>Gittings and Lahusen played important roles in the gay liberation movement emerging in
             the 1950s. Gittings helped organize the New York City chapter of the Daughters of
             Bilitis in 1958. Lahusen joined the New York City Daughters of Bilitis in 1961, and the
@@ -146,14 +150,7 @@
             <subject encodinganalog="MARC 650">Library fund raising.</subject>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Barbara Gittings and Kay Tobin Lahusen miscellany, #7645. Division of Rare and
-               Manuscript Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <relatedmaterial>
          <head id="a5">RELATED MATERIALS</head>
          <p>Collecting program: Human Sexuality Collection.</p>
@@ -164,35 +161,35 @@
          <head>SERIES LIST</head>
          <p>
             <emph render="bold">
-               <ref target="s1" show="replace" actuate="onrequest">Series I. About Gittings </ref>
+               <ref actuate="onrequest" show="replace" target="s1">Series I. About Gittings </ref>
             </emph>
-            <lb/>
+            
          </p>
          <p>
             <emph render="bold">
-               <ref target="s2" show="replace" actuate="onrequest">Series II. Subject Files</ref>
+               <ref actuate="onrequest" show="replace" target="s2">Series II. Subject Files</ref>
             </emph>
-            <lb/>
+            
          </p>
          <p>
             <emph render="bold">
-               <ref target="s3" show="replace" actuate="onrequest">Series III. Organizational
+               <ref actuate="onrequest" show="replace" target="s3">Series III. Organizational
                   Files</ref>
             </emph>
-            <lb/>
+            
          </p>
          <p>
             <emph render="bold">
-               <ref target="s4" show="replace" actuate="onrequest">Series IV. Clippings and
+               <ref actuate="onrequest" show="replace" target="s4">Series IV. Clippings and
                   Ephemera</ref>
             </emph>
-            <lb/>
+            
          </p>
          <p>
             <emph render="bold">
-               <ref target="s5" show="replace" actuate="onrequest">Series V. Videos</ref>
+               <ref actuate="onrequest" show="replace" target="s5">Series V. Videos</ref>
             </emph>
-            <lb/>
+            
          </p>
       </arrangement>
       <dsc type="combined">
@@ -203,24 +200,24 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>2007</unitdate>
                   <unittitle>Obituaries and memorial service</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">2</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">2</container>
+                  
                   <unittitle>Resume</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unitdate>24-Jun-73</unitdate>
                   <unittitle>Speech: 4th annual Christopher Street Liberation Day March, New York
                      City</unittitle>
@@ -228,17 +225,17 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unitdate>Oct-69</unitdate>
                   <unittitle>Gittings at Cornell</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">1</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">1</container>
+                  
                   <unittitle>11 items donated in 1999</unittitle>
                </did>
                <scopecontent>
@@ -252,8 +249,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unitdate>1970-2006</unitdate>
                   <unittitle>Clippings on Gittings</unittitle>
                </did>
@@ -265,57 +262,57 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unitdate>3-May-73</unitdate>
                   <unittitle>Child custody: Judd Marmor, M.D., letter to Bruce Voeller</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
+                  
                   <unittitle>Decriminalizing Homosexuality</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">7</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">7</container>
+                  
                   <unittitle>Police and Entrapment</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unitdate>1964-1975</unitdate>
                   <unittitle>Discrimination Policies</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">9</container>
-                  <unitdate>Ca. 1968-1975</unitdate>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">9</container>
+                  <unitdate certainty="approximate">Ca. 1968-1975</unitdate>
                   <unittitle>Military</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unitdate>1969-1978</unitdate>
                   <unittitle>Psychology, clippings and statements</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">11</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">11</container>
+                  
                   <unittitle>Religion</unittitle>
                </did>
             </c02>
@@ -325,25 +322,25 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">12</container>
-                     <unitdate/>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">12</container>
+                     
                      <unittitle> Flyers for Campus Events</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">3</container>
-                     <unitdate/>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">3</container>
+                     
                      <unittitle> Course Syllabi and Campus Issues</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">4</container>
-                     <unitdate/>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">4</container>
+                     
                      <unittitle> Teaching and Children's Books</unittitle>
                   </did>
                </c03>
@@ -354,16 +351,16 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">13</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">13</container>
                      <unitdate>1975</unitdate>
                      <unittitle> Lesbian Book, call for submissions</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">14</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">14</container>
                      <unitdate>1970</unitdate>
                      <unittitle> J. Michael McConnell, U of Minnesota librarian job discrimination
                         case</unittitle>
@@ -371,34 +368,34 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">5</container>
-                     <unitdate/>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">5</container>
+                     
                      <unittitle> Library Issues</unittitle>
                   </did>
                </c03>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">15</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">15</container>
                   <unitdate>1968-1969</unitdate>
                   <unittitle>Reminder Day, Philadelphia</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">16</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">16</container>
                   <unitdate>[1972]</unitdate>
                   <unittitle>Barney Frank for Massachusetts State Representative</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">6</container>
-                  <unitdate>Ca. 1969</unitdate>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">6</container>
+                  <unitdate certainty="approximate">Ca. 1969</unitdate>
                   <unittitle>Kameny for Congress</unittitle>
                </did>
             </c02>
@@ -409,97 +406,97 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">17</container>
-                  <unitdate>Ca. 1972-1975</unitdate>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">17</container>
+                  <unitdate certainty="approximate">Ca. 1972-1975</unitdate>
                   <unittitle>American Civil Liberties Union</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">18</container>
-                  <unitdate>Ca. 1970-1985</unitdate>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">18</container>
+                  <unitdate certainty="approximate">Ca. 1970-1985</unitdate>
                   <unittitle>American Library Association Task Force on Gay Liberation and Gay Task
                      Force</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">19</container>
-                  <unitdate>Ca. 1970</unitdate>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">19</container>
+                  <unitdate certainty="approximate">Ca. 1970</unitdate>
                   <unittitle>Daughters of Bilitis</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">20</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">20</container>
                   <unitdate>1967-1968</unitdate>
                   <unittitle>Eastern Regional Homophile Conference</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">7</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">7</container>
+                  
                   <unittitle>Gay Activists Alliance, Philadelphia and New York City</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">21</container>
-                  <unitdate>Ca. 1971</unitdate>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">21</container>
+                  <unitdate certainty="approximate">Ca. 1971</unitdate>
                   <unittitle>Gay Liberation of Minnesota: "Love and Let Love" brochure</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">22</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">22</container>
+                  
                   <unittitle>Homophile Action League</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">23</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">23</container>
+                  
                   <unittitle>Homophile Action League, Philadelphia</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
+                  
                   <unittitle>Janus Society</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unitdate>1962-1969</unitdate>
                   <unittitle>Mattachine Society of Washington</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">9</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">9</container>
+                  
                   <unittitle>Mattachine, New York City</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unitdate>Fall 1971, October 26, 1975</unitdate>
                   <unittitle>National Organization for Women: 1971 resolution on lesbian rights and
                      lesbian custody issues and 1975 Lesbian Caucus Resolution</unittitle>
@@ -507,26 +504,26 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">25</container>
-                  <unitdate>Ca. 1971</unitdate>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">25</container>
+                  <unitdate certainty="approximate">Ca. 1971</unitdate>
                   <unittitle>Queens Liberation Front, cross dressers, New York City</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">26</container>
-                  <unitdate>Ca. 1968-1972</unitdate>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">26</container>
+                  <unitdate certainty="approximate">Ca. 1968-1972</unitdate>
                   <unittitle>Student Homophile League, including "Statement on the
                      Lesbian"</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">11</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">11</container>
+                  
                   <unittitle>Student Homophile League, Columbia University</unittitle>
                </did>
             </c02>
@@ -537,53 +534,53 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">27</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">27</container>
+                  
                   <unittitle>Film showings and advertisements</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">28</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">28</container>
+                  
                   <unittitle>Brochures, miscellaneous</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">29</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">29</container>
                   <unitdate>1967-1996</unitdate>
                   <unittitle>Gay Rights Ephemera, miscellaneous</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">30</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">30</container>
                   <unittitle>Clippings, miscellaneous</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder" altrender="">12</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container altrender="" label="unspecified" type="folder">12</container>
                   <unittitle>Clippings, miscellaneous</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">31</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">31</container>
                   <unittitle>Clippings, annotated</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Notes and clippings re: Oliva (1951) and movie 'The Pit of Loneliness'
                      (1954) with photo of NGTF Staff</unittitle>
                </did>
@@ -596,14 +593,14 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitid label="DVD-">515</unitid>
                   <unittitle>Gay Pioneers</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitid label="V-">442</unitid>
                   <unittitle>Out of the Past</unittitle>
                </did>
@@ -643,5 +640,9 @@
             <title>Daughters of Bilitis, Philadelphia Chapter. Newsletter - v.1: no.8-11</title>
          </p>
       </separatedmaterial>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Barbara Gittings and Kay Tobin Lahusen miscellany, #7645. Division of Rare and
+               Manuscript Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08493::Guide to the Randi Ward collection)//EN">RMM08493</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08493::Guide to the Randi Ward collection)//EN">RMM08493</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Randi Ward collection,
@@ -24,19 +24,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>February 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Randi Ward Collection,<lb/><date type="inclusive" encodinganalog="245$f">2012-Present</date></titleproper>
+			<titleproper>Guide to the Randi Ward Collection,<date encodinganalog="245$f" type="inclusive">2012-Present</date></titleproper>
 			<num>Collection Number: 8493</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -62,11 +68,10 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Randi Ward collection, <unitdate encodinganalog="MARC 245" type="inclusive">2012-Present</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Randi Ward collection, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">2012-Present</unitdate>
 			<unitid label="Collection Number:">8493</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Ward, Randi   ">Ward, Randi </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.2 cubic feet</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.2 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Publications</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -75,7 +80,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Randi Ward is a writer, translator and photographer from West Virginia.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
@@ -96,19 +101,12 @@
 				<subject encodinganalog="MARC 650">Icelandic poetry</subject>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Randi Ward collection, #8493. Division of Rare and Manuscript Collections,
-					Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>Fall 2012</unitdate>
 					<unittitle><title>Beloit Poetry Journal</title> Vol. 63 No.1 </unittitle>
 				</did>
@@ -123,7 +121,7 @@
 
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>Fall 2012</unitdate>
 					<unittitle><title>Cold Mountain Review</title> Vol. 41 No. 1 </unittitle>
 				</did>
@@ -138,7 +136,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>Spring 2013</unitdate>
 					<unittitle><title>The Bitter Oleander:</title> A Magazine of Contemporary
 						International Poetry and Short Fiction Vol. 19 No. 1</unittitle>
@@ -146,7 +144,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>Fall 2013</unitdate>
 					<unittitle><title>Cimarron Review</title> 185</unittitle>
 				</did>
@@ -160,7 +158,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>Fall/Winter 2013</unitdate>
 					<unittitle><title>Fjords:</title> Arts and Literary Review Vol. 2 Issue 2
 					</unittitle>
@@ -175,7 +173,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>2014</unitdate>
 					<unittitle><title>Arcadia</title> 8 </unittitle>
 				</did>
@@ -188,14 +186,14 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>2014</unitdate>
 					<unittitle><title>Skidrow Penthouse</title> #16</unittitle>
 				</did>
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>Spring 2014</unitdate>
 					<unittitle><title>Scandinavian Review</title> Celebrating 100 Years of the
 						Scandinavian Review </unittitle>
@@ -203,7 +201,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>Summer 2014</unitdate>
 					<unittitle><title>Beloit Poetry Journal</title> Vol. 64 No.4 </unittitle>
 				</did>
@@ -216,7 +214,7 @@
 
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>CD-2173</unitid>
 					<unitdate>2011</unitdate>
 					<unittitle><title>Beyond the Grey</title> by Gudrid Hansdóttir</unittitle>
@@ -224,7 +222,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>CD-2174</unitid>
 					<unitdate>2012</unitdate>
 					<unittitle><title>Dýrð Í dauðaþögn</title> by Ásgeir Trausti</unittitle>
@@ -232,7 +230,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>2011</unitdate>
 					<unittitle><title>Stjørnudust</title> úr føroyskum yrkíngum í 200 ár
 					</unittitle>
@@ -301,7 +299,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>CD-2175</unitid>
 					<unitdate>2015</unitdate>
 					<unittitle><title>Bridges</title> by Eivør</unittitle>
@@ -312,7 +310,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>2015</unitdate>
 					<unittitle><title>Mantis</title> A Journal of Poetry, Criticism, and
 						Translation, Issue 13</unittitle>
@@ -331,7 +329,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>2013</unitdate>
 					<unittitle><title>Lux</title> Vol. I</unittitle>
 				</did>
@@ -345,7 +343,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>2014</unitdate>
 					<unittitle><title>Lux</title> Vol. II</unittitle>
 				</did>
@@ -360,7 +358,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>2015</unitdate>
 					<unittitle><title>small po[r]tions</title> Issue 4</unittitle>
 				</did>
@@ -375,7 +373,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>2015</unitdate>
 					<unittitle><title>The Sonder Review</title> Issue 2</unittitle>
 				</did>
@@ -388,7 +386,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>2015</unitdate>
 					<unittitle><title>South Loop Review</title> Fiction and Art, the Final
 						Issue</unittitle>
@@ -406,7 +404,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>2015</unitdate>
 					<unittitle><title>Vencil </title>tíðarrit fyri skaldskap á føroyskum, nr.
 						15/2015, 8. árg.</unittitle>
@@ -418,7 +416,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>December 2005</unitdate>
 					<unittitle><title>Sigmunds kvæði yngra </title> (Randi Ward skipar): 1 CD-ROM
 					</unittitle>
@@ -426,10 +424,10 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 				
 					<unitdate>2015</unitdate>
-					<unittitle><title/>Miscellaneous correspondence from Randi Ward to Curator,
+					<unittitle>Miscellaneous correspondence from Randi Ward to Curator,
 						Fiske Icelandic Collection</unittitle>
 				</did>
 				<scopecontent>
@@ -437,5 +435,9 @@
 				</scopecontent>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Randi Ward collection, #8493. Division of Rare and Manuscript Collections,
+					Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

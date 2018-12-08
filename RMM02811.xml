@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02811::William Henry Miller miscellany)//EN">RMM02811</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02811::William Henry Miller miscellany)//EN">RMM02811</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the William Henry Miller miscellany, <date>1879-1916.</date></titleproper>
@@ -23,18 +23,24 @@
   <profiledesc>
    <creation>Finding aid encoded by RMC Staff, <date>December 2017</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the William Henry Miller miscellany,<lb/><date type="inclusive" encodinganalog="245$f">1879-1916.</date></titleproper>
+   <titleproper>Guide to the William Henry Miller miscellany,<date encodinganalog="245$f" type="inclusive">1879-1916.</date></titleproper>
    <num>Collection Number: 2811</num>
-   <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+   <publisher>Division of Rare and Manuscript Collections Cornell University
     Library</publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell
-      University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+     <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell
+      University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
     </defitem>
     <defitem>
      <label>Compiled by:</label>
@@ -56,14 +62,13 @@
  <archdesc level="collection">
   <did>
    <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245">William Henry Miller miscellany, <unitdate encodinganalog="MARC 245" type="inclusive">1879-1916.</unitdate>
-   </unittitle>
+   <unittitle encodinganalog="MARC 245" label="Title:">William Henry Miller miscellany, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1879-1916.</unitdate>
    <unitid label="Collection Number:">2811</unitid>
    <origination label="Creator:">
     <persname encodinganalog="100" normal="Miller, William Henry, 1848-1922. "> William Henry,
      Miller, 1848-1922.</persname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.4 cubic ft.</extent></physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.4 cubic feet</extent></physdesc>
    <physdesc label="Forms of Material:">Printed materials, plans.</physdesc>
    <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University
     Library</repository>
@@ -86,7 +91,7 @@
    </langmaterial>
   </did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+   <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
    <p>William Henry Miller was an Ithaca, New York architect. He designed several Cornell University buildings, including Uris Library. He was a member of the Cornell Class of 1872.</p>
   </bioghist>
   <scopecontent encodinganalog="MARC 520">
@@ -150,24 +155,7 @@
     <genreform encodinganalog="MARC 655" source="aat">Scrapbooks.</genreform>
    </controlaccess>
   </controlaccess>
-  <descgrp>
-   <head id="a8">INFORMATION FOR USERS</head>
-   <accessrestrict>
-    <head>Access Restrictions:</head>
-    <p>Building plans (Mapcase Folder 1 and 6) are restricted to permission of the office of
-     Planning Design and Construction.</p>
-   </accessrestrict>
-   <userestrict>
-    <head>Restrictions on Use:</head>
-    <p>Collection originally found to contain mold. Material was cleaned, but mold may still be
-     present. Individuals with weak immune systems may need to take extra precautions.</p>
-   </userestrict>
-   <prefercite>
-    <head>Cite As:</head>
-    <p>William Henry Miller Miscellany, #2811. Division of Rare and Manuscript Collections, Cornell
-     University Library. </p>
-   </prefercite>
-  </descgrp>
+  
   <relatedmaterial>
    <head id="a5">RELATED MATERIALS</head>
    <p>See also: Heller House Records, #15-4-1886.</p>
@@ -177,39 +165,39 @@
    <head>CONTAINER LIST</head>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
+     <container label="unspecified" type="box">1</container>
      <unitdate>Undated</unitdate>
      <unittitle>Architectural Post Card Collection</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
-     <unitdate type="inclusive" normal="1878/1896-06-05">1878-1896-06-05</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
+     <unitdate normal="1878/1896-06-05" type="inclusive">1878-1896-06-05</unitdate>
      <unittitle>Correspondence A.D. White and Mrs. Miller</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
-     <unitdate type="inclusive" normal="1913-04-09/1913-06-02">1913-04-09-1913-06-02</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
+     <unitdate normal="1913-04-09/1913-06-02" type="inclusive">1913-04-09-1913-06-02</unitdate>
      <unittitle>Prudence Risley Hall Correspondence</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" normal="1880/1881">1880-1881</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate normal="1880/1881" type="inclusive">1880-1881</unitdate>
      <unittitle>Account Booklets (Fiske House, 32 Eddy St, Price Plaining Mill)</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">1</container>
+     
+     <container label="unspecified" type="mapcase-folder">1</container>
      <unitdate>Undated</unitdate>
      <unittitle>Veranda and Carriage Porch Plan and Elevation A.D. White House</unittitle>
     </did>
@@ -222,9 +210,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">1</container>
-     <unitdate type="inclusive" normal="1889-06-01">1889-06-01</unitdate>
+     
+     <container label="unspecified" type="mapcase-folder">1</container>
+     <unitdate normal="1889-06-01" type="inclusive">1889-06-01</unitdate>
      <unittitle>Photocopy Transverse Section Through Main Hall Looking West Uris Library</unittitle>
     </did>
     <accessrestrict>
@@ -236,9 +224,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">1</container>
-     <unitdate type="inclusive" normal="1894-05-30">1894-05-30</unitdate>
+     
+     <container label="unspecified" type="mapcase-folder">1</container>
+     <unitdate normal="1894-05-30" type="inclusive">1894-05-30</unitdate>
      <unittitle>Mantel Details Conservatory of Music </unittitle>
     </did>
     <accessrestrict>
@@ -250,8 +238,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">1</container>
+     
+     <container label="unspecified" type="mapcase-folder">1</container>
      <unitdate>Undated</unitdate>
      <unittitle>Unknown Plan </unittitle>
     </did>
@@ -264,8 +252,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">2</container>
+     
+     <container label="unspecified" type="mapcase-folder">2</container>
      <unitdate>Undated</unitdate>
      <unittitle>North and South Elevation Jacob Cram's Residence</unittitle>
     </did>
@@ -275,8 +263,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">2</container>
+     
+     <container label="unspecified" type="mapcase-folder">2</container>
      <unitdate>Undated</unitdate>
      <unittitle>East and West Elevation Jacob Cram's Residence</unittitle>
     </did>
@@ -286,8 +274,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">2</container>
+     
+     <container label="unspecified" type="mapcase-folder">2</container>
      <unitdate>Undated</unitdate>
      <unittitle>Interior Sectional Elevation Hall Looking Toward Fire Place Jacob Cram's
       Residence</unittitle>
@@ -298,8 +286,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">2</container>
+     
+     <container label="unspecified" type="mapcase-folder">2</container>
      <unitdate>Undated</unitdate>
      <unittitle>Foundation Plan Jacob Cram's Residence</unittitle>
     </did>
@@ -309,8 +297,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">2</container>
+     
+     <container label="unspecified" type="mapcase-folder">2</container>
      <unitdate>Undated</unitdate>
      <unittitle>Basement Plan Jacob Cram's Residence</unittitle>
     </did>
@@ -320,8 +308,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">2</container>
+     
+     <container label="unspecified" type="mapcase-folder">2</container>
      <unitdate>Undated</unitdate>
      <unittitle>First Floor Plan Jacob Cram's Residence</unittitle>
     </did>
@@ -331,8 +319,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">2</container>
+     
+     <container label="unspecified" type="mapcase-folder">2</container>
      <unitdate>Undated</unitdate>
      <unittitle>Second Floor Plan Jacob Cram's Residence</unittitle>
     </did>
@@ -342,8 +330,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">2</container>
+     
+     <container label="unspecified" type="mapcase-folder">2</container>
      <unitdate>Undated</unitdate>
      <unittitle>Roof Plan Jacob Cram's Residence</unittitle>
     </did>
@@ -353,8 +341,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">2</container>
+     
+     <container label="unspecified" type="mapcase-folder">2</container>
      <unitdate>Undated</unitdate>
      <unittitle>Front Door and Fire Place Details Jacob Cram's Residence</unittitle>
     </did>
@@ -364,8 +352,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">2</container>
+     
+     <container label="unspecified" type="mapcase-folder">2</container>
      <unitdate>Undated</unitdate>
      <unittitle>Finish in Butler's Pantry Details Jacob Cram's Residence</unittitle>
     </did>
@@ -375,8 +363,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">2</container>
+     
+     <container label="unspecified" type="mapcase-folder">2</container>
      <unitdate>Undated</unitdate>
      <unittitle>South Side of Billard Room Details Jacob Cram's Residence</unittitle>
     </did>
@@ -386,8 +374,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">3</container>
+     
+     <container label="unspecified" type="mapcase-folder">3</container>
      <unitdate>Undated</unitdate>
      <unittitle>Dining Room Mantel James T. Clossen's Residence</unittitle>
     </did>
@@ -397,8 +385,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">3</container>
+     
+     <container label="unspecified" type="mapcase-folder">3</container>
      <unitdate>Undated</unitdate>
      <unittitle>Library Mantel Details James T. Clossen's Residence</unittitle>
     </did>
@@ -408,8 +396,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">3</container>
+     
+     <container label="unspecified" type="mapcase-folder">3</container>
      <unitdate>Undated</unitdate>
      <unittitle>South East Elevation James T. Clossen's Residence</unittitle>
     </did>
@@ -419,8 +407,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">3</container>
+     
+     <container label="unspecified" type="mapcase-folder">3</container>
      <unitdate>Undated</unitdate>
      <unittitle>South West Elevation James T. Clossen's Residence</unittitle>
     </did>
@@ -430,8 +418,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">3</container>
+     
+     <container label="unspecified" type="mapcase-folder">3</container>
      <unitdate>Undated</unitdate>
      <unittitle>North East Elevation James T. Clossen's Residence</unittitle>
     </did>
@@ -441,8 +429,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">3</container>
+     
+     <container label="unspecified" type="mapcase-folder">3</container>
      <unitdate>Undated</unitdate>
      <unittitle>Second Story Plan James T. Clossen's Residence</unittitle>
     </did>
@@ -452,8 +440,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">3</container>
+     
+     <container label="unspecified" type="mapcase-folder">3</container>
      <unitdate>Undated</unitdate>
      <unittitle>Ground Floor Plan James T. Clossen's Residence</unittitle>
     </did>
@@ -463,8 +451,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">3</container>
+     
+     <container label="unspecified" type="mapcase-folder">3</container>
      <unitdate>Undated</unitdate>
      <unittitle>Third Story Plan James T. Clossen's </unittitle>
     </did>
@@ -474,8 +462,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">4</container>
+     
+     <container label="unspecified" type="mapcase-folder">4</container>
      <unitdate>Undated</unitdate>
      <unittitle>Folder Manuscript Note Prof. Wait Cascadilla School</unittitle>
     </did>
@@ -485,8 +473,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">4</container>
+     
+     <container label="unspecified" type="mapcase-folder">4</container>
      <unitdate>Undated</unitdate>
      <unittitle>Grille Detail for Inside Vestibule Door in Residence of M. E. Olmsted </unittitle>
     </did>
@@ -496,8 +484,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">4</container>
+     
+     <container label="unspecified" type="mapcase-folder">4</container>
      <unitdate>Undated</unitdate>
      <unittitle>Unknown Building East Elevation</unittitle>
     </did>
@@ -507,8 +495,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">4</container>
+     
+     <container label="unspecified" type="mapcase-folder">4</container>
      <unitdate>Undated</unitdate>
      <unittitle>Unknown Building Front Elevation</unittitle>
     </did>
@@ -518,9 +506,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1894-09-20">1894-09-20</unitdate>
+     
+     <container label="unspecified" type="mapcase-folder">5</container>
+     <unitdate normal="1894-09-20" type="inclusive">1894-09-20</unitdate>
      <unittitle>Basement Plan Warren E. Dennis Residence</unittitle>
     </did>
     <userestrict>
@@ -529,9 +517,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1894-09-20">1894-09-20</unitdate>
+     
+     <container label="unspecified" type="mapcase-folder">5</container>
+     <unitdate normal="1894-09-20" type="inclusive">1894-09-20</unitdate>
      <unittitle>First Floor Plan Warren E. Dennis Residence</unittitle>
     </did>
     <userestrict>
@@ -540,9 +528,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1894-09-20">1894-09-20</unitdate>
+     
+     <container label="unspecified" type="mapcase-folder">5</container>
+     <unitdate normal="1894-09-20" type="inclusive">1894-09-20</unitdate>
      <unittitle>Second Floor Plan Warren E. Dennis Residence</unittitle>
     </did>
     <userestrict>
@@ -551,9 +539,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1894-09-20">1894-09-20</unitdate>
+     
+     <container label="unspecified" type="mapcase-folder">5</container>
+     <unitdate normal="1894-09-20" type="inclusive">1894-09-20</unitdate>
      <unittitle>North and South Elevation Warren E. Dennis Residence</unittitle>
     </did>
     <userestrict>
@@ -562,9 +550,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1894-09-20">1894-09-20</unitdate>
+     
+     <container label="unspecified" type="mapcase-folder">5</container>
+     <unitdate normal="1894-09-20" type="inclusive">1894-09-20</unitdate>
      <unittitle>East Elevation Warren E. Dennis Residence</unittitle>
     </did>
     <userestrict>
@@ -573,8 +561,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">5</container>
+     
+     <container label="unspecified" type="mapcase-folder">5</container>
      <unitdate>Undated</unitdate>
      <unittitle>Second Floor Plumbing Plan Warren E. Dennis Residence</unittitle>
     </did>
@@ -584,9 +572,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1894-09-20">1894-09-20</unitdate>
+     
+     <container label="unspecified" type="mapcase-folder">5</container>
+     <unitdate normal="1894-09-20" type="inclusive">1894-09-20</unitdate>
      <unittitle>Dining Room and Billard Room Details Warren E. Dennis Residence</unittitle>
     </did>
     <userestrict>
@@ -595,8 +583,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">6</container>
+     
+     <container label="unspecified" type="mapcase-folder">6</container>
      <unitdate>Undated</unitdate>
      <unittitle>Cellar and Cold Storage Plan C.U. Medical Building</unittitle>
     </did>
@@ -609,8 +597,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">6</container>
+     
+     <container label="unspecified" type="mapcase-folder">6</container>
      <unitdate>Undated</unitdate>
      <unittitle>Basement Plan C.U. Medical Building</unittitle>
     </did>
@@ -623,8 +611,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">6</container>
+     
+     <container label="unspecified" type="mapcase-folder">6</container>
      <unitdate>Undated</unitdate>
      <unittitle>North Elevation C.U. Medical Building</unittitle>
     </did>
@@ -637,8 +625,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">6</container>
+     
+     <container label="unspecified" type="mapcase-folder">6</container>
      <unitdate>Undated</unitdate>
      <unittitle>West Elevation C.U. Medical Building</unittitle>
     </did>
@@ -651,8 +639,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">6</container>
+     
+     <container label="unspecified" type="mapcase-folder">6</container>
      <unitdate>Undated</unitdate>
      <unittitle>South Elevation C.U. Medical Building</unittitle>
     </did>
@@ -665,8 +653,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">6</container>
+     
+     <container label="unspecified" type="mapcase-folder">6</container>
      <unitdate>Undated</unitdate>
      <unittitle>East Elevation C.U. Medical Building</unittitle>
     </did>
@@ -679,8 +667,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">6</container>
+     
+     <container label="unspecified" type="mapcase-folder">6</container>
      <unitdate>Undated</unitdate>
      <unittitle>Court Elevations C.U. Medical Building</unittitle>
     </did>
@@ -693,8 +681,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">6</container>
+     
+     <container label="unspecified" type="mapcase-folder">6</container>
      <unitdate>Undated</unitdate>
      <unittitle>Longitudinal Section Looking South Of Basement and Cellar Through Cold Storage C.U.
       Medical Building</unittitle>
@@ -708,8 +696,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">6</container>
+     
+     <container label="unspecified" type="mapcase-folder">6</container>
      <unitdate>Undated</unitdate>
      <unittitle>Transverse Section Looking East Through Main Entrance and Staircase C.U. Medical
       Building</unittitle>
@@ -723,8 +711,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">6</container>
+     
+     <container label="unspecified" type="mapcase-folder">6</container>
      <unitdate>Undated</unitdate>
      <unittitle>Details of Main Entrance C.U. Medical Building</unittitle>
     </did>
@@ -737,8 +725,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">6</container>
+     
+     <container label="unspecified" type="mapcase-folder">6</container>
      <unitdate>Undated</unitdate>
      <unittitle>Details of Interior Finish C.U. Medical Building</unittitle>
     </did>
@@ -751,8 +739,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">6</container>
+     
+     <container label="unspecified" type="mapcase-folder">6</container>
      <unitdate>Undated</unitdate>
      <unittitle>Details of Interior Finish C.U. Medical Building</unittitle>
     </did>
@@ -765,312 +753,312 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Front Elevation of Porch for Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Side Elevation of Porch for Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Additions to Roof Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Additions to Roof Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>West Elevation Dormitories Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>East Elevation Dormitories Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Roof Plan Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Roof Plan Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Fifth Floor Plan Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Ventilation Plan Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>East Elevation Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>South Elevation Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Front Elevation Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>North Elevation Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Basement Plan Cascadila School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>First Floor Plan Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Second Floor Plan Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Third Floor Plan Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Roof Plan Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>South Elevation Dormitories Cascadilla School Blueprints</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>North Elevation Dormitories Cascadilla School Blueprints</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>West Elevation Dormitories Cascadilla School Blueprints</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>East Elevation Dormitories Cascadilla School Blueprints</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>North Elevation Photocopy Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Roof Plan Photocopy Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Basement Plan Photocopy Dormitories Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>First Floor Photocopy Dormitories Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>South Elevation Dormitories Cascadilla School </unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>North Elevation Dormitories Cascadilla School </unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>North Elevation Dormitories Cascadilla School Roof Extension</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>West Elevation Dormitories Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>South Elevation Dormitories Cascadilla School Extension </unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>East Elevation Dormitories Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Basement Plan Dormitories Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>First Floor Plan Dormitories Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Second Floor Plan Dormitories Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Third Floor Plan Dormitories Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Fourth Floor Plan Dormitories Cascadilla School</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="map-case"/>
-     <container type="folder">7</container>
+     
+     <container label="unspecified" type="mapcase-folder">7</container>
      <unitdate>Undated</unitdate>
      <unittitle>Footings Plan Dormitories Cascadilla School</unittitle>
     </did>
@@ -1078,11 +1066,23 @@
    <c01 level="file">
     <did>
      <unitid>Volume</unitid>
-     <unitdate type="inclusive" normal="1879/1916">1879-1916</unitdate>
+     <unitdate normal="1879/1916" type="inclusive">1879-1916</unitdate>
      <unittitle>Architectural Scrap Book Encompassing News Paper Clippings of Miller's Work,
       Cathedral and Church Images, and Various Other Architectural Details</unittitle>
     </did>
    </c01>
   </dsc>
- </archdesc>
+ <accessrestrict>
+    <head>Access Restrictions:</head>
+    <p>Building plans (Mapcase Folder 1 and 6) are restricted to permission of the office of
+     Planning Design and Construction.</p>
+   </accessrestrict><userestrict>
+    <head>Restrictions on Use:</head>
+    <p>Collection originally found to contain mold. Material was cleaned, but mold may still be
+     present. Individuals with weak immune systems may need to take extra precautions.</p>
+   </userestrict><prefercite>
+    <head>Cite As:</head>
+    <p>William Henry Miller Miscellany, #2811. Division of Rare and Manuscript Collections, Cornell
+     University Library. </p>
+   </prefercite></archdesc>
 </ead>

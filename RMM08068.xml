@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08068::Guide to the Rave collection)//EN">RMM08068</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08068::Guide to the Rave collection)//EN">RMM08068</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Rave collection, <date>circa
@@ -27,19 +26,25 @@
     <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>May 2013</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Rave Collection, <lb/><date type="inclusive" encodinganalog="245$f">circa 1991-1998.</date></titleproper>
+      <titleproper>Guide to the Rave Collection, <date encodinganalog="245$f" type="inclusive">circa 1991-1998.</date></titleproper>
       <num>Collection Number: 8068</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-            Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+            Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
         </defitem>
         <defitem>
           <label>Compiled by:</label>
@@ -65,11 +70,12 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">Rave collection, <unitdate encodinganalog="MARC 245" type="inclusive">circa 1991-1998.</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">Rave collection, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1991-1998.</unitdate>
       <unitid label="Collection Number:">8068</unitid>
       <origination label="Creator:"/>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>5.2 cubic feet (approximately 8100
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>5.2 cubic feet (approximately 8100
         items).</extent></physdesc>
       <physdesc label="Forms of Material:">Flyers.</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -188,14 +194,7 @@
         <genreform encodinganalog="MARC 655" source="aat">Stickers.</genreform>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>Rave collection, #8068. Division of Rare and Manuscript Collections, Cornell
-          University Library.</p>
-      </prefercite>
-    </descgrp>
+    
     <arrangement>
       <head>SERIES LIST</head>
       <list type="deflist">
@@ -221,8 +220,8 @@
       <head>CONTAINER LIST</head> 
       <c01 level="series"> 
         <did>        
-          <container type="box">8</container>
-          <container type="folder">1-8</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">1-8</container>
           <unittitle id="s1">Series I. First Batch, California</unittitle> 
           <physdesc>118 items</physdesc>
         </did>        
@@ -231,12 +230,12 @@
      
       <c01 level="series"> 
         <did>        
-          <container type="box">8</container>
-          <container type="folder">9-16</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">9-16</container>
           <unittitle id="s2">Series II. Second Batch, California</unittitle> 
           <physdesc>apx. 500 items</physdesc>
         </did>        
-        <scopecontent><p>Mostly San Francisco<lb/>The rave-related periodicals in the collection include Ameba Message, number 2 (December 23, 1992), and Rhythmos, number 1 (August 1992). Pamphlets include E info: practical information about Ecstasy (no date); The Imaginal Rave (July 1992), signed Cinnamon Twist; and Tribal Donut #1 (1993), a collection of reprints and excerpts from various New Age and rave books and articles.</p></scopecontent>       
+        <scopecontent><p>Mostly San FranciscoThe rave-related periodicals in the collection include Ameba Message, number 2 (December 23, 1992), and Rhythmos, number 1 (August 1992). Pamphlets include E info: practical information about Ecstasy (no date); The Imaginal Rave (July 1992), signed Cinnamon Twist; and Tribal Donut #1 (1993), a collection of reprints and excerpts from various New Age and rave books and articles.</p></scopecontent>       
       </c01>
       
       <c01 level="series"> 
@@ -245,36 +244,36 @@
           <unittitle id="s3">Series III. Third Batch, England</unittitle> 
           <physdesc>apx. 1500 items</physdesc>
         </did>        
-        <scopecontent><p/></scopecontent>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	1	</container><unittitle>	Rave culture publications	</unittitle></did><scopecontent><p>Includes Fantazia Fanzine (Issue 1), Ravescene (Nos. 22 and 29), and Eazy (No. 2).
+        
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	1	</container><unittitle>	Rave culture publications	</unittitle></did><scopecontent><p>Includes Fantazia Fanzine (Issue 1), Ravescene (Nos. 22 and 29), and Eazy (No. 2).
         </p></scopecontent></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	2	</container><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	2	</container><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.
         </p></scopecontent></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	3	</container><unittitle>	Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	4	</container><unittitle>	Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	5	</container><unittitle>	Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	6	</container><unittitle>	Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	7	</container><unittitle>	Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	8	</container><unittitle>	Flyers square, ca. 4.5" x 4.5" to 8.5" x 8.5"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	9	</container><unittitle>	Flyers long, largest ca. 6" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	10	</container><unittitle>	Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	11	</container><unittitle>	Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	12	</container><unittitle>	Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	13	</container><unittitle>	Flyers ca. 4" x 5"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	14	</container><unittitle>	Flyers ca. 4" x 5"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	15	</container><unittitle>	Flyers ca. 4" x 5"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	16	</container><unittitle>	Flyers ca. 4" x 5"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">6</container><container type="folder">	17	</container><unittitle>	Flyers ca. 4" x 5"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">7</container><container type="folder">	1	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">7</container><container type="folder">	2	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">7</container><container type="folder">	3	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">7</container><container type="folder">	4	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">7</container><container type="folder">	5	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">7</container><container type="folder">	6	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">7</container><container type="folder">	7	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">7</container><container type="folder">	8	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">7</container><container type="folder">	9	</container><unittitle>	Flyers, oddly shaped	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">7</container><unittitle>	Flyers ca. 12" x 18"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	3	</container><unittitle>	Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	4	</container><unittitle>	Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	5	</container><unittitle>	Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	6	</container><unittitle>	Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	7	</container><unittitle>	Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	8	</container><unittitle>	Flyers square, ca. 4.5" x 4.5" to 8.5" x 8.5"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	9	</container><unittitle>	Flyers long, largest ca. 6" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	10	</container><unittitle>	Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	11	</container><unittitle>	Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	12	</container><unittitle>	Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	13	</container><unittitle>	Flyers ca. 4" x 5"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	14	</container><unittitle>	Flyers ca. 4" x 5"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	15	</container><unittitle>	Flyers ca. 4" x 5"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	16	</container><unittitle>	Flyers ca. 4" x 5"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">	17	</container><unittitle>	Flyers ca. 4" x 5"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">7</container><container label="unspecified" type="folder">	1	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">7</container><container label="unspecified" type="folder">	2	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">7</container><container label="unspecified" type="folder">	3	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">7</container><container label="unspecified" type="folder">	4	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">7</container><container label="unspecified" type="folder">	5	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">7</container><container label="unspecified" type="folder">	6	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">7</container><container label="unspecified" type="folder">	7	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">7</container><container label="unspecified" type="folder">	8	</container><unittitle>	Flyers ca. 4.25" x 5.5"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">7</container><container label="unspecified" type="folder">	9	</container><unittitle>	Flyers, oddly shaped	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">7</container><unittitle>	Flyers ca. 12" x 18"	</unittitle></did></c02>
         
       </c01>
       <c01 level="series"> 
@@ -282,115 +281,119 @@
           <unittitle id="s4">Series IV. Fourth Batch, England</unittitle> 
           <physdesc>apx. 6000 items</physdesc>
         </did>
-        <scopecontent><p/></scopecontent>   
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	1	</container><unitdate>	1991	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	2	</container><unitdate>	1992	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	3	</container><unitdate>	1992	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	4	</container><unitdate>	1992	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	5	</container><unitdate>	1993	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	6	</container><unitdate>	1993	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	7	</container><unitdate>	1993	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	8	</container><unitdate>	1994	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	9	</container><unitdate>	1994	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	10	</container><unitdate>	1995	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	11	</container><unitdate>	1995	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	12	</container><unitdate>	1996	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	13	</container><unitdate>	1996	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	14	</container><unitdate>	1997	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	15	</container><unitdate>	1998	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	16	</container><unitdate>	1999	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	17	</container><unitdate>	2000	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	18	</container><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	1	</container><container type="folder">	19	</container><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	1	</container><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	2	</container><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	3	</container><unitdate>	1989-1992	</unitdate><unittitle>	Flyers, oddly shaped	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	4	</container><unitdate>	1993	</unitdate><unittitle>	Flyers, oddly shaped	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	5	</container><unitdate>	1994	</unitdate><unittitle>	Flyers, oddly shaped	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	6	</container><unitdate>	1995	</unitdate><unittitle>	Flyers, oddly shaped	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	7	</container><unitdate>	1996-2000	</unitdate><unittitle>	Flyers, oddly shaped	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	8	</container><unittitle>	Flyers, oddly shaped	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	9	</container><unitdate>	1992	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	10	</container><unitdate>	1993	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	11	</container><unitdate>	1994	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	12	</container><unitdate>	1995	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	13	</container><unitdate>	1996	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	14	</container><unitdate>	1997	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	15	</container><unitdate>	1998	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	16	</container><unitdate>	1999-2000	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	17	</container><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	18	</container><unitdate>	1989	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	19	</container><unitdate>	1990	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	20	</container><unitdate>	1991	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	21	</container><unitdate>	1992	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	22	</container><unitdate>	1992	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	23	</container><unitdate>	1993	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	24	</container><unitdate>	1993	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	25	</container><unitdate>	1994	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	26	</container><unitdate>	1994	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	27	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	28	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	29	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	2	</container><container type="folder">	30	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	1	</container><unitdate>	1995	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	2	</container><unitdate>	1995	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	3	</container><unitdate>	1995	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	4	</container><unitdate>	1996	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	5	</container><unitdate>	1996	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	6	</container><unitdate>	1996	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	7	</container><unitdate>	1996	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	8	</container><unitdate>	1997	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	9	</container><unitdate>	1997	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	10	</container><unitdate>	1997	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	11	</container><unitdate>	1997	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	12	</container><unitdate>	1998	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	13	</container><unitdate>	1999	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	14	</container><unitdate>	2000	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	15	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	16	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	17	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	3	</container><container type="folder">	18	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	1	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	2	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	3	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	4	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	5	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	6	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	7	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	8	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	9	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	10	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	11	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	12	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	13	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	14	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	15	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	16	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	17	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	18	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	19	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	20	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	21	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	22	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	23	</container><unittitle>	Event flyers - small	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	24	</container><unittitle>	Event flyers - small	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	4	</container><container type="folder">	25	</container><unittitle>	Event flyers - small	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	5	</container><container type="folder">	1	</container><unitdate>	1991	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	5	</container><container type="folder">	2	</container><unitdate>	1992	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	5	</container><container type="folder">	3	</container><unitdate>	1993	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	5	</container><container type="folder">	4	</container><unitdate>	1994	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	5	</container><container type="folder">	5	</container><unitdate>	1995	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	5	</container><container type="folder">	6	</container><unitdate>	1996	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	5	</container><container type="folder">	7	</container><unitdate>	1997	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	5	</container><container type="folder">	8	</container><unitdate>	1998	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	5	</container><container type="folder">	9	</container><unitdate>	1999	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	5	</container><container type="folder">	10	</container><unitdate>	2000	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	5	</container><container type="folder">	11	</container><unitdate>	2002	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
-        <c02 level="file"><did><container type="box">	5	</container><container type="folder">	12	</container><unittitle>	Flyers - oversized	</unittitle></did></c02>
+           
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	1	</container><unitdate>	1991	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	2	</container><unitdate>	1992	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	3	</container><unitdate>	1992	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	4	</container><unitdate>	1992	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	5	</container><unitdate>	1993	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	6	</container><unitdate>	1993	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	7	</container><unitdate>	1993	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	8	</container><unitdate>	1994	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	9	</container><unitdate>	1994	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	10	</container><unitdate>	1995	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	11	</container><unitdate>	1995	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	12	</container><unitdate>	1996	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	13	</container><unitdate>	1996	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	14	</container><unitdate>	1997	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	15	</container><unitdate>	1998	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	16	</container><unitdate>	1999	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	17	</container><unitdate>	2000	</unitdate><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	18	</container><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	1	</container><container label="unspecified" type="folder">	19	</container><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	1	</container><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	2	</container><unittitle>	Event Flyers ca. 9" x 12"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	3	</container><unitdate>	1989-1992	</unitdate><unittitle>	Flyers, oddly shaped	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	4	</container><unitdate>	1993	</unitdate><unittitle>	Flyers, oddly shaped	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	5	</container><unitdate>	1994	</unitdate><unittitle>	Flyers, oddly shaped	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	6	</container><unitdate>	1995	</unitdate><unittitle>	Flyers, oddly shaped	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	7	</container><unitdate>	1996-2000	</unitdate><unittitle>	Flyers, oddly shaped	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	8	</container><unittitle>	Flyers, oddly shaped	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	9	</container><unitdate>	1992	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	10	</container><unitdate>	1993	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	11	</container><unitdate>	1994	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	12	</container><unitdate>	1995	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	13	</container><unitdate>	1996	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	14	</container><unitdate>	1997	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	15	</container><unitdate>	1998	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	16	</container><unitdate>	1999-2000	</unitdate><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	17	</container><unittitle>	Rave culture associated advertising	</unittitle></did><scopecontent><p>Includes ads for albums, club memberships, clothing, and drugs.</p></scopecontent></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	18	</container><unitdate>	1989	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	19	</container><unitdate>	1990	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	20	</container><unitdate>	1991	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	21	</container><unitdate>	1992	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	22	</container><unitdate>	1992	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	23	</container><unitdate>	1993	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	24	</container><unitdate>	1993	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	25	</container><unitdate>	1994	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	26	</container><unitdate>	1994	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	27	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	28	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	29	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	2	</container><container label="unspecified" type="folder">	30	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	1	</container><unitdate>	1995	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	2	</container><unitdate>	1995	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	3	</container><unitdate>	1995	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	4	</container><unitdate>	1996	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	5	</container><unitdate>	1996	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	6	</container><unitdate>	1996	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	7	</container><unitdate>	1996	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	8	</container><unitdate>	1997	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	9	</container><unitdate>	1997	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	10	</container><unitdate>	1997	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	11	</container><unitdate>	1997	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	12	</container><unitdate>	1998	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	13	</container><unitdate>	1999	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	14	</container><unitdate>	2000	</unitdate><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	15	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	16	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	17	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	3	</container><container label="unspecified" type="folder">	18	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	1	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	2	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	3	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	4	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	5	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	6	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	7	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	8	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	9	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	10	</container><unittitle>	Event Flyers ca. 5.75" x 8.25"	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	11	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	12	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	13	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	14	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	15	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	16	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	17	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	18	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	19	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	20	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	21	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	22	</container><unittitle>	Event Quarter cards	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	23	</container><unittitle>	Event flyers - small	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	24	</container><unittitle>	Event flyers - small	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	4	</container><container label="unspecified" type="folder">	25	</container><unittitle>	Event flyers - small	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	5	</container><container label="unspecified" type="folder">	1	</container><unitdate>	1991	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	5	</container><container label="unspecified" type="folder">	2	</container><unitdate>	1992	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	5	</container><container label="unspecified" type="folder">	3	</container><unitdate>	1993	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	5	</container><container label="unspecified" type="folder">	4	</container><unitdate>	1994	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	5	</container><container label="unspecified" type="folder">	5	</container><unitdate>	1995	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	5	</container><container label="unspecified" type="folder">	6	</container><unitdate>	1996	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	5	</container><container label="unspecified" type="folder">	7	</container><unitdate>	1997	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	5	</container><container label="unspecified" type="folder">	8	</container><unitdate>	1998	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	5	</container><container label="unspecified" type="folder">	9	</container><unitdate>	1999	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	5	</container><container label="unspecified" type="folder">	10	</container><unitdate>	2000	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	5	</container><container label="unspecified" type="folder">	11	</container><unitdate>	2002	</unitdate><unittitle>	Flyers - oversized	</unittitle></did></c02>
+        <c02 level="file"><did><container label="unspecified" type="box">	5	</container><container label="unspecified" type="folder">	12	</container><unittitle>	Flyers - oversized	</unittitle></did></c02>
         
       </c01>
       
     
     </dsc> 
-  </archdesc> 
+  <prefercite>
+        <head>Cite As:</head>
+        <p>Rave collection, #8068. Division of Rare and Manuscript Collections, Cornell
+          University Library.</p>
+      </prefercite></archdesc> 
 </ead>

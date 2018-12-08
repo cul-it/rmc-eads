@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07830::Tyler Ingolia collection of Popstitutes videotapes)//EN">RMM07830</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07830::Tyler Ingolia collection of Popstitutes videotapes)//EN">RMM07830</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Tyler Ingolia collection of Popstitutes videotapes,
@@ -24,19 +24,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>June 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Tyler Ingolia Collection Of Popstitutes Videotapes,<lb/><date type="inclusive" encodinganalog="245$f">1988-1997.</date></titleproper>
+			<titleproper>Guide to the Tyler Ingolia Collection Of Popstitutes Videotapes,<date encodinganalog="245$f" type="inclusive">1988-1997.</date></titleproper>
 			<num>Collection Number: 7830</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -62,12 +68,13 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Tyler Ingolia collection of
-				Popstitutes videotapes, <unitdate encodinganalog="MARC 245" type="inclusive">1988-1997.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Tyler Ingolia collection of
+				Popstitutes videotapes, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1988-1997.</unitdate>
 			<unitid label="Collection Number:">7830</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Ingolia, Tyler,   ">Ingolia, Tyler, </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>14 VHS cassette tapes.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>14 VHS cassette tapes.</extent></physdesc>
 			<physdesc label="Forms of Material:">Video cassettes.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -84,7 +91,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>The Popstitutes were an influential San Francisco queer performance group and punk
 				band founded in 1986 by Michael Collins ("Diet Popstitute"), Brad Kellogg ("Bad
 				Popstitute"), and Alvin Orloff ("Remix von Popstitute"). Tyler Ingolia performed as
@@ -137,23 +144,7 @@
 				<corpname encodinganalog="MARC 611">Lavender Tortoise (Tour) </corpname>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Tyler Ingolia Collection of Popstitutes Videotapes, #7830. Division of Rare and
-					Manuscript Collections, Cornell University Library.</p>
-			</prefercite>
-			<accessrestrict>
-				<head>Use Restrictions:</head>
-				<p>Due to the fragility and potential degradation of moving image and sound
-					recordings, viewing and listening is limited to items that have been digitized.
-					If an item is in another media format, you may request to have the item
-					digitized for access. Information on ordering access copies may be found on our
-						<extref href="https://rare.library.cornell.edu/services/reproductions">
-						Reproductions and Permissions</extref> page.</p>
-			</accessrestrict>
-		</descgrp>
+		
 		<odd type="notes">
 			<head id="a6">NOTES</head>
 			<p>Collecting program: Human Sexuality Collection.</p>
@@ -162,17 +153,17 @@
 			<head>SERIES LIST</head>
 			<p>
 				<emph render="bold">
-					<ref target="s1" show="replace" actuate="onrequest">Series I. Popstitutes</ref>
+					<ref actuate="onrequest" show="replace" target="s1">Series I. Popstitutes</ref>
 				</emph>
 			</p>
 			<p>
 				<emph render="bold">
-					<ref target="s2" show="replace" actuate="onrequest">Series II. Klubstitute</ref>
+					<ref actuate="onrequest" show="replace" target="s2">Series II. Klubstitute</ref>
 				</emph>
 			</p>
 			<p>
 				<emph render="bold">
-					<ref target="s3" show="replace" actuate="onrequest">Series III.
+					<ref actuate="onrequest" show="replace" target="s3">Series III.
 						Miscellaneous</ref>
 				</emph>
 			</p>
@@ -185,7 +176,7 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid>V-8990</unitid>
 						<unitdate>1989</unitdate>
 						<unittitle>The Popstitutes</unittitle>
@@ -199,9 +190,9 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid>V-8991</unitid>
-						<unitdate>ca. 1988</unitdate>
+						<unitdate certainty="approximate">1988</unitdate>
 						<unittitle>"The Mugging", plus Southern Exposure Shower Scene/Bed Scene; The
 							Popstitutes</unittitle>
 					</did>
@@ -213,7 +204,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid>V-8992</unitid>
 						<unitdate>1990</unitdate>
 						<unittitle>Smutfest (1 and 2?), Popstitutes performance</unittitle>
@@ -231,7 +222,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid>V-8993</unitid>
 						<unitdate>1991</unitdate>
 						<unittitle>The Popstitutes w/ Blatz.</unittitle>
@@ -249,9 +240,9 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid>V-8994</unitid>
-						<unitdate>ca. 1991</unitdate>
+						<unitdate certainty="approximate">1991</unitdate>
 						<unittitle>James T &amp; the Kirkettes. Star Trek Video</unittitle>
 					</did>
 					<scopecontent>
@@ -265,9 +256,9 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid>V-8995</unitid>
-						<unitdate>ca. 1994</unitdate>
+						<unitdate certainty="approximate">1994</unitdate>
 						<unittitle>New Wave Video 2000: Missionary Man/Somebody Told Me/Copy
 							(Me)/Star Wars Docs</unittitle>
 					</did>
@@ -278,7 +269,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid>V-8996</unitid>
 						<unitdate>1993</unitdate>
 						<unittitle>Soap Box Derby/Video 2000 New Wave, Nite at Klubstitute/RuPaul
@@ -300,7 +291,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid>V-8997</unitid>
 						<unitdate>1994</unitdate>
 						<unittitle>Deena Davenport's New Wave Video 2000</unittitle>
@@ -313,7 +304,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid>V-8998</unitid>
 						<unitdate>1993-1995</unitdate>
 						<unittitle>New Wave Video 2000, Vol. I, II, II. Klubstitute.</unittitle>
@@ -325,7 +316,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid>V-8999</unitid>
 						<unitdate>1994</unitdate>
 						<unittitle>Deena Davenport's New Wave Video 2000 II &amp;
@@ -343,7 +334,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid>V-9000</unitid>
 						<unitdate>1994</unitdate>
 						<unittitle>Deena Davenport's New Wave Video 2000 III. Klubstitute. Original
@@ -357,7 +348,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid>V-9001</unitid>
 						<unitdate>1995</unitdate>
 						<unittitle>New Wave Video 2000 #5</unittitle>
@@ -377,7 +368,7 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid>V-9002</unitid>
 						<unitdate>1991</unitdate>
 						<unittitle>The Lavender Tortoise</unittitle>
@@ -389,7 +380,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid>V-9003</unitid>
 						<unitdate>1997</unitdate>
 						<unittitle>Bowie, T. Shack. Witch Hazel &amp; Model Stuff.</unittitle>
@@ -402,5 +393,17 @@
 				</c02>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Tyler Ingolia Collection of Popstitutes Videotapes, #7830. Division of Rare and
+					Manuscript Collections, Cornell University Library.</p>
+			</prefercite><accessrestrict>
+				<head>Use Restrictions:</head>
+				<p>Due to the fragility and potential degradation of moving image and sound
+					recordings, viewing and listening is limited to items that have been digitized.
+					If an item is in another media format, you may request to have the item
+					digitized for access. Information on ordering access copies may be found on our
+						<extref href="https://rare.library.cornell.edu/services/reproductions">
+						Reproductions and Permissions</extref> page.</p>
+			</accessrestrict></archdesc>
 </ead>

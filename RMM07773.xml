@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-	 <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07773::Guide to the Havelock Ellis Papers)//EN">RMM07773</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+	 <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07773::Guide to the Havelock Ellis Papers)//EN">RMM07773</eadid>
 	 
 	 <filedesc> 
 		<titlestmt> 
@@ -27,22 +27,28 @@
 		<creation>Finding aid encoded by RMC Staff, 
 		  <date>August 2011</date></creation> 
 	 </profiledesc> 
-  </eadheader> 
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader> 
   <frontmatter> 
 	 <titlepage> 
-		<titleproper>Guide to the Havelock Ellis Papers,<lb/> 
-		  <date type="inclusive" encodinganalog="245$f">1931-1977.</date></titleproper> 
+		<titleproper>Guide to the Havelock Ellis Papers, 
+		  <date encodinganalog="245$f" type="inclusive">1931-1977.</date></titleproper> 
 		<num>Collection Number: 7773</num> 
-		<publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+		<publisher>Division of Rare and Manuscript Collections Cornell
 		  University Library</publisher> 
 		<list type="deflist"> 
 		  <defitem> 
 			 <label>Contact Information:</label> 
-			 <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-				Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-				255-3530<lb/> Fax: (607) 255-9524<lb/> 
-				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/> 
-				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+			 <item> Division of Rare and Manuscript Collections 2B Carl A.
+				Kroch Library Cornell University Ithaca, NY 14853 (607)
+				255-3530 Fax: (607) 255-9524 
+				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
+				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 			 
 		  </defitem> 
 		  <defitem> 
@@ -69,14 +75,16 @@
   <archdesc level="collection"> 
 	 <did> 
 		<head id="a1">DESCRIPTIVE SUMMARY</head> 
-		<unittitle label="Title:" encodinganalog="MARC 245">Havelock Ellis
+		<unittitle encodinganalog="MARC 245" label="Title:">Havelock Ellis
 		  Papers, 
-		  <unitdate encodinganalog="MARC 245" type="inclusive">1931-1977.</unitdate> </unittitle> 
+		  </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1931-1977.</unitdate> 
 		<unitid label="Collection Number:">7773</unitid> 
 		<origination label="Creator:"> 
 		  <persname encodinganalog="100" normal="Ellis, Havelock, 1859-1939.">Havelock, Ellis
 			 1859-1939.</persname></origination> 
-		<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>0.2 cubic
+		<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>0.2 cubic
 		  feet.</extent></physdesc> 
 		<physdesc label="Forms of Material:">Correspondence</physdesc> 
 		<repository label="Repository:">Division of Rare and Manuscript
@@ -90,7 +98,7 @@
 		
 	 </did> 
 	 <bioghist encodinganalog="MARC 545"> 
-		<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head> 
+		<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head> 
 		<p>Henry Havelock Ellis, born February 2, 1859, was a British physician
 		  and psychologist who wrote several influential works on sexuality. He died on
 		  July 8, 1939.</p> 
@@ -122,14 +130,7 @@
 		  <subject encodinganalog="MARC 650">Sex (Psychology)</subject> 
 		</controlaccess> 
 	 </controlaccess> 
-	 <descgrp> 
-		<head id="a8">INFORMATION FOR USERS</head> 
-		<prefercite> 
-		  <head>Cite As:</head> 
-		  <p>Havelock Ellis Papers, #7773. Division of Rare and Manuscript
-			 Collections, Cornell University Library.</p> 
-		</prefercite> 
-	 </descgrp> 
+	  
 	 <odd type="notes"> 
 		<head id="a5">NOTES</head> 
 		<p>Collecting Program: Human Sexuality Collection.</p> 
@@ -139,40 +140,40 @@
 	
 		<c01 level="file"> 
 		  <did> 
-		  	<container type="box">1</container>
-		  	<container type="folder">1</container>
+		  	<container label="unspecified" type="box">1</container>
+		  	<container label="unspecified" type="folder">1</container>
 			 <unittitle>Psychology of Sex- Copyright</unittitle> 
 		  	<unitdate>1931-1966</unitdate>
 		  	</did> 
 		</c01> 
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">1</container>
-	 			<container type="folder">2</container>
+	 			<container label="unspecified" type="box">1</container>
+	 			<container label="unspecified" type="folder">2</container>
 	 			<unittitle>Photographs and Publicity</unittitle> 
 	 			<unitdate>1935</unitdate>
 	 		</did> 
 	 	</c01> 
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">1</container>
-	 			<container type="folder">3</container>
+	 			<container label="unspecified" type="box">1</container>
+	 			<container label="unspecified" type="folder">3</container>
 	 			<unittitle>Ray Long and Richard R. Smith, Inc.</unittitle> 
 	 			<unitdate>1935</unitdate>
 	 		</did> 
 	 	</c01> 
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">1</container>
-	 			<container type="folder">4</container>
+	 			<container label="unspecified" type="box">1</container>
+	 			<container label="unspecified" type="folder">4</container>
 	 			<unittitle>Percy Elias- Emerson Books, Inc.</unittitle> 
 	 			<unitdate>1935-1939</unitdate>
 	 		</did> 
 	 	</c01> 
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">1</container>
-	 			<container type="folder">5</container>
+	 			<container label="unspecified" type="box">1</container>
+	 			<container label="unspecified" type="folder">5</container>
 	 			<unittitle>Alex Forbath Correspondence</unittitle> 
 	 			<unitdate>1936</unitdate>
 	 		</did> 
@@ -180,8 +181,8 @@
 	 	
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">1</container>
-	 			<container type="folder">6</container>
+	 			<container label="unspecified" type="box">1</container>
+	 			<container label="unspecified" type="folder">6</container>
 	 			<unittitle>Arthur Pell- Liveright Publishing Co. Ltd., Alex Forbath and "Love and Marriage"</unittitle> 
 	 			<unitdate>1938</unitdate>
 	 		</did> 
@@ -189,8 +190,8 @@
 	 
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">1</container>
-	 			<container type="folder">7</container>
+	 			<container label="unspecified" type="box">1</container>
+	 			<container label="unspecified" type="folder">7</container>
 	 			<unittitle>Havelock Ellis- Deceased</unittitle> 
 	 			<unitdate>1939-1940</unitdate>
 	 		</did> 
@@ -198,40 +199,40 @@
 	 
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">1</container>
-	 			<container type="folder">8</container>
+	 			<container label="unspecified" type="box">1</container>
+	 			<container label="unspecified" type="folder">8</container>
 	 			<unittitle>Reprint Rights Sold</unittitle> 
 	 			<unitdate>1940-1977</unitdate>
 	 		</did> 
 	 	</c01> 
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">1</container>
-	 			<container type="folder">9</container>
+	 			<container label="unspecified" type="box">1</container>
+	 			<container label="unspecified" type="folder">9</container>
 	 			<unittitle>Estate of Havelock Ellis</unittitle> 
 	 			<unitdate>1940-1979</unitdate>
 	 		</did> 
 	 	</c01> 
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">1</container>
-	 			<container type="folder">10</container>
+	 			<container label="unspecified" type="box">1</container>
+	 			<container label="unspecified" type="folder">10</container>
 	 			<unittitle>Liveright- "Love and Marriage"</unittitle> 
 	 			<unitdate>1943</unitdate>
 	 		</did> 
 	 	</c01> 
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">1</container>
-	 			<container type="folder">11</container>
+	 			<container label="unspecified" type="box">1</container>
+	 			<container label="unspecified" type="folder">11</container>
 	 			<unittitle>Permission Sold Or Granted</unittitle> 
 	 			<unitdate>1953-1978</unitdate>
 	 		</did> 
 	 	</c01> 
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">1</container>
-	 			<container type="folder">12</container>
+	 			<container label="unspecified" type="box">1</container>
+	 			<container label="unspecified" type="folder">12</container>
 	 			<unittitle>Folders that Came with the Collection</unittitle> 
 	 			<unitdate>1970</unitdate>
 	 		</did> 
@@ -244,5 +245,9 @@
 	 	
 	 	
 	 </dsc> 
-  </archdesc> 
+  <prefercite> 
+		  <head>Cite As:</head> 
+		  <p>Havelock Ellis Papers, #7773. Division of Rare and Manuscript
+			 Collections, Cornell University Library.</p> 
+		</prefercite></archdesc> 
 </ead>

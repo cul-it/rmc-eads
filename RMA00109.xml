@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00109::Dept. of Philosophy records)//EN">RMA00109</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00109::Dept. of Philosophy records)//EN">RMA00109</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Dept. of Philosophy records, 1892-1952.</titleproper>
@@ -30,6 +29,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -38,22 +43,22 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Dept. of Philosophy Records,<lb/>1892-1952</titleproper>
+         <titleproper>Guide to the Dept. of Philosophy Records,1892-1952</titleproper>
          <num>Collection Number: 14-21-109</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+         <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/>
-2B Carl A. Kroch Library<lb/>
-Cornell University<lb/>
-Ithaca, NY 14853<lb/>
-(607) 255-3530<lb/>
-Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections
+2B Carl A. Kroch Library
+Cornell University
+Ithaca, NY 14853
+(607) 255-3530
+Fax: (607) 255-9524
 <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
 <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -78,12 +83,9 @@ Fax: (607) 255-9524<lb/>
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Dept. of Philosophy records, 
+         <unittitle encodinganalog="MARC 245" label="Title:">Dept. of Philosophy records, 
 
-		  <unitdate type="inclusive" encodinganalog="MARC 245">1892-1952.</unitdate>
-
-		
-         </unittitle>
+		  </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1892-1952.</unitdate>
          <unitid label="Collection Number:">14-21-109</unitid>
          <origination label="Creator:"> 
 
@@ -92,7 +94,9 @@ Fax: (607) 255-9524<lb/>
 
 		
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>9.6 cubic ft.; 4 v.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>9.6 cubic ft.; 4 v.</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, syllabi, and other material.</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
          <abstract label="Abstract:">Correspondence of the Sage School of Philosophy, including applications for fellowships and prizes, and material relating to the preparation of a history of the Sage School; correspondence pertaining to the publication of the Philosophical Review; syllabi and other material pertaining to the Dept. of Philosophy.</abstract>
@@ -120,53 +124,29 @@ Fax: (607) 255-9524<lb/>
             <subject encodinganalog="MARC 650">Philosophy--Study and teaching.</subject>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Dept. of Philosophy records, #14-21-109. Division of Rare and Manuscript Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="series">
             <did>
                <unittitle>Correspondence</unittitle>
             </did>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">1</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1891-1895</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <unitdate>1891-1895</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">2</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1896-1912</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">2</container>
+                  <unitdate>1896-1912</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">2</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1916-1917</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">2</container>
+                  <unitdate>1916-1917</unitdate>
                </did>
             </c02>
          </c01>
@@ -175,206 +155,182 @@ Fax: (607) 255-9524<lb/>
                <unittitle>
                   <title>Philosophical Review</title> - correspondence misc.</unittitle>
             </did>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">3</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1892-1926</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">3</container>
+                  <unitdate>1892-1926</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">4</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1927-1929</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">4</container>
+                  <unitdate>1927-1929</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">5</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1930</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">5</container>
+                  <unitdate>1930</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">6</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1931</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">6</container>
+                  <unitdate>1931</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">7</container>
+                  <container label="unspecified" type="box">7</container>
                   <unittitle>
 
 				  
-                     <unitdate>Nov. 1931-July 1932</unitdate>
+                     Nov. 1931-July 1932
 
-				  A-Z</unittitle>
+				  A-Z</unittitle><unitdate>Nov. 1931-July 1932</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">7</container>
+                  <container label="unspecified" type="box">7</container>
                   <unittitle>
 
 				  
-                     <unitdate>Jan. 1932-Jan. 1935</unitdate>
+                     Jan. 1932-Jan. 1935
 
-				  A-N</unittitle>
+				  A-N</unittitle><unitdate>Jan. 1932-Jan. 1935</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">8</container>
+                  <container label="unspecified" type="box">8</container>
                   <unittitle>
 
 				  
-                     <unitdate>Jan. 1933-Jan. 1935</unitdate>
+                     Jan. 1933-Jan. 1935
 
-				  O-Z</unittitle>
+				  O-Z</unittitle><unitdate>Jan. 1933-Jan. 1935</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">8</container>
+                  <container label="unspecified" type="box">8</container>
                   <unittitle>
 
 				  
-                     <unitdate>Jan. 1935-July 1936</unitdate>
+                     Jan. 1935-July 1936
 
-				  A-M</unittitle>
+				  A-M</unittitle><unitdate>Jan. 1935-July 1936</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">9</container>
+                  <container label="unspecified" type="box">9</container>
                   <unittitle>
 
 				  
-                     <unitdate>Jan. 1935-July 1936</unitdate>
+                     Jan. 1935-July 1936
 
-				  N-Z</unittitle>
+				  N-Z</unittitle><unitdate>Jan. 1935-July 1936</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">9</container>
+                  <container label="unspecified" type="box">9</container>
                   <unittitle>
 
 				  
-                     <unitdate>July 1936-July 1937</unitdate>
+                     July 1936-July 1937
 
-				  A-Q</unittitle>
+				  A-Q</unittitle><unitdate>July 1936-July 1937</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">10</container>
+                  <container label="unspecified" type="box">10</container>
                   <unittitle>
 
 				  
-                     <unitdate>July 1936-July 1937</unitdate>
+                     July 1936-July 1937
 
-				  R-Z</unittitle>
+				  R-Z</unittitle><unitdate>July 1936-July 1937</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">10</container>
+                  <container label="unspecified" type="box">10</container>
                   <unittitle>
 
 				  
-                     <unitdate>July 1937-July 1938</unitdate>
+                     July 1937-July 1938
 
-				  A-Z</unittitle>
+				  A-Z</unittitle><unitdate>July 1937-July 1938</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unittitle>
 
 				  
-                     <unitdate>July 1938-July 1939</unitdate>
+                     July 1938-July 1939
 
-				  A-W</unittitle>
+				  A-W</unittitle><unitdate>July 1938-July 1939</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unittitle>
 
 				  
-                     <unitdate>July 1939-July 1940</unitdate>
+                     July 1939-July 1940
 
-				  A-J</unittitle>
+				  A-J</unittitle><unitdate>July 1939-July 1940</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>
 
 				  
-                     <unitdate>July 1939-July 1940</unitdate>
+                     July 1939-July 1940
 
-				  K-Z</unittitle>
+				  K-Z</unittitle><unitdate>July 1939-July 1940</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>
 
 				  
-                     <unitdate>July 1940-July 1942</unitdate>
+                     July 1940-July 1942
 
-				  A-O</unittitle>
+				  A-O</unittitle><unitdate>July 1940-July 1942</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>
 
 				  
-                     <unitdate>July 1940-July 1942</unitdate>
+                     July 1940-July 1942
 
-				  P-Z</unittitle>
+				  P-Z</unittitle><unitdate>July 1940-July 1942</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>
 
 				  
-                     <unitdate>July 1942-July 1944</unitdate>
+                     July 1942-July 1944
 
-				  A-Z</unittitle>
+				  A-Z</unittitle><unitdate>July 1942-July 1944</unitdate>
                </did>
             </c02>
          </c01>
@@ -384,20 +340,17 @@ Fax: (607) 255-9524<lb/>
                   <title>Philosophical Review</title>
                </unittitle>
             </did>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">14</container>
+                  <container label="unspecified" type="box">14</container>
                   <unittitle>Misc., 
 
-				  <unitdate>1908-1949</unitdate>
-
-				
-                  </unittitle>
+				  </unittitle><unitdate>1908-1949</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">15</container>
+                  <container label="unspecified" type="box">15</container>
                   <unittitle>Correspondence, undated</unittitle>
                </did>
             </c02>
@@ -406,92 +359,92 @@ Fax: (607) 255-9524<lb/>
             <did>
                <unittitle>Sage School of Philosophy - correspondence</unittitle>
             </did>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">16</container>
+                  <container label="unspecified" type="box">16</container>
                   <unittitle>
 
 				  
-                     <unitdate>1919-1920</unitdate>
+                     1919-1920
 
-				  A-Z</unittitle>
+				  A-Z</unittitle><unitdate>1919-1920</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">16</container>
+                  <container label="unspecified" type="box">16</container>
                   <unittitle>
 
 				  
-                     <unitdate>1923-1924</unitdate>
+                     1923-1924
 
-				  A-Z</unittitle>
+				  A-Z</unittitle><unitdate>1923-1924</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">16</container>
+                  <container label="unspecified" type="box">16</container>
                   <unittitle>
 
 				  
-                     <unitdate>1924-1925</unitdate>
+                     1924-1925
 
-				  A-Z</unittitle>
+				  A-Z</unittitle><unitdate>1924-1925</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">17</container>
+                  <container label="unspecified" type="box">17</container>
                   <unittitle>
 
 				  
-                     <unitdate>1925-1928</unitdate>
+                     1925-1928
 
-				  A-Z</unittitle>
+				  A-Z</unittitle><unitdate>1925-1928</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">18</container>
+                  <container label="unspecified" type="box">18</container>
                   <unittitle>
 
 				  
-                     <unitdate>1928-1930</unitdate>
+                     1928-1930
 
-				  A-Z</unittitle>
+				  A-Z</unittitle><unitdate>1928-1930</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">18</container>
+                  <container label="unspecified" type="box">18</container>
                   <unittitle>
 
 				  
-                     <unitdate>1931-1940</unitdate>
+                     1931-1940
 
-				  Misc. A-L</unittitle>
+				  Misc. A-L</unittitle><unitdate>1931-1940</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">19</container>
+                  <container label="unspecified" type="box">19</container>
                   <unittitle>
 
 				  
-                     <unitdate>1931-1940</unitdate>
+                     1931-1940
 
-				  Misc. M-Z</unittitle>
+				  Misc. M-Z</unittitle><unitdate>1931-1940</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">19</container>
+                  <container label="unspecified" type="box">19</container>
                   <unittitle>
 
 				  
-                     <unitdate>1935-1946</unitdate>
+                     1935-1946
 
-				  A-Z</unittitle>
+				  A-Z</unittitle><unitdate>1935-1946</unitdate>
                </did>
             </c02>
          </c01>
@@ -499,100 +452,100 @@ Fax: (607) 255-9524<lb/>
             <did>
                <unittitle>Other papers</unittitle>
             </did>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">20</container>
+                  <container label="unspecified" type="box">20</container>
                   <unittitle>Applications for teaching posts</unittitle>
                   <unitdate>1928-1948</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">21</container>
+                  <container label="unspecified" type="box">21</container>
                   <unittitle>Correspondence re: back issues</unittitle>
                   <unitdate>1934, 1942, 1945-1947</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">21</container>
+                  <container label="unspecified" type="box">21</container>
                   <unittitle>Correspondence</unittitle>
                   <unitdate>1903-1907</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">21</container>
+                  <container label="unspecified" type="box">21</container>
                   <unittitle>Hammond Questionaire</unittitle>
                   <unitdate>1902</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">21</container>
+                  <container label="unspecified" type="box">21</container>
                   <unittitle>Applications for scholarships and fellowships, A-Z</unittitle>
                   <unitdate>1902-1906</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">21</container>
+                  <container label="unspecified" type="box">21</container>
                   <unittitle>
                      <title>Philosophical Review</title> - Accounts</unittitle>
                   <unitdate>1945-1947</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">22</container>
+                  <container label="unspecified" type="box">22</container>
                   <unittitle>Teaching positions, A-Z</unittitle>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">22</container>
+                  <container label="unspecified" type="box">22</container>
                   <unittitle>Correspondence and recommendations</unittitle>
                   <unitdate>1935-1952</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">23</container>
+                  <container label="unspecified" type="box">23</container>
                   <unittitle>George Banta Publ. Co. correspondence</unittitle>
-                  <unitdate/>
+                  
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">24</container>
+                  <container label="unspecified" type="box">24</container>
                   <unittitle>Banta bills</unittitle>
                   <unitdate>1933-1945</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">25</container>
+                  <container label="unspecified" type="box">25</container>
                   <unittitle>Cornell Philosophical Club Record (ms. vol.)</unittitle>
                   <unitdate>1894-1916</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">25</container>
+                  <container label="unspecified" type="box">25</container>
                   <unittitle>Cornell Philosophical Club Record (ms. vol.)</unittitle>
                   <unitdate>1898-1900</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">25</container>
+                  <container label="unspecified" type="box">25</container>
                   <unittitle>Cornell Philosophical Club Record (ms. vol.)</unittitle>
                   <unitdate>1934-1948</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">25</container>
+                  <container label="unspecified" type="box">25</container>
                   <unittitle>
                      <title>Philosophical Review</title> - correspondence (letter copy book)</unittitle>
                   <unitdate>1891-1898</unitdate>
@@ -600,5 +553,8 @@ Fax: (607) 255-9524<lb/>
             </c02>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Dept. of Philosophy records, #14-21-109. Division of Rare and Manuscript Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

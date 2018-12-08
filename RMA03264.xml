@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03264::New York State College of Human Ecology honors theses)//EN">RMA03264</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03264::New York State College of Human Ecology honors theses)//EN">RMA03264</eadid>
     
     <filedesc> 
       <titlestmt> 
@@ -27,7 +26,13 @@
       <creation>Finding aid encoded by J.M. Nicholas. File last modified: 
         <date>May, 2008</date> </creation> 
     </profiledesc> 
-    <revisiondesc> 
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+ 
       <change encodinganalog="583"> 
         <date normal="2007-05-29">2007-05-29</date> 
         <item>converted from EAD 1.0 to EAD 2002 </item> 
@@ -37,19 +42,19 @@
   <frontmatter> 
     <titlepage> 
       <titleproper>Guide to the New York State College of Human Ecology Honors
-        Theses,<lb/>1970-2017</titleproper> 
+        Theses,1970-2017</titleproper> 
       <num>Collection Number: 23-11-3264</num> 
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+      <publisher>Division of Rare and Manuscript Collections Cornell
         University Library</publisher> 
       <list type="deflist"> 
         <defitem> 
           <label>Contact Information:</label> 
-          <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-            Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/> 
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> <lb/> 
+          <item>Division of Rare and Manuscript Collections 2B Carl A.
+            Kroch Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524 
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>  
             <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-            <lb/></item> 
+            </item> 
         </defitem> 
         <defitem> 
           <label>Date completed:</label> 
@@ -75,14 +80,16 @@
   <archdesc level="collection"> 
     <did> 
       <head id="a1">DESCRIPTIVE SUMMARY</head> 
-      <unittitle label="Title:" encodinganalog="MARC 245">New York State
+      <unittitle encodinganalog="MARC 245" label="Title:">New York State
         College of Human Ecology honors theses, 
-        <unitdate type="inclusive" encodinganalog="MARC 245">1970-2017.</unitdate> </unittitle> 
+        </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1970-2017.</unitdate> 
       <unitid label="Collection Number:">23-11-3264</unitid> 
       <origination label="Creator:"> 
         <corpname encodinganalog="MARC 110">New York State College of Human
           Ecology.</corpname> </origination> 
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>8 cubic
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>8 cubic
         ft.</extent></physdesc> 
       <physdesc label="Forms of Material:">Theses.</physdesc> 
       <repository label="Repository:">Division of Rare and Manuscript
@@ -418,112 +425,98 @@
           2018.</corpname> 
       </controlaccess> 
     </controlaccess> 
-    <descgrp type="admininfo"> 
-      <head id="a8">INFORMATION FOR USERS</head> 
-      <p> 
-        <extref href="http://ecommons.library.cornell.edu/handle/1813/5430">Some of the theses
-          are available online by clicking here.</extref> </p> 
-      <p>For additional theses see the 
-        <extref href="http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMA03419">Division
-          of Nutritional Sciences Honors Theses collection, #29-06-3419</extref></p> 
-      <p> Submission Release Forms are in Box 9. </p>
-      <prefercite> 
-        <head>Cite As:</head> 
-        <p>New York State College of Human Ecology honors theses, #23-11-3264.
-          Division of Rare and Manuscript Collections, Cornell University Library.</p> 
-      </prefercite> 
-    </descgrp> 
+     
     <arrangement> 
       <head>SERIES LIST</head> 
       <p> <emph render="bold"> 
-        <ref target="s1" show="replace" actuate="onrequest">Series I. Classes of 
+        <ref actuate="onrequest" show="replace" target="s1">Series I. Classes of 
           1970-1975; 1982; 1986</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s2" show="replace" actuate="onrequest">Series II. Class of
+        <ref actuate="onrequest" show="replace" target="s2">Series II. Class of
           1987</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s3" show="replace" actuate="onrequest">Series III. Class
+        <ref actuate="onrequest" show="replace" target="s3">Series III. Class
           of 1988</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s4" show="replace" actuate="onrequest">Series IV. Class of
+        <ref actuate="onrequest" show="replace" target="s4">Series IV. Class of
           1989</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s5" show="replace" actuate="onrequest">Series V. Class of
+        <ref actuate="onrequest" show="replace" target="s5">Series V. Class of
           1990</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s6" show="replace" actuate="onrequest">Series VI. Class of
+        <ref actuate="onrequest" show="replace" target="s6">Series VI. Class of
           1991</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s7" show="replace" actuate="onrequest">Series VII. Class
+        <ref actuate="onrequest" show="replace" target="s7">Series VII. Class
           of 1992</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s8" show="replace" actuate="onrequest">Series VIII. Class
+        <ref actuate="onrequest" show="replace" target="s8">Series VIII. Class
           of 1993</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s9" show="replace" actuate="onrequest">Series IX. Class of
+        <ref actuate="onrequest" show="replace" target="s9">Series IX. Class of
           1994</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s10" show="replace" actuate="onrequest">Series X. Class of
+        <ref actuate="onrequest" show="replace" target="s10">Series X. Class of
           1995</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s11" show="replace" actuate="onrequest">Series XI. Class
+        <ref actuate="onrequest" show="replace" target="s11">Series XI. Class
           of 1996</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s12" show="replace" actuate="onrequest">Series XII. Class
+        <ref actuate="onrequest" show="replace" target="s12">Series XII. Class
           of 1997</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s13" show="replace" actuate="onrequest">Series XIII. Class
+        <ref actuate="onrequest" show="replace" target="s13">Series XIII. Class
           of 1998</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s14" show="replace" actuate="onrequest">Series XIV. Class
+        <ref actuate="onrequest" show="replace" target="s14">Series XIV. Class
           of 1999</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s15" show="replace" actuate="onrequest">Series XV. Class
+        <ref actuate="onrequest" show="replace" target="s15">Series XV. Class
           of 2000</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s16" show="replace" actuate="onrequest">Series XVI. Class
+        <ref actuate="onrequest" show="replace" target="s16">Series XVI. Class
           of 2001</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s17" show="replace" actuate="onrequest">Series XVII. Class
+        <ref actuate="onrequest" show="replace" target="s17">Series XVII. Class
           of 2002</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s18" show="replace" actuate="onrequest">Series XVIII.
+        <ref actuate="onrequest" show="replace" target="s18">Series XVIII.
           Class of 2003</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s19" show="replace" actuate="onrequest">Series XIX. Class
+        <ref actuate="onrequest" show="replace" target="s19">Series XIX. Class
           of 2004</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s20" show="replace" actuate="onrequest">Series XX. Class
+        <ref actuate="onrequest" show="replace" target="s20">Series XX. Class
           of 2005</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s21" show="replace" actuate="onrequest">Series XXI. Class
+        <ref actuate="onrequest" show="replace" target="s21">Series XXI. Class
           of 2006</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s22" show="replace" actuate="onrequest">Series XXII. Class
+        <ref actuate="onrequest" show="replace" target="s22">Series XXII. Class
           of 2007</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s23" show="replace" actuate="onrequest">Series XXIII.
+        <ref actuate="onrequest" show="replace" target="s23">Series XXIII.
         Class of 2008</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s24" show="replace" actuate="onrequest">Series XXIV.
+        <ref actuate="onrequest" show="replace" target="s24">Series XXIV.
           Class of 2012</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s25" show="replace" actuate="onrequest">Series XXV. Class
+        <ref actuate="onrequest" show="replace" target="s25">Series XXV. Class
           of 2013</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s26" show="replace" actuate="onrequest">Series XXVI. Class
+        <ref actuate="onrequest" show="replace" target="s26">Series XXVI. Class
           of 2014</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s27" show="replace" actuate="onrequest">Series XXVII. Class
+        <ref actuate="onrequest" show="replace" target="s27">Series XXVII. Class
           of 2015</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s28" show="replace" actuate="onrequest">Series XXVIII. Class
+        <ref actuate="onrequest" show="replace" target="s28">Series XXVIII. Class
           of 2016</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s29" show="replace" actuate="onrequest">Series XXIX. Class
+        <ref actuate="onrequest" show="replace" target="s29">Series XXIX. Class
           of 2017</ref> </emph> </p> 
       <p> <emph render="bold"> 
-        <ref target="s30" show="replace" actuate="onrequest">Series XXX. Class
+        <ref actuate="onrequest" show="replace" target="s30">Series XXX. Class
           of 2018</ref> </emph> </p> 
   </arrangement> 
     <dsc type="combined"> 
@@ -532,191 +525,191 @@
         <did> 
           <unittitle id="s1">Series I. Classes of 1970-1975; 1982; 1986</unittitle> 
         </did> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"A Comparative Analysis of the Inherent Characteristics
              and Physical Properties of Garment Leather with Implications for the Design and Construction of Apparel"</unittitle> 
             <origination label="Creator">
               <persname>Corcoran, Phyllis</persname></origination>
             <unitdate>1970</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"A Study of Dress Worn by American Women in the 1920s"</unittitle> 
             <origination label="Creator">
               <persname>Heydinger, Beth Ann</persname></origination>
             <unitdate>1970</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Fashion and Consumer Welfare"</unittitle> 
             <origination label="Creator">
               <persname>Postle, Susan Louise</persname></origination>
             <unitdate>1970</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Relations Between Thermal Shrinkage and Draw Ratios of Nylon 66"</unittitle> 
             <origination label="Creator">
               <persname>Sinclair, Nancy Jo</persname></origination>
             <unitdate>1970</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"A Comprehensive Study of the Use of Non-flammable Fabrics for Children's Sleepware"</unittitle> 
             <origination label="Creator">
               <persname>Johnson, Natalie</persname></origination>
             <unitdate>1971</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"A Study of Felting Properties of Wool"</unittitle> 
             <origination label="Creator">
               <persname>Norton, Marjorie</persname></origination>
             <unitdate>1971</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Flammable Fabrics: The Retailer's Plight"</unittitle> 
             <origination label="Creator">
               <persname>Berry, Carolyn</persname></origination>
             <unitdate>1972</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"A Laboratory and Wear Study of the Appearance and Performance of Boy's Durable Press Pants"</unittitle>
             <origination label="Creator">
               <persname>Douglas, Ruby Jean</persname></origination>
             <unitdate>1972</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Restoration and Classification of Certain Items from the Cornell Costume Collection"</unittitle> 
             <origination label="Creator">
               <persname>Halleran, Kristine</persname></origination>
             <unitdate>1972</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Development of Consumer Interest in the Home Sewing of Lingerie"</unittitle> 
             <origination label="Creator">
               <persname>Sielschott, Jeri Lynn</persname></origination>
             <unitdate>1972</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Thermal Insulative Qualities of Various Fabric Systems as Related to Skiwear"</unittitle> 
             <origination label="Creator">
               <persname>Kayser, Martha Dee</persname></origination>
             <unitdate>1972</unitdate> 
-            <container type="box">10</container> 
+            <container label="unspecified" type="box">10</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Effect of Fast Electrons on Polyethylene Terephthalate"</unittitle> 
             <origination label="Creator">
               <persname>Wieder, Ann Louise</persname></origination>
             <unitdate>1973</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Restoration of Degraded Cotton by Interfacial Polymerization with Nylon 66"</unittitle> 
             <origination label="Creator">
               <persname>David, Laurie F.</persname></origination>
             <unitdate>1974</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Flame Retardant Clothing for the Elderly - A Feasability Report"</unittitle> 
             <origination label="Creator">
               <persname>Fisher, Charlene</persname></origination>
             <unitdate>1974</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Evaluation of the Wear Life of Men's Trouser Pockets"</unittitle> 
             <origination label="Creator">
               <persname>Graceffo, Elaine</persname></origination>
             <unitdate>1974</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Patchwork Quilt in America: A Chronicle of Authentic Americana"</unittitle> 
             <origination label="Creator">
               <persname>Schreier, Maura</persname></origination>
             <unitdate>1975</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Dominance Behavior in a Group of Adolescent Females"</unittitle> 
             <origination label="Creator">
               <persname>Paikoff, Roberta Lynn</persname></origination>
             <unitdate>1982</unitdate> 
-            <container type="box">9</container>  
+            <container label="unspecified" type="box">9</container>  
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Effects of Rapid Television Segment Pacing on Attention
               and Content Comprehension of Preschool Children"</unittitle> 
             <origination label="Creator">
               <persname>Bello, Adrienne</persname></origination>
             <unitdate>1986</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Roles of Mentoring and Tacit Knowledge in the
               Career Development of Business Managers"</unittitle> 
             <origination label="Creator">
               <persname>Collins, Patrick</persname></origination>
             <unitdate>1986</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Relation Between Maternal Behavior and Children's
               Peer-Directed Helping Behavior"</unittitle> 
             <origination label="Creator">
               <persname>Manhardt, Joan E.</persname></origination>
             <unitdate>1986</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Young Child's Eyewitness Abilities: Can Preschool
               Children Invalidate Their Testimony Through Protectively Withholding
@@ -724,17 +717,17 @@
             <origination label="Creator">
               <persname>Rachman, Marc</persname></origination>
             <unitdate>1986</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Relationship Between Self-Esteem and a Desire to
               Change One's Physical Appearance During Either Adolescence or Adulthood"</unittitle> 
             <origination label="Creator">
               <persname>Stuart, Bruce Stephen</persname></origination>
             <unitdate>1986</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
       </c01> 
@@ -747,34 +740,34 @@
         <did> 
           <unittitle id="s3">Series III. Class of 1988</unittitle> 
         </did> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Adolescent Teasing and Ridicule and Their Relationships
               With Self-esteem and Social Personality"</unittitle> 
             <origination label="Creator">
               <persname>Fuligni, Andrew J.</persname></origination>
             <unitdate>1988</unitdate> 
-            <container type="box">3</container> 
+            <container label="unspecified" type="box">3</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Children's Word Learning: A Study of Effects of
               Linguistic Contrast and Conceptual Hierarchy"</unittitle> 
             <origination label="Creator">
               <persname>Goldfarb, Dori Ellen</persname></origination>
             <unitdate>1988</unitdate> 
-            <container type="box">3</container> 
+            <container label="unspecified" type="box">3</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"A Taxonomy and Ecology of Non-contact significant
               Others"</unittitle> 
             <origination label="Creator">
               <persname>Wright, Stephen</persname></origination>
             <unitdate>1988</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
       </c01> 
@@ -782,24 +775,24 @@
         <did> 
           <unittitle id="s4">Series IV. Class of 1989</unittitle> 
         </did> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The First Language Acquisition of German Word Order: A
               Study of Verb Order and Verb Related Constituent Order"</unittitle> 
             <origination label="Creator">
               <persname>Boser, Katharina</persname></origination>
             <unitdate>1989</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Religiosity and Marital Satisfaction: Intergenerational
               and Intragenerational Influences"</unittitle> 
             <origination label="Creator">
               <persname>McGarry, Laurne Kidder</persname></origination>
             <unitdate>1989</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
       </c01> 
@@ -807,7 +800,7 @@
         <did> 
           <unittitle id="s5">Series V. Class of 1990</unittitle> 
         </did> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Discrepancies Between Internal Gender Identity and
               External Gender Expression, in a College-Aged Sample of Homosexual Men, and
@@ -815,17 +808,17 @@
             <origination label="Creator">
               <persname>Biernbaum, Mark Aaron</persname></origination>
             <unitdate>1990</unitdate> 
-            <container type="box">3</container> 
+            <container label="unspecified" type="box">3</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Cognitive Interview modified and applied with young
               children"</unittitle>
             <origination label="Creator">
               <persname>Schuman, Wendy</persname></origination>
             <unitdate>1990</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
       </c01> 
@@ -833,42 +826,42 @@
         <did> 
           <unittitle id="s6">Series VI. Class of 1991</unittitle> 
         </did> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Eating Disorders in a Normal College Population"</unittitle> 
             <origination label="Creator">
               <persname>Lunstrum, Maj-Stina</persname></origination>
             <unitdate>1991</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Examining the Existence of a Confirmation Bias in
               Hypothesis Testing Situations"</unittitle> 
             <origination label="Creator">
               <persname>Maqueda, Mariano</persname></origination>
             <unitdate>1991</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Academic Grades: What Do They Mean and How Do They
               Relate to Motivational Factors?"</unittitle> 
             <origination label="Creator">
               <persname>Tate, David</persname></origination>
             <unitdate>1991</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Sorority Rush Participants"</unittitle> 
             <origination label="Creator">
               <persname>Seidman, Sarah</persname></origination>
             <unitdate>1991</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
       </c01> 
@@ -883,47 +876,47 @@
             <origination label="Creator">
               <persname>White, Jon</persname></origination>
             <unitdate>1992</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Involvement in Popular American Culture, Body Image
               Distortion, and Eating Disordered Characteristics"</unittitle> 
             <origination label="Creator">
               <persname>Axelrod, Seth</persname></origination>
             <unitdate>1992</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Friendships During the First Year of College:
               Predicting Satisfaction and Closeness"</unittitle> 
             <origination label="Creator">
               <persname>McIntosh, Bonnie</persname></origination>
             <unitdate>1992</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Distinguishing Between Children's Real and Imagined
               Stories: Adults' Accuracy and the Characteristics to Which they Attend"</unittitle> 
             <origination label="Creator">
               <persname>Sussman, Amy</persname></origination>
             <unitdate>1992</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Social, Family, and Maternal Predictors of
               School-Readiness in 6 Year Old Caucasian Children"</unittitle>
             <origination label="Creator">
               <persname>White, Ann Marie</persname></origination>
             <unitdate>1992</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
       </c01> 
@@ -931,43 +924,43 @@
         <did> 
           <unittitle id="s8">Series VIII. Class of 1993</unittitle> 
         </did> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Cognitive Effects of Low-Level Lead Exposure on
               Serial Reversal Learning"</unittitle> 
             <origination label="Creator">
               <persname>Clark, Tamara Lynn</persname></origination>
             <unitdate>1993</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Relationships Between Cholesterol, Sleep and
               Depression"</unittitle> 
             <origination label="Creator">
               <persname>Rulyak, Stephen</persname></origination>
             <unitdate>1993</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Children's Testimony and Suggestibility"</unittitle> 
             <origination label="Creator">
               <persname>White, Tara</persname></origination>
             <unitdate>1993</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Bulimia and Chronic Dieting Among College Students: The
               Role of Family Functioning, Depression and Achievement Motivation"</unittitle> 
             <origination label="Creator">
               <persname>Allen, Nicole</persname></origination>
             <unitdate>1993</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
       </c01> 
@@ -981,7 +974,7 @@
             <origination label="Creator">
               <persname>Meehan, Cheryl Lynne</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -991,7 +984,7 @@
             <origination label="Creator">
               <persname>Marchalonis, Kristine</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1001,7 +994,7 @@
             <origination label="Creator">
               <persname>Abrams, Courtney</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1011,7 +1004,7 @@
             <origination label="Creator">
               <persname>Longden, Mai</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1021,7 +1014,7 @@
             <origination label="Creator">
               <persname>Shah, Atish</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1032,7 +1025,7 @@
             <origination label="Creator">
               <persname>Harth, Cara</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1041,7 +1034,7 @@
             <origination label="Creator">
               <persname>Shouba, Neil</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1051,7 +1044,7 @@
             <origination label="Creator">
               <persname>Oberst, Brett</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1061,7 +1054,7 @@
             <origination label="Creator">
               <persname>Trancik, Anika</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1072,7 +1065,7 @@
             <origination label="Creator">
               <persname>Russo, Jennefer Allyn</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1081,7 +1074,7 @@
             <origination label="Creator">
               <persname>Cohen, Robert</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1090,7 +1083,7 @@
             <origination label="Creator">
               <persname>Bassuk, Gregory</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1100,7 +1093,7 @@
             <origination label="Creator">
               <persname>Gorrelick, Jennifer</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1110,44 +1103,44 @@
             <origination label="Creator">
               <persname>Carpenter, Amy</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Parent Involvement in Head Start Programs"</unittitle> 
             <origination label="Creator">
               <persname>Driebe, Nicole M.</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">3</container> 
+            <container label="unspecified" type="box">3</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Reliability and Stability of Visual Expectation and
               Reaction Time from Two to Three Months"</unittitle> 
             <origination label="Creator">
               <persname>Brezsnyak, Michael</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Parent Involvement in Head Start Programs"</unittitle> 
             <origination label="Creator">
               <persname>Driebe, Nicole</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">3</container> 
+            <container label="unspecified" type="box">3</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Information Processing in Lead-Exposed Toddlers"</unittitle> 
             <origination label="Creator">
               <persname>Sikka, Natalie</persname></origination>
             <unitdate>1994</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
       </c01> 
@@ -1162,7 +1155,7 @@
             <origination label="Creator">
               <persname>Clauss, Beth Ann</persname></origination>
             <unitdate>1995</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1172,7 +1165,7 @@
             <origination label="Creator">
               <persname>Freeberg, Tammy</persname></origination>
             <unitdate>1995</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1182,7 +1175,7 @@
             <origination label="Creator">
               <persname>Morrone, Jeannine</persname></origination>
             <unitdate>1995</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1192,56 +1185,56 @@
             <origination label="Creator">
               <persname>Kyle, Margaret</persname></origination>
             <unitdate>1995</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The College of Human Ecology: A Liberalizing Force in
               the Attitudes of First Year Students?"</unittitle> 
             <origination label="Creator">
               <persname>Highsmith, Jason M.</persname></origination>
             <unitdate>1995</unitdate> 
-            <container type="box">3</container> 
+            <container label="unspecified" type="box">3</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Socializing Their Own: Home Economists, Summer Work,
               and Cornell University"</unittitle> 
             <origination label="Creator">
               <persname>Halpern, Allison</persname></origination>
             <unitdate>1995</unitdate> 
-            <container type="box">3</container> 
+            <container label="unspecified" type="box">3</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Growth Curves for Speed of Information Processing in
               Infants"</unittitle> 
             <origination label="Creator">
               <persname>Aaron, Kerri</persname></origination>
             <unitdate>1995</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Self-Disclosure: Personal Style or Situation Effect?"</unittitle> 
             <origination label="Creator">
               <persname>Berman, Arielle S.</persname></origination>
             <unitdate>1995</unitdate> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Diffenential Substantiation of Child Sexual Abuse
               Allegations: Age-and Gender-Related Trends"</unittitle> 
             <origination label="Creator">
               <persname>Price, Karin</persname></origination>
             <unitdate>1995</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
       </c01> 
@@ -1255,7 +1248,7 @@
             <origination label="Creator">
               <persname>Moskowitz, Leslie</persname></origination>
             <unitdate>1996</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1264,64 +1257,64 @@
             <origination label="Creator">
               <persname>Ortiz, Carrie</persname></origination>
             <unitdate>1996</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Parenting Issues in an Urban Setting: The Support
               Systems, Strengths, and Needs of the Beginning With Children School Parents"</unittitle> 
             <origination label="Creator">
               <persname>Van Vonderen, Denisse Jovel</persname></origination>
             <unitdate>1996</unitdate> 
-            <container type="box">3</container> 
+            <container label="unspecified" type="box">3</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Perceived and Enacted Social Support"</unittitle> 
             <origination label="Creator">
               <persname>Biek, David</persname></origination>
             <unitdate>1996</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Uncommitted Sexual Behavior Among College Students"</unittitle> 
             <origination label="Creator">
               <persname>Sbarra, David A.</persname></origination>
             <unitdate>1996</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"An Investigation into the Impact of Foster Care
               Subsidies on the Quantity of Foster Care Services Supplied"</unittitle> 
             <origination label="Creator">
               <persname>Doyle, Joseph</persname></origination>
             <unitdate>1996</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
             </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Supply Responses to Foster Care Subsidy Rates: An Empirical Investigation"</unittitle> 
             <origination label="Creator">
               <persname>Doyle, Joseph</persname></origination>
             <unitdate>1996</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
             </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"An Analyses of Characteristics Affecting the Length of Time Until Termination of 
             Parental Rights in New York State Adoption Cases"</unittitle> 
             <origination label="Creator">
               <persname>Jacobs, Brian Adam</persname></origination>
             <unitdate>1996</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
             </did> 
         </c02> 
       
@@ -1337,7 +1330,7 @@
             <origination label="Creator">
               <persname>Altman, Robyn</persname></origination>
             <unitdate>1997</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1347,7 +1340,7 @@
             <origination label="Creator">
               <persname>Buff, Michael</persname></origination>
             <unitdate>1997</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1357,7 +1350,7 @@
             <origination label="Creator">
               <persname>Maimon, Gaby</persname></origination>
             <unitdate>1997</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1367,7 +1360,7 @@
             <origination label="Creator">
               <persname>Jackrel, David</persname></origination>
             <unitdate>1997</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1377,7 +1370,7 @@
             <origination label="Creator">
               <persname>Rodin, David</persname></origination>
             <unitdate>1997</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1386,7 +1379,7 @@
             <origination label="Creator">
               <persname>Turell, Mary Beth</persname></origination>
             <unitdate>1997</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1396,7 +1389,7 @@
             <origination label="Creator">
               <persname>Cohen, Deirdre</persname></origination>
             <unitdate>1997</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1406,47 +1399,47 @@
             <origination label="Creator">
               <persname>Siegel, Michael</persname></origination>
             <unitdate>1997</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Relationship Between Childhood Sexual Abuse and
               Somatization Disorder: A Study of College Women"</unittitle> 
             <origination label="Creator">
               <persname>Chanda, Sudwiti</persname></origination>
             <unitdate>1997</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Family Development in Families that Adopt Older
               Children"</unittitle> 
             <origination label="Creator">
               <persname>Flicker, Sharon</persname></origination>
             <unitdate>1997</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Stability and Predictive Validity of Infant Visual
               Information Processing from Infancy to Childhood"</unittitle> 
             <origination label="Creator">
               <persname>Raitano, Nancy</persname></origination>
             <unitdate>1997</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Relationship Between Child Sexual Abuse and Social
               Anxiety in Women"</unittitle> 
             <origination label="Creator">
               <persname>Antony, Nisha</persname></origination>
             <unitdate>1997</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
       </c01> 
@@ -1461,7 +1454,7 @@
             <origination label="Creator">
               <persname>Shiau, Tina</persname></origination>
             <unitdate>1998</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1470,7 +1463,7 @@
             <origination label="Creator">
               <persname>Bowdish, Elizabeth</persname></origination>
             <unitdate>1998</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1480,7 +1473,7 @@
             <origination label="Creator">
               <persname>Tax, Aaron David</persname></origination>
             <unitdate>1998</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1490,7 +1483,7 @@
             <origination label="Creator">
               <persname>Schreier, Amy</persname></origination>
             <unitdate>1998</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1500,7 +1493,7 @@
             <origination label="Creator">
               <persname>Chan, Hoi-Yan Erica</persname></origination>
             <unitdate>1998</unitdate> 
-            <container type="box">1</container> 
+            <container label="unspecified" type="box">1</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1510,7 +1503,7 @@
             <origination label="Creator">
               <persname>Ryan, Claire</persname></origination>
             <unitdate>1998</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1518,14 +1511,14 @@
             <unittitle>"The Role of Parents and Schools in Providing HIV/AIDS
               Education to Children and Adolescents"</unittitle> 
             <unitdate>1998</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
             <unittitle>"Talking with Kids about Aids"</unittitle> 
             <unitdate>1998</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1535,7 +1528,7 @@
             <origination label="Creator">
               <persname>Ting, Albert</persname></origination>
             <unitdate>1998</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1545,7 +1538,7 @@
             <origination label="Creator">
               <persname>Semino, Matthew</persname></origination>
             <unitdate>1998</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1554,7 +1547,7 @@
             <origination label="Creator">
               <persname>Pinchoff, Rebecca</persname></origination>
             <unitdate>1998</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1564,10 +1557,10 @@
             <origination label="Creator">
               <persname>Irlen, Sandra</persname></origination>
             <unitdate>1998</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Parent Study: A Look At Parental Beliefs About
               HIV/AIDS", "The Role of Parents and Schools in Providing HIV/AIDS Education to
@@ -1575,7 +1568,7 @@
             <origination label="Creator">
               <persname>Metosky, Susan</persname></origination>
             <unitdate>1998</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1584,7 +1577,7 @@
             <origination label="Creator">
               <persname>Entin, Lena</persname></origination>
             <unitdate>1998</unitdate> 
-            <container type="box">10</container> 
+            <container label="unspecified" type="box">10</container> 
           </did> 
         </c02> 
       </c01> 
@@ -1598,7 +1591,7 @@
             <origination label="Creator">
               <persname>Kantrowitz, Elyse</persname></origination>
             <unitdate>1999</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1608,7 +1601,7 @@
             <origination label="Creator">
               <persname>Joshi, Arjun</persname></origination>
             <unitdate>1999</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1618,7 +1611,7 @@
             <origination label="Creator">
               <persname>Amengual, Jennifer</persname></origination>
             <unitdate>1999</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1626,7 +1619,7 @@
             <unittitle>"Da'Spot - clothing store in Ithaca," three teams of
               students</unittitle> 
             <unitdate>1999</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1636,7 +1629,7 @@
             <origination label="Creator">
               <persname>Dorfman, Nathaniel John</persname></origination>
             <unitdate>1999</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1645,7 +1638,7 @@
             <origination label="Creator">
               <persname>Hanna, Rema</persname></origination>
             <unitdate>1999</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1655,7 +1648,7 @@
             <origination label="Creator">
               <persname>Best, Sara Elizabeth</persname></origination>
             <unitdate>1999</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1664,7 +1657,7 @@
             <origination label="Creator">
               <persname>Tan, May Lynn</persname></origination>
             <unitdate>1999</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1674,7 +1667,7 @@
             <origination label="Creator">
               <persname>Burnette, Mandi L.</persname></origination>
             <unitdate>1999</unitdate> 
-            <container type="box">5</container> 
+            <container label="unspecified" type="box">5</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1684,17 +1677,17 @@
             <origination label="Creator">
               <persname>Duane, John Thomas</persname></origination>
             <unitdate>1999</unitdate> 
-            <container type="box">5</container> 
+            <container label="unspecified" type="box">5</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Circulation of Trauma on an Intensive Care Burn
               Unit"</unittitle> 
             <origination label="Creator">
               <persname>Rennicke, Courtney</persname></origination>
             <unitdate>1999</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1703,7 +1696,7 @@
             <origination label="Creator">
               <persname>Pauker, Stacey</persname></origination>
             <unitdate>1998</unitdate> 
-            <container type="box">10</container> 
+            <container label="unspecified" type="box">10</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1712,7 +1705,7 @@
             <origination label="Creator">
               <persname>Smith, Shannon</persname></origination>
             <unitdate>1999</unitdate> 
-            <container type="box">10</container> 
+            <container label="unspecified" type="box">10</container> 
           </did> 
         </c02> 
       </c01> 
@@ -1728,7 +1721,7 @@
             <origination label="Creator">
               <persname>Alkalay, Leslie</persname></origination>
             <unitdate>2000</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1738,7 +1731,7 @@
             <origination label="Creator">
               <persname>Moed, Alison</persname></origination>
             <unitdate>2000</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1748,7 +1741,7 @@
             <origination label="Creator">
               <persname>Pranikoff, Julie</persname><p>West, Ilene</p></origination>
             <unitdate>2000</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1758,7 +1751,7 @@
             <origination label="Creator">
               <persname>Mandel, Matthew</persname></origination>
             <unitdate>2000</unitdate> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1768,7 +1761,7 @@
             <origination label="Creator">
               <persname>Sawyer, Tiffany A.</persname></origination>
             <unitdate>2000</unitdate> 
-            <container type="box">5</container> 
+            <container label="unspecified" type="box">5</container> 
           </did> 
         </c02> 
         <c02 level="item"> 
@@ -1779,7 +1772,7 @@
               <persname>Kantrowitz, Elyse</persname></origination>
             <unitdate>2001</unitdate> 
             <unitdate>2000</unitdate> 
-            <container type="box">5</container> 
+            <container label="unspecified" type="box">5</container> 
           </did> 
         </c02> 
       </c01> 
@@ -1798,7 +1791,7 @@
               <origination label="Creator">
                 <persname>Varner, Cari Jeanne</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -1808,7 +1801,7 @@
               <origination label="Creator">
                 <persname>Shanis, Jenna Melissa</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
         </c02> 
@@ -1823,7 +1816,7 @@
               <origination label="Creator">
                 <persname>Halbmaier, Craig A.</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
         </c02> 
@@ -1838,7 +1831,7 @@
               <origination label="Creator">
                 <persname>Goodman, Linda</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">5</container> 
+              <container label="unspecified" type="box">5</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -1848,7 +1841,7 @@
               <origination label="Creator">
                 <persname>Alves, Adriana</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">5</container> 
+              <container label="unspecified" type="box">5</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -1858,7 +1851,7 @@
               <origination label="Creator">
                 <persname>Dunning, Caitlin</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">7</container> 
+              <container label="unspecified" type="box">7</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -1869,7 +1862,7 @@
               <origination label="Creator">
                 <persname>Gillan, Meghan</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">7</container> 
+              <container label="unspecified" type="box">7</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -1879,7 +1872,7 @@
               <origination label="Creator">
                 <persname>Jusko, Todd</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">7</container> 
+              <container label="unspecified" type="box">7</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -1889,7 +1882,7 @@
               <origination label="Creator">
                 <persname>Roth, Annie</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">7</container> 
+              <container label="unspecified" type="box">7</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -1899,7 +1892,7 @@
               <origination label="Creator">
                 <persname>Santoro, Donna</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">7</container> 
+              <container label="unspecified" type="box">7</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -1909,7 +1902,7 @@
               <origination label="Creator">
                 <persname>West, Ilene</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">7</container> 
+              <container label="unspecified" type="box">7</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -1919,7 +1912,7 @@
               <origination label="Creator">
                 <persname>Zanko, Jennifer</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">7</container> 
+              <container label="unspecified" type="box">7</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -1929,17 +1922,17 @@
               <origination label="Creator">
                 <persname>Butryn, Meghan</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">9</container> 
+              <container label="unspecified" type="box">9</container> 
             </did> 
           </c03> 
-          <c03> 
+          <c03 level="otherlevel" otherlevel="unspecified"> 
             <did> 
               <unittitle>"Factors Associated With Individuals' Plans To
                 Relocate For Career Growth"</unittitle> 
               <origination label="Creator">
                 <persname>Yeung, Sarah Ka-wah</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">9</container>
+              <container label="unspecified" type="box">9</container>
             </did> 
           </c03> 
         </c02> 
@@ -1954,7 +1947,7 @@
               <origination label="Creator">
                 <persname>Tauber, Jill</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -1964,7 +1957,7 @@
               <origination label="Creator">
                 <persname>Pawluk, Yurij Oleh</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
         </c02> 
@@ -1979,7 +1972,7 @@
               <origination label="Creator">
                 <persname>Choy, Rita Pui Kee</persname></origination>
               <unitdate>2001</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
         </c02> 
@@ -1988,46 +1981,46 @@
         <did> 
           <unittitle id="s17">Series XVII. Class of 2002</unittitle> 
         </did> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"An Evaluation of Richness of Representation as it
               Pertains to Memory Monitoring: Can Young Children Monitor?"</unittitle> 
             <origination label="Creator">
               <persname>Berry, Courtney</persname></origination>
             <unitdate>2002</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Psychosocial Mentoring and Adolescent Career
               Development: Fostering Personal and Social Development in the Workplace"</unittitle> 
             <origination label="Creator">
               <persname>Beiswenger, Krista</persname></origination>
             <unitdate>2002</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Role of the HOME Inventory in the Relation Between
               Blood Lead Levels and IQ"</unittitle>
             <origination label="Creator">
               <persname>Benas, Jessica</persname></origination>
             <unitdate>2002</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Low-Level Lead Exposure and Child Behavior Problems"</unittitle> 
             <origination label="Creator">
               <persname>Conser, Jessica</persname></origination>
             <unitdate>2002</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Fighting For Success: The Impact of Professors on
               African-American Students' Struggle for Academic Achievement in Predominantly
@@ -2035,68 +2028,68 @@
             <origination label="Creator">
               <persname>Davies, Carrie</persname></origination>
             <unitdate>2002</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Phenomenological Exploration of Religion and
               Interpersonal Forgiveness"</unittitle> 
             <origination label="Creator">
               <persname>Lee, David</persname></origination>
             <unitdate>2002</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Cultural Conceptions: How Cornell Students Think About
               Work and Family"</unittitle>
             <origination label="Creator">
               <persname>Levin, Erica</persname></origination>
             <unitdate>2002</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"A Social Perspective on the Drum in Zimbabwe"</unittitle> 
             <origination label="Creator">
               <persname>Liberman, Erica</persname></origination>
             <unitdate>2002</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Affect Expression and Emotion Recognition in Children"</unittitle> 
             <origination label="Creator">
               <persname>Olino, Thomas</persname></origination>
             <unitdate>2002</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Contextual Environment Interactions For Cognitive
               Development in Toddlers: A Pathway"</unittitle> 
             <origination label="Creator">
               <persname>Rosenberg, Annie</persname></origination>
             <unitdate>2002</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Cholinergic Contributions to the Enduring Effect of
               Early Lead Exposure on Sustained Attention and Reactivity to Errors"</unittitle> 
             <origination label="Creator">
               <persname>Srakhao, Veraanong</persname></origination>
             <unitdate>2002</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Relationship Between Bem Sex-Role Inventory and
               System for the Multiple Level Observation of Groups Revisited: How Well do
@@ -2104,10 +2097,10 @@
             <origination label="Creator">
               <persname>Saufer, Suzanne</persname></origination>
             <unitdate>2002</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"An Examination of Spontaneous Answers to Questions
               About the Natural World: Do Young Children Actually Possess A 'Teleological
@@ -2115,127 +2108,127 @@
             <origination label="Creator">
               <persname>Ershova, Elena</persname></origination>
             <unitdate>2003</unitdate> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Sexual Abuse Encounters:  A Risk Factor for Drug and
               Alcohol Abuse in Adolescent Females"</unittitle>
             <origination label="Creator">
               <persname>Kramer, Llana</persname></origination>
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Stress Exposure, Risk and Protective Factors, and
               Psychological Outcomes in Adolescents"</unittitle> 
             <origination label="Creator">
               <persname>Bufferd, Sarah</persname></origination>
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Changes in Overt and Covert Attention, Measured via
               Steady-State Visual Evoked Potentials (SSVEPs)"</unittitle> 
             <origination label="Creator">
               <persname>Devine, Katy</persname></origination>
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Individual Differences in Reasoning"</unittitle> 
             <origination label="Creator">
               <persname>Dublin, Randi</persname></origination>
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Parenting Practices and Their Effects on the
               Development of African American Children"</unittitle> 
             <origination label="Creator">
               <persname>Finnegan, Michelle</persname></origination>
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Movement Attention Coupling in Infants and Attention
               Deficit Hyperactivity Disorder in Children"</unittitle>
             <origination label="Creator">
               <persname>Friedman, Allison</persname></origination>
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Reasoning about Explanations:  How Explanations are
               Evaluated in Light of Disconfirming Evidence"</unittitle> 
             <origination label="Creator">
               <persname>Iwaki, Yoko</persname></origination>
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Infants' Comprehension of Novel Words and Novel
               Gestures"</unittitle> 
             <origination label="Creator">
               <persname>Kakaty, Tara</persname></origination>
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Production of Novel Words and Gestures in 8- to
               22-Month Old Infants," Caryn Kerman</unittitle> 
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Violence as Adaptation? The Interactive Relationship
               between Adolescent Violence, Community Violence, and Well-Being"</unittitle> 
             <origination label="Creator">
               <persname>Latzman, Robert</persname></origination>
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Examining the Role of Theory and Bias in Evaluating
               Information"</unittitle> 
             <origination label="Creator">
               <persname>Marasia, Joseph</persname></origination>
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Religion as a Moderator of Stress and Well-Being Among
               Parents of Children with Autism"</unittitle>
             <origination label="Creator">
               <persname>Rosenblum, Sara</persname></origination>
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Effects of Crowding and Perceived Crowding on Blood
               Pressure, Blood Pressure Reactivity and Recovery, and Neuroendocrine Markers: A
@@ -2243,27 +2236,27 @@
             <origination label="Creator">
               <persname>Shanis, Dana</persname></origination>  
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Cultural Themes in Dinnertime Conversations:  A
               Qualitative Investigation"</unittitle> 
             <origination label="Creator">
               <persname>Sunkavalli, Kiran</persname></origination>  
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Effects of Multiple Chronic Stressors on
               Cardiovascular Reactivity and Recovery In Children"</unittitle> 
             <origination label="Creator">
               <persname>Tesher, Harris</persname></origination>  
             <unitdate>2003</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
         <c02 level="subseries"> 
@@ -2277,7 +2270,7 @@
               <origination label="Creator">
                 <persname>Topper, Meredith</persname></origination>  
               <unitdate>2002</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2287,7 +2280,7 @@
               <origination label="Creator">
                 <persname>Sherman, Courtney R.</persname></origination>  
               <unitdate>2002</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2297,7 +2290,7 @@
               <origination label="Creator">
                 <persname>McElheny, Melinda Jean</persname></origination>  
               <unitdate>2002</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
         </c02> 
@@ -2305,14 +2298,14 @@
           <did> 
             <unittitle>Human Development</unittitle> 
           </did> 
-          <c03> 
+          <c03 level="otherlevel" otherlevel="unspecified"> 
             <did> 
               <unittitle>"Temperament and Suggestability in 3-5 Year Old
                 Children"</unittitle> 
               <origination label="Creator">
                 <persname>Lord, Heather</persname></origination>  
               <unitdate>2002</unitdate> 
-              <container type="box">9</container> 
+              <container label="unspecified" type="box">9</container> 
             </did> 
           </c03> 
         </c02> 
@@ -2327,7 +2320,7 @@
               <origination label="Creator">
                 <persname>Nicholas, Lauren Hersch</persname></origination>  
               <unitdate>2002</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2337,7 +2330,7 @@
               <origination label="Creator">
                 <persname>Morris, Meghan L.</persname></origination>  
               <unitdate>2002</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2347,7 +2340,7 @@
               <origination label="Creator">
                 <persname>Steinberg, Michelle</persname></origination>  
               <unitdate>2002</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
         </c02> 
@@ -2362,7 +2355,7 @@
               <origination label="Creator">
                 <persname>Dunne, Luch E.</persname></origination>  
               <unitdate>2002</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
         </c02> 
@@ -2383,7 +2376,7 @@
               <origination label="Creator">
                 <persname>Stecker, Rachel</persname></origination>  
               <unitdate>2003</unitdate> 
-              <container type="box">5</container> 
+              <container label="unspecified" type="box">5</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2393,7 +2386,7 @@
               <origination label="Creator">
                 <persname>Levitt, Mariah</persname></origination>  
               <unitdate>2003</unitdate> 
-              <container type="box">5</container> 
+              <container label="unspecified" type="box">5</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2403,7 +2396,7 @@
               <origination label="Creator">
                 <persname>Hegarty, Caroline</persname></origination>  
               <unitdate>2003</unitdate> 
-              <container type="box">5</container> 
+              <container label="unspecified" type="box">5</container> 
             </did> 
           </c03> 
         </c02> 
@@ -2418,7 +2411,7 @@
               <origination label="Creator">
                 <persname>Weng Debbie</persname></origination>  
               <unitdate>2003</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
         </c02> 
@@ -2433,7 +2426,7 @@
               <origination label="Creator">
                 <persname>Gleicher, Lora</persname></origination>  
               <unitdate>2003</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2443,7 +2436,7 @@
               <origination label="Creator">
                 <persname>Levy, Daniel Blake</persname></origination>  
               <unitdate>2003</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2452,7 +2445,7 @@
               <origination label="Creator">
                 <persname>Reichenberg, David</persname></origination>  
               <unitdate>2003</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2462,7 +2455,7 @@
               <origination label="Creator">
                 <persname>Lee, Hedwig Eugenie</persname></origination>  
               <unitdate>2003</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
          <c03 level="item"> 
@@ -2472,7 +2465,7 @@
                 <origination label="Creator">
                   <persname>Lerner, Karen</persname></origination>  
                 <unitdate>2003</unitdate> 
-                <container type="box">9</container> 
+                <container label="unspecified" type="box">9</container> 
               </did> 
             </c03> 
         </c02> 
@@ -2481,56 +2474,56 @@
         <did> 
           <unittitle id="s19">Series XIX. Class of 2004</unittitle> 
         </did> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Discrepant Perceptions of Parental Responsiveness in
               Mother-Adolescent Dyads and Psychological Distress in Adolescents"</unittitle> 
             <origination label="Creator">
               <persname>Callahan, Corissa Lynn</persname></origination>  
             <unitdate>2004</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Effects of Gender and Motivation on Causal
               Reasoning"</unittitle> 
             <origination label="Creator">
               <persname>Howell, Kathryn</persname></origination>  
             <unitdate>2004</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Hospicare:An Assessment of Bereavement Services"</unittitle> 
             <origination label="Creator">
               <persname>Kwartner, Jason</persname></origination>  
             <unitdate>2004</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Motivation to Disconfirm Can Be a Double-edged
               Sword"</unittitle> 
             <origination label="Creator">
               <persname>Liang, Victoria</persname></origination>  
             <unitdate>2004</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Elder Abuse: An Assessment of Mandatory Reporting
               Laws"</unittitle> 
             <origination label="Creator">
               <persname>Lipitz, Stacey Jennifer</persname></origination>  
             <unitdate>2004</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"The Effect of the Mother-Child Relationship, Family
               Form, and Maternal Presence on Adolescent Drug Use in African American
@@ -2538,47 +2531,47 @@
             <origination label="Creator">
               <persname>Meyers, Noah M.</persname></origination>  
             <unitdate>2004</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Religious Conceptualization and Coping Strategies in
               College Students"</unittitle> 
             <origination label="Creator">
               <persname>Notheis, Kimberley Ann</persname></origination>  
             <unitdate>2004</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Gender, Extraversion, Life Events, and Depression"</unittitle> 
             <origination label="Creator">
               <persname>Richards, Jessica</persname></origination>  
             <unitdate>2004</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Some Anomalies are More Problematic than Others"</unittitle> 
             <origination label="Creator">
               <persname>Slator, Lindsay B.</persname></origination>  
             <unitdate>2004</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Personality Differences in Eyewitness Identification"</unittitle>
             <origination label="Creator">
               <persname>Totino, Maryann</persname></origination>  
             <unitdate>2004</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Do Social Networks Provide a Buffer for the Effect of
               Stress on Psychological Distress? An Investigation of the Influence of Rural
@@ -2586,10 +2579,10 @@
             <origination label="Creator">
               <persname>Ziwich, Rachel Theresa</persname></origination>  
             <unitdate>2004</unitdate> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
           </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"An Experience Sampling Study of Stress and Coping Among
               Low and Middle-Income Youth"</unittitle> 
@@ -2597,7 +2590,7 @@
               <persname>Simon, Nicole S.</persname>
             </origination>
             <unitdate>2004</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
           </did> 
         </c02> 
         <c02 level="subseries"> 
@@ -2612,7 +2605,7 @@
                 <persname>Thurston, Stephanie A.</persname>
               </origination>
               <unitdate>2004</unitdate> 
-              <container type="box">5</container> 
+              <container label="unspecified" type="box">5</container> 
             </did> 
           </c03> 
         </c02> 
@@ -2620,15 +2613,15 @@
           <did> 
             <unittitle>Human Development</unittitle> 
           </did> 
-          <c03> 
+          <c03 level="otherlevel" otherlevel="unspecified"> 
             <did> 
               <unittitle>"The Effectiveness of Second Step, A Violence
                 Prevention Curriculum, In The Ithaca, New York Area"</unittitle> 
                <unitdate>2004</unitdate> 
-              <container type="box">9</container> 
+              <container label="unspecified" type="box">9</container> 
             </did> 
           </c03> 
-          <c03> 
+          <c03 level="otherlevel" otherlevel="unspecified"> 
             <did> 
               <unittitle>"Arts Integration and Classroom Management Styles in the Binghamton City School District
                 Elementary Schools"</unittitle> 
@@ -2636,7 +2629,7 @@
                 <persname>Wechsler, Rachel</persname>
               </origination>
               <unitdate>2004</unitdate> 
-              <container type="box">9</container> 
+              <container label="unspecified" type="box">9</container> 
             </did> 
           </c03> 
         </c02> 
@@ -2652,7 +2645,7 @@
                 <persname>Cook, Allison</persname>
               </origination>
               <unitdate>2004</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2663,7 +2656,7 @@
                 <persname>Vu, Ha My</persname>
               </origination>
               <unitdate>2004</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2675,7 +2668,7 @@
                 <persname>Crocco, Michelle M.</persname>
               </origination>
               <unitdate>2004</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2686,7 +2679,7 @@
                 <persname>Chu, Robert A.</persname>
               </origination>
               <unitdate>2004</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2697,7 +2690,7 @@
                 <persname>Rathod, Anar K.</persname>
               </origination>
               <unitdate>2004</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
         </c02> 
@@ -2717,7 +2710,7 @@
                 <persname>Davidoff, Kate</persname>
               </origination>
               <unitdate>2005</unitdate> 
-              <container type="box">5</container> 
+              <container label="unspecified" type="box">5</container> 
             </did> 
           </c03> 
         </c02> 
@@ -2734,7 +2727,7 @@
                 <persname>Furst, Jessica Rachel</persname>
               </origination>
               <unitdate>2005</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2745,7 +2738,7 @@
                 <persname>Bernardo, Katrina</persname>
               </origination>
               <unitdate>2005</unitdate> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
             </did> 
           </c03> 
         </c02> 
@@ -2761,7 +2754,7 @@
                 <persname>Stern, Ari Nathan</persname>
               </origination>
               <unitdate>2005</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2772,7 +2765,7 @@
                 <persname>Ziskroit, Harris Ian</persname>
               </origination>
               <unitdate>2005</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2782,7 +2775,7 @@
                 <persname>Frongillo, Dominic E.</persname>
               </origination>
               <unitdate>2005</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2794,7 +2787,7 @@
                 <persname>Sharma, Parijat</persname>
               </origination>
               <unitdate>2005</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2804,7 +2797,7 @@
               <origination label="Creator">
                 <persname>Pandolfini, Michael</persname></origination>             
               <unitdate>2005</unitdate> 
-              <container type="box">9</container> 
+              <container label="unspecified" type="box">9</container> 
             </did> 
           </c03> 
           <c03 level="item"> 
@@ -2815,7 +2808,7 @@
                 <persname>Lipitz, Allison Nicole</persname>
               </origination>
               <unitdate>2005</unitdate> 
-              <container type="box">9</container> 
+              <container label="unspecified" type="box">9</container> 
             </did> 
           </c03> 
         </c02> 
@@ -2831,7 +2824,7 @@
                 <persname>Elliot, Sarah</persname>
               </origination>
               <unitdate>2005</unitdate> 
-              <container type="box">4</container> 
+              <container label="unspecified" type="box">4</container> 
             </did> 
           </c03> 
         </c02> 
@@ -2846,7 +2839,7 @@
                 <persname>Siegel, Alana</persname>
               </origination>
               <unitdate>2005</unitdate> 
-              <container type="box">9</container> 
+              <container label="unspecified" type="box">9</container> 
             </did> 
           </c03> 
         </c02> 
@@ -2859,7 +2852,7 @@
           <did> 
             <unittitle>Design and Environmental Analysis</unittitle> 
           </did> 
-          <c03> 
+          <c03 level="otherlevel" otherlevel="unspecified"> 
             <did> 
               <unittitle>"Volumetric Deformation: A New Objective Measure to
                 Study Chair Comfort Using 3D Body Scanning Technology"</unittitle>
@@ -2876,7 +2869,7 @@
           <did> 
             <unittitle>Division of Nutritional Sciences</unittitle> 
           </did> 
-          <c03> 
+          <c03 level="otherlevel" otherlevel="unspecified"> 
             <did> 
               <unittitle>"Effects of Male Aggressive Behavior on Female Mate
                 Choice in Japanese Quail, Coturnix Japonica"</unittitle> 
@@ -2887,7 +2880,7 @@
               <unitid>CD#303</unitid> 
             </did> 
           </c03> 
-          <c03> 
+          <c03 level="otherlevel" otherlevel="unspecified"> 
             <did> 
               <unittitle>"Escaping Food Insecurity: A Portrait of Several Rural
                 New York Families Using Mixed-Methods Analysis"</unittitle> 
@@ -2895,7 +2888,7 @@
                 <persname>Lent, Megan</persname>
               </origination>
               <unitdate>2006</unitdate> 
-              <container type="box">9</container> 
+              <container label="unspecified" type="box">9</container> 
               </did> 
           </c03> 
         </c02> 
@@ -2903,7 +2896,7 @@
           <did> 
             <unittitle>Human Development</unittitle> 
           </did> 
-          <c03> 
+          <c03 level="otherlevel" otherlevel="unspecified"> 
             <did> 
               <unittitle>"Individual Differences in the Development of
                 Effortful Control in Preschoolers"</unittitle> 
@@ -2914,7 +2907,7 @@
               <unitid>CD#302</unitid> 
             </did> 
           </c03> 
-          <c03> 
+          <c03 level="otherlevel" otherlevel="unspecified"> 
             <did> 
               <unittitle>"The Mediating Role of Preschool Play Behavior in the
                 Relationship Between Poverty and First Grade Socioemotional Competence"</unittitle> 
@@ -2925,7 +2918,7 @@
               <unitid>CD#304</unitid> 
             </did> 
           </c03> 
-          <c03> 
+          <c03 level="otherlevel" otherlevel="unspecified"> 
             <did> 
               <unittitle>"Sub-clinical Obsessive Compulsive Disorder and its
                 Relation to Academic Achievement and Defensive Pessimism"</unittitle> 
@@ -2936,7 +2929,7 @@
               <unitid>CD#305</unitid> 
             </did> 
           </c03> 
-          <c03> 
+          <c03 level="otherlevel" otherlevel="unspecified"> 
             <did> 
               <unittitle>"The Quality of Memory for Events that Alter
                 Identity"</unittitle> 
@@ -2947,7 +2940,7 @@
               <unitid>CD#306</unitid> 
             </did> 
           </c03> 
-          <c03> 
+          <c03 level="otherlevel" otherlevel="unspecified"> 
             <did> 
               <unittitle>"The Development of Executive Control: Behavioral and Neutral Activity in a Proposed
                 Pediatric Stroop Task"</unittitle> 
@@ -2955,7 +2948,7 @@
                 <persname>LaVallee, Sarah</persname>
               </origination>
               <unitdate>2006</unitdate> 
-              <container type="box">9</container> 
+              <container label="unspecified" type="box">9</container> 
               </did> 
           </c03>
         </c02> 
@@ -2963,7 +2956,7 @@
             <did> 
               <unittitle>Textiles and Apparel</unittitle> 
             </did> 
-            <c03> 
+            <c03 level="otherlevel" otherlevel="unspecified"> 
               <did> 
                 <unittitle>"Fashioning the Tourist: An Andean Travelers Wardrobe - A Study in 
                 Curatorial Practice"</unittitle> 
@@ -2971,7 +2964,7 @@
                   <persname>Staiti, Alana</persname>
                 </origination>
                 <unitdate>2006</unitdate> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
               </did> 
             </c03> 
         </c02> 
@@ -2980,7 +2973,7 @@
         <did> 
           <unittitle id="s22">Series XXII. Class of 2007</unittitle> 
         </did> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Health and the Persistence of Food Insecurity in Rural
               New York Families"</unittitle>
@@ -2988,10 +2981,10 @@
               <persname>Petrovic, Lindsay Elizabeth</persname>
             </origination>
             <unitdate>2007</unitdate> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
             </did> 
         </c02> 
-        <c02> 
+        <c02 level="otherlevel" otherlevel="unspecified"> 
           <did> 
             <unittitle>"Community Violence, Child Maltreatment, and Children's Behavioral Problems:
               An Ecological Perspective"</unittitle> 
@@ -2999,7 +2992,7 @@
               <persname>Wong, Nina</persname>
             </origination>
             <unitdate>2007</unitdate> 
-            <container type="box">10</container> 
+            <container label="unspecified" type="box">10</container> 
     </did> 
         </c02> 
       </c01> 
@@ -3011,7 +3004,7 @@
           <did> 
             <unittitle>Human Development</unittitle> 
           </did> 
-       <c03> 
+       <c03 level="otherlevel" otherlevel="unspecified"> 
         <did> 
           <unittitle>"Meta-conceptual Thinking and Positive Outcomes Among
             Youth in a Refuge Camp"</unittitle> 
@@ -3019,10 +3012,10 @@
             <persname>Ojalehto, Bethany</persname>
           </origination>
           <unitdate>2008</unitdate> 
-          <container type="box">9</container> 
+          <container label="unspecified" type="box">9</container> 
         </did> 
       </c03> 
-      <c03> 
+      <c03 level="otherlevel" otherlevel="unspecified"> 
         <did> 
           <unittitle>"It's Always Good to Think About Yourself:
             Self-Evaluations of Performance are Associated with Higher Self-Esteem"</unittitle> 
@@ -3030,7 +3023,7 @@
             <persname>Poliskin, Dara</persname>
           </origination>
           <unitdate>2008</unitdate> 
-          <container type="box">9</container> 
+          <container label="unspecified" type="box">9</container> 
         </did> 
     </c03> 
         </c02>    
@@ -3038,14 +3031,14 @@
             <did> 
               <unittitle>Division of Nutritional Sciences</unittitle> 
             </did> 
-            <c03> 
+            <c03 level="otherlevel" otherlevel="unspecified"> 
               <did> 
                 <unittitle>"Sleeping, Eating and Time Use"</unittitle> 
                 <origination label="Creator">
                   <persname>Nulty, Matthew Robert</persname>
                 </origination>
                 <unitdate>2008</unitdate> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
               </did> 
             </c03>    
       </c02> 
@@ -3060,7 +3053,7 @@
           </did> 
      <c03 level="file"> 
         <did> 
-          <container type="box">9</container> 
+          <container label="unspecified" type="box">9</container> 
          <unittitle>"You Can't Handle the Truth: Gist Memory Leads to Predictable False Memory Effects with Age"</unittitle> 
           <origination label="Creator">
             <persname>Cohen, Brittany</persname>
@@ -3070,7 +3063,7 @@
      </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">9</container> 
+              <container label="unspecified" type="box">9</container> 
               <unittitle>"Turn to Learn: How Spatial Experience and Left-Right Language Matter in 
               Spatial Cognition"</unittitle> 
               <origination label="Creator">
@@ -3081,7 +3074,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">9</container> 
+              <container label="unspecified" type="box">9</container> 
               <unittitle>"Barriers to Birth Control Use in College Women"</unittitle> 
               <origination label="Creator">
                 <persname>Gichane, Margaret</persname>
@@ -3096,7 +3089,7 @@
             </did> 
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Ithaca Underground: How Dress is Used to Show Community"</unittitle> 
                 <origination label="Creator">
                   <persname>Sutton, Audrey</persname>
@@ -3116,7 +3109,7 @@
           </did>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Be Afraid, Be Very Afraid: Predictive Effects of Fearful and Fatalistic Attitudes
                 on Young Adult Risk Behavior"</unittitle> 
               <origination label="Creator">
@@ -3127,7 +3120,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Does Parenting Matter? Exploring the Link Among Poverty, Mental State Language, and 
                 Executive Function in Infancy"</unittitle>
               <origination label="Creator">
@@ -3138,7 +3131,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Examining Parental Role in Children's Concepts of Choice"</unittitle> 
               <origination label="Creator">
                 <persname>Distenfeld, Shelby</persname>
@@ -3148,7 +3141,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"The Effect of Poverty on Maternal Responsiveness, Child Negative Affect, and Effortful Control"</unittitle> 
               <origination label="Creator">
                 <persname>Diu, Maggie</persname>
@@ -3158,7 +3151,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Willingness to Grant Accommodations to Individuals Labeled as Mentally Ill and Physically 
                 Ill"</unittitle> 
              <origination label="Creator">
@@ -3169,7 +3162,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Integrating the Mind and Body: Uncovering the Relationship between Attention and Body Movement
                 in Infants"</unittitle>
               <origination label="Creator">
@@ -3180,7 +3173,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"An Investigation of Perceived Family Warmth, Non-Suicidal Self-Injury (NSSI), and NSSI Recovery"</unittitle> 
               <origination label="Creator">
                 <persname>Morgan, Rebecca A.</persname>
@@ -3190,7 +3183,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Greater Connectivity is Associated with Greater Framing Bias: A Combined DTI and MRI Study"</unittitle> 
               <origination label="Creator">
                 <persname>Nollet, Zachary</persname>
@@ -3200,7 +3193,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Comparing the Diagnostic Validity of ASPD Preceded by Conduct Disorder with Adult-Only Antisocial
                 Personality Disorder"</unittitle> 
               <origination label="Creator">
@@ -3216,7 +3209,7 @@
             </did>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"The Origin and Evolution of "Prep" and its Socioeconomic Relevance"</unittitle> 
                 <origination label="Creator">
                   <persname>Lingala, Anu</persname>
@@ -3236,7 +3229,7 @@
           </did>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Relationships Between Domestic Violence, Social Support, and Maternal Psychosocial
                 and Behavioral Outcomes"</unittitle> 
               <origination label="Creator">
@@ -3247,7 +3240,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Linking Emotional Competence and Learning Spanish as a Second Language"</unittitle> 
               <origination label="Creator">
                 <persname>Azar, Martina</persname>
@@ -3257,7 +3250,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Impact of Trauma Exposure on Gray Matter Volume: Assessing the Role of Development"</unittitle> 
               <origination label="Creator">
                 <persname>DuPre, Elizabeth</persname>
@@ -3267,7 +3260,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Gender Congruity and Physical Attractiveness in Leadership Evaluation"</unittitle> 
               <origination label="Creator">
                 <persname>Fok, Evelyn</persname>
@@ -3277,7 +3270,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Young Children Use Statistical Sampling to Infer Their Own Preferences"</unittitle> 
               <origination label="Creator">
                 <persname>Gentilini, Lara</persname>
@@ -3287,7 +3280,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Developmental Differences in Spatial Transformation Ability During Infancy"</unittitle> 
               <origination label="Creator">
                 <persname>Marfurt, Samantha</persname>
@@ -3297,7 +3290,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"An Examination of System-and Individual-Level Factors Which May Be Associated with the Urban-
                 Rural Disparity in Hospice Utilization"</unittitle> 
               <origination label="Creator">
@@ -3318,7 +3311,7 @@
           </did>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Developmental Differences in Spatial Categorization of Korean Infants"</unittitle> 
               <origination label="Creator">
                 <persname>Ahn, Yeo Jin</persname>
@@ -3328,7 +3321,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Influence of Aging on the Neural Correlates of Autobiographical Memory, Prospection, and Theory
                 of Mind"</unittitle> 
               <origination label="Creator">
@@ -3339,7 +3332,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"The Intergroup Dialogue Project's Impact on Student Attitudes and Behaviors Regarding
                 Diversity and Inclusion"</unittitle> 
               <origination label="Creator">
@@ -3350,7 +3343,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Assessing Impulsivity and Risk in Emerging Adulthood"</unittitle> 
               <origination label="Creator">
                 <persname>Katz, Zoe Amelia</persname>
@@ -3360,7 +3353,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Home is Where We Are Together: Reunion Sex Assists the Restoration of Physiological
                 Co-Regulation in Romantic Couples"</unittitle> 
               <origination label="Creator">
@@ -3371,7 +3364,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Only Skin-Deep: Revising First Impressions of Faces"</unittitle>
               <origination label="Creator">
                 <persname>Meagher, Brian</persname>
@@ -3381,7 +3374,7 @@
           </c03>
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"The Effect of Minimal Group Bias in Memory and Attitude Over Time"</unittitle>
               <origination label="Creator">
                 <persname>Monks, Grace</persname>
@@ -3396,7 +3389,7 @@
             </did>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Increased Conductivity of Electrospun Pedot:PSS Nanofibers and
                 Core-Shell Pedot Microfibers"</unittitle> 
                 <origination label="Creator">
@@ -3417,7 +3410,7 @@
                 </did>
                 <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"Critical Thinking and Decision-making in Modern Day Physicians"</unittitle> 
                     <origination label="Creator">
                       <persname>Dunlea, James Patrick</persname>
@@ -3427,7 +3420,7 @@
                 </c03>
                 <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"Race and Conceptions of Intelligence: Exploring how College Students of Different Races may Differ in Their Ideas
                     of Intelligence"</unittitle> 
                     <origination label="Creator">
@@ -3438,7 +3431,7 @@
                 </c03>
                 <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"Reflections as a Resource: Mitigating the Effects of Gender Macroaggressions"</unittitle> 
                     <origination label="Creator">
                       <persname>Inniss-Thompson, Misha</persname>
@@ -3448,7 +3441,7 @@
                 </c03>
                 <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"The Neural Correlates of Language Processing: A Meta Analysis of AD and MCI Studies"</unittitle>
                     <origination label="Creator">
                       <persname>Janmohamed, Azraa</persname>
@@ -3458,7 +3451,7 @@
                 </c03>
                 <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"The Time Course of False Memory Processes"</unittitle>
                     <origination label="Creator">
                       <persname>Lee, Wei-Feng Aaron</persname>
@@ -3468,7 +3461,7 @@
                 </c03>
                 <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"Expected Outcomes of Co-Rumination in Emerging Adults"</unittitle>
                     <origination label="Creator">
                       <persname>McCormick, Kathleen</persname>
@@ -3478,7 +3471,7 @@
                 </c03>
                 <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"Evaluating the Maturational Disparity Hypothesis: Is there a Physical and Cognitive Mismatch in Early
                     Maturing Girls"</unittitle>
                     <origination label="Creator">
@@ -3489,7 +3482,7 @@
                 </c03>
                 <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"The Effect of the Color Red on Sexual Attraction: Replication and Extension in People with Same-Sex
                     Attraction"</unittitle>
                     <origination label="Creator">
@@ -3510,7 +3503,7 @@
           </did>
        <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"Localization of Oxytocin-Like Containing Neurons in the Highly Vocal Gulf Toadfish with Comparisons to Mammals"</unittitle>
                     <origination label="Creator">
                       <persname>Fernandez, Anna Claire</persname>
@@ -3520,7 +3513,7 @@
                 </c03>
                 <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"When was Your Earliest Memory and How Do You Remember More Accurately? Young Adults Postdating Early Childhood Memories"</unittitle>
                     <origination label="Creator">
                     <persname>Khuu, Angel</persname>
@@ -3530,7 +3523,7 @@
                 </c03>
                 <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"Individual Differences in Perspective Taking with Interactive Social Learning"</unittitle>
                     <origination label="Creator">
                     <persname>LaGrant, Brian</persname>
@@ -3540,7 +3533,7 @@
                 </c03>
                 <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"The Effect of Minimal Group Membership on Children's Susceptibility to Suggestive Questioning"</unittitle>
                     <origination label="Creator">
                     <persname>Sharpstene, Leona Marie</persname>
@@ -3550,7 +3543,7 @@
                 </c03>
                 <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"Racial and Ethnic Differences in Pain Self-Management Techniques Among Older Adults with Chronic Pain"</unittitle>
                     <origination label="Creator">
                       <persname>Sidhu, Sharendra</persname>
@@ -3560,7 +3553,7 @@
                 </c03>
                 <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"Intrinsic Functional Connectivity of the Default Mode Network is Associated with Individual Differences in Social
                     Cognition"</unittitle>
                     <origination label="Creator">
@@ -3573,7 +3566,7 @@
                 </c03>
                 <c03 level="file"> 
                   <did> 
-                    <container type="box">10</container> 
+                    <container label="unspecified" type="box">10</container> 
                     <unittitle>"The Role of Autonomic Processes in Adaptive Memory"</unittitle>
                     <origination label="Creator">
                       <persname>Winebrake, Deaven</persname>
@@ -3588,7 +3581,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">10</container> 
+              <container label="unspecified" type="box">10</container> 
               <unittitle>"Designing Undesigned Interior Playscapes:Implications from Junk Playgrounds and Makerspaces"</unittitle>
               <origination label="Creator">
                 <persname>Lee, Sohyun</persname>
@@ -3608,7 +3601,7 @@
             </did>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Dehumanizing Consequences of Observing Social Exclusion"</unittitle>
                <origination label="Creator">
                   <persname>Avila, Matthew </persname>
@@ -3618,7 +3611,7 @@
              </c03>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Family Estrangement and its Effects on College Students"</unittitle>
                 <origination label="Creator">
                   <persname>Chen, Gregory </persname>
@@ -3628,7 +3621,7 @@
               </c03>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Tentative Testing: Applying Fuzzy-trace Theory to Sexually Transmitted Infections (STI) Testing Decisions
                   in Adolescents and Young Adults"</unittitle>
                 <origination label="Creator">
@@ -3639,7 +3632,7 @@
             </c03>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Memories Reimagined: Quantum Entanglement in Human Memory Activation"</unittitle>
                 <origination label="Creator">
                   <persname>Chen, Xi Richard </persname>
@@ -3649,7 +3642,7 @@
             </c03>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Caregiver Interactions During Playtime with Their Children"</unittitle>
                 <origination label="Creator">
                   <persname>Guzman, Tati </persname>
@@ -3659,7 +3652,7 @@
             </c03>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"The Context of Race in the Perceptual-Response to Fear and Anger"</unittitle>
                 <origination label="Creator">
                   <persname>Hill, Alize </persname>
@@ -3669,7 +3662,7 @@
             </c03>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Assessing the Cognitive Impacts of an Impaired Attentional Filter in Older Adults"</unittitle>
                 <origination label="Creator">
                   <persname>Jegarl, Anita </persname>
@@ -3679,7 +3672,7 @@
             </c03>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Time Perception and Pain"</unittitle>
                 <origination label="Creator">
                   <persname>Kruse, Jessica </persname>
@@ -3689,7 +3682,7 @@
             </c03>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Rejection Thoughts and Relationship Outcomes: Exploring Rejection Sensistity in Girls' Relationships"</unittitle>
                 <origination label="Creator">
                   <persname>Lesnick, Julia </persname>
@@ -3699,7 +3692,7 @@
             </c03>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Development and Validation of the Dietarian Identity Questionnaire: Assesing Self-Perceptions of Animal-Product Consumption"</unittitle>
                 <origination label="Creator">
                   <persname>Rosenfeld, Daniel </persname>
@@ -3709,7 +3702,7 @@
             </c03>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Attention Deficit Hyperactivity Disorder and Identity: Diagnostic Correlates, Contextual Malleability and Domain Specificity"</unittitle>
                 <origination label="Creator">
                   <persname>Rosenthal, Emily </persname>
@@ -3719,7 +3712,7 @@
             </c03> 
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Parents, Play, and Spatial Perception: The Relationship Between Parental Scaffolding During Play and Infants'
                   Mental Rotation Abilities"</unittitle>
                 <origination label="Creator">
@@ -3730,7 +3723,7 @@
             </c03>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Cumulative Risk in Childhood Ecological Systems and Severity of Hyperactivity/Impulsivity"</unittitle>
                 <origination label="Creator">
                   <persname>Sloan, Greta Ives </persname>
@@ -3740,7 +3733,7 @@
             </c03>
             <c03 level="file"> 
               <did> 
-                <container type="box">10</container> 
+                <container label="unspecified" type="box">10</container> 
                 <unittitle>"Examining the Influence of Emotion on the Illusory Correlation Effect"</unittitle>
                 <origination label="Creator">
                   <persname>Stansell, Alexandria </persname>
@@ -3751,5 +3744,13 @@
           </c02> 
         </c01> 
             </dsc> 
-  </archdesc>
+  <odd><p> 
+        <extref href="http://ecommons.library.cornell.edu/handle/1813/5430">Some of the theses
+          are available online by clicking here.</extref> </p></odd><odd><p>For additional theses see the 
+        <extref href="http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMA03419">Division
+          of Nutritional Sciences Honors Theses collection, #29-06-3419</extref></p></odd><odd><p> Submission Release Forms are in Box 9. </p></odd><prefercite> 
+        <head>Cite As:</head> 
+        <p>New York State College of Human Ecology honors theses, #23-11-3264.
+          Division of Rare and Manuscript Collections, Cornell University Library.</p> 
+      </prefercite></archdesc>
 </ead>

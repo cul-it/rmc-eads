@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM03919::John Southworth papers)//EN">RMM03919</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM03919::John Southworth papers)//EN">RMM03919</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the John Southworth papers, 1817-1921</titleproper>
@@ -28,6 +27,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -36,22 +41,22 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the John Southworth Papers,<lb/>1817-1921</titleproper>
+         <titleproper>Guide to the John Southworth Papers,1817-1921</titleproper>
          <num>Collection Number: 3919</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+         <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/>
-2B Carl A. Kroch Library<lb/>
-Cornell University<lb/>
-Ithaca, NY 14853<lb/>
-(607) 255-3530<lb/>
-Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections
+2B Carl A. Kroch Library
+Cornell University
+Ithaca, NY 14853
+(607) 255-3530
+Fax: (607) 255-9524
 <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
 <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -72,15 +77,14 @@ Fax: (607) 255-9524<lb/>
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">John Southworth papers, <unitdate type="inclusive" encodinganalog="MARC 245">1817-1921.</unitdate> 
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">John Southworth papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1817-1921.</unitdate>
          <unitid label="Collection Number:">3919</unitid>
          <origination label="Creator:"> 
 		  
             <persname encodinganalog="100" normal="Southworth, John, 1796-1877.">John Southworth, 1796-1877.</persname>
 		
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1.9 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1.9 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Land deeds, mortgages, bonds, correspondence, ledgers, survey bills, lists of leases and purchases, letters patent, stock certificate books, checkbook, diary.</physdesc>
          <repository label="Repository:"> Division of Rare and Manuscript Collections, Cornell University Library </repository>
          <abstract label="Abstract:">Financial records relating to land holdings, sales and leases by John Southworth in New York, Wisconsin, Michigan, Pennsylvania, Iowa, and Indiana.</abstract>
@@ -88,7 +92,7 @@ Fax: (607) 255-9524<lb/>
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>John Southworth moved from Herkimer County, New York to Dryden, Tompkins County, New York with his father, Thomas Southworth, in 1806. He became a large landholder and one of the wealthiest men in Tompkins County.</p>
       </bioghist>
       <scopecontent encodinganalog="MARC 520">
@@ -108,16 +112,10 @@ Fax: (607) 255-9524<lb/>
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Deeds.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Deeds.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>John Southworth papers, #3919. Division of Rare and Manuscript Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="series">
@@ -126,373 +124,376 @@ Fax: (607) 255-9524<lb/>
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
+                  <container label="unspecified" type="box">1</container>
                   <unitdate>1820-1888</unitdate>
                   <unittitle>Tompkins County land deeds</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitdate>1820-1876</unitdate>
                   <unittitle>Tompkins County bonds</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitdate>1817-1893</unitdate>
                   <unittitle>Tompkins County mortgages</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitdate>1826-1880</unitdate>
                   <unittitle>Quit-claim deeds: Tompkins and Niagara Counties, New York; Marquette County, Wisconsin; Michigan</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitdate>1847-1858</unitdate>
                   <unittitle>Sheriff's deeds</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2, 3</container>
+                  <container label="unspecified" type="box">2, 3</container>
                   <unitdate>1830-1883</unitdate>
                   <unittitle>Tioga County deeds</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unitdate>1833-1889</unitdate>
                   <unittitle>Tioga County mortgages and bonds</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unitdate>1844-1888</unitdate>
                   <unittitle>Ogle County, Illinois deeds</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unitdate>1830-1882</unitdate>
                   <unittitle>Cortland County mortgages and bonds</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unitdate>1842-1861</unitdate>
                   <unittitle>Allegany County deeds</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unitdate>1852-1884</unitdate>
                   <unittitle>Broome County deeds</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unitdate>1865</unitdate>
                   <unittitle>Chemung County deed</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unitdate>1859</unitdate>
                   <unittitle>Onondaga County deed</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unitdate>1838-1872</unitdate>
                   <unittitle>Chenango County deeds</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unitdate>1872</unitdate>
                   <unittitle>Otsego County deeds</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unitdate>1833-1860</unitdate>
                   <unittitle>Pennsylvania land deeds</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unitdate>1864-1891</unitdate>
                   <unittitle>Iowa land papers</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unitdate>1858-1861</unitdate>
                   <unittitle>Wisconsin land deeds (2)</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unitdate>1852, 1855, 1858</unitdate>
                   <unittitle>Genesee County deeds</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unitdate>1838, 1866</unitdate>
                   <unittitle>Cemetery deeds (2)</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unitdate>1871, 1880</unitdate>
                   <unittitle>Clerk's Office search certificates, Cortland County</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unitdate>1831-1867</unitdate>
                   <unittitle>Letters patent</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>1857-1882</unitdate>
                   <unittitle>Indiana land papers</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unitdate>1878</unitdate>
                   <unittitle>Wonderly contract papers</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unitdate>1863-1889</unitdate>
                   <unittitle>Keeler and Robbins, land contracts</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unitdate>1869-1878</unitdate>
                   <unittitle>Office of Olin, Rives, and Montgomery</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unitdate>1859-1891</unitdate>
                   <unittitle>Mortimer Calkins and John C. Smith papers</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unitdate>1866-1876</unitdate>
                   <unittitle>Nivison papers</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">7-8</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">7-8</container>
                   <unitdate>1853-1888</unitdate>
                   <unittitle>Ogle County bank-related papers</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">9-10</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">9-10</container>
                   <unitdate>1860-1891</unitdate>
                   <unittitle>Bank-related correspondence and legal correspondence</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unitdate>1860-1891</unitdate>
                   <unittitle>Samuel Pulford correspondence</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unitdate>1856-1861</unitdate>
                   <unittitle>Obid Burgess correspondence</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unitdate>1835-1878 and undated</unitdate>
                   <unittitle>Lot boundary slips</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unitdate>Undated</unitdate>
                   <unittitle>Miscellaneous material</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>1830-1849</unitdate>
                   <unittitle>Receipts and notes</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unitdate>1850's</unitdate>
                   <unittitle>Receipts and notes</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unitdate>1860's</unitdate>
                   <unittitle>Receipts and notes</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unitdate>1860's</unitdate>
                   <unittitle>Receipts and notes</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">5-6</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">5-6</container>
                   <unitdate>1870's and undated</unitdate>
                   <unittitle>Receipts and notes</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">7-9</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">7-9</container>
                   <unitdate>1864-1881</unitdate>
                   <unittitle>Hathaway correspondence</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7</container>
+                  <container label="unspecified" type="box">7</container>
                   <unitdate>1845-1870</unitdate>
                   <unittitle>Certificates of land ownership</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7</container>
+                  <container label="unspecified" type="box">7</container>
                   <unitdate>1877-1878</unitdate>
                   <unittitle>Ledger sheets for bonds, cash, loans, promissory notes, mortgages</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7</container>
+                  <container label="unspecified" type="box">7</container>
                   <unitdate>1877-1878</unitdate>
                   <unittitle>Ledger sheets for contracts, sales, and schedules</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7</container>
+                  <container label="unspecified" type="box">7</container>
                   <unitdate>1870-1894 and undated</unitdate>
                   <unittitle>Survey bills</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7</container>
+                  <container label="unspecified" type="box">7</container>
                   <unitdate>1877-1878</unitdate>
                   <unittitle>List of leases</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7</container>
+                  <container label="unspecified" type="box">7</container>
                   <unitdate>1877-1878</unitdate>
                   <unittitle>List of purchases</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7</container>
+                  <container label="unspecified" type="box">7</container>
                   <unitdate>1911-1918</unitdate>
                   <unittitle>Rosemary Realty Co. stock certificate book</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7</container>
+                  <container label="unspecified" type="box">7</container>
                   <unitdate>1921</unitdate>
                   <unittitle>Atlantic Utilities Corp. stock certificate book</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7</container>
+                  <container label="unspecified" type="box">7</container>
                   <unitdate>1862-1863</unitdate>
                   <unittitle>Small diary</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7</container>
+                  <container label="unspecified" type="box">7</container>
                   <unitdate>1936-1938</unitdate>
                   <unittitle>Checkbook belonging to F.A. Southworth</unittitle>
                </did>
             </c02>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>John Southworth papers, #3919. Division of Rare and Manuscript Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01964::Cornell University ceramics, glassware, and metalware collection)//EN">RMA01964</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01964::Cornell University ceramics, glassware, and metalware collection)//EN">RMA01964</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the Cornell University ceramics, glassware, and metalware collection,
@@ -25,19 +25,25 @@
   <profiledesc>
    <creation>Finding aid encoded by RMC Staff, <date>June 2018</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
    <titleproper>Guide to the Cornell University ceramics, glassware, and metalware collection,
-     <lb/><date type="inclusive" encodinganalog="245$f">1893-2003.</date></titleproper>
+     <date encodinganalog="245$f" type="inclusive">1893-2003.</date></titleproper>
    <num>Collection Number: 41-7-1964.</num>
-   <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+   <publisher>Division of Rare and Manuscript Collections Cornell University
     Library</publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell
-      University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+     <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell
+      University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
     </defitem>
     <defitem>
      <label>Compiled by:</label>
@@ -63,15 +69,14 @@
  <archdesc level="collection">
   <did>
    <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245">Cornell University ceramics, glassware, and
-    metalware collection, <unitdate encodinganalog="MARC 245" type="inclusive">1893-2003</unitdate>
-   </unittitle>
+   <unittitle encodinganalog="MARC 245" label="Title:">Cornell University ceramics, glassware, and
+    metalware collection, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1893-2003</unitdate>
    <unitid label="Collection Number:">41-7-1964. Division of Rare and Manuscript Col</unitid>
    <origination label="Creator:">
     <corpname encodinganalog="110" normal="Cornell University. Alumni Association. ">Cornell
      University. Alumni Association. </corpname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>18.1 cubic feet</extent></physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>18.1 cubic feet</extent></physdesc>
    <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University
     Library</repository>
    <abstract label="Abstract:">The Cornell University Ceramics, Glassware, and Metalware collection
@@ -86,7 +91,7 @@
    </langmaterial>
   </did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="organization">ORGANIZATIONAL HISTORY</head>
+   <head altrender="organization" id="a2">ORGANIZATIONAL HISTORY</head>
    <p>The original set of Cornell plates was created in 1932, based on a design created by E.
     Stewart Williams (Class of 1933) for the Baird Prize "Place Plate" artwork competition for
     Design 112, February 1932. The winning design was used by the Wedgwood Company for a set of
@@ -140,36 +145,29 @@
     <subject encodinganalog="MARC 650">Wedgwood ware.</subject>
    </controlaccess>
   </controlaccess>
-  <descgrp>
-   <head id="a8">INFORMATION FOR USERS</head>
-   <prefercite>
-    <head>Cite As:</head>
-    <p>Cornell University. Alumni Association. Cornell Plates. Records, #41-7-1964. Division of Rare
-     and Manuscript Collections, Cornell University Library. </p>
-   </prefercite>
-  </descgrp>
+  
   <arrangement>
    <head>SERIES LIST</head>
    <p>
     <emph render="bold">
-     <ref target="s1" show="replace" actuate="onrequest">Series I. Wedgwood Plates, Cups, and
+     <ref actuate="onrequest" show="replace" target="s1">Series I. Wedgwood Plates, Cups, and
       Saucers</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s2" show="replace" actuate="onrequest">Series II. Cornell Mugs, Cups, and
+     <ref actuate="onrequest" show="replace" target="s2">Series II. Cornell Mugs, Cups, and
       Glasses</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s3" show="replace" actuate="onrequest">Series III. Cornell Plates
+     <ref actuate="onrequest" show="replace" target="s3">Series III. Cornell Plates
       (non-Wedgwood)</ref>
     </emph>
-    <lb/>
+    
    </p>
   </arrangement>
   <dsc type="combined">
@@ -188,97 +186,97 @@
       </did>
       <c04 level="item">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>MU-2307</unitid>
-        <unitdate type="inclusive" normal="1933-02/DateTo">Expression</unitdate>
+        <unitdate normal="1933-02/DateTo" type="inclusive">Expression</unitdate>
         <unittitle>Dinner plate with image of Baker Laboratory of Chemistry</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>MU-2312</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of Balch Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>MU-2457</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of The Crescent</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>MU-988</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of Goldwin Smith Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>MU-2319</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of Library Tower</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>MU-2315</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of McGraw Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>MU-860</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of Myron Taylor Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>MU-2317</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of Sage Chapel</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>MU-2314</unitid>
-        <unitdate type="inclusive" normal="1933-05">1933-05</unitdate>
+        <unitdate normal="1933-05" type="inclusive">1933-05</unitdate>
         <unittitle>Dinner plate with image of Sibley Dome</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>MU-2318</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of statue of Ezra Cornell</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>MU-2320</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of the War Memorial</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>MU-2313</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of Willard Straight Hall</unittitle>
        </did>
       </c04>
@@ -289,25 +287,25 @@
       </did>
       <c04 level="item">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>MU-854</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of Baker Laboratory of Chemistry</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>MU-2309</unitid>
-        <unitdate type="inclusive" normal="1937-05">1937-05</unitdate>
+        <unitdate normal="1937-05" type="inclusive">1937-05</unitdate>
         <unittitle>Dinner plate with image of Balch Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>MU-1994</unitid>
-        <unitdate type="inclusive" normal="1937-05">1937-05</unitdate>
+        <unitdate normal="1937-05" type="inclusive">1937-05</unitdate>
         <unittitle>Dinner plate with image of The Crescent</unittitle>
        </did>
        <scopecontent>
@@ -316,17 +314,17 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>MU-2306</unitid>
-        <unitdate type="inclusive" normal="1933-05">1933-05</unitdate>
+        <unitdate normal="1933-05" type="inclusive">1933-05</unitdate>
         <unittitle>Dinner plate with image of Goldwin Smith Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>MU-851</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of Library Tower</unittitle>
        </did>
        <scopecontent>
@@ -335,57 +333,57 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>MU-856</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of McGraw Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>MU-2308</unitid>
-        <unitdate type="inclusive" normal="1937-05">1937-05</unitdate>
+        <unitdate normal="1937-05" type="inclusive">1937-05</unitdate>
         <unittitle>Dinner plate with image of Myron Taylor Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>MU-855</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of Sage Chapel</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>MU-862</unitid>
-        <unitdate type="inclusive" normal="1933-05">1933-05</unitdate>
+        <unitdate normal="1933-05" type="inclusive">1933-05</unitdate>
         <unittitle>Dinner plate with image of Sibley Dome</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>MU-858</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of statue of Ezra Cornell</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>MU-853</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of the War Memorial</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>MU-1088</unitid>
-        <unitdate type="inclusive" normal="1937-05">1937-05</unitdate>
+        <unitdate normal="1937-05" type="inclusive">1937-05</unitdate>
         <unittitle>Dinner plate with image of Willard Straight Hall</unittitle>
        </did>
       </c04>
@@ -396,55 +394,55 @@
       </did>
       <c04 level="item">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>MU-2458</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of Baker Laboratory of Chemistry</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>MU-976</unitid>
-        <unitdate type="inclusive" normal="1951-12">1951-12</unitdate>
+        <unitdate normal="1951-12" type="inclusive">1951-12</unitdate>
         <unittitle>Dinner plate with image of Baker Laboratory of Chemistry</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>MU-859</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of Balch Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>MU-980</unitid>
-        <unitdate type="inclusive" normal="1949-10">1949-10</unitdate>
+        <unitdate normal="1949-10" type="inclusive">1949-10</unitdate>
         <unittitle>Dinner plate with image of Balch Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>MU-857</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of The Crescent</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>MU-861</unitid>
-        <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+        <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
         <unittitle>Dinner plate with image of Goldwin Smith Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>MU-978</unitid>
         <unitdate>Undated</unitdate>
         <unittitle>Dinner plate with image of Library Tower</unittitle>
@@ -452,98 +450,98 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>MU-1996</unitid>
-        <unitdate type="inclusive" normal="1962-03">1962-03</unitdate>
+        <unitdate normal="1962-03" type="inclusive">1962-03</unitdate>
         <unittitle>Dinner plate with image of Library Tower</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>MU-2310</unitid>
-        <unitdate type="inclusive" normal="1933-09">1933-09</unitdate>
+        <unitdate normal="1933-09" type="inclusive">1933-09</unitdate>
         <unittitle>Dinner plate with image of McGraw Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>MU-995</unitid>
-        <unitdate type="inclusive" normal="1949-10">1949-10</unitdate>
+        <unitdate normal="1949-10" type="inclusive">1949-10</unitdate>
         <unittitle>Dinner plate with image of McGraw Hall</unittitle>
        </did>
       </c04>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">7</container>
+       <container label="unspecified" type="box">7</container>
        <unitid>MU-2316</unitid>
-       <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+       <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
        <unittitle>Dinner plate with image of Myron Taylor Hall</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">8</container>
+       <container label="unspecified" type="box">8</container>
        <unitid>MU-1992</unitid>
-       <unitdate type="inclusive" normal="1939-09">1939-09</unitdate>
+       <unitdate normal="1939-09" type="inclusive">1939-09</unitdate>
        <unittitle>Dinner plate with image of Sage Chapel</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">8</container>
+       <container label="unspecified" type="box">8</container>
        <unitid>MU-2122</unitid>
-       <unitdate type="inclusive" normal="1962-03">1962-03</unitdate>
+       <unitdate normal="1962-03" type="inclusive">1962-03</unitdate>
        <unittitle>Dinner plate with image of Sage Chapel</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">7</container>
+       <container label="unspecified" type="box">7</container>
        <unitid>MU-977</unitid>
-       <unitdate type="inclusive" normal="1959-03">1959-03</unitdate>
+       <unitdate normal="1959-03" type="inclusive">1959-03</unitdate>
        <unittitle>Dinner plate with image of Sage Chapel</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">8</container>
+       <container label="unspecified" type="box">8</container>
        <unitid>MU-1993</unitid>
-       <unitdate type="inclusive" normal="1933-09">1933-09</unitdate>
+       <unitdate normal="1933-09" type="inclusive">1933-09</unitdate>
        <unittitle>Dinner plate with image of Sibley Dome</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">8</container>
+       <container label="unspecified" type="box">8</container>
        <unitid>MU-1089</unitid>
-       <unitdate type="inclusive" normal="1941-05">1941-05</unitdate>
+       <unitdate normal="1941-05" type="inclusive">1941-05</unitdate>
        <unittitle>Dinner plate with image of Sibley Dome</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">8</container>
+       <container label="unspecified" type="box">8</container>
        <unitid>MU-979</unitid>
-       <unitdate type="inclusive" normal="1950-09">1950-09</unitdate>
+       <unitdate normal="1950-09" type="inclusive">1950-09</unitdate>
        <unittitle>Dinner plate with image of Sibley Dome</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">8</container>
+       <container label="unspecified" type="box">8</container>
        <unitid>MU-1995</unitid>
-       <unitdate type="inclusive" normal="1933-12">1933-12</unitdate>
+       <unitdate normal="1933-12" type="inclusive">1933-12</unitdate>
        <unittitle>Dinner plate with image of statue of Ezra Cornell</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">9</container>
+       <container label="unspecified" type="box">9</container>
        <unitid>MU-2311</unitid>
-       <unitdate type="inclusive" normal="1959-04">1959-04</unitdate>
+       <unitdate normal="1959-04" type="inclusive">1959-04</unitdate>
        <unittitle>Dinner plate with image of the War Memorial</unittitle>
       </did>
       <scopecontent>
@@ -552,7 +550,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">9</container>
+       <container label="unspecified" type="box">9</container>
        <unitid>MU-981</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Dinner plate with image of the War Memorial</unittitle>
@@ -560,17 +558,17 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">9</container>
+       <container label="unspecified" type="box">9</container>
        <unitid>MU-852</unitid>
-       <unitdate type="inclusive" normal="1933-07">1933-07</unitdate>
+       <unitdate normal="1933-07" type="inclusive">1933-07</unitdate>
        <unittitle>Dinner plate with image of Willard Straight Hall</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">9</container>
+       <container label="unspecified" type="box">9</container>
        <unitid>MU-1997</unitid>
-       <unitdate type="inclusive" normal="1939-09">1939-09</unitdate>
+       <unitdate normal="1939-09" type="inclusive">1939-09</unitdate>
        <unittitle>Dinner plate with image of Willard Straight Hall</unittitle>
       </did>
      </c03>
@@ -581,39 +579,39 @@
      </did>
      <c03 level="item">
       <did>
-       <container type="box">29</container>
+       <container label="unspecified" type="box">29</container>
        <unitid>MU-2357a-2357h</unitid>
-       <unitdate type="inclusive" normal="1937">1937</unitdate>
+       <unitdate normal="1937" type="inclusive">1937</unitdate>
        <unittitle>Saucers</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">29</container>
+       <container label="unspecified" type="box">29</container>
        <unitid>MU-2357i-2357j</unitid>
-       <unitdate type="inclusive" certainty="Circa" normal="1933/1939">1933-1939</unitdate>
+       <unitdate certainty="approximate" normal="1933/1939" type="inclusive">1933-1939</unitdate>
        <unittitle>Saucers</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">29</container>
+       <container label="unspecified" type="box">29</container>
        <unitid>MU-2357k-2357n</unitid>
-       <unitdate type="inclusive" normal="1947-11">1947-11</unitdate>
+       <unitdate normal="1947-11" type="inclusive">1947-11</unitdate>
        <unittitle>Saucers</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">29</container>
+       <container label="unspecified" type="box">29</container>
        <unitid>MU-2357o</unitid>
-       <unitdate type="inclusive" normal="1949-08">1949-08</unitdate>
+       <unitdate normal="1949-08" type="inclusive">1949-08</unitdate>
        <unittitle>Saucers</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">30</container>
+       <container label="unspecified" type="box">30</container>
        <unitid>MU-2357-p-2357q</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Saucer</unittitle>
@@ -621,7 +619,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">15,16</container>
+       <container label="unspecified" type="box">15,16</container>
        <unitid>MU-2075a-2075q</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Tea cup</unittitle>
@@ -634,9 +632,9 @@
      </did>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
+       <container label="unspecified" type="box">1</container>
        <unitid>MU-217</unitid>
-       <unitdate type="inclusive" normal="1932-10-06">1932-10-06</unitdate>
+       <unitdate normal="1932-10-06" type="inclusive">1932-10-06</unitdate>
        <unittitle>Dinner plate showing Sibley Dome</unittitle>
       </did>
       <scopecontent>
@@ -649,9 +647,9 @@
       </did>
       <c04 level="item">
        <did>
-        <container type="box">10</container>
+        <container label="unspecified" type="box">10</container>
         <unitid>MU-2329</unitid>
-        <unitdate type="inclusive" normal="1937-06">1937-06</unitdate>
+        <unitdate normal="1937-06" type="inclusive">1937-06</unitdate>
         <unittitle>Dinner plate with image of Baker Laboratory of Chemistry</unittitle>
        </did>
        <scopecontent>
@@ -660,9 +658,9 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">10</container>
+        <container label="unspecified" type="box">10</container>
         <unitid>MU-2328</unitid>
-        <unitdate type="inclusive" normal="1937">1937</unitdate>
+        <unitdate normal="1937" type="inclusive">1937</unitdate>
         <unittitle>Dinner plate with image of Balch Hall</unittitle>
        </did>
        <scopecontent>
@@ -671,9 +669,9 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">10</container>
+        <container label="unspecified" type="box">10</container>
         <unitid>MU-2338</unitid>
-        <unitdate type="inclusive" normal="1937-05">1937-05</unitdate>
+        <unitdate normal="1937-05" type="inclusive">1937-05</unitdate>
         <unittitle>Dinner plate with image of the Crescent</unittitle>
        </did>
        <scopecontent>
@@ -682,9 +680,9 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">10</container>
+        <container label="unspecified" type="box">10</container>
         <unitid>MU-2335</unitid>
-        <unitdate type="inclusive" normal="1937-06">1937-06</unitdate>
+        <unitdate normal="1937-06" type="inclusive">1937-06</unitdate>
         <unittitle>Dinner plate with image of Goldwin Smith Hall</unittitle>
        </did>
        <scopecontent>
@@ -693,9 +691,9 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">10</container>
+        <container label="unspecified" type="box">10</container>
         <unitid>MU-2330</unitid>
-        <unitdate type="inclusive" normal="1937-06">1937-06</unitdate>
+        <unitdate normal="1937-06" type="inclusive">1937-06</unitdate>
         <unittitle>Dinner plate with image of the Library Tower</unittitle>
        </did>
        <scopecontent>
@@ -704,17 +702,17 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">10</container>
+        <container label="unspecified" type="box">10</container>
         <unitid>MU-2334</unitid>
-        <unitdate type="inclusive" normal="1934-01">1934-01</unitdate>
+        <unitdate normal="1934-01" type="inclusive">1934-01</unitdate>
         <unittitle>Dinner plate with image of McGraw Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">11</container>
+        <container label="unspecified" type="box">11</container>
         <unitid>MU-2333</unitid>
-        <unitdate type="inclusive" normal="1937-05">1937-05</unitdate>
+        <unitdate normal="1937-05" type="inclusive">1937-05</unitdate>
         <unittitle>Dinner plate with image of Myron Taylor Hall</unittitle>
        </did>
        <scopecontent>
@@ -723,9 +721,9 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">11</container>
+        <container label="unspecified" type="box">11</container>
         <unitid>MU-2326</unitid>
-        <unitdate type="inclusive" normal="1937-06">1937-06</unitdate>
+        <unitdate normal="1937-06" type="inclusive">1937-06</unitdate>
         <unittitle>Dinner plate with image of Sage Chapel</unittitle>
        </did>
        <scopecontent>
@@ -734,9 +732,9 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">11</container>
+        <container label="unspecified" type="box">11</container>
         <unitid>MU-2327</unitid>
-        <unitdate type="inclusive" normal="1937-06">1937-06</unitdate>
+        <unitdate normal="1937-06" type="inclusive">1937-06</unitdate>
         <unittitle>Dinner plate with image of Sibley Dome</unittitle>
        </did>
        <scopecontent>
@@ -745,9 +743,9 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">11</container>
+        <container label="unspecified" type="box">11</container>
         <unitid>MU-2332</unitid>
-        <unitdate type="inclusive" normal="1937-06">1937-06</unitdate>
+        <unitdate normal="1937-06" type="inclusive">1937-06</unitdate>
         <unittitle>Dinner plate with image of Statue of Ezra Cornell</unittitle>
        </did>
        <scopecontent>
@@ -756,17 +754,17 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">11</container>
+        <container label="unspecified" type="box">11</container>
         <unitid>MU-2340</unitid>
-        <unitdate type="inclusive" normal="1942">1942</unitdate>
+        <unitdate normal="1942" type="inclusive">1942</unitdate>
         <unittitle>Dinner plate with image of the War Memorial</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">11</container>
+        <container label="unspecified" type="box">11</container>
         <unitid>MU-2336</unitid>
-        <unitdate type="inclusive" normal="1937-06">1937-06</unitdate>
+        <unitdate normal="1937-06" type="inclusive">1937-06</unitdate>
         <unittitle>Dinner plate with image of Willard Straight Hall</unittitle>
        </did>
       </c04>
@@ -777,57 +775,57 @@
       </did>
       <c04 level="item">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unitid>MU-2339</unitid>
-        <unitdate type="inclusive" normal="1944-12">1944-12</unitdate>
+        <unitdate normal="1944-12" type="inclusive">1944-12</unitdate>
         <unittitle>Dinner plate with image of the Crescent</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unitid>MU-987</unitid>
-        <unitdate type="inclusive" normal="1950-10">1950-10</unitdate>
+        <unitdate normal="1950-10" type="inclusive">1950-10</unitdate>
         <unittitle>Dinner plate with image of the Crescent</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unitid>MU-984</unitid>
-        <unitdate type="inclusive" normal="1950-10">1950-10</unitdate>
+        <unitdate normal="1950-10" type="inclusive">1950-10</unitdate>
         <unittitle>Dinner plate with image of Goldwin Smith Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unitid>MU-2325</unitid>
-        <unitdate type="inclusive" normal="1940-03">1940-03</unitdate>
+        <unitdate normal="1940-03" type="inclusive">1940-03</unitdate>
         <unittitle>Dinner plate with image of Goldwin Smith Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unitid>MU-2323</unitid>
-        <unitdate type="inclusive" normal="1941-05">1941-05</unitdate>
+        <unitdate normal="1941-05" type="inclusive">1941-05</unitdate>
         <unittitle>Dinner plate with image of the Library Tower</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unitid>MU-2331</unitid>
-        <unitdate type="inclusive" normal="1944-02">1944-02</unitdate>
+        <unitdate normal="1944-02" type="inclusive">1944-02</unitdate>
         <unittitle>Dinner plate with image of the Library Tower</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">13</container>
+        <container label="unspecified" type="box">13</container>
         <unitid>MU-2337</unitid>
-        <unitdate type="inclusive" normal="1937-06">1937-06</unitdate>
+        <unitdate normal="1937-06" type="inclusive">1937-06</unitdate>
         <unittitle>Dinner plate with image of McGraw Hall</unittitle>
        </did>
        <scopecontent>
@@ -836,49 +834,49 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">13</container>
+        <container label="unspecified" type="box">13</container>
         <unitid>MU-982</unitid>
-        <unitdate type="inclusive" normal="1949-10">1949-10</unitdate>
+        <unitdate normal="1949-10" type="inclusive">1949-10</unitdate>
         <unittitle>Dinner plate with image of McGraw Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">13</container>
+        <container label="unspecified" type="box">13</container>
         <unitid>MU-2322</unitid>
-        <unitdate type="inclusive" normal="1940-04">1940-04</unitdate>
+        <unitdate normal="1940-04" type="inclusive">1940-04</unitdate>
         <unittitle>Dinner plate with image of Myron Taylor Hall</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">13</container>
+        <container label="unspecified" type="box">13</container>
         <unitid>MU-985</unitid>
-        <unitdate type="inclusive" normal="1950-10">1950-10</unitdate>
+        <unitdate normal="1950-10" type="inclusive">1950-10</unitdate>
         <unittitle>Dinner plate with image of Sibley Dome</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">13</container>
+        <container label="unspecified" type="box">13</container>
         <unitid>MU-2321</unitid>
-        <unitdate type="inclusive" normal="1941-02">1941-02</unitdate>
+        <unitdate normal="1941-02" type="inclusive">1941-02</unitdate>
         <unittitle>Dinner plate with image of statue of Ezra Cornell</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">13</container>
+        <container label="unspecified" type="box">13</container>
         <unitid>MU-983</unitid>
-        <unitdate type="inclusive" normal="1947-02">1947-02</unitdate>
+        <unitdate normal="1947-02" type="inclusive">1947-02</unitdate>
         <unittitle>Dinner plate with image of Statue of Ezra Cornell</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">14</container>
+        <container label="unspecified" type="box">14</container>
         <unitid>MU-2324</unitid>
-        <unitdate type="inclusive" normal="1940-1949">1940-1949</unitdate>
+        <unitdate normal="1940-1949" type="inclusive">1940-1949</unitdate>
         <unittitle>Dinner plate with image of Willard Straight Hall</unittitle>
        </did>
        <scopecontent>
@@ -887,9 +885,9 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">14</container>
+        <container label="unspecified" type="box">14</container>
         <unitid>MU-986</unitid>
-        <unitdate type="inclusive" normal="1947-04">1947-04</unitdate>
+        <unitdate normal="1947-04" type="inclusive">1947-04</unitdate>
         <unittitle>Dinner plate with image of Willard Straight Hall</unittitle>
        </did>
       </c04>
@@ -900,72 +898,72 @@
       </did>
       <c04 level="item">
        <did>
-        <container type="box">28</container>
+        <container label="unspecified" type="box">28</container>
         <unitid>MU-2358a</unitid>
-        <unitdate type="inclusive" normal="1940-08">1940-08</unitdate>
+        <unitdate normal="1940-08" type="inclusive">1940-08</unitdate>
         <unittitle>Saucers</unittitle>
        </did>
 
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">28</container>
+        <container label="unspecified" type="box">28</container>
         <unitid>MU-2358b</unitid>
-        <unitdate type="inclusive" normal="1944-01">1944-01</unitdate>
+        <unitdate normal="1944-01" type="inclusive">1944-01</unitdate>
         <unittitle>Saucers</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">28</container>
+        <container label="unspecified" type="box">28</container>
         <unitid>MU-2358c</unitid>
-        <unitdate type="inclusive" normal="1944-01">1944-01</unitdate>
+        <unitdate normal="1944-01" type="inclusive">1944-01</unitdate>
         <unittitle>Saucers</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">28</container>
+        <container label="unspecified" type="box">28</container>
         <unitid>MU-2358d-2358f</unitid>
-        <unitdate type="inclusive" normal="1944-02">1944-02</unitdate>
+        <unitdate normal="1944-02" type="inclusive">1944-02</unitdate>
         <unittitle>Saucers</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">28</container>
+        <container label="unspecified" type="box">28</container>
         <unitid>MU-2358g-2358l</unitid>
-        <unitdate type="inclusive" normal="1944-02">1944-02</unitdate>
+        <unitdate normal="1944-02" type="inclusive">1944-02</unitdate>
         <unittitle>Saucers</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">28</container>
+        <container label="unspecified" type="box">28</container>
         <unitid>MU-2358m</unitid>
-        <unitdate type="inclusive" normal="1944-03">1944-03</unitdate>
+        <unitdate normal="1944-03" type="inclusive">1944-03</unitdate>
         <unittitle>Saucers</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">30</container>
+        <container label="unspecified" type="box">30</container>
         <unitid>MU-2358n-q</unitid>
-        <unitdate type="inclusive" normal="1947-11">1947-11</unitdate>
+        <unitdate normal="1947-11" type="inclusive">1947-11</unitdate>
         <unittitle>Saucers</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">30</container>
+        <container label="unspecified" type="box">30</container>
         <unitid>MU-994a</unitid>
-        <unitdate type="inclusive" normal="1949-08">1949-08</unitdate>
+        <unitdate normal="1949-08" type="inclusive">1949-08</unitdate>
         <unittitle>Saucer</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">15</container>
+        <container label="unspecified" type="box">15</container>
         <unitid>MU-2076h-2076s</unitid>
         <unitdate>Undated</unitdate>
         <unittitle>Tea cups</unittitle>
@@ -973,7 +971,7 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">15</container>
+        <container label="unspecified" type="box">15</container>
         <unitid>MU-2076a-g</unitid>
         <unitdate>Undated</unitdate>
         <unittitle>Tea cups</unittitle>
@@ -981,7 +979,7 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">16</container>
+        <container label="unspecified" type="box">16</container>
         <unitid>MU-994b</unitid>
         <unitdate>Undated</unitdate>
         <unittitle>Tea cup</unittitle>
@@ -994,7 +992,7 @@
       </did>
       <c04 level="item">
        <did>
-        <container type="box">16</container>
+        <container label="unspecified" type="box">16</container>
         <unitid>MU-1097a-d</unitid>
         <unitdate>Undated</unitdate>
         <unittitle>Tea cups</unittitle>
@@ -1002,17 +1000,17 @@
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">30</container>
+        <container label="unspecified" type="box">30</container>
         <unitid>MU-2359a-2359d</unitid>
-        <unitdate type="inclusive" normal="1944-02">1944-02</unitdate>
+        <unitdate normal="1944-02" type="inclusive">1944-02</unitdate>
         <unittitle>Saucers</unittitle>
        </did>
       </c04>
       <c04 level="item">
        <did>
-        <container type="box">30</container>
+        <container label="unspecified" type="box">30</container>
         <unitid>MU-2359e</unitid>
-        <unitdate type="inclusive" normal="1947-11">1947-11</unitdate>
+        <unitdate normal="1947-11" type="inclusive">1947-11</unitdate>
         <unittitle>Saucers</unittitle>
        </did>
       </c04>
@@ -1029,41 +1027,41 @@
      </did>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-2343, MU-1365</unitid>
-       <unitdate type="inclusive" normal="1901">1901</unitdate>
+       <unitdate normal="1901" type="inclusive">1901</unitdate>
        <unittitle>Cream ceramic mug with red "Cornell, 1901"</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-2464</unitid>
-       <unitdate type="inclusive" normal="1906">1906</unitdate>
+       <unitdate normal="1906" type="inclusive">1906</unitdate>
        <unittitle>Ivory ceramic mug with red "1906"</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">19</container>
+       <container label="unspecified" type="box">19</container>
        <unitid>MU-2346</unitid>
-       <unitdate type="inclusive" normal="1908">1908</unitdate>
+       <unitdate normal="1908" type="inclusive">1908</unitdate>
        <unittitle>Senior Stunt at the Dutch mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">19</container>
+       <container label="unspecified" type="box">19</container>
        <unitid>MU-2460</unitid>
-       <unitdate type="inclusive" normal="1908">1908</unitdate>
+       <unitdate normal="1908" type="inclusive">1908</unitdate>
        <unittitle>Senior Smoker mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">19</container>
+       <container label="unspecified" type="box">19</container>
        <unitid>MU-1227</unitid>
-       <unitdate type="inclusive" normal="1910">1910</unitdate>
+       <unitdate normal="1910" type="inclusive">1910</unitdate>
        <unittitle>Sophomore Stunt at the Dutch </unittitle>
       </did>
       <scopecontent>
@@ -1072,9 +1070,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-2362</unitid>
-       <unitdate type="inclusive" normal="1911">1911</unitdate>
+       <unitdate normal="1911" type="inclusive">1911</unitdate>
        <unittitle>Sophomore Stunt mug</unittitle>
       </did>
       <scopecontent>
@@ -1083,9 +1081,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-2365</unitid>
-       <unitdate type="inclusive" normal="1911">1911</unitdate>
+       <unitdate normal="1911" type="inclusive">1911</unitdate>
        <unittitle>Junior Feed at the dutch</unittitle>
       </did>
       <scopecontent>
@@ -1094,9 +1092,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">19</container>
+       <container label="unspecified" type="box">19</container>
        <unitid>MU-2462, MU-2364</unitid>
-       <unitdate type="inclusive" normal="1912">1912</unitdate>
+       <unitdate normal="1912" type="inclusive">1912</unitdate>
        <unittitle>Stunt mug</unittitle>
       </did>
       <scopecontent>
@@ -1105,9 +1103,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-2367</unitid>
-       <unitdate type="inclusive" normal="1912">1912</unitdate>
+       <unitdate normal="1912" type="inclusive">1912</unitdate>
        <unittitle>Junior Feed mug</unittitle>
       </did>
       <scopecontent>
@@ -1116,9 +1114,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-846-847</unitid>
-       <unitdate type="inclusive" normal="1913">1913</unitdate>
+       <unitdate normal="1913" type="inclusive">1913</unitdate>
        <unittitle>Junior Feed mug</unittitle>
       </did>
       <scopecontent>
@@ -1127,9 +1125,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-2363</unitid>
-       <unitdate type="inclusive" normal="1913">1913</unitdate>
+       <unitdate normal="1913" type="inclusive">1913</unitdate>
        <unittitle>Sophomore Stunt mug</unittitle>
       </did>
       <scopecontent>
@@ -1138,17 +1136,17 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-1226</unitid>
-       <unitdate type="inclusive" normal="1913">1913</unitdate>
+       <unitdate normal="1913" type="inclusive">1913</unitdate>
        <unittitle>Cornell Smoker, St. Louis</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-2361</unitid>
-       <unitdate type="inclusive" normal="1914">1914</unitdate>
+       <unitdate normal="1914" type="inclusive">1914</unitdate>
        <unittitle>Sophomore Stunt mug</unittitle>
       </did>
       <scopecontent>
@@ -1157,9 +1155,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-1126</unitid>
-       <unitdate type="inclusive" normal="1915">1915</unitdate>
+       <unitdate normal="1915" type="inclusive">1915</unitdate>
        <unittitle>Junior Feed mug</unittitle>
       </did>
       <scopecontent>
@@ -1168,9 +1166,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">19</container>
+       <container label="unspecified" type="box">19</container>
        <unitid>MU-1125</unitid>
-       <unitdate type="inclusive" normal="1915">1915</unitdate>
+       <unitdate normal="1915" type="inclusive">1915</unitdate>
        <unittitle>Sophomore smoker mug</unittitle>
       </did>
       <scopecontent>
@@ -1179,9 +1177,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-2390</unitid>
-       <unitdate type="inclusive" normal="1908">1908</unitdate>
+       <unitdate normal="1908" type="inclusive">1908</unitdate>
        <unittitle>Cornell Smoker, St. Louis mug</unittitle>
       </did>
       <scopecontent>
@@ -1190,17 +1188,17 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-2463</unitid>
-       <unitdate type="inclusive" normal="1918">1918</unitdate>
+       <unitdate normal="1918" type="inclusive">1918</unitdate>
        <unittitle>Class of 1920 sophomore smoker mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">17</container>
+       <container label="unspecified" type="box">17</container>
        <unitid>MU-2350a-2350b</unitid>
-       <unitdate type="inclusive" normal="1957">1957</unitdate>
+       <unitdate normal="1957" type="inclusive">1957</unitdate>
        <unittitle>Class of 1912 45th reunion tumbler</unittitle>
       </did>
       <scopecontent>
@@ -1209,17 +1207,17 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">22</container>
+       <container label="unspecified" type="box">22</container>
        <unitid>MU-2375</unitid>
-       <unitdate type="inclusive" normal="1961">1961</unitdate>
+       <unitdate normal="1961" type="inclusive">1961</unitdate>
        <unittitle>Ballantine beer class of 1936 reunion tin mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">17</container>
+       <container label="unspecified" type="box">17</container>
        <unitid>MU-2370</unitid>
-       <unitdate type="inclusive" normal="1964">1964</unitdate>
+       <unitdate normal="1964" type="inclusive">1964</unitdate>
        <unittitle>Cornell Class of 1939 25th reunion bottle</unittitle>
       </did>
       <scopecontent>
@@ -1228,16 +1226,16 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-1233</unitid>
        <unittitle>Cornell Class of 1940 25th reunion tankard, made from pewter</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">18</container>
+       <container label="unspecified" type="box">18</container>
        <unitid>MU-2388</unitid>
-       <unitdate type="inclusive" normal="1969-06-12">1969-06-12</unitdate>
+       <unitdate normal="1969-06-12" type="inclusive">1969-06-12</unitdate>
        <unittitle>Cornell Class of 1944 25th class reunion</unittitle>
       </did>
       <scopecontent>
@@ -1246,9 +1244,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">19</container>
+       <container label="unspecified" type="box">19</container>
        <unitid>MU-2368a-2368b</unitid>
-       <unitdate type="inclusive" normal="1985">1985</unitdate>
+       <unitdate normal="1985" type="inclusive">1985</unitdate>
        <unittitle>Cornell Class of 1920 65th reunion mug</unittitle>
       </did>
       <scopecontent>
@@ -1257,9 +1255,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">18</container>
+       <container label="unspecified" type="box">18</container>
        <unitid>MU-2369</unitid>
-       <unitdate type="inclusive" normal="1985">1985</unitdate>
+       <unitdate normal="1985" type="inclusive">1985</unitdate>
        <unittitle>Cornell Class of 1945 40th reunion tankard</unittitle>
       </did>
       <scopecontent>
@@ -1268,9 +1266,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">18</container>
+       <container label="unspecified" type="box">18</container>
        <unitid>MU-1317-1318</unitid>
-       <unitdate type="inclusive" normal="1985">1985</unitdate>
+       <unitdate normal="1985" type="inclusive">1985</unitdate>
        <unittitle>Cornell Class of 1945 40th reunion tankard</unittitle>
       </did>
       <scopecontent>
@@ -1279,9 +1277,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">18</container>
+       <container label="unspecified" type="box">18</container>
        <unitid>MU-1315-1316</unitid>
-       <unitdate type="inclusive" normal="1980">1980</unitdate>
+       <unitdate normal="1980" type="inclusive">1980</unitdate>
        <unittitle>Cornell Class of 1945 35th reunion tankard</unittitle>
       </did>
       <scopecontent>
@@ -1290,25 +1288,25 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">22</container>
+       <container label="unspecified" type="box">22</container>
        <unitid>MU-1319-1320</unitid>
-       <unitdate type="inclusive" normal="1990">1990</unitdate>
+       <unitdate normal="1990" type="inclusive">1990</unitdate>
        <unittitle>Cornell Class of 1945 45th reunion tankard</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">17</container>
+       <container label="unspecified" type="box">17</container>
        <unitid>MU-1282-1283</unitid>
-       <unitdate type="inclusive" normal="1993">1993</unitdate>
+       <unitdate normal="1993" type="inclusive">1993</unitdate>
        <unittitle>Cornell Class of 1983 10th reunion champagne flute</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">17</container>
+       <container label="unspecified" type="box">17</container>
        <unitid>MU-2392a-2392b</unitid>
-       <unitdate type="inclusive" normal="1987">1987</unitdate>
+       <unitdate normal="1987" type="inclusive">1987</unitdate>
        <unittitle>Class of 1987 Wine tumbler</unittitle>
       </did>
      </c03>
@@ -1319,15 +1317,15 @@
      </did>
      <c03 level="item">
       <did>
-       <container type="box">22</container>
+       <container label="unspecified" type="box">22</container>
        <unitid>MU-2466</unitid>
-       <unitdate type="inclusive" normal="1934">1934</unitdate>
+       <unitdate normal="1934" type="inclusive">1934</unitdate>
        <unittitle>Sigma Alpha Mu tankard</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">24, 25</container>
+       <container label="unspecified" type="box">24, 25</container>
        <unitid>MU-562, MU-1180a, MU-1299, MU-1368, MU-2468a-x</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Cosmopolitan Club cup</unittitle>
@@ -1335,7 +1333,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">23, 24</container>
+       <container label="unspecified" type="box">23, 24</container>
        <unitid>MU-563, MU-1180b</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Cosmopolitan Club saucer</unittitle>
@@ -1343,7 +1341,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">23, 24</container>
+       <container label="unspecified" type="box">23, 24</container>
        <unitid>MU-2467a-kk</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Cosmopolitan Club saucers</unittitle>
@@ -1354,7 +1352,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-2341</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Cornell Alembic mug</unittitle>
@@ -1365,9 +1363,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-1222</unitid>
-       <unitdate type="inclusive" normal="1903">1903</unitdate>
+       <unitdate normal="1903" type="inclusive">1903</unitdate>
        <unittitle>College of Law mug</unittitle>
       </did>
       <scopecontent>
@@ -1376,9 +1374,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-997</unitid>
-       <unitdate type="inclusive" normal="1906">1906</unitdate>
+       <unitdate normal="1906" type="inclusive">1906</unitdate>
        <unittitle>Cornell Junior Law Smoker</unittitle>
       </did>
       <scopecontent>
@@ -1388,7 +1386,7 @@
      <c03 level="item">
       <did>
        <unitid>MU-998</unitid>
-       <unitdate type="inclusive" normal="1906">1906</unitdate>
+       <unitdate normal="1906" type="inclusive">1906</unitdate>
        <unittitle>Cornell Law Senior Smoker</unittitle>
       </did>
       <scopecontent>
@@ -1397,39 +1395,39 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">19</container>
+       <container label="unspecified" type="box">19</container>
        <unitid>MU-2342</unitid>
-       <unitdate type="inclusive" normal="1908">1908</unitdate>
+       <unitdate normal="1908" type="inclusive">1908</unitdate>
        <unittitle>College of Law Smoker mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">22</container>
+       <container label="unspecified" type="box">22</container>
        <unitid>MU-2345</unitid>
-       <unitdate type="inclusive" normal="1909">1909</unitdate>
+       <unitdate normal="1909" type="inclusive">1909</unitdate>
        <unittitle>College of Law Smoker mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">19</container>
+       <container label="unspecified" type="box">19</container>
        <unitid>MU-1225, MU-2344</unitid>
-       <unitdate type="inclusive" normal="1910">1910</unitdate>
+       <unitdate normal="1910" type="inclusive">1910</unitdate>
        <unittitle>College of Law Smoker mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-2355-2356</unitid>
-       <unitdate type="inclusive" normal="1912">1912</unitdate>
+       <unitdate normal="1912" type="inclusive">1912</unitdate>
        <unittitle>Chemists' Feed</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">19</container>
+       <container label="unspecified" type="box">19</container>
        <unitid>MU-1145</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>College of Agriculture and Life Sciences</unittitle>
@@ -1440,7 +1438,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-126</unitid>
        <unittitle>Cornell Co-op dining mug</unittitle>
       </did>
@@ -1450,7 +1448,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">18</container>
+       <container label="unspecified" type="box">18</container>
        <unitid>MU-2459a-2459b</unitid>
        <unittitle>Cornell Crew mug</unittitle>
       </did>
@@ -1460,7 +1458,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">22</container>
+       <container label="unspecified" type="box">22</container>
        <unitid>MU-1279-1281</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Thirsty Bear Tavern 7th anniversary plastic mug</unittitle>
@@ -1468,9 +1466,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">22</container>
+       <container label="unspecified" type="box">22</container>
        <unitid>MU-2389</unitid>
-       <unitdate type="inclusive" normal="1944">1944</unitdate>
+       <unitdate normal="1944" type="inclusive">1944</unitdate>
        <unittitle>Pi Lambda Phi tankard</unittitle>
       </did>
       <scopecontent>
@@ -1479,7 +1477,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">19</container>
+       <container label="unspecified" type="box">19</container>
        <unitid>MU-1113</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Plastic Library coffee mug</unittitle>
@@ -1487,7 +1485,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">22</container>
+       <container label="unspecified" type="box">22</container>
        <unitid>MU-2083</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Plastic Cornell coffee mug</unittitle>
@@ -1495,7 +1493,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">22</container>
+       <container label="unspecified" type="box">22</container>
        <unitid>MU-2391</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Cornell Computer Science 50 years mug</unittitle>
@@ -1503,7 +1501,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">19</container>
+       <container label="unspecified" type="box">19</container>
        <unitid>MU-2461</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Statler Club mug</unittitle>
@@ -1511,9 +1509,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">22</container>
+       <container label="unspecified" type="box">22</container>
        <unitid>MU-2465</unitid>
-       <unitdate type="inclusive" normal="1958">1958</unitdate>
+       <unitdate normal="1958" type="inclusive">1958</unitdate>
        <unittitle>Tau Delta Eta tankard with "Annie" written in gold</unittitle>
       </did>
      </c03>
@@ -1524,9 +1522,9 @@
      </did>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-1366</unitid>
-       <unitdate type="inclusive" normal="1909">1909</unitdate>
+       <unitdate normal="1909" type="inclusive">1909</unitdate>
        <unittitle>Cornell Yell mug</unittitle>
       </did>
       <scopecontent>
@@ -1536,7 +1534,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">19</container>
+       <container label="unspecified" type="box">19</container>
        <unitid>MU-2354</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Cornell Yell mug</unittitle>
@@ -1548,17 +1546,17 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-2360</unitid>
-       <unitdate type="inclusive" normal="1912-05-18">1912-05-18</unitdate>
+       <unitdate normal="1912-05-18" type="inclusive">1912-05-18</unitdate>
        <unittitle>"Ba-Tum-Zup" mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">18</container>
+       <container label="unspecified" type="box">18</container>
        <unitid>MU-2366</unitid>
-       <unitdate type="inclusive" normal="1912">1912</unitdate>
+       <unitdate normal="1912" type="inclusive">1912</unitdate>
        <unittitle>Handmade mug with man in car above McGraw Tower</unittitle>
       </did>
       <scopecontent>
@@ -1567,7 +1565,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">17</container>
+       <container label="unspecified" type="box">17</container>
        <unitid>MU-1285</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Glass Cornell mug</unittitle>
@@ -1578,7 +1576,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">17</container>
+       <container label="unspecified" type="box">17</container>
        <unitid>MU-214</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Cornell University milk bottle</unittitle>
@@ -1589,9 +1587,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-1157</unitid>
-       <unitdate type="inclusive" normal="1993">1993</unitdate>
+       <unitdate normal="1993" type="inclusive">1993</unitdate>
        <unittitle>Cornell University mug</unittitle>
       </did>
       <scopecontent>
@@ -1600,9 +1598,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-1158</unitid>
-       <unitdate type="inclusive" normal="1996">1996</unitdate>
+       <unitdate normal="1996" type="inclusive">1996</unitdate>
        <unittitle>Cornell University mug </unittitle>
       </did>
       <scopecontent>
@@ -1611,9 +1609,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-1159</unitid>
-       <unitdate type="inclusive" normal="1997">1997</unitdate>
+       <unitdate normal="1997" type="inclusive">1997</unitdate>
        <unittitle>Cornell University mug </unittitle>
       </did>
       <scopecontent>
@@ -1622,9 +1620,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-1160</unitid>
-       <unitdate type="inclusive" normal="1999">1999</unitdate>
+       <unitdate normal="1999" type="inclusive">1999</unitdate>
        <unittitle>Cornell University mug </unittitle>
       </did>
       <scopecontent>
@@ -1633,9 +1631,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-1161</unitid>
-       <unitdate type="inclusive" normal="2001">2001</unitdate>
+       <unitdate normal="2001" type="inclusive">2001</unitdate>
        <unittitle>Cornell University mug </unittitle>
       </did>
       <scopecontent>
@@ -1644,9 +1642,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">21</container>
+       <container label="unspecified" type="box">21</container>
        <unitid>MU-1162-1163</unitid>
-       <unitdate type="inclusive" normal="2003">2003</unitdate>
+       <unitdate normal="2003" type="inclusive">2003</unitdate>
        <unittitle>Cornell University mug </unittitle>
       </did>
       <scopecontent>
@@ -1655,7 +1653,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">22</container>
+       <container label="unspecified" type="box">22</container>
        <unitid>MU-1321</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Cornell University tankard</unittitle>
@@ -1666,7 +1664,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">17</container>
+       <container label="unspecified" type="box">17</container>
        <unitid>MU-2353a-2353b</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Cognac glass with gold Cornell emblem</unittitle>
@@ -1674,7 +1672,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">17</container>
+       <container label="unspecified" type="box">17</container>
        <unitid>MU-2347a-2347b</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Highball glass with Cornell emblem and silver rim</unittitle>
@@ -1682,7 +1680,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">17</container>
+       <container label="unspecified" type="box">17</container>
        <unitid>MU-2349a-2349b</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Tumbler glass with Cornell emblem and silver rim</unittitle>
@@ -1690,7 +1688,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">17</container>
+       <container label="unspecified" type="box">17</container>
        <unitid>MU-2351a-2351b</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Highball glass with red and white Cornell emblem</unittitle>
@@ -1698,7 +1696,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">17</container>
+       <container label="unspecified" type="box">17</container>
        <unitid>MU-2352a-2352b</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Highball glass with red Cornell emblem</unittitle>
@@ -1706,79 +1704,79 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-2371a-2371b</unitid>
-       <unitdate type="inclusive" normal="1962">1962</unitdate>
+       <unitdate normal="1962" type="inclusive">1962</unitdate>
        <unittitle>Cornell Alumni Reunion tin mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-2372</unitid>
-       <unitdate type="inclusive" normal="1963">1963</unitdate>
+       <unitdate normal="1963" type="inclusive">1963</unitdate>
        <unittitle>Cornell Alumni Reunion tin mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-2385a-2385b</unitid>
-       <unitdate type="inclusive" normal="1964">1964</unitdate>
+       <unitdate normal="1964" type="inclusive">1964</unitdate>
        <unittitle>Cornell Alumni Reunion tin mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-421-422</unitid>
-       <unitdate type="inclusive" normal="1966">1966</unitdate>
+       <unitdate normal="1966" type="inclusive">1966</unitdate>
        <unittitle>Cornell Alumni Reunion tin mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">18</container>
+       <container label="unspecified" type="box">18</container>
        <unitid>MU-2374</unitid>
-       <unitdate type="inclusive" normal="1969">1969</unitdate>
+       <unitdate normal="1969" type="inclusive">1969</unitdate>
        <unittitle>Cornell Alumni Reunion tin mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">18</container>
+       <container label="unspecified" type="box">18</container>
        <unitid>MU-1322a-1322b</unitid>
-       <unitdate type="inclusive" normal="1970">1970</unitdate>
+       <unitdate normal="1970" type="inclusive">1970</unitdate>
        <unittitle>Cornell Class Reunion tin mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">18</container>
+       <container label="unspecified" type="box">18</container>
        <unitid>MU-2386</unitid>
-       <unitdate type="inclusive" normal="1971">1971</unitdate>
+       <unitdate normal="1971" type="inclusive">1971</unitdate>
        <unittitle>Cornell Class Reunion tin mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">18</container>
+       <container label="unspecified" type="box">18</container>
        <unitid>MU-2373a-2373b</unitid>
-       <unitdate type="inclusive" normal="1972">1972</unitdate>
+       <unitdate normal="1972" type="inclusive">1972</unitdate>
        <unittitle>Cornell Class Reunion tin mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">18</container>
+       <container label="unspecified" type="box">18</container>
        <unitid>MU-2387a-2387b</unitid>
-       <unitdate type="inclusive" normal="1974">1974</unitdate>
+       <unitdate normal="1974" type="inclusive">1974</unitdate>
        <unittitle>Cornell Class Reunion tin mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">20</container>
+       <container label="unspecified" type="box">20</container>
        <unitid>MU-1306</unitid>
        <unitdate>Undated</unitdate>
        <unittitle>Tin mug with Cornell C and lion</unittitle>
@@ -1786,17 +1784,17 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">18</container>
+       <container label="unspecified" type="box">18</container>
        <unitid>MU-1307, MU-2384</unitid>
-       <unitdate type="inclusive" normal="1949">1949</unitdate>
+       <unitdate normal="1949" type="inclusive">1949</unitdate>
        <unittitle>Cornell Class Reunion tin mug</unittitle>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">17</container>
+       <container label="unspecified" type="box">17</container>
        <unitid>MU-1284</unitid>
-       <unitdate type="inclusive" certainty="Circa" normal="1965">1965</unitdate>
+       <unitdate certainty="approximate" normal="1965" type="inclusive">1965</unitdate>
        <unittitle>Cornell glass, 1865-1965 with emblem</unittitle>
       </did>
      </c03>
@@ -1808,9 +1806,9 @@
     </did>
     <c02 level="item">
      <did>
-      <container type="box">26</container>
+      <container label="unspecified" type="box">26</container>
       <unitid>Mu-578, MU-216</unitid>
-      <unitdate type="inclusive" certainty="Circa" normal="1893/1910">1893-1910</unitdate>
+      <unitdate certainty="approximate" normal="1893/1910" type="inclusive">1893-1910</unitdate>
       <unittitle>Souvenir plate showing 7 campus scenes</unittitle>
      </did>
      <scopecontent>
@@ -1819,9 +1817,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">26</container>
+      <container label="unspecified" type="box">26</container>
       <unitid>MU-216</unitid>
-      <unitdate type="inclusive" normal="1904-06">1904-06</unitdate>
+      <unitdate normal="1904-06" type="inclusive">1904-06</unitdate>
       <unittitle>Plate with Cornell emblem in center and 6 building scenes </unittitle>
      </did>
      <scopecontent>
@@ -1830,7 +1828,7 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">27</container>
+      <container label="unspecified" type="box">27</container>
       <unitid>MU-2501</unitid>
       <unitdate>Undated</unitdate>
       <unittitle>Clear glass plate with "Cornell" etched on</unittitle>
@@ -1838,7 +1836,7 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">26</container>
+      <container label="unspecified" type="box">26</container>
       <unitid>MU-2048</unitid>
       <unitdate>Undated</unitdate>
       <unittitle>"Libe" tower plate</unittitle>
@@ -1849,7 +1847,7 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">27</container>
+      <container label="unspecified" type="box">27</container>
       <unitid>MU-1077</unitid>
       <unitdate>Undated</unitdate>
       <unittitle>Painted plate with image of New York State Agriculture School</unittitle>
@@ -1860,7 +1858,7 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">27</container>
+      <container label="unspecified" type="box">27</container>
       <unitid>MU-1076</unitid>
       <unitdate>Undated</unitdate>
       <unittitle>Red-rimmed plate </unittitle>
@@ -1871,15 +1869,15 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">26</container>
+      <container label="unspecified" type="box">26</container>
       <unitid>MU-1121</unitid>
-      <unitdate type="inclusive" normal="1986-06-06">1986-06-06</unitdate>
+      <unitdate normal="1986-06-06" type="inclusive">1986-06-06</unitdate>
       <unittitle>Cornell Cooperative Extension Seventy-fifth Anniversary Banquet</unittitle>
      </did>
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">27</container>
+      <container label="unspecified" type="box">27</container>
       <unitid>MU-2502</unitid>
       <unitdate>Undated</unitdate>
       <unittitle>Library Tower image ash tray</unittitle>
@@ -1887,5 +1885,9 @@
     </c02>
    </c01>
   </dsc>
- </archdesc>
+ <prefercite>
+    <head>Cite As:</head>
+    <p>Cornell University. Alumni Association. Cornell Plates. Records, #41-7-1964. Division of Rare
+     and Manuscript Collections, Cornell University Library. </p>
+   </prefercite></archdesc>
 </ead>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead>
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08573::Nahum (Nach) Waxman Collection of Food and Culinary Trade Cards)//EN">RMM08573</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08573::Nahum (Nach) Waxman Collection of Food and Culinary Trade Cards)//EN">RMM08573</eadid>
   <filedesc>
     <titlestmt>
       <titleproper>Guide to the Nahum (Nach) Waxman Collection of Food and Culinary Trade Cards, <date>circa 1850-1900.</date></titleproper>
@@ -23,16 +23,22 @@
   <profiledesc>
     <creation>Finding aid encoded by RMC Staff, <date>October 2018</date></creation>
   </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
            <titlepage>
-                   <titleproper>Guide to the Nahum (Nach) Waxman Collection of Food and Culinary Trade Cards, <lb/><date type="inclusive" encodinganalog="245$f">circa 1850-1900.</date></titleproper>
+                   <titleproper>Guide to the Nahum (Nach) Waxman Collection of Food and Culinary Trade Cards, <date encodinganalog="245$f" type="inclusive">circa 1850-1900.</date></titleproper>
            <num>Collection Number: 8573</num>
-           <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+           <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
            <list type="deflist">
                    <defitem>
                            <label>Contact Information:</label>
-                           <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+                           <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
                    </defitem>
                    <defitem>
                            <label>Compiled by:</label>
@@ -57,15 +63,14 @@
   <archdesc level="collection">
     <did>
             <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245">Nahum (Nach) Waxman Collection of Food and Culinary Trade Cards,
-            <unitdate encodinganalog="MARC 245" type="inclusive">circa 1850-1900.</unitdate>
-            </unittitle>
+            <unittitle encodinganalog="MARC 245" label="Title:">Nahum (Nach) Waxman Collection of Food and Culinary Trade Cards,
+            </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1850-1900.</unitdate>
             <unitid label="Collection Number:">8573</unitid>
             <origination label="Creator:">
                     <persname encodinganalog="100" normal="Waxman, Nahum "> Nahum Waxman                    </persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>36 binders.</extent></physdesc>
-            <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1 scrapbook.</extent></physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>36 binders.</extent></physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 scrapbooks</extent></physdesc>
             <physdesc label="Forms of Material:">Printed Materials.</physdesc>
             <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
             <abstract label="Abstract:">This collection traces the history of food, cookery, agriculture, kitchen equipment, and more through hundreds of advertising trade cards from the second half of the 19th century.</abstract>
@@ -73,7 +78,7 @@
             </langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">
-            <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+            <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
             <p>In 1983 Nach Waxman opened the New York City book store Kitchen Arts &amp; Letters, specializing in cookbooks, gastronomy, and food books and magazines from across the world.</p>
     </bioghist>
     <scopecontent encodinganalog="MARC 520">
@@ -101,12 +106,8 @@
     </controlaccess>
   </controlaccess>
     <descgrp>
-           <head id="a8">INFORMATION FOR USERS</head>
-                  <prefercite>
-                          <head>Cite As:</head>
-                                   <p>Nahum (Nach) Waxman Collection of Food and Culinary Trade Cards, #8573. Division of Rare and Manuscript Collections, Cornell University Library.
-                                   </p>
-                  </prefercite>
+           
+                  
          <arrangement><p>
           Physical arrangement by donor. Intellectually arranged in alphabetical order.
          </p></arrangement>
@@ -114,77 +115,77 @@
              <arrangement>
              <head>SERIES LIST</head>
              <p> <emph render="bold">
-             <ref target="s1" show="replace" actuate="onrequest">Series I. Agriculture</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s1">Series I. Agriculture</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s2" show="replace" actuate="onrequest">Series II. Baking</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s2">Series II. Baking</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s3" show="replace" actuate="onrequest">Series III. Baking: Flours and Milling</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s3">Series III. Baking: Flours and Milling</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s4" show="replace" actuate="onrequest">Series IV. Baking: Rising Agents</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s4">Series IV. Baking: Rising Agents</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s5" show="replace" actuate="onrequest">Series V. Beverages: Nonalcoholic</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s5">Series V. Beverages: Nonalcoholic</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s6" show="replace" actuate="onrequest">Series VI. Beverages: Fermented and Distilled</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s6">Series VI. Beverages: Fermented and Distilled</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s7" show="replace" actuate="onrequest">Series VII. Beverages: Coffee</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s7">Series VII. Beverages: Coffee</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s8" show="replace" actuate="onrequest">Series VIII. Beverages: Tea</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s8">Series VIII. Beverages: Tea</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s9" show="replace" actuate="onrequest">Series IX. Candy and Other Confections</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s9">Series IX. Candy and Other Confections</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s10" show="replace" actuate="onrequest">Series X. Chocolate</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s10">Series X. Chocolate</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s11" show="replace" actuate="onrequest">Series XI. Condiments</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s11">Series XI. Condiments</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s12" show="replace" actuate="onrequest">Series XII. Dairy Products</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s12">Series XII. Dairy Products</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s13" show="replace" actuate="onrequest">Series XIII. Extracts (Nutritional)</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s13">Series XIII. Extracts (Nutritional)</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s14" show="replace" actuate="onrequest">Series XIV. Fats and Oils</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s14">Series XIV. Fats and Oils</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s15" show="replace" actuate="onrequest">Series XV. Fish and Seafood</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s15">Series XV. Fish and Seafood</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s16" show="replace" actuate="onrequest">Series XVI. Flavorings</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s16">Series XVI. Flavorings</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s17" show="replace" actuate="onrequest">Series XVII. Fruit and Fruit Products</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s17">Series XVII. Fruit and Fruit Products</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s18" show="replace" actuate="onrequest">Series XVIII. Gelatin and Gelatin Products</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s18">Series XVIII. Gelatin and Gelatin Products</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s19" show="replace" actuate="onrequest">Series XIX. Grocery Stores I</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s19">Series XIX. Grocery Stores I</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s20" show="replace" actuate="onrequest">Series XX. Household: Kitchen Equipment and Tableware</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s20">Series XX. Household: Kitchen Equipment and Tableware</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s21" show="replace" actuate="onrequest">Series XXI. Household: Maintenance</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s21">Series XXI. Household: Maintenance</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s22" show="replace" actuate="onrequest">Series XXII. Ice Cream</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s22">Series XXII. Ice Cream</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s23" show="replace" actuate="onrequest">Series XXIII. Meat</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s23">Series XXIII. Meat</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s24" show="replace" actuate="onrequest">Series XXIV. Mince Meat and Plum Pudding</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s24">Series XXIV. Mince Meat and Plum Pudding</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s25" show="replace" actuate="onrequest">Series XXV. Medicinals</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s25">Series XXV. Medicinals</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s26" show="replace" actuate="onrequest">Series XXVI. Preserves, Extracts, Dried Fruits, Juices, Syrups</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s26">Series XXVI. Preserves, Extracts, Dried Fruits, Juices, Syrups</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s27" show="replace" actuate="onrequest">Series XXVII. Restaurants</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s27">Series XXVII. Restaurants</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s28" show="replace" actuate="onrequest">Series XXVIII. Scent</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s28">Series XXVIII. Scent</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s29" show="replace" actuate="onrequest">Series XXIX. Scrapbook of Assorted Trade Cards</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s29">Series XXIX. Scrapbook of Assorted Trade Cards</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s30" show="replace" actuate="onrequest">Series XXX. Seed and Nut Foods</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s30">Series XXX. Seed and Nut Foods</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s31" show="replace" actuate="onrequest">Series XXXI. Soup</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s31">Series XXXI. Soup</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s32" show="replace" actuate="onrequest">Series XXXII. Starch</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s32">Series XXXII. Starch</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s33" show="replace" actuate="onrequest">Series XXXIII. Stoves</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s33">Series XXXIII. Stoves</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s34" show="replace" actuate="onrequest">Series XXXIV. Thurbers'</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s34">Series XXXIV. Thurbers'</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s35" show="replace" actuate="onrequest">Series XXXV. Vegetable People</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s35">Series XXXV. Vegetable People</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s36" show="replace" actuate="onrequest">Series XXXVI. Water and Ice</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s36">Series XXXVI. Water and Ice</ref> </emph>  </p>
              </arrangement>
     <dsc type="combined">
       <head>CONTAINER LIST</head>
@@ -199,73 +200,73 @@
       
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Farming Equipment</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>General</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Mowers and Harvesters</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Binders</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Plows</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Furnaces and Boilers</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Nails</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Fencing</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Other Farm Equipment</unittitle>
        </did>
               </c03>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Fertilizers</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Animal Seed</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Seed</unittitle>
        </did>
            </c02>
@@ -276,48 +277,48 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unittitle>Grains</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unittitle>Corn</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unittitle>Oats</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unittitle>Farinose, Avena</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unittitle>Wheat</unittitle>
        </did>
               </c03>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unittitle>Grain-Based Breakfast Foods</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unittitle>Breakfast Cereals</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unittitle>Pancakes and Waffles</unittitle>
        </did>
            </c03>
@@ -329,19 +330,19 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unittitle>Wheat Flour</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unittitle>Buckwheat Flour</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unittitle>Flour Dealers</unittitle>
        </did>
            </c02>
@@ -352,60 +353,60 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unittitle>Baking Soda and Baking Powder (A-H)</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unittitle>Baking Soda and Baking Powder (I-Z)</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unittitle>Yeast</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unittitle>Fleischmann</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unittitle>Other Yeast Brands</unittitle>
        </did>
               </c03>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unittitle>Bakeries</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unittitle>Bakery Products</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unittitle>Bread</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unittitle>Cakes</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unittitle>Biscuits (Cookies and Crackers)</unittitle>
        </did>
            </c03>
@@ -417,7 +418,7 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unittitle>Sodas, Tonics, Phosphates</unittitle>
        </did>
            </c02>
@@ -428,48 +429,48 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unittitle>Whiskies, Brandies, Cordials, Allied Beverages</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unittitle>Beer, Ale, Cider</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unittitle>Wines,</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unittitle>Still Wines</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unittitle>Sparkling Wines, Champagne</unittitle>
        </did>
               </c03>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unittitle>Alcoholic Beverage Sellers</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unittitle>Bars, Sampling Rooms, Taverns, Alehouses, and Other Drinking Establishments</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unittitle>Retail and Wholesale Dealers</unittitle>
        </did>
            </c03>
@@ -481,31 +482,31 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unittitle>Coffee</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unittitle>Coffee Brands</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unittitle>Coffee and Tea Dealers</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unittitle>Coffee Substitutes</unittitle>
        </did>
               </c03>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">10</container>
+        <container label="unspecified" type="box">10</container>
         <unittitle>Arbuckle/Ariosa Coffee</unittitle>
        </did>
            </c02>
@@ -516,13 +517,13 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">11</container>
+        <container label="unspecified" type="box">11</container>
         <unittitle>Tea Brands</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">11</container>
+        <container label="unspecified" type="box">11</container>
         <unittitle>Tea Houses and Tea Stores</unittitle>
        </did>
            </c02>
@@ -533,13 +534,13 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">32</container>
+        <container label="unspecified" type="box">32</container>
         <unittitle>Candy and Confectionary Shops</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">32</container>
+        <container label="unspecified" type="box">32</container>
         <unittitle>Chewing Gum</unittitle>
        </did>
            </c02>
@@ -550,31 +551,31 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">33</container>
+        <container label="unspecified" type="box">33</container>
         <unittitle>Chocolate and Chocolate Producers</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">33</container>
+        <container label="unspecified" type="box">33</container>
         <unittitle>Cocoa</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">34</container>
+        <container label="unspecified" type="box">34</container>
         <unittitle>Stollwerck's Group 1-175</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">35</container>
+        <container label="unspecified" type="box">35</container>
         <unittitle>Stollwerck's Group 176-496</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">36</container>
+        <container label="unspecified" type="box">36</container>
         <unittitle>Poulain Chocolate Sets</unittitle>
        </did>
        <scopecontent><p>This box contains a number of full and partial card sets for Chocolat Poulain.</p></scopecontent>
@@ -586,7 +587,7 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unittitle>Sauces, Dressings, Mustards, Ketchups</unittitle>
        </did>
            </c02>
@@ -597,13 +598,13 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unittitle>Milk and Butter, Cheese, Cream, Dairy Stores</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unittitle>Condensed Milk</unittitle>
        </did>
            </c02>
@@ -614,55 +615,55 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unittitle>Dairy-Based Extracts</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unittitle>Grain-Based Extracts</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unittitle>Imperial Granum</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unittitle>Mellin's</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unittitle>Ridge's</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unittitle>Wells Richardson</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">12</container>
+        <container label="unspecified" type="box">12</container>
         <unittitle>Other Grain-Based Extracts</unittitle>
        </did>
               </c03>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">13</container>
+        <container label="unspecified" type="box">13</container>
         <unittitle>Meat-Based Extracts</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">13</container>
+        <container label="unspecified" type="box">13</container>
         <unittitle>Liebig Extracts</unittitle>
        </did>
            </c02>
@@ -673,42 +674,42 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">14</container>
+        <container label="unspecified" type="box">14</container>
         <unittitle>Butter Substitutes and Shortenings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">14</container>
+        <container label="unspecified" type="box">14</container>
         <unittitle>Lard</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">14</container>
+        <container label="unspecified" type="box">14</container>
         <unittitle>Fairbanks</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">14</container>
+        <container label="unspecified" type="box">14</container>
         <unittitle>Naphey's</unittitle>
        </did>
               </c03>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">14</container>
+        <container label="unspecified" type="box">14</container>
         <unittitle>Oils</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">14</container>
+        <container label="unspecified" type="box">14</container>
         <unittitle>Olive Oil</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">14</container>
+        <container label="unspecified" type="box">14</container>
         <unittitle>Vegetable Oils</unittitle>
        </did>
            </c03>
@@ -720,31 +721,31 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">15</container>
+        <container label="unspecified" type="box">15</container>
         <unittitle>Fish</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">15</container>
+        <container label="unspecified" type="box">15</container>
         <unittitle>Clams</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">15</container>
+        <container label="unspecified" type="box">15</container>
         <unittitle>Lobsters</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">15</container>
+        <container label="unspecified" type="box">15</container>
         <unittitle>Oysters and Oyster Houses</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">15</container>
+        <container label="unspecified" type="box">15</container>
         <unittitle>Fishmongers, Seafood Dealers</unittitle>
        </did>
            </c02>
@@ -755,54 +756,54 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">16</container>
+        <container label="unspecified" type="box">16</container>
         <unittitle>Spices and Flavoring Extracts</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">17</container>
+        <container label="unspecified" type="box">17</container>
         <unittitle>Salt</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">17</container>
+        <container label="unspecified" type="box">17</container>
         <unittitle>Sweeteners</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">17</container>
+        <container label="unspecified" type="box">17</container>
         <unittitle>Sugars</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">17</container>
+        <container label="unspecified" type="box">17</container>
         <unittitle>Syrups</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">17</container>
+        <container label="unspecified" type="box">17</container>
         <unittitle>Honey</unittitle>
        </did>
               </c03>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">17</container>
+        <container label="unspecified" type="box">17</container>
         <unittitle>Vinegars</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">17</container>
+        <container label="unspecified" type="box">17</container>
         <unittitle>Alden's</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">17</container>
+        <container label="unspecified" type="box">17</container>
         <unittitle>Other Vinegar Brands</unittitle>
        </did>
            </c03>
@@ -814,7 +815,7 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">18</container>
+        <container label="unspecified" type="box">18</container>
         <unittitle>Preserves, Extracts, Dried Fruits, Juices, Syrups</unittitle>
        </did>
            </c02>
@@ -825,13 +826,13 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">18</container>
+        <container label="unspecified" type="box">18</container>
         <unittitle>Jell-O</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">18</container>
+        <container label="unspecified" type="box">18</container>
         <unittitle>Other Gelatin Brands</unittitle>
        </did>
            </c02>
@@ -842,42 +843,42 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">19</container>
+        <container label="unspecified" type="box">19</container>
         <unittitle>Independent Grocers</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">20</container>
+        <container label="unspecified" type="box">20</container>
         <unittitle>Chain Grocers</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">20</container>
+        <container label="unspecified" type="box">20</container>
         <unittitle>Grand Union Tea Co.</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">20</container>
+        <container label="unspecified" type="box">20</container>
         <unittitle>Great Atlantic &amp; Pacific Tea Co. (A &amp; P)</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">20</container>
+        <container label="unspecified" type="box">20</container>
         <unittitle>Great Japan and London Tea Co.</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">20</container>
+        <container label="unspecified" type="box">20</container>
         <unittitle>Great London Tea Co.</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">20</container>
+        <container label="unspecified" type="box">20</container>
         <unittitle>Union Pacific Tea Co.</unittitle>
        </did>
            </c03>
@@ -889,31 +890,31 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">21</container>
+        <container label="unspecified" type="box">21</container>
         <unittitle>Small Appliances and Kitchen Tools</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">21</container>
+        <container label="unspecified" type="box">21</container>
         <unittitle>Stoves</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">21</container>
+        <container label="unspecified" type="box">21</container>
         <unittitle>Iceboxes and Refrigerators</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">21</container>
+        <container label="unspecified" type="box">21</container>
         <unittitle>Ironware</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">21</container>
+        <container label="unspecified" type="box">21</container>
         <unittitle>Tableware</unittitle>
        </did>
            </c02>
@@ -924,60 +925,60 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">22</container>
+        <container label="unspecified" type="box">22</container>
         <unittitle>Clothing Care</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">22</container>
+        <container label="unspecified" type="box">22</container>
         <unittitle>Laundry Soap</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">22</container>
+        <container label="unspecified" type="box">22</container>
         <unittitle>Clothes Wringers</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">22</container>
+        <container label="unspecified" type="box">22</container>
         <unittitle>Irons</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">22</container>
+        <container label="unspecified" type="box">22</container>
         <unittitle>Laundry Starch</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">22</container>
+        <container label="unspecified" type="box">22</container>
         <unittitle>Sewing Machines</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">22</container>
+        <container label="unspecified" type="box">22</container>
         <unittitle>Dyes</unittitle>
        </did>
               </c03>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">22</container>
+        <container label="unspecified" type="box">22</container>
         <unittitle>Lawn Care</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">22</container>
+        <container label="unspecified" type="box">22</container>
         <unittitle>Cleansing Agents</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">22</container>
+        <container label="unspecified" type="box">22</container>
         <unittitle>Soaps, Solvents, Polishes</unittitle>
        </did>
            </c03>
@@ -989,13 +990,13 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">22</container>
+        <container label="unspecified" type="box">22</container>
         <unittitle>Ice Cream Shops and Parlors</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">22</container>
+        <container label="unspecified" type="box">22</container>
         <unittitle>Ice Cream Freezers and Other Equipment</unittitle>
        </did>
            </c02>
@@ -1006,90 +1007,90 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">23</container>
+        <container label="unspecified" type="box">23</container>
         <unittitle>Canned Meats</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">23</container>
+        <container label="unspecified" type="box">23</container>
         <unittitle>Fairbank</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">23</container>
+        <container label="unspecified" type="box">23</container>
         <unittitle>Hammond</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">23</container>
+        <container label="unspecified" type="box">23</container>
         <unittitle>Libby, McNeill &amp; Libby</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">23</container>
+        <container label="unspecified" type="box">23</container>
         <unittitle>St. Louis Beef</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">23</container>
+        <container label="unspecified" type="box">23</container>
         <unittitle>Wilson's Beef</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">23</container>
+        <container label="unspecified" type="box">23</container>
         <unittitle>Other Canned Meat Brands</unittitle>
        </did>
               </c03>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">23</container>
+        <container label="unspecified" type="box">23</container>
         <unittitle>Preserved Meat Products</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">23</container>
+        <container label="unspecified" type="box">23</container>
         <unittitle>Cured Hams, Sausages, Luncheon Meats</unittitle>
        </did>
               </c03>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">24</container>
+        <container label="unspecified" type="box">24</container>
         <unittitle>Meat Retail Shops (Butchers)</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">24</container>
+        <container label="unspecified" type="box">24</container>
         <unittitle>Meat Packers and Wholesalers</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">24</container>
+        <container label="unspecified" type="box">24</container>
         <unittitle>Libby, McNeill &amp; Libby</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">24</container>
+        <container label="unspecified" type="box">24</container>
         <unittitle>St. Louis Beef</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">24</container>
+        <container label="unspecified" type="box">24</container>
         <unittitle>Swift &amp; Company</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">24</container>
+        <container label="unspecified" type="box">24</container>
         <unittitle>Other Meat Packers</unittitle>
        </did>
            </c03>
@@ -1101,13 +1102,13 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">24</container>
+        <container label="unspecified" type="box">24</container>
         <unittitle>Atmore's</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">24</container>
+        <container label="unspecified" type="box">24</container>
         <unittitle>Other Mince Meat Brands</unittitle>
        </did>
            </c02>
@@ -1118,67 +1119,67 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">25</container>
+        <container label="unspecified" type="box">25</container>
         <unittitle>Remedies and Other Medicinal Products (A-J)</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">25</container>
+        <container label="unspecified" type="box">25</container>
         <unittitle>Ayer's</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">25</container>
+        <container label="unspecified" type="box">25</container>
         <unittitle>Carter's</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">25</container>
+        <container label="unspecified" type="box">25</container>
         <unittitle>Hood's</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">25</container>
+        <container label="unspecified" type="box">25</container>
         <unittitle>Horsford's</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">25</container>
+        <container label="unspecified" type="box">25</container>
         <unittitle>Other Remedies and Other Medicinal Products</unittitle>
        </did>
               </c03>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">26</container>
+        <container label="unspecified" type="box">26</container>
         <unittitle>Remedies and Other Medicinal Products (K-Z)</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">26</container>
+        <container label="unspecified" type="box">26</container>
         <unittitle>Lydia Pinkham's</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">26</container>
+        <container label="unspecified" type="box">26</container>
         <unittitle>Remedies and Other Medicinal Products</unittitle>
        </did>
               </c03>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">26</container>
+        <container label="unspecified" type="box">26</container>
         <unittitle>Hair Care</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">26</container>
+        <container label="unspecified" type="box">26</container>
         <unittitle>Dental Care</unittitle>
        </did>
            </c02>
@@ -1189,20 +1190,20 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">27</container>
+        <container label="unspecified" type="box">27</container>
         <unittitle>Pickles and Relishes</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">27</container>
+        <container label="unspecified" type="box">27</container>
         <unittitle>Sweet Conserves</unittitle>
        </did>
        <scopecontent><p>For additional fruit preserves, see Box 18.</p></scopecontent>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">27</container>
+        <container label="unspecified" type="box">27</container>
         <unittitle>Canned Products and Canning</unittitle>
        </did>
            </c02>
@@ -1213,44 +1214,44 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">27</container>
+        <container label="unspecified" type="box">27</container>
         <unittitle>Restaurants, Lunch Rooms, Dining Rooms, Coffee Rooms, Ladies' Lunch Rooms, Cafes, Coffee Saloons, Pavilions, Dining Parlors, Dining and Oyster Saloons, and Other Dining Establishments</unittitle>
        </did>
            </c02>
       </c01>
       <c01 level="series">
        <did>
-        <container type="box">28</container>
+        <container label="unspecified" type="box">28</container>
         <unittitle id="s28">Scent</unittitle>
        </did>
       </c01>
       <c01 level="series">
        <did>
-        <container type="box">37</container>
+        <container label="unspecified" type="box">37</container>
         <unittitle id="s29">Scrapbook of Assorted Trade Cards</unittitle>
        </did>
       </c01>
       <c01 level="series">
        <did>
-        <container type="box">28</container>
+        <container label="unspecified" type="box">28</container>
         <unittitle id="s30">Seed and Nut Foods</unittitle>
        </did>
       <c02 level="file">
        <did>
-        <container type="box">28</container>
+        <container label="unspecified" type="box">28</container>
         <unittitle>Coconuts</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">28</container>
+        <container label="unspecified" type="box">28</container>
         <unittitle>Peanuts and Tree Nuts</unittitle>
        </did>
            </c02>
       </c01>
       <c01 level="series">
        <did>
-        <container type="box">28</container>
+        <container label="unspecified" type="box">28</container>
         <unittitle id="s31">Soup</unittitle>
        </did>
       </c01>
@@ -1261,7 +1262,7 @@
        <scopecontent><p>From donor: This category unavoidably merges alimentary starches, used in cooking, and laundry starches, used in ironing. Nearly ever manufacturer produced both of these products, and much of their advertising promotes brand rather than one or the other type of starch.</p></scopecontent>
       <c02 level="file">
        <did>
-        <container type="box">28</container>
+        <container label="unspecified" type="box">28</container>
         <unittitle>Alimentary and Laundry Starch</unittitle>
        </did>
            </c02>
@@ -1273,50 +1274,50 @@
        <scopecontent><p>From donor: This category merges two pieces of equipment that were distinguished in the 19th and early 20th centuries -- stoves, primarily for heating, and ranges, used primarily for cooking.</p></scopecontent>
       <c02 level="file">
        <did>
-        <container type="box">29</container>
+        <container label="unspecified" type="box">29</container>
         <unittitle>Wood and Coal Stoves (A-J)</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">30</container>
+        <container label="unspecified" type="box">30</container>
         <unittitle>Wood and Coal Stoves (K-Z)</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">30</container>
+        <container label="unspecified" type="box">30</container>
         <unittitle>Oil and Gas Stoves</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">30</container>
+        <container label="unspecified" type="box">30</container>
         <unittitle>Stove Accessories</unittitle>
        </did>
       <c03 level="file">
        <did>
-        <container type="box">30</container>
+        <container label="unspecified" type="box">30</container>
         <unittitle>Stove Linings</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">30</container>
+        <container label="unspecified" type="box">30</container>
         <unittitle>Stove Polishes</unittitle>
        </did>
               </c03>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">30</container>
+        <container label="unspecified" type="box">30</container>
         <unittitle>Stove Dealers</unittitle>
        </did>
            </c02>
       </c01>
       <c01 level="series">
        <did>
-        <container type="box">31</container>
+        <container label="unspecified" type="box">31</container>
         <unittitle id="s34">Thurbers'</unittitle>
        </did>
        <scopecontent><p>From donor: This is a brand name, the only one given its own place in this list of categories. Thurbers', one of the leading users of handsomely 
@@ -1326,17 +1327,21 @@
       </c01>
       <c01 level="series">
        <did>
-        <container type="box">31</container>
+        <container label="unspecified" type="box">31</container>
         <unittitle id="s35">Vegetable People</unittitle>
        </did>
        <scopecontent><p>From donor: A special design category, cutting across a wide variety of subjects. Popular from the early days of American trade cards, these caricatures employ the images of vegetables or fruit to which are added arms, legs, and facial features to portray humanlike figures. They remain a favorite of collections.</p></scopecontent>
       </c01>
       <c01 level="series">
        <did>
-        <container type="box">31</container>
+        <container label="unspecified" type="box">31</container>
         <unittitle id="s36">Water and Ice</unittitle>
        </did>
    </c01>
     </dsc>
-  </archdesc>
+  <prefercite>
+                          <head>Cite As:</head>
+                                   <p>Nahum (Nach) Waxman Collection of Food and Culinary Trade Cards, #8573. Division of Rare and Manuscript Collections, Cornell University Library.
+                                   </p>
+                  </prefercite></archdesc>
  </ead>

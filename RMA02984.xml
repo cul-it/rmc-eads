@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-	 <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02984::Lemo Rockwood papers)//EN">RMA02984</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+	 <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02984::Lemo Rockwood papers)//EN">RMA02984</eadid>
 	 
 	 <filedesc> 
 		<titlestmt> 
@@ -29,7 +28,13 @@
 		<creation>Finding aid encoded by Martin Heggestad, 
 		  <date>June 2004</date> </creation> 
 	 </profiledesc> 
-	 <revisiondesc> 
+	 <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+ 
 		<change encodinganalog="583"> 
 		  <date normal="2007-05-29">2007-05-29</date> 
 		  <item>converted from EAD 1.0 to EAD 2002 </item> 
@@ -39,19 +44,19 @@
   <frontmatter> 
 	 <titlepage> 
 		<titleproper>Guide to the Lemo Rockwood
-		  Papers,<lb/>1912-1948</titleproper> 
+		  Papers,1912-1948</titleproper> 
 		<num>Collection Number: 23-13-2984</num> 
-		<publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+		<publisher>Division of Rare and Manuscript Collections Cornell
 		  University Library</publisher> 
 		<list type="deflist"> 
 		  <defitem> 
 			 <label>Contact Information:</label> 
-			 <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-				Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-				255-3530<lb/> Fax: (607) 255-9524<lb/>
-				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> <lb/>
+			 <item>Division of Rare and Manuscript Collections 2B Carl A.
+				Kroch Library Cornell University Ithaca, NY 14853 (607)
+				255-3530 Fax: (607) 255-9524
+				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
 				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-				<lb/></item> 
+				</item> 
 		  </defitem> 
 		  <defitem> 
 			 <label>Compiled by:</label> 
@@ -77,14 +82,16 @@
   <archdesc level="collection"> 
 	 <did> 
 		<head id="a1">DESCRIPTIVE SUMMARY</head> 
-		<unittitle label="Title:" encodinganalog="MARC 245">Lemo Rockwood papers,
+		<unittitle encodinganalog="MARC 245" label="Title:">Lemo Rockwood papers,
 		  
-		  <unitdate type="inclusive" encodinganalog="MARC 245">1912-1948.</unitdate> </unittitle> 
+		  </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1912-1948.</unitdate> 
 		<unitid label="Collection Number:">23-13-2984</unitid> 
 		<origination label="Creator:"> 
 		  <persname encodinganalog="100" normal="Rockwood, Lemo Dennis, b. 1896.">Lemo Dennis Rockwood, b.
 			 1896.</persname> </origination> 
-		<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.3 cubic
+		<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>.3 cubic
 		  ft.</extent></physdesc> 
 		<physdesc label="Forms of Material:">Subject files, notes, reprints,
 		  monographs, and other material.</physdesc> 
@@ -99,7 +106,7 @@
 		  </langmaterial> 
 	 </did> 
 	 <bioghist encodinganalog="MARC 545"> 
-		<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head> 
+		<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head> 
 		<p>Professor emeritus of marriage and family life education, New York State
 		  College of Home Economics.</p> 
 		  <p>Lemo Rockwood received her undergraduate degree from the University of Nebraska in 
@@ -136,20 +143,13 @@
 			 teaching.</subject> 
 		</controlaccess> 
 	 </controlaccess> 
-	 <descgrp type="admininfo"> 
-		<head id="a8">INFORMATION FOR USERS</head> 
-		<prefercite> 
-		  <head>Cite As:</head> 
-		  <p>Lemo Rockwood papers, #23-13-2984. Division of Rare and Manuscript
-			 Collections, Cornell University Library.</p> 
-		</prefercite> 
-	 </descgrp> 
+	  
 	 <dsc type="combined"> 
 		<head>CONTAINER LIST</head> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">1</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">1</container> 
 			 <unitdate>1926-1929</unitdate> 
 			 <unittitle>Course material - from the files of Martha Van
 				Rensselaer</unittitle> 
@@ -157,8 +157,8 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">2</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">2</container> 
 			 <unitdate>n.d.</unitdate> 
 			 <unittitle>"Origins and Development of the Movement for Education for
 				Marriage, Family Life and Parenthood in the U.S.; 1940-1948, with Major
@@ -168,8 +168,8 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">3</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">3</container> 
 			 <unitdate>1940s-1950s</unitdate> 
 			 <unittitle>Marriage Courses in other Colleges and
 				Universities</unittitle> 
@@ -177,53 +177,57 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">4</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">4</container> 
 			 <unitdate>1926-1936</unitdate> 
 			 <unittitle>Publications concerning Family Life Issues</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">5</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">5</container> 
 			 <unitdate>1927-1944</unitdate> 
 			 <unittitle>Publications concerning Family Life Issues</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">6</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">6</container> 
 			 <unitdate>1927-1945</unitdate> 
 			 <unittitle>Publications concerning Family Life Issues</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">7</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">7</container> 
 			 <unitdate>1936-1961</unitdate> 
 			 <unittitle>Publications concerning Family Life Issues</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">8</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">8</container> 
 			 <unitdate>1934-1949</unitdate> 
 			 <unittitle>Conference Material</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">9</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">9</container> 
 			 <unitdate>1912</unitdate> 
 			 <unittitle>Letter to Liberty Hyde Bailey concerning the controversy
 				surrounding teaching agriculture at a high school</unittitle> 
 		  </did> 
 		</c01> 
 	 </dsc> 
-  </archdesc>
+  <prefercite> 
+		  <head>Cite As:</head> 
+		  <p>Lemo Rockwood papers, #23-13-2984. Division of Rare and Manuscript
+			 Collections, Cornell University Library.</p> 
+		</prefercite></archdesc>
 </ead>

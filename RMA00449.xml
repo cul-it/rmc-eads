@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00449::Hiram Corson papers)//EN">RMA00449</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00449::Hiram Corson papers)//EN">RMA00449</eadid>
   <filedesc>
     <titlestmt>
       <titleproper>Guide to the Hiram Corson papers, <date>1842-1956.</date></titleproper>
@@ -27,16 +26,22 @@
   <profiledesc>
     <creation>Finding aid encoded by RMC Staff, <date>February 2018</date></creation>
   </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
            <titlepage>
-                   <titleproper>Guide to the Hiram Corson papers,<lb/><date type="inclusive" encodinganalog="245$f">1842-1956.</date></titleproper>
+                   <titleproper>Guide to the Hiram Corson papers,<date encodinganalog="245$f" type="inclusive">1842-1956.</date></titleproper>
            <num>Collection Number: 14-12-449</num>
-           <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+           <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
            <list type="deflist">
                    <defitem>
                            <label>Contact Information:</label>
-                           <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+                           <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
                    </defitem>
                    <defitem>
                            <label>Compiled by:</label>
@@ -61,14 +66,13 @@
   <archdesc level="collection">
     <did>
             <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245">Hiram Corson papers,
-            <unitdate encodinganalog="MARC 245" type="inclusive">1842-1956.</unitdate>
-            </unittitle>
+            <unittitle encodinganalog="MARC 245" label="Title:">Hiram Corson papers,
+            </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1842-1956.</unitdate>
             <unitid label="Collection Number:">14-12-449</unitid>
             <origination label="Creator:">
                     <persname encodinganalog="100" normal="Corson, Hiram, 1828-1911. "> Hiram, Corson, 1828-1911.                     </persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>4.8 cubic ft.</extent></physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>4.8 cubic feet</extent></physdesc>
             
             <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
             <abstract label="Abstract:">Thirty scrapbooks containing letters, clippings, photographs, and printed materials relating to Corson's travels, life, and career; correspondence exchanged between Corson and colleagues on Shakespeare, Chaucer, Tennyson, Browning, and other figures of English literature; reviews of books and articles by Corson and other scholars; announcements, programs, letters, notes, and reviews pertaining to Corson's activities as public lecturer and reader; letters from friends and family members dealing chiefly with personal matters: health, progress of career, daily activities; one scrapbook devoted to spiritualism, including letters from and about Madame Helena Petrovna Blavatsky, co-founder of the American Theosophical Society. Unbound material includes large numbers of family letters with extensive comments on the early days of Cornell University and life in Ithaca, New York, accounts of the travels of Corson, his wife, Caroline, and their son Eugene, their daily work and activities; clippings, pamphlets, reprints of articles relating to Corson's work in the field of English literature and that of his son in medicine; drafts of lectures and articles; anatomical, physiological, and surgical drawings; photographs; a syllabus; and miscellaneous books. Also, a tape recorded interview with Signe Sjoegren conducted by Gould P. Colman concerning the activities of Corson during the last seven years of his life.</abstract>
@@ -77,7 +81,7 @@
             </langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">
-            <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+            <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
             <p>Professor of English literature.</p>
     </bioghist>
     <scopecontent encodinganalog="MARC 520">
@@ -207,14 +211,7 @@
       <genreform encodinganalog="MARC 655" source="aat">History</genreform>
     </controlaccess>
   </controlaccess>
-    <descgrp>
-           <head id="a8">INFORMATION FOR USERS</head>
-                  <prefercite>
-                          <head>Cite As:</head>
-                                   <p>Hiram Corson papers, #14-12-449. Division of Rare and Manuscript Collections, Cornell University Library.
-                                   </p>
-                  </prefercite>
-    </descgrp>
+    
              <relatedmaterial>
                     <head id="a5">RELATED MATERIALS</head>
                                    <p>Related collection:</p>
@@ -227,17 +224,17 @@
              <arrangement>
              <head>SERIES LIST</head>
              <p> <emph render="bold">
-             <ref target="s1" show="replace" actuate="onrequest">Series I. Correspondence</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s1">Series I. Correspondence</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s2" show="replace" actuate="onrequest">Series II. Spiritualism Materials</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s2">Series II. Spiritualism Materials</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s3" show="replace" actuate="onrequest">Series III. General Documents</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s3">Series III. General Documents</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s4" show="replace" actuate="onrequest">Series IV. Eugene Rollins Corson material</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s4">Series IV. Eugene Rollins Corson material</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s5" show="replace" actuate="onrequest">Series V. Pauline Corson material</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s5">Series V. Pauline Corson material</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s6" show="replace" actuate="onrequest">Series VI. Photographs</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s6">Series VI. Photographs</ref> </emph>  </p>
              </arrangement>
     <dsc type="combined">
       <head>CONTAINER LIST</head>
@@ -248,25 +245,25 @@
        <scopecontent><p>Includes letters from Eugene, Pauline, and Caroline Corson. Note: some of the letters were written to Eugene or Mrs. Corson. Many letters refer to spiritualism.</p></scopecontent>
        <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">1</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">1</container>
  <unitdate>Undated</unitdate>
         <unittitle>Old storage envelopes from correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1850/1854">Expression</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1850/1854" type="inclusive">Expression</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">3</container>
- <unitdate type="inclusive" normal="1855/1860">1855-1860</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">3</container>
+ <unitdate normal="1855/1860" type="inclusive">1855-1860</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes  Henry Wadsworth Longfellow letters to Caroline Rollin Corson: March 9, 1855-Regrets his publisher declined the translation on grounds of expense of printing in foreign language. Information about certain poems. Grieved about misfortuen which has befallen them. Hopes her school will flourish; May 15, 1855- Glad she found publisher in N.Y. for "Hyperion" will gladly look at proof sheets; June 15, 1855- Offers use of his name if it will be of any service.</corpname></origination> 
        </did>
@@ -274,9 +271,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">4</container>
- <unitdate type="inclusive" normal="1861/1864">1861-1864</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">4</container>
+ <unitdate normal="1861/1864" type="inclusive">1861-1864</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes Nathaniel Hawthorne letter, dated February 17, 1964: Hawthorne thanks Corson for gift of Chaucer's "Legende of Goode Women" with hopes expressed for American edition of Chaucer's "Canterbury Pilgrims" edited in the same manner. Also includes some printed pamphlets and posters for performances.</corpname></origination> 
        </did>
@@ -284,9 +281,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">5</container>
- <unitdate type="inclusive" normal="1865/1866">1865-1866</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">5</container>
+ <unitdate normal="1865/1866" type="inclusive">1865-1866</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes address of Hiram Corson on occasion of his induction as professor at Girard College.</corpname></origination> 
        </did>
@@ -294,9 +291,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">6</container>
- <unitdate type="inclusive" normal="1867/1869">1867-1869</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">6</container>
+ <unitdate normal="1867/1869" type="inclusive">1867-1869</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes James Russell Lowell letter, dated October 24, 1867, to "my dear child" in which he regrets delay in publishing Mr. Corson's work and gladly would double subscription if it would help.</corpname></origination> 
        </did>
@@ -304,41 +301,41 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">7</container>
- <unitdate type="inclusive" normal="1870">1870</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1870" type="inclusive">1870</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1871">1871</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1871" type="inclusive">1871</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1872">1872</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1872" type="inclusive">1872</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">10</container>
- <unitdate type="inclusive" normal="1873">1873</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">10</container>
+ <unitdate normal="1873" type="inclusive">1873</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">11</container>
- <unitdate type="inclusive" normal="1874-01/1874-05">1874-01-1874-05</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">11</container>
+ <unitdate normal="1874-01/1874-05" type="inclusive">1874-01-1874-05</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes letter from Bret Harte, and letter from Edwin Booth with references to Hamlet.</corpname></origination> 
        </did>
@@ -347,130 +344,130 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">12</container>
- <unitdate type="inclusive" normal="1874-06/1874-12">1874-06-1874-12</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">12</container>
+ <unitdate normal="1874-06/1874-12" type="inclusive">1874-06-1874-12</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes printed pamphlets and posters for performances, correspondence on Pauline's death.</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1875">1875</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1875" type="inclusive">1875</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1876-01/1876-09">1876-01-1876-09</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1876-01/1876-09" type="inclusive">1876-01-1876-09</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">15</container>
- <unitdate type="inclusive" normal="1876-10/1876-12">1876-10-1876-12</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">15</container>
+ <unitdate normal="1876-10/1876-12" type="inclusive">1876-10-1876-12</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">16</container>
- <unitdate type="inclusive" normal="1877-01/1877-05">1877-01-1877-05</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">16</container>
+ <unitdate normal="1877-01/1877-05" type="inclusive">1877-01-1877-05</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">17</container>
- <unitdate type="inclusive" normal="1877-06">1877-06</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">17</container>
+ <unitdate normal="1877-06" type="inclusive">1877-06</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">18</container>
- <unitdate type="inclusive" normal="1877-07">1877-07</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">18</container>
+ <unitdate normal="1877-07" type="inclusive">1877-07</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">19</container>
- <unitdate type="inclusive" normal="1877-08/1877-12">1877-08-1877-12</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">19</container>
+ <unitdate normal="1877-08/1877-12" type="inclusive">1877-08-1877-12</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">20</container>
- <unitdate type="inclusive" normal="1878-01/1878-07">1878-01-1878-07</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">20</container>
+ <unitdate normal="1878-01/1878-07" type="inclusive">1878-01-1878-07</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">21</container>
- <unitdate type="inclusive" normal="1878-08/1878-09">1878-08-1878-09</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">21</container>
+ <unitdate normal="1878-08/1878-09" type="inclusive">1878-08-1878-09</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">22</container>
- <unitdate type="inclusive" normal="1878-10/1878-11">1878-10-1878-11</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">22</container>
+ <unitdate normal="1878-10/1878-11" type="inclusive">1878-10-1878-11</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">23</container>
- <unitdate type="inclusive" normal="1878-12">1878-12</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">23</container>
+ <unitdate normal="1878-12" type="inclusive">1878-12</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">24</container>
- <unitdate type="inclusive" normal="1879-01/1879-04">1879-01-1879-04</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">24</container>
+ <unitdate normal="1879-01/1879-04" type="inclusive">1879-01-1879-04</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">25</container>
- <unitdate type="inclusive" normal="1879-05/1879-12">1879-05-1879-12</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">25</container>
+ <unitdate normal="1879-05/1879-12" type="inclusive">1879-05-1879-12</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">26</container>
- <unitdate type="inclusive" normal="1880">1880</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">26</container>
+ <unitdate normal="1880" type="inclusive">1880</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">27</container>
- <unitdate type="inclusive" normal="1881/1882">1881-1882</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">27</container>
+ <unitdate normal="1881/1882" type="inclusive">1881-1882</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes two letters from Robert Browning: one inviting the Corsons' to lunch and another setting a convenient time to call.</corpname></origination> 
        </did>
@@ -478,33 +475,33 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">28</container>
- <unitdate type="inclusive" normal="1883">1883</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">28</container>
+ <unitdate normal="1883" type="inclusive">1883</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">29</container>
- <unitdate type="inclusive" normal="1884">1884</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">29</container>
+ <unitdate normal="1884" type="inclusive">1884</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">30</container>
- <unitdate type="inclusive" normal="1885">1885</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">30</container>
+ <unitdate normal="1885" type="inclusive">1885</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">31</container>
- <unitdate type="inclusive" normal="1886">1886</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">31</container>
+ <unitdate normal="1886" type="inclusive">1886</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes a letter from Robert Browning expressing thanks and letter from Walt Whitman sending notes and mentioning Woodruff's visit. Also includes letter from Edward Everett Hale.</corpname></origination> 
        </did>
@@ -514,9 +511,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">32</container>
- <unitdate type="inclusive" normal="1887/1888">1887-1888</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">32</container>
+ <unitdate normal="1887/1888" type="inclusive">1887-1888</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes land deed and letter from Gabrielle DeVeaux Clements regarding Corson's portrait.</corpname></origination> 
        </did>
@@ -526,9 +523,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">33</container>
- <unitdate type="inclusive" normal="1889">1889</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">33</container>
+ <unitdate normal="1889" type="inclusive">1889</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes photograph of Shakespeare's gloves.</corpname></origination> 
        </did>
@@ -536,59 +533,59 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">34</container>
- <unitdate type="inclusive" normal="1890/1891">1890-1891</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">34</container>
+ <unitdate normal="1890/1891" type="inclusive">1890-1891</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
        <controlaccess><persname>Cowden Clarke, Mary Victoria</persname></controlaccess>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">1</container>
- <unitdate type="inclusive" normal="1892-01/1892-09">1892-01-1892-09</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">1</container>
+ <unitdate normal="1892-01/1892-09" type="inclusive">1892-01-1892-09</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
        <controlaccess><persname>Tolstoy, Sophie Andreevna</persname></controlaccess>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1892-10/1892-12">1892-10-1892-12</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1892-10/1892-12" type="inclusive">1892-10-1892-12</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">3</container>
- <unitdate type="inclusive" normal="1893/1894">1893-1894</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">3</container>
+ <unitdate normal="1893/1894" type="inclusive">1893-1894</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">4</container>
- <unitdate type="inclusive" normal="1895-01/1895-08">1895-01-1895-08</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">4</container>
+ <unitdate normal="1895-01/1895-08" type="inclusive">1895-01-1895-08</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">5</container>
- <unitdate type="inclusive" normal="1895-09/1895-12">1895-09-1895-12</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">5</container>
+ <unitdate normal="1895-09/1895-12" type="inclusive">1895-09-1895-12</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">6</container>
- <unitdate type="inclusive" normal="1896/1897">1896-1897</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">6</container>
+ <unitdate normal="1896/1897" type="inclusive">1896-1897</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes letter from Prince Serge Wolkonsky.</corpname></origination> 
        </did>
@@ -596,9 +593,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">7</container>
- <unitdate type="inclusive" normal="1898">1898</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1898" type="inclusive">1898</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes letter and poems by Gottfried Hult.</corpname></origination> 
        </did>
@@ -606,82 +603,82 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1899/1900">1899-1900</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1899/1900" type="inclusive">1899-1900</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1901-01/1901-05">1901-01-1901-05</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1901-01/1901-05" type="inclusive">1901-01-1901-05</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes letter to Caroline Corson from Dr. Silas Weir Mitchell.</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">10</container>
- <unitdate type="inclusive" normal="1901-05">1901-05</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">10</container>
+ <unitdate normal="1901-05" type="inclusive">1901-05</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">11</container>
- <unitdate type="inclusive" normal="1901-06/1901-07">1901-06-1901-07</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">11</container>
+ <unitdate normal="1901-06/1901-07" type="inclusive">1901-06-1901-07</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">12</container>
- <unitdate type="inclusive" normal="1901-08/1901-12">1901-08-1901-12</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">12</container>
+ <unitdate normal="1901-08/1901-12" type="inclusive">1901-08-1901-12</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1902-01/1902-08">1902-01-1902-08</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1902-01/1902-08" type="inclusive">1902-01-1902-08</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1902-09/1902-12">1902-09-1902-12</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1902-09/1902-12" type="inclusive">1902-09-1902-12</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">15</container>
- <unitdate type="inclusive" normal="1903-01/1903-02">1903-01-1903-02</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">15</container>
+ <unitdate normal="1903-01/1903-02" type="inclusive">1903-01-1903-02</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">16</container>
- <unitdate type="inclusive" normal="1903-03/1903-05">1903-03-1903-05</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">16</container>
+ <unitdate normal="1903-03/1903-05" type="inclusive">1903-03-1903-05</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">17</container>
- <unitdate type="inclusive" normal="1903-06/1903-12">1903-06-1903-12</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">17</container>
+ <unitdate normal="1903-06/1903-12" type="inclusive">1903-06-1903-12</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes letter, dated November 18, 1903, from Woodrow Wilson congratulation Corson. </corpname></origination> 
        </did>
@@ -691,182 +688,182 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">18</container>
- <unitdate type="inclusive" normal="1904-01/1904-05">1904-01-1904-05</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">18</container>
+ <unitdate normal="1904-01/1904-05" type="inclusive">1904-01-1904-05</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
        <controlaccess><persname>Wier, Silas Mitchell</persname></controlaccess>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">19</container>
- <unitdate type="inclusive" normal="1904-06/1904-12">1904-06-1904-12</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">19</container>
+ <unitdate normal="1904-06/1904-12" type="inclusive">1904-06-1904-12</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">20</container>
- <unitdate type="inclusive" normal="1905-01/1905-04">1905-01-1905-04</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">20</container>
+ <unitdate normal="1905-01/1905-04" type="inclusive">1905-01-1905-04</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">21</container>
- <unitdate type="inclusive" normal="1905-05/1905-08">1905-05-1905-08</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">21</container>
+ <unitdate normal="1905-05/1905-08" type="inclusive">1905-05-1905-08</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">22</container>
- <unitdate type="inclusive" normal="1905-09/1905-12">1905-09-1905-12</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">22</container>
+ <unitdate normal="1905-09/1905-12" type="inclusive">1905-09-1905-12</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">23</container>
- <unitdate type="inclusive" normal="1906-01/1906-03">1906-01-1906-03</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">23</container>
+ <unitdate normal="1906-01/1906-03" type="inclusive">1906-01-1906-03</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes letters from Hiram Corson to Eugene Corson regarding Robert Browning: "On Wednesday evening, I read to my spiritual visitors my reminiscences of Browning, who had asked for them at the previous sitting [i. e., seance]. There were present Ma, Pauline and the boys, Browning, Tennyson, Whitman, Longfellow, J. W. H. Myers, Mrs. Browning, and Mrs. White - eleven in all. I read for an hour and a quarter... Browning did the rapping during the reading... [His]raps were very loud, and sometimes there was a rapid succession of them, which I took to signify a special approval of what I was reading at the time - ... At the close of the reading there were loud raps by Browning which I took to signify his approval of the paper. It will make a chapter in my book of about 25 pages... " A separate letter refers to the seance and mentions that he read them to his "Sage Class" at Cornell.</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">24</container>
- <unitdate type="inclusive" normal="1906-04/1906-09">1906-04-1906-09</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">24</container>
+ <unitdate normal="1906-04/1906-09" type="inclusive">1906-04-1906-09</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">25</container>
- <unitdate type="inclusive" normal="1906-10/1906-12">1906-10-1906-12</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">25</container>
+ <unitdate normal="1906-10/1906-12" type="inclusive">1906-10-1906-12</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
        <controlaccess><persname>Stoneman, Bertha</persname></controlaccess>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">26</container>
- <unitdate type="inclusive" normal="1907-01/1907-04">1907-01-1907-04</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">26</container>
+ <unitdate normal="1907-01/1907-04" type="inclusive">1907-01-1907-04</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">27</container>
- <unitdate type="inclusive" normal="1907-05/1907-12">1907-05-1907-12</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">27</container>
+ <unitdate normal="1907-05/1907-12" type="inclusive">1907-05-1907-12</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">28</container>
- <unitdate type="inclusive" normal="1908-01/1908-07">1908-01-1908-07</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">28</container>
+ <unitdate normal="1908-01/1908-07" type="inclusive">1908-01-1908-07</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">29</container>
- <unitdate type="inclusive" normal="1908-08/1908-12">1908-08-1908-12</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">29</container>
+ <unitdate normal="1908-08/1908-12" type="inclusive">1908-08-1908-12</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
        <controlaccess><persname>Besant, Annie</persname></controlaccess>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">30</container>
- <unitdate type="inclusive" normal="1909-01/1909-07">1909-01-1909-07</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">30</container>
+ <unitdate normal="1909-01/1909-07" type="inclusive">1909-01-1909-07</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">31</container>
- <unitdate type="inclusive" normal="1909-08/1909-12">1909-08-1909-12</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">31</container>
+ <unitdate normal="1909-08/1909-12" type="inclusive">1909-08-1909-12</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes last will and testament of Hiram Corson</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">32</container>
- <unitdate type="inclusive" normal="1910">1910</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">32</container>
+ <unitdate normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">33</container>
- <unitdate type="inclusive" normal="1911-01/1911-07">1911-01-1911-07</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">33</container>
+ <unitdate normal="1911-01/1911-07" type="inclusive">1911-01-1911-07</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">1</container>
- <unitdate type="inclusive" normal="1911-08">1911-08</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">1</container>
+ <unitdate normal="1911-08" type="inclusive">1911-08</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1911-09/1911-12">1911-09-1911-12</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1911-09/1911-12" type="inclusive">1911-09-1911-12</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">3</container>
- <unitdate type="inclusive" normal="1912">1912</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">3</container>
+ <unitdate normal="1912" type="inclusive">1912</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">4</container>
- <unitdate type="inclusive" normal="1913/1915">1913-1915</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">4</container>
+ <unitdate normal="1913/1915" type="inclusive">1913-1915</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">4</container>
- <unitdate type="inclusive" normal="1920/1931">1920-1931</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">4</container>
+ <unitdate normal="1920/1931" type="inclusive">1920-1931</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">5</container>
- <unitdate type="inclusive" normal="1932/1956">1932-1956</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">5</container>
+ <unitdate normal="1932/1956" type="inclusive">1932-1956</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes newspaper clippings and receipts. </corpname></origination> 
        </did>
@@ -874,8 +871,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">6</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">6</container>
  <unitdate>Undated</unitdate>
         <unittitle>Correspondence</unittitle>
        <origination label="Creator"><corpname>Includes letter from Fannie Barrett Browning postponing an engagement with Mrs. Corson on account of husband's headache. Also contains newspaper clippings.</corpname></origination> 
@@ -886,33 +883,33 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1872-10-10/1909-06-02">1872-10-10-1909-06-02</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1872-10-10/1909-06-02" type="inclusive">1872-10-10-1909-06-02</unitdate>
         <unittitle>Horace Howard Furnace letters to Hiram Corson</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">9</container>
- <unitdate type="inclusive" certainty="Circa" normal="1850/1871">1850-1871</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate certainty="approximate" normal="1850/1871" type="inclusive">1850-1871</unitdate>
         <unittitle>Letters from Joseph Henry</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">10</container>
- <unitdate type="inclusive" normal="1867/1881">1867-1881</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">10</container>
+ <unitdate normal="1867/1881" type="inclusive">1867-1881</unitdate>
         <unittitle>Letters from F.J. Childs and George Allen</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">11</container>
- <unitdate type="inclusive" certainty="Circa" normal="1893">1893</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">11</container>
+ <unitdate certainty="approximate" normal="1893" type="inclusive">1893</unitdate>
         <unittitle>Letters and clippings from H.R. Haweis</unittitle>
        </did>
            </c02>
@@ -923,120 +920,120 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">7</container>
- <unitdate type="inclusive" normal="1874-11/1876-02">1874-11-1876-02</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1874-11/1876-02" type="inclusive">1874-11-1876-02</unitdate>
         <unittitle>Letters from Louisa Andrews to the Corsons</unittitle>
        <origination label="Creator"><corpname>Letters concerning spiritualism, merits of various mediums, spread of faith, and Olcott-Blavatsky partnership. Also includes letter to Andrews from JM Roberts calling into question the motives of Helena Petrovna Blavatsky and Henry Steel Olcott. </corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">12</container>
- <unitdate type="inclusive" certainty="Circa" normal="1875/1878">1875-1878</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">12</container>
+ <unitdate certainty="approximate" normal="1875/1878" type="inclusive">1875-1878</unitdate>
         <unittitle>Letters from Helena Petrovna Blavatsky</unittitle>
        <origination label="Creator"><corpname>Written by Blavatsky to Mrs. Caroline Corson (written in French and referring to Louisa Andrews), Alexander Akozokof introducing Mrs. Corson, and photostat of letter to Hiram. </corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1875-08-29">1875-08-29</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1875-08-29" type="inclusive">1875-08-29</unitdate>
         <unittitle>Letter to Madame Blavatsky from J. R. Buchanan</unittitle>
        <origination label="Creator"><corpname>Concerning articles on science and religion.</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1875-03-03">1875-03-03</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1875-03-03" type="inclusive">1875-03-03</unitdate>
         <unittitle>Letter to Madame Blavatsky from Francis F. Lippitt</unittitle>
        <origination label="Creator"><corpname>Concerning the authenticity of the "materializations" in which Mr. and Mrs. Holmes and Dr. Child were involved; mentions the "deep disgrace" of Katie King; also refers to Professor Corson, Mrs. Andrews of Springfield, and Colonel Olcott.</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1875-01-30">1875-01-30</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1875-01-30" type="inclusive">1875-01-30</unitdate>
         <unittitle>Letter to Madame Blavatsky from S. P. Stephens</unittitle>
        <origination label="Creator"><corpname>Concerning alleged spiritualist frauds of Henry T. Child. Refers to a couple named Holmes, to a Katie King, and a Mrs. White. Also signed by Francis J. Lippitt as witness</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">14</container>
- <unitdate type="inclusive" certainty="Circa" normal="1875">1875</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate certainty="approximate" normal="1875" type="inclusive">1875</unitdate>
         <unittitle>Letters to Henry Steel Olcott from Emma H. Britten and J. M. Peebles</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">15</container>
- <unitdate type="inclusive" normal="1875-10-22">1875-10-22</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">15</container>
+ <unitdate normal="1875-10-22" type="inclusive">1875-10-22</unitdate>
         <unittitle>Letter to Hiram Corson from G.L. Ditson</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">15</container>
- <unitdate type="inclusive" normal="1876-01-12">1876-01-12</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">15</container>
+ <unitdate normal="1876-01-12" type="inclusive">1876-01-12</unitdate>
         <unittitle>Letters to Hiram Corson from V.A. Taylor</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">15</container>
- <unitdate type="inclusive" normal="1876-01-02">1876-01-02</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">15</container>
+ <unitdate normal="1876-01-02" type="inclusive">1876-01-02</unitdate>
         <unittitle>Letter to Hiram Corson from Luther Colby</unittitle>
        <origination label="Creator"><corpname>Luther Colby, editor of the Banner of Light, accepting for publication an article by Corsonattacking the American Theosophical Society</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">15</container>
- <unitdate type="inclusive" certainty="Circa" normal="1875">1875</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">15</container>
+ <unitdate certainty="approximate" normal="1875" type="inclusive">1875</unitdate>
         <unittitle>Letters to Hiram Corson from Emilie G. Jones</unittitle>
        <origination label="Creator"><corpname>Emilie Jones, sister of Louisa Andrews, reporting on latter's health.</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">15</container>
- <unitdate type="inclusive" normal="1875-01-31">1875-01-31</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">15</container>
+ <unitdate normal="1875-01-31" type="inclusive">1875-01-31</unitdate>
         <unittitle>Statement of William H. Westcott, concerning the seances of Mr. and Mrs. Holmes; witnessed by Francis J. Lippitt. </unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">16</container>
- <unitdate type="inclusive" normal="1929-07-19">1929-07-19</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">16</container>
+ <unitdate normal="1929-07-19" type="inclusive">1929-07-19</unitdate>
         <unittitle>Letter from David Higham to Eugene R. Corson regarding Blavatsky photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">17</container>
- <unitdate type="inclusive" certainty="Circa" normal="1870/1890">1870-1890</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">17</container>
+ <unitdate certainty="approximate" normal="1870/1890" type="inclusive">1870-1890</unitdate>
         <unittitle>Clippings and publications on spiritualism and Helena Blavatsky</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">5</container>
- <unitdate type="inclusive" normal="1875">1875</unitdate>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">5</container>
+ <unitdate normal="1875" type="inclusive">1875</unitdate>
         <unittitle>Photograph of Helena Blavatsky by Beardsley in Ithaca</unittitle>
        </did>
            </c02>
@@ -1047,227 +1044,227 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">18</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">18</container>
  <unitdate>Undated</unitdate>
         <unittitle>Clippings, notes, and printed material removed from scrapbook</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">19</container>
- <unitdate type="inclusive" normal="1891">1891</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">19</container>
+ <unitdate normal="1891" type="inclusive">1891</unitdate>
         <unittitle>VI Centenaire de l'Universite de Montpelier</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">20-21</container>
- <unitdate type="inclusive" certainty="Circa" normal="1880/1892">1880-1892</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">20-21</container>
+ <unitdate certainty="approximate" normal="1880/1892" type="inclusive">1880-1892</unitdate>
         <unittitle>Printings and clippings removed from scrapbook number 1</unittitle>
        <origination label="Creator"><corpname>Mainly programs and pamphlets relating to lectures or exhibits</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">22</container>
- <unitdate type="inclusive" normal="1908">1908</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">22</container>
+ <unitdate normal="1908" type="inclusive">1908</unitdate>
         <unittitle>Xerox copy of "A Few Reminiscences of Robert Browning" from the Era</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">23</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">23</container>
  <unitdate>Undated</unitdate>
         <unittitle>Fragments of material torn from scrapbook</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">24</container>
- <unitdate type="inclusive" normal="1912">1912</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">24</container>
+ <unitdate normal="1912" type="inclusive">1912</unitdate>
         <unittitle>Information about Hiram Corson for Who's Who</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">25-26</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">25-26</container>
  <unitdate>Undated</unitdate>
         <unittitle>Newspaper clippings </unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">27</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">27</container>
         <unittitle>Pamphlets and publications</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">28</container>
- <unitdate type="inclusive" certainty="Circa" normal="1892">1892</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">28</container>
+ <unitdate certainty="approximate" normal="1892" type="inclusive">1892</unitdate>
         <unittitle>Clippings from scrapbook number 3, mainly regarding Ireland </unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">29-31</container>
- <unitdate type="inclusive" certainty="Circa" normal="1870/1895">1870-1895</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">29-31</container>
+ <unitdate certainty="approximate" normal="1870/1895" type="inclusive">1870-1895</unitdate>
         <unittitle>Shakespeare pamphlets and clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">20</container>
- <unitdate type="inclusive" certainty="Circa" normal="1860/1870">1860-1870</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">20</container>
+ <unitdate certainty="approximate" normal="1860/1870" type="inclusive">1860-1870</unitdate>
         <unittitle>Printed material from scrapbook number 9</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">21-22</container>
- <unitdate type="inclusive" certainty="Circa" normal="1887/1890">1887-1890</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">21-22</container>
+ <unitdate certainty="approximate" normal="1887/1890" type="inclusive">1887-1890</unitdate>
         <unittitle>Manuscripts from scrapbook number 30</unittitle>
        <origination label="Creator"><corpname>Includes notes for a course on Robert Browning and clippings of reviews of Corson's book, and Corson's Readings fliers.</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">23</container>
- <unitdate type="inclusive" normal="1911">1911</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">23</container>
+ <unitdate normal="1911" type="inclusive">1911</unitdate>
         <unittitle>Clippings and documents on Hiram Corson's death and will</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">24</container>
- <unitdate type="inclusive" normal="1895/1903">1895-1903</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">24</container>
+ <unitdate normal="1895/1903" type="inclusive">1895-1903</unitdate>
         <unittitle>Reviews and comments on "The Aims of Literary Study" by Hiram Corson</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">25</container>
- <unitdate type="inclusive" normal="1882">1882</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">25</container>
+ <unitdate normal="1882" type="inclusive">1882</unitdate>
         <unittitle>Article about Robert Browning</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">26-27</container>
- <unitdate type="inclusive" certainty="Circa" normal="1862/1911">1862-1911</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">26-27</container>
+ <unitdate certainty="approximate" normal="1862/1911" type="inclusive">1862-1911</unitdate>
         <unittitle>Clippings and printed material relating to Hiram Corson's career</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">28-29</container>
- <unitdate type="inclusive" normal="1864/1874">1864-1874</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">28-29</container>
+ <unitdate normal="1864/1874" type="inclusive">1864-1874</unitdate>
         <unittitle>Clippings and printed material from scrapbook number 1</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">30</container>
- <unitdate type="inclusive" certainty="Circa" normal="1860/1910">1860-1910</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">30</container>
+ <unitdate certainty="approximate" normal="1860/1910" type="inclusive">1860-1910</unitdate>
         <unittitle>Clippings and articles</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">31</container>
- <unitdate type="inclusive" normal="1892">1892</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">31</container>
+ <unitdate normal="1892" type="inclusive">1892</unitdate>
         <unittitle>University of Dublin Tercentenary</unittitle>
        <origination label="Creator"><corpname>Includes invitations and programs.</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">33</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">33</container>
  <unitdate>Undated</unitdate>
         <unittitle>Flier for Hiram Corson lecture</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">34</container>
- <unitdate type="inclusive" normal="1878-06-15">1878-06-15</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">34</container>
+ <unitdate normal="1878-06-15" type="inclusive">1878-06-15</unitdate>
         <unittitle>Passport of Caroline Corson</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">1</container>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">1</container>
  <unitdate>Undated</unitdate>
         <unittitle>Typescript of Wordsworth's Nature Philosophy</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">2</container>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">2</container>
  <unitdate>Undated</unitdate>
         <unittitle>Draft typescript of Wordsworth's Nature Philosophy</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">3</container>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">3</container>
  <unitdate>Undated</unitdate>
         <unittitle>Typescript of Whitman's Song of the Open Road</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">4</container>
- <unitdate type="inclusive" normal="1933-12-29">1933-12-29</unitdate>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">4</container>
+ <unitdate normal="1933-12-29" type="inclusive">1933-12-29</unitdate>
         <unittitle>Clipping from the Ithaca Journal on Cascadilla Cottage</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
-        <container type="folder">2</container>
+        <container label="unspecified" type="box">6</container>
+        <container label="unspecified" type="folder">2</container>
  <unitdate>Undated</unitdate>
         <unittitle>Etching of Walt Whitman</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
-        <container type="folder">4</container>
+        <container label="unspecified" type="box">6</container>
+        <container label="unspecified" type="folder">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Printed sketch of Wordsworth</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1902">1902</unitdate>
+        <container label="unspecified" type="box">6</container>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1902" type="inclusive">1902</unitdate>
         <unittitle>Clippings from the Alumni News</unittitle>
        </did>
            </c02>
@@ -1278,33 +1275,33 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">32</container>
- <unitdate type="inclusive" certainty="Circa" normal="1881/1903">1881-1903</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">32</container>
+ <unitdate certainty="approximate" normal="1881/1903" type="inclusive">1881-1903</unitdate>
         <unittitle>Articles written by Eugene Corson</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">1</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">1</container>
  <unitdate>Undated</unitdate>
         <unittitle>Clippings relating to Corson's medical career</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">2</container>
- <unitdate type="inclusive" certainty="Circa" normal="1867/1905">1867-1905</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate certainty="approximate" normal="1867/1905" type="inclusive">1867-1905</unitdate>
         <unittitle>Scrapbook items, invitations, and general documents</unittitle>
        <origination label="Creator"><corpname>Includes typescript note from Burt Green Wilder</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">3</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">3</container>
  <unitdate>Undated</unitdate>
         <unittitle>Medical drawings, notes, and clippings</unittitle>
        <origination label="Creator"><corpname>Includes 6 photographs of lepers from San Remo, Italy</corpname></origination> 
@@ -1312,82 +1309,82 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">4</container>
- <unitdate type="inclusive" normal="1869/1872">1869-1872</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">4</container>
+ <unitdate normal="1869/1872" type="inclusive">1869-1872</unitdate>
         <unittitle>Lecture notes</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">5</container>
- <unitdate type="inclusive" normal="1880-07">1880-07</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">5</container>
+ <unitdate normal="1880-07" type="inclusive">1880-07</unitdate>
         <unittitle>The Homeopathic Times</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">6</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">6</container>
  <unitdate>Undated</unitdate>
         <unittitle>The Last Days with my Father manuscript</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">7</container>
- <unitdate type="inclusive" normal="1878-05-27">1878-05-27</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1878-05-27" type="inclusive">1878-05-27</unitdate>
         <unittitle>Passport</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1877/1916">1877-1916</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1877/1916" type="inclusive">1877-1916</unitdate>
         <unittitle>Medical journals</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1911/1913">1911-1913</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1911/1913" type="inclusive">1911-1913</unitdate>
         <unittitle>Quarterly Journal of Medicine</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">10</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">10</container>
  <unitdate>Undated</unitdate>
         <unittitle>Medical drawings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">11-12</container>
- <unitdate type="inclusive" certainty="Circa" normal="1890/1916">1890-1916</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">11-12</container>
+ <unitdate certainty="approximate" normal="1890/1916" type="inclusive">1890-1916</unitdate>
         <unittitle>Pamphlets written by Eugene</unittitle>
        <origination label="Creator"><corpname>Includes some scrapbook miscellany.</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">32</container>
- <unitdate type="inclusive" certainty="Circa" normal="1880/1910">1880-1910</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">32</container>
+ <unitdate certainty="approximate" normal="1880/1910" type="inclusive">1880-1910</unitdate>
         <unittitle>Clippings and printed material</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
-        <container type="folder">7-8</container>
- <unitdate type="inclusive" certainty="Circa" normal="1873/1906">1873-1906</unitdate>
+        <container label="unspecified" type="box">6</container>
+        <container label="unspecified" type="folder">7-8</container>
+ <unitdate certainty="approximate" normal="1873/1906" type="inclusive">1873-1906</unitdate>
         <unittitle>Medical drawings</unittitle>
        </did>
            </c02>
@@ -1398,8 +1395,8 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">13</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">13</container>
  <unitdate>Undated</unitdate>
         <unittitle>Material from scrapbook number 2</unittitle>
        <origination label="Creator"><corpname>Includes photographs of Pauline and others, Pauline's autograph book, and greeting cards</corpname></origination> 
@@ -1407,57 +1404,57 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">14</container>
- <unitdate type="inclusive" certainty="Circa" normal="1874/1902">1874-1902</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate certainty="approximate" normal="1874/1902" type="inclusive">1874-1902</unitdate>
         <unittitle>Clippings and documents on the death of Pauline Corson and Caroline Corson</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">15</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">15</container>
  <unitdate>Undated</unitdate>
         <unittitle>Penmanship practice, French practice, and coloring book from scrapbook</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">16</container>
- <unitdate type="inclusive" certainty="Circa" normal="1855/1874">1855-1874</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">16</container>
+ <unitdate certainty="approximate" normal="1855/1874" type="inclusive">1855-1874</unitdate>
         <unittitle>Drawings from scrapbook number 2</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">16</container>
- <unitdate type="inclusive" certainty="Circa" normal="1855/1874">1855-1874</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">16</container>
+ <unitdate certainty="approximate" normal="1855/1874" type="inclusive">1855-1874</unitdate>
         <unittitle>Mounted plant speciments</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">17</container>
- <unitdate type="inclusive" certainty="Circa" normal="1855/1874">1855-1874</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">17</container>
+ <unitdate certainty="approximate" normal="1855/1874" type="inclusive">1855-1874</unitdate>
         <unittitle>Drawings from scrapbook number 2</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">18</container>
- <unitdate type="inclusive" certainty="Circa" normal="1855/1874">1855-1874</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">18</container>
+ <unitdate certainty="approximate" normal="1855/1874" type="inclusive">1855-1874</unitdate>
         <unittitle>Embroidered bookmarks and small samples from scrapbook number 2</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">19</container>
- <unitdate type="inclusive" certainty="Circa" normal="1855/1874">1855-1874</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">19</container>
+ <unitdate certainty="approximate" normal="1855/1874" type="inclusive">1855-1874</unitdate>
         <unittitle>Paper dolls from scrapbook number 2</unittitle>
        </did>
            </c02>
@@ -1468,204 +1465,208 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">6</container>
- <unitdate type="inclusive" certainty="Circa" normal="1880/1910">1880-1910</unitdate>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">6</container>
+ <unitdate certainty="approximate" normal="1880/1910" type="inclusive">1880-1910</unitdate>
         <unittitle>Pictures of cathedrals and churches from scrapbook number 5</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">7</container>
- <unitdate type="inclusive" certainty="Circa" normal="1870/1910">1870-1910</unitdate>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate certainty="approximate" normal="1870/1910" type="inclusive">1870-1910</unitdate>
         <unittitle>Various friends and acquaintances </unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">7</container>
- <unitdate type="inclusive" normal="1889-11-05">1889-11-05</unitdate>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1889-11-05" type="inclusive">1889-11-05</unitdate>
         <unittitle>Signed photograph of Robert Browning</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">7</container>
- <unitdate type="inclusive" normal="1872/1881">1872-1881</unitdate>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1872/1881" type="inclusive">1872-1881</unitdate>
         <unittitle>Mary and Charles Cowden Clarke and Charles' home</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">7</container>
- <unitdate type="inclusive" certainty="Circa" normal="1880/1889">1880-1889</unitdate>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate certainty="approximate" normal="1880/1889" type="inclusive">1880-1889</unitdate>
         <unittitle>James Orchard Halliwell-Phillips and wife, and their house in Brighton, England</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
-        <container type="folder">3</container>
+        <container label="unspecified" type="box">6</container>
+        <container label="unspecified" type="folder">3</container>
  <unitdate>Undated</unitdate>
         <unittitle>James Orchard Halliwell-Phillips residence in Brighton, England</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">8</container>
- <unitdate type="inclusive" certainty="Circa" normal="1874">1874</unitdate>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate certainty="approximate" normal="1874" type="inclusive">1874</unitdate>
         <unittitle>Warren Holden</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1888">1888</unitdate>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1888" type="inclusive">1888</unitdate>
         <unittitle>Friedrich August Leo</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">8</container>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">8</container>
  <unitdate>Undated</unitdate>
         <unittitle>Horace Howard Furnace</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">8</container>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">8</container>
  <unitdate>Undated</unitdate>
         <unittitle>Edward Dowden</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">8</container>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">8</container>
  <unitdate>Undated</unitdate>
         <unittitle>William Benham</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">8</container>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">8</container>
  <unitdate>Undated</unitdate>
         <unittitle>Edwin Booth</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">8</container>
- <unitdate type="inclusive" certainty="Circa" normal="1877">1877</unitdate>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate certainty="approximate" normal="1877" type="inclusive">1877</unitdate>
         <unittitle>Charlotte Bronte, Arthur Bell Nicholls, Patrick Bronte, and Haworth buildings</unittitle>
        <origination label="Creator"><corpname>All purchased at /Haworth </corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">8</container>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">8</container>
  <unitdate>Undated</unitdate>
         <unittitle>Alonzo Curtis Nichols</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">8</container>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">8</container>
  <unitdate>Undated</unitdate>
         <unittitle>Dr. Hiram Corson, uncle of Professor Corson</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
-        <container type="folder">3</container>
+        <container label="unspecified" type="box">6</container>
+        <container label="unspecified" type="folder">3</container>
  <unitdate>Undated</unitdate>
         <unittitle>Dr. Hiram Corson, uncle of Professor Corson</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">9</container>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">9</container>
  <unitdate>Undated</unitdate>
         <unittitle>Hotels, abbeys, castles, etc. in Europe</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">10</container>
- <unitdate type="inclusive" certainty="Circa" normal="1880/1910">1880-1910</unitdate>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">10</container>
+ <unitdate certainty="approximate" normal="1880/1910" type="inclusive">1880-1910</unitdate>
         <unittitle>Hiram Corson and photograph of painting of Caroline Rollins Corson</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
-        <container type="folder">11</container>
+        <container label="unspecified" type="box">5</container>
+        <container label="unspecified" type="folder">11</container>
  <unitdate>Undated</unitdate>
         <unittitle>Eugene Rollins Corson</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
-        <container type="folder">1</container>
+        <container label="unspecified" type="box">6</container>
+        <container label="unspecified" type="folder">1</container>
  <unitdate>Undated</unitdate>
         <unittitle>Eugene Rollins Corson and Hiram Corson together</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
-        <container type="folder">3</container>
+        <container label="unspecified" type="box">6</container>
+        <container label="unspecified" type="folder">3</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photograph of House presented to the Corson's at Trinity College Commemoration</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
-        <container type="folder">4</container>
+        <container label="unspecified" type="box">6</container>
+        <container label="unspecified" type="folder">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Signed photograph of Walt Whitman</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
-        <container type="folder">5</container>
- <unitdate type="inclusive" certainty="Circa" normal="1875/1903">1875-1903</unitdate>
+        <container label="unspecified" type="box">6</container>
+        <container label="unspecified" type="folder">5</container>
+ <unitdate certainty="approximate" normal="1875/1903" type="inclusive">1875-1903</unitdate>
         <unittitle>Photographs of Hiram, Caroline, and Eugene Corson</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
-        <container type="folder">6</container>
+        <container label="unspecified" type="box">6</container>
+        <container label="unspecified" type="folder">6</container>
  <unitdate>Undated</unitdate>
         <unittitle>Photographs of x-rays</unittitle>
        </did>
       </c02><c02 level="item">
           <did>
-              <container type="mapcase-folder">4</container>
+              <container label="unspecified" type="mapcase-folder">4</container>
               <unitdate>1902</unitdate>
               <unittitle>Portrait photograph of Hiram Corson</unittitle>
           </did><scopecontent><p>Formerly on display in the A.D. White library</p></scopecontent>
       </c02>
    </c01>
     </dsc>
-  </archdesc>
+  <prefercite>
+                          <head>Cite As:</head>
+                                   <p>Hiram Corson papers, #14-12-449. Division of Rare and Manuscript Collections, Cornell University Library.
+                                   </p>
+                  </prefercite></archdesc>
  </ead>

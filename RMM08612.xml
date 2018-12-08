@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08612::Barbara Rubin Papers)//EN">RMM08612</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08612::Barbara Rubin Papers)//EN">RMM08612</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the Barbara Rubin Papers, <date>1964-2014.</date></titleproper>
@@ -24,18 +23,24 @@
   <profiledesc>
    <creation>Finding aid encoded by RMC Staff, <date>November 2017</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the Barbara Rubin Papers, <lb/><date type="inclusive" encodinganalog="245$f">1964-2014.</date></titleproper>
+   <titleproper>Guide to the Barbara Rubin Papers, <date encodinganalog="245$f" type="inclusive">1964-2014.</date></titleproper>
    <num>Collection Number: 8612</num>
-   <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+   <publisher>Division of Rare and Manuscript Collections Cornell University
     Library</publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell
-      University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+     <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell
+      University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
     </defitem>
     <defitem>
      <label>Compiled by:</label>
@@ -61,13 +66,12 @@
  <archdesc level="collection">
   <did>
    <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245">Barbara Rubin Papers, <unitdate encodinganalog="MARC 245" type="inclusive">1964-2014.</unitdate>
-   </unittitle>
+   <unittitle encodinganalog="MARC 245" label="Title:">Barbara Rubin Papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1964-2014.</unitdate>
    <unitid label="Collection Number:">8612</unitid>
    <origination label="Creator:">
     <persname encodinganalog="100" normal="Rubin, Barbara. "> Barbara. Rubin </persname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.5 cubic feet</extent></physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.5 cubic feet</extent></physdesc>
    <physdesc label="Forms of Material:">Photographs, printed materials, photocopies, and mimeographs.</physdesc>
    <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University
     Library</repository>
@@ -77,7 +81,7 @@
    </langmaterial>
   </did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+   <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
    <p>Filmmaker and writer Barbara Rubin (1945-1980), born in Cambria Heights, Queens, NY, was 17
     when, not long discharged from a Connecticut institution, she began working for Jonas Mekas at
     the Film-Makers' Cinematheque in New York in 1963. Using a 16mm camera lent to her by Mekas, she
@@ -121,47 +125,40 @@
     <subject encodinganalog="MARC 650">Experimental films.</subject>
    </controlaccess>
   </controlaccess>
-  <descgrp>
-   <head id="a8">INFORMATION FOR USERS</head>
-   <prefercite>
-    <head>Cite As:</head>
-    <p>Barbara Rubin Papers, #8612. Division of Rare and Manuscript Collections, Cornell University
-     Library. </p>
-   </prefercite>
-  </descgrp>
+  
   <arrangement>
    <head>SERIES LIST</head>
    <p>
     <emph render="bold">
-     <ref target="s1" show="replace" actuate="onrequest">Series I. Contracts and
+     <ref actuate="onrequest" show="replace" target="s1">Series I. Contracts and
       correspondence</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s2" show="replace" actuate="onrequest">Series II. Film scripts and
+     <ref actuate="onrequest" show="replace" target="s2">Series II. Film scripts and
       manuscripts</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s3" show="replace" actuate="onrequest">Series III. Fliers and programs</ref>
+     <ref actuate="onrequest" show="replace" target="s3">Series III. Fliers and programs</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s4" show="replace" actuate="onrequest">Series IV. Photographs</ref>
+     <ref actuate="onrequest" show="replace" target="s4">Series IV. Photographs</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s5" show="replace" actuate="onrequest">Series V. Press Material</ref>
+     <ref actuate="onrequest" show="replace" target="s5">Series V. Press Material</ref>
     </emph>
-    <lb/>
+    
    </p>
   </arrangement>
   <dsc type="combined">
@@ -169,7 +166,7 @@
    <c01 level="series">
     <did>
      <unittitle id="s1">Contracts and correspondence</unittitle>
-     <unitdate type="inclusive" certainty="Circa" normal="1964/2003">1964-2003</unitdate>
+     <unitdate certainty="approximate" normal="1964/2003" type="inclusive">1964-2003</unitdate>
     </did>
     <c02 level="subseries">
      <did>
@@ -178,8 +175,8 @@
      </did>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">1</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">1</container>
        <unitdate>Undated</unitdate>
        <unittitle>Agreement for use of Royal Albert Hall</unittitle>
        <physdesc>1 leaf folded to 6 pages. Print and typescript </physdesc>
@@ -190,8 +187,8 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">1</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">1</container>
        <unitdate>Undated</unitdate>
        <unittitle>Special, Special Special Addition To The Special Letter</unittitle>
        <physdesc><extent>8 pages</extent></physdesc>
@@ -201,18 +198,18 @@
     </c02>
     <c02 level="subseries">
      <did>
-      <unitdate type="inclusive" certainty="Circa" normal="1964/2003">1964-2003</unitdate>
+      <unitdate certainty="approximate" normal="1964/2003" type="inclusive">1964-2003</unitdate>
       <unittitle>Correspondence</unittitle>
      </did>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">2</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">2</container>
        <unitdate>Undated</unitdate>
        <unittitle>Letter addressed to Arlene McElroy, Arthur Knight, Hollis Albert, and
         Playboy</unittitle>
        <origination label="Creator"><persname>Rubin, Barbara</persname></origination>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc>Mimeographed.</physdesc>
       </did>
       <scopecontent>
@@ -221,12 +218,12 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">2</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">2</container>
        <unitdate>Undated</unitdate>
        <unittitle>Autograph letter to Jonas Mekas</unittitle>
        <origination label="Creator"><persname>Rubin, Barbara</persname></origination>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc>Handwritten single page that goes
         onto verso</physdesc>
       </did>
@@ -236,12 +233,12 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">2</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1966-05">1966-05</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">2</container>
+       <unitdate certainty="approximate" normal="1966-05" type="inclusive">1966-05</unitdate>
        <unittitle>Autograph letter signed to Jonas Mekas</unittitle>
        <origination label="Creator"><persname>Rubin, Barbara</persname></origination>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
       </did>
       <scopecontent>
        <p>I love your language I love you… Written on the verso of a completed
@@ -250,11 +247,11 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">3</container>
-       <unitdate type="inclusive" normal="2003-02-24">2003-02-24</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">3</container>
+       <unitdate normal="2003-02-24" type="inclusive">2003-02-24</unitdate>
        <unittitle>Letter signed to Jonas Mekas from Tony Scherman</unittitle>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc>Photocopy of typed letter.</physdesc>
       </did>
       <scopecontent>
@@ -263,8 +260,8 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">3</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">3</container>
        <unitdate>Undated</unitdate>
        <unittitle>Autograph letter signed to Jonas Mekas</unittitle>
        <origination label="Creator"><persname>Rubin, Barbara</persname></origination>
@@ -277,9 +274,9 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">3</container>
-       <unitdate type="inclusive" normal="1964-01-24">1964-01-24</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">3</container>
+       <unitdate normal="1964-01-24" type="inclusive">1964-01-24</unitdate>
        <unittitle>Autograph letter signed to Jonas Mekas</unittitle>
        <origination label="Creator"><persname>Rubin, Barbara</persname></origination>
        <physdesc><extent>4 pages</extent></physdesc>
@@ -291,12 +288,12 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">3</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">3</container>
        <unitdate>Undated</unitdate>
        <unittitle>Autograph letter signed to Jonas Mekas</unittitle>
        <origination label="Creator"><persname>Rubin, Barbara</persname></origination>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc>Handwritten.</physdesc>
       </did>
       <scopecontent>
@@ -305,21 +302,21 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">3</container>
-       <unitdate type="inclusive" normal="1964-01-23">1964-01-23</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">3</container>
+       <unitdate normal="1964-01-23" type="inclusive">1964-01-23</unitdate>
        <unittitle>Envelope addressed to Jonas Mekas</unittitle>
        <origination label="Creator"><persname>Rubin, Barbara</persname></origination>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">3</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">3</container>
        <unitdate>Undated</unitdate>
        <unittitle>Autograph letter signed to Jonas Mekas</unittitle>
        <origination label="Creator"><persname>Rubin, Barbara</persname></origination>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc>Handwritten.</physdesc>
       </did>
       <scopecontent>
@@ -328,12 +325,12 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">3</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">3</container>
        <unitdate>Undated</unitdate>
        <unittitle>Autograph letter signed to Jonas Mekas</unittitle>
        <origination label="Creator"><persname>Rubin, Barbara</persname></origination>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc>Handwritten with old tape on both sides of the paper</physdesc>
       </did>
       <scopecontent>
@@ -344,23 +341,23 @@
    </c01>
    <c01 level="series">
     <did>
-     <unitdate type="inclusive" certainty="Circa" normal="1965/1983">1965-1983</unitdate>
+     <unitdate certainty="approximate" normal="1965/1983" type="inclusive">1965-1983</unitdate>
      <unittitle id="s2">Film scripts and manuscripts</unittitle>
     </did>
     <c02 level="subseries">
      <did>
-      <unitdate type="inclusive" certainty="Circa" normal="1965/1973">1965-1973</unitdate>
+      <unitdate certainty="approximate" normal="1965/1973" type="inclusive">1965-1973</unitdate>
       <unittitle>Film scripts </unittitle>
      </did>
      <c03 level="subseries">
       <did>
-       <unitdate type="inclusive" certainty="Circa" normal="1965">1965</unitdate>
+       <unitdate certainty="approximate" normal="1965" type="inclusive">1965</unitdate>
        <unittitle>Christmas on Earth</unittitle>
       </did>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">4</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">4</container>
         <unitdate>Undated</unitdate>
         <unittitle>Trip Along With Christmas On Earth Continued Again Continuing Remains with
          Barbara Rubin 1966</unittitle>
@@ -369,8 +366,8 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">4</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">4</container>
         <unitdate>Undated</unitdate>
         <unittitle>Trip Along With Christmas On Earth Continued Again Continuing Remains with
          Barbara Rubin 1966</unittitle>
@@ -380,9 +377,9 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">5</container>
-        <unitdate type="inclusive" normal="1965">1965</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">5</container>
+        <unitdate normal="1965" type="inclusive">1965</unitdate>
         <unittitle>Christmas on Earth Continued</unittitle>
         <physdesc><extent>19 pages</extent></physdesc>
         <physdesc>Typescript on a variety of paper stocks</physdesc>
@@ -393,19 +390,19 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">6</container>
-        <unitdate type="inclusive" normal="1965">1965</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">6</container>
+        <unitdate normal="1965" type="inclusive">1965</unitdate>
         <unittitle>Christmas on Earth Continued</unittitle>
-        <physdesc><extent> 31 pages</extent></physdesc>
+        <physdesc><extent>31 pages</extent></physdesc>
         <physdesc>Mimeographed script in green text</physdesc>
        </did>
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">7</container>
-        <unitdate type="inclusive" certainty="Circa" normal="1965">1965</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">7</container>
+        <unitdate certainty="approximate" normal="1965" type="inclusive">1965</unitdate>
         <unittitle>Christmas on Earth Continued</unittitle>
         <physdesc><extent>16 pages</extent></physdesc>
         <physdesc>Carbonscript on a variety of paper stocks, string bound on right side</physdesc>
@@ -416,9 +413,9 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">8</container>
-        <unitdate type="inclusive" normal="1965">1965</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">8</container>
+        <unitdate normal="1965" type="inclusive">1965</unitdate>
         <unittitle>Christmas On Earth Continued</unittitle>
         <physdesc><extent>25 pages</extent></physdesc>
         <physdesc>Typescript in onionskin.</physdesc>
@@ -427,26 +424,26 @@
      </c03>
      <c03 level="subseries">
       <did>
-       <unitdate type="inclusive" normal="1967/1973">1967-1973</unitdate>
+       <unitdate normal="1967/1973" type="inclusive">1967-1973</unitdate>
        <unittitle>Other scripts</unittitle>
       </did>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">9</container>
-        <unitdate type="inclusive" normal="1967-07-18">1967-07-18</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">9</container>
+        <unitdate normal="1967-07-18" type="inclusive">1967-07-18</unitdate>
         <unittitle>Sidney Arthur, A Musical Comedy</unittitle>
         <origination label="Creator"><persname>Rubin, Barbara and Shirley
          Clarke</persname></origination>
-        <physdesc><extent>6 pages </extent></physdesc>
+        <physdesc><extent>6 pages</extent></physdesc>
         <physdesc>Photocopy of typescript film script</physdesc>
        </did>
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">9</container>
-        <unitdate type="inclusive" normal="1973">1973</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">9</container>
+        <unitdate normal="1973" type="inclusive">1973</unitdate>
         <unittitle>Shooting Script for The Film The Broken Betrothal from the story by Rebbe Nachman
          of Breslov</unittitle>
         <physdesc><extent>16 pages</extent></physdesc>
@@ -458,9 +455,9 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">9</container>
-        <unitdate type="inclusive" normal="1972">1972</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">9</container>
+        <unitdate normal="1972" type="inclusive">1972</unitdate>
         <unittitle>Emouna</unittitle>
         <physdesc><extent>12 pages</extent></physdesc>
         <physdesc>Photocopied script</physdesc>
@@ -473,7 +470,7 @@
     </c02>
     <c02 level="subseries">
      <did>
-      <unitdate type="inclusive" certainty="Circa" normal="1965/1983">1965-1983</unitdate>
+      <unitdate certainty="approximate" normal="1965/1983" type="inclusive">1965-1983</unitdate>
       <unittitle>Manuscripts</unittitle>
      </did>
      <scopecontent>
@@ -486,18 +483,18 @@
       </did>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">11</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">11</container>
         <unitdate>Undated</unitdate>
         <unittitle>Christmas on Earth Continued Again… a chatter on the movie</unittitle>
-        <physdesc><extent> 23 pages</extent></physdesc>
+        <physdesc><extent>23 pages</extent></physdesc>
         <physdesc>Mimeographed prose piece</physdesc>
        </did>
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">11</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">11</container>
         <unitdate>Undated</unitdate>
         <unittitle>Christmas on Earth Continued Again… a chatter on the movie</unittitle>
         <physdesc><extent>23 pages</extent></physdesc>
@@ -510,8 +507,8 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">11</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">11</container>
         <unitdate>Undated</unitdate>
         <unittitle>Christmas on Earth Continued Again… a chatter on the movie</unittitle>
         <physdesc><extent>23 pages</extent></physdesc>
@@ -523,9 +520,9 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">12</container>
-        <unitdate type="inclusive" normal="1965">1965</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">12</container>
+        <unitdate normal="1965" type="inclusive">1965</unitdate>
         <unittitle>A Personal Statement on the Movie Christmas on Earth Continued</unittitle>
         <physdesc><extent>8 pages</extent></physdesc>
         <physdesc>Mimeographed</physdesc>
@@ -533,11 +530,11 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">12</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">12</container>
         <unitdate>Undated</unitdate>
         <unittitle>Projection instructions for Christmas On Earth</unittitle>
-        <physdesc><extent>1 page</extent></physdesc>
+        <physdesc><extent>1 pages</extent></physdesc>
         <physdesc>Mimeographed. Autographed on top right by Barbara Rubin</physdesc>
        </did>
        <scopecontent>
@@ -546,11 +543,11 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">12</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">12</container>
         <unitdate>Undated</unitdate>
         <unittitle>Projection instructions for Christmas On Earth</unittitle>
-        <physdesc><extent>1 page</extent></physdesc>
+        <physdesc><extent>1 pages</extent></physdesc>
         <physdesc>Typescript with handwritten rental cost annotation on a backing page. Verso is
          Anthology stationary</physdesc>
        </did>
@@ -560,11 +557,11 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">12</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">12</container>
         <unitdate>Undated</unitdate>
         <unittitle>Projection instructions for Christmas On Earth</unittitle>
-        <physdesc><extent>1 page</extent></physdesc>
+        <physdesc><extent>1 pages</extent></physdesc>
         <physdesc>Photocopy with rental cost annotation across top</physdesc>
        </did>
        <scopecontent>
@@ -573,11 +570,11 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">12</container>
-        <unitdate type="inclusive" certainty="Circa" normal="1983">1983</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">12</container>
+        <unitdate certainty="approximate" normal="1983" type="inclusive">1983</unitdate>
         <unittitle>Projection instructions for Christmas On Earth</unittitle>
-        <physdesc><extent>1 page</extent></physdesc>
+        <physdesc><extent>1 pages</extent></physdesc>
         <physdesc>Mimeographed</physdesc>
        </did>
        <scopecontent>
@@ -586,8 +583,8 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">12</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">12</container>
         <unitdate>Undated</unitdate>
         <unittitle>Notes about Christmas On Earth</unittitle>
        </did>
@@ -597,11 +594,11 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">12</container>
-        <unitdate type="inclusive" normal="1968-04">1968-04</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">12</container>
+        <unitdate normal="1968-04" type="inclusive">1968-04</unitdate>
         <unittitle>Notes on Christmas On Earth</unittitle>
-        <physdesc><extent>1 page</extent></physdesc>
+        <physdesc><extent>1 pages</extent></physdesc>
         <physdesc>Mimeographed</physdesc>
        </did>
        <scopecontent>
@@ -611,7 +608,7 @@
      </c03>
      <c03 level="subseries">
       <did>
-       <unitdate type="inclusive" certainty="Circa" normal="1972/1983">1972-1983</unitdate>
+       <unitdate certainty="approximate" normal="1972/1983" type="inclusive">1972-1983</unitdate>
        <unittitle>General</unittitle>
       </did>
       <scopecontent>
@@ -619,9 +616,9 @@
       </scopecontent>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">13</container>
-        <unitdate type="inclusive" normal="1972">1972</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">13</container>
+        <unitdate normal="1972" type="inclusive">1972</unitdate>
         <unittitle>We Invite You To The Screening of The First Film of Trilogy Emunah (Ruff
          Cut)</unittitle>
         <physdesc><extent>8 pages</extent></physdesc>
@@ -630,8 +627,8 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">13</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">13</container>
         <unitdate>Undated</unitdate>
         <unittitle>Listing of Rubin's films and description of a program to be presented with Gordon
          Ball</unittitle>
@@ -644,9 +641,9 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">13</container>
-        <unitdate type="inclusive" normal="1983-04-26">1983-04-26</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">13</container>
+        <unitdate normal="1983-04-26" type="inclusive">1983-04-26</unitdate>
         <unittitle>"These three pages received from Pam (xeroxer) April, 26, '83 She said she'll
          give me the whole ms."</unittitle>
         <physdesc><extent>3 pages</extent></physdesc>
@@ -655,8 +652,8 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">13</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">13</container>
         <unitdate>Undated</unitdate>
         <unittitle>Barbara Rubin and Gordon Ball</unittitle>
        </did>
@@ -666,8 +663,8 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">14</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">14</container>
         <unitdate>Undated</unitdate>
         <unittitle>Ms. notes beginning, "6 in all Dylan Records…"</unittitle>
         <origination label="Creator"><persname>Rubin, Barbara</persname></origination>
@@ -678,11 +675,11 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">14</container>
-        <unitdate type="inclusive" normal="1964">1964</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">14</container>
+        <unitdate normal="1964" type="inclusive">1964</unitdate>
         <unittitle>Invoice from Film Lab for developing a Rubin film</unittitle>
-        <physdesc><extent>1 page</extent></physdesc>
+        <physdesc><extent>1 pages</extent></physdesc>
         <physdesc> Missing top left of page</physdesc>
        </did>
        <scopecontent>
@@ -692,8 +689,8 @@
       </c04>
       <c04 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">14</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">14</container>
         <unitdate>Undated</unitdate>
         <unittitle>Book of Formation (Sefer Yetzirah)</unittitle>
        </did>
@@ -706,7 +703,7 @@
    </c01>
    <c01 level="series">
     <did>
-     <unitdate type="inclusive" certainty="Circa" normal="1967/1983">1967-1983</unitdate>
+     <unitdate certainty="approximate" normal="1967/1983" type="inclusive">1967-1983</unitdate>
      <unittitle id="s3">Fliers and programs</unittitle>
     </did>
     <scopecontent>
@@ -714,7 +711,7 @@
     </scopecontent>
     <c02 level="subseries">
      <did>
-      <unitdate type="inclusive" certainty="Circa" normal="1967">1967</unitdate>
+      <unitdate certainty="approximate" normal="1967" type="inclusive">1967</unitdate>
       <unittitle>Fliers </unittitle>
      </did>
      <scopecontent>
@@ -722,11 +719,11 @@
      </scopecontent>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">10</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">10</container>
        <unitdate>Undated</unitdate>
        <unittitle>The Sixteenth of April Movement: RESIST</unittitle>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc>Photocopied flier</physdesc>
       </did>
       <scopecontent>
@@ -736,8 +733,8 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">10</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">10</container>
        <unitdate>Undated</unitdate>
        <unittitle>Invitation for a reading and screening of Christmas On Earth</unittitle>
       </did>
@@ -747,8 +744,8 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">10</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">10</container>
        <unitdate>Undated</unitdate>
        <unittitle>House of Seraphim Ltd.</unittitle>
        <physdesc>Flier</physdesc>
@@ -760,18 +757,18 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">10</container>
-       <unitdate type="inclusive" normal="1967">1967</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">10</container>
+       <unitdate normal="1967" type="inclusive">1967</unitdate>
        <unittitle>Caterpillar Changes</unittitle>
        <physdesc>Yellow and red color offset flier</physdesc>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">10</container>
-       <unitdate type="inclusive" normal="1967">1967</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">10</container>
+       <unitdate normal="1967" type="inclusive">1967</unitdate>
        <unittitle>Butterfly Booboos</unittitle>
        <physdesc>B/W photocopied flier</physdesc>
       </did>
@@ -784,8 +781,8 @@
      </did>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">19</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">19</container>
        <unitdate>Undated</unitdate>
        <unittitle>Not Forgotten Series (Program1)</unittitle>
        <physdesc><extent>6 pages</extent></physdesc>
@@ -797,22 +794,22 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">19</container>
-       <unitdate type="inclusive" normal="1983">1983</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">19</container>
+       <unitdate normal="1983" type="inclusive">1983</unitdate>
        <unittitle>The Kitchen's screening of Christmas On Earth and Jean Genet's Un Chant
         D'Amour</unittitle>
-       <physdesc><extent> 2 pages</extent></physdesc>
+       <physdesc><extent>2 pages</extent></physdesc>
        <physdesc>Program</physdesc>
       </did>
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">19</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">19</container>
        <unitdate>Undated</unitdate>
        <unittitle>Double Vision split between Barbara Rubin and Andy Warhol.</unittitle>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc>Mimeographed program announcement</physdesc>
       </did>
       <scopecontent>
@@ -821,11 +818,11 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">19</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">19</container>
        <unitdate>Undated</unitdate>
        <unittitle>Expanded Cinema</unittitle>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc>Mimeographed program announcement</physdesc>
       </did>
       <scopecontent>
@@ -836,18 +833,18 @@
    </c01>
    <c01 level="series">
     <did>
-     <unitdate type="inclusive" certainty="Circa" normal="1963/2013">1963-2013</unitdate>
+     <unitdate certainty="approximate" normal="1963/2013" type="inclusive">1963-2013</unitdate>
      <unittitle id="s4">Photographs</unittitle>
     </did>
     <c02 level="subseries">
      <did>
-      <unitdate type="inclusive" certainty="Circa" normal="1963/2011">1963-2011</unitdate>
+      <unitdate certainty="approximate" normal="1963/2011" type="inclusive">1963-2011</unitdate>
       <unittitle>Original photographs</unittitle>
      </did>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">15</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">15</container>
        <unitdate>Undated</unitdate>
        <unittitle>Vintage still from Christmas On Earth</unittitle>
       </did>
@@ -857,8 +854,8 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">15</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">15</container>
        <unitdate>Undated</unitdate>
        <unittitle>Barbara Rubin filming 'Allen for Alen' London June 1965.</unittitle>
        <origination label="Creator"><persname>Ginsberg, Allen</persname></origination>
@@ -867,9 +864,9 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">15</container>
-       <unitdate type="inclusive" normal="1963">1963</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">15</container>
+       <unitdate normal="1963" type="inclusive">1963</unitdate>
        <unittitle>Portrait of a yon woman named Debbi</unittitle>
       </did>
       <scopecontent>
@@ -878,9 +875,9 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">15</container>
-       <unitdate type="inclusive" normal="2011">2011</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">15</container>
+       <unitdate normal="2011" type="inclusive">2011</unitdate>
        <unittitle>Andy Warhol</unittitle>
        <physdesc> Laser print of three frames</physdesc>
       </did>
@@ -890,8 +887,8 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">15</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">15</container>
        <unitdate>Undated</unitdate>
        <unittitle>Caterpillar Changes</unittitle>
       </did>
@@ -902,7 +899,7 @@
     </c02>
     <c02 level="subseries">
      <did>
-      <unitdate type="inclusive" normal="2012/2013">2012-2013</unitdate>
+      <unitdate normal="2012/2013" type="inclusive">2012-2013</unitdate>
       <unittitle>Exhibition Prints</unittitle>
      </did>
      <scopecontent>
@@ -911,8 +908,8 @@
      </scopecontent>
      <c03 level="file">
       <did>
-       <container type="box">2</container>
-       <unitdate type="inclusive" normal="2012/2013">2012-2013</unitdate>
+       <container label="unspecified" type="box">2</container>
+       <unitdate normal="2012/2013" type="inclusive">2012-2013</unitdate>
        <unittitle>Barbara Rubin: Christmas on Earth - Prints 1-56</unittitle>
       </did>
       <scopecontent><p>Missing 4.</p></scopecontent>
@@ -921,19 +918,19 @@
    </c01>
    <c01 level="series">
     <did>
-     <unitdate type="inclusive" certainty="Circa" normal="1965/2011">1965-2011</unitdate>
+     <unitdate certainty="approximate" normal="1965/2011" type="inclusive">1965-2011</unitdate>
      <unittitle id="s5">Press Material</unittitle>
     </did>
     <c02 level="subseries">
      <did>
-      <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate>
+      <unitdate normal="1965/1967" type="inclusive">1965-1967</unitdate>
       <unittitle>Periodicals</unittitle>
      </did>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">16</container>
-       <unitdate type="inclusive" normal="1965">1965</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">16</container>
+       <unitdate normal="1965" type="inclusive">1965</unitdate>
        <unittitle>Film Culture. No. 37. Summer, 1965</unittitle>
       </did>
       <scopecontent>
@@ -942,9 +939,9 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">16</container>
-       <unitdate type="inclusive" normal="1967">1967</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">16</container>
+       <unitdate normal="1967" type="inclusive">1967</unitdate>
        <unittitle>Film Culture. No. 44. Spring, 1967</unittitle>
       </did>
       <scopecontent>
@@ -955,17 +952,17 @@
     </c02>
     <c02 level="subseries">
      <did>
-      <unitdate type="inclusive" certainty="Circa" normal="1965/2011">1965-2011</unitdate>
+      <unitdate certainty="approximate" normal="1965/2011" type="inclusive">1965-2011</unitdate>
       <unittitle>Clippings</unittitle>
      </did>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">17</container>
-       <unitdate type="inclusive" normal="1983">1983</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">17</container>
+       <unitdate normal="1983" type="inclusive">1983</unitdate>
        <unittitle>Short list of critical articles that mentions Barbara Rubin's Christmas On
         Earth</unittitle>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc> Mimeographed. </physdesc>
       </did>
       <scopecontent>
@@ -975,9 +972,9 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">17</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1965/2011">1965-2011</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">17</container>
+       <unitdate certainty="approximate" normal="1965/2011" type="inclusive">1965-2011</unitdate>
        <unittitle>Press clippings relating to Barbara Rubin</unittitle>
        <physdesc><extent>56 leaves</extent></physdesc>
        <physdesc> Original and photocopied</physdesc>
@@ -989,14 +986,14 @@
     </c02>
     <c02 level="subseries">
      <did>
-      <unitdate type="inclusive" certainty="Circa" normal="1965-11/1983">1965-11-1983</unitdate>
+      <unitdate certainty="approximate" normal="1965-11/1983" type="inclusive">1965-11-1983</unitdate>
       <unittitle>Press releases</unittitle>
      </did>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">18</container>
-       <unitdate type="inclusive" normal="1983">1983</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">18</container>
+       <unitdate normal="1983" type="inclusive">1983</unitdate>
        <unittitle>The Kitchen's screening of Christmas On Earth and Jean Genet's Un Chant
         D'Amour</unittitle>
       </did>
@@ -1006,11 +1003,11 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">18</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1965-11">1965-11</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">18</container>
+       <unitdate certainty="approximate" normal="1965-11" type="inclusive">1965-11</unitdate>
        <unittitle>Special Announcement - Festival of Expanded Cinema</unittitle>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc>Mimeographed press release</physdesc>
       </did>
       <scopecontent>
@@ -1019,9 +1016,9 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">18</container>
-       <unitdate type="inclusive" normal="1972">1972</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">18</container>
+       <unitdate normal="1972" type="inclusive">1972</unitdate>
        <unittitle>The Film You Will Be Seeing On December 23…</unittitle>
        <physdesc><extent>2 pages</extent></physdesc>
        <physdesc>Mimeographed pamphlet.</physdesc>
@@ -1032,11 +1029,11 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">18</container>
-       <unitdate type="inclusive" certainty="Circa" normal="1972">1972</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">18</container>
+       <unitdate certainty="approximate" normal="1972" type="inclusive">1972</unitdate>
        <unittitle>Allen Ginsberg in Emunah: A Cooperative Collective Creation</unittitle>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc>Photocopy</physdesc>
       </did>
       <scopecontent>
@@ -1045,11 +1042,11 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">18</container>
-       <unitdate type="inclusive" normal="1967-02-25">1967-02-25</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">18</container>
+       <unitdate normal="1967-02-25" type="inclusive">1967-02-25</unitdate>
        <unittitle>Screening of films at The Underground</unittitle>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc>Mimeograph on yellow paper</physdesc>
       </did>
       <scopecontent>
@@ -1058,11 +1055,11 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">18</container>
-       <unitdate type="inclusive" normal="1967-02-25">1967-02-25</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">18</container>
+       <unitdate normal="1967-02-25" type="inclusive">1967-02-25</unitdate>
        <unittitle>Screening of films at The Underground</unittitle>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc>Mimeograph on white paper</physdesc>
       </did>
       <scopecontent>
@@ -1071,12 +1068,12 @@
      </c03>
      <c03 level="file">
       <did>
-       <container type="box">1</container>
-       <container type="folder">18</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">18</container>
        <unitdate>Undated</unitdate>
        <unittitle>On Jan. 14, 1967 in the Golden Gate park in San Francisco there will be he ld a
         day of peace manifestation…</unittitle>
-       <physdesc><extent>1 page</extent></physdesc>
+       <physdesc><extent>1 pages</extent></physdesc>
        <physdesc>Typescript.</physdesc>
       </did>
       <scopecontent>
@@ -1087,5 +1084,9 @@
     </c02>
    </c01>
   </dsc>
- </archdesc>
+ <prefercite>
+    <head>Cite As:</head>
+    <p>Barbara Rubin Papers, #8612. Division of Rare and Manuscript Collections, Cornell University
+     Library. </p>
+   </prefercite></archdesc>
 </ead>

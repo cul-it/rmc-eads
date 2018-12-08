@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM03459::Guide to the Stuyvesant Morris Pell papers)//EN">RMM03459</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM03459::Guide to the Stuyvesant Morris Pell papers)//EN">RMM03459</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Stuyvesant Morris Pell
@@ -23,19 +23,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>May 2013</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Stuyvesant Morris Pell Papers,<lb/><date type="inclusive" encodinganalog="245$f">[ca.1917-1945].</date></titleproper>
+			<titleproper>Guide to the Stuyvesant Morris Pell Papers,<date encodinganalog="245$f" type="inclusive">[ca.1917-1945].</date></titleproper>
 			<num>Collection Number: 3459</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -61,13 +67,14 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Stuyvesant Morris Pell papers,
-					<unitdate encodinganalog="MARC 245" type="inclusive">[ca.1917-1945].</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Stuyvesant Morris Pell papers,
+					</unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1917-1945.</unitdate>
 			<unitid label="Collection Number:">3459</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Pell, Stuyvesant Morris,  1905-1943. ">Pell, Stuyvesant Morris,
 				</persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>4.4 cubic feet.; 9 Mapcase Folders.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>4.4 cubic feet.; 9 Mapcase Folders.</extent></physdesc>
 			<physdesc label="Forms of Material:">{Manuscripts, research materials</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -76,7 +83,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Stuyvesant Morris Pell was a specialist in conservation of natural resources and
 				manager of the 16,000 acre range of the Huron Mountain Club in northern Michigan. He
 				was born in New York City and received a B.S. from Cornell in 1939 and an M.S. in
@@ -118,8 +125,8 @@
 				<subject encodinganalog="MARC 650">Ornithological illustration.</subject>
 				<subject encodinganalog="MARC 650">Conservationists.</subject>
 				<subject encodinganalog="MARC 650">Naturalists.</subject>
-				<subject source="lcsh" encodinganalog="MARC 650">Birds.</subject>
-				<subject source="lcsh" encodinganalog="MARC 650">Birds in art.</subject>
+				<subject encodinganalog="MARC 650" source="lcsh">Birds.</subject>
+				<subject encodinganalog="MARC 650" source="lcsh">Birds in art.</subject>
 			</controlaccess>
 			<controlaccess>
 				<head>Places:</head>
@@ -137,56 +144,49 @@
 				<genreform encodinganalog="MARC 655" source="aat">Watercolors.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Stuyvesant Morris Pell papers, #3459. Division of Rare and Manuscript
-					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<arrangement>
 			<head>SERIES LIST</head>
 			<p>
 				<emph render="bold">
-					<ref target="s1" show="replace" actuate="onrequest">Series I. Student
+					<ref actuate="onrequest" show="replace" target="s1">Series I. Student
 						Papers</ref>
 				</emph>
-				<lb/>Box 1 and Map case <lb/><ref target="s1ss1">Coursework</ref>
-				<lb/><ref target="s1ss2">Lecture Notes</ref>
-				<lb/><ref target="s1ss3">Diplomas and Certificates</ref>
+				Box 1 and Map case <ref target="s1ss1">Coursework</ref>
+				<ref target="s1ss2">Lecture Notes</ref>
+				<ref target="s1ss3">Diplomas and Certificates</ref>
 			</p>
 			<p>
 				<emph render="bold">
-					<ref target="s2" show="replace" actuate="onrequest">Series II. Field Work</ref>
+					<ref actuate="onrequest" show="replace" target="s2">Series II. Field Work</ref>
 				</emph>
-				<lb/>Boxes 1-2, 4 and Mapcase Folder 7 <lb/><ref target="s2ss1">Field Notes and
+				Boxes 1-2, 4 and Mapcase Folder 7 <ref target="s2ss1">Field Notes and
 					Notebooks</ref>
-				<lb/><ref target="s2ss2">Informational Materials</ref>
+				<ref target="s2ss2">Informational Materials</ref>
 			</p>
 			<p>
 				<emph render="bold">
-					<ref target="s3" show="replace" actuate="onrequest">Series III. Manuscript and
+					<ref actuate="onrequest" show="replace" target="s3">Series III. Manuscript and
 						Reprints</ref>
 				</emph>
-				<lb/>Boxes 3 and 4</p>
+				Boxes 3 and 4</p>
 			<p>
 				<emph render="bold">
-					<ref target="s4" show="replace" actuate="onrequest">Series IV. Photographic
+					<ref actuate="onrequest" show="replace" target="s4">Series IV. Photographic
 						Materials</ref>
 				</emph>
-				<lb/>Boxes 4-7</p>
+				Boxes 4-7</p>
 			<p>
 				<emph render="bold">
-					<ref target="s5" show="replace" actuate="onrequest">Series V. Artwork</ref>
+					<ref actuate="onrequest" show="replace" target="s5">Series V. Artwork</ref>
 				</emph>
-				<lb/>Box 4, 9, 10 and Mapcase Folder 1-6 and 8-9</p>
+				Box 4, 9, 10 and Mapcase Folder 1-6 and 8-9</p>
 			<p>
 				<emph render="bold">
-					<ref target="s6" show="replace" actuate="onrequest">Series VI. Scientific and
+					<ref actuate="onrequest" show="replace" target="s6">Series VI. Scientific and
 						Art Objects</ref>
 				</emph>
-				<lb/>Box 3 and 8</p>
+				Box 3 and 8</p>
 
 		</arrangement>
 		<dsc type="combined">
@@ -203,8 +203,8 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">1</container>
 							<unitdate>1939</unitdate>
 							<unittitle>Typed Paper: "An Analysis of the Food Habits and Preliminary
 								Ecological Study of the Common Snapping Turtle"</unittitle>
@@ -212,9 +212,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">2</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">2</container>
+							
 							<unittitle>Carbon copy of M.S. Thesis, "Notes on the Habits on the
 								Common Snapping Turtle, Chelydra Serpentina (Linn.) in Central New
 								York"</unittitle>
@@ -222,16 +222,16 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">3</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">3</container>
 							<unitdate>April-December 1940</unitdate>
 							<unittitle>Turtle Problems - Field Notebook.</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">4</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">4</container>
 							<unitdate>1940-1941</unitdate>
 							<unittitle>Turtle Problems - Notes, Articles and
 								Correspondence</unittitle>
@@ -239,25 +239,25 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">5</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">5</container>
+							
 							<unittitle>Thesis "Notes on the Habits on the Common Snapping Turtle,
 								Chelydra Serpentina (Linn.) in Central New York"</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">6</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">6</container>
+							
 							<unittitle>Zoology Department</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">7</container>
 							<unitdate>1941-1942</unitdate>
 							<unittitle>Wilson Ornithological Club Program</unittitle>
 						</did>
@@ -272,113 +272,113 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">8-10</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">8-10</container>
+							
 							<unittitle>Mammology</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">11</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">11</container>
+							
 							<unittitle>Aquatic Plants</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">12-13</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">12-13</container>
 							<unitdate>1940-1941</unitdate>
 							<unittitle>Forestry</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">14-15</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">14-15</container>
 							<unitdate>1938</unitdate>
 							<unittitle>Aquatic Insects</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">16-17</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">16-17</container>
 							<unitdate>1938-1940</unitdate>
 							<unittitle>Game Management</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">18</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">18</container>
+							
 							<unittitle>Zoology</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">18-22</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">18-22</container>
 							<unitdate>1937-1938</unitdate>
 							<unittitle>Invertebrate Zoology</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">23-24</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">23-24</container>
 							<unitdate>1938</unitdate>
 							<unittitle>Algae</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">25, 27-34</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">25, 27-34</container>
 							<unitdate>1937-1938</unitdate>
 							<unittitle>Botany</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">26</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">26</container>
+							
 							<unittitle>Biology</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">35</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">35</container>
 							<unitdate>1939</unitdate>
 							<unittitle>Nature Study Teaching</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">36-38</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">36-38</container>
 							<unitdate>1937-1938</unitdate>
 							<unittitle>Entomology</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">39-43</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">39-43</container>
 							<unitdate>1937-1940</unitdate>
 							<unittitle>Ornithology</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">44-46</container>
-							<unitdate>c.1939</unitdate>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">44-46</container>
+							<unitdate certainty="approximate">1939</unitdate>
 							<unittitle>Economic Entomology</unittitle>
 						</did>
 					</c03>
@@ -390,16 +390,16 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">7</container>
+							
+							<container label="unspecified" type="mapcase-folder">7</container>
 							<unitdate>1923</unitdate>
 							<unittitle>Diploma from St. Mark's School</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">7</container>
+							
+							<container label="unspecified" type="mapcase-folder">7</container>
 							<unitdate>1939</unitdate>
 							<unittitle>Diploma from Cornell University, College of Agriculture,
 								B.S.</unittitle>
@@ -407,16 +407,16 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">7</container>
+							
+							<container label="unspecified" type="mapcase-folder">7</container>
 							<unitdate>1941</unitdate>
 							<unittitle>Diploma from Cornell University, M.S.</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">7</container>
+							
+							<container label="unspecified" type="mapcase-folder">7</container>
 							<unitdate>1938</unitdate>
 							<unittitle>Certificate from Phi Kappa Phi</unittitle>
 						</did>
@@ -434,9 +434,9 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">47-49</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">47-49</container>
+							
 							<unittitle>"Log of the Pleasant Valley Beaver Colony" by S.M.
 								Pell</unittitle>
 						</did>
@@ -446,8 +446,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">8-10</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">8-10</container>
 							<unitdate>1939</unitdate>
 							<unittitle>Notes, scrapbook, check lists, talks at Yosemite Field
 								School</unittitle>
@@ -458,8 +458,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">11</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">11</container>
 							<unitdate>1940</unitdate>
 							<unittitle>Notes taken on Acadia National Park, Bar Harbor
 								Maine</unittitle>
@@ -470,22 +470,22 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<unitdate/>
+							<container label="unspecified" type="box">4</container>
+							
 							<unittitle>Log of the Survey of Southern Sanctuaries</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<unitdate>c. 1917-1920</unitdate>
+							<container label="unspecified" type="box">4</container>
+							<unitdate certainty="approximate">1917-1920</unitdate>
 							<unittitle>2 small note books with bird records</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<unitdate/>
+							<container label="unspecified" type="box">4</container>
+							
 							<unittitle>1 small note book</unittitle>
 						</did>
 					</c03>
@@ -496,8 +496,8 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">1</container>
 							<unitdate>August, 1942</unitdate>
 							<unittitle>Copy of "Report on Wildlife Studies at the Huron Mountain
 								Club 1939-1942" by Richard Manville</unittitle>
@@ -505,8 +505,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">2-4</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">2-4</container>
 							<unitdate>1915-1940</unitdate>
 							<unittitle>Waterfowl Bulletins, U.S. Department of the Interior, Bureau
 								of Biological Survey and Department of Agriculture</unittitle>
@@ -517,9 +517,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">5</container>
-							<unitdate/>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">5</container>
+							
 							<unittitle>Handwritten Notes</unittitle>
 						</did>
 						<scopecontent>
@@ -530,9 +530,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">6</container>
-							<unitdate>c. 1937-1939</unitdate>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">6</container>
+							<unitdate certainty="approximate">1937-1939</unitdate>
 							<unittitle>Summer 1937 and Miscellaneous</unittitle>
 						</did>
 						<scopecontent>
@@ -542,8 +542,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">7</container>
 							<unitdate>1939</unitdate>
 							<unittitle>National Park Service, Predator Policy </unittitle>
 						</did>
@@ -555,8 +555,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">12</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">12</container>
 							<unitdate>1937-1940</unitdate>
 							<unittitle>Acadia National Park Materials</unittitle>
 						</did>
@@ -567,8 +567,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">4</container>
+							
+							<container label="unspecified" type="mapcase-folder">4</container>
 							<unitdate>1942</unitdate>
 							<unittitle>2 copies of Huron Mountain Club map, Marquette County,
 								Michigan by S.M. Pell modified after </unittitle>
@@ -576,18 +576,18 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">4</container>
-							<unitdate/>
+							
+							<container label="unspecified" type="mapcase-folder">4</container>
+							
 							<unittitle>2 copies of Snipe Shooter's map of Shinnecock Bay, Long
 								Island with annotations</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">5</container>
-							<unitdate/>
+							
+							<container label="unspecified" type="mapcase-folder">5</container>
+							
 							<unittitle>6 posters advertising lectures by S. Morris Pell and 2
 								posters advertising the Pleasant Valley Bird and Wild Flower
 								Sanctuary</unittitle>
@@ -601,13 +601,13 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1-11</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1-11</container>
 						<unitdate>1945</unitdate>
 						<unittitle>Scribblings of an Outdoor Boy: Being the Reminiscence of
-							Stuyvesant Morris Pell, Up to the Year 1943 when,</unittitle>
-						<unittitle>Having Reached the Age of 38 Years He Came to a Great Adventure
+							Stuyvesant Morris Pell, Up to the Year 1943 when,‡Having Reached the Age of 38 Years He Came to a Great Adventure
 							with Life</unittitle>
+						
 					</did>
 					<scopecontent>
 						<p>Correspondence, original typed manuscripts, 2 carbon copies, and galley
@@ -616,7 +616,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
+						<container label="unspecified" type="box">4</container>
 						<unitdate>1945</unitdate>
 						<unittitle>Scribblings of an Outdoor Boy: Being the Reminiscence if
 							Stuyvesant Morris Pell, Up to the Year 1943 when, Having Reached the Age
@@ -628,7 +628,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
+						<container label="unspecified" type="box">4</container>
 						<unitdate>1938</unitdate>
 						<unittitle>Bird Lore</unittitle>
 					</did>
@@ -644,22 +644,22 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						
 						<unittitle>Two Loose Photographs - Beavers</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						
 						<unittitle>Postal Views</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<unitdate/>
+						<container label="unspecified" type="box">5</container>
+						
 						<unittitle>Wooden Box of 4"x3.25" glass plate slides</unittitle>
 					</did>
 					<scopecontent>
@@ -671,263 +671,263 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<unitdate/>
+						<container label="unspecified" type="box">6</container>
+						
 						<unittitle>4"x3.25" glass plate slides</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<unitdate/>
+						<container label="unspecified" type="box">6</container>
+						
 						<unittitle>35mm color slides</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">1</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">1</container>
+						
 						<unittitle>Pell duck banding</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">2</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">2</container>
+						
 						<unittitle>Dr. Loncope Housatonic River</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">3</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">3</container>
+						
 						<unittitle>Sanctuary scenes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">4</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">4</container>
+						
 						<unittitle>Sanctuary Ducks</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">5</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">5</container>
+						
 						<unittitle>Sanctuary Birds</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">6</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">6</container>
+						
 						<unittitle>Sanctuary Beaver</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">7</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">7</container>
+						
 						<unittitle>Lenox trips</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">8</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">8</container>
+						
 						<unittitle>Sanctuary pictures (except apartment)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">9</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">9</container>
+						
 						<unittitle>Beaver drawings for children's story</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">10</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">10</container>
+						
 						<unittitle>Sanctuary</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">11</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">11</container>
+						
 						<unittitle>Duck backgrounds and watercolors</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">12</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">12</container>
+						
 						<unittitle>Lecture Slides</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">13</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">13</container>
+						
 						<unittitle>Pittsfield trout hatchery</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1935</unitdate>
 						<unittitle>Charleston with W.P.</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">15</container>
 						<unitdate>1936</unitdate>
 						<unittitle>Charleston, with K.L.W.</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">16</container>
 						<unitdate>1937</unitdate>
 						<unittitle>Southern Trip - Birds, Great White Heron, Mallards</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">17</container>
 						<unitdate>1937</unitdate>
 						<unittitle>Southern Trip - Refuge Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">18</container>
 						<unitdate>1937</unitdate>
 						<unittitle>Southern Trip - Soil Erosion</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">19</container>
 						<unitdate>1937</unitdate>
 						<unittitle>Southern Trip - Ducktown</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">20</container>
 						<unitdate>1937</unitdate>
 						<unittitle>Southern Trip - Various</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">21</container>
 						<unitdate>1938</unitdate>
 						<unittitle>Penikese Island and Ithaca</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">22</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">22</container>
+						
 						<unittitle>Applied Ornithology</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">23</container>
 						<unitdate>1938-1939</unitdate>
 						<unittitle>Trips - Cape May, Sweet Briar, and Yosemite</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">24</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">24</container>
+						
 						<unittitle>Negatives for Pell High trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">25</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">25</container>
+						
 						<unittitle>Negatives for Yosemite Valley Research Reserve</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">26</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">26</container>
+						
 						<unittitle>Yosemite trips out</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">27</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">27</container>
+						
 						<unittitle>Yosemite trips</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">28</container>
 						<unitdate>1940</unitdate>
 						<unittitle>Arcadia</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">29</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">29</container>
+						
 						<unittitle>Negatives for Huron Mountain</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">30</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">30</container>
+						
 						<unittitle>Negatives for Huron Mountain</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">31</container>
-						<unitdate/>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">31</container>
+						
 						<unittitle>Huron Mountain</unittitle>
 					</did>
 				</c02>
@@ -938,154 +938,154 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<unitdate>c. 1918</unitdate>
+						<container label="unspecified" type="box">4</container>
+						<unitdate certainty="approximate">1918</unitdate>
 						<unittitle>Sketch book of bird and camping scenes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						
 						<unittitle>Scrapbook</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						
 						<unittitle>11 small sketchbooks</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
-						<unitdate/>
+						<container label="unspecified" type="box">9</container>
+						
 						<unittitle>23 watercolor paintings by Stuyvesant Morris Pell</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">7</container>
-						<unitdate/>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">7</container>
+						
 						<unittitle>"The Tale of Almeek the Beaver" by S. Morris Pell</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">1</container>
-						<unitdate>c. 1928-1931</unitdate>
+						
+						<container label="unspecified" type="mapcase-folder">1</container>
+						<unitdate certainty="approximate">1928-1931</unitdate>
 						<unittitle>55 Folio of watercolors and pencil drawings</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">2</container>
-						<unitdate/>
+						
+						<container label="unspecified" type="mapcase-folder">2</container>
+						
 						<unittitle>17 Folio of charcoal drawings of animals</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">3</container>
-						<unitdate/>
+						
+						<container label="unspecified" type="mapcase-folder">3</container>
+						
 						<unittitle>13 Folio of life drawings</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">4</container>
-						<unitdate/>
+						
+						<container label="unspecified" type="mapcase-folder">4</container>
+						
 						<unittitle>4 30"x22" watercolor renderings on boards</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">5</container>
+						
+						<container label="unspecified" type="mapcase-folder">5</container>
 
-						<unitdate/>
+						
 						<unittitle>1 16"x11" pen and ink color wash of the skeleton of Nyroca
 							vallisneria, with skull of Nyroca marila</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">5</container>
-						<unitdate/>
+						
+						<container label="unspecified" type="mapcase-folder">5</container>
+						
 						<unittitle>2 pen and ink drawings of ducks</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">5</container>
-						<unitdate/>
+						
+						<container label="unspecified" type="mapcase-folder">5</container>
+						
 						<unittitle>3 painted posters for events</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">5</container>
-						<unitdate/>
+						
+						<container label="unspecified" type="mapcase-folder">5</container>
+						
 						<unittitle>1 16"x11" pen and ink rendering of Procellariiform profiles
 							(beaks)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">1-4</container>
-						<unitdate/>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">1-4</container>
+						
 						<unittitle>14 15"x11" watercolor renderings of birds on boards</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">6</container>
+						
+						<container label="unspecified" type="mapcase-folder">6</container>
 						<unitdate>1931</unitdate>
 						<unittitle>3 mounted watercolors of birds</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>1931</unitdate>
 						<unittitle>3 mounted watercolors of birds and 1 of horses</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">6</container>
-						<unitdate/>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">6</container>
+						
 						<unittitle>62 prints of pen and ink drawings of birds, waterfowl and hunting
 							scenes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">8</container>
-						<unitdate/>
+						
+						<container label="unspecified" type="mapcase-folder">8</container>
+						
 						<unittitle>24 charcoal and crayon sketches of birds, fish etc. on brown
 							paper</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">9</container>
-						<unitdate/>
+						
+						<container label="unspecified" type="mapcase-folder">9</container>
+						
 						<unittitle>23 charcoal and crayon sketches of birds, fish etc. on brown
 							paper</unittitle>
 					</did>
@@ -1097,38 +1097,38 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">12</container>
-						<unitdate/>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">12</container>
+						
 						<unittitle>Case of prepared biology slides</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">13-15</container>
-						<unitdate/>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">13-15</container>
+						
 						<unittitle>3 envelopes dissecting kits</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<unitdate/>
+						<container label="unspecified" type="box">8</container>
+						
 						<unittitle>Field magnifying glass with box</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<unitdate/>
+						<container label="unspecified" type="box">8</container>
+						
 						<unittitle>Dissecting kit in wooden box</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<unitdate/>
+						<container label="unspecified" type="box">8</container>
+						
 						<unittitle>2 printing blocks for cover of "Bird Lore" designed by
 							Pell</unittitle>
 					</did>
@@ -1136,5 +1136,9 @@
 			</c01>
 
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Stuyvesant Morris Pell papers, #3459. Division of Rare and Manuscript
+					Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

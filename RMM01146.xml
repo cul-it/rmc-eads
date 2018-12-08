@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM01146::Justin S. Morrill papers)//EN">RMM01146</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM01146::Justin S. Morrill papers)//EN">RMM01146</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Justin S. Morrill papers, 1814-1937, 1982.</titleproper>
@@ -24,10 +23,16 @@
          </notestmt>
       </filedesc>
       <profiledesc>
-         <creation>Finding aid encoded by Martin Heggestad <date/>
+         <creation>Finding aid encoded by Martin Heggestad 
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -36,19 +41,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Justin S. Morrill Papers,<lb/>1814-1937, 1982</titleproper>
+         <titleproper>Guide to the Justin S. Morrill Papers,1814-1937, 1982</titleproper>
          <num>Collection Number: 1146</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -73,13 +78,12 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Justin S. Morrill papers, <unitdate type="inclusive" encodinganalog="MARC 245">1814-1937, 1982.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Justin S. Morrill papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1814-1937, 1982.</unitdate>
          <unitid label="Collection Number:">1146</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Morrill, Justin S.(Justin Smith), 1810-1898.">Justin S. Morrill, 1810-1898.</persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>3.3 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>3.3 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, drafts of speeches, pamphlets and
             other printed material, scrapbooks, photographs, and other personal items.</physdesc>
          <repository label="Repository:"> Division of Rare and Manuscript Collections, Cornell
@@ -92,7 +96,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>Justin S. Morrill was a congressman and financier.</p>
       </bioghist>
       <scopecontent encodinganalog="MARC 520">
@@ -146,20 +150,13 @@
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Obituaries.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Photographs.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Scrapbooks.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Speeches.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Obituaries.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Scrapbooks.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Speeches.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Justin S. Morrill papers, #1146. Division of Rare and Manuscript Collections, Cornell
-               University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="series"> 
@@ -173,32 +170,32 @@
          
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 1 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 1 </container>
                <unitdate> 1828-1839 </unitdate>
                <unittitle> Speech drafts </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 2 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 2 </container>
                <unitdate> 1840-1849 </unitdate>
                <unittitle> Sermon, speech drafts </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 3 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 3 </container>
                <unitdate> 1850-1859 </unitdate>
                <unittitle> Speech drafts </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 4 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 4 </container>
                <unitdate> 1860 </unitdate>
                <unittitle> Correspondence; "On Agriculture, delivered at Woodstock, Vt.", Sept. 27th
                </unittitle>
@@ -206,8 +203,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 5 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 5 </container>
                <unitdate> 1860 </unitdate>
                <unittitle> "Address at St. Johnsbury, Vt. on the Culture of Man and some of the
                   requisite means." </unittitle>
@@ -215,48 +212,48 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 6 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 6 </container>
                <unitdate> 1861 </unitdate>
                <unittitle> Speech, notes, Act (H.R. 338) </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 7 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 7 </container>
                <unitdate> 1862 </unitdate>
                <unittitle> Letter (extract), trade circular, Act (H.R. 312) </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 8 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 8 </container>
                <unitdate> 1862 </unitdate>
                <unittitle> Correspondence, Act (H.R. 592), drafts, notes </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 9 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 9 </container>
                <unitdate> 1863-1864 </unitdate>
                <unittitle> Correspondence, notes, newspaper clippings </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 10 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 10 </container>
                <unitdate> 1865 </unitdate>
                <unittitle> Correspondence, newspaper clippings, address </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 11 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 11 </container>
                <unitdate> 1866 </unitdate>
                <unittitle> Correspondence, newspaper clippings, "Report of ... on The National
                   Statuary Hall", address </unittitle>
@@ -264,48 +261,48 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 12 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 12 </container>
                <unitdate> 1867-1869 </unitdate>
                <unittitle> Correspondence, drafts, report </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 1 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 1 </container>
                <unitdate> 1870-1872 </unitdate>
                <unittitle> Correspondence, newspaper clipping, address </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 2 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 2 </container>
                <unitdate> 1873 </unitdate>
                <unittitle> Correspondence, addresses, newspaper clipping </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 3 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 3 </container>
                <unitdate> 1873 </unitdate>
                <unittitle> Speech on National Colleges </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 4 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 4 </container>
                <unitdate> 1874 </unitdate>
                <unittitle> Circular, pamphlets, address, report, annual report </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 5 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 5 </container>
                <unitdate> 1875-1877 </unitdate>
                <unittitle> Correspondence, circulars, pamphlets, newspaper clippings, address annual
                   reports </unittitle>
@@ -314,8 +311,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 6 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 6 </container>
                <unitdate> 1878-1879 </unitdate>
                <unittitle> Bill (H.R. 3544), speech, Correspondence, comparison of receipts and
                   expenditures </unittitle>
@@ -323,8 +320,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 7 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 7 </container>
                <unitdate> 1880-1881 </unitdate>
                <unittitle> Correspondence, "Catalogue of the Private Library of Justin S. Morrill",
                   notes, Act (H.R. 4592) </unittitle>
@@ -332,16 +329,16 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 8 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 8 </container>
                <unitdate> 1882 </unitdate>
                <unittitle> January-April: Correspondence </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 9 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 9 </container>
                <unitdate> 1882 </unitdate>
                <unittitle> May-December: Correspondence, tariff tract, speech </unittitle>
             </did>
@@ -349,32 +346,32 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 10 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 10 </container>
                <unitdate> 1883 </unitdate>
                <unittitle> Correspondence, newspaper clippings, drafts and Remarks </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 1 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 1 </container>
                <unitdate> 1884 </unitdate>
                <unittitle> Jan.-Apr.: Correspondence, Statement </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 2 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 2 </container>
                <unitdate> 1884 </unitdate>
                <unittitle> Aug.-Dec.: Correspondence, speeches </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 3 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 3 </container>
                <unitdate> 1885-1886 Mar. </unitdate>
                <unittitle> Correspondence, "Remarks on the Death of General Grant," speech
                </unittitle>
@@ -382,8 +379,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 4 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 4 </container>
                <unitdate> 1886 </unitdate>
                <unittitle> Apr.-Dec.: Correspondence, newspaper clipping, poem, telegram
                </unittitle>
@@ -391,8 +388,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 5 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 5 </container>
                <unitdate> 1887 </unitdate>
                <unittitle> Jan.-Aug., undated: Correspondence, address, "Commemorative Addresses.
                   1862-1887. Massachusetts Agricultural College." </unittitle>
@@ -400,16 +397,16 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 6 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 6 </container>
                <unitdate> 1888-1889 </unitdate>
                <unittitle> Correspondence, addresses, political tract </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 7 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 7 </container>
                <unitdate> 1890-1891 </unitdate>
                <unittitle> Correspondence, including letter from President Harrison (signed),
                   newspaper clippings, remarks, Congressional Record, poem </unittitle>
@@ -417,8 +414,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 8 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 8 </container>
                <unitdate> 1892-1893 </unitdate>
                <unittitle> Correspondence, Resolution (S.R. 24), poem, newspaper clippings, article,
                   Bills (S. 553, 572, 1280), address, pamphlet </unittitle>
@@ -426,8 +423,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 9 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 9 </container>
                <unitdate> 1894 </unitdate>
                <unittitle> January-June: Correspondence, Bill (S. 1460), Resolution (S.R. 62),
                   Amendment (S. 341), poem, remarks, Bill (S. 2135) </unittitle>
@@ -435,16 +432,16 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 10 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 10 </container>
                <unitdate> 1894 </unitdate>
                <unittitle> July-December: Correspondence, Tariff Act, address </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 4 </container>
-               <container type="folder"> 1 </container>
+               <container label="unspecified" type="box"> 4 </container>
+               <container label="unspecified" type="folder"> 1 </container>
                <unitdate> 1895 </unitdate>
                <unittitle> Correspondence, Bill (S.2569), poems, newspaper clippings, remarks
                </unittitle>
@@ -452,24 +449,24 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 4 </container>
-               <container type="folder"> 2 </container>
+               <container label="unspecified" type="box"> 4 </container>
+               <container label="unspecified" type="folder"> 2 </container>
                <unitdate> 1896 </unitdate>
                <unittitle> Correspondence, newspaper clippings, poems, speeches </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 4 </container>
-               <container type="folder"> 3 </container>
+               <container label="unspecified" type="box"> 4 </container>
+               <container label="unspecified" type="folder"> 3 </container>
                <unitdate> 1897-1899 </unitdate>
                <unittitle> Correspondence, newspaper clippings, Bill (S.1876), remarks </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 4 </container>
-               <container type="folder"> 4 </container>
+               <container label="unspecified" type="box"> 4 </container>
+               <container label="unspecified" type="folder"> 4 </container>
                <unitdate> 1900-1910 Apr. 15 </unitdate>
                <unittitle> Correspondence, newspaper clippings, The Vermonter, The American Magazine
                </unittitle>
@@ -477,175 +474,175 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 4 </container>
-               <container type="folder"> 5 </container>
+               <container label="unspecified" type="box"> 4 </container>
+               <container label="unspecified" type="folder"> 5 </container>
                <unitdate> Apr. 16, 1910-1912 </unitdate>
                <unittitle> Correspondence </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 4 </container>
-               <container type="folder"> 6-10 </container>
+               <container label="unspecified" type="box"> 4 </container>
+               <container label="unspecified" type="folder"> 6-10 </container>
                <unittitle> Tariff and Foreign Trade - copies, rough drafts, and notes for speeches
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 5 </container>
-               <container type="folder"> 1 </container>
+               <container label="unspecified" type="box"> 5 </container>
+               <container label="unspecified" type="folder"> 1 </container>
                <unittitle> Hawaiian Islands: Clayton-Bulwer Treaty of 1850 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 5 </container>
-               <container type="folder"> 2 </container>
+               <container label="unspecified" type="box"> 5 </container>
+               <container label="unspecified" type="folder"> 2 </container>
                <unittitle> Party Platform and Records </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 5 </container>
-               <container type="folder"> 3-4 </container>
+               <container label="unspecified" type="box"> 5 </container>
+               <container label="unspecified" type="folder"> 3-4 </container>
                <unittitle> Education and Schools </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 5 </container>
-               <container type="folder"> 5 </container>
+               <container label="unspecified" type="box"> 5 </container>
+               <container label="unspecified" type="folder"> 5 </container>
                <unittitle> Fine Arts and Architecture address </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 5 </container>
-               <container type="folder"> 6-11 </container>
+               <container label="unspecified" type="box"> 5 </container>
+               <container label="unspecified" type="folder"> 6-11 </container>
                <unittitle> Notes and speeches, miscellany </unittitle>
             </did>
          </c01><c01 level="file">
             <did>
-               <container type="box"> 6 </container>
-               <container type="folder"> 0 </container>
+               <container label="unspecified" type="box"> 6 </container>
+               <container label="unspecified" type="folder"> 0 </container>
                <unittitle> 15 photographs of Morrill and family </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 6 </container>
-               <container type="folder"> 1-2 </container>
+               <container label="unspecified" type="box"> 6 </container>
+               <container label="unspecified" type="folder"> 1-2 </container>
                <unittitle> Business, Labor, Industry </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 6 </container>
-               <container type="folder"> 3 </container>
+               <container label="unspecified" type="box"> 6 </container>
+               <container label="unspecified" type="folder"> 3 </container>
                <unittitle> Biographical Materials of J. S. Morrill and Colleagues </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 6 </container>
-               <container type="folder"> 4-7 </container>
+               <container label="unspecified" type="box"> 6 </container>
+               <container label="unspecified" type="folder"> 4-7 </container>
                <unittitle> Gold and Silver Question; Revenue and Taxation </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 7 </container>
+               <container label="unspecified" type="box"> 7 </container>
                <unittitle> Gold and Silver Question; Revenue and Taxation </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 8 </container>
+               <container label="unspecified" type="box"> 8 </container>
                <unittitle> Photographs</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 8 </container>
+               <container label="unspecified" type="box"> 8 </container>
                <unittitle> Genealogy notebook</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 8 </container>
+               <container label="unspecified" type="box"> 8 </container>
                <unitdate> 1868</unitdate>
                <unittitle> Impeachment tickets</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 8 </container>
+               <container label="unspecified" type="box"> 8 </container>
                <unittitle>Petitions</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 8 </container>
+               <container label="unspecified" type="box"> 8 </container>
                <unittitle> Bill</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 8 </container>
+               <container label="unspecified" type="box"> 8 </container>
                <unittitle> Notebook</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 8 </container>
+               <container label="unspecified" type="box"> 8 </container>
                <unittitle> Miscellaneous family papers</unittitle>
             </did><scopecontent><p>Includes Brigham Young autograph</p></scopecontent>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 8 </container>
+               <container label="unspecified" type="box"> 8 </container>
                <unitdate> 1898 </unitdate>
                <unittitle>Ruth S. Morrill funeral service</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 8 </container>
+               <container label="unspecified" type="box"> 8 </container>
                <unittitle>Receipts</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 8 </container>
+               <container label="unspecified" type="box"> 8 </container>
                <unittitle>Calling cards</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 8 </container>
+               <container label="unspecified" type="box"> 8 </container>
                <unittitle> Mounted clippings </unittitle>
             </did>
          </c01><c01 level="file">
             <did>
-               <container type="box"> 9 </container>
-               <container type="folder"> 0 </container>
+               <container label="unspecified" type="box"> 9 </container>
+               <container label="unspecified" type="folder"> 0 </container>
                <unitdate> 1897 </unitdate>
                <unittitle> Key to Justin Morrill's Senate Desk </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 9 </container>
-               <container type="folder"> 1 </container>
+               <container label="unspecified" type="box"> 9 </container>
+               <container label="unspecified" type="folder"> 1 </container>
                <unitdate> 1884 </unitdate>
                <unittitle> Cornell University Class of 1884 "Morrill Memorial Medal" </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 9 </container>
-               <container type="folder"> 2 </container>
+               <container label="unspecified" type="box"> 9 </container>
+               <container label="unspecified" type="folder"> 2 </container>
                <unitdate> 1899 </unitdate>
                <unittitle> Proceedings of the Association of American Colleges and Agricultural
                   Expermient Stations </unittitle>
@@ -653,61 +650,65 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 9 </container>
-               <container type="folder"> 3 </container>
+               <container label="unspecified" type="box"> 9 </container>
+               <container label="unspecified" type="folder"> 3 </container>
                <unitdate> 1936 </unitdate>
                <unittitle> Land Grant College Radio Hour, Aug. 19 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 9 </container>
-               <container type="folder"> 4 </container>
+               <container label="unspecified" type="box"> 9 </container>
+               <container label="unspecified" type="folder"> 4 </container>
                <unitdate> 1888 </unitdate>
                <unittitle> "Energy and Vision" by S.P. Langley </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 9 </container>
-               <container type="folder"> 5-6 </container>
+               <container label="unspecified" type="box"> 9 </container>
+               <container label="unspecified" type="folder"> 5-6 </container>
                <unittitle> Clippings </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 9 </container>
-               <container type="folder"> 7 </container>
+               <container label="unspecified" type="box"> 9 </container>
+               <container label="unspecified" type="folder"> 7 </container>
                <unittitle> Smithsonian Institution certificate signed by Tiffany and Co.</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 9 </container>
-               <container type="folder"> 8 </container>
+               <container label="unspecified" type="box"> 9 </container>
+               <container label="unspecified" type="folder"> 8 </container>
                <unittitle> Portfolio </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 9 </container>
-               <container type="folder"> 9 </container>
+               <container label="unspecified" type="box"> 9 </container>
+               <container label="unspecified" type="folder"> 9 </container>
                <unittitle> Leather </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 10 </container>
+               <container label="unspecified" type="box"> 10 </container>
                <unitdate> 1841 </unitdate>
                <unittitle> Scrapbook "Wanderings and Scribblings" </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 11 </container>
+               <container label="unspecified" type="box"> 11 </container>
                <unittitle> Publications by and pertaining to Morrill </unittitle>
             </did>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Justin S. Morrill papers, #1146. Division of Rare and Manuscript Collections, Cornell
+               University Library.</p>
+         </prefercite></archdesc>
 </ead>

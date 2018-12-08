@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM03803::Guide to the Alexander Dawes DuBois papers)//EN">RMM03803</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM03803::Guide to the Alexander Dawes DuBois papers)//EN">RMM03803</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Alexander Dawes DuBois papers,
@@ -25,19 +25,25 @@
     <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>April 2014</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Alexander Dawes DuBois Papers,<lb/><date type="inclusive" encodinganalog="245$f">1890-1977.</date></titleproper>
+      <titleproper>Guide to the Alexander Dawes DuBois Papers,<date encodinganalog="245$f" type="inclusive">1890-1977.</date></titleproper>
       <num>Collection Number: 3803</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-            Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+            Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
         </defitem>
         <defitem>
           <label>Compiled by:</label>
@@ -63,14 +69,13 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">Alexander Dawes DuBois papers,
-        <unitdate encodinganalog="MARC 245" type="inclusive">1890-1977.</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">Alexander Dawes DuBois papers,
+        </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1890-1977.</unitdate>
       <unitid label="Collection Number:">3803</unitid>
       <origination label="Creator:">
         <persname encodinganalog="100" normal="DuBois, Alexander Dawes,  1875-1966. ">DuBois, Alexander Dawes, </persname>
       </origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>5.3 cubic ft.</extent></physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>5.3 cubic feet</extent></physdesc>
       <physdesc label="Forms of Material:">Correspondence, printed materials, publications, research materials.</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
         University Library</repository>
@@ -79,7 +84,7 @@
       <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">
-      <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+      <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
       <p>Alexander DuBois, an electrical engineer, was a graduate student at Cornell
         University from 1908 to 1910. He taught at Cornell and Purdue Universities, and
         devised specialized photographic equipment for nature photography. Also an
@@ -125,14 +130,7 @@
         <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>Alexander Dawes DuBois. Papers, #3803. Division of Rare and Manuscript
-          Collections, Cornell University Library.</p>
-      </prefercite>
-    </descgrp>  
+      
     <relatedmaterial>
       <head id="a5">RELATED MATERIALS</head>
       <p>The <extref href="http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMA01255">Arthur Augustus Allen papers, #21-18-1255.</extref></p>
@@ -142,33 +140,33 @@
       <head>SERIES LIST</head>
       <p>
         <emph render="bold">
-          <ref target="s1" show="replace" actuate="onrequest">Series I. Electrical Engineering Papers</ref>
+          <ref actuate="onrequest" show="replace" target="s1">Series I. Electrical Engineering Papers</ref>
         </emph>
-        <lb/>Box 1</p>
+        Box 1</p>
     
       <p>
         <emph render="bold">
-          <ref target="s2" show="replace" actuate="onrequest">Series II. Ornithological Work</ref>
+          <ref actuate="onrequest" show="replace" target="s2">Series II. Ornithological Work</ref>
         </emph>
-        <lb/>Boxes 2-9</p>
+        Boxes 2-9</p>
       
       <p><ref target="s2ss1">Correspondence, Manuscripts and Data Collection</ref>
-        <lb/><ref target="s2ss2">Journals and Indexes</ref>
-        <lb/><ref target="s2ss3">Photographic Materials</ref>
-        <lb/><ref target="s2ss4">Catalog of Glass Plate Negatives of Birds, Nests and Eggs</ref>
+        <ref target="s2ss2">Journals and Indexes</ref>
+        <ref target="s2ss3">Photographic Materials</ref>
+        <ref target="s2ss4">Catalog of Glass Plate Negatives of Birds, Nests and Eggs</ref>
       </p>      
     </arrangement>   
     <dsc type="combined"> 
       <head>CONTAINER LIST</head> 
       <c01 level="series">
         <did>
-          <container type="box">1</container>          
+          <container label="unspecified" type="box">1</container>          
           <unittitle id="s1">Series I. Electrical Engineering Papers</unittitle>
         </did>       
       <c02 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1912</unitdate>
           <unittitle>Alexander Dubois Ph.D. Thesis</unittitle>
         </did>
@@ -176,75 +174,75 @@
       </c02>
       <c02 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>undated</unitdate>
           <unittitle>Copies of Engineering Materials</unittitle>
         </did>
-        <scopecontent><p/></scopecontent>
+        
       </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">3</container>
             <unitdate>1912-1923</unitdate>
             <unittitle>Engineering Article by Alexander DuBois</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">4</container>
             <unitdate>1903-1927</unitdate>
             <unittitle>Engineering Articles and Clippings by DuBois</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">5</container>
             <unitdate>undated</unitdate>
             <unittitle>Manuscript Materials</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">6</container>
             <unitdate>1926</unitdate>
             <unittitle>The Power-Factor Book (1)</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">7</container>
             <unitdate>1926</unitdate>
             <unittitle>The Power-Factor Book (2)</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">8</container>
             <unitdate>1906-1908</unitdate>
             <unittitle>Patent Materials</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">9</container>
             <unitdate>1923</unitdate>
             <unittitle>Patent Materials for Methods and Means for Measuring and Recording Interval Demand for Apparent Power</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">10</container>
             <unitdate>1928</unitdate>
             <unittitle>Patent Materials for Torque Equalizing Systems</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">11</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">11</container>
             <unitdate>1931</unitdate>
             <unittitle>Patent Materials for Methods and Means for Measuring and Recording Apparent Power</unittitle>
           </did>
@@ -261,248 +259,248 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">1</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">1</container>
               <unitdate>1905-1921</unitdate>
               <unittitle>Correspondence Letter File - A</unittitle>
             </did>    
           </c03>
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">2</container>
             <unitdate>1891-1921</unitdate>
             <unittitle>Correspondence Letter File - B</unittitle>
           </did>    
         </c03>
           <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">3</container>
             <unitdate>1904-1910</unitdate>
             <unittitle>Correspondence Letter File - C</unittitle>
           </did>      
         </c03>
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">4</container>
             <unitdate>1905-1909</unitdate>
             <unittitle>Correspondence Letter File - D-G</unittitle>
           </did>     
         </c03>
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">5</container>
             <unitdate>1892-1909</unitdate>
             <unittitle>Correspondence Letter File - H-O</unittitle>
           </did>      
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">6</container>
             <unitdate>1905-1919</unitdate>
             <unittitle>Correspondence Letter File - P-R</unittitle>
           </did> 
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">7</container>
             <unitdate>1891-1909</unitdate>
             <unittitle>Correspondence Letter File - S</unittitle>
           </did>   
         </c03>
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">8</container>
             <unitdate>1905-1910</unitdate>
             <unittitle>Correspondence Letter File - T</unittitle>
           </did>   
         </c03>
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">9</container>
             <unitdate>1904-1909</unitdate>
             <unittitle>Correspondence Letter File - U-Z</unittitle>
           </did>   
         </c03>
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">10</container>
             <unitdate>1909-1934</unitdate>
             <unittitle>General Correspondence</unittitle>
           </did>   
         </c03>
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">11</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">11</container>
             <unitdate>1940-1974</unitdate>
             <unittitle>General Correspondence</unittitle>
           </did>   
         </c03> 
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">12</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">12</container>
             <unitdate>1914-1919</unitdate>
             <unittitle>Ornithology Correspondence</unittitle>
           </did>   
         </c03> <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">13</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">13</container>
             <unitdate>1915-1918</unitdate>
             <unittitle>Ornithology Correspondence</unittitle>
           </did>   
         </c03> 
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">14</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">14</container>
             <unitdate>undated</unitdate>
             <unittitle>Cornell University Zoology Notes</unittitle>
           </did>   
         </c03>
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">15</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">15</container>
             <unitdate>undated</unitdate>
             <unittitle>Biography and Writings</unittitle>
           </did>   
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">16</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">16</container>
             <unitdate>1914-1915</unitdate>
             <unittitle>Montana Notes - Diary</unittitle>
           </did>   
         </c03>
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">17</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">17</container>
             <unitdate>undated</unitdate>
             <unittitle>List of Published Writings</unittitle>
           </did>   
         </c03>
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">18</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">18</container>
             <unitdate>undated</unitdate>
             <unittitle>Articles and Manuscripts by Dubois</unittitle>
           </did>   
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">19</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">19</container>
             <unitdate>undated</unitdate>
             <unittitle>Appendix to Sketches from Bird Life</unittitle>
           </did>   
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">20</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">20</container>
             <unitdate>undated</unitdate>
             <unittitle>Unpublished Manuscript "Field Sparrow"</unittitle>
           </did>   
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">21</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">21</container>
             <unitdate>undated</unitdate>
             <unittitle>"Birds and their Ways" Notes and Legend</unittitle>
           </did>   
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">22</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">22</container>
             <unitdate>undated</unitdate>
             <unittitle>List of Photographs for use of "The Ways of Birds"</unittitle>
           </did>   
         </c03>
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">23</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">23</container>
             <unitdate>undated</unitdate>
             <unittitle>Legends to Photos of Birds According to Habitat for "Birds and their Ways"</unittitle>
           </did>   
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">24</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">24</container>
             <unitdate>1915</unitdate>
             <unittitle>"Birds Observed at Station"</unittitle>
           </did>   
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">25</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">25</container>
             <unitdate>undated</unitdate>
             <unittitle>Roll Book; Bird Notes</unittitle>
           </did>   
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">26</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">26</container>
             <unitdate>undated</unitdate>
             <unittitle>Rufous Hummer Materials</unittitle>
           </did>   
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">27</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">27</container>
             <unitdate>undated</unitdate>
             <unittitle>Worksheets for Egg Collection</unittitle>
           </did>   
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">28</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">28</container>
             <unitdate>undated</unitdate>
             <unittitle>Egg Collection Card Data</unittitle>
           </did>   
         </c03>
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">29</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">29</container>
             <unitdate>undated</unitdate>
             <unittitle>Collection of Eggs, Nests and Mounted Birds Records</unittitle>
           </did>   
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">30</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">30</container>
             <unitdate>undated</unitdate>
             <unittitle>Clippings and Materials regarding photographs in magazines</unittitle>
           </did>   
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">31</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">31</container>
             <unitdate>undated</unitdate>
             <unittitle>Scientific Names and Photographic Data</unittitle>
           </did>   
         </c03><c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">32</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">32</container>
             <unitdate>1950</unitdate>
             <unittitle>Texas Bird Photographs</unittitle>
           </did>   
         </c03>
         <c03 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">38</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">38</container>
             <unitdate>undated</unitdate>
             <unittitle>Paper Samples</unittitle>
           </did>   
@@ -514,155 +512,155 @@
           </did>
           <c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>1890-1900</unitdate>
               <unittitle>Ornithological Journal: Volume 1</unittitle>
             </did> 
           </c03>
           <c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>1904-1907</unitdate>
               <unittitle>Ornithological Journal: Volume 2</unittitle>
             </did> 
           </c03> <c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>1908</unitdate>
               <unittitle>Ornithological Journal: Volume 3</unittitle>
             </did> 
           </c03> <c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>1909-1911</unitdate>
               <unittitle>Ornithological Journal: Volume 4</unittitle>
             </did> 
           </c03> <c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>1912</unitdate>
               <unittitle>Ornithological Journal: Volume 5A</unittitle>
             </did> 
           </c03> <c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>1916</unitdate>
               <unittitle>Ornithological Journal: Volume 5B</unittitle>
             </did> 
           </c03> <c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>1917-1918</unitdate>
               <unittitle>Ornithological Journal: Volume 5C</unittitle>
             </did> 
           </c03>
           <c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>1921-1935</unitdate>
               <unittitle>Ornithological Journal: Volume 5D</unittitle>
             </did> 
           </c03><c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>1913-1915</unitdate>
               <unittitle>Ornithological Journal: Volume 6</unittitle>
             </did> 
           </c03><c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>1936-1944</unitdate>
               <unittitle>Ornithological Journal: Volume 7</unittitle>
             </did> 
           </c03><c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>1942-1950</unitdate>
               <unittitle>Ornithological Journal: Volume 8</unittitle>
             </did> 
           </c03>
           <c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>1951-1958</unitdate>
               <unittitle>Field Book</unittitle>
             </did> 
           </c03><c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>1890s-1950s</unitdate>
               <unittitle>Accession Records: Bird Eggs</unittitle>
             </did> 
           </c03>
           <c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>undated</unitdate>
               <unittitle>Index to Bird Journal</unittitle>
             </did> 
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">33</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">33</container>
               <unitdate>undated</unitdate>
               <unittitle>Photo lists; key to the location of Specimen data in field journals</unittitle>
             </did>   
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">34</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">34</container>
               <unitdate>undated</unitdate>
               <unittitle>Index to Plates - arranged by species</unittitle>
             </did>   
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">35</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">35</container>
               <unitdate>undated</unitdate>
               <unittitle>Legends to Photographs</unittitle>
             </did>   
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">36</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">36</container>
               <unitdate>undated</unitdate>
               <unittitle>Bird Photographs: Index Cards</unittitle>
             </did>   
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">37</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">37</container>
               <unitdate>undated</unitdate>
               <unittitle>Lists of Photos: Mainly non-birds</unittitle>
             </did>   
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">39</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">39</container>
               <unitdate>undated</unitdate>
               <unittitle>Notes to Photographic Plates</unittitle>
             </did>   
           </c03>
           <c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>undated</unitdate>
               <unittitle>Nesting Dates: Cayuga Basin; Illinois and elsewhere</unittitle>
             </did> 
           </c03>
           <c03 level="item">
             <did>
-              <container type="box">2</container>
+              <container label="unspecified" type="box">2</container>
               <unitdate>1900s-1930s</unitdate>
               <unittitle>Field Observation of Wood Warblers; Bird Field Book and Museum Notes and a small journal with notes on photography</unittitle>
             </did> 
           </c03>
           <c03 level="item">
             <did>
-              <container type="box">3</container>
+              <container label="unspecified" type="box">3</container>
               <unitdate>1891-1944</unitdate>
               <unittitle>Bird Ledger: Volume II</unittitle>
             </did> 
@@ -670,15 +668,15 @@
           </c03>
           <c03 level="item">
             <did>
-              <container type="box">3</container>
+              <container label="unspecified" type="box">3</container>
               <unitdate>1890-1932</unitdate>
               <unittitle>Partial Life List; Birds; Nest Data</unittitle>
             </did> 
           </c03>
          <c03 level="item">
             <did>
-              <container type="box">3</container>
-              <unitdate>c. 1940s</unitdate>
+              <container label="unspecified" type="box">3</container>
+              <unitdate certainty="approximate">1940s</unitdate>
               <unittitle>Notes sent to A.C. Bent for "The Life Histories of North American Birds"</unittitle>
             </did> 
           </c03>
@@ -689,14 +687,14 @@
             </did>
           <c03 level="item">
             <did>
-              <container type="box">3</container>
+              <container label="unspecified" type="box">3</container>
               <unitdate>1893-1936</unitdate>
               <unittitle>Index to Bird Photos: Volume I</unittitle>
             </did> 
             <scopecontent><p>Photo album of negative numbers 9-503</p></scopecontent>
           </c03><c03 level="item">
             <did>
-              <container type="box">3</container>
+              <container label="unspecified" type="box">3</container>
               <unitdate>1936-1951</unitdate>
               <unittitle>Index to Bird Photos: Volume II</unittitle>
             </did> 
@@ -704,14 +702,14 @@
           </c03>
           <c03 level="item">
             <did>
-              <container type="box">3</container>
+              <container label="unspecified" type="box">3</container>
               <unitdate>undated</unitdate>
               <unittitle>Index to Bird Photos: Volume III</unittitle>
             </did> 
             <scopecontent><p>Photo album of AOU species number 567-766 (some numbers not represented)</p></scopecontent>
           </c03><c03 level="item">
             <did>
-              <container type="box">3</container>
+              <container label="unspecified" type="box">3</container>
               <unitdate>undated</unitdate>
               <unittitle>Photos of Birds I</unittitle>
             </did> 
@@ -719,7 +717,7 @@
           </c03>
           <c03 level="item">
             <did>
-              <container type="box">3</container>
+              <container label="unspecified" type="box">3</container>
               <unitdate>undated</unitdate>
               <unittitle>Photos of Birds Volume II</unittitle>
             </did>
@@ -727,66 +725,66 @@
           </c03>
             <c03 level="item">
               <did>
-                <container type="box">4</container>
+                <container label="unspecified" type="box">4</container>
                 <unitdate>undated</unitdate>
                 <unittitle>Box A: Photographic prints of Water Birds, Marsh Birds, amd Shore Birds</unittitle>
               </did> 
             </c03>
             <c03 level="item">
               <did>
-                <container type="box">4</container>
+                <container label="unspecified" type="box">4</container>
                 <unitdate>undated</unitdate>
                 <unittitle>Box A2: Photographic prints of Bitterns, Egrets, and Herons </unittitle>
               </did> 
             </c03> <c03 level="item">
               <did>
-                <container type="box">4</container>
-                <unitdate/>
+                <container label="unspecified" type="box">4</container>
+                
                 <unittitle>Box C: Photographic prints of Owls, Goatsuckers, Hummers, Kingfishers and Woodpeckers</unittitle>
               </did> 
             </c03> <c03 level="item">
               <did>
-                <container type="box">4</container>
+                <container label="unspecified" type="box">4</container>
                 <unitdate>undated</unitdate>
                 <unittitle>Box D: Photographic prints of Flycathers, Larks, Swallows, Jays, Raven, Chickadee, Wrens, and Pewee</unittitle>
               </did> 
             </c03> <c03 level="item">
               <did>
-                <container type="box">4</container>
+                <container label="unspecified" type="box">4</container>
                 <unitdate>undated</unitdate>
                 <unittitle>Box D2: Photographic prints of Thrushes, Catbird, Mockingbird, Thrashers, and Bluebird</unittitle>
               </did> 
             </c03> <c03 level="item">
               <did>
-                <container type="box">4</container>
+                <container label="unspecified" type="box">4</container>
                 <unitdate>undated</unitdate>
                 <unittitle>Box F: Photographic prints of Sparrows, Juncos, and Longspurs</unittitle>
               </did> 
             </c03>
             <c03 level="item">
               <did>
-                <container type="box">4</container>
+                <container label="unspecified" type="box">4</container>
                 <unitdate>undated</unitdate>
                 <unittitle>Box of large size duplicate negatives</unittitle>
               </did> 
             </c03><c03 level="item">
               <did>
-                <container type="box">4</container>
-                <container type="folder">1</container>
+                <container label="unspecified" type="box">4</container>
+                <container label="unspecified" type="folder">1</container>
                 <unitdate>undated</unitdate>
                 <unittitle>Photographic prints of Songspurs</unittitle>
               </did> 
             </c03><c03 level="item">
               <did>
-                <container type="box">4</container>
-                <container type="folder">2</container>
-                <unitdate/>
+                <container label="unspecified" type="box">4</container>
+                <container label="unspecified" type="folder">2</container>
+                
                 <unittitle>Photographic prints of Doves, Grouse, Bob-whites and Misc.</unittitle>
               </did> 
             </c03><c03 level="item">
               <did>
-                <container type="box">4</container>
-                <container type="folder">3</container>
+                <container label="unspecified" type="box">4</container>
+                <container label="unspecified" type="folder">3</container>
                 <unitdate>undated</unitdate>
                 <unittitle>"Extra Prints" includes Baltimore Orioles, Herons, Egrets, Cranes, Franklin's Grouse, and Misc</unittitle>
               </did> 
@@ -794,15 +792,15 @@
             </c03>
             <c03 level="item">
               <did>
-                <container type="box">4</container>
-                <container type="folder">4</container>
+                <container label="unspecified" type="box">4</container>
+                <container label="unspecified" type="folder">4</container>
                 <unitdate>undated</unitdate>
                 <unittitle>Photo album of DuBois in the field</unittitle>
               </did> 
             </c03>
             <c03 level="item">
               <did>
-                <container type="box">5</container>
+                <container label="unspecified" type="box">5</container>
                 <unitdate>undated</unitdate>
                 <unittitle>Photographic Notes</unittitle>
               </did> 
@@ -810,7 +808,7 @@
             </c03>
             <c03 level="item">
               <did>
-                <container type="box">5</container>
+                <container label="unspecified" type="box">5</container>
                 <unitdate>undated</unitdate>
                 <unittitle>Photographic Notes and References</unittitle>
               </did> 
@@ -818,41 +816,41 @@
             </c03>
             <c03 level="item">
               <did>
-                <container type="box">5</container>
+                <container label="unspecified" type="box">5</container>
                 <unitdate>undated</unitdate>
                 <unittitle>Box of hand colored glass lantern slides by E. Harold</unittitle>
               </did> 
             </c03><c03 level="item">
               <did>
-                <container type="box">5</container>
+                <container label="unspecified" type="box">5</container>
                 <unitdate>undated</unitdate>
                 <unittitle>Wooden box of lantern slides with some notes</unittitle>
               </did> 
             </c03><c03 level="item">
               <did>
-                <container type="box">5</container>
+                <container label="unspecified" type="box">5</container>
                 <unitdate>undated</unitdate>
                 <unittitle>2 boxes of unmounted glass lantern slides</unittitle>
               </did> 
             </c03>
             <c03 level="item">
               <did>
-                <container type="box">5</container>
+                <container label="unspecified" type="box">5</container>
                 <unitdate>1923-1953</unitdate>
                 <unittitle>Wooden box of 5x7 glass negatives.  Includes Negatives 417-587 from catalog and other duplicates.</unittitle>
               </did> 
             </c03>
             <c03 level="item">
               <did>
-                <container type="box">5</container>
+                <container label="unspecified" type="box">5</container>
                 <unitdate>undated</unitdate>
                 <unittitle>Cigar Box with 35mm slides; other color transparencies; negatives; and notes</unittitle>
               </did> 
             </c03>
             <c03 level="item">
             <did>
-              <container type="box">5</container>
-              <container type="folder">1</container>
+              <container label="unspecified" type="box">5</container>
+              <container label="unspecified" type="folder">1</container>
               <unitdate>undated</unitdate>
               <unittitle>35mm negatives and notes</unittitle>
             </did> 
@@ -865,21 +863,21 @@
               <scopecontent><p>See Box 3 &amp; 4 for prints from these negatives and Box 2 for printed indexes to plates</p></scopecontent>
               <c03 level="item">
                 <did>
-                  <container type="box">6</container>
+                  <container label="unspecified" type="box">6</container>
                   <unitdate>1906-1913</unitdate>
                   <unittitle>Negatives 9-197</unittitle>
                 </did> 
               </c03>
               <c03 level="item">
                 <did>
-                  <container type="box">7</container>
+                  <container label="unspecified" type="box">7</container>
                   <unitdate>1913-1917</unitdate>
                   <unittitle>Negatives 198-339</unittitle>
                 </did> 
               </c03>
               <c03 level="item">
                 <did>
-                  <container type="box">8</container>
+                  <container label="unspecified" type="box">8</container>
                   <unitdate>1917-1938</unitdate>
                   <unittitle>Negatives 340-569</unittitle>
                 </did> 
@@ -887,15 +885,15 @@
               </c03>
               <c03 level="item">
                 <did>
-                  <container type="box">9</container>
+                  <container label="unspecified" type="box">9</container>
                   <unitdate>1938-1952</unitdate>
                   <unittitle>Negatives 570-835</unittitle>
                 </did> 
               </c03>
               <c03 level="item">
                 <did>
-                  <container type="box">5</container>
-                  <unitdate>c. 1952-1958</unitdate>
+                  <container label="unspecified" type="box">5</container>
+                  <unitdate certainty="approximate">1952-1958</unitdate>
                   <unittitle>Negatives 836-876; positives; tests; and negatives with different numbering system</unittitle>
                 </did> 
               </c03>
@@ -903,5 +901,9 @@
       </c01>
       
     </dsc>
-  </archdesc> 
+  <prefercite>
+        <head>Cite As:</head>
+        <p>Alexander Dawes DuBois. Papers, #3803. Division of Rare and Manuscript
+          Collections, Cornell University Library.</p>
+      </prefercite></archdesc> 
 </ead>

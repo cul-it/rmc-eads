@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04451::Cold fusion archive)//EN">RMM04451</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04451::Cold fusion archive)//EN">RMM04451</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Cold fusion archive,1989-1993.</titleproper>
@@ -28,6 +27,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -36,22 +41,22 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Cold Fusion Archive,<lb/>1989-1993.</titleproper>
+         <titleproper>Guide to the Cold Fusion Archive,1989-1993.</titleproper>
          <num>Collection Number: 4451</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+         <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/>
-2B Carl A. Kroch Library<lb/>
-Cornell University<lb/>
-Ithaca, NY 14853<lb/>
-(607) 255-3530<lb/>
-Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections
+2B Carl A. Kroch Library
+Cornell University
+Ithaca, NY 14853
+(607) 255-3530
+Fax: (607) 255-9524
 <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
 <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -72,12 +77,10 @@ Fax: (607) 255-9524<lb/>
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Cold fusion archive, 
-		<unitdate type="inclusive" encodinganalog="MARC 245">1989-1993.</unitdate>
-		
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Cold fusion archive, 
+		</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1989-1993.</unitdate>
          <unitid label="Collection Number:">4451</unitid>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>16.9 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>16.9 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Newspapers, Printed Materials, Publications, Research Materials, Movie Film</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
          <abstract label="Abstract:">The archive consists of four major types of information: original manuscript and published materials produced by principles in cold fusion; mass media articles about cold fusion, including newspapers, magazines, books, radio broadcasts, and television broadcasts and consisting of original clippings, off-the-air recordings, computer printouts, digital camera cassettes, and transcripts; taped interviews with researchers, research administrators, public information representatives, and journalists involved in cold fusion; and items of material culture.</abstract>
@@ -105,17 +108,7 @@ Fax: (607) 255-9524<lb/>
             <subject encodinganalog="MARC 650">Cold fusion.</subject>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <userestrict>
-            <head>Restrictions on use:</head>
-            <p>Taped interviews have individual restrictions. Consult guide.</p>
-         </userestrict>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Cold fusion archive, #4451. Division of Rare and Manuscript Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="series">
@@ -130,5 +123,11 @@ Fax: (607) 255-9524<lb/>
             </scopecontent>
          </c01>
       </dsc>
-   </archdesc>
+   <userestrict>
+            <head>Restrictions on use:</head>
+            <p>Taped interviews have individual restrictions. Consult guide.</p>
+         </userestrict><prefercite>
+            <head>Cite As:</head>
+            <p>Cold fusion archive, #4451. Division of Rare and Manuscript Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

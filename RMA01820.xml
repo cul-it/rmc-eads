@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01820::Guide to the Cornell University Track and Field collection)//EN">RMA01820</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01820::Guide to the Cornell University Track and Field collection)//EN">RMA01820</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Cornell University Track and Field collection,<date>ca.
@@ -26,23 +26,29 @@
     <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>July 2013</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Cornell University Track And Field Collection,<lb/><date type="inclusive" encodinganalog="245$f">ca. 1886-2000</date></titleproper>
+      <titleproper>Guide to the Cornell University Track And Field Collection,<date encodinganalog="245$f" type="inclusive">ca. 1886-2000</date></titleproper>
       <num>Collection Number: 40-9-1820</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-            Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607)
-              255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+            Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607)
+              255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
         </defitem>
         <defitem>
           <label>Compiled by:</label>
-          <item>Evan Earle July 2013<lb/>Julia McDowell May 2013</item>
+          <item>Evan Earle July 2013Julia McDowell May 2013</item>
         </defitem>
         <defitem>
           <label>Date completed:</label>
@@ -50,7 +56,7 @@
         </defitem>
         <defitem>
           <label>EAD encoding:</label>
-          <item>Julia Mcdowell May 2013<lb/>Evan Earle July 2013</item>
+          <item>Julia Mcdowell May 2013Evan Earle July 2013</item>
         </defitem>
         <defitem>
           <label>Date modified:</label>
@@ -63,12 +69,11 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">Cornell University Track and Field
-        collection, <unitdate encodinganalog="MARC 245" type="inclusive">ca. 1886-2000</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">Cornell University Track and Field
+        collection, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1886-2000</unitdate>
       <unitid label="Collection Number:">40-9-1820</unitid>
       <origination label="Creator:">Cornell University</origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>8 cubic feet.</extent></physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>8 cubic feet</extent></physdesc>
       <physdesc label="Forms of Material:">Manuscripts, Photographs, Films</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
         University Library</repository>
@@ -119,14 +124,7 @@
         <genreform encodinganalog="MARC 655" source="aat">Scrapbooks.</genreform>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>Cornell University Track and Field collection, #40-9-1820. Division of Rare and
-          Manuscript Collections, Cornell University Library.</p>
-      </prefercite>
-    </descgrp>
+    
     <odd type="notes">
       <head id="a6">NOTES</head>
       <p>Walter Ashbaugh '51, Meredith Gourdine '52 and Charles H. Moore '51 competed at the 52
@@ -140,26 +138,26 @@
       <head>SERIES LIST</head>
       <p>
         <emph render="bold">
-          <ref target="s1" show="replace" actuate="onrequest">Series I. General papers, photographs
+          <ref actuate="onrequest" show="replace" target="s1">Series I. General papers, photographs
             and ephemera</ref>
         </emph>
-        <lb/>Box 1, 7, 9, 10, Mapcase</p>
+        Box 1, 7, 9, 10, Mapcase</p>
       <p>
         <emph render="bold">
-          <ref target="s2" show="replace" actuate="onrequest">Series II. Training and Results
+          <ref actuate="onrequest" show="replace" target="s2">Series II. Training and Results
             Books</ref>
         </emph>
-        <lb/>Box 2-3</p>
+        Box 2-3</p>
       <p>
         <emph render="bold">
-          <ref target="s3" show="replace" actuate="onrequest">Series III. Oversize Photographs</ref>
+          <ref actuate="onrequest" show="replace" target="s3">Series III. Oversize Photographs</ref>
         </emph>
-        <lb/>Box 4-6, Mapcase</p>
+        Box 4-6, Mapcase</p>
       <p>
         <emph render="bold">
-          <ref target="s4" show="replace" actuate="onrequest">Series IV. Videos and Film</ref>
+          <ref actuate="onrequest" show="replace" target="s4">Series IV. Videos and Film</ref>
         </emph>
-        <lb/>Box 7-8</p>
+        Box 7-8</p>
     </arrangement>
     <dsc type="combined">
       <head>CONTAINER LIST</head>
@@ -169,48 +167,48 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">1</container>
             <unittitle>Field day NYSIAU</unittitle>
             <unitdate>1886, 93, 1901</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">2</container>
             <unittitle>Photos</unittitle>
             <unitdate>1900-09</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">3</container>
             <unittitle>Photos</unittitle>
             <unitdate>1900s</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">4</container>
             <unittitle>Track Photos</unittitle>
             <unitdate>1910-19</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">5</container>
             <unittitle>NY state intercollegiate Track and Field meet. Rome, NY</unittitle>
             <unitdate>1911</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">6</container>
             <unittitle>Track Photos</unittitle>
             <unitdate>1920-29</unitdate>
           </did>
@@ -221,8 +219,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">7</container>
             <unittitle>Disassembled collage featuring the number plates worn by track and field
               athletes on their jerseys at the 1920 Olympics in Antwerp Belgium who won gold medals. </unittitle>
             <unitdate>1920</unitdate>
@@ -235,55 +233,55 @@
               Charley Paddock, Bevil Rudd, Patrick Ryan signed, and Earl Thomson. The one for Allen
               Woodring is missing. There are also two that have name labels that do not correspond
               with who won gold. They are shot put labeled "Finnthuma" actually won by Ville Pörhölä
-              and broad jump labeled "Finna" actually won by William Petersson. <lb/>Also includes a
+              and broad jump labeled "Finna" actually won by William Petersson. Also includes a
               picture of Jack Moakley and Frank Sheehan and a U.S. Olympic track team patch. See
               photo on CD-1941 (located in Box 1, as well) for picture before it was disassembled.</p>
           </scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">8</container>
             <unittitle>Pieces of the 1920 Olympic collage from folder 8.</unittitle>
             <unitdate>1920</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">9</container>
             <unittitle>Track Photos</unittitle>
             <unitdate>1930-39</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">10</container>
             <unittitle>Berlin Olympics programs</unittitle>
             <unitdate>1936</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">11</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">11</container>
             <unittitle>Berlin Olympics</unittitle>
             <unitdate>1936</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">12</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">12</container>
             <unittitle>Tickets to Berlin Olympics</unittitle>
             <unitdate>1936</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">13</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">13</container>
             <unittitle>Track Photos</unittitle>
             <unitdate>1940-49</unitdate>
           </did>
@@ -295,16 +293,16 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">14</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">14</container>
             <unittitle>Cornell Spiked Shoe Society</unittitle>
             <unitdate>1946</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">15</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">15</container>
             <unittitle>Track Photos</unittitle>
             <unitdate>1950-59</unitdate>
           </did>
@@ -315,10 +313,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">44</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">44</container>
             <unittitle>Track Photos</unittitle>
-            <unitdate>ca. 1952</unitdate>
+            <unitdate certainty="approximate">1952</unitdate>
           </did>
           <scopecontent>
             <p>Film cannister of negatives. Some of the prints from this can are in an envelope in
@@ -327,8 +325,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">16</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">16</container>
             <unittitle>Projector photograph slides of the 1950 England trip</unittitle>
             <unitdate>1950</unitdate>
           </did>
@@ -341,32 +339,32 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">17</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">17</container>
             <unittitle>Charles Moore Jr., winner of a gold and silver medal</unittitle>
             <unitdate>1952</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">18</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">18</container>
             <unittitle>1952 Oslo Olympics</unittitle>
             <unitdate>1952</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">19</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">19</container>
             <unittitle>Track Photos</unittitle>
             <unitdate>1960-69</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">20</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">20</container>
             <unittitle>Track Photos</unittitle>
             <unitdate>1970-79</unitdate>
           </did>
@@ -376,192 +374,192 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">21</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">21</container>
             <unittitle>The Midwest Olympic Development Camp</unittitle>
             <unitdate>1979</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">22</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">22</container>
             <unittitle>Track Photos</unittitle>
             <unitdate>1980-89</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">23</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">23</container>
             <unittitle>The Inside Track: Creating Success at Cornell, by Colin McClive</unittitle>
             <unitdate>1982</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">24</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">24</container>
             <unittitle>Men's and Women's Workout Notebook (blank)</unittitle>
             <unitdate>1982-83</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">25</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">25</container>
             <unittitle>University of Missouri Summer Camp</unittitle>
             <unitdate>1985</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">26</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">26</container>
             <unittitle>University of Missouri Coaches Clinic</unittitle>
             <unitdate>1985</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">27</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">27</container>
             <unittitle>University of Missouri Coaches Clinic</unittitle>
             <unitdate>Jan 31 - Feb 1 1986</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">28</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">28</container>
             <unittitle>University of Missouri XC and Track and Field Camp</unittitle>
             <unitdate>1987</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">29</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">29</container>
             <unittitle>University of Missouri Coaches Clinic</unittitle>
             <unitdate>1987</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">30</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">30</container>
             <unittitle>Marines Article</unittitle>
             <unitdate>1988</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">31</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">31</container>
             <unittitle>University of Missouri Coaches Clinic</unittitle>
             <unitdate>1988</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">32</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">32</container>
             <unittitle>University of Missouri XC and Track and Field Camp</unittitle>
             <unitdate>1988</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">33</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">33</container>
             <unittitle>University of Missouri XC and Track and Field Camp</unittitle>
             <unitdate>1989</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">34</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">34</container>
             <unittitle>University of Missouri Coaches Clinic</unittitle>
             <unitdate>1989</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">35</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">35</container>
             <unittitle>University of Missouri Speed Development Camp</unittitle>
             <unitdate>1989</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">36</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">36</container>
             <unittitle>Track Photos</unittitle>
             <unitdate>1990's</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">37</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">37</container>
             <unittitle>University of Missouri XC and Track and Field Camp</unittitle>
             <unitdate>1990</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">38</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">38</container>
             <unittitle>University of Missouri Coaches Clinic</unittitle>
             <unitdate>1990</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">39</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">39</container>
             <unittitle>H. Hunt Bradley Track Center Dedication</unittitle>
             <unitdate>Feb 25, 1995</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">40</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">40</container>
             <unittitle>Track and Field News's Big Red Book</unittitle>
             <unitdate>1995</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">41</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">41</container>
             <unittitle>Track Photos</unittitle>
             <unitdate>Undated</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">42</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">42</container>
             <unittitle>Training Manual</unittitle>
             <unitdate>Undated</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">43</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">43</container>
             <unittitle>Minnesota Women's Training Diary</unittitle>
             <unitdate>Undated</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">45</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">45</container>
             <unittitle>CD-1941, contains low resolution photographs of many of the photos in the
               collection when they were on the wall in Barton Hall track room, before they were
               unframed.</unittitle>
@@ -570,8 +568,8 @@
 
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">13</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">13</container>
             <unittitle>Niagara Track &amp; Field Hall of Fame programs and tickets</unittitle>
             <unitdate>1998-2014</unitdate>
           </did>
@@ -581,8 +579,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">14</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">14</container>
             <unittitle>Niagara Track &amp; Field Hall of Fame programs</unittitle>
             <unitdate>2012-2014</unitdate>
           </did>
@@ -590,7 +588,7 @@
 
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitdate>April 1983</unitdate>
             <unittitle>University College Dublin Athletic Club Visit to Cornell University
               plaque</unittitle>
@@ -598,13 +596,13 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unittitle>University of Birmingham and Kingston Upon Hull plaques</unittitle>
           </did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">9</container>
+            <container label="unspecified" type="box">9</container>
 
             <unittitle>Anglo-American Athletic Match Scrapbook</unittitle>
             <unitdate>1930</unitdate>
@@ -618,32 +616,32 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">9</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">9</container>
+            <container label="unspecified" type="folder">1</container>
             <unittitle>Glass plate negative of 2 Cornell runners - Henry Norton Stone and Frederic Kimball Lovejoy</unittitle>
-            <unitdate>ca. 1900's</unitdate>
+            <unitdate certainty="approximate">1900's</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">9</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">9</container>
+            <container label="unspecified" type="folder">2</container>
             <unittitle>Programs from the 1930 England trip</unittitle>
             <unitdate>July 12, 1930</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">9</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">9</container>
+            <container label="unspecified" type="folder">3</container>
             <unittitle>Photos from the 1934 and 1938 England trip</unittitle>
             <unitdate>1934, 1938</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">9</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">9</container>
+            <container label="unspecified" type="folder">4</container>
             <unitdate>1927</unitdate>
             <unittitle>Varsity track wearer of the C certificate of Clarence Francis
               Spindler</unittitle>
@@ -651,8 +649,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">9</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">9</container>
+            <container label="unspecified" type="folder">5</container>
             <unittitle>Photos and ephemera from the 1930 England trip</unittitle>
             <unitdate>1930</unitdate>
           </did>
@@ -664,7 +662,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">10</container>
+            <container label="unspecified" type="box">10</container>
             <unitdate>1918-1920</unitdate>
             <unittitle>Track medals won by Walker Smith '20</unittitle>
           </did>
@@ -679,7 +677,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">10</container>
+            <container label="unspecified" type="box">10</container>
             <unitdate>1921-1922</unitdate>
             <unittitle>Track medals won by Daniel Strickler '22</unittitle>
           </did>
@@ -711,96 +709,96 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">1</container>
             <unittitle>Cornell Cross-Country Club</unittitle>
             <unitdate>October 1898-1925</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">2</container>
             <unittitle>IC4A 33rd Annual Field Meeting, Franklin Field, Philadelphia PA</unittitle>
             <unitdate>1908</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">3</container>
             <unittitle>IC4A 34th Annual Field Meeting, Soldiers Field, Cambridge MA</unittitle>
             <unitdate>1909</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">4</container>
             <unittitle>IC4A 35th Annual Field Meeting, Franklin Field, Philadelphia PA</unittitle>
             <unitdate>1910</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">5</container>
             <unittitle>IC4A 36th Annual Field Meeting, Soldiers Field, Cambridge MA</unittitle>
             <unitdate>1911</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">6</container>
             <unittitle>IC4A 37th Annual Field Meeting, Franklin Field, Philadelphia PA</unittitle>
             <unitdate>1912</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">7</container>
             <unittitle>IC4A 38th Annual Field Meeting, Soldiers Field, Cambridge MA</unittitle>
             <unitdate>1913</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">8</container>
             <unittitle>IC4A 39th Annual Field Meeting, Soldiers Field, Cambridge MA</unittitle>
             <unitdate>1914</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">9</container>
             <unittitle>Cross country summary for the year</unittitle>
             <unitdate>1914-15</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">10</container>
             <unittitle>Track Summary</unittitle>
             <unitdate>1914-15</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">11</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">11</container>
             <unittitle>IC4A 40th Annual Field Meeting, Franklin Field, Philadelphia PA</unittitle>
             <unitdate>1915</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">12</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">12</container>
             <unittitle>Business Management of the Cornell Track Team, Paul F Sanborne,
               Manager</unittitle>
             <unitdate>1915-16</unitdate>
@@ -808,168 +806,168 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">13</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">13</container>
             <unittitle>IC4A 41st annual field meeting, Soldiers Field, Cambridge MA</unittitle>
             <unitdate>1916</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">14</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">14</container>
             <unittitle>Track Summary</unittitle>
             <unitdate>1919</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">15</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">15</container>
             <unittitle>Track Summary</unittitle>
             <unitdate>1919-20</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">16</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">16</container>
             <unittitle>Track Summary</unittitle>
             <unitdate>1920-21</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">17</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">17</container>
             <unittitle>Track Reports</unittitle>
             <unitdate>1921-22</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">18</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">18</container>
             <unittitle>Cornell Track Charles Crawford Carter</unittitle>
             <unitdate>1922</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">19</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">19</container>
             <unittitle>IC4A 46th Annual Field Meeting, Soldiers Field, Cambridge MA</unittitle>
             <unitdate>1922</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">20</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">20</container>
             <unittitle>Track Report</unittitle>
             <unitdate>1922-23</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">21</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">21</container>
             <unittitle>Track Schedules and Reports</unittitle>
             <unitdate>1923-24</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">1</container>
             <unittitle>Track Schedules and Reports</unittitle>
             <unitdate>1923-24</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">2</container>
             <unittitle>Cross Country Reports</unittitle>
             <unitdate>1924</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">3</container>
             <unittitle>Cross Country Reports</unittitle>
             <unitdate>1924</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">4</container>
             <unittitle>Track Schedules and Reports</unittitle>
             <unitdate>1924-25</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">5</container>
             <unittitle>Track Schedules and Reports</unittitle>
             <unitdate>1924-25</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">6</container>
             <unittitle>Track Schedules and Reports</unittitle>
             <unitdate>1925-26</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">7</container>
             <unittitle>IC4A 50th Annual Field Meeting, Soldiers Field, Cambridge MA</unittitle>
             <unitdate>May 28-28, 1926</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">8</container>
             <unittitle>IC4A Souvenir Volume of Annual Championship Meetings</unittitle>
             <unitdate>1927-28</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">9</container>
             <unittitle>Track Records and Schedules</unittitle>
             <unitdate>1928-29</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">10</container>
             <unittitle>IC4A Souvenir Volume of Annual Championship Meetings</unittitle>
             <unitdate>1929-32</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">11</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">11</container>
             <unittitle>IC4A Souvenir Volume of Annual Championship Meetings</unittitle>
             <unitdate>1929-32</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">12</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">12</container>
             <unittitle>IC4A Souvenir Volume of Annual Championship Meetings</unittitle>
             <unitdate>1929-32</unitdate>
           </did>
@@ -985,8 +983,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">1</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">1</container>
               <unitdate>1898</unitdate>
               <unittitle>Partial Photo of the Track Team</unittitle>
             </did>
@@ -998,24 +996,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">2</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">2</container>
               <unitdate>1902-03</unitdate>
               <unittitle>Photo of the Track Team</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">2</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">2</container>
               <unitdate>1906</unitdate>
               <unittitle>Photo of the Track Team</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">2</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">2</container>
               <unitdate>1906-07</unitdate>
               <unittitle>Photo of the Track Team</unittitle>
             </did>
@@ -1027,16 +1025,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">3</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">3</container>
               <unitdate>1922-23</unitdate>
               <unittitle>Track Team Photo</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">3</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">3</container>
               <unitdate>1928-29</unitdate>
               <unittitle>Track Team Photo</unittitle>
             </did>
@@ -1048,32 +1046,32 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">4</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">4</container>
               <unitdate>1930-31</unitdate>
               <unittitle>Track Team Photo</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">4</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">4</container>
               <unitdate>1933</unitdate>
               <unittitle>Track Team Photo - in 2 pieces</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">4</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">4</container>
               <unitdate>1934</unitdate>
               <unittitle>Track Team Photo</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">4</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">4</container>
               <unitdate>1936</unitdate>
               <unittitle>Single runner, unknown</unittitle>
             </did>
@@ -1085,24 +1083,24 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">5</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">5</container>
               <unitdate>1946</unitdate>
               <unittitle>Track Team Photo</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">5</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">5</container>
               <unitdate>1948</unitdate>
               <unittitle>Track Team Photo</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">5</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">5</container>
               <unitdate>1949</unitdate>
               <unittitle>Coach Moakley, retired in 1949</unittitle>
             </did>
@@ -1114,8 +1112,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">6</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">6</container>
               <unitdate>1977</unitdate>
               <unittitle>Ithaca Journal, Cornell wins Heps</unittitle>
             </did>
@@ -1127,16 +1125,16 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">7</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">7</container>
               <unitdate>1984</unitdate>
               <unittitle>Cornell Hall of Fame Induction, George Miske, class of 1922</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">7</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">7</container>
               <unitdate>1984</unitdate>
               <unittitle>Cornell Hall of Fame Induction, Alma M Richards, class of 1917</unittitle>
             </did>
@@ -1148,8 +1146,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">8</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">8</container>
               <unitdate>1991</unitdate>
               <unittitle>Cornell Hall of Fame Induction, Robert E Brown, class of 1922</unittitle>
             </did>
@@ -1161,8 +1159,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">9</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">9</container>
               <unitdate>Unknown</unitdate>
               <unittitle>Track Team photo, plus four individual photos</unittitle>
             </did>
@@ -1170,64 +1168,64 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">1</container>
             <unittitle>General Photographs</unittitle>
             <unitdate>No Date</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">2</container>
             <unittitle>General Photographs</unittitle>
             <unitdate>1900-09</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">3</container>
             <unittitle>General Photographs</unittitle>
             <unitdate>1910-19</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">4</container>
             <unittitle>General Photographs</unittitle>
             <unitdate>1920-29</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">5</container>
             <unittitle>General Photographs</unittitle>
             <unitdate>1930-39</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">6</container>
             <unittitle>General Photographs</unittitle>
             <unitdate>1950-59</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">6</container>
             <unittitle>General Photographs</unittitle>
             <unitdate>1960-69</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">7</container>
             <unittitle>Signs and posters</unittitle>
             <unitdate>Undated</unitdate>
           </did>
@@ -1237,70 +1235,70 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">1</container>
             <unittitle>Oversize photographs</unittitle>
             <unitdate>1970-99</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">2</container>
             <unittitle>Oversize photographs</unittitle>
             <unitdate>1940-59</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">3</container>
             <unittitle>Oversize photographs</unittitle>
             <unitdate>1930-39</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">4</container>
             <unittitle>Oversize photographs</unittitle>
             <unitdate>1920-29</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">5</container>
             <unittitle>Oversize photographs</unittitle>
             <unitdate>1900-19</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">6</container>
             <unittitle>Oversize photographs</unittitle>
             <unitdate>1880-99</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">7</container>
             <unittitle>Oversize photographs</unittitle>
             <unitdate>No Date</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="map-case">Folder</container>
+            <container label="unspecified" type="map-case">Folder</container>
             <unittitle>Large Team Individual Photograph</unittitle>
             <unitdate>No Date</unitdate>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="map-case">Folder</container>
+            <container label="unspecified" type="map-case">Folder</container>
             <unittitle>Large Cornell, Yale, Harvard, Navy Princeton, West Point, Dartmouth group
               photo</unittitle>
             <unitdate>No Date</unitdate>
@@ -1313,7 +1311,7 @@
         </did>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-152</unitid>
             <unitdate>1925</unitdate>
             <unittitle>Track and Field motion picture film (1 reel, 16mm)</unittitle>
@@ -1326,7 +1324,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-509</unitid>
             <unitdate>May 25, 1929</unitdate>
             <unittitle>The Cornell-Princeton Track meet</unittitle>
@@ -1334,7 +1332,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-510</unitid>
             <unitdate>1929</unitdate>
             <unittitle>Track IC4A Philly</unittitle>
@@ -1342,7 +1340,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-511</unitid>
             <unitdate>1929</unitdate>
             <unittitle>Princeton-Dartmouth Pennsylvania-Cornell Track meet</unittitle>
@@ -1350,7 +1348,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-512</unitid>
             <unitdate>1930</unitdate>
             <unittitle>English Meet</unittitle>
@@ -1361,7 +1359,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-513</unitid>
             <unitdate>1932</unitdate>
             <unittitle>Distance events</unittitle>
@@ -1372,7 +1370,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-602</unitid>
             <unitdate>1932</unitdate>
             <unittitle>Field Events IC4A</unittitle>
@@ -1380,7 +1378,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-1071</unitid>
             <unitdate>July 1-2, 1932</unitdate>
             <unittitle>Running Events IC4A</unittitle>
@@ -1391,7 +1389,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-514</unitid>
             <unitdate>1934</unitdate>
             <unittitle>English Meet Reel I</unittitle>
@@ -1399,7 +1397,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-515</unitid>
             <unitdate>1934</unitdate>
             <unittitle>English Meet Reel II</unittitle>
@@ -1407,7 +1405,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-516</unitid>
             <unitdate>1937</unitdate>
             <unittitle>Reel I</unittitle>
@@ -1415,7 +1413,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-517</unitid>
             <unitdate>1937</unitdate>
             <unittitle>Reel II</unittitle>
@@ -1423,7 +1421,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-518</unitid>
             <unitdate>1938</unitdate>
             <unittitle>English Trip</unittitle>
@@ -1431,7 +1429,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-519</unitid>
             <unitdate>1938</unitdate>
             <unittitle>Cornell Penn Relays</unittitle>
@@ -1439,7 +1437,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-520</unitid>
             <unitdate>1949 and 1953</unitdate>
             <unittitle>Indoor Heps, Boston</unittitle>
@@ -1447,7 +1445,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-521</unitid>
             <unitdate>1950</unitdate>
             <unittitle>English Trip Reel I</unittitle>
@@ -1458,7 +1456,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-522</unitid>
             <unitdate>1950</unitdate>
             <unittitle>English Trip Reel II</unittitle>
@@ -1469,7 +1467,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-523</unitid>
             <unitdate>1950</unitdate>
             <unittitle>English Trip Reel III</unittitle>
@@ -1480,7 +1478,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-524</unitid>
             <unitdate>1950</unitdate>
             <unittitle>Trip 2</unittitle>
@@ -1488,7 +1486,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7A</container>
+            <container label="unspecified" type="box">7A</container>
             <unitid label="16mm Film ">F-525</unitid>
             <unitdate>1950</unitdate>
             <unittitle>Penn Relay Duplicate, 880 yard Relay</unittitle>
@@ -1496,7 +1494,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-526</unitid>
             <unitdate>1950,51,54</unitdate>
             <unittitle>400 M Hurdles, Olympics</unittitle>
@@ -1504,7 +1502,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="35mm Film ">F-527</unitid>
             <unitdate>1950</unitdate>
             <unittitle>Penn Relays</unittitle>
@@ -1512,7 +1510,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-528</unitid>
             <unitdate>1951</unitdate>
             <unittitle>Penn Relays</unittitle>
@@ -1520,7 +1518,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-603</unitid>
             <unitdate>1952</unitdate>
             <unittitle>Olympics</unittitle>
@@ -1532,7 +1530,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7A</container>
+            <container label="unspecified" type="box">7A</container>
             <unitid label="16mm Film ">F-529</unitid>
             <unitdate>April 18 1954</unitdate>
             <unittitle>Cornell Hammer, Track Film</unittitle>
@@ -1540,7 +1538,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-530</unitid>
             <unitdate>1954</unitdate>
             <unittitle>Bannister Mile</unittitle>
@@ -1551,7 +1549,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-531</unitid>
             <unitdate>1954</unitdate>
             <unittitle>Cross Country Season under Coach Montgomery</unittitle>
@@ -1559,7 +1557,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="16mm Film ">F-589</unitid>
             <unitdate>1954</unitdate>
             <unittitle>Pole Vault</unittitle>
@@ -1570,7 +1568,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-532</unitid>
             <unitdate>1954</unitdate>
             <unittitle>English Trip, Oxford Cam</unittitle>
@@ -1578,7 +1576,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-533</unitid>
             <unitdate>1955</unitdate>
             <unittitle>Princeton Track</unittitle>
@@ -1586,7 +1584,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-600</unitid>
             <unitdate>1955</unitdate>
             <unittitle>Penn Relays #1</unittitle>
@@ -1594,7 +1592,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-534</unitid>
             <unitdate>1955</unitdate>
             <unittitle>Penn Relays Reel II</unittitle>
@@ -1602,7 +1600,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-535</unitid>
             <unitdate>1955-58-60-63</unitdate>
             <unittitle>Full Reel, Cross Country</unittitle>
@@ -1610,7 +1608,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-536</unitid>
             <unitdate>1956</unitdate>
             <unittitle>Harvard-Penn Cornell</unittitle>
@@ -1618,7 +1616,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitid label="16mm Film ">F-537</unitid>
             <unitdate>1956</unitdate>
             <unittitle>Penn Relays</unittitle>
@@ -1626,7 +1624,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="16mm Film ">F-538</unitid>
             <unitdate>1954</unitdate>
             <unittitle>Belan Court and Informal Photos of Runners on Board Track</unittitle>
@@ -1634,7 +1632,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7A</container>
+            <container label="unspecified" type="box">7A</container>
             <unitid label="16mm Film ">F-539</unitid>
             <unitdate>1958</unitdate>
             <unittitle>Colgate</unittitle>
@@ -1642,7 +1640,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7A</container>
+            <container label="unspecified" type="box">7A</container>
             <unitid label="16mm Film ">F-540</unitid>
             <unitdate>1960</unitdate>
             <unittitle>Practice, Fort Lee</unittitle>
@@ -1650,7 +1648,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7A</container>
+            <container label="unspecified" type="box">7A</container>
             <unitid label="16mm Film ">F-541</unitid>
             <unitdate>1960</unitdate>
             <unittitle>Cornell Track Rally, Fort Lee. Meet day, 2</unittitle>
@@ -1658,7 +1656,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7A</container>
+            <container label="unspecified" type="box">7A</container>
             <unitid label="16mm Film ">F-542</unitid>
             <unitdate>March 25, 1960</unitdate>
             <unittitle>Cornell Colgate track meet</unittitle>
@@ -1666,7 +1664,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7A</container>
+            <container label="unspecified" type="box">7A</container>
             <unitid label="16mm Film ">F-543</unitid>
             <unitdate>1961</unitdate>
             <unittitle>Lou Montgomery, coach, includes practices of high jump and pole
@@ -1675,7 +1673,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7A</container>
+            <container label="unspecified" type="box">7A</container>
             <unitid label="16mm Film ">F-544</unitid>
             <unitdate>Feb 28 1961</unitdate>
             <unittitle>Cornell Races, Mikulina-Potter, Murray-Potter, Brennan-Schenker</unittitle>
@@ -1683,7 +1681,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-575</unitid>
             <unitdate>1961</unitdate>
             <unittitle>Indoor Heps</unittitle>
@@ -1691,7 +1689,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-563</unitid>
             <unitdate>June 25 1961</unitdate>
             <unittitle>IC4A Track and Field at Randall's Island NY</unittitle>
@@ -1699,7 +1697,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7A</container>
+            <container label="unspecified" type="box">7A</container>
             <unitid label="16mm Film ">F-545</unitid>
             <unitdate>1962</unitdate>
             <unittitle>Dartmouth Heps, Coach Montgomery</unittitle>
@@ -1707,7 +1705,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7B</container>
+            <container label="unspecified" type="box">7B</container>
             <unitid label="16mm Film ">F-546</unitid>
             <unitdate>1962</unitdate>
             <unittitle>Cornell Track, Henson</unittitle>
@@ -1715,7 +1713,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7B</container>
+            <container label="unspecified" type="box">7B</container>
             <unitid label="16mm Film ">F-547</unitid>
             <unitdate>1962</unitdate>
             <unittitle>Fort Lee, half of the reel is good</unittitle>
@@ -1723,7 +1721,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8A</container>
+            <container label="unspecified" type="box">8A</container>
             <unitid label="16mm Film ">F-565</unitid>
             <unitdate>1962</unitdate>
             <unittitle>35-SP-PV-117</unittitle>
@@ -1731,7 +1729,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8A</container>
+            <container label="unspecified" type="box">8A</container>
             <unitid label="16mm Film ">F-564</unitid>
             <unitdate>1962</unitdate>
             <unittitle>Mikulina competing in London, High Jump 6'2-6'4</unittitle>
@@ -1739,7 +1737,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7B</container>
+            <container label="unspecified" type="box">7B</container>
             <unitid label="16mm Film ">F-548</unitid>
             <unitdate>March 20, 1963</unitdate>
             <unittitle>3 Cornell runners: Robinowitz, Sims, Smith</unittitle>
@@ -1747,7 +1745,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7B</container>
+            <container label="unspecified" type="box">7B</container>
             <unitid label="16mm Film ">F-549</unitid>
             <unitdate>Decemder 1, 1965</unitdate>
             <unittitle>Cornell indoor practice</unittitle>
@@ -1755,7 +1753,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7B</container>
+            <container label="unspecified" type="box">7B</container>
             <unitid label="16mm Film ">F-550</unitid>
             <unitdate>May 26, 1965</unitdate>
             <unittitle>Cornell outdoor practice, includes shot-put, discus, hammer</unittitle>
@@ -1763,7 +1761,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7B</container>
+            <container label="unspecified" type="box">7B</container>
             <unitid label="16mm Film ">F-551</unitid>
             <unitdate>February 1965</unitdate>
             <unittitle>Track Pole vault</unittitle>
@@ -1771,7 +1769,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7B</container>
+            <container label="unspecified" type="box">7B</container>
             <unitid label="16mm Film ">F-552</unitid>
             <unitdate>March 1966</unitdate>
             <unittitle>Practices</unittitle>
@@ -1779,7 +1777,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7B</container>
+            <container label="unspecified" type="box">7B</container>
             <unitid label="16mm Film ">F-553</unitid>
             <unitdate>May 1966</unitdate>
             <unittitle>Outdoor Track, HJ Thomas</unittitle>
@@ -1787,7 +1785,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7C</container>
+            <container label="unspecified" type="box">7C</container>
             <unitid label="16mm Film ">F-554</unitid>
             <unitdate>December 3, 1966</unitdate>
             <unittitle>Pole vault and hurdles, Elliot and Herman</unittitle>
@@ -1795,7 +1793,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7C</container>
+            <container label="unspecified" type="box">7C</container>
             <unitid label="16mm Film ">F-555</unitid>
             <unitdate>December 11, 1966</unitdate>
             <unittitle>Track Intrasquad meet</unittitle>
@@ -1803,7 +1801,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8A</container>
+            <container label="unspecified" type="box">8A</container>
             <unitid label="16mm Film ">F-579</unitid>
             <unitdate>December 1966</unitdate>
             <unittitle>Track</unittitle>
@@ -1811,7 +1809,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8A</container>
+            <container label="unspecified" type="box">8A</container>
             <unitid label="16mm Film ">F-566</unitid>
             <unitdate>1966</unitdate>
             <unittitle>Track Shotput</unittitle>
@@ -1819,7 +1817,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="16mm Film ">F-556</unitid>
             <unitdate>June 1968</unitdate>
             <unittitle>Track</unittitle>
@@ -1827,7 +1825,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7C</container>
+            <container label="unspecified" type="box">7C</container>
             <unitid label="16mm Film ">F-557</unitid>
             <unitdate>1968</unitdate>
             <unittitle>Indoor Heps, Cornell Track</unittitle>
@@ -1835,7 +1833,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7C</container>
+            <container label="unspecified" type="box">7C</container>
             <unitid label="16mm Film ">F-558</unitid>
             <unitdate>1968</unitdate>
             <unittitle>Practice</unittitle>
@@ -1843,7 +1841,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7C</container>
+            <container label="unspecified" type="box">7C</container>
             <unitid label="16mm Film ">F-559</unitid>
             <unitdate>Feb 19-26 1968</unitdate>
             <unittitle>Workout Practice</unittitle>
@@ -1851,7 +1849,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7C</container>
+            <container label="unspecified" type="box">7C</container>
             <unitid label="16mm Film ">F-560</unitid>
             <unitdate>1968</unitdate>
             <unittitle>W.T TRNG</unittitle>
@@ -1859,7 +1857,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7C</container>
+            <container label="unspecified" type="box">7C</container>
             <unitid label="16mm Film ">F-561</unitid>
             <unitdate>Jan 23 1968</unitdate>
             <unittitle>Workout</unittitle>
@@ -1867,15 +1865,15 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7C</container>
+            <container label="unspecified" type="box">7C</container>
             <unitid label="16mm Film ">F-562</unitid>
-            <unitdate>Dec 1968</unitdate>
+            <unitdate certainty="approximate">Dec 1968</unitdate>
             <unittitle>Track</unittitle>
           </did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8A</container>
+            <container label="unspecified" type="box">8A</container>
             <unitid label="16mm Film ">F-568</unitid>
             <unitdate>1970</unitdate>
             <unittitle>Tom Pagani, Asst Track Coach</unittitle>
@@ -1883,7 +1881,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8A</container>
+            <container label="unspecified" type="box">8A</container>
             <unitid label="16mm Film ">F-580</unitid>
             <unitdate>January 1971</unitdate>
             <unittitle>Track</unittitle>
@@ -1891,7 +1889,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8A</container>
+            <container label="unspecified" type="box">8A</container>
             <unitid label="16mm Film ">F-567</unitid>
             <unitdate>1972</unitdate>
             <unittitle>Barton Hall, Syracuse</unittitle>
@@ -1899,7 +1897,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="8mm Film ">F-604</unitid>
             <unitdate>1975</unitdate>
             <unittitle>Shot Put Update</unittitle>
@@ -1907,7 +1905,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="8mm Film ">F-663</unitid>
             <unitdate>January 1980</unitdate>
             <unittitle>Hammer</unittitle>
@@ -1915,7 +1913,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="8mm Film ">F-664</unitid>
             <unitdate>1983</unitdate>
             <unittitle>Lifting</unittitle>
@@ -1923,7 +1921,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="8mm Film ">F-665</unitid>
             <unitdate>December 1983</unitdate>
             <unittitle>Cornell Relays Women's Shot</unittitle>
@@ -1931,23 +1929,23 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="8mm Film ">F-666</unitid>
-            <unitdate>No Date, ca. 1980</unitdate>
+            <unitdate certainty="approximate">No Date, 1980</unitdate>
             <unittitle>Long Jump</unittitle>
           </did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="8mm Film ">F-667</unitid>
-            <unitdate>Mo Date, ca. 1980</unitdate>
+            <unitdate certainty="approximate">Mo Date, 1980</unitdate>
             <unittitle>3 Throws</unittitle>
           </did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-569</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Hammer #1</unittitle>
@@ -1955,7 +1953,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-570</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Practice, photos, personalities</unittitle>
@@ -1963,7 +1961,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-571</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Pole Vault #2</unittitle>
@@ -1971,7 +1969,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-572</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Discus #1</unittitle>
@@ -1979,7 +1977,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-573</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Cornell, Yale, Navy Relays</unittitle>
@@ -1987,7 +1985,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-574</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Winter Training Hurdles, Spear</unittitle>
@@ -1996,7 +1994,7 @@
 
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-576</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Broad Jump Practices</unittitle>
@@ -2004,7 +2002,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-577</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Jack Moakley, Silent</unittitle>
@@ -2012,7 +2010,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-578</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Cornell-Princeton before sheet hurdles</unittitle>
@@ -2021,7 +2019,7 @@
 
         <c02 level="item">
           <did>
-            <container type="box">8A</container>
+            <container label="unspecified" type="box">8A</container>
             <unitid label="16mm Film ">F-581</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Low hurdles, odd shots. G.H. Hart, Coach Montgomery</unittitle>
@@ -2029,7 +2027,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-582</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Pole Vault #1</unittitle>
@@ -2037,7 +2035,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-583</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>High Hurdles</unittitle>
@@ -2045,7 +2043,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-584</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Old Cross Country scenes #1</unittitle>
@@ -2053,7 +2051,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-585</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Track meet</unittitle>
@@ -2061,7 +2059,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8A</container>
+            <container label="unspecified" type="box">8A</container>
             <unitid label="16mm Film ">F-586</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Track, no descriptive information</unittitle>
@@ -2069,7 +2067,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7B</container>
+            <container label="unspecified" type="box">7B</container>
             <unitid label="16mm Film ">F-587</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Cornell Meet</unittitle>
@@ -2077,7 +2075,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">7C</container>
+            <container label="unspecified" type="box">7C</container>
             <unitid label="16mm Film ">F-588</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Track, with sound</unittitle>
@@ -2086,7 +2084,7 @@
 
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-590</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Sprints</unittitle>
@@ -2094,7 +2092,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-591</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>High Jump</unittitle>
@@ -2102,7 +2100,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8</container>
+            <container label="unspecified" type="box">8</container>
             <unitid label="16mm Film ">F-592</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Shot</unittitle>
@@ -2110,7 +2108,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="16mm Film ">F-593</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Track</unittitle>
@@ -2118,7 +2116,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="16mm Film ">F-594</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Track</unittitle>
@@ -2126,7 +2124,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="16mm Film ">F-595</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Shot Weight 600</unittitle>
@@ -2134,7 +2132,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="16mm Film ">F-596</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>M9 Triple Jump Jozef Schmidt</unittitle>
@@ -2142,7 +2140,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="16mm Film ">F-597</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>K-29 High Jump Valeriy Brumel</unittitle>
@@ -2150,7 +2148,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="16mm Film ">F-598</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Pole Vault John Pennel, 37/63</unittitle>
@@ -2158,7 +2156,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="16mm Film ">F-599</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Discus Al Oerter P14</unittitle>
@@ -2166,7 +2164,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="16mm Film ">F-668</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Long Jump Bob Beamon</unittitle>
@@ -2174,7 +2172,7 @@
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">8B</container>
+            <container label="unspecified" type="box">8B</container>
             <unitid label="16mm Film ">F-669</unitid>
             <unitdate>No Date</unitdate>
             <unittitle>Hammer Jozsef Csermak</unittitle>
@@ -2183,5 +2181,9 @@
 
       </c01>
     </dsc>
-  </archdesc>
+  <prefercite>
+        <head>Cite As:</head>
+        <p>Cornell University Track and Field collection, #40-9-1820. Division of Rare and
+          Manuscript Collections, Cornell University Library.</p>
+      </prefercite></archdesc>
 </ead>

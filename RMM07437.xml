@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07437::George Fisher Papers, 1951-1990)//EN">RMM07437</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07437::George Fisher Papers, 1951-1990)//EN">RMM07437</eadid>
     
     <filedesc> 
       <titlestmt> 
@@ -29,7 +28,13 @@
         <date>June 2009</date> </creation> 
       <langusage> <language>ENG</language> </langusage> 
     </profiledesc> 
-    <revisiondesc> 
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+ 
       <change encodinganalog="583"> 
         <date normal="2007-05-29">2007-05-29</date> 
         <item>converted from EAD 1.0 to EAD 2002 </item> 
@@ -39,31 +44,31 @@
   <frontmatter> 
     <titlepage> 
       <titleproper>Guide to the George Fisher Papers,
-        <lb/>1951-1990</titleproper> 
+        1951-1990</titleproper> 
       <num>Collection Number: 7437</num> 
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+      <publisher>Division of Rare and Manuscript Collections Cornell
         University Library</publisher> 
       <list type="deflist"> 
         <defitem> 
           <label>Contact Information:</label> 
-          <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-            Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/> 
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> <lb/> 
+          <item>Division of Rare and Manuscript Collections 2B Carl A.
+            Kroch Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524 
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>  
             <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-            <lb/></item> 
+            </item> 
         </defitem> 
         <defitem> 
           <label>Compiled by:</label> 
-          <item>Phil McCray<lb/>Brenda Marston<lb/>Andrea Hektor</item> 
+          <item>Phil McCrayBrenda MarstonAndrea Hektor</item> 
         </defitem> 
         <defitem> 
           <label>Date completed:</label> 
-          <item>October 1991<lb/> <lb/>September 2003</item> 
+          <item>October 1991 September 2003</item> 
         </defitem> 
         <defitem> 
           <label>EAD encoding:</label> 
-          <item>Peter Martinez, May 2001<lb/>Andrea Hektor, Sept. 2003<lb/>Sara
+          <item>Peter Martinez, May 2001Andrea Hektor, Sept. 2003Sara
             McDermott, June 2009</item> 
         </defitem> 
       </list> 
@@ -75,12 +80,12 @@
     <did> 
       <head>DESCRIPTIVE SUMMARY</head> 
       <unittitle label="Title:">George Fisher papers, 
-        <unitdate type="inclusive">1951-1990</unitdate> </unittitle> 
+        </unittitle><unitdate type="inclusive">1951-1990</unitdate> 
       <unitid label="Collection Number:">7437</unitid> 
       <origination label="Creator:"> 
         <persname normal="Fisher, George, 1938-1990">George Fisher,
           1938-1990</persname> </origination> 
-      <physdesc label="Quantity:"><extent>22 cubic ft.</extent></physdesc> 
+      <physdesc label="Quantity:"><extent>22 cubic feet</extent></physdesc> 
       <physdesc label="Forms of Material:">Manuscripts, photographs,
         drawings.</physdesc> 
       <repository label="Repository:">Division of Rare and Manuscript
@@ -131,9 +136,9 @@
       </controlaccess> 
       <controlaccess> 
         <head>Subjects:</head> 
-        <subject source="lcsh" encodinganalog="MARC 650">Antiquarian
+        <subject encodinganalog="MARC 650" source="lcsh">Antiquarian
           booksellers--New York (State).</subject> 
-        <subject source="lcsh" encodinganalog="MARC 650">Gay men--Books and
+        <subject encodinganalog="MARC 650" source="lcsh">Gay men--Books and
           reading.</subject> 
         <subject>Erotica.</subject> 
         <subject>Pornography.</subject> 
@@ -141,14 +146,7 @@
         <subject>Nudism.</subject> 
       </controlaccess> 
     </controlaccess> 
-    <descgrp type="admininfo"> 
-      <head>INFORMATION FOR USERS</head> 
-      <prefercite> 
-        <head>Cite As:</head> 
-        <p>George Fisher Papers, #7437. Division of Rare and Manuscript
-          Collections, Cornell University Library.</p> 
-      </prefercite> 
-    </descgrp> 
+     
     <arrangement> 
       <head>SERIES LIST</head> 
       <list type="deflist"> 
@@ -202,8 +200,8 @@
         </did> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">1-16</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">1-16</container> 
             <unittitle>Correspondence and Personal 1957-1989</unittitle> 
           </did> 
           <scopecontent> 
@@ -217,45 +215,45 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">17</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">17</container> 
             <unittitle>La Cronica Junior High School yearbooks, 
-              <unitdate>1950-1952</unitdate> </unittitle> 
+              </unittitle><unitdate>1950-1952</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">18</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">18</container> 
             <unittitle>Birth announcement of Brian Richard Voelcker, 
-              <unitdate>1973</unitdate> </unittitle> 
+              </unittitle><unitdate>1973</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">19</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">19</container> 
             <unittitle>Photo- Fisher's Parents?</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">20</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">20</container> 
             <unittitle>Resumes/job applications</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">21</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">21</container> 
             <unittitle>Photo negatives: men at the beach
               (personal?)</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container> 
+            <container label="unspecified" type="box">2</container> 
             <unittitle>Correspondence and Personal 1950's-1989</unittitle> 
           </did> 
           <scopecontent> 
@@ -266,37 +264,37 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">1</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">1</container> 
             <unittitle> 
               <title>The Poinsettia</title>: Hollywood High School yearbook, 
-              <unitdate>1953</unitdate> </unittitle> 
+              </unittitle><unitdate>1953</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">2</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">2</container> 
             <unittitle>Democratic convention/1976 election</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">3</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">3</container> 
             <unittitle>OWL (Older Women's League) information</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">4</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">4</container> 
             <unittitle>Information on Alzheimer's disease/aging</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
+            <container label="unspecified" type="box">38</container> 
             <unittitle>Erotic cards (mainly seasonal, i.e. Valentine's Day,
               Christmas, etc.)</unittitle> 
           </did> 
@@ -309,37 +307,37 @@
         </did> 
         <c02 level="file"> 
           <did> 
-            <container type="box">3</container> 
+            <container label="unspecified" type="box">3</container> 
             <unittitle>1974-1976</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">4</container> 
+            <container label="unspecified" type="box">4</container> 
             <unittitle>1976-1978</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">5</container> 
+            <container label="unspecified" type="box">5</container> 
             <unittitle>1978-1980</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">6</container> 
+            <container label="unspecified" type="box">6</container> 
             <unittitle>1980-1981</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">7</container> 
+            <container label="unspecified" type="box">7</container> 
             <unittitle>1982-1984</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">8</container> 
+            <container label="unspecified" type="box">8</container> 
             <unittitle>1984, 1987-1988</unittitle> 
           </did> 
           <scopecontent> 
@@ -349,7 +347,7 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">9</container> 
+            <container label="unspecified" type="box">9</container> 
             <unittitle>1969-1988</unittitle> 
           </did> 
           <scopecontent> 
@@ -359,7 +357,7 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">10</container> 
+            <container label="unspecified" type="box">10</container> 
             <unittitle>1966-1989</unittitle> 
           </did> 
           <scopecontent> 
@@ -369,93 +367,93 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">5-10</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">5-10</container> 
             <unittitle>Clippings: mainly book reviews</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">11</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">11</container> 
             <unittitle>Miscellaneous clippings/information</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">12</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">12</container> 
             <unittitle>Typed book reviews/summaries (by Fisher?)</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">13</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">13</container> 
             <unittitle>Gay Academic Union materials</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">14</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">14</container> 
             <unittitle>Dealer correspondence</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">15-17</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">15-17</container> 
             <unittitle>Newsletters/flyers/catalogs</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">18</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">18</container> 
             <unittitle>Cliipings: book reviews</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">19</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">19</container> 
             <unittitle>Correspondence: St. Martin's Press, 
-              <unitdate>1976</unitdate> </unittitle> 
+              </unittitle><unitdate>1976</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">20</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">20</container> 
             <unittitle> 
               <title>American Book Review</title>, Double focus on AIDS and
               Women in Power, 
-              <unitdate>1990:May/June</unitdate> </unittitle> 
+              </unittitle><unitdate>1990:May/June</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">21</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">21</container> 
             <unittitle> 
               <title>The New York Review of Books</title>, 
-              <unitdate>12/9/76</unitdate> </unittitle> 
+              </unittitle><unitdate>12/9/76</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">22</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">22</container> 
             <unittitle> 
               <title>Antiquarian Book Monthly Review</title>, 
-              <unitdate>1989:July</unitdate> </unittitle> 
+              </unittitle><unitdate>1989:July</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">23</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">23</container> 
             <unittitle>Information on 
               <title>Christ and the Homosexual</title> by Robert
               Wood</unittitle> 
@@ -463,15 +461,15 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">24</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">24</container> 
             <unittitle>Author correspondence</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">38</container> 
-            <container type="folder">25</container> 
+            <container label="unspecified" type="box">38</container> 
+            <container label="unspecified" type="folder">25</container> 
             <unittitle>Simoneau, Chantale</unittitle> 
           </did> 
         </c02> 
@@ -482,7 +480,7 @@
         </did> 
         <c02 level="file"> 
           <did> 
-            <container type="box">11-13, 41-42</container> 
+            <container label="unspecified" type="box">11-13, 41-42</container> 
             <unittitle>Catalogs</unittitle> 
             <unitdate>1974-1990</unitdate> 
           </did> 
@@ -501,7 +499,7 @@
         </did> 
         <c02 level="file"> 
           <did> 
-            <container type="box">14</container> 
+            <container label="unspecified" type="box">14</container> 
             <unittitle>Visual Material</unittitle> 
           </did> 
           <scopecontent> 
@@ -511,7 +509,7 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">15</container> 
+            <container label="unspecified" type="box">15</container> 
             <unittitle>Visual Material</unittitle> 
           </did> 
           <scopecontent> 
@@ -527,7 +525,7 @@
         </did> 
         <c02 level="file"> 
           <did> 
-            <container type="box">16</container> 
+            <container label="unspecified" type="box">16</container> 
             <unittitle>Clippings and Subject Files ca. 1960-1989</unittitle> 
           </did> 
           <scopecontent> 
@@ -536,7 +534,7 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">17</container> 
+            <container label="unspecified" type="box">17</container> 
             <unittitle>Subject File</unittitle> 
           </did> 
           <scopecontent> 
@@ -546,8 +544,8 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">18</container> 
-            <container type="folder">1-9</container> 
+            <container label="unspecified" type="box">18</container> 
+            <container label="unspecified" type="folder">1-9</container> 
             <unittitle>Clippings and Subject File</unittitle> 
           </did> 
           <scopecontent> 
@@ -556,8 +554,8 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">18</container> 
-            <container type="folder">10</container> 
+            <container label="unspecified" type="box">18</container> 
+            <container label="unspecified" type="folder">10</container> 
             <unittitle> 
               <title>Becoming a People...a 4,000 year gay and lesbian
                 chronology</title> by Jim Kepner</unittitle> 
@@ -565,15 +563,15 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">18</container> 
-            <container type="folder">11</container> 
+            <container label="unspecified" type="box">18</container> 
+            <container label="unspecified" type="folder">11</container> 
             <unittitle>Informational flyer on "A Black and White Ball", NYC, 
-              <unitdate>1988</unitdate> </unittitle> 
+              </unittitle><unitdate>1988</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">39</container> 
+            <container label="unspecified" type="box">39</container> 
             <unittitle>London Arrest Scrapbook (contains numerous
               clippings)</unittitle> 
           </did> 
@@ -585,7 +583,7 @@
         </did> 
         <c02 level="file"> 
           <did> 
-            <container type="box">19</container> 
+            <container label="unspecified" type="box">19</container> 
             <unittitle>Manuscripts</unittitle> 
           </did> 
           <scopecontent> 
@@ -600,7 +598,7 @@
         </did> 
         <c02 level="file"> 
           <did> 
-            <container type="box">21-35</container> 
+            <container label="unspecified" type="box">21-35</container> 
             <unittitle>Artwork</unittitle> 
           </did> 
           <scopecontent> 
@@ -612,10 +610,10 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">36</container> 
-            <container type="folder">1</container> 
+            <container label="unspecified" type="box">36</container> 
+            <container label="unspecified" type="folder">1</container> 
             <unittitle>Artwork and correspondence, 
-              <unitdate>1962-1967</unitdate> </unittitle> 
+              </unittitle><unitdate>1962-1967</unitdate> 
           </did> 
           <scopecontent> 
             <p>Guild Press ( 
@@ -625,10 +623,10 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">36</container> 
-            <container type="folder">2</container> 
+            <container label="unspecified" type="box">36</container> 
+            <container label="unspecified" type="folder">2</container> 
             <unittitle>Artwork and correspondence, 
-              <unitdate>1965-1967</unitdate> </unittitle> 
+              </unittitle><unitdate>1965-1967</unitdate> 
           </did> 
           <scopecontent> 
             <p>Guild Press, artists: Pat, Jox, Steve Masters, John Matthews</p>
@@ -637,10 +635,10 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">36</container> 
-            <container type="folder">3</container> 
+            <container label="unspecified" type="box">36</container> 
+            <container label="unspecified" type="folder">3</container> 
             <unittitle>Artwork and correspondence, 
-              <unitdate>1962-1966</unitdate> </unittitle> 
+              </unittitle><unitdate>1962-1966</unitdate> 
           </did> 
           <scopecontent> 
             <p>Guild Press, artists David Mills, George Miller, Nerol</p> 
@@ -648,39 +646,39 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">36</container> 
-            <container type="folder">4</container> 
+            <container label="unspecified" type="box">36</container> 
+            <container label="unspecified" type="folder">4</container> 
             <unittitle>Artwork and correspondence, Guild Press, 
-              <unitdate>1963</unitdate> </unittitle> 
+              </unittitle><unitdate>1963</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">36</container> 
-            <container type="folder">5</container> 
+            <container label="unspecified" type="box">36</container> 
+            <container label="unspecified" type="folder">5</container> 
             <unittitle>William M. Maclane Studios artwork</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">36</container> 
-            <container type="folder">6</container> 
+            <container label="unspecified" type="box">36</container> 
+            <container label="unspecified" type="folder">6</container> 
             <unittitle>William M. Maclane Studios artwork</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">36</container> 
-            <container type="folder">7</container> 
+            <container label="unspecified" type="box">36</container> 
+            <container label="unspecified" type="folder">7</container> 
             <unittitle>Etienne artwork</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">36</container> 
-            <container type="folder">8</container> 
+            <container label="unspecified" type="box">36</container> 
+            <container label="unspecified" type="folder">8</container> 
             <unittitle>Artwork and correspondence, 
-              <unitdate>1962-1965</unitdate> </unittitle> 
+              </unittitle><unitdate>1962-1965</unitdate> 
           </did> 
           <scopecontent> 
             <p>Guild Press, artists Ralph Smith, Lawrence Smith, Larry Tippin,
@@ -689,10 +687,10 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">36</container> 
-            <container type="folder">9</container> 
+            <container label="unspecified" type="box">36</container> 
+            <container label="unspecified" type="folder">9</container> 
             <unittitle>Artwork and correspondence, 
-              <unitdate>1962-1968</unitdate> </unittitle> 
+              </unittitle><unitdate>1962-1968</unitdate> 
           </did> 
           <scopecontent> 
             <p>Guild Press, artists Robert Payne, "Zip", Martin Parent</p> 
@@ -700,16 +698,16 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">36</container> 
-            <container type="folder">10</container> 
+            <container label="unspecified" type="box">36</container> 
+            <container label="unspecified" type="folder">10</container> 
             <unittitle> 
               <title>Grecian Guild Pictorial</title> clipping, 
-              <unitdate>April 1962</unitdate> </unittitle> 
+              </unittitle><unitdate>April 1962</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">37</container> 
+            <container label="unspecified" type="box">37</container> 
             <unittitle>Layout materials</unittitle> 
           </did> 
           <scopecontent> 
@@ -720,5 +718,9 @@
         </c02> 
       </c01> 
     </dsc> 
-  </archdesc>
+  <prefercite> 
+        <head>Cite As:</head> 
+        <p>George Fisher Papers, #7437. Division of Rare and Manuscript
+          Collections, Cornell University Library.</p> 
+      </prefercite></archdesc>
 </ead>

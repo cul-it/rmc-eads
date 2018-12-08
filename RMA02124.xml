@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02124::Guide to the Cornell University songs and sheet music)//EN">RMA02124</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02124::Guide to the Cornell University songs and sheet music)//EN">RMA02124</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Cornell University songs and sheet music,
@@ -23,19 +23,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by Evan Earle, <date>October 2014</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Cornell University Songs And Sheet Music,<lb/><date type="inclusive" encodinganalog="245$f">1870-2000.</date></titleproper>
+			<titleproper>Guide to the Cornell University Songs And Sheet Music,<date encodinganalog="245$f" type="inclusive">1870-2000.</date></titleproper>
 			<num>Collection Number: 47-6-2124</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -61,13 +67,12 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Cornell University songs and sheet
-				music, <unitdate encodinganalog="MARC 245" type="inclusive">1870-2000.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Cornell University songs and sheet
+				music, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1870-2000.</unitdate>
 			<unitid label="Collection Number:">47-6-2124</unitid>
 			<origination label="Creator:"><corpname encodinganalog="MARC 110">Cornell
 					University.</corpname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1.5 cubic ft.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1.5 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Printed materials, publications</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -122,14 +127,7 @@
 				<genreform encodinganalog="MARC 655" source="aat">Songs.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Cornell University Songs and Sheet Music, #47-6-2124. Division of Rare and
-					Manuscript Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<relatedmaterial>
 			<head id="a5">RELATED MATERIALS</head>
 			<p> See also the Cornell University Glee Club Records, #37-6-2399, <extref href="http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMA02399">http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMA02399</extref>.</p>
@@ -139,25 +137,25 @@
 			<head>SERIES LIST</head>
 			<p>
 				<emph render="bold">
-					<ref target="s1" show="replace" actuate="onrequest">Series I. Sheet Music</ref>
+					<ref actuate="onrequest" show="replace" target="s1">Series I. Sheet Music</ref>
 				</emph>
 			</p>
 			<p>
 				<emph render="bold">
-					<ref target="s2" show="replace" actuate="onrequest">Series II. Song Books</ref>
+					<ref actuate="onrequest" show="replace" target="s2">Series II. Song Books</ref>
 				</emph>
 			</p>
 
 			<p>
 				<emph render="bold">
-					<ref target="s3" show="replace" actuate="onrequest">Series III. Song
+					<ref actuate="onrequest" show="replace" target="s3">Series III. Song
 						Booklets</ref>
 				</emph>
 			</p>
 
 			<p>
 				<emph render="bold">
-					<ref target="s4" show="replace" actuate="onrequest">Series IV. Miscellaneous
+					<ref actuate="onrequest" show="replace" target="s4">Series IV. Miscellaneous
 						Lyric Sheets and Music Related Items</ref>
 				</emph>
 			</p>
@@ -173,20 +171,20 @@
 				</did>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Hail Cornell</unittitle>
 					</did>
 					<scopecontent>
 						<p>Lyrics and music by Albert W. Smith '78 and George F. Pond
-							'10.<lb/>Handwritten copy by Pond.</p>
+							'10.Handwritten copy by Pond.</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Photocopies of music</unittitle>
 					</did>
@@ -197,8 +195,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>When Day Is Done</unittitle>
 					</did>
@@ -209,8 +207,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>1870</unitdate>
 						<unittitle>The Chimes</unittitle>
 					</did>
@@ -220,19 +218,19 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>1872</unitdate>
 						<unittitle>Cascadilla Waltz</unittitle>
 					</did>
 					<scopecontent>
-						<p>Composed by Edward Bausch '74.<lb/>Complements of the composer.</p>
+						<p>Composed by Edward Bausch '74.Complements of the composer.</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>1890</unitdate>
 						<unittitle>1875</unittitle>
 					</did>
@@ -242,66 +240,66 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1895</unitdate>
 						<unittitle>Cornell Two-Step</unittitle>
 					</did>
 					<scopecontent>
 						<p>Composed by George O. Wagner, possibly George Olds Wagner
-							'00.<lb/>Dedicated to the Cornell University. Also includes a number of
+							'00.Dedicated to the Cornell University. Also includes a number of
 							other non Cornell tunes from the Queen City Music Publishing
 							Company.</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1899</unitdate>
 						<unittitle>Cornell Rowing Song</unittitle>
 					</did>
 					<scopecontent>
 						<p>Lyrics by Edward A. McCreary '00. Music by Edwin Haviland, Jr. '99 Grad.
-							<lb/>Dedicated to the Cornell Navy.</p>
+							Dedicated to the Cornell Navy.</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1901</unitdate>
 						<unittitle>Cornell Alumni March and Two-Step</unittitle>
 						<physdesc>3 copies</physdesc>
 					</did>
 					<scopecontent>
-						<p>Composed by Frederick B. Downing '94.<lb/>Also includes the Rough Riders
+						<p>Composed by Frederick B. Downing '94.Also includes the Rough Riders
 							March, 1898</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>1904</unitdate>
 						<unittitle>Eighty-four</unittitle>
 					</did>
 					<scopecontent>
 						<p>Lyrics by Henry Pelouze de Forest '84. Music is the British
-							Grenadiers.<lb/>Dedicated to the Class of '84 on their vigintennial,
+							Grenadiers.Dedicated to the Class of '84 on their vigintennial,
 							June 22, 1904.</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>1905</unitdate>
 						<unittitle>The Big Red Team</unittitle>
 						<physdesc>5 copies</physdesc>
 					</did>
 					<scopecontent>
-						<p>Lyrics by Romeyn Berry '04. Music by Charles E. Tourison '06<lb/>One copy
+						<p>Lyrics by Romeyn Berry '04. Music by Charles E. Tourison '06One copy
 							from the Frank Arthur Barton papers, one copy with the football players
 							on the cover identified.</p>
 					</scopecontent>
@@ -309,48 +307,48 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1905</unitdate>
 						<unittitle>Cornell University Medley: March &amp; Two Step</unittitle>
 					</did>
 					<scopecontent>
 						<p>Composed by H. A. Lyon, possibly Henry Adelbert Lyon Law
-							'97.<lb/>Dedicated to Jacob Gould Schurman.</p>
+							'97.Dedicated to Jacob Gould Schurman.</p>
 					</scopecontent>
 				</c02>
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>1906</unitdate>
 						<unittitle>Carnellian and White</unittitle>
 						<physdesc>9 copies</physdesc>
 					</did>
 					<scopecontent>
 						<p>Lyrics by Kenneth L. Roberts '08. Music by Theodore J. Lindorff
-							'07<lb/>One copy from the Frank Arthur Barton papers.</p>
+							'07One copy from the Frank Arthur Barton papers.</p>
 					</scopecontent>
 				</c02>
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>1907</unitdate>
 						<unittitle>Cheering, Cheering for Cornell</unittitle>
 						<physdesc>7 copies</physdesc>
 					</did>
 					<scopecontent>
 						<p>Lyrics by Archibald C. Weeks '72. Music is the Air, Marching Through
-							Georgia.<lb/>Dedicated to the Pioneer Classes of Cornell University.</p>
+							Georgia.Dedicated to the Pioneer Classes of Cornell University.</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>1907</unitdate>
 						<unittitle>Field Song</unittitle>
 						<physdesc>2 copies</physdesc>
@@ -361,8 +359,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>1907</unitdate>
 						<unittitle>Fight for Cornell</unittitle>
 						<physdesc>2 copies</physdesc>
@@ -374,21 +372,21 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1907</unitdate>
 						<unittitle>Goodbye, Cornell Goodbye</unittitle>
 					</did>
 					<scopecontent>
-						<p>Composed by William Haywood Wright. <lb/>Signed by the composer to
+						<p>Composed by William Haywood Wright. Signed by the composer to
 							Captain Barton. From the Frank Arthur Barton papers.</p>
 					</scopecontent>
 				</c02>
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>1908</unitdate>
 						<unittitle>We March to Victory</unittitle>
 						<physdesc>3 copies</physdesc>
@@ -399,8 +397,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1909</unitdate>
 						<unittitle>Cornell I Yell Cornell!</unittitle>
 					</did>
@@ -411,63 +409,63 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1909</unitdate>
 						<unittitle>Stand Up For Cornell</unittitle>
 					</did>
 					<scopecontent>
-						<p>Composed by William Haywood Wright.<lb/>Dedicated to Mr. Charles E.
+						<p>Composed by William Haywood Wright.Dedicated to Mr. Charles E.
 							Courtney.</p>
 					</scopecontent>
 				</c02>
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1910</unitdate>
 						<unittitle>Fair Cornell</unittitle>
 					</did>
 					<scopecontent>
-						<p>Lyrics by James O. Winslow '11. Music by Edward F. Johnston.<lb/>Waltzes.
+						<p>Lyrics by James O. Winslow '11. Music by Edward F. Johnston.Waltzes.
 							Dedicated to Harold MacDowell Brown.</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>1911</unitdate>
 						<unittitle>Valse Lente</unittitle>
 					</did>
 					<scopecontent>
-						<p>Composed by J. Franklin Bradley '11.<lb/>Inscribed by the composer to
+						<p>Composed by J. Franklin Bradley '11.Inscribed by the composer to
 							E.A. Richmond.</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>1914</unitdate>
 						<unittitle>Cornell Reunion Song</unittitle>
 						<physdesc>2 copies</physdesc>
 					</did>
 					<scopecontent>
 						<p>Lyrics by Henry Pelouze de Forest '84. Music by Jack Judge and Harry
-							Williams.<lb/>Dedicated to the Senior Class December 29, 1914.</p>
+							Williams.Dedicated to the Senior Class December 29, 1914.</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>1914</unitdate>
 						<unittitle>The University Rag</unittitle>
 					</did>
 					<scopecontent>
-						<p>Composed by F. Frayser Hinton and Donald Stonebraker.<lb/>Dedicated to
+						<p>Composed by F. Frayser Hinton and Donald Stonebraker.Dedicated to
 							the Cornell University Glee Club. Also includes Don't Let Me Sleep 'till
 							My Dreams Come True by W. C. R. Hart and Wheatly Davis.</p>
 					</scopecontent>
@@ -477,21 +475,21 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>1915</unitdate>
 						<unittitle>Cornell Victorious</unittitle>
 						<physdesc>6 copies</physdesc>
 					</did>
 					<scopecontent>
-						<p>Lyrics and music by S. Hibbard Ayer Jr. '14<lb/>Has a photo of Touchdown
+						<p>Lyrics and music by S. Hibbard Ayer Jr. '14Has a photo of Touchdown
 							the bear on the cover.</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">11</container>
 						<unitdate>1915</unitdate>
 						<unittitle>Two Cornell Songs</unittitle>
 						<physdesc>3 copies</physdesc>
@@ -505,21 +503,21 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>1917</unitdate>
 						<unittitle>America's Message</unittitle>
 					</did>
 					<scopecontent>
 						<p>Lyrics by Harvey Worthington Loomis. Music by Arthur Edward
-							Johnstone.<lb/>Inspired by President Wilson's War address to Congress
+							Johnstone.Inspired by President Wilson's War address to Congress
 							April 2, 1917.</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>1917</unitdate>
 						<unittitle>Dear Land of Freedom</unittitle>
 					</did>
@@ -529,13 +527,13 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1917</unitdate>
 						<unittitle>My Old Cornell</unittitle>
 					</did>
 					<scopecontent>
-						<p>Composed by Will A. Dillon. <lb/>Dedicated to The Boys on the Hill.</p>
+						<p>Composed by Will A. Dillon. Dedicated to The Boys on the Hill.</p>
 					</scopecontent>
 				</c02>
 
@@ -553,12 +551,12 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>College Songs</unittitle>
 					</did>
 					<scopecontent>
-						<p>Cover features what appears to be Roberts and Stone Halls. <lb/>Includes:
+						<p>Cover features what appears to be Roberts and Stone Halls. Includes:
 							Alma Mater, Cornell, The Song Of The Classes, Evening Song At Cornell,
 							The Chimes, The Call Of The Fields, Bustonian Chorus, There's A Wedding
 							In The Orchard, In The Gloaming, The Old Farm At Cornell, Last Night, I
@@ -581,8 +579,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
@@ -592,26 +590,26 @@
 							Weeks '72 and Wilmot Moses Smith '74. The words of the Cornell Alma
 							Mater were written early in 1872, through mutual suggestion, by Weeks
 							and Smith, who then occupied rooms in the old Woodruff block on Tioga
-							Street. <lb/>Cornell Victorious by S. Hibbard Ayer Jr. '14. <lb/>
+							Street. Cornell Victorious by S. Hibbard Ayer Jr. '14. 
 							Cornell, lyrics by George Kingsley Birge '72 to the tune 'Twas My Last
-							Cigar. First published in the Cornell Era spring 1869.<lb/>Song of the
-							Classes by Frank A. Abbott '90.<lb/> Give My Regards to Davy to the tune
-							of Give My Regards to Broadway.<lb/> Crew Song, lyrics by Robert James
+							Cigar. First published in the Cornell Era spring 1869.Song of the
+							Classes by Frank A. Abbott '90. Give My Regards to Davy to the tune
+							of Give My Regards to Broadway. Crew Song, lyrics by Robert James
 							Kellog '91 and music by William Luton Wood. First published in the 1892
-							Cornellian. <lb/>Alumni Song, lyrics by Louis Carl Ehle '90, music by
-							Wiliam Luton Wood. First published in the 1893 Cornellian. <lb/> Evening
+							Cornellian. Alumni Song, lyrics by Louis Carl Ehle '90, music by
+							Wiliam Luton Wood. First published in the 1893 Cornellian.  Evening
 							Song, lrycs by Henry Tyrrell '80, to the tune Tannenbaum. First
 							published in the Cornell Era 1877.</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1900</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
 					<scopecontent>
-						<p>B. F. Lent Publisher<lb/>Dedicated to Cornell's Athletes. Includes some
+						<p>B. F. Lent PublisherDedicated to Cornell's Athletes. Includes some
 							text and the following songs: Alma Mater, Cornell, 1875: The Cornell
 							Cheer, The Chimes, Alumni Song, Song Of The Classes, Rowing Song, Crew
 							Song, Bustonian Chorus, Evening Song. (poor condition)</p>
@@ -619,12 +617,12 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1903</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
 					<scopecontent>
-						<p>B. F. Lent Publisher<lb/>Dedicated to Cornell's Athletes. Includes some
+						<p>B. F. Lent PublisherDedicated to Cornell's Athletes. Includes some
 							text and the following songs: Alma Mater, Cornell, 1875: The Cornell
 							Cheer, The Chimes, Alumni Song, Song Of The Classes, Rowing Song, Crew
 							Song, Bustonian Chorus, Evening Song, Smoking Song, Boating Song.</p>
@@ -632,7 +630,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1907</unitdate>
 						<unittitle>College Songs No. 3</unittitle>
 					</did>
@@ -652,12 +650,12 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1906</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
 					<scopecontent>
-						<p>B. F. Lent Publisher<lb/>Dedicated to Cornell's Athletes. Includes some
+						<p>B. F. Lent PublisherDedicated to Cornell's Athletes. Includes some
 							text and the following songs: Alma Mater, Cornell, 1875: The Cornell
 							Cheer, The Chimes, Alumni Song, Song Of The Classes, Rowing Song, Crew
 							Song, Bustonian Chorus, Evening Song, Smoking Song, Boating Song,
@@ -666,12 +664,12 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1907</unitdate>
 						<unittitle>Songs of Cornell, Mixed Voices</unittitle>
 					</did>
 					<scopecontent>
-						<p>B. F. Lent Publisher<lb/>Dedicated to Cornell's Athletes. Includes some
+						<p>B. F. Lent PublisherDedicated to Cornell's Athletes. Includes some
 							text and the following songs: Alma Mater, Cornell, 1875: The Cornell
 							Cheer, The Chimes, Alumni Song, Song Of The Classes, Rowing Song, Crew
 							Song, Bustonian Chorus, Evening Song, Smoking Song, Boating Song,
@@ -681,26 +679,26 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1909</unitdate>
 						<unittitle>College Songs</unittitle>
 					</did>
 					<scopecontent>
 						<p>Cover features Roberts and Stone Halls. Published by Hinds, Noble &amp;
-							Eldredge. Includes foreword by Liberty Hyde Bailey. <lb/>Includes
+							Eldredge. Includes foreword by Liberty Hyde Bailey. Includes
 							Cornell Songs: All Round The World, Alma Mater, The Big Red Team or The
 							Foot-Ball Song, Bustonian Chorus, The Call Of The Fields, Carnelian And
 							White, The Chimes, Cornell, Dreaming, 1875: The Cornell Cheer, Evening
 							Song, Fight For Cornell, Isle Of Delight, Locomotive Yell, The Old Farm
-							At Cornell, Short Yell, The Song Of The Classes, Yells. <lb/>Songs of
+							At Cornell, Short Yell, The Song Of The Classes, Yells. Songs of
 							Other Colleges: Alma Mater – Amherst, Alma Mater – University of
 							Chicago, Cheer For Old Amherst, Dear Old Yale, Fair Harvard, Hail,
 							Pennsylvania!, Old Nassau, Orange And The Black, Our College Cheer, Sans
-							Souci, We Stand By Our Classes, The Yellow And The Blue. <lb/>Humorous
+							Souci, We Stand By Our Classes, The Yellow And The Blue. Humorous
 							Songs: Broke! Broke! Broke!, The Bull-Dog, Change of the Short Ags,
 							Doctor Peter Price’s Permanent Panacea, The Dutch Company, He Was
 							Nervous, I Wish You’d Shave, Nut Brown Maiden, A Parody Song, Poor Ned,
-							Where, O Where?. <lb/>Popular College Songs: Am I Not Fondly Thine Own?,
+							Where, O Where?. Popular College Songs: Am I Not Fondly Thine Own?,
 							Annie Laurie, Auld Lang Syne, Ben Bolt, A College Medley, Down In
 							Mobile, Drinking Song, Drink To Me Only With Thine Eyes, Forsaken,
 							Good-night, Ladies!, Here’s To The Girl That I Love, Home, Sweet Home,
@@ -711,7 +709,7 @@
 							Quilting Party, Romeo And Juliet, Soldier’s Farewell, Stars Of The
 							Summer Night, Sweet And Low, Sweetheart, I Wait For Thee, Take My Love
 							To Rosalie, There’s Music In The Aid, The Two Roses, WE Meet Again
-							To-night. <lb/>Patriot And Sacred Songs: America, Battle Hymn of The
+							To-night. Patriot And Sacred Songs: America, Battle Hymn of The
 							Republic, Dixie;s Land, Jerusalem The Golden, John Brown’s Body, Lead,
 							Kindly Light, The Marseillaise, Maryland!, My Maryland!, Old Black Joe,
 							The Red White, and Blue, Russian Hymn, The Star-Spangled Banner, The
@@ -724,12 +722,12 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1909</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
 					<scopecontent>
-						<p>B. F. Lent Publisher<lb/>Dedicated to Cornell's Athletes. Includes some
+						<p>B. F. Lent PublisherDedicated to Cornell's Athletes. Includes some
 							text and the following songs: Alma Mater, Cornell, 1875: The Cornell
 							Cheer, The Chimes, Alumni Song, Song Of The Classes, Rowing Song, Crew
 							Song, Bustonian Chorus, Evening Song, Smoking Song, Boating Song, Big
@@ -739,7 +737,7 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1914</unitdate>
 						<unittitle>Cornell Songs</unittitle>
 					</did>
@@ -747,7 +745,7 @@
 						<p>Published and compiled by the Board of Editors at the authorization of
 							the Agricultural Association of the New York State College of
 							Agriculture at Cornell University. Published by Hinds, Noble, &amp;
-							Eldredge. Includes foreword by Liberty Hyde Bailey. <lb/>Includes: All
+							Eldredge. Includes foreword by Liberty Hyde Bailey. Includes: All
 							'Round The World, Cornell, Alma Mater, Annie Laurie, Auld Lang Syne, The
 							Big Red Team, Bingo, Blow Ye Winds, Heigh-ho!, Boating Song, Bring The
 							Wagon Home, John, The Bull-Dog, Bustonian Chorus, Carnelian And White,
@@ -775,7 +773,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1915</unitdate>
 						<unittitle>Cornell Songs</unittitle>
 					</did>
@@ -784,7 +782,7 @@
 							Board of Editors at the authorization of the Agricultural Association of
 							the New York State College of Agriculture at Cornell University.
 							Published by Hinds, Noble, &amp; Eldredge. Includes foreword by Liberty
-							Hyde Bailey. <lb/>Includes: All 'Round The World, Cornell, Alma Mater,
+							Hyde Bailey. Includes: All 'Round The World, Cornell, Alma Mater,
 							Alumni Song, And When I Die, At Eight Upon The Hill, Auld Lang Syne,
 							Australia, The Big Red Team or The Foot-Ball Song, Blow Ye Winds,
 							Heigh-ho!, Boating Song, Bring The Wagon Home, John, Bustonian Chorus,
@@ -816,7 +814,7 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1915</unitdate>
 						<unittitle>Cornell Songs</unittitle>
 					</did>
@@ -825,7 +823,7 @@
 							compiled by the Board of Editors at the authorization of the
 							Agricultural Association of the New York State College of Agriculture at
 							Cornell University. Published by Hinds, Hayden, &amp; Eldredge. Includes
-							foreword by Liberty Hyde Bailey. <lb/>Includes: All 'Round The World,
+							foreword by Liberty Hyde Bailey. Includes: All 'Round The World,
 							Cornell, Alma Mater, Alumni Song, And When I Die, At Eight Upon The
 							Hill, Auld Lang Syne, Australia, The Big Red Team or The Foot-Ball Song,
 							Blow Ye Winds, Heigh-ho!, Boating Song, Bring The Wagon Home, John,
@@ -857,7 +855,7 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">3</container>
+						<container label="unspecified" type="box">3</container>
 						<unitdate>1921</unitdate>
 						<unittitle>Cornell Songs</unittitle>
 					</did>
@@ -866,7 +864,7 @@
 							Chapel Steps; adds Cornell Victorious, Old Man Noah, and Dartmouth, Our Dartmouth; and substitutes Dear Old Yale for Down the Field. Published and compiled by the Board of Editors at the authorization of the
 							Agricultural Association of the New York State College of Agriculture at
 							Cornell University. Published by Hinds, Hayden, &amp; Eldredge. No foreword; includes
-							preface by Leonard C. Treman '14 and Thad. C. Logan '16, followed by photographs of architects' sketches for "the new residence halls" (on West Campus) and "the new armory" (Barton Hall). <lb/>Includes: Alma Mater; All 'Round the World,
+							preface by Leonard C. Treman '14 and Thad. C. Logan '16, followed by photographs of architects' sketches for "the new residence halls" (on West Campus) and "the new armory" (Barton Hall). Includes: Alma Mater; All 'Round the World,
 							Cornell; Alumni Song, And When I Die, At Eight Upon the
 							Hill, Auld Lang Syne, Australia, The Big Red Team or The Foot-Ball Song;
 							Blow Ye Winds, Heigh-ho!; Boating Song; Bring the Wagon Home, John;
@@ -897,7 +895,7 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">3</container>
+						<container label="unspecified" type="box">3</container>
 						<unitdate>1931</unitdate>
 						<unittitle>Cornell Songs</unittitle>
 					</did>
@@ -908,7 +906,7 @@
 							Shawl. Published and compiled by the Board of Editors at the authorization of the
 							Agricultural Association of the New York State College of Agriculture at
 							Cornell University. Published by Hinds, Hayden, &amp; Eldredge. No foreword; includes
-							preface by Leonard C. Treman '14 and Thad. C. Logan '16, followed by photographs of Willard Straight Hall and "Cornell dormitories" (North Campus). <lb/>Includes: Alma Mater; All 'Round the World,
+							preface by Leonard C. Treman '14 and Thad. C. Logan '16, followed by photographs of Willard Straight Hall and "Cornell dormitories" (North Campus). Includes: Alma Mater; All 'Round the World,
 							Cornell; Alumni Song, And When I Die, Annie Laurie, Auld Lang Syne; The Big Red Team, or The Foot-Ball Song;
 							Blow Ye Winds, Heigh-ho!; Boating Song; Bring the Wagon Home, John;
 							Bustonian Chorus; By the Watermelon Vine, Lindy Lou; Carnelian And
@@ -934,13 +932,13 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1940</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
 					<scopecontent>
 						<p>Compiled and Edited by Paul J. Weaver, published by the Cornell Alumni
-							Association. <lb/>Includes: All 'Round the World, Cornell, Alma Mater,
+							Association. Includes: All 'Round the World, Cornell, Alma Mater,
 							Alumnae Song, Alumni Song, The Big Red Team, Boating Song, Bustonian
 							Chorus, Carneilian And White, The Chimes, Cornell, Cornell Changes
 							(Jenny McGraw Rag) Cornell Hymn, Cornell Victorious, Crew Song,
@@ -957,13 +955,13 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1948</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
 					<scopecontent>
 						<p>Compiled and Edited by Paul J. Weaver, published by the Cornell Alumni
-							Association. <lb/>Includes: All 'Round the World, Cornell, Alma Mater,
+							Association. Includes: All 'Round the World, Cornell, Alma Mater,
 							Alumnae Song, Alumni Song, The Big Red Team, Boating Song, Bustonian
 							Chorus, Carnelian and White, The Chimes, Cornell, Cornell Changes
 							(Jenny McGraw Rag) Cornell Hymn, Cornell Victorious, Crew Song,
@@ -980,13 +978,13 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">3</container>
+						<container label="unspecified" type="box">3</container>
 						<unitdate>1954</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
 					<scopecontent>
 						<p>Compiled and Edited by Paul J. Weaver, published by the Cornell Alumni
-							Association. Thomas Sokol's copy, with his signature, markings for conducting the music, and extensive notes in the index.<lb/>Includes: All 'Round the World, Cornell; Alma Mater,
+							Association. Thomas Sokol's copy, with his signature, markings for conducting the music, and extensive notes in the index.Includes: All 'Round the World, Cornell; Alma Mater,
 							Alumnae Song, Alumni Song, The Big Red Team, Boating Song, Bustonian
 							Chorus, Carnelian and White, The Changes (also listed as Jennie McGraw Rag), The Chimes,
 							Cornell, Cornell Hymn, Cornell Victorious, Crew Song,
@@ -1003,14 +1001,14 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1988</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
 					<scopecontent>
 						<p>Compiled and Edited by Thomas A. Sokol. Published by the Cornell
 							University Glee Club. Includes multiple voice part arrangements of the
-							songs.<lb/>Includes: Alma Mater, Alumni Song, The Big Red Team,
+							songs.Includes: Alma Mater, Alumni Song, The Big Red Team,
 							Carnelian And White, The Chimes, Cornell, Cornell Champions, Cornell
 							Changes, Cornell Hymn, Cornell Victorious, Crew Song, 1875, Evening
 							Song, Fight For Cornell, Gaudeamus Igitur, Give My Regards To Davy, Hail
@@ -1033,14 +1031,14 @@
 				</scopecontent>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Cornell Songs</unittitle>
 						<physdesc>Brochure sized with red crest containing the title.</physdesc>
 					</did>
 					<scopecontent>
-						<p><lb/>Includes: Alma Mater, Cornell, Evening Song, The Chimes, Alumni
+						<p>Includes: Alma Mater, Cornell, Evening Song, The Chimes, Alumni
 							Song, Crew Song, Cornell Victorious, Poughkeepsie Course, Carnelian And
 							White, Fight For Cornell, The Big, Red Team, Song Of The Classes, Here's
 							To Old Cornell, I Want To BE A Mormon, Bustonian Chorus, Give My Regards
@@ -1058,8 +1056,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>Undated</unitdate>
 						<physdesc>Teal cover</physdesc>
 						<unittitle>Cornell Songs as Sung by the Northeastern Ohio Cornell
@@ -1074,8 +1072,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>Undated</unitdate>
 						<physdesc>Brown cover</physdesc>
 						<unittitle>Cornell Songs as Sung by the Northeastern Ohio Cornell
@@ -1094,8 +1092,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Cornell Songs, Twenty-Third Annual Dinner of Cornell Alumni in
 							New York City and Vicinity</unittitle>
@@ -1114,15 +1112,15 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 											</did>
 					<scopecontent>
 						<p>Light tan cover. Published by the Corner Bookstores. Has photographs of the Corner
 							Bookstore, Triangle Branch Store, and information about their products.
-							<lb/>Includes: Alma Mater, Cornell, 1875: - The Cornell Cheer, The
+							Includes: Alma Mater, Cornell, 1875: - The Cornell Cheer, The
 							Chimes, Alumni Song, Song Of The Classes, Cornell Rowing Song, Crew
 							Song, Bustonian Chorus, Cornell Boating Song, The Big Red Team, Evening
 							Song.</p>
@@ -1131,8 +1129,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 						<physdesc>2 copies</physdesc>
@@ -1140,7 +1138,7 @@
 					<scopecontent>
 						<p>Dark tan cover. Taylor &amp; Company. Published by the Corner Bookstores. Has photographs of the Corner
 							Bookstore, Triangle Branch Store, and information about their products.
-							<lb/>Includes: Alma Mater, Cornell, 1875: - The Cornell Cheer, The
+							Includes: Alma Mater, Cornell, 1875: - The Cornell Cheer, The
 							Chimes, Alumni Song, Song Of The Classes, Cornell Rowing Song, Crew
 							Song, Bustonian Chorus, Cornell Boating Song, The Big Red Team, Evening
 							Song.</p>
@@ -1149,14 +1147,14 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Cornell Chimes: being a pocket edition of Cornell songs</unittitle>
 											</did>
 					<scopecontent>
 						<p>Dark green cover. No publisher given. 
-							<lb/>Includes: Alma Mater, 1875, The
+							Includes: Alma Mater, 1875, The
 							Chimes, Cornell Rowing Song, Alumni Song, Marching Thro' Cornell, Cornell, Bustonian Chorus, The Classes, Evening
 							Song.</p>
 					</scopecontent>
@@ -1164,15 +1162,15 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 											</did>
 					<scopecontent>
 						<p>Light tan cover, with "The Corner Bookstores" at lower right. Published by the Corner Bookstores and Taylor &amp; Carpenter. Has photographs of the Corner
 							Bookstore downtown, on Eddy and Buffalo Streets in Collegetown, and in Sheldon Court building, as well as interior shots of each store and information about their products.
-							<lb/>Includes: Alma Mater, Cornell, 1875: - The Cornell Cheer, The
+							Includes: Alma Mater, Cornell, 1875: - The Cornell Cheer, The
 							Chimes, Alumni Song, Song of the Classes, Cornell Rowing Song, Crew
 							Song, Bustonian Chorus, Cornell Boating Song, The Big Red Team, Evening
 							Song.</p>
@@ -1181,14 +1179,14 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Cornell and Other Songs: as sung by Cornell Alumni Association of Chicago</unittitle>
 					</did>
 					<scopecontent>
 						<p>White cover, printed in red. No imprint, but presumably published by Cornell Alumni Association of Chicago.
-							<lb/>Includes: Alma Mater, Cornell, The Cornell Cheer (1875), The
+							Includes: Alma Mater, Cornell, The Cornell Cheer (1875), The
 							Chimes, Alumni Song, Song of the Classes, Cornell Rowing Song, Crew
 							Song, Bustonian Chorus, Big Red Team, Carnelian and White, Here's to Old Cornell, Regards to Davy, What You Going to Do?, Faculty, Australia; Whoop it Up, Fellows!; Boating Song, Evening Song, Stein Song, Push the Damper In, Levee Song, Honey; Landlord, Fill the Flowing Bowl; Lindy, That's Where Ma Money Goes, Am I the Boss?</p>
 					</scopecontent>
@@ -1196,15 +1194,15 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1881</unitdate>
 						<unittitle>Cornell University Songs</unittitle>
 						<physdesc>2 copies</physdesc>
 					</did>
 					<scopecontent>
 						<p>Compiled by L. And H. Published by Andrus &amp; Church. Only Authorized
-							Edition. <lb/>Includes: Alma Mater, The Broken Chord, Bonunkus,
+							Edition. Includes: Alma Mater, The Broken Chord, Bonunkus,
 							Bull-Dog, Cold Day When We Get Left, Chapeau, Cascadilla, The Chimes,
 							Cornell Version, Cornell, Class Song '72, Class Song '73, Class Song
 							'80, Class Song '83, Clementine, Cocachelunk, Children, Hail! Hail!
@@ -1227,8 +1225,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1887</unitdate>
 						<unittitle>Cornell Songs (Songs of Cornell University)</unittitle>
 					</did>
@@ -1236,7 +1234,7 @@
 						<p>Compiled by L. And H. Published by Andrus &amp; Church. Only Authorized
 							Edition. Second Edition. Notes that the work would not have happened without the
 							assistance of C. B. Mandeville '77, F. A. Lorber '88, W. C. Kerr
-							'79.<lb/>Includes: Alma Mater, At Eight Upon The Hill, B. B. Club Song,
+							'79.Includes: Alma Mater, At Eight Upon The Hill, B. B. Club Song,
 							B. &amp; B., Bench And Board, Bonunkus, The Bold Fisherman, Boys Of The
 							B&amp;B, The Broken Chord, Bull-Dog, Cascadilla, Cayuga Boat Song,
 							Chapeau, Children, Hail! Hail! Hail!, Ching Bum, The Chimes, Class Song
@@ -1265,13 +1263,13 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1902</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
 					<scopecontent>
-						<p>Published by B. F. Lent.<lb/>Includes: Alma Mater, Cornell, 1875 - The
+						<p>Published by B. F. Lent.Includes: Alma Mater, Cornell, 1875 - The
 							Cornell Cheer, The Chimes, Alumni Song, Song Of The Classes, Cornell
 							Rowing Song, Crew Song, Bustonian Chorus, Cornell Boating Song, Big Red
 							Team, Evening Song.</p>
@@ -1280,8 +1278,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>1901</unitdate>
 						<unittitle>Cornell Chimes</unittitle>
 						<physdesc>2 copies</physdesc>
@@ -1291,7 +1289,7 @@
 							other is printed on the back Annual dinner of the Cornell alumni
 							association of Buffalo held at the Buffalo Club, February 21, 1901, the
 							University will be represted by Professor H. Morese
-							Stephens.<lb/>Includes: Alma Mater, Cornell The Chimes, 1875, Alumni
+							Stephens.Includes: Alma Mater, Cornell The Chimes, 1875, Alumni
 							Song, Marching Thro' Cornell, The Classes, Bustonian Chorus, The Evening
 							Song.</p>
 					</scopecontent>
@@ -1301,14 +1299,14 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
-						<unitdate>ca. 1904</unitdate>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
+						<unitdate certainty="approximate">1904</unitdate>
 						<unittitle>Cornell Chimes</unittitle>
 					</did>
 					<scopecontent>
 						<p>Being a pocket edition of Cornell songs presented by the Ithaca
-							merchants. Includes advertising for many local businesses.<lb/>Includes:
+							merchants. Includes advertising for many local businesses.Includes:
 							Alma Mater, The Chimes, Cornell Rowing Song, Alumni Song, Cornell,
 							Busted, The Classes, Evening Song.</p>
 					</scopecontent>
@@ -1316,14 +1314,14 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1904</unitdate>
 						<unittitle>A Selection of Cornell Songs</unittitle>
 					</did>
 					<scopecontent>
 						<p>To The Class of 1904. Includes advertising for many local
-							businesses.<lb/>Includes: Alma Mater, The Chimes, Cornell Rowing Song,
+							businesses.Includes: Alma Mater, The Chimes, Cornell Rowing Song,
 							1875, Cornell, Marching Thro' Cornell, The Classes, Bingo, Evening Song,
 							Busted.</p>
 					</scopecontent>
@@ -1331,13 +1329,13 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1908</unitdate>
 						<unittitle>Songs of Cornell: Cornell University alumni dinner, January 31, 1908</unittitle>
 					</did>
 					<scopecontent>
-						<p>White cover, printed in red. Provenance: Henry P. de Forest (stamp).<lb/>Includes: Alma Mater, Cornell, 1875:-The Cornell Cheer, Song of the Classes, Crew Song, Alumni Song, Bustonian Chorus; The Big, Red Team; Evening Song,
+						<p>White cover, printed in red. Provenance: Henry P. de Forest (stamp).Includes: Alma Mater, Cornell, 1875:-The Cornell Cheer, Song of the Classes, Crew Song, Alumni Song, Bustonian Chorus; The Big, Red Team; Evening Song,
 							Carnelian and White, Fight for Cornell.</p>
 					</scopecontent>
 				</c02>
@@ -1346,13 +1344,13 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1909</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
 					<scopecontent>
-						<p>Published by B. F. Lent.<lb/>Includes: Alma Mater, Cornell, 1875 - The
+						<p>Published by B. F. Lent.Includes: Alma Mater, Cornell, 1875 - The
 							Cornell Cheer, The Chimes, Alumni Song, Song Of The Classes, Cornell
 							Rowing Song, Crew Song, Bustonian Chorus, Cornell Boating Song, Big Red
 							Team, Fight For Cornell, Carnelian And White, Evening Song.</p>
@@ -1362,14 +1360,14 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1914</unitdate>
 						<unittitle>Songs of Cornell for Senior Singing 1914</unittitle>
 					</did>
 					<scopecontent>
 						<p>Edited by Anson L. Clark, Charles K. Bassett, and H. O. Underhill.
-							<lb/>Includes: Alma Mater, Alumni Song, Auld Lang Syne, Boola, Boola,
+							Includes: Alma Mater, Alumni Song, Auld Lang Syne, Boola, Boola,
 							Bye, Baby, Bye, Bring The Wagon Home, John, Bustonian Chorus, Carnellian
 							And White, Crew Song, Cornell, Castle On The Nile, Cornell Rowing Song,
 							Carry Me Back To Ole Virginia, Dat's Where Ma Money goes, Down Mobile,
@@ -1387,15 +1385,15 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>1915</unitdate>
 						<unittitle>Cornell Songs</unittitle>
 						<physdesc>5 copies</physdesc>
 					</did>
 					<scopecontent>
 						<p>Published by the Cornell Association of Class Secretaries. Contains
-							information about the composers and dates of the songs.<lb/>Includes:
+							information about the composers and dates of the songs.Includes:
 							Alma Mater (1872) - Archibald Croswell Weeks '72 abd Willmot Moses Smith
 							'74, Cornell (1869) - George Kingsley Birge '72, The Cornell Man (1907)
 							- Kenneth Lewis Roberts '08 the Cornell Masque, The Cornell Cheer (1875)
@@ -1440,14 +1438,14 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1915</unitdate>
 						<unittitle>Songs of Cornell for Senior Singing 1915</unittitle>
 					</did>
 					<scopecontent>
 						<p>Edited by Samuel H. Worrell. With introduction by Henry P. De Forest.
-							<lb/>Includes: Alma Mater, Alumni Song, Auld Lang Syne, Back To The
+							Includes: Alma Mater, Alumni Song, Auld Lang Syne, Back To The
 							Carolina You Love, Boola, Boola, Bye, Baby, Bye, Bring The Wagon Home,
 							John, Bustonian Chorus, Celebratin' Day In Tennessee, Carnellian And
 							White, Chinatown, My Chinatown, Crew Song, Cornell, Castle On The Nile,
@@ -1467,26 +1465,26 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1915</unitdate>
 						<unittitle>Cornell Songs</unittitle>
 					</did>
 					<scopecontent>
-						<p>Red illustrated cover, with title in white. Published by Cornell University Association of Michigan. Gives the key and first note for each song.<lb/>Includes: Alma Mater, Alumni Song, Cornell, Cornell (1911), The Chimes, I Want to Go Back to Cornell, All Around the World Cornell, Song of the Classes, Bustonian Chorus, Fight for Cornell, Big Red Team, Carnelian and White, Rowing Song,
+						<p>Red illustrated cover, with title in white. Published by Cornell University Association of Michigan. Gives the key and first note for each song.Includes: Alma Mater, Alumni Song, Cornell, Cornell (1911), The Chimes, I Want to Go Back to Cornell, All Around the World Cornell, Song of the Classes, Bustonian Chorus, Fight for Cornell, Big Red Team, Carnelian and White, Rowing Song,
 							Crew Song, Regards to Davy, Stein Song, Landlord Fill the Flowing Bowl, Australia, Friday Morn, I Want a Girl, That Old Girl of Mine, Evening Song.</p>
 					</scopecontent>
 				</c02>
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1916</unitdate>
 						<unittitle>Songs of Cornell for Senior Singing 1916</unittitle>
 					</did>
 					<scopecontent>
-						<p>Edited by the Class of 1916. <lb/>Includes: America, Alma Mater, Alumni
+						<p>Edited by the Class of 1916. Includes: America, Alma Mater, Alumni
 							Song, Auld Lang Syne, America, I Love You, Are You From Dixie, Bustonian
 							Chorus, Boola, Boola, Bye, Baby, Bye, Bill Bailey, Bring The Wagon Home,
 							John, Beach AT Waikiki, Carnellian And White, Carry Me Back To Ole
@@ -1509,14 +1507,14 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>1919</unitdate>
 						<unittitle>Songs - Cornell Semi-Centennial Celebration</unittitle>
 						<physdesc>5 copies</physdesc>
 					</did>
 					<scopecontent>
-						<p>Published for events at the celebrations June 19-22, 1919.<lb/>Includes:
+						<p>Published for events at the celebrations June 19-22, 1919.Includes:
 							Alma Mater, Aloha Oe, Alumni Song, America, America The Beautiful, Annie
 							Laurie, Auld Lang Syne, Battle Hym Of The Republic, Bring Back My
 							Bonnie, Bostonian Chorus [sp], Carnelian And White, Caisson Song,
@@ -1544,24 +1542,24 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1921</unitdate>
 						<unittitle>Cornell Songs</unittitle>
 					</did>
 					<scopecontent>
-						<p>Published by the Women's Self-Government Association<lb/>Includes: Alma Mater - Cornell, Song for Cornell, Loyal Daughters of Cornell, Cornell Victorious, Cornell, Carnelian and White, Fight for Cornell, All Round the World Cornell, Give My Regards to "Davy", Crew Song, The Big Red Team, Alumni Song, The Poughkeepsie Races, I Want To Go Back, Evening Song, The Chimes, Song of the Classes (Men), Song of the Classes (For the Girls), Rowing Song, Bostonian Chorus, I Want To Go Back To The Old Days, Old Man Noah, Down in Mobile, Moon, Moon; The Spanish Cavalier, Some Folks Hop Up and Down, Doggone That Moon, Alone, Tee-Hee, Alone;  Wings, Down By The Stream, Sail, Seniors, Sail; Castle on the Nile, Auld Lang Syne, I've Been Working on the Railroad, I Want a Bungalow, Carry Me Back to Old Virginny, Father Time, That's Where My Money Goes, I Wish I Wuz a Little Rock, Sweet Evelyn, Toasts, Dear old Pals</p>
+						<p>Published by the Women's Self-Government AssociationIncludes: Alma Mater - Cornell, Song for Cornell, Loyal Daughters of Cornell, Cornell Victorious, Cornell, Carnelian and White, Fight for Cornell, All Round the World Cornell, Give My Regards to "Davy", Crew Song, The Big Red Team, Alumni Song, The Poughkeepsie Races, I Want To Go Back, Evening Song, The Chimes, Song of the Classes (Men), Song of the Classes (For the Girls), Rowing Song, Bostonian Chorus, I Want To Go Back To The Old Days, Old Man Noah, Down in Mobile, Moon, Moon; The Spanish Cavalier, Some Folks Hop Up and Down, Doggone That Moon, Alone, Tee-Hee, Alone;  Wings, Down By The Stream, Sail, Seniors, Sail; Castle on the Nile, Auld Lang Syne, I've Been Working on the Railroad, I Want a Bungalow, Carry Me Back to Old Virginny, Father Time, That's Where My Money Goes, I Wish I Wuz a Little Rock, Sweet Evelyn, Toasts, Dear old Pals</p>
 					</scopecontent>
 				</c02>
 				
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>December 1922</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
 					<scopecontent>
-						<p>Fourth Printing. With foreword by Foster M. Coffin. <lb/>Includes:
+						<p>Fourth Printing. With foreword by Foster M. Coffin. Includes:
 							Abdullah Bulbul Ameer, Ain't He Neat?, Alma Mater, Aloha Oe, Alumni
 							Song, America, Annie Laurie, Auld Lang Syne, Away With Rum, Belinda, The
 							Bells Of Hell, The Big Red Team, Boating Song, Bring Back My Bonnie, The
@@ -1588,25 +1586,25 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1923</unitdate>
 						<unittitle>Cornell Songs</unittitle>
 					</did>
 					<scopecontent>
-						<p>Light tan cover, lettered in red. Published by the Women's Self-Government Association.<lb/>Includes: Alma Mater - Cornell, Song for Cornell, Loyal Daughters of Cornell, Cornell Victorious, Cornell, Carnelian and White, Fight for Cornell, All Round the World Cornell, Give My Regards to "Davy", Crew Song, The Big Red Team, Alumni Song, The Poughkeepsie Races, I Want To Go Back, Evening Song, The Chimes, Song of the Classes (Men), Song of the Classes (For the Girls), Rowing Song, Bostonian Chorus, I Want To Go Back To the Old Days, Old Man Noah, Down in Mobile; Moon, Moon; The Spanish Cavalier, Some Folks Hop Up and Down, Doggone That Moon; Alone, Tee-Hee, Alone; Wings; Down By The Stream; Sail, Seniors, Sail; Castle on the Nile, Auld Lang Syne, I've Been Working on the Railroad, I Want a Bungalow, Carry Me Back to Old Virginny, Father Time, That's Where My Money Goes, I Wish I Wuz a Little Rock, Sweet Evelyn, Toasts, Dear Old Pals</p>
+						<p>Light tan cover, lettered in red. Published by the Women's Self-Government Association.Includes: Alma Mater - Cornell, Song for Cornell, Loyal Daughters of Cornell, Cornell Victorious, Cornell, Carnelian and White, Fight for Cornell, All Round the World Cornell, Give My Regards to "Davy", Crew Song, The Big Red Team, Alumni Song, The Poughkeepsie Races, I Want To Go Back, Evening Song, The Chimes, Song of the Classes (Men), Song of the Classes (For the Girls), Rowing Song, Bostonian Chorus, I Want To Go Back To the Old Days, Old Man Noah, Down in Mobile; Moon, Moon; The Spanish Cavalier, Some Folks Hop Up and Down, Doggone That Moon; Alone, Tee-Hee, Alone; Wings; Down By The Stream; Sail, Seniors, Sail; Castle on the Nile, Auld Lang Syne, I've Been Working on the Railroad, I Want a Bungalow, Carry Me Back to Old Virginny, Father Time, That's Where My Money Goes, I Wish I Wuz a Little Rock, Sweet Evelyn, Toasts, Dear Old Pals</p>
 					</scopecontent>
 				</c02>
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>December 1923</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
 					<scopecontent>
-						<p>Fifth Printing. With foreword by Foster M. Coffin. <lb/>Includes:
+						<p>Fifth Printing. With foreword by Foster M. Coffin. Includes:
 							Abdullah Bulbul Ameer, Ain't He Neat?, Alma Mater, Aloha Oe, Alumni
 							Song, America, Annie Laurie, Auld Lang Syne, Away With Rum, Belinda, The
 							Bells Of Hell, The Big Red Team, Boating Song, Bring Back My Bonnie, The
@@ -1633,14 +1631,14 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>January 1925</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 						<physdesc>2 copies</physdesc>
 					</did>
 					<scopecontent>
-						<p>Sixth Printing. With foreword by Foster M. Coffin. <lb/>Includes:
+						<p>Sixth Printing. With foreword by Foster M. Coffin. Includes:
 							Abdullah Bulbul Ameer, Ain't He Neat?, Alma Mater, Aloha Oe, Alumni
 							Song, America, Annie Laurie, Auld Lang Syne, Away With Rum, Belinda, The
 							Bells Of Hell, The Big Red Team, Boating Song, Bring Back My Bonnie, The
@@ -1667,13 +1665,13 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>January 1926</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
 					<scopecontent>
-						<p>Seventh Printing. With foreword by Foster M. Coffin. <lb/>Includes:
+						<p>Seventh Printing. With foreword by Foster M. Coffin. Includes:
 							Abdullah Bulbul Ameer, Ain't He Neat?, Alma Mater, Aloha Oe, Alumni
 							Song, America, Annie Laurie, Auld Lang Syne, Away With Rum, Belinda, The
 							Bells Of Hell, The Big Red Team, Boating Song, Bring Back My Bonnie, The
@@ -1701,13 +1699,13 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>June 1927</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 					</did>
 					<scopecontent>
-						<p>Eighth Printing. With foreword by Foster M. Coffin. <lb/>Includes:
+						<p>Eighth Printing. With foreword by Foster M. Coffin. Includes:
 							Abdullah Bulbul Ameer, Ain't He Neat?, Alma Mater, Aloha Oe, Alumni
 							Song, America, Annie Laurie, Auld Lang Syne, Away With Rum, Belinda, The Bells Of
 							Hell, The Big Red Team, Boating Song, Bring Back My Bonnie, Bring The
@@ -1734,14 +1732,14 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>October 1930</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 						<physdesc>2 copies</physdesc>
 					</did>
 					<scopecontent>
-						<p>Ninth Printing. With foreword by Foster M. Coffin. <lb/>Includes:
+						<p>Ninth Printing. With foreword by Foster M. Coffin. Includes:
 							Abdullah Bulbul Ameer, Ain't He Neat?, Alma Mater, Aloha Oe, Alumni
 							Song, America, Annie Laurie, Auld Lang Syne, Away With Rum, The Bells Of
 							Hell, The Big Red Team, Boating Song, Bring Back My Bonnie, Bring The
@@ -1769,14 +1767,14 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>October 1933</unitdate>
 						<unittitle>Songs of Cornell</unittitle>
 						<physdesc>2 copies</physdesc>
 					</did>
 					<scopecontent>
-						<p>Tenth Printing. With foreword by Foster M. Coffin. <lb/>Includes:
+						<p>Tenth Printing. With foreword by Foster M. Coffin. Includes:
 							Abdullah Bulbul Ameer, Ain't He Neat?, Alma Mater, Aloha Oe, Alumni
 							Song, America, Annie Laurie, Auld Lang Syne, Away With Rum, The Bells Of
 							Hell, The Big Red Team, Boating Song, Bring Back My Bonnie, Bring The
@@ -1806,7 +1804,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						
 						<unitdate>June 1964</unitdate>
 						<unittitle>Songs The '09 Class of Cornell Used to Sing and Still Do</unittitle>
@@ -1818,29 +1816,29 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 
 						<unitdate>January 28, 1989</unitdate>
 						<unittitle>Cornell 1952 Sings</unittitle>
 						<physdesc>2 copies</physdesc>
 					</did>
 					<scopecontent>
-						<p>Lion's Rock, 316 East 77th Street, New York, NY <lb/>Includes: Selections
+						<p>Lion's Rock, 316 East 77th Street, New York, NY Includes: Selections
 							reproduced from Songs of Cornell 1988.</p>
 					</scopecontent>
 				</c02>
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
-						<unitdate>ca. 1990</unitdate>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
+						<unitdate certainty="approximate">1990</unitdate>
 						<unittitle>Cornell Songs</unittitle>
 						<physdesc>3 copies</physdesc>
 					</did>
 					<scopecontent>
 						<p>An Alumni Affairs publication sponsored by the Cornell Association of
-							Class Officers.<lb/>Includes: Alma Mater, Alumni Song, The Big Red Team,
+							Class Officers.Includes: Alma Mater, Alumni Song, The Big Red Team,
 							Carnelian And White, Cornell, Cornell Hymn, Cornell Victorious, Crew
 							Song, 1875, Evening Song, Fight For Cornell, Give My Regards To Davy,
 							Hail Thou In Majesty, Cornell, The Hill, In The Red And The White, March
@@ -1858,8 +1856,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Alma Mater or Cornell Hymn</unittitle>
 					</did>
@@ -1872,21 +1870,21 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Beat Pennsylvania: Football Rally Program</unittitle>
 					</did>
 					<scopecontent>
 						<p>No music, just lyrics. From a Tuesday night, November 27 rally at Bailey
-							Hall.<lb/>Includes: The Big Red Team, Fight for Cornell, Carnelian and
+							Hall.Includes: The Big Red Team, Fight for Cornell, Carnelian and
 							White, Cornell Victorious.</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Community Song Sheet</unittitle>
 					</did>
@@ -1907,14 +1905,14 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Cornell College Songs</unittitle>
 					</did>
 					<scopecontent>
 						<p>Appears to be published by the Cornell Glee Club. No music, just lyrics.
-							<lb/>Includes: The Chimes, Cornell, Alma Mater, The Winter, Hark; I Hear
+							Includes: The Chimes, Cornell, Alma Mater, The Winter, Hark; I Hear
 							A Voice, I love My Love, Moustache, The Old Cabin Home, Smoking Song,
 							Bingo, All Together, Landlord, Fill Your Flowing Bowl, Solomon Levi,
 							Rumsty Ho!, What Am The Song What I Do Sing, Hard Up.</p>
@@ -1923,13 +1921,13 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>The Cornell March</unittitle>
 					</did>
 					<scopecontent>
-						<p>No music, just lyrics.<lb/>Also includes: There's Music In The Air,
+						<p>No music, just lyrics.Also includes: There's Music In The Air,
 							Landlord, Fill Your Flowing Bowl, 'Twas Oft The Blue Canaries, I've A
 							Jolly Sixpence, 'Tis A Way We Have At Cornell, Cornell</p>
 					</scopecontent>
@@ -1937,15 +1935,15 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>Various</unitdate>
 						<unittitle>Cornell Songs</unittitle>
 						<physdesc>7 versions</physdesc>
 					</did>
 					<scopecontent>
 						<p>Various pieces all titled Cornell Songs, none have music, just
-							lyrics.<lb/>Songs include: Alma Mater, Cornell, Don't Send My Boy to
+							lyrics.Songs include: Alma Mater, Cornell, Don't Send My Boy to
 							Harvard, The Red and the White, Song for Cornell, Song of the Classes,
 							Song of the Classes (Women's Version), Fight for Cornell, Senior Dirge,
 							Cornell Victorious, Give My Regards to Davy, Carnelian and White, Alumni
@@ -1973,8 +1971,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Cornell Yells</unittitle>
 					</did>
@@ -1987,8 +1985,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Church of Seven Doors</unittitle>
 					</did>
@@ -2000,8 +1998,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Founder's Hymn</unittitle>
 						<physdesc>3 copies</physdesc>
@@ -2013,8 +2011,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Page 3 and 4 of a song sheet</unittitle>
 						<physdesc>2 copies</physdesc>
@@ -2025,14 +2023,14 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Songs For The Senior Informal Smokers And Senior
 							Singing</unittitle>
 					</did>
 					<scopecontent>
-						<p>Published by the Lehigh Valley Railroad.<lb/>Includes: Cornell, Evening
+						<p>Published by the Lehigh Valley Railroad.Includes: Cornell, Evening
 							Song, Stop, Stop, Stop, By The Light Of The Silvery Moon, Moonlight In
 							Jungle Land, Mary Jones, Bring The Wagon Home John, Come Josephine In My
 							Flying Machine, Song Of The Classes, The Big Red Team, Alma Mater,
@@ -2044,8 +2042,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1875</unitdate>
 						<unittitle>Opening of Sage Chapel</unittitle>
 					</did>
@@ -2055,8 +2053,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>1878</unitdate>
 						<unittitle>Class Day Songs Seventy-Eight</unittitle>
 					</did>
@@ -2068,8 +2066,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>May 28, 1888</unitdate>
 						<unittitle>Calculus Song</unittitle>
 					</did>
@@ -2081,8 +2079,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>February 15, 1889</unitdate>
 						<unittitle>Banquet Songs XCI</unittitle>
 					</did>
@@ -2094,13 +2092,13 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1890</unitdate>
 						<unittitle>Sage Chapel Dedication Hymn</unittitle>
 					</did>
 					<scopecontent>
-						<p>By Susan E. Linn Sage. <lb/>Published after being found in her papers
+						<p>By Susan E. Linn Sage. Published after being found in her papers
 							after her death in 1885. reverse has note "Presented to E. F. Curtis by
 							Miss Linn, October 1898.</p>
 					</scopecontent>
@@ -2109,8 +2107,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>1899</unitdate>
 						<unittitle>Cornell Songs for Commencement Week 1899</unittitle>
 					</did>
@@ -2121,8 +2119,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>1902</unitdate>
 						<unittitle>Cornell Songs For Commencement Week</unittitle>
 					</did>
@@ -2135,8 +2133,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>1906</unitdate>
 						<unittitle>Cornell songs for Commencement Week 1906</unittitle>
 					</did>
@@ -2147,21 +2145,21 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1908</unitdate>
 						<unittitle>Founder's Centenary Hymn in honor of Ezra Cornell, 1807 - January
 							11 - 1907</unittitle>
 					</did>
 					<scopecontent>
-						<p>Composed by Burt G. Wilder. <lb/>Second (Alumni) Edition produced by the
+						<p>Composed by Burt G. Wilder. Second (Alumni) Edition produced by the
 							Cornell -Co-operative society. </p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>1915</unitdate>
 						<unittitle>Cornell Alumni Song</unittitle>
 					</did>
@@ -2173,8 +2171,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1915</unitdate>
 						<unittitle>Cornell Hymn</unittitle>
 						<physdesc>5 copies</physdesc>
@@ -2186,8 +2184,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>March 22, 1924</unitdate>
 						<unittitle>Origins of the Bustonian Chorus</unittitle>
 					</did>
@@ -2199,23 +2197,23 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>1939</unitdate>
 						<unittitle>Home In The Pines</unittitle>
 						<physdesc>2 copies</physdesc>
 					</did>
 					<scopecontent>
 						<p>Lyrics by John D. Guthrie '39. Sung to the air Home on the Range.
-							<lb/>From a Cornell Forestry student.</p>
+							From a Cornell Forestry student.</p>
 					</scopecontent>
 				</c02>
 
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>1940</unitdate>
 						<unittitle>Songs of Cornell band music</unittitle>
 					</did>
@@ -2228,8 +2226,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>October 1967</unitdate>
 						<unittitle>The Passing of Zinck's</unittitle>
 					</did>
@@ -2243,8 +2241,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>1979</unitdate>
 						<unittitle>Davy '79 band music</unittitle>
 					</did>
@@ -2255,8 +2253,8 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>1980</unitdate>
 						<unittitle>Alma Mater '80 band music</unittitle>
 					</did>
@@ -2267,9 +2265,9 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
-						<unitdate>ca. 1980</unitdate>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
+						<unitdate certainty="approximate">1980</unitdate>
 						<unittitle>Miscellaneous band music sheets</unittitle>
 					</did>
 					<scopecontent>
@@ -2280,9 +2278,9 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
-						<unitdate>ca. 2000</unitdate>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
+						<unitdate certainty="approximate">2000</unitdate>
 						<unittitle>Exhibit cards</unittitle>
 					</did>
 				</c02>
@@ -2292,5 +2290,9 @@
 
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Cornell University Songs and Sheet Music, #47-6-2124. Division of Rare and
+					Manuscript Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

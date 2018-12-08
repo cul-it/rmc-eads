@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00092::Guide to the Ralph Stockman Tarr papers)//EN">RMA00092</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00092::Guide to the Ralph Stockman Tarr papers)//EN">RMA00092</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Ralph Stockman Tarr
@@ -23,19 +23,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>August 2011</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Ralph Stockman Tarr Papers,<lb/><date type="inclusive" encodinganalog="245$f">1883-1961,</date><date type="bulk" encodinganalog="245$g"> [1883-1912 (bulk)]</date></titleproper>
+			<titleproper>Guide to the Ralph Stockman Tarr Papers,<date encodinganalog="245$f" type="inclusive">1883-1961,</date><date encodinganalog="245$g" type="bulk"> [1883-1912 (bulk)]</date></titleproper>
 			<num>Collection Number: 14-15-92</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -61,14 +67,13 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Ralph Stockman Tarr papers,
-					<unitdate encodinganalog="MARC 245" type="inclusive">1883-1961,</unitdate>
-				<unitdate encodinganalog="MARC 245" type="bulk">1883-1912
-				(bulk)</unitdate></unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Ralph Stockman Tarr papers,
+					</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1883-1961,</unitdate><unitdate encodinganalog="MARC 245" type="bulk">1883-1912
+				(bulk)</unitdate>
 			<unitid label="Collection Number:">14-15-92</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Tarr, Ralph S.(Ralph Stockman), 1864-1912.">(Ralph Stockman), Tarr
 					1864-1912.</persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>6.2 cubic ft.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>6.2 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Correspondence, field notebooks, research material, publications</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -76,7 +81,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Professor of geology.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
@@ -112,19 +117,12 @@
 				<genreform encodinganalog="MARC 655" source="aat">Negatives.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Ralph Stockman Tarr papers, #14-15-92. Division of Rare and Manuscript
-					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>1909</unitdate>
 					<unittitle>U.S. Coast and Geodetic Survey maps; publication on the Greenland expedition; Alaska-Yukon Magazine, April, 1909; 
 					Scrapbook of memorabilia from various geological society meetings; much loose material, includes TLS from Theodore Roosevelt</unittitle>
@@ -132,7 +130,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitdate>1892-1962</unitdate>
 					<unittitle>Photographs and postcards from Greenland; published diary of Peary Arctic Expedition of 1896; Volume - Dept. records
 					and correspondence, 1892-1894; reports and correspondence, 1895-1914 (Tarr and von Engeln); reports and correspondence, 
@@ -141,28 +139,28 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Maps of Switzerland, field notebooks/diaries</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Field notebooks/diaries</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Field notebooks/diaries</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitdate>1907-1908</unitdate>
 					<unittitle>Notes on the Work in the Laboratory of Experimental Physiography, Year 1907-1908; Geography Course Transcript; Geography Course Syllabus;
 					Flag from 1896 Greenland expedition; Modification of topography by Glacial Erosion; Alaska Diary; 2 glass negatives - campus scenes</unittitle>
@@ -170,76 +168,76 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitdate>1911-1912</unitdate>
 					<unittitle>Glass negatives of ice experiments at Cornell</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitdate>1896</unitdate>
 					<unittitle>Greenland expedition and misc. (4x5 film negatives)</unittitle>
 				</did><scopecontent><p>Includes tve_exp1896_001-291</p></scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitdate>1896</unitdate>
 					<unittitle>Greenland expedition and misc. (mostly 5x7  film negatives)</unittitle>
 				</did><scopecontent><p>Includes tve_exp1896_292-318</p></scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitdate>1906</unitdate>
 					<unittitle>Greenland/Alaska negatives</unittitle>
 				</did><scopecontent><p>Includes tve_exp1906_001-074</p></scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitdate>1906</unitdate>
 					<unittitle>Greenland/Alaska glass slides</unittitle>
 				</did><scopecontent><p>Includes tve_exp1906_075-240</p></scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitdate>1895-1909</unitdate>
 					<unittitle>Alaska expeditions (5x7 and 8x10 glass negatives</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitdate>1906-1909</unitdate>
 					<unittitle>Alaskan expeditions: Yakutat Peninsula (prints)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Key to slides and classification: Geology Department records</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11, 12</container>
+					<container label="unspecified" type="box">11, 12</container>
 					<unitdate>1909</unitdate>
 					<unittitle>Alaskan Expedition: Tarr and von Engeln (glass and film negatives)</unittitle>
 				</did><scopecontent><p>Includes tve_exp1909_001-049</p></scopecontent>
 			</c01><c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitdate>1909</unitdate>
 					<unittitle>Alaskan Expedition: Tarr and von Engeln (film negatives)</unittitle>
 				</did><scopecontent><p>Includes tve_exp1909_050-383</p></scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8-9</container>
+					<container label="unspecified" type="box">8-9</container>
 					<unitdate>1909</unitdate>
 					<unittitle>Alaskan Expedition: Tarr and von Engeln (glass negatives)</unittitle>
 				</did><scopecontent><p>Includes tve_384-542, with some gaps</p></scopecontent>
@@ -247,73 +245,77 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitdate>1911</unitdate>
 					<unittitle>Alaskan Expedition: Tarr and von Engeln (film negatives)</unittitle>
 				</did><scopecontent><p>Includes tve_exp1911_001-354</p></scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
+					<container label="unspecified" type="box">9</container>
 					<unitdate>19--</unitdate>
 					<unittitle>Ithaca and campus (glass and film negatives)</unittitle>
 				</did><scopecontent><p>Includes tve_ithaca_026-044, 056-054</p></scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitdate>19--</unitdate>
 					<unittitle>Ice movement observations (glass negatives); images from Ithaca area (photographs, and film and glass negatives)</unittitle>
 				</did><scopecontent><p>Includes tve_ithaca_003-025, _045</p></scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitdate>1905</unitdate>
 					<unittitle>Alaska and North America</unittitle>
 				</did><scopecontent><p>Includes tve_exp1905_001-182</p></scopecontent>
 			</c01><c01 level="file">
 				<did>
-					<container type="box">21</container>
+					<container label="unspecified" type="box">21</container>
 					<unittitle>Glass lantern slides of glaciers, scenes from Japan, and Eskimo women. </unittitle>
 				</did>
 			</c01><c01 level="file">
 				<did>
-					<container type="box">22</container>
+					<container label="unspecified" type="box">22</container>
 					<unitdate>1905, 1906, 1909, 1911</unitdate>
 					<unittitle>Original sleeves from glass slides, including from Ithaca (undated)</unittitle>
 				</did>
 			</c01><c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<unitdate/>
+					<container label="unspecified" type="box">18</container>
+					
 					<unittitle>Glass lantern slides of glaciers, Alaska and Greenland, slides 1-60</unittitle>
 				</did>
 			</c01><c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<unitdate/>
+					<container label="unspecified" type="box">19</container>
+					
 					<unittitle>Glass lantern slides of glaciers, Alaska and Greenland, slides 61-120</unittitle>
 				</did>
 			</c01><c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<unitdate/>
+					<container label="unspecified" type="box">20</container>
+					
 					<unittitle>Glass lantern slides of glaciers, Alaska and Greenland, slides 121-180</unittitle>
 				</did>
 			</c01><c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<unitdate/>
+					<container label="unspecified" type="box">23</container>
+					
 					<unittitle>Glass lantern slides of glaciers, Alaska and Greenland, slides 181-240</unittitle>
 				</did>
 			</c01><c01 level="file">
 				<did>
-					<container type="box">24</container>
-					<unitdate/>
+					<container label="unspecified" type="box">24</container>
+					
 					<unittitle>Glass lantern slides of glaciers, Alaska and Greenland, slides 241-308</unittitle>
 				</did>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Ralph Stockman Tarr papers, #14-15-92. Division of Rare and Manuscript
+					Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08501::&gt;Guide to the United States Army 366th Infantry Regiment and other Colored Divisions Collection)//EN">RMM08501</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08501::&gt;Guide to the United States Army 366th Infantry Regiment and other Colored Divisions Collection)//EN">RMM08501</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the United States Army 366th Infantry Regiment and other
@@ -25,21 +25,27 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>February 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
 			<titleproper>Guide to the United States Army 366th Infantry Regiment And Other Colored
-				Divisions Collection,<lb/><date type="inclusive" encodinganalog="245$f">ca.
+				Divisions Collection,<date encodinganalog="245$f" type="inclusive">ca.
 					1940-2017</date></titleproper>
 			<num>Collection Number: 8501</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -65,12 +71,13 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">United States Army 366th Infantry
-				Regiment and other Colored Divisions Collection, <unitdate encodinganalog="MARC 245" type="inclusive">ca. 1940-2015</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">United States Army 366th Infantry
+				Regiment and other Colored Divisions Collection, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1940-2015</unitdate>
 			<unitid label="Collection Number:">8501</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Pratt, James E.   ">Pratt, James E. </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>8.5</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>8.5</extent></physdesc>
 			<physdesc label="Forms of Material:">Motion Pictures, Photographs,
 				publications</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -80,7 +87,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>The 366th served with distinction in World War I and II. It faced combat in World War
 				II in Italy with the 92nd Infantry Division. The unit was notable in that, unlike
 				other segregated units, the officers were not white. While many of the members were
@@ -124,47 +131,33 @@
 				<geogname encodinganalog="MARC 651">Fort Devens (Mass.)</geogname>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>United States Army 366th Infantry Regiment and other Colored Divisions
-					Collection, #8501. Division of Rare and Manuscript Collections, Cornell
-					University Library.</p>
-			</prefercite>
-			<accessrestrict>
-				<head>Access Restrictions:</head>
-				<p>Due to the fragility and potential degradation of moving image and sound
-					recordings, viewing and listening is limited to items that have been
-					digitized.</p>
-			</accessrestrict>
-		</descgrp>
+		
 		<arrangement>
 			<p>
 				<emph render="bold">
-					<ref target="s1" show="replace" actuate="onrequest">Series I. Books and
+					<ref actuate="onrequest" show="replace" target="s1">Series I. Books and
 						Documents</ref>
 				</emph>
-				<lb/>Boxes 2-9 </p>
+				Boxes 2-9 </p>
 			<p>
 				<emph render="bold">
-					<ref target="s2" show="replace" actuate="onrequest">Series II. Reproductions of
+					<ref actuate="onrequest" show="replace" target="s2">Series II. Reproductions of
 						Original Large Format Photographs</ref>
 				</emph>
-				<lb/>Mapcase</p>
+				Mapcase</p>
 			<p>
 				<emph render="bold">
-					<ref target="s3" show="replace" actuate="onrequest">Series III. Digital
+					<ref actuate="onrequest" show="replace" target="s3">Series III. Digital
 						Material</ref>
 				</emph>
-				<lb/>Box 1 </p>
+				Box 1 </p>
 			<p>
 				<emph render="bold">
-					<ref target="s4" show="replace" actuate="onrequest">Series IV. 8mm Movie
+					<ref actuate="onrequest" show="replace" target="s4">Series IV. 8mm Movie
 						Films</ref>
 				</emph>
-				<lb/><emph render="bold">Please use DVD copies, not film reels</emph>
-				<lb/>Box 1 </p>
+				<emph render="bold">Please use DVD copies, not film reels</emph>
+				Box 1 </p>
 		</arrangement>
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
@@ -174,7 +167,7 @@
 				</did>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>2015</unitdate>
 						<unittitle>Soldiers of the 366th Infantry Regiment At Rest In
 							Italy</unittitle>
@@ -182,12 +175,12 @@
 					<scopecontent>
 						<p>Document compiled by James Pratt containing photos of gravestones and
 							images of soldiers. Identifying numbers correspond to numbers indicated
-							on copies of photographs included in the collection. <lb/>See the digital version of the bios for the most up-to-date version.</p>
+							on copies of photographs included in the collection. See the digital version of the bios for the most up-to-date version.</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1941</unitdate>
 						<unittitle>Pictorial History 366th Infantry United States Army, Fort Devens,
 							Massachusetts</unittitle>
@@ -199,7 +192,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>2008</unitdate>
 						<unittitle>Company I 366th Infantry by Harold E. Russell, Jr.</unittitle>
 					</did>
@@ -209,7 +202,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>2009</unitdate>
 						<unittitle>No Way Out by Rothacker Smith</unittitle>
 					</did>
@@ -219,7 +212,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>2011</unitdate>
 						<unittitle>La Battaglia di Sommocolonia by Dario Giannini and Vittorio Lino
 							Biondi</unittitle>
@@ -231,7 +224,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>March 1941 - September 1942</unitdate>
 						<unittitle>Morning Reports of the 366th Infantry Regiment</unittitle>
 					</did>
@@ -243,35 +236,35 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">3</container>
+						<container label="unspecified" type="box">3</container>
 						<unitdate>October 1942 - October 1943</unitdate>
 						<unittitle>Morning Reports of the 366th Infantry Regiment</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">4</container>
+						<container label="unspecified" type="box">4</container>
 						<unitdate>November 1943 - June 1944</unitdate>
 						<unittitle>Morning Reports of the 366th Infantry Regiment</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitdate>June 1944 - December 1944</unitdate>
 						<unittitle>Morning Reports of the 366th Infantry Regiment</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">6</container>
+						<container label="unspecified" type="box">6</container>
 						<unitdate>January 1945 - March 1945</unitdate>
 						<unittitle>Morning Reports of the 366th Infantry Regiment</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">6</container>
+						<container label="unspecified" type="box">6</container>
 						<unitdate>1941 - 1943</unitdate>
 						<unittitle>Roster and Payroll lists for Service Company, Regimental Band,
 							Officers</unittitle>
@@ -279,7 +272,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">7</container>
+						<container label="unspecified" type="box">7</container>
 						<unitdate>1941 - 1943</unitdate>
 						<unittitle>Roster and Payroll lists for Anti-Tank, Cannon, Company A, B, C,
 							D, E, F, G</unittitle>
@@ -287,7 +280,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">8</container>
+						<container label="unspecified" type="box">8</container>
 						<unitdate>1941 - 1943</unitdate>
 						<unittitle>Roster and Payroll lists for Company H, I, K, L, M, Headquarters
 							and Regiment, Battalion 1, 2, 3, Medical Detachment.</unittitle>
@@ -295,111 +288,111 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">9</container>
+						<container label="unspecified" type="box">9</container>
 						<unitdate>1941 - 1945</unitdate>
 						<unittitle>General Orders</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>December 25, 1941</unitdate>
 						<unittitle>Court Martial of Louis P. Sheppard</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>February 6-7, 1942</unitdate>
 						<unittitle>Court Martial of Orville Phoenix</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>February 16, 1942</unitdate>
 						<unittitle>Court Martial of William Gilliard</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>March 13, 1942</unitdate>
 						<unittitle>Court Martial of Sellers Judkins Jr.</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>April 6, 1942</unitdate>
 						<unittitle>Court Martial of Hermon Streeter</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>March 11, 1942</unitdate>
 						<unittitle>Court Martial of Shafter Roberts</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>August 21, 1942</unitdate>
 						<unittitle>Court Martial of Wilson C. Williamson</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>November 23, 1942</unitdate>
 						<unittitle>Court Martial of Charles Adkins</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>January 8, 1945</unitdate>
 						<unittitle>Court Martial of General Lee Grant</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>January 16, 1945</unitdate>
 						<unittitle>Court Martial of Mansfield Spinks</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">11</container>
 						<unitdate>March 10, 1945</unitdate>
 						<unittitle>Court Martial of Anna C. Morrison, Mary E. Green, Alice E. Young, and Johnnie Murphy</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>July 30, 1945</unitdate>
 						<unittitle>Court Martial of Charlie Ervin Jr.</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>2017</unitdate>
 						<unittitle>Materials relating to a talks and events surrounding a visit by family members of those who served in the 366th to Italy in 2017. </unittitle>
 					</did><scopecontent><p>Includes coloring book that has an image of the bell from Parrocchia Saint Maria Del Carmine in Apulia.</p></scopecontent>
@@ -407,64 +400,64 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>November 1944</unitdate>
 						<unittitle>History of the 366th Infantry Regiment for the month of November 1944</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>December 1944</unitdate>
 						<unittitle>History of the 366th Infantry Regiment for the month of December 1944</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>January 1945</unitdate>
 						<unittitle>History of the 366th Infantry Regiment for the month of January 1945</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>February 1945</unitdate>
 						<unittitle>History of the 366th Infantry Regiment for the month of February 1945</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>February - September 1943</unitdate>
 						<unittitle>Operations Instructions 366th Infantry Regiment</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>1943</unitdate>
 						<unittitle>Field Orders 366th Infantry Regiment</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>November - December 1944</unitdate>
 						<unittitle>Field Orders 366th Infantry Regiment</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>January 1-31, 1944</unitdate>
 						<unittitle>Special Orders 366th Infantry Regiment</unittitle>
 					</did>
@@ -472,16 +465,16 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>February 3-23, 1945</unitdate>
 						<unittitle>Investigation of Combat Activities 1st Battalion 366th Infantry Regiment</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>February 10-28, 1945</unitdate>
 						<unittitle>Investigation of Combat Activities 2nd Battalion 366th Infantry Regiment</unittitle>
 					</did>
@@ -489,8 +482,8 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">11</container>
 						<unitdate>February 8-11, 1945</unitdate>
 						<unittitle>Report of Operations of the 3rd Battalion 366th Infantry Regiment</unittitle>
 					</did>
@@ -507,7 +500,7 @@
 				</scopecontent>
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>May 16, 1941</unitdate>
 						<unittitle>Officers of the 366th Infantry, Fort Devens,
 							Massachusetts</unittitle>
@@ -518,7 +511,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>May 1941</unitdate>
 						<unittitle>Company B 366th Infantry, Fort Devens Massachusetts</unittitle>
 					</did>
@@ -528,7 +521,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>August 1941</unitdate>
 						<unittitle>Company I 366th Infantry, Fort Devens Massachusetts</unittitle>
 					</did>
@@ -538,7 +531,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>August 1941</unitdate>
 						<unittitle>Company D 366th Infantry, Fort Devens Massachusetts</unittitle>
 					</did>
@@ -548,7 +541,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>April 1943</unitdate>
 						<unittitle>First Service Command Tactical School Class 27, Publick House,
 							Sturbridge, Massachusetts</unittitle>
@@ -560,7 +553,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>May 1943</unitdate>
 						<unittitle>First Service Command Tactical School Class 28, Publick House,
 							Sturbridge, Massachusetts</unittitle>
@@ -572,7 +565,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>November 1943</unitdate>
 						<unittitle>Company D 366th Infantry, Fort A. P. Hill</unittitle>
 					</did>
@@ -582,7 +575,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>November 1943</unitdate>
 						<unittitle>Cannon Company 366th Infantry, Fort A. P. Hill,
 							Virginia</unittitle>
@@ -598,13 +591,13 @@
 				</did>
 				<c02 level="item">
 					<did>
-						<container type="box">Estorage</container>					
+						<container label="unspecified" type="box">Estorage</container>					
 						<unittitle>Digital files</unittitle>
 					</did><scopecontent><p>Biographies and digitized photographs of many of the soldiers. Also news coverage and media associated with a 2017 events in Italy with family members of those who served in the 366th, including an event in Sammichele di Bari where the soldiers bought a bell for the church.</p></scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="DVD-">1208-1211</unitid>
 						<unitdate>2002</unitdate>
 						<unittitle>The Dangerous Missions Collection</unittitle>
@@ -615,7 +608,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="DVD-">1212</unitid>
 						<unitdate>2008</unitdate>
 						<unittitle>Buffalo Soldiers, WWII Home Movies</unittitle>
@@ -628,7 +621,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="DVD-">1213</unitid>
 						<unitdate>November 9, 2013</unitdate>
 						<unittitle>Presentation on the 366th by James Pratt at the Fort Devens
@@ -637,7 +630,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="DVD-">1214</unitid>
 						<unitdate>2014</unitdate>
 						<unittitle>366th Infantry Regiment Various Photos</unittitle>
@@ -649,7 +642,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="DVD-">1215</unitid>
 						<unitdate>January 2014</unitdate>
 						<unittitle>Interview with Harold E. Russell Jr.</unittitle>
@@ -661,7 +654,7 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="DVD-">1216</unitid>
 						<unitdate>May 15, 2014</unitdate>
 						<unittitle>Presentation on the 366th by James Pratt at the Publick House,
@@ -673,7 +666,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="DVD-">1217</unitid>
 						<unitdate>May 17, 2014</unitdate>
 						<unittitle>Presentation on the 366th by James Pratt in North Yarmouth
@@ -682,7 +675,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="DVD-">1220</unitid>
 						<unitdate>2015</unitdate>
 						<unittitle>Interview with Harold Smith a member of the 92nd Infantry who
@@ -691,10 +684,10 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="DVD-">1222-1225</unitid>
 						<unittitle>Digitized copies of the movie films from Karen Jamison, including
-							Fort Devens and footage from Japan.<lb/><emph render="bold">Please use
+							Fort Devens and footage from Japan.<emph render="bold">Please use
 								these DVDs instead of the film reels listed
 							below.</emph></unittitle>
 					</did>
@@ -710,12 +703,12 @@
 						of what is depicted. The films may also have had multiple original reels
 						spliced together to form a new reel. Digitization was done by an outside
 						vendor and placement on DVDs, which may not be in the same order as the
-						reels listed below.<lb/><emph render="bold">Please use DVD copies, not film
+						reels listed below.<emph render="bold">Please use DVD copies, not film
 							reels.</emph></p>
 				</scopecontent>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="8mm F-">1076</unitid>
 						<unitdate>1941</unitdate>
 						<unittitle>Fort Devens, Koko, Ashtrid, Maine, Fort Dix?</unittitle>
@@ -726,9 +719,9 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="8mm F-">1077</unitid>
-						<unitdate/>
+						
 						<unittitle>Fort Devens, Mac, ?, Davies, S, Club etc., Pet ?</unittitle>
 					</did>
 					<scopecontent>
@@ -737,9 +730,9 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="8mm F-">1078</unitid>
-						<unitdate/>
+						
 						<unittitle>Colonel Jim Robinson at ?</unittitle>
 					</did>
 					<scopecontent>
@@ -748,7 +741,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="8mm F-">1079</unitid>
 						<unitdate>1941-1942</unitdate>
 						<unittitle>Fort Devens, Training B Company</unittitle>
@@ -759,7 +752,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="8mm F-">1099</unitid>
 						<unitdate>Undated</unitdate>
 						<unittitle>Mt. Fuji Japan and Fort Dix</unittitle>
@@ -770,7 +763,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="8mm F-">1100</unitid>
 						<unitdate>1947</unitdate>
 						<unittitle>Seattle Washington</unittitle>
@@ -783,7 +776,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="8mm F-">1101</unitid>
 						<unitdate>1948?</unitdate>
 						<unittitle>Boat Trip to Japan on the S. S. Republic. Color</unittitle>
@@ -794,7 +787,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="8mm F-">1102</unitid>
 						<unitdate>1948-1950</unitdate>
 						<unittitle>Gifu Japan. Color</unittitle>
@@ -805,7 +798,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="8mm F-">1103</unitid>
 						<unitdate>1947-1950</unitdate>
 						<unittitle>Camp Gifu Japan</unittitle>
@@ -816,5 +809,15 @@
 				</c02>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>United States Army 366th Infantry Regiment and other Colored Divisions
+					Collection, #8501. Division of Rare and Manuscript Collections, Cornell
+					University Library.</p>
+			</prefercite><accessrestrict>
+				<head>Access Restrictions:</head>
+				<p>Due to the fragility and potential degradation of moving image and sound
+					recordings, viewing and listening is limited to items that have been
+					digitized.</p>
+			</accessrestrict></archdesc>
 </ead>

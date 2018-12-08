@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06781::H. William Fogle papers)//EN">RMM06781</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06781::H. William Fogle papers)//EN">RMM06781</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the H. William Fogle papers,
@@ -16,26 +16,32 @@
 			</publicationstmt>
 			<notestmt>
 				<note audience="internal">
-					<p><subject/></p>
+					
 				</note>
 			</notestmt>
 		</filedesc>
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>August 2017</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the H. William Fogle Papers,<lb/><date type="inclusive" encodinganalog="245$f">1967-2015.</date></titleproper>
+			<titleproper>Guide to the H. William Fogle Papers,<date encodinganalog="245$f" type="inclusive">1967-2015.</date></titleproper>
 			<num>Collection Number: 6781</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -57,11 +63,12 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">H. William Fogle papers, <unitdate encodinganalog="MARC 245" type="inclusive">1967-2015.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">H. William Fogle papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1967-2015.</unitdate>
 			<unitid label="Collection Number:"> 6781</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Fogle, H. William.   ">Fogle, H. William. </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>2.4 cubic feet, 4 volumes, 1
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>2.4 cubic feet, 4 volumes, 1
 				folder, 4 CD.</extent></physdesc>
 			<physdesc label="Forms of Material:">Printed material, manuscripts, photographs.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -79,7 +86,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Homer William Fogle, Jr. was born in 1948 and graduated from Cornell University,
 				Class of 1970.</p>
 		</bioghist>
@@ -147,102 +154,98 @@
 				<subject encodinganalog="MARC 650">Unrequited love</subject>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<accessrestrict>
-				<head>Access Restrictions:</head>
-				<p>Box 2 and 3 are restricted to the permission of the Director of the Division of
-					Rare and Manuscript Collections.</p>
-			</accessrestrict>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>H. William Fogle Papers, # 6781. Division of Rare and Manuscript Collections,
-					Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="series"><did><unittitle id="s1">Series I. Letter to Ellie</unittitle></did>
-				<c02 level="file"><did><container type="box">1</container><unitdate type="inclusive" normal="2007">2007</unitdate><unittitle>Volume:  Letter to Ellie</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">1</container><unitdate>Undated</unitdate><unittitle>Three additional volumes containing material reproduced in Letter to Ellie</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><unitdate normal="2007" type="inclusive">2007</unitdate><unittitle>Volume:  Letter to Ellie</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><unitdate>Undated</unitdate><unittitle>Three additional volumes containing material reproduced in Letter to Ellie</unittitle></did></c02>
 			</c01>
 			<c01 level="series"><did><unittitle id="s2">Series II. No Second Act</unittitle></did>
-				<c02 level="file"><did><container type="box">2</container><container type="folder">1</container><unitdate>Date unknown</unitdate><unittitle>Images used in memoir</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">2</container><container type="folder">1</container><unitid>CD-2429-2431</unitid><unitdate>Date unknown</unitdate><unittitle>CD's containing additional project files</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">2</container><container type="folder">2</container><unitdate type="inclusive" normal="1968/1999">1968-1999</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">2</container><container type="folder">3</container><unitdate type="inclusive" normal="2000/2005">2000-2005</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">2</container><container type="folder">4</container><unitdate type="inclusive" normal="2006">2006</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">2</container><container type="folder">5</container><unitdate type="inclusive" normal="2007">2007</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">2</container><container type="folder">6</container><unitdate type="inclusive" normal="2007">2007</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">2</container><container type="folder">7</container><unitdate type="inclusive" normal="2007">2007</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">2</container><container type="folder">8</container><unitdate type="inclusive" normal="2007">2007</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">2</container><container type="folder">9</container><unitdate type="inclusive" normal="2008">2008</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">2</container><container type="folder">10</container><unitdate type="inclusive" normal="2008">2008</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">2</container><container type="folder">11</container><unitdate type="inclusive" normal="2008">2008</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">3</container><container type="folder">1</container><unitdate type="inclusive" normal="2009">2009</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">3</container><container type="folder">2</container><unitdate type="inclusive" normal="2010/2013">2010-2013</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">3</container><container type="folder">3</container><unitdate>Undated</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
-				<c02 level="file"><did><container type="box">3</container><container type="folder">4</container><unitdate type="inclusive" normal="1974/1990">1974, 1990</unitdate><unittitle>Candace Bucher material </unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">2</container><container label="unspecified" type="folder">1</container><unitdate>Date unknown</unitdate><unittitle>Images used in memoir</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">2</container><container label="unspecified" type="folder">1</container><unitid>CD-2429-2431</unitid><unitdate>Date unknown</unitdate><unittitle>CD's containing additional project files</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">2</container><container label="unspecified" type="folder">2</container><unitdate normal="1968/1999" type="inclusive">1968-1999</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">2</container><container label="unspecified" type="folder">3</container><unitdate normal="2000/2005" type="inclusive">2000-2005</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">2</container><container label="unspecified" type="folder">4</container><unitdate normal="2006" type="inclusive">2006</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">2</container><container label="unspecified" type="folder">5</container><unitdate normal="2007" type="inclusive">2007</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">2</container><container label="unspecified" type="folder">6</container><unitdate normal="2007" type="inclusive">2007</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">2</container><container label="unspecified" type="folder">7</container><unitdate normal="2007" type="inclusive">2007</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">2</container><container label="unspecified" type="folder">8</container><unitdate normal="2007" type="inclusive">2007</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">2</container><container label="unspecified" type="folder">9</container><unitdate normal="2008" type="inclusive">2008</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">2</container><container label="unspecified" type="folder">10</container><unitdate normal="2008" type="inclusive">2008</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">2</container><container label="unspecified" type="folder">11</container><unitdate normal="2008" type="inclusive">2008</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">3</container><container label="unspecified" type="folder">1</container><unitdate normal="2009" type="inclusive">2009</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">3</container><container label="unspecified" type="folder">2</container><unitdate normal="2010/2013" type="inclusive">2010-2013</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">3</container><container label="unspecified" type="folder">3</container><unitdate>Undated</unitdate><unittitle>H. William Fogle and Eleanor correspondence</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">3</container><container label="unspecified" type="folder">4</container><unitdate normal="1974/1990" type="inclusive">1974, 1990</unitdate><unittitle>Candace Bucher material </unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
 			</c01>
 			<c01 level="series"><did><unittitle id="s3">Series III. A Gentleman's Guide to Writing the Christmas Letter</unittitle></did>
-				<c02 level="file"><did><container type="box">4</container><container type="folder">1</container><unitdate type="inclusive" normal="1971/2015">1971-2015</unitdate><unittitle>Document originals</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">4</container><container type="folder">2</container><unitdate type="inclusive" normal="1970/2003">1970-2003</unitdate><unittitle>H. William Fogle published articles, letters to editor and rebuttals</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">4</container><unitdate type="inclusive" normal="2016/">2016</unitdate><unittitle>Volume:  A Gentleman's Guide to Writing the Christmas Letter</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">4</container><container label="unspecified" type="folder">1</container><unitdate normal="1971/2015" type="inclusive">1971-2015</unitdate><unittitle>Document originals</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">4</container><container label="unspecified" type="folder">2</container><unitdate normal="1970/2003" type="inclusive">1970-2003</unitdate><unittitle>H. William Fogle published articles, letters to editor and rebuttals</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">4</container><unitdate normal="2016/" type="inclusive">2016</unitdate><unittitle>Volume:  A Gentleman's Guide to Writing the Christmas Letter</unittitle></did></c02>
 			</c01>
 			<c01 level="series"><did><unittitle id="s4">Series IV. Dear Gobbler</unittitle></did>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">1</container><unitdate type="inclusive" normal="1970/1975">1970-1975</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">2</container><unitdate type="inclusive" normal="1976">1976</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">3</container><unitdate type="inclusive" normal="1977">1977</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">4</container><unitdate type="inclusive" normal="1978">1978</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">5</container><unitdate type="inclusive" certainty="Circa" normal="1970/1979">1970-1979, undated</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">6</container><unitdate type="inclusive" normal="1980/1983">1980-1983</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">7</container><unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">8</container><unitdate type="inclusive" normal="1986">1986</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">9</container><unitdate type="inclusive" normal="1987">1987</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">10</container><unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">11</container><unitdate type="inclusive" certainty="Circa" normal="1980/1989">1980-1989, undated</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">12</container><unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">13</container><unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">14</container><unitdate type="inclusive" normal="1994/1999">1994-1999</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">15</container><unitdate type="inclusive" normal="2000/2004">2000-2004</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">16</container><unitdate type="inclusive" normal="2005/2008">2005-2008</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">5</container><container type="folder">17</container><unitdate type="inclusive" normal="2009">2009</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">1</container><unitdate type="inclusive" normal="2009">2009</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">2</container><unitdate type="inclusive" normal="2010">2010</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">3</container><unitdate type="inclusive" normal="2011">2011</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">4</container><unitdate type="inclusive" normal="2012">2012</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">5</container><unitdate type="inclusive" normal="2012">2012</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">6</container><unitdate type="inclusive" normal="2012">2012</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">7</container><unitdate type="inclusive" normal="2012">2012</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">8</container><unitdate type="inclusive" normal="2013">2013</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">9</container><unitdate type="inclusive" normal="2013">2013</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">10</container><unitdate type="inclusive" normal="2013">2013</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">11</container><unitdate type="inclusive" normal="2013">2013</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">12</container><unitdate type="inclusive" normal="2014">2014</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">13</container><unitdate type="inclusive" normal="2014">2014</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">14</container><unitdate type="inclusive" normal="2014">2014</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><container type="folder">15</container><unitdate type="inclusive" normal="2014">2014</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">6</container><unitdate type="inclusive" normal="2016-06-15">2016-06-15</unitdate><unittitle>Spiral-bound booklet:  Fogle’s Places: A Photographic Journey </unittitle></did></c02>
-				<c02 level="file"><did><container type="box">7</container><container type="folder">1</container><unitdate type="inclusive" normal="2015">2015</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">7</container><container type="folder">2</container><unitdate type="inclusive" normal="2015">2015</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">7</container><container type="folder">3</container><unitdate type="inclusive" normal="2016-06-15">2016-06-15</unitdate><unittitle>Photos and photo key</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">7</container><unitdate type="inclusive" normal="2016">2016</unitdate><unittitle>Volume I and II of Dear Gobbler</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">8</container><container type="folder">1</container><unitdate type="inclusive" normal="2015">2015</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">8</container><container type="folder">2</container><unitdate type="inclusive" normal="2015">2015</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">8</container><unitdate type="inclusive" normal="2016">2016</unitdate><unittitle>Volume III-V of Dear Gobbler</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">9</container><container type="folder">1</container><unitdate type="inclusive" normal="2016">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">9</container><container type="folder">2</container><unitdate type="inclusive" normal="2016">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">9</container><container type="folder">3</container><unitdate type="inclusive" normal="2016">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">9</container><container type="folder">4</container><unitdate type="inclusive" normal="2016">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">9</container><container type="folder">5</container><unitdate type="inclusive" normal="2016">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">9</container><container type="folder">6</container><unitdate type="inclusive" normal="2016">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">9</container><container type="folder">7</container><unitdate type="inclusive" normal="2016">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">9</container><container type="folder">8</container><unitdate type="inclusive" normal="2016">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">9</container><container type="folder">9</container><unitdate type="inclusive" normal="2016">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
-				<c02 level="file"><did><container type="box">9</container><unitdate type="inclusive" normal="2016">2016</unitdate><unittitle>Volume VI of Dear Gobbler</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">1</container><unitdate normal="1970/1975" type="inclusive">1970-1975</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">2</container><unitdate normal="1976" type="inclusive">1976</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">3</container><unitdate normal="1977" type="inclusive">1977</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">4</container><unitdate normal="1978" type="inclusive">1978</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">5</container><unitdate certainty="approximate" normal="1970/1979" type="inclusive">1970-1979, undated</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">6</container><unitdate normal="1980/1983" type="inclusive">1980-1983</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">7</container><unitdate normal="1984/1985" type="inclusive">1984-1985</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">8</container><unitdate normal="1986" type="inclusive">1986</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">9</container><unitdate normal="1987" type="inclusive">1987</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">10</container><unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">11</container><unitdate certainty="approximate" normal="1980/1989" type="inclusive">1980-1989, undated</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">12</container><unitdate normal="1990/1991" type="inclusive">1990-1991</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">13</container><unitdate normal="1992/1993" type="inclusive">1992-1993</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">14</container><unitdate normal="1994/1999" type="inclusive">1994-1999</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">15</container><unitdate normal="2000/2004" type="inclusive">2000-2004</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">16</container><unitdate normal="2005/2008" type="inclusive">2005-2008</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">5</container><container label="unspecified" type="folder">17</container><unitdate normal="2009" type="inclusive">2009</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">1</container><unitdate normal="2009" type="inclusive">2009</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">2</container><unitdate normal="2010" type="inclusive">2010</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">3</container><unitdate normal="2011" type="inclusive">2011</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">4</container><unitdate normal="2012" type="inclusive">2012</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">5</container><unitdate normal="2012" type="inclusive">2012</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">6</container><unitdate normal="2012" type="inclusive">2012</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">7</container><unitdate normal="2012" type="inclusive">2012</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">8</container><unitdate normal="2013" type="inclusive">2013</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">9</container><unitdate normal="2013" type="inclusive">2013</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">10</container><unitdate normal="2013" type="inclusive">2013</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">11</container><unitdate normal="2013" type="inclusive">2013</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">12</container><unitdate normal="2014" type="inclusive">2014</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">13</container><unitdate normal="2014" type="inclusive">2014</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">14</container><unitdate normal="2014" type="inclusive">2014</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><container label="unspecified" type="folder">15</container><unitdate normal="2014" type="inclusive">2014</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">6</container><unitdate normal="2016-06-15" type="inclusive">2016-06-15</unitdate><unittitle>Spiral-bound booklet:  Fogle’s Places: A Photographic Journey </unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">7</container><container label="unspecified" type="folder">1</container><unitdate normal="2015" type="inclusive">2015</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">7</container><container label="unspecified" type="folder">2</container><unitdate normal="2015" type="inclusive">2015</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">7</container><container label="unspecified" type="folder">3</container><unitdate normal="2016-06-15" type="inclusive">2016-06-15</unitdate><unittitle>Photos and photo key</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">7</container><unitdate normal="2016" type="inclusive">2016</unitdate><unittitle>Volume I and II of Dear Gobbler</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">8</container><container label="unspecified" type="folder">1</container><unitdate normal="2015" type="inclusive">2015</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">8</container><container label="unspecified" type="folder">2</container><unitdate normal="2015" type="inclusive">2015</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">8</container><unitdate normal="2016" type="inclusive">2016</unitdate><unittitle>Volume III-V of Dear Gobbler</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">9</container><container label="unspecified" type="folder">1</container><unitdate normal="2016" type="inclusive">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">9</container><container label="unspecified" type="folder">2</container><unitdate normal="2016" type="inclusive">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">9</container><container label="unspecified" type="folder">3</container><unitdate normal="2016" type="inclusive">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">9</container><container label="unspecified" type="folder">4</container><unitdate normal="2016" type="inclusive">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">9</container><container label="unspecified" type="folder">5</container><unitdate normal="2016" type="inclusive">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">9</container><container label="unspecified" type="folder">6</container><unitdate normal="2016" type="inclusive">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">9</container><container label="unspecified" type="folder">7</container><unitdate normal="2016" type="inclusive">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">9</container><container label="unspecified" type="folder">8</container><unitdate normal="2016" type="inclusive">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">9</container><container label="unspecified" type="folder">9</container><unitdate normal="2016" type="inclusive">2016</unitdate><unittitle>Correspondence</unittitle></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">9</container><unitdate normal="2016" type="inclusive">2016</unitdate><unittitle>Volume VI of Dear Gobbler</unittitle></did></c02>
 			</c01>
 			<c01 level="series"><did><unittitle id="s5">Series V. Additional Material</unittitle></did>
-				<c02 level="file"><did><container type="box">3</container><unitid>DVD-1589</unitid><unitdate>Date unknown</unitdate><unittitle>1967 Residential Club fire research files</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">3</container><unitid>DVD-1589</unitid><unitdate>Date unknown</unitdate><unittitle>1967 Residential Club fire research files</unittitle></did><accessrestrict><p>Access restrictions apply.</p></accessrestrict></c02>
 		</c01></dsc>
-	</archdesc>
+	<accessrestrict>
+				<head>Access Restrictions:</head>
+				<p>Box 2 and 3 are restricted to the permission of the Director of the Division of
+					Rare and Manuscript Collections.</p>
+			</accessrestrict><prefercite>
+				<head>Cite As:</head>
+				<p>H. William Fogle Papers, # 6781. Division of Rare and Manuscript Collections,
+					Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

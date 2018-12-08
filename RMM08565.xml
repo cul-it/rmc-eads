@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08565::Guide to the R. Keith Dennis Mathematician Print and Photo collection)//EN">RMM08565</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08565::Guide to the R. Keith Dennis Mathematician Print and Photo collection)//EN">RMM08565</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the R. Keith Dennis Mathematician Print and Photo collection,
@@ -25,21 +25,27 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>September 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
 			<titleproper>Guide to the R. Keith Dennis Mathematician Print And Photo
-					Collection,<lb/><date type="inclusive" encodinganalog="245$f">circa 1850-1950
+					Collection,<date encodinganalog="245$f" type="inclusive">circa 1850-1950
 					.</date></titleproper>
 			<num>Collection Number: 8565</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -65,13 +71,13 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">R. Keith Dennis Mathematician Print
-				and Photo collection, <unitdate encodinganalog="MARC 245" type="inclusive">circa
-					1850-1950.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">R. Keith Dennis Mathematician Print
+				and Photo collection, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1850-1950.</unitdate>
 			<unitid label="Collection Number:">8565</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Dennis, R. Keith.   ">Dennis, R. Keith. </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.6</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>.6</extent></physdesc>
 			<physdesc label="Forms of Material:">Photographs, Printed materials.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -80,7 +86,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>R. Keith Dennis is a Professor of Mathematics at Cornell University with a focus area
 				on commutative and non-commutative algebra, algebraic K-theory, group theory, and
 				mathematical bibliography.</p>
@@ -114,14 +120,7 @@
 				<genreform encodinganalog="MARC 655" source="aat">Photographs</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>R. Keith Dennis Mathematician Print and Photo collection, #8565. Division of Rare
-					and Manuscript Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="series">
@@ -130,8 +129,8 @@
 				</did>
 				<c02 level="item">
 					<did>
-						<container type="map-case"/>	
-						<container type="folder">1</container>
+							
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unittitle>Panoramic photograph of 1946 mathematical convention</unittitle>
 						<unitdate>August 19-23, 1946</unitdate>
 					</did>
@@ -141,16 +140,16 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="map-case"/>	
-						<container type="folder">1</container>
+							
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unittitle>Portrait of Carl Friedrich Gauss</unittitle>
 						<unitdate>Undated</unitdate>
 					</did><controlaccess><genreform>Lithograph</genreform></controlaccess>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="map-case"/>	
-						<container type="folder">1</container>
+							
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unittitle>Portrait of Karl Weierstrass</unittitle>
 						<unitdate>Undated</unitdate>
 					</did><controlaccess><genreform>Reproduction of painting</genreform></controlaccess>
@@ -159,121 +158,121 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Individuals A-C</unittitle>
 				</did>
 				<scopecontent>
-					<p>Includes: <lb/> Raymond Archibald <lb/> Aristotle <lb/> Isaac Barrow <lb/>
-						Wilhelm Blaschke <lb/> Tycho Brahe <lb/> David Brewster <lb/> William Byerly
-						<lb/> Gerolamo Cardano <lb/> Rudolf Clausius <lb/> Nicolaus Copernicus <lb/>
+					<p>Includes:  Raymond Archibald  Aristotle  Isaac Barrow 
+						Wilhelm Blaschke  Tycho Brahe  David Brewster  William Byerly
+						 Gerolamo Cardano  Rudolf Clausius  Nicolaus Copernicus 
 						Georges Cuvier </p>
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Individuals D-F</unittitle>
 				</did>
 				<scopecontent>
-					<p>Includes: <lb/> Jean le Rond d'Alembert <lb/> H. Ted Davis <lb/> Ernest de
-						Jonquières <lb/> René Descartes <lb/> Ron DiPerna <lb/> Martin Eichler <lb/>
-						Epicurus <lb/> Leonhard Euler <lb/> Victor Felber <lb/> Augustin Fresnel
+					<p>Includes:  Jean le Rond d'Alembert  H. Ted Davis  Ernest de
+						Jonquières  René Descartes  Ron DiPerna  Martin Eichler 
+						Epicurus  Leonhard Euler  Victor Felber  Augustin Fresnel
 					</p>
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Individuals G-I</unittitle>
 				</did>
 				<scopecontent>
-					<p>Includes: <lb/> Galileo Galilei <lb/> Évariste Galois <lb/> Carl Freidrich
-						Gauss <lb/> Sophie Germain <lb/> James Joseph Glaisher <lb/> Edmond Halley
-						<lb/> William Hamilton <lb/> Oliver Heaviside <lb/> Heinrich Hertz <lb/>
-						David Hilbert <lb/> Shirley Hill <lb/> Christiaan Huygens </p>
+					<p>Includes:  Galileo Galilei  Évariste Galois  Carl Freidrich
+						Gauss  Sophie Germain  James Joseph Glaisher  Edmond Halley
+						 William Hamilton  Oliver Heaviside  Heinrich Hertz 
+						David Hilbert  Shirley Hill  Christiaan Huygens </p>
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Individuals J-L</unittitle>
 				</did>
 				<scopecontent>
-					<p>Includes: <lb/> Fritz John <lb/> Robert Kalaba <lb/> Immanuel Kant <lb/>
-						Vladimir Karapetoff <lb/> Johannes Kepler <lb/> Cassius Keyser <lb/> Felix
-						Klein <lb/> Joseph-Louis Lagrange <lb/> Gabriel Lamé <lb/> Pierre-Simon
-						Laplace <lb/> Gottfried Wilhelm Leibniz <lb/> Joseph-Louis Liouville <lb/>
-						Alfred Loewy <lb/> Gino Loria </p>
+					<p>Includes:  Fritz John  Robert Kalaba  Immanuel Kant 
+						Vladimir Karapetoff  Johannes Kepler  Cassius Keyser  Felix
+						Klein  Joseph-Louis Lagrange  Gabriel Lamé  Pierre-Simon
+						Laplace  Gottfried Wilhelm Leibniz  Joseph-Louis Liouville 
+						Alfred Loewy  Gino Loria </p>
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Individuals M-O</unittitle>
 				</did>
 				<scopecontent>
-					<p>Includes: <lb/> Kurt Mahler <lb/> J. C. P. Miller <lb/> Simon Newcomb <lb/>
-						Isaac Newton <lb/> Amalie Noether </p>
+					<p>Includes:  Kurt Mahler  J. C. P. Miller  Simon Newcomb 
+						Isaac Newton  Amalie Noether </p>
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Individuals P-R</unittitle>
 				</did>
 				<scopecontent>
-					<p>Includes: <lb/> Georges Papy <lb/> Vilfredo Pareto <lb/> Blaise Pascal <lb/>
-						George Peacock <lb/> Charles Peirce <lb/> Michael Pupin <lb/> K. G.
-						Ramanathan <lb/> Herbert Robbins </p>
+					<p>Includes:  Georges Papy  Vilfredo Pareto  Blaise Pascal 
+						George Peacock  Charles Peirce  Michael Pupin  K. G.
+						Ramanathan  Herbert Robbins </p>
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>Individuals S-V</unittitle>
 				</did>
 				<scopecontent>
-					<p>Includes: <lb/> Lao Simons <lb/> David Smith <lb/> William Benjamin Smith
-						<lb/> Mary Somerville <lb/> Benedict Spinoza <lb/> Jacob Steiner <lb/>
-						Charles Steinmetz <lb/> Henry Svoboda <lb/> James Joseph Sylvester <lb/>
-						Giuseppe Tallini <lb/> Paul Tannery <lb/> Olga Taussky-Todd <lb/> John
-						Arthur Todd <lb/> Pieter Venema <lb/> Alexander von Humboldt </p>
+					<p>Includes:  Lao Simons  David Smith  William Benjamin Smith
+						 Mary Somerville  Benedict Spinoza  Jacob Steiner 
+						Charles Steinmetz  Henry Svoboda  James Joseph Sylvester 
+						Giuseppe Tallini  Paul Tannery  Olga Taussky-Todd  John
+						Arthur Todd  Pieter Venema  Alexander von Humboldt </p>
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Individuals W-Z</unittitle>
 				</did>
 				<scopecontent>
-					<p>Includes: <lb/> Alfred Whitehead <lb/> Štefan Znám </p>
+					<p>Includes:  Alfred Whitehead  Štefan Znám </p>
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>Multiple Individuals and Miscellaneous</unittitle>
 				</did>
 				<scopecontent>
-					<p>Includes:<lb/>Presentation of the Senior Wrangler to the Vice Chancellor ,
-						Camridge, January 1872.<lb/>Trinty College A Century Ago<lb/>K. H. W. Kruse,
-						Leslie Comrie, J. T. Peters<lb/>Herbert B. Dwight, Maurice Kraitchik, Horace
+					<p>Includes:Presentation of the Senior Wrangler to the Vice Chancellor ,
+						Camridge, January 1872.Trinty College A Century AgoK. H. W. Kruse,
+						Leslie Comrie, J. T. PetersHerbert B. Dwight, Maurice Kraitchik, Horace
 						Uhler</p>
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>David Hilbert</unittitle>
 				</did>
 			</c01>
@@ -286,7 +285,7 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1885</unitdate>
 						<unittitle><title>Das projektive Zeichnen nebst den für das Zeichnen
 								wichtigsten Aufgaben aus der ebenen Geometrie</title></unittitle>
@@ -297,7 +296,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1896</unitdate>
 						<unittitle><title>A Portfolio of Portraits of Eminent
 							Mathematicians</title></unittitle>
@@ -315,7 +314,7 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1936</unitdate>
 						<unittitle><title>Portraits of Eminent Mathematicians Portfolio Number
 								One</title></unittitle>
@@ -330,7 +329,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1938</unitdate>
 						<unittitle><title>Portraits of Eminent Mathematicians Portfolio Number
 								Two</title></unittitle>
@@ -346,7 +345,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1938</unitdate>
 						<unittitle><title>Portraits of Eminent Mathematicians Portfolio Number Two
 								(copy 2)</title></unittitle>
@@ -362,13 +361,13 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1939</unitdate>
 						<unittitle><title>Portraits of Famous Philosophers who were also
 								Mathematicians</title></unittitle>
 					</did>
 					<scopecontent>
-						<p>By Cassius Jackson Keyser, published by Scripta Mathematica<lb/>Includes:
+						<p>By Cassius Jackson Keyser, published by Scripta MathematicaIncludes:
 							Pyhagoras, Plato, Aristotle, Epicurus, Roger Bacon, René Descartes,
 							Blaise Pascal, Benedict Spinoza, Gottfried Wilhelm Leibniz, George
 							Berkeley, Immanuel Kant, Charles Peirce</p>
@@ -377,7 +376,7 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1942</unitdate>
 						<unittitle><title>Portraits of Famous Physicists</title></unittitle>
 					</did>
@@ -391,5 +390,9 @@
 				</c02>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>R. Keith Dennis Mathematician Print and Photo collection, #8565. Division of Rare
+					and Manuscript Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

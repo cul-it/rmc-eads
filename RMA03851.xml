@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-	 <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03851::Guide to the B.F. Stanton papers)//EN">RMA03851</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+	 <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03851::Guide to the B.F. Stanton papers)//EN">RMA03851</eadid>
 	 
 	 <filedesc> 
 		<titlestmt> 
@@ -26,22 +26,28 @@
 		<creation>Finding aid encoded by RMC Staff, 
 		  <date>October 2010</date></creation> 
 	 </profiledesc> 
-  </eadheader> 
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader> 
   <frontmatter> 
 	 <titlepage> 
-		<titleproper>Guide to the B.F. Stanton Papers,<lb/> 
-		  <date type="inclusive" encodinganalog="245$f">1950-2010</date></titleproper> 
+		<titleproper>Guide to the B.F. Stanton Papers, 
+		  <date encodinganalog="245$f" type="inclusive">1950-2010</date></titleproper> 
 		<num>Collection Number: 21-43-3851</num> 
-		<publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+		<publisher>Division of Rare and Manuscript Collections Cornell
 		  University Library</publisher> 
 		<list type="deflist"> 
 		  <defitem> 
 			 <label>Contact Information:</label> 
-			 <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-				Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-				255-3530<lb/> Fax: (607) 255-9524<lb/> 
-				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/> 
-				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+			 <item> Division of Rare and Manuscript Collections 2B Carl A.
+				Kroch Library Cornell University Ithaca, NY 14853 (607)
+				255-3530 Fax: (607) 255-9524 
+				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
+				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 			 
 		  </defitem> 
 		  <defitem> 
@@ -68,13 +74,15 @@
   <archdesc level="collection"> 
 	 <did> 
 		<head id="a1">DESCRIPTIVE SUMMARY</head> 
-		<unittitle label="Title:" encodinganalog="MARC 245">B.F. Stanton papers, 
-		  <unitdate encodinganalog="MARC 245" type="inclusive">1950-2010</unitdate> </unittitle> 
+		<unittitle encodinganalog="MARC 245" label="Title:">B.F. Stanton papers, 
+		  </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1950-2010</unitdate> 
 		<unitid label="Collection Number:">21-43-3851</unitid> 
 		<origination label="Creator:"> 
 		  <persname encodinganalog="100" normal="Stanton, B. F.(Bernard Freeland), 1925-">B. F.(Bernard Freeland),
 			 Stanton 1925-</persname></origination> 
-		<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>3 cubic
+		<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>3 cubic
 		  feet.</extent></physdesc> 
 		<physdesc label="Forms of Material:">Correspondence, Publications,
 		  Research Materials</physdesc> 
@@ -89,7 +97,7 @@
 		
 	 </did> 
 	 <bioghist encodinganalog="MARC 545"> 
-		<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head> 
+		<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head> 
 		<p>Professor emeritus in the Dept. of Applied Economics and Management
 		  and a member of the Cornell class of 1949.</p> 
 	 </bioghist> 
@@ -127,18 +135,7 @@
 			 (State)</subject> 
 		</controlaccess> 
 	 </controlaccess> 
-	 <descgrp> 
-		<head id="a8">INFORMATION FOR USERS</head> 
-		
-	<p>Additional material and digital versions can be found online here: 
-		  <extref href="http://ecommons.cornell.edu/handle/1813/3851" show="new">http://ecommons.cornell.edu/handle/1813/3851</extref></p>
-	 	<p>See also the publication Farm Journal and Cornell Gentleman.</p>
-		  <prefercite> 
-		  <head>Cite As:</head> 
-		  <p>B.F. Stanton papers, #21-43-3851. Division of Rare and Manuscript
-			 Collections, Cornell University Library.</p> 
-		</prefercite> 
-	 </descgrp> 
+	  
 	 <arrangement> 
 		<head>SERIES LIST</head> 
 		<p><emph render="bold"> 
@@ -154,9 +151,9 @@
 		  <did> 
 			 <unittitle id="s1">Correspondence</unittitle> 
 		  </did> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">1</container> 
+				<container label="unspecified" type="box">1</container> 
 				<unittitle>Correspondence, A-Z</unittitle> 
 				<unitdate>1968-2007</unitdate> 
 			 </did> 
@@ -166,329 +163,329 @@
 		  <did> 
 			 <unittitle id="s2">Subject Files</unittitle> 
 		  </did> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">1</container> 
+				<container label="unspecified" type="box">1</container> 
 				<unittitle>Columbia University Project</unittitle> 
 				<unitdate>1992-1997</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">1</container> 
+				<container label="unspecified" type="box">1</container> 
 				<unittitle>IAAE - Dartington Summary and Cornell
 				  Meeting</unittitle> 
 				<unitdate>2005</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">1</container> 
+				<container label="unspecified" type="box">1</container> 
 				<unittitle>MONY Project</unittitle> 
 				<unitdate>1990</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">1</container> 
+				<container label="unspecified" type="box">1</container> 
 				<unittitle>NITRA Project - Slovakia</unittitle> 
 				<unitdate>1993-1996</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">1</container> 
+				<container label="unspecified" type="box">1</container> 
 				<unittitle>Czechoslovakia</unittitle> 
 				<unitdate>1987</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">1</container> 
+				<container label="unspecified" type="box">1</container> 
 				<unittitle>MONY Project</unittitle> 
 				<unitdate>1994</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">1</container> 
+				<container label="unspecified" type="box">1</container> 
 				<unittitle>JH- Farmland Investor</unittitle> 
 				<unitdate>1996-1997</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">1</container> 
+				<container label="unspecified" type="box">1</container> 
 				<unittitle>Farm Credit Banks of Springfield- "Outside" Board
 				  Member</unittitle> 
 				<unitdate>1990</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">1</container> 
+				<container label="unspecified" type="box">1</container> 
 				<unittitle>Memberships, Honors, Citations, Degrees,
 				  etc.</unittitle> 
 				<unitdate>1951-1998</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>International Association of Agricultural Economists
 				  (IAAE) - Board of Directors of the Fund for IAAE</unittitle> 
 				<unitdate>1970-1979</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Fund for the IAAE</unittitle> 
 				<unitdate>1980-1991</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Fund for ICAE- Japan Branch - Kanai, Kobayashi -
 				  IAAE</unittitle> 
 				<unitdate>1994; 1997</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>University of Helsinki</unittitle> 
 				<unitdate>2001-2003</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Fund for ICAE - J. von Braun - IAAE</unittitle> 
 				<unitdate>1995-1997</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Fund for ICAE - Dr. R.J. Hildreth - IAAE</unittitle> 
 				<unitdate>1991-1992</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>History of the IAAE</unittitle> 
 				<unitdate>1973-2000</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>IAAE Meetings</unittitle> 
 				<unitdate>1985; 1988</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>IAAE Meetings</unittitle> 
 				<unitdate>1990-1991</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>IAAE - Dr. Saburo Yamada and Japanese Organizing
 				  Committee Members</unittitle> 
 				<unitdate>1991</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>IAAE - Travel Grants</unittitle> 
 				<unitdate>1994</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Fund for ICAE</unittitle> 
 				<unitdate>1995-1997</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Walt Armbruster - IAAE</unittitle> 
 				<unitdate>1997</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Cowbell Bulletin and Program</unittitle> 
 				<unitdate>1997</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Cowbell Bulletin</unittitle> 
 				<unitdate>1991; 1994</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Stanton China Visit</unittitle> 
 				<unitdate>1990</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Lee Teng-Hui Visit</unittitle> 
 				<unitdate>1995</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>The Book Project - Agricultural Economics at Cornell, A
 				  History</unittitle> 
 				<unitdate>2001-2002</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Correspondence with Ruth Gerlach on Warren
 				  Book</unittitle> 
 				<unitdate>2003</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>G. F. Warren - Materials for Book</unittitle> 
 				<unitdate>November 13, 2008</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Warren Farm and Family</unittitle> 
 				<unitdate>November 13, 2008</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>G. F. Warren - Key Talks for Quotes for 1920s and
 				  1930s</unittitle> 
 				<unitdate>November 13, 2008</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>G. F. Warren - Ithaca Journal Story</unittitle> 
 				<unitdate>February 16, 2002</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Warren Book</unittitle> 
 				<unitdate>2007-2008</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Warren Book - Time Article</unittitle> 
 				<unitdate>2007</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Beth Fontana</unittitle> 
 				<unitdate>November 13, 2008</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Roger Haydon - C. U. Press</unittitle> 
 				<unitdate>November 13, 2008</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Choices Article on G. F. Warren</unittitle> 
 				<unitdate>1998</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Quota Programs: Potential Problems</unittitle> 
 				<unitdate>2000-2009</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Agricultural Economics - Grolier, Inc.</unittitle> 
 				<unitdate>1993</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Drafts of Chapter in the Columbia History of the 20th
 				  Century</unittitle> 
 				<unitdate>1992</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>People, Land and Farms - N.Y.- Warren</unittitle> 
 				<unitdate>1970-1971</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>The Northeast Agricultural Leadership
 				  Assembly</unittitle> 
 				<unitdate>1979</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Sabbatic Leave, USDA</unittitle> 
 				<unitdate>1960</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>Stanton, B. F. - Sabbatic Leaves, Biographical Data
 				  Sheets, Transcripts, Birth Certificates</unittitle> 
 				<unitdate>1958-1976</unitdate> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">2</container> 
+				<container label="unspecified" type="box">2</container> 
 				<unittitle>The Australian National University - Miscellaneous
 				  Material</unittitle> 
 				<unitdate>Spring 1976</unitdate> 
@@ -499,20 +496,25 @@
 		  <did> 
 			 <unittitle id="s3">Publications</unittitle> 
 		  </did> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">3</container> 
+				<container label="unspecified" type="box">3</container> 
 				<unittitle>List of Publications for B. F. Stanton</unittitle> 
 			 </did> 
 		  </c02> 
-		  <c02> 
+		  <c02 level="otherlevel" otherlevel="unspecified"> 
 			 <did> 
-				<container type="box">3</container> 
+				<container label="unspecified" type="box">3</container> 
 				<unittitle>Publications, Chronological by Year</unittitle> 
 				<unitdate>1950-1999</unitdate> 
 			 </did> 
 		  </c02> 
 		</c01> 
 	 </dsc> 
-  </archdesc> 
+  <odd><p>Additional material and digital versions can be found online here: 
+		  <extref href="http://ecommons.cornell.edu/handle/1813/3851" show="new">http://ecommons.cornell.edu/handle/1813/3851</extref></p></odd><odd><p>See also the publication Farm Journal and Cornell Gentleman.</p></odd><prefercite> 
+		  <head>Cite As:</head> 
+		  <p>B.F. Stanton papers, #21-43-3851. Division of Rare and Manuscript
+			 Collections, Cornell University Library.</p> 
+		</prefercite></archdesc> 
 </ead>

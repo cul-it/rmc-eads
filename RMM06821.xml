@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06821::Guide to the David Birnbach New York State Dept. of Mental Hygiene Oral History records)//EN">RMM06821</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06821::Guide to the David Birnbach New York State Dept. of Mental Hygiene Oral History records)//EN">RMM06821</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the David Birnbach New York State Dept. of Mental Hygiene Oral
@@ -26,20 +26,26 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>July 2012</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
 			<titleproper>Guide to the David Birnbach New York State Dept. Of Mental Hygiene Oral
-				History Records,<lb/><date type="inclusive" encodinganalog="245$f">1983-2002.</date></titleproper>
+				History Records,<date encodinganalog="245$f" type="inclusive">1983-2002.</date></titleproper>
 			<num>Collection Number: 6821</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -65,12 +71,11 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">David Birnbach New York State Dept.
-				of Mental Hygiene Oral History records, <unitdate encodinganalog="MARC 245" type="inclusive">1983-2002.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">David Birnbach New York State Dept.
+				of Mental Hygiene Oral History records, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1983-2002.</unitdate>
 			<unitid label="Collection Number:">6821</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Birnbach, David.   "> Birnbach </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>3.2 cubic feet.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>3.2 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Audio tapes, correspondence, transcripts</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -79,7 +84,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>David Birnbach worked at New York State's Suffolk Developmental Center from 1977-1979
 				and at Willard Psychiatric Center from 1979-1983.</p>
 		</bioghist>
@@ -122,28 +127,13 @@
 				<genreform encodinganalog="MARC 655" source="aat">Audiocassettes.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<accessrestrict>
-				<head>Access Restrictions:</head>
-				<p>This collection may only be used for consultation. No reproductions can be made
-					without permission of the archivist. No publication of information within this
-					collection can be made without permission of the archivist. Use of names from
-					this collection anywhere may only be done with permission of the archivist. A name index of the interviewees is available offline. Researchers may request confirmation of inclusion of individuals in the collection by name. The complete list of names can be accessed with the permission of the archivist.</p>
-			</accessrestrict>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>David Birnbach New York State Dept. of Mental Hygiene Oral History records,
-					#6821. Division of Rare and Manuscript Collections, Cornell University
-					Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 		 <head>CONTAINER LIST</head>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1973, 1981-1983</unitdate>
           <unittitle>Binghamton Psychiatric Center</unittitle>
         </did>
@@ -154,8 +144,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1983</unitdate>
           <unittitle>Binghamton Psychiatric Center</unittitle>
         </did>
@@ -165,8 +155,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1983</unitdate>
           <unittitle>Gowanda State Hospital</unittitle>
         </did>
@@ -176,8 +166,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1983</unitdate>
           <unittitle>Gowanda State Hospital</unittitle>
         </did>
@@ -187,8 +177,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1983-1984</unitdate>
           <unittitle>Gowanda State Hospital</unittitle>
         </did>
@@ -198,8 +188,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1984</unitdate>
           <unittitle>Gowanda State Hospital</unittitle>
         </did>
@@ -209,8 +199,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1983-1984</unitdate>
           <unittitle>Gowanda State Hospital</unittitle>
         </did>
@@ -220,8 +210,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1983-1984</unitdate>
           <unittitle>Gowanda State Hospital</unittitle>
         </did>
@@ -231,8 +221,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1983-1984</unitdate>
           <unittitle>Gowanda State Hospital</unittitle>
         </did>
@@ -243,8 +233,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1983-1984</unitdate>
           <unittitle>Gowanda State Hospital</unittitle>
         </did>
@@ -254,8 +244,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1983-1984</unitdate>
           <unittitle>Gowanda State Hospital</unittitle>
         </did>
@@ -266,8 +256,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1983-1985</unitdate>
           <unittitle>Gowanda State Hospital</unittitle>
         </did>
@@ -278,8 +268,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>1983-1985</unitdate>
           <unittitle>Gowanda State Hospital</unittitle>
         </did>
@@ -290,8 +280,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>1983, 2006</unitdate>
           <unittitle>Gowanda State Hospital</unittitle>
         </did>
@@ -302,8 +292,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>1983</unitdate>
           <unittitle>Gowanda State Hospital</unittitle>
         </did>
@@ -314,8 +304,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>1983</unitdate>
           <unittitle>Gowanda State Hospital</unittitle>
         </did>
@@ -325,8 +315,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">17</container>
           <unitdate>1983</unitdate>
           <unittitle>Pilgrim State Hospital</unittitle>
         </did>
@@ -337,8 +327,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>1984</unitdate>
           <unittitle> Rochester Psychiatric Center</unittitle>
         </did>
@@ -348,8 +338,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">19</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">19</container>
           <unitdate>1984</unitdate>
           <unittitle>Rochester Psychiatric Center</unittitle>
         </did>
@@ -359,8 +349,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">20</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">20</container>
           <unitdate>1983</unitdate>
           <unittitle>Rochester Psychiatric Center</unittitle>
         </did>
@@ -370,8 +360,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">21</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">21</container>
           <unitdate>1983</unitdate>
           <unittitle>Rochester Psychiatric Center </unittitle>
         </did>
@@ -381,8 +371,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">22</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">22</container>
           <unitdate>1984</unitdate>
           <unittitle>Rochester Psychiatric Center</unittitle>
         </did>
@@ -392,8 +382,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">23, 25</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">23, 25</container>
           <unitdate>1983, 1987</unitdate>
           <unittitle>Rochester Psychiatric Center </unittitle>
         </did>
@@ -403,8 +393,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">24</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">24</container>
           <unitdate>1984</unitdate>
           <unittitle>Rochester Psychiatric Center</unittitle>
         </did>
@@ -414,8 +404,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">26</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">26</container>
           <unitdate>1984</unitdate>
           <unittitle>Rochester Psychiatric Center</unittitle>
         </did>
@@ -425,8 +415,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">27</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">27</container>
           <unitdate>1983</unitdate>
           <unittitle>Rockland Psychiatric Center</unittitle>
         </did>
@@ -436,8 +426,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">28</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">28</container>
           <unitdate>1983</unitdate>
           <unittitle>St. Lawrence</unittitle>
         </did>
@@ -447,8 +437,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">29</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">29</container>
           <unitdate>1983</unitdate>
           <unittitle>St. Lawrence</unittitle>
         </did>
@@ -458,8 +448,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">30</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">30</container>
           <unitdate>1983</unitdate>
           <unittitle>St. Lawrence</unittitle>
         </did>
@@ -469,8 +459,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">31</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">31</container>
           <unitdate>1983</unitdate>
           <unittitle>St. Lawrence Psychiatric Center</unittitle>
         </did>
@@ -480,8 +470,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">32</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">32</container>
           <unitdate>1981</unitdate>
           <unittitle>St. Lawrence Psychiatric Center</unittitle>
         </did>
@@ -491,8 +481,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">33</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">33</container>
           <unitdate>1983</unitdate>
           <unittitle>St. Lawrence Psychiatric Center</unittitle>
         </did>
@@ -502,8 +492,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">34</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">34</container>
           <unitdate>1983</unitdate>
           <unittitle>St. Lawrence Psychiatric Center</unittitle>
         </did>
@@ -513,8 +503,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">35</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">35</container>
           <unitdate>1983</unitdate>
           <unittitle>St. Lawrence Psychiatric Center</unittitle>
         </did>
@@ -524,8 +514,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">36</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">36</container>
           <unitdate>1983</unitdate>
           <unittitle> Sunmount Psychiatric Center</unittitle>
         </did>
@@ -535,8 +525,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">37</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">37</container>
           <unitdate>1983</unitdate>
           <unittitle>Willard Psychiatric Center</unittitle>
         </did>
@@ -546,8 +536,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">38</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">38</container>
           <unitdate>1983</unitdate>
           <unittitle>Willard Psychiatric Center</unittitle>
         </did>
@@ -557,8 +547,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">39</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">39</container>
           <unitdate>1983</unitdate>
           <unittitle>Willard Psychiatric Center</unittitle>
         </did>
@@ -568,8 +558,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">40</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">40</container>
           <unitdate>1983</unitdate>
           <unittitle>Willard Center</unittitle>
         </did>
@@ -579,8 +569,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">41</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">41</container>
           <unitdate>1983</unitdate>
           <unittitle>Willard Psychiatric Center</unittitle>
         </did>
@@ -590,8 +580,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">42</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">42</container>
           <unitdate>1983</unitdate>
           <unittitle>Willard Psychiatric Center</unittitle>
         </did>
@@ -601,8 +591,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">43</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">43</container>
           <unitdate>1983</unitdate>
           <unittitle>Willard Psychiatric Center</unittitle>
         </did>
@@ -612,8 +602,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">44</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">44</container>
           <unitdate>1983</unitdate>
           <unittitle>Department of Mental Hygiene</unittitle>
         </did>
@@ -623,8 +613,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">45</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">45</container>
           <unitdate>1983</unitdate>
           <unittitle>Department of Mental Hygiene</unittitle>
         </did>
@@ -634,8 +624,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">46</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">46</container>
           <unitdate>1983</unitdate>
           <unittitle>New York State Psychiatric Institute</unittitle>
         </did>
@@ -645,8 +635,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">47</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">47</container>
           <unitdate>1983</unitdate>
           <unittitle>Transcript</unittitle>
         </did>
@@ -656,8 +646,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">48</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">48</container>
           <unitdate>1983</unitdate>
           <unittitle> Transcript</unittitle>
         </did>
@@ -667,8 +657,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">49</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">49</container>
           <unitdate>2001-2002</unitdate>
           <unittitle>Book Correspondence</unittitle>
         </did>
@@ -678,8 +668,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">50</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">50</container>
           <unitdate>1978</unitdate>
           <unittitle> History of Willard Asylum for the Insane and the Willard State
             Hospital</unittitle>
@@ -687,8 +677,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">51</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">51</container>
           <unitdate>1981, 1995-1996</unitdate>
           <unittitle>Bibliography</unittitle>
         </did>
@@ -698,8 +688,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">52</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">52</container>
           <unitdate>1954-1955, 1975</unitdate>
           <unittitle>Bibliography</unittitle>
         </did>
@@ -710,8 +700,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">53</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">53</container>
           <unitdate>1981,1991, 1999</unitdate>
           <unittitle> Bibliography</unittitle>
         </did>
@@ -721,8 +711,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">54</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">54</container>
           <unitdate>1982-1983</unitdate>
           <unittitle>Bibliography</unittitle>
         </did>
@@ -732,8 +722,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">55</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">55</container>
           <unitdate>1982, 2007</unitdate>
           <unittitle>Bibliography-Willard Asylum for the Insane</unittitle>
         </did>
@@ -743,8 +733,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">56</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">56</container>
           <unitdate>1981, 2000</unitdate>
           <unittitle>Bibliography</unittitle>
         </did>
@@ -754,8 +744,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">57</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">57</container>
           <unitdate>1980-1985</unitdate>
           <unittitle>Bibliography</unittitle>
         </did>
@@ -765,8 +755,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">58</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">58</container>
           <unitdate>1978-1982</unitdate>
           <unittitle>Statistics</unittitle>
         </did>
@@ -776,24 +766,24 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1952</unitdate>
           <unittitle>Albert Deutsch "The Mentally Ill in america"</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">2</container>
-          <unitdate/>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">2</container>
+          
           <unittitle>Interview Question Cards</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">3-4</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">3-4</container>
           <unitdate>1982-1986</unitdate>
           <unittitle>Notebooks</unittitle>
         </did>
@@ -803,16 +793,16 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1966-1970</unitdate>
           <unittitle>Willard State Hospital Annual Reports</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>2002</unitdate>
           <unittitle>Working Book Draft</unittitle>
         </did>
@@ -822,32 +812,32 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1906</unitdate>
           <unittitle>Handbook of the Department and State Hospitals</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1916-1931</unitdate>
           <unittitle>Willard State Hospital Annual Records (Book) </unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1990</unitdate>
           <unittitle>Pictorial Album of the Willard Asylum, 1869-1886</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1870-1881</unitdate>
           <unittitle>Laws Relating to Willard Asylum for the Insane and Rules and Regulations of
             Said Asylum</unittitle>
@@ -855,24 +845,24 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">11-12</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">11-12</container>
           <unitdate>1976,1981</unitdate>
           <unittitle>Hospital and Community Psychiatry</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>1894</unitdate>
           <unittitle>Charles Mercer "Lunatic Asylums: Their Organisation and Management"</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>1895</unitdate>
           <unittitle>Twenty-Seventh Annual Report of the Trustees of Willard State Hospital
             (Book)</unittitle>
@@ -880,14 +870,14 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3-10</container>
+          <container label="unspecified" type="box">3-10</container>
           <unitdate>1983-1984</unitdate>
           <unittitle>Interview Tapes</unittitle>
         </did><scopecontent><p>Alphabetic listing of names of interviewees is available offline. Patrons may request confirmation of inclusion of individuals from staff.</p></scopecontent>
        
         <c02 level="file">
           <did>
-            <container type="box">3</container>            
+            <container label="unspecified" type="box">3</container>            
             <unitdate>September 1983</unitdate>
             <unittitle>Gowanda
             </unittitle>
@@ -895,14 +885,14 @@
         </c02>  
         <c02 level="file">
           <did>
-            <container type="box">4</container>            
+            <container label="unspecified" type="box">4</container>            
             <unitdate>October 1983</unitdate>
             <unittitle>Gowanda
             </unittitle>
           </did>
         </c02>   <c02 level="file">
           <did>
-            <container type="box">5</container>            
+            <container label="unspecified" type="box">5</container>            
             <unitdate>April, June 1984</unitdate>
             <unittitle>Willowbrook
             </unittitle>
@@ -910,7 +900,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">6</container>            
+            <container label="unspecified" type="box">6</container>            
             <unitdate>October - November 1983</unitdate>
             <unittitle>Binghamptom, Pilgrim
             </unittitle>
@@ -918,7 +908,7 @@
         </c02>  
         <c02 level="file">
           <did>
-            <container type="box">7</container>            
+            <container label="unspecified" type="box">7</container>            
             <unitdate>November - December 1983</unitdate>
             <unittitle>Pilgrim, St. Lawrence
             </unittitle>
@@ -926,7 +916,7 @@
         </c02>  
         <c02 level="file">
           <did>
-            <container type="box">8</container>            
+            <container label="unspecified" type="box">8</container>            
             <unitdate>September 1983, April 1984</unitdate>
             <unittitle>Albany, Rockland, Sunmount
             </unittitle>
@@ -934,7 +924,7 @@
         </c02>  
         <c02 level="file">
           <did>
-            <container type="box">9</container>            
+            <container label="unspecified" type="box">9</container>            
             <unitdate>April, June 1984</unitdate>
             <unittitle>Rochester, Willowbrook
             </unittitle>
@@ -942,7 +932,7 @@
         </c02>  
         <c02 level="file">
           <did>
-            <container type="box">10</container>            
+            <container label="unspecified" type="box">10</container>            
             <unitdate>December 1983, January 1984</unitdate>
             <unittitle>Rochester, St. Lawrence
             </unittitle>
@@ -951,11 +941,22 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">11-15</container>
+          <container label="unspecified" type="box">11-15</container>
           <unitdate>1983-1984</unitdate>
           <unittitle>Interview Tape Copies</unittitle>
         </did><scopecontent><p>Alphabetic listing of names of interviewees is available offline. Patrons may request confirmation of inclusion of individuals from staff.</p></scopecontent>
       </c01>
     </dsc>
-  </archdesc>
+  <accessrestrict>
+				<head>Access Restrictions:</head>
+				<p>This collection may only be used for consultation. No reproductions can be made
+					without permission of the archivist. No publication of information within this
+					collection can be made without permission of the archivist. Use of names from
+					this collection anywhere may only be done with permission of the archivist. A name index of the interviewees is available offline. Researchers may request confirmation of inclusion of individuals in the collection by name. The complete list of names can be accessed with the permission of the archivist.</p>
+			</accessrestrict><prefercite>
+				<head>Cite As:</head>
+				<p>David Birnbach New York State Dept. of Mental Hygiene Oral History records,
+					#6821. Division of Rare and Manuscript Collections, Cornell University
+					Library.</p>
+			</prefercite></archdesc>
 </ead>

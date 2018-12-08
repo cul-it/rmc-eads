@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04619::E. B. White collection)//EN">RMM04619</eadid>
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04619::E. B. White collection)//EN">RMM04619</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the E. B. White collection, 1899-1985.</titleproper>
@@ -25,6 +25,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -33,19 +39,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the E. B. White Collection,<lb/>1899-1985</titleproper>
+         <titleproper>Guide to the E. B. White Collection,1899-1985</titleproper>
          <num>Collection Number: 4619</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
@@ -62,14 +68,13 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">E. B. White collection, <unitdate type="inclusive" encodinganalog="MARC 245">1899-1985.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">E. B. White collection, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1899-1985.</unitdate>
          <unitid label="Collection Number:">4619</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="White, E. B.(Elwyn Brooks), 1899-">E. B. (Elwyn
                Brooks) White, 1899-</persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>96.9 linear ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>96.9 linear feet</extent></physdesc>
          <physdesc label="Forms of Material:">Manuscripts, letters, documents, clippings,
             photographs, filmstrips, film reels, notecards, cassette tapes, bound photocopies,
             medals, and awards.</physdesc>
@@ -83,7 +88,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>American essayist and author.</p>
       </bioghist>
       <scopecontent encodinganalog="MARC 520">
@@ -148,22 +153,11 @@
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Photographs.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Portraits.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Portraits.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <userestrict>
-            <head>Restrictions on use:</head>
-            <p>By appointment only. Researchers may view one folder at a time.</p>
-         </userestrict>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>E. B. White collection, #4619. Division of Rare and Manuscript Collections, Cornell
-               University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <relatedmaterial>
          <head id="a5">RELATED MATERIALS</head>
          <p>Book collection also held at the repository, including virtually all editions of White's
@@ -184,72 +178,72 @@
          <head>SERIES LIST</head>
          <p>
             <emph render="bold">
-               <ref target="s1" show="replace" actuate="onrequest">Series I. Manuscripts</ref>
+               <ref actuate="onrequest" show="replace" target="s1">Series I. Manuscripts</ref>
             </emph>
-            <lb/>Box 1-58; 263</p>
+            Box 1-58; 263</p>
          <p>
             <emph render="bold">
-               <ref target="s2" show="replace" actuate="onrequest">Series II. Correspondence</ref>
+               <ref actuate="onrequest" show="replace" target="s2">Series II. Correspondence</ref>
             </emph>
-            <lb/>Boxes 59-219; 260-261; 266
-            <lb/><ref target="s2ss1">Outgoing Correspondence</ref>
-            <lb/><ref target="s2ss2">Incoming Correspondence</ref>
-            <lb/><ref target="s2ss3">Miscellaneous and Solicitations</ref>
-         <lb/><ref target="s2ss4">Readers Mail from <title>Harper's</title></ref>
-         <lb/><ref target="s2ss5">Incoming Correspondence from Readers</ref>
+            Boxes 59-219; 260-261; 266
+            <ref target="s2ss1">Outgoing Correspondence</ref>
+            <ref target="s2ss2">Incoming Correspondence</ref>
+            <ref target="s2ss3">Miscellaneous and Solicitations</ref>
+         <ref target="s2ss4">Readers Mail from <title>Harper's</title></ref>
+         <ref target="s2ss5">Incoming Correspondence from Readers</ref>
          </p>
          <p>
             <emph render="bold">
-               <ref target="s3" show="replace" actuate="onrequest">Series III. Photographs, Printed Material, and Whiteiana</ref>
+               <ref actuate="onrequest" show="replace" target="s3">Series III. Photographs, Printed Material, and Whiteiana</ref>
             </emph>
-            <lb/>Boxes 220A-230; 260; 266   
-         <lb/><ref target="s3ss1">Photographs</ref>
-         <lb/><ref target="s3ss2">Printed Material</ref>
-            <lb/><ref target="s3ss3">Whiteiana</ref>
+            Boxes 220A-230; 260; 266   
+         <ref target="s3ss1">Photographs</ref>
+         <ref target="s3ss2">Printed Material</ref>
+            <ref target="s3ss3">Whiteiana</ref>
             
          </p>
          <p>
             <emph render="bold">
-               <ref target="s4" show="replace" actuate="onrequest">Series IV. Medals, Awards and Clippings</ref>
+               <ref actuate="onrequest" show="replace" target="s4">Series IV. Medals, Awards and Clippings</ref>
             </emph>
-            <lb/>Boxes 231-240; 258; 260; Mapcase Folder 3 and 4
-            <lb/><ref target="s4ss1">Medals and Awards</ref>
-            <lb/><ref target="s4ss2">Clippings</ref>
+            Boxes 231-240; 258; 260; Mapcase Folder 3 and 4
+            <ref target="s4ss1">Medals and Awards</ref>
+            <ref target="s4ss2">Clippings</ref>
          </p>
             <p>
                <emph render="bold">
-                  <ref target="s5" show="replace" actuate="onrequest">Series V. Harper and Row Files</ref>
+                  <ref actuate="onrequest" show="replace" target="s5">Series V. Harper and Row Files</ref>
                </emph>
-               <lb/>Boxes 241-243
+               Boxes 241-243
             </p>
          <p>
             <emph render="bold">
-               <ref target="s6" show="replace" actuate="onrequest">Series VI. Macmillan Publishing Company files related to Elements of Style</ref>
+               <ref actuate="onrequest" show="replace" target="s6">Series VI. Macmillan Publishing Company files related to Elements of Style</ref>
             </emph>
-            <lb/>Box 267
+            Box 267
          </p>
          <p>
             <emph render="bold">
-               <ref target="s7" show="replace" actuate="onrequest">Series VII. Books on E.B. White by Others</ref>
+               <ref actuate="onrequest" show="replace" target="s7">Series VII. Books on E.B. White by Others</ref>
             </emph>
-            <lb/>Boxes 244-257; 259; Mapcase Folder 2
-            <lb/><ref target="s7ss1">Scott Elledge, <title>E.B. White: A Biography</title></ref>
-            <lb/><ref target="s7ss2">Katherine Romans Hall, <title>E.B. White: A Bibliographic
+            Boxes 244-257; 259; Mapcase Folder 2
+            <ref target="s7ss1">Scott Elledge, <title>E.B. White: A Biography</title></ref>
+            <ref target="s7ss2">Katherine Romans Hall, <title>E.B. White: A Bibliographic
                Catalogue</title></ref>
          </p>
          <p>
             <emph render="bold">
-               <ref target="s8" show="replace" actuate="onrequest">Series VII. Miscellaneous (mainly oversize)</ref>
+               <ref actuate="onrequest" show="replace" target="s8">Series VII. Miscellaneous (mainly oversize)</ref>
             </emph>
-            <lb/>Boxes 260 and 262; Museum Items</p> 
+            Boxes 260 and 262; Museum Items</p> 
          <p>
             <emph render="bold">
-               <ref target="s9" show="replace" actuate="onrequest">Series VIII. Adaptations, Films, and Recordings</ref>
+               <ref actuate="onrequest" show="replace" target="s9">Series VIII. Adaptations, Films, and Recordings</ref>
             </emph>
-            <lb/>Boxes 260; 264-266; Mapcase Folder 1
-            <lb/><ref target="s9ss1">Adaptations and Recordings of <title>Charlotte's Web</title></ref>
-            <lb/><ref target="s9ss2">Adaptations and Recordings of <title>Stuart Little</title></ref>
-            <lb/><ref target="s9ss3">Films and Recordings (not based on books)</ref>
+            Boxes 260; 264-266; Mapcase Folder 1
+            <ref target="s9ss1">Adaptations and Recordings of <title>Charlotte's Web</title></ref>
+            <ref target="s9ss2">Adaptations and Recordings of <title>Stuart Little</title></ref>
+            <ref target="s9ss3">Films and Recordings (not based on books)</ref>
          </p>
       </arrangement>
       <dsc type="combined">
@@ -260,13 +254,13 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
+                  <container label="unspecified" type="box">1</container>
                   <unittitle>A-Cg</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2-3</container>
+                  <container label="unspecified" type="box">2-3</container>
                   <unittitle>
                      <title>Charlotte's Web</title>
                   </unittitle>
@@ -274,20 +268,20 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unittitle>Che-K</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
+                  <container label="unspecified" type="box">5</container>
                   <unittitle>
                      <title>Elements of Style</title> 1 1st and 2nd edition</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
+                  <container label="unspecified" type="box">6</container>
                   <unittitle>
                      <title>Elements of Style</title> 2 2nd edition</unittitle>
                </did>
@@ -295,7 +289,7 @@
            
             <c02 level="file">
                <did>
-                  <container type="box">263</container>
+                  <container label="unspecified" type="box">263</container>
                   <unittitle>
                      <title>Essays of E. B. White</title> galley proofs</unittitle>
                </did>
@@ -308,26 +302,26 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">7</container>
+                     <container label="unspecified" type="box">7</container>
                      <unittitle>1</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">8</container>
+                     <container label="unspecified" type="box">8</container>
                      <unittitle>2</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">9</container>
+                     <container label="unspecified" type="box">9</container>
                      <unittitle>3</unittitle>
                   </did>
                </c03>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">10</container>
+                  <container label="unspecified" type="box">10</container>
                   <unittitle>L-Le</unittitle>
                </did>
             </c02>
@@ -338,19 +332,19 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">11</container>
+                     <container label="unspecified" type="box">11</container>
                      <unittitle>I-VI</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">12</container>
+                     <container label="unspecified" type="box">12</container>
                      <unittitle>VII-X</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">13</container>
+                     <container label="unspecified" type="box">13</container>
                      <unittitle>XI-</unittitle>
                   </did>
                </c03>
@@ -362,37 +356,37 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">14</container>
+                     <container label="unspecified" type="box">14</container>
                      <unittitle>I-X</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">15</container>
+                     <container label="unspecified" type="box">15</container>
                      <unittitle>XI-XX</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">16</container>
+                     <container label="unspecified" type="box">16</container>
                      <unittitle>XXI-XXIX</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">17</container>
+                     <container label="unspecified" type="box">17</container>
                      <unittitle>XXX-XXXIX</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">18</container>
+                     <container label="unspecified" type="box">18</container>
                      <unittitle>XL-XLIX</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">19</container>
+                     <container label="unspecified" type="box">19</container>
                      <unittitle>L-LIX</unittitle>
                   </did>
                </c03>
@@ -404,37 +398,37 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">20</container>
+                     <container label="unspecified" type="box">20</container>
                      <unittitle>I-VIII</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">21</container>
+                     <container label="unspecified" type="box">21</container>
                      <unittitle>IX-XVI</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">22</container>
+                     <container label="unspecified" type="box">22</container>
                      <unittitle>XVII-XXIII</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">23</container>
+                     <container label="unspecified" type="box">23</container>
                      <unittitle>XXIX-XXXI</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">24</container>
+                     <container label="unspecified" type="box">24</container>
                      <unittitle>XXXII-XXXVII</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">25</container>
+                     <container label="unspecified" type="box">25</container>
                      <unittitle>XXXVIII-XLIX</unittitle>
                   </did>
                </c03>
@@ -446,13 +440,13 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">26</container>
+                     <container label="unspecified" type="box">26</container>
                      <unittitle>I-V</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">27</container>
+                     <container label="unspecified" type="box">27</container>
                      <unittitle>VI-X</unittitle>
                   </did>
                </c03>
@@ -464,68 +458,68 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">28</container>
+                     <container label="unspecified" type="box">28</container>
                      <unittitle>A</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">29</container>
+                     <container label="unspecified" type="box">29</container>
                      <unittitle>B (1)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">30</container>
+                     <container label="unspecified" type="box">30</container>
                      <unittitle>B (2)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">31</container>
+                     <container label="unspecified" type="box">31</container>
                      <unittitle>C</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">32</container>
+                     <container label="unspecified" type="box">32</container>
                      <unittitle>D</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">33</container>
+                     <container label="unspecified" type="box">33</container>
                      <unittitle>E</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">34</container>
+                     <container label="unspecified" type="box">34</container>
                      <unittitle>E + F</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">35</container>
+                     <container label="unspecified" type="box">35</container>
                      <unittitle>F + G</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">36</container>
+                     <container label="unspecified" type="box">36</container>
                      <unittitle>F + Misc.</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">37</container>
+                     <container label="unspecified" type="box">37</container>
                      <unittitle>Page proofs</unittitle>
                   </did>
                </c03>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">38</container>
+                  <container label="unspecified" type="box">38</container>
                   <unittitle>Lf-Note</unittitle>
                </did>
             </c02>
@@ -535,79 +529,63 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">39</container>
-                     <unittitle>
-                        <unitdate>July 7, 1934-June 29, 1935</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">39</container>
+                     <unitdate>July 7, 1934-June 29, 1935</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">40</container>
-                     <unittitle>
-                        <unitdate>July 6, 1935-June 27, 1936</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">40</container>
+                     <unitdate>July 6, 1935-June 27, 1936</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">41</container>
-                     <unittitle>
-                        <unitdate>July 4, 1936-Nov. 4, 1939</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">41</container>
+                     <unitdate>July 4, 1936-Nov. 4, 1939</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">42</container>
-                     <unittitle>
-                        <unitdate>Feb. 3, 1940-Dec. 30, 1944</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">42</container>
+                     <unitdate certainty="approximate">Feb. 3, 1940-Dec. 30, 1944</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">43</container>
-                     <unittitle>
-                        <unitdate>1945-1947</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">43</container>
+                     <unitdate>1945-1947</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">44</container>
-                     <unittitle>
-                        <unitdate>1948-1950</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">44</container>
+                     <unitdate>1948-1950</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">45</container>
-                     <unittitle>
-                        <unitdate>Jan. 6, 1951-June 20, 1953</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">45</container>
+                     <unitdate>Jan. 6, 1951-June 20, 1953</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">46</container>
-                     <unittitle>
-                        <unitdate>July 18, 1953-</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">46</container>
+                     <unitdate>July 18, 1953-</unitdate>
                   </did>
                </c03>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">47</container>
+                  <container label="unspecified" type="box">47</container>
                   <unittitle>O-<title>One Man's Meat</title>
                   </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">48</container>
+                  <container label="unspecified" type="box">48</container>
                   <unittitle>
                      <title>One Man's Meat</title>-<title>Onward and Upward in</title>
                   </unittitle>
@@ -615,7 +593,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">49</container>
+                  <container label="unspecified" type="box">49</container>
                   <unittitle>"Onward and Upward with the Arts"-Poem</unittitle>
                </did>
             </c02>
@@ -627,57 +605,57 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">50</container>
+                     <container label="unspecified" type="box">50</container>
                      <unittitle>1</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">51</container>
+                     <container label="unspecified" type="box">51</container>
                      <unittitle>2</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">52</container>
+                     <container label="unspecified" type="box">52</container>
                      <unittitle>3</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">53</container>
+                     <container label="unspecified" type="box">53</container>
                      <unittitle>4</unittitle>
                   </did>
                </c03>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">54</container>
+                  <container label="unspecified" type="box">54</container>
                   <unittitle>Poems-Points</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">55</container>
+                  <container label="unspecified" type="box">55</container>
                   <unittitle>
                      <title>Points of My Compass</title> - final draft and postscript</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">56</container>
+                  <container label="unspecified" type="box">56</container>
                   <unittitle>Poj-Stt</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">57</container>
+                  <container label="unspecified" type="box">57</container>
                   <unittitle>Stu-Th</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">58</container>
+                  <container label="unspecified" type="box">58</container>
                   <unittitle>Ti-Z</unittitle>
                </did>
             </c02>
@@ -692,230 +670,184 @@
             </did>
             <c03 level="file">
                <did>
-                  <container type="box">59</container>
-                  <unittitle>
-                     <unitdate>n.d.-1910</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">59</container>
+                  <unitdate>n.d.-1910</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">60</container>
-                  <unittitle>
-                     <unitdate>1911-1935</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">60</container>
+                  <unitdate>1911-1935</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">61</container>
-                  <unittitle>
-                     <unitdate>1936-1941</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">61</container>
+                  <unitdate>1936-1941</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">62</container>
-                  <unittitle>
-                     <unitdate>1942-1947</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">62</container>
+                  <unitdate>1942-1947</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">63</container>
-                  <unittitle>
-                     <unitdate>1948</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">63</container>
+                  <unitdate>1948</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">64</container>
-                  <unittitle>
-                     <unitdate>1949-Feb. 1950</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">64</container>
+                  <unitdate>1949-Feb. 1950</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">65</container>
-                  <unittitle>
-                     <unitdate>Mar. 1950-1951</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">65</container>
+                  <unitdate>Mar. 1950-1951</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">66</container>
-                  <unittitle>
-                     <unitdate>1952-Apr. 1953</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">66</container>
+                  <unitdate>1952-Apr. 1953</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">67</container>
-                  <unittitle>
-                     <unitdate>May 1953-1954</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">67</container>
+                  <unitdate>May 1953-1954</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">68</container>
-                  <unittitle>
-                     <unitdate>1955-1958</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">68</container>
+                  <unitdate>1955-1958</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">69</container>
-                  <unittitle>
-                     <unitdate>1959-1963</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">69</container>
+                  <unitdate>1959-1963</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">70</container>
-                  <unittitle>
-                     <unitdate>1964-1969</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">70</container>
+                  <unitdate>1964-1969</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">71</container>
-                  <unittitle>
-                     <unitdate>1970-1973</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">71</container>
+                  <unitdate>1970-1973</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">72</container>
-                  <unittitle>
-                     <unitdate>1974-Apr. 1976</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">72</container>
+                  <unitdate>1974-Apr. 1976</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">73</container>
-                  <unittitle>
-                     <unitdate>May 1976-Mar. 1977</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">73</container>
+                  <unitdate>May 1976-Mar. 1977</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">74</container>
-                  <unittitle>
-                     <unitdate>Apr. 1977-Oct. 1977</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">74</container>
+                  <unitdate>Apr. 1977-Oct. 1977</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">75</container>
-                  <unittitle>
-                     <unitdate>Nov. 1977-Apr. 1978</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">75</container>
+                  <unitdate>Nov. 1977-Apr. 1978</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">76</container>
-                  <unittitle>
-                     <unitdate>May 1978-Dec. 1978</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">76</container>
+                  <unitdate certainty="approximate">May 1978-Dec. 1978</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">77</container>
-                  <unittitle>
-                     <unitdate>1979</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">77</container>
+                  <unitdate>1979</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">78</container>
-                  <unittitle>
-                     <unitdate>1980</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">78</container>
+                  <unitdate>1980</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">79</container>
-                  <unittitle>
-                     <unitdate>1981</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">79</container>
+                  <unitdate>1981</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">80</container>
-                  <unittitle>
-                     <unitdate>1982</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">80</container>
+                  <unitdate>1982</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">81</container>
-                  <unittitle>
-                     <unitdate>1983-1984</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">81</container>
+                  <unitdate>1983-1984</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">82</container>
+                  <container label="unspecified" type="box">82</container>
                   <unittitle>E.B.W. to S. Elledge</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">83</container>
+                  <container label="unspecified" type="box">83</container>
                   <unittitle>New Yorker Book A-I</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">84</container>
+                  <container label="unspecified" type="box">84</container>
                   <unittitle>New Yorker Book J-Rosr</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">85</container>
+                  <container label="unspecified" type="box">85</container>
                   <unittitle>New Yorker Book Ross, Harold Wallace</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">86</container>
+                  <container label="unspecified" type="box">86</container>
                   <unittitle>New Yorker Book Rost-Z</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">261</container>
+                  <container label="unspecified" type="box">261</container>
                   <unitdate>1943-1981</unitdate>
                   <unittitle>Albert, Mildred, and William White</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">260</container>
-                  <container type="folder">2-3</container>
-                  <unitdate>c. 1934-1970</unitdate>
+                  <container label="unspecified" type="box">260</container>
+                  <container label="unspecified" type="folder">2-3</container>
+                  <unitdate certainty="approximate">1934-1970</unitdate>
                   <unittitle>Copies of Correspondence</unittitle>
                </did>
                <scopecontent>
@@ -929,566 +861,564 @@
             </did>
             <c03 level="file">
                <did>
-                  <container type="box">87</container>
+                  <container label="unspecified" type="box">87</container>
                   <unittitle>A-Alk</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">88</container>
+                  <container label="unspecified" type="box">88</container>
                   <unittitle>All-Allen, Q</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">89</container>
+                  <container label="unspecified" type="box">89</container>
                   <unittitle>Allen, R-Anf</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">90</container>
+                  <container label="unspecified" type="box">90</container>
                   <unittitle>Ang-Angell, Q</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">91</container>
+                  <container label="unspecified" type="box">91</container>
                   <unittitle>Angell, Roger-Atk</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">92</container>
+                  <container label="unspecified" type="box">92</container>
                   <unittitle>Atl-Bd</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">93</container>
+                  <container label="unspecified" type="box">93</container>
                   <unittitle>Be-Bez</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">94</container>
+                  <container label="unspecified" type="box">94</container>
                   <unittitle>Bf-Bl</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">95</container>
+                  <container label="unspecified" type="box">95</container>
                   <unittitle>Bm-Brc</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">96</container>
+                  <container label="unspecified" type="box">96</container>
                   <unittitle>Brd-Brittingham, L</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">97</container>
+                  <container label="unspecified" type="box">97</container>
                   <unittitle>Brittingham, M-Brown, Q</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">98</container>
+                  <container label="unspecified" type="box">98</container>
                   <unittitle>Brown, R-Bz</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">99</container>
+                  <container label="unspecified" type="box">99</container>
                   <unittitle>C-Cd</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">100</container>
+                  <container label="unspecified" type="box">100</container>
                   <unittitle>Ce-Cld</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">101</container>
+                  <container label="unspecified" type="box">101</container>
                   <unittitle>Cle-Con</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">102</container>
+                  <container label="unspecified" type="box">102</container>
                   <unittitle>Coo-Corn</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">103</container>
+                  <container label="unspecified" type="box">103</container>
                   <unittitle>Cornell Dept. of Rare Books A-H</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">104</container>
+                  <container label="unspecified" type="box">104</container>
                   <unittitle>Cornell Dept. of Rare Books I-Z</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">105</container>
+                  <container label="unspecified" type="box">105</container>
                   <unittitle>Coro-Ct</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">106</container>
+                  <container label="unspecified" type="box">106</container>
                   <unittitle>Cu-Cushman, H (1959)</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">107</container>
+                  <container label="unspecified" type="box">107</container>
                   <unittitle>Cushman, H (1960)-Cz</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">108</container>
+                  <container label="unspecified" type="box">108</container>
                   <unittitle>Da</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">109</container>
+                  <container label="unspecified" type="box">109</container>
                   <unittitle>Db-Dh</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">110</container>
+                  <container label="unspecified" type="box">110</container>
                   <unittitle>Di-Dz</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">111</container>
+                  <container label="unspecified" type="box">111</container>
                   <unittitle>E-Em</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">112</container>
+                  <container label="unspecified" type="box">112</container>
                   <unittitle>En-Ez</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">113</container>
+                  <container label="unspecified" type="box">113</container>
                   <unittitle>F-Fh</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">114</container>
+                  <container label="unspecified" type="box">114</container>
                   <unittitle>Fi-Fl</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">115</container>
+                  <container label="unspecified" type="box">115</container>
                   <unittitle>Fm-Fz</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">116</container>
+                  <container label="unspecified" type="box">116</container>
                   <unittitle>G-Gn</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">117</container>
+                  <container label="unspecified" type="box">117</container>
                   <unittitle>Go-Grd</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">118</container>
+                  <container label="unspecified" type="box">118</container>
                   <unittitle>Gre-Gs</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">119</container>
+                  <container label="unspecified" type="box">119</container>
                   <unittitle>Gt-Gus</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">120</container>
+                  <container label="unspecified" type="box">120</container>
                   <unittitle>Gut-Gz</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">121</container>
+                  <container label="unspecified" type="box">121</container>
                   <unittitle>H-Haro</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">122</container>
+                  <container label="unspecified" type="box">122</container>
                   <unittitle>Harper-Harper, firm (1947)</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">123</container>
+                  <container label="unspecified" type="box">123</container>
                   <unittitle>Harper, firm 1947-1959</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">124</container>
+                  <container label="unspecified" type="box">124</container>
                   <unittitle>Harper, firm 1960-</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">125</container>
+                  <container label="unspecified" type="box">125</container>
                   <unittitle>Harper's-Hd</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">126</container>
+                  <container label="unspecified" type="box">126</container>
                   <unittitle>He</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">127</container>
+                  <container label="unspecified" type="box">127</container>
                   <unittitle>Hf-Hn</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">128</container>
+                  <container label="unspecified" type="box">128</container>
                   <unittitle>Hoa-Hot</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">129</container>
+                  <container label="unspecified" type="box">129</container>
                   <unittitle>Hou-Hz</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">130</container>
+                  <container label="unspecified" type="box">130</container>
                   <unittitle>I-Illian, K</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">131</container>
+                  <container label="unspecified" type="box">131</container>
                   <unittitle>Illian, L-Iz</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">132</container>
+                  <container label="unspecified" type="box">132</container>
                   <unittitle>J</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">133</container>
+                  <container label="unspecified" type="box">133</container>
                   <unittitle>Ka-Ke</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">134</container>
+                  <container label="unspecified" type="box">134</container>
                   <unittitle>Kf-Kz</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">135</container>
+                  <container label="unspecified" type="box">135</container>
                   <unittitle>L-Lea</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">136</container>
+                  <container label="unspecified" type="box">136</container>
                   <unittitle>Leb-Loa</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">137</container>
+                  <container label="unspecified" type="box">137</container>
                   <unittitle>Lob-Loq</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">138</container>
+                  <container label="unspecified" type="box">138</container>
                   <unittitle>Lor-Lz</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">139</container>
+                  <container label="unspecified" type="box">139</container>
                   <unittitle>M-Macl</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">140</container>
+                  <container label="unspecified" type="box">140</container>
                   <unittitle>Macm</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">141</container>
+                  <container label="unspecified" type="box">141</container>
                   <unittitle>Macn-Marb</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">142</container>
+                  <container label="unspecified" type="box">142</container>
                   <unittitle>Marc-Md</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">143</container>
+                  <container label="unspecified" type="box">143</container>
                   <unittitle>Me-Moo</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">144</container>
+                  <container label="unspecified" type="box">144</container>
                   <unittitle>Mop-Mz</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">145</container>
+                  <container label="unspecified" type="box">145</container>
                   <unittitle>N-<title>New Yorker</title> (1947)</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">146</container>
+                  <container label="unspecified" type="box">146</container>
                   <unittitle>
                      <title>New Yorker</title> 1948-1981</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">147</container>
+                  <container label="unspecified" type="box">147</container>
                   <unittitle>
                      <title>New Yorker</title> (various)</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">148</container>
+                  <container label="unspecified" type="box">148</container>
                   <unittitle>
                      <title>New Yorker</title> A-O</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">149</container>
+                  <container label="unspecified" type="box">149</container>
                   <unittitle>Pa-Pd</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">150</container>
+                  <container label="unspecified" type="box">150</container>
                   <unittitle>Pe</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">151</container>
+                  <container label="unspecified" type="box">151</container>
                   <unittitle>Pf-Pp</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">152</container>
+                  <container label="unspecified" type="box">152</container>
                   <unittitle>Po-Q</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">153</container>
+                  <container label="unspecified" type="box">153</container>
                   <unittitle>R-Rh</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">154</container>
+                  <container label="unspecified" type="box">154</container>
                   <unittitle>Ri-Rn</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">155</container>
+                  <container label="unspecified" type="box">155</container>
                   <unittitle>Ro-Rosr</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">156</container>
+                  <container label="unspecified" type="box">156</container>
                   <unittitle>Ross-Rz</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">157</container>
+                  <container label="unspecified" type="box">157</container>
                   <unittitle>S-Sd</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">158</container>
+                  <container label="unspecified" type="box">158</container>
                   <unittitle>Se-Sh</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">159</container>
+                  <container label="unspecified" type="box">159</container>
                   <unittitle>Si-Smith, Edm</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">160</container>
+                  <container label="unspecified" type="box">160</container>
                   <unittitle>Smith, Edn-Staa</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">161</container>
+                  <container label="unspecified" type="box">161</container>
                   <unittitle>Stab</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">162</container>
+                  <container label="unspecified" type="box">162</container>
                   <unittitle>Stac-Ste</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">163</container>
+                  <container label="unspecified" type="box">163</container>
                   <unittitle>Stix and Gude</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">164</container>
+                  <container label="unspecified" type="box">164</container>
                   <unittitle>Stf-Stt</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">165</container>
+                  <container label="unspecified" type="box">165</container>
                   <unittitle>Stu-Sz</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">166</container>
+                  <container label="unspecified" type="box">166</container>
                   <unittitle>Sumner, Alice Birchfield (outgoing)</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">167</container>
+                  <container label="unspecified" type="box">167</container>
                   <unittitle>T-Tg</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">168</container>
+                  <container label="unspecified" type="box">168</container>
                   <unittitle>Temple, Martha White</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">169</container>
+                  <container label="unspecified" type="box">169</container>
                   <unittitle>Tha-Thurber, H</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">170</container>
+                  <container label="unspecified" type="box">170</container>
                   <unittitle>Thurber, J-Thz</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">171</container>
+                  <container label="unspecified" type="box">171</container>
                   <unittitle>Ti-Tz</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">172</container>
+                  <container label="unspecified" type="box">172</container>
                   <unittitle>U-V</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">173</container>
+                  <container label="unspecified" type="box">173</container>
                   <unittitle>W-Wa</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">174</container>
+                  <container label="unspecified" type="box">174</container>
                   <unittitle>Wb-Whh</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">175</container>
+                  <container label="unspecified" type="box">175</container>
                   <unittitle>White, Allene</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">176</container>
+                  <container label="unspecified" type="box">176</container>
                   <unittitle>Whi-White, E.</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">177</container>
+                  <container label="unspecified" type="box">177</container>
                   <unittitle>White, F-White, Jessie</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">178</container>
+                  <container label="unspecified" type="box">178</container>
                   <unittitle>Joel White manuscripts and correspondence
-                        <unitdate>1936-1950</unitdate>
-                  </unittitle>
+                        </unittitle><unitdate>1936-1950</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">179</container>
-                  <unittitle>Joel White manuscripts and correspondence <unitdate>1950-</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">179</container>
+                  <unittitle>Joel White manuscripts and correspondence </unittitle><unitdate>1950-</unitdate>
                </did>
             </c03>
          </c02>
@@ -1498,70 +1428,70 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">180</container>
+                     <container label="unspecified" type="box">180</container>
                      <unittitle>
-                        <unitdate>undated-1933</unitdate> (outgoing)</unittitle>
+                        undated-1933 (outgoing)</unittitle><unitdate>undated-1933</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">181</container>
+                     <container label="unspecified" type="box">181</container>
                      <unittitle>
-                        <unitdate>1934-1949</unitdate> (outgoing)</unittitle>
+                        1934-1949 (outgoing)</unittitle><unitdate>1934-1949</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">182</container>
+                     <container label="unspecified" type="box">182</container>
                      <unittitle>
-                        <unitdate>1950-1977</unitdate> (outgoing)</unittitle>
+                        1950-1977 (outgoing)</unittitle><unitdate>1950-1977</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">183</container>
+                     <container label="unspecified" type="box">183</container>
                      <unittitle>A-Scott Elledge</unittitle>
                   </did>
                </c03>
             <c03 level="file">
                <did>
-                  <container type="box">184</container>
+                  <container label="unspecified" type="box">184</container>
                   <unittitle>L-Ss</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">185</container>
+                  <container label="unspecified" type="box">185</container>
                   <unittitle>White, Stanley Hart</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">186</container>
+                  <container label="unspecified" type="box">186</container>
                   <unittitle>Stb-Wie</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">187</container>
+                  <container label="unspecified" type="box">187</container>
                   <unittitle>Wif-Will</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">188</container>
+                  <container label="unspecified" type="box">188</container>
                   <unittitle>Williamson-Wim</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">189</container>
+                  <container label="unspecified" type="box">189</container>
                   <unittitle>Wiri-Wri</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">190</container>
+                  <container label="unspecified" type="box">190</container>
                   <unittitle>Wrj-Z</unittitle>
                </did>
             </c03>
@@ -1572,26 +1502,20 @@
             </did>
             <c03 level="file">
                <did>
-                  <container type="box">191</container>
-                  <unittitle>
-                     <unitdate>undated-1977</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">191</container>
+                  <unitdate>undated-1977</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">192</container>
-                  <unittitle>
-                     <unitdate>1977-1978</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">192</container>
+                  <unitdate>1977-1978</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">193</container>
-                  <unittitle>
-                     <unitdate>1979-1984</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">193</container>
+                  <unitdate>1979-1984</unitdate>
                </did>
             </c03>
          </c02>
@@ -1602,25 +1526,25 @@
             </did>
             <c03 level="file">
                <did>
-                  <container type="box">194</container>
+                  <container label="unspecified" type="box">194</container>
                   <unittitle>1</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">195</container>
+                  <container label="unspecified" type="box">195</container>
                   <unittitle>2</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">196</container>
+                  <container label="unspecified" type="box">196</container>
                   <unittitle>3</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">197</container>
+                  <container label="unspecified" type="box">197</container>
                   <unittitle>4</unittitle>
                </did>
             </c03>
@@ -1631,13 +1555,13 @@
             </did>
             <c03 level="file">
                <did>
-                  <container type="box">198</container>
+                  <container label="unspecified" type="box">198</container>
                   <unittitle>A-C</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">199-201</container>
+                  <container label="unspecified" type="box">199-201</container>
                   <unittitle>
                      <title>Charlotte's Web</title>
                   </unittitle>
@@ -1645,7 +1569,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">202</container>
+                  <container label="unspecified" type="box">202</container>
                   <unittitle>
                      <title>Charlotte's Web</title>-<title>Elements</title>
                   </unittitle>
@@ -1653,26 +1577,26 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">203</container>
+                  <container label="unspecified" type="box">203</container>
                   <unittitle>
                      <title>Elements</title>-General</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">204-209</container>
+                  <container label="unspecified" type="box">204-209</container>
                   <unittitle>General</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">210</container>
+                  <container label="unspecified" type="box">210</container>
                   <unittitle>General-K</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">211-212</container>
+                  <container label="unspecified" type="box">211-212</container>
                   <unittitle>
                      <title>Letters of E.B. White</title>
                   </unittitle>
@@ -1680,19 +1604,19 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">213</container>
+                  <container label="unspecified" type="box">213</container>
                   <unittitle>Le-One</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">214</container>
+                  <container label="unspecified" type="box">214</container>
                   <unittitle>Onf-Stt</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">215</container>
+                  <container label="unspecified" type="box">215</container>
                   <unittitle>
                      <title>Stuart Little</title>
                   </unittitle>
@@ -1700,31 +1624,27 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">216</container>
+                  <container label="unspecified" type="box">216</container>
                   <unittitle>
                      <title>Stuart Little</title>-Sympathy</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">217</container>
+                  <container label="unspecified" type="box">217</container>
                   <unittitle>Sympathy-Z</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">218</container>
-                  <unittitle>
-                     <unitdate>1983-1984</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">218</container>
+                  <unitdate>1983-1984</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">219</container>
-                  <unittitle>
-                     <unitdate>1984-1985</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">219</container>
+                  <unitdate>1984-1985</unitdate>
                </did>
             </c03>
             </c02>
@@ -1740,26 +1660,26 @@
                </did>
             <c03 level="file">
                <did>
-                  <container type="box">220A</container>
+                  <container label="unspecified" type="box">220A</container>
                   <unittitle>EBW alone or with others</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">220B</container>
+                  <container label="unspecified" type="box">220B</container>
                   <unittitle>Others</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">221</container>
+                  <container label="unspecified" type="box">221</container>
                   <unittitle>S.T. White's stereoptican collection</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">260</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">260</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>1972</unitdate>
                   <unittitle>Photographs of Cass Caufield and Bill Maxwell from the National Book
                      Committee</unittitle>
@@ -1767,8 +1687,8 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">260</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">260</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unitdate>Undated</unitdate>
                   <unittitle>Photograph of Honorary Award recipients at Harvard (includes E.B.
                      White)</unittitle>
@@ -1776,8 +1696,8 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">266</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">266</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Photograph of E.B. White and the White Family</unittitle>
                </did>
             </c03>
@@ -1788,64 +1708,52 @@
             </did>
             <c03 level="file">
                <did>
-                  <container type="box">222</container>
-                  <unittitle>
-                     <unitdate>1910-1929</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">222</container>
+                  <unitdate>1910-1929</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">223</container>
-                  <unittitle>
-                     <unitdate>1930-1939</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">223</container>
+                  <unitdate>1930-1939</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">224</container>
-                  <unittitle>
-                     <unitdate>1940-1949</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">224</container>
+                  <unitdate>1940-1949</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">226</container>
-                  <unittitle>
-                     <unitdate>1960-1969</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">226</container>
+                  <unitdate>1960-1969</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">227</container>
-                  <unittitle>
-                     <unitdate>1970-1975</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">227</container>
+                  <unitdate>1970-1975</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">228</container>
-                  <unittitle>
-                     <unitdate>1976-</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">228</container>
+                  <unitdate>1976-</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">229</container>
-                  <unittitle/>
-               </did>
+                  <container label="unspecified" type="box">229</container>
+                  
+               <unittitle encodinganalog="MARC 245" label="Title:">E. B. White collection, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1899-1985.</unitdate></did>
             </c03>
          </c02>
             <c02 level="subseries">
             <did>
                <unittitle id="s3ss3">Whiteiana</unittitle>
-                  <container type="box">230</container>
-                  <unittitle/>
+                  <container label="unspecified" type="box">230</container>
+                  
                </did>
            </c02>
          </c01>
@@ -1859,21 +1767,21 @@
                </did>
             <c03 level="file">
                <did>
-                  <container type="box">231</container>
+                  <container label="unspecified" type="box">231</container>
                   <unittitle>I</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">232</container>
+                  <container label="unspecified" type="box">232</container>
                   <unittitle>II</unittitle>
                </did>
             </c03>
              
             <c03 level="file">
                <did>
-                  <container type="box">260</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">260</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unitdate>1954</unitdate>
                   <unittitle>The Newspaper Guild of New York Page One Literature Award for "The
                      Second Tree from the Corner"</unittitle>
@@ -1881,8 +1789,8 @@
             </c03>
                <c03 level="file">
                   <did>
-                     <container type="map-case"/>
-                     <container type="folder">3</container>
+                     
+                     <container label="unspecified" type="mapcase-folder">3</container>
                      <unittitle>Honorary Degrees</unittitle>
                   </did>
                </c03>
@@ -1893,57 +1801,55 @@
             </did>
             <c03 level="file">
                <did>
-                  <container type="box">233</container>
-                  <unittitle/>
+                  <container label="unspecified" type="box">233</container>
+                  
+               <unittitle encodinganalog="MARC 245" label="Title:">E. B. White collection, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1899-1985.</unitdate></did>
+            </c03>
+            <c03 level="file">
+               <did>
+                  <container label="unspecified" type="box">234</container>
+                  <unitdate>1977-1978</unitdate>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">234</container>
-                  <unittitle>
-                     <unitdate>1977-1978</unitdate>
-                  </unittitle>
-               </did>
-            </c03>
-            <c03 level="file">
-               <did>
-                  <container type="box">235</container>
+                  <container label="unspecified" type="box">235</container>
                   <unittitle>(sorted)</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">236</container>
+                  <container label="unspecified" type="box">236</container>
                   <unittitle>Box II</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">237</container>
+                  <container label="unspecified" type="box">237</container>
                   <unittitle>Miscellaneous</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">238</container>
+                  <container label="unspecified" type="box">238</container>
                   <unittitle>About E.B. White 1</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">239</container>
+                  <container label="unspecified" type="box">239</container>
                   <unittitle>About E.B. White 2</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">240</container>
+                  <container label="unspecified" type="box">240</container>
                   <unittitle>Miscellaneous</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">258</container>
+                  <container label="unspecified" type="box">258</container>
                   <unittitle>Printed scrapbook</unittitle>
                </did>
                <accessrestrict>
@@ -1952,9 +1858,9 @@
             </c03>
                <c03 level="file">
                   <did>
-                     <container type="map-case"/>
-                     <container type="folder">4</container>
-                     <unitdate type="inclusive" normal="1978-04-18">1978-04-18</unitdate>
+                     
+                     <container label="unspecified" type="mapcase-folder">4</container>
+                     <unitdate normal="1978-04-18" type="inclusive">1978-04-18</unitdate>
                      <unittitle>NY Times clipping listing Pulitzer Prize winners, including E.B. White</unittitle>
                   </did>
                </c03>
@@ -1966,19 +1872,19 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">241</container>
+                  <container label="unspecified" type="box">241</container>
                   <unittitle>Trade I (Property of Harper &amp; Row)</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">242</container>
+                  <container label="unspecified" type="box">242</container>
                   <unittitle>Trade II (Property of Harper &amp; Row)</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">243</container>
+                  <container label="unspecified" type="box">243</container>
                   <unittitle>Various (Property of Harper &amp; Row)</unittitle>
                </did>
             </c02>
@@ -1990,74 +1896,74 @@
             <scopecontent><p>This series contains files originally held by MacMillan Publishing company and includes correspondence, manuscripts, drafts, reviews, and clippings related to the publications of the first three editions of The Elements of Style.</p></scopecontent>
                <c02 level="file">
                   <did>
-                     <container type="box">267</container>
-                     <container type="folder">1</container>
-                     <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate> 
+                     <container label="unspecified" type="box">267</container>
+                     <container label="unspecified" type="folder">1</container>
+                     <unitdate normal="1976/1977" type="inclusive">1976-1977</unitdate> 
                      <unittitle>Correspondence 1976-1977</unittitle>
                   </did>
                </c02>
                <c02 level="file">
                   <did>
-                     <container type="box">267</container>
-                     <container type="folder">2</container>
-                     <unitdate type="inclusive" normal="1978">1978</unitdate> 
+                     <container label="unspecified" type="box">267</container>
+                     <container label="unspecified" type="folder">2</container>
+                     <unitdate normal="1978" type="inclusive">1978</unitdate> 
                      <unittitle>Correspondence 1978</unittitle>
                   </did>
                </c02>
                <c02 level="file">
                   <did>
-                     <container type="box">267</container>
-                     <container type="folder">3</container>
-                     <unitdate type="inclusive" normal="1979">1979</unitdate> 
+                     <container label="unspecified" type="box">267</container>
+                     <container label="unspecified" type="folder">3</container>
+                     <unitdate normal="1979" type="inclusive">1979</unitdate> 
                      <unittitle>Correspondence 1979</unittitle>
                   </did>
                </c02>
                <c02 level="file">
                   <did>
-                     <container type="box">267</container>
-                     <container type="folder">4</container>
-                     <unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate> 
+                     <container label="unspecified" type="box">267</container>
+                     <container label="unspecified" type="folder">4</container>
+                     <unitdate normal="1980/1981" type="inclusive">1980-1981</unitdate> 
                      <unittitle>Correspondence 1980-1981</unittitle>
                   </did>
                </c02>
                <c02 level="file">
                   <did>
-                     <container type="box">267</container>
-                     <container type="folder">5</container>
-                     <unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate> 
+                     <container label="unspecified" type="box">267</container>
+                     <container label="unspecified" type="folder">5</container>
+                     <unitdate normal="1982/1983" type="inclusive">1982-1983</unitdate> 
                      <unittitle>Correspondence 1982-1983</unittitle>
                   </did>
                </c02>
                <c02 level="file">
                   <did>
-                     <container type="box">267</container>
-                     <container type="folder">6</container>
-                     <unitdate type="inclusive" certainty="Circa" normal="1984">1984</unitdate> 
+                     <container label="unspecified" type="box">267</container>
+                     <container label="unspecified" type="folder">6</container>
+                     <unitdate certainty="approximate" normal="1984" type="inclusive">1984</unitdate> 
                      <unittitle>Correspondence 1984</unittitle>
                   </did>
                </c02>
                <c02 level="file">
                   <did>
-                     <container type="box">267</container>
-                     <container type="folder">7</container>
-                     <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate> 
+                     <container label="unspecified" type="box">267</container>
+                     <container label="unspecified" type="folder">7</container>
+                     <unitdate normal="1985/1987" type="inclusive">1985-1987</unitdate> 
                      <unittitle>Correspondence 1985-1987</unittitle>
                   </did>
                </c02>
             <c02 level="file">
                <did>
-                  <container type="box">276</container>
-                  <container type="folder">8</container>
-                  <unitdate type="inclusive" normal="1978">1978</unitdate> 
+                  <container label="unspecified" type="box">276</container>
+                  <container label="unspecified" type="folder">8</container>
+                  <unitdate normal="1978" type="inclusive">1978</unitdate> 
                   <unittitle>
                      <title>Elements of Style</title>3rd edition - revision</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">276</container>
-                  <container type="folder">9</container>
-                  <unitdate type="inclusive" normal="1978">1978</unitdate>
+                  <container label="unspecified" type="box">276</container>
+                  <container label="unspecified" type="folder">9</container>
+                  <unitdate normal="1978" type="inclusive">1978</unitdate>
                   <unittitle>
                      <title>Elements of Style</title>3rd edition - revision</unittitle>
                </did>
@@ -2066,154 +1972,154 @@
             
             <c02 level="file">
                <did>
-                  <container type="box">276</container>
-                  <container type="folder">10-11</container>
-                  <unitdate type="inclusive" normal="1978">1978</unitdate>
+                  <container label="unspecified" type="box">276</container>
+                  <container label="unspecified" type="folder">10-11</container>
+                  <unitdate normal="1978" type="inclusive">1978</unitdate>
                   <unittitle>
                      <title>Elements of Style</title>3rd edition - revision</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">276</container>
-                  <container type="folder">12</container>
-                  <unitdate type="inclusive" normal="1978">1978</unitdate>
+                  <container label="unspecified" type="box">276</container>
+                  <container label="unspecified" type="folder">12</container>
+                  <unitdate normal="1978" type="inclusive">1978</unitdate>
                   <unittitle>
                      <title>Elements of Style</title>3rd edition - tearsheets</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">276</container>
-                  <container type="folder">13</container>
-                  <unitdate type="inclusive" normal="1972">1972</unitdate>
+                  <container label="unspecified" type="box">276</container>
+                  <container label="unspecified" type="folder">13</container>
+                  <unitdate normal="1972" type="inclusive">1972</unitdate>
                   <unittitle>
                      <title>Elements of Style</title>2nd edition - revised preface</unittitle>
                </did>
             </c02>
                <c02 level="file">
                   <did>
-                     <container type="box">267</container>
-                     <container type="folder">14</container>
-                     <unitdate type="inclusive" normal="1968/1975">1968-1975</unitdate> 
+                     <container label="unspecified" type="box">267</container>
+                     <container label="unspecified" type="folder">14</container>
+                     <unitdate normal="1968/1975" type="inclusive">1968-1975</unitdate> 
                      <unittitle>Correspondence related to 2nd edition</unittitle>
                   </did>
                </c02>
             <c02 level="file">
                <did>
-                  <container type="box">276</container>
-                  <container type="folder">15-17</container>
-                  <unitdate type="inclusive" certainty="Circa" normal="1957-1959">1957-1959</unitdate>
+                  <container label="unspecified" type="box">276</container>
+                  <container label="unspecified" type="folder">15-17</container>
+                  <unitdate certainty="approximate" normal="1957-1959" type="inclusive">1957-1959</unitdate>
                   <unittitle>
                      <title>Elements of Style</title> 1st edition</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">276</container>
-                  <container type="folder">18</container>
-                  <unitdate type="inclusive" certainty="Circa" normal="1957-1959">1957-1959</unitdate>
+                  <container label="unspecified" type="box">276</container>
+                  <container label="unspecified" type="folder">18</container>
+                  <unitdate certainty="approximate" normal="1957-1959" type="inclusive">1957-1959</unitdate>
                   <unittitle>
                      <title>Elements of Style</title> 1st edition - notes and feedback</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">276</container>
-                  <container type="folder">19</container>
-                  <unitdate type="inclusive" certainty="Circa" normal="1957-1959">1957-1959</unitdate>
+                  <container label="unspecified" type="box">276</container>
+                  <container label="unspecified" type="folder">19</container>
+                  <unitdate certainty="approximate" normal="1957-1959" type="inclusive">1957-1959</unitdate>
                   <unittitle>
                      <title>Elements of Style</title> 1st edition - discarded material</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">276</container>
-                  <container type="folder">20</container>
-                  <unitdate type="inclusive" certainty="Circa" normal="1959">1959</unitdate>
+                  <container label="unspecified" type="box">276</container>
+                  <container label="unspecified" type="folder">20</container>
+                  <unitdate certainty="approximate" normal="1959" type="inclusive">1959</unitdate>
                   <unittitle>
                      <title>Elements of Style</title> 1st edition - uncorrected proof</unittitle>
                </did>
             </c02>
                <c02 level="file">
                   <did>
-                     <container type="box">267</container>
-                     <container type="folder">21</container>
-                     <unitdate type="inclusive" normal="1958/1979">1958-1979</unitdate> 
+                     <container label="unspecified" type="box">267</container>
+                     <container label="unspecified" type="folder">21</container>
+                     <unitdate normal="1958/1979" type="inclusive">1958-1979</unitdate> 
                      <unittitle>Correspondence related to 1st edition</unittitle>
                   </did>
                   <scopecontent><p>Also includes correspondence related to later editions.</p></scopecontent>
                </c02>
             <c02 level="file">
                <did>
-                  <container type="box">267</container>
-                  <container type="folder">22</container>
-                  <unitdate type="inclusive" normal="1959">1959</unitdate> 
+                  <container label="unspecified" type="box">267</container>
+                  <container label="unspecified" type="folder">22</container>
+                  <unitdate normal="1959" type="inclusive">1959</unitdate> 
                   <unittitle>News clippings</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">267</container>
-                  <container type="folder">23</container>
-                  <unitdate type="inclusive" certainty="Circa" normal="1959/1978">1959-1978</unitdate> 
+                  <container label="unspecified" type="box">267</container>
+                  <container label="unspecified" type="folder">23</container>
+                  <unitdate certainty="approximate" normal="1959/1978" type="inclusive">1959-1978</unitdate> 
                   <unittitle>News clippings and reviews</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">267</container>
-                  <container type="folder">24</container>
-                  <unitdate type="inclusive" certainty="Circa" normal="1960/1978">1960-1978</unitdate> 
+                  <container label="unspecified" type="box">267</container>
+                  <container label="unspecified" type="folder">24</container>
+                  <unitdate certainty="approximate" normal="1960/1978" type="inclusive">1960-1978</unitdate> 
                   <unittitle>News clippings, correspondence, and reviews</unittitle>
                </did>
             </c02>
            
             <c02 level="file">
                <did>
-                  <container type="box">267</container>
-                  <container type="folder">25-26</container>
-                  <unitdate type="inclusive" certainty="Circa" normal="1972/1979">1972-1979</unitdate> 
+                  <container label="unspecified" type="box">267</container>
+                  <container label="unspecified" type="folder">25-26</container>
+                  <unitdate certainty="approximate" normal="1972/1979" type="inclusive">1972-1979</unitdate> 
                   <unittitle>2nd edition reviews</unittitle>
                </did>
             </c02>
             
             <c02 level="file">
                <did>
-                  <container type="box">267</container>
-                  <container type="folder">27</container>
-                  <unitdate type="inclusive" certainty="Circa" normal="1967/1974">1967-1974</unitdate> 
+                  <container label="unspecified" type="box">267</container>
+                  <container label="unspecified" type="folder">27</container>
+                  <unitdate certainty="approximate" normal="1967/1974" type="inclusive">1967-1974</unitdate> 
                   <unittitle>2nd edition marketing</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">267</container>
-                  <container type="folder">28</container>
-                  <unitdate type="inclusive" certainty="Circa" normal="1975/1993">1975-1993</unitdate> 
+                  <container label="unspecified" type="box">267</container>
+                  <container label="unspecified" type="folder">28</container>
+                  <unitdate certainty="approximate" normal="1975/1993" type="inclusive">1975-1993</unitdate> 
                   <unittitle>3rd edition press materials</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">267</container>
-                  <container type="folder">29</container>
-                  <unitdate type="inclusive" certainty="Circa" normal="1979">1979</unitdate> 
+                  <container label="unspecified" type="box">267</container>
+                  <container label="unspecified" type="folder">29</container>
+                  <unitdate certainty="approximate" normal="1979" type="inclusive">1979</unitdate> 
                   <unittitle>3rd edition press releases</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">267</container>
-                  <container type="folder">30</container>
-                  <unitdate type="inclusive" certainty="Circa" normal="1957/2009">1957-2009</unitdate> 
+                  <container label="unspecified" type="box">267</container>
+                  <container label="unspecified" type="folder">30</container>
+                  <unitdate certainty="approximate" normal="1957/2009" type="inclusive">1957-2009</unitdate> 
                   <unittitle>50th anniversary edition press materials</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">267</container>
-                  <container type="folder">31</container>
+                  <container label="unspecified" type="box">267</container>
+                  <container label="unspecified" type="folder">31</container>
                   <unitdate>Undated</unitdate> 
                   <unittitle>The Elements of Style by William Strunk Jr.</unittitle>
                </did>
@@ -2221,9 +2127,9 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">267</container>
-                  <container type="folder">32</container>
-                  <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate> 
+                  <container label="unspecified" type="box">267</container>
+                  <container label="unspecified" type="folder">32</container>
+                  <unitdate normal="1959/1962" type="inclusive">1959-1962</unitdate> 
                   <unittitle>Correspondence with J.G. Cage (of Macmillan Co.)</unittitle>
                </did>
                <scopecontent><p>Letter to his alma mater Williams College and from Katherine White - grammar related.</p></scopecontent>
@@ -2244,94 +2150,94 @@
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">244</container>
+                        <container label="unspecified" type="box">244</container>
                         <unittitle>1</unittitle>
                      </did>
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">245</container>
+                        <container label="unspecified" type="box">245</container>
                         <unittitle>2</unittitle>
                      </did>
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">246</container>
+                        <container label="unspecified" type="box">246</container>
                         <unittitle>3</unittitle>
                      </did>
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">247</container>
+                        <container label="unspecified" type="box">247</container>
                         <unittitle>4</unittitle>
                      </did>
                   </c04>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">248</container>
+                     <container label="unspecified" type="box">248</container>
                      <unittitle>First draft and photographs and negatives</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">249</container>
+                     <container label="unspecified" type="box">249</container>
                      <unittitle>Second draft, Chapters I-VII</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">250</container>
+                     <container label="unspecified" type="box">250</container>
                      <unittitle>Second draft, Chapters VII-X</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">250</container>
+                     <container label="unspecified" type="box">250</container>
                      <unittitle>First complete text, Chapters I-IV</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">251</container>
+                     <container label="unspecified" type="box">251</container>
                      <unittitle>First complete text, Chapters V-X</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">252</container>
-                     <unittitle>Second text ( <unitdate>1980</unitdate> ), Chapters I-X</unittitle>
+                     <container label="unspecified" type="box">252</container>
+                     <unittitle>Second text ( 1980 ), Chapters I-X</unittitle><unitdate>1980</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">253</container>
-                     <unittitle>Second text ( <unitdate>1980</unitdate> ), Chapters
-                        XI-XV</unittitle>
+                     <container label="unspecified" type="box">253</container>
+                     <unittitle>Second text ( 1980 ), Chapters
+                        XI-XV</unittitle><unitdate>1980</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">253</container>
+                     <container label="unspecified" type="box">253</container>
                      <unittitle>Typescript, Chapters XI-XVIII (annotated)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">254</container>
+                     <container label="unspecified" type="box">254</container>
                      <unittitle>Copy-edited typescript</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">259</container>
+                     <container label="unspecified" type="box">259</container>
                      <unittitle>Note Cards</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="map-case"/>
-                     <container type="folder">2</container>
+                     
+                     <container label="unspecified" type="mapcase-folder">2</container>
                      <unittitle>Poster for the book</unittitle>
                   </did>
                </c03>
@@ -2344,19 +2250,19 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">255</container>
+                     <container label="unspecified" type="box">255</container>
                      <unittitle>Original manuscript</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">256</container>
+                     <container label="unspecified" type="box">256</container>
                      <unittitle>Publisher's copy I</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">257</container>
+                     <container label="unspecified" type="box">257</container>
                      <unittitle>Publisher's copy II</unittitle>
                   </did>
                </c03>
@@ -2369,8 +2275,8 @@
           
             <c02 level="file">
                <did>
-                  <container type="box">260</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">260</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unitdate>Undated</unitdate>
                   <unittitle>Record Labels</unittitle>
                </did>
@@ -2380,9 +2286,9 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">260</container>
-                  <container type="folder">5-6</container>
-                  <unitdate>c. 1875</unitdate>
+                  <container label="unspecified" type="box">260</container>
+                  <container label="unspecified" type="folder">5-6</container>
+                  <unitdate certainty="approximate">1875</unitdate>
                   <unittitle>Musical scores by S.T. White</unittitle>
                </did>
                <scopecontent>
@@ -2391,8 +2297,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">260</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">260</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unitdate>Undated</unitdate>
                   <unittitle>Musical scores by unknown composer</unittitle>
                </did>
@@ -2420,7 +2326,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">262</container>
+                  <container label="unspecified" type="box">262</container>
                   <unitdate>Undated</unitdate>
                   <unitid>MU-2288</unitid>
                   <unittitle>Stuart Little roadster </unittitle>
@@ -2437,7 +2343,7 @@
             </did>
             <c03 level="file">
                <did>
-                  <container type="box">260</container>
+                  <container label="unspecified" type="box">260</container>
                   <unitdate>Undated</unitdate>
                   <unitid>SR-6345-6348</unitid>
                   <unittitle>E.B. White reads <title>Charlotte's Web</title>
@@ -2446,7 +2352,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10536 and 10546</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapters 1 and 2
@@ -2455,7 +2361,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10537-10539</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapter 3
@@ -2467,7 +2373,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10540-10541</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapter 4
@@ -2479,7 +2385,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10542-10543</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapter 5
@@ -2491,43 +2397,43 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10544-10545</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapter 6
                   </unittitle>
                </did>
                <scopecontent>
-                  <p/>
+                  
                </scopecontent>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10547-10548</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapters 7 and 8
                   </unittitle>
                </did>
                <scopecontent>
-                  <p/>
+                  
                </scopecontent>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10549</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapter 9
                   </unittitle>
                </did>
                <scopecontent>
-                  <p/>
+                  
                </scopecontent>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10550</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapter 10
@@ -2536,7 +2442,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10551</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapters 11 and 12
@@ -2545,7 +2451,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10552</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapter 13
@@ -2554,7 +2460,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10553</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapters 14 and 15
@@ -2563,7 +2469,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10554</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapter 16
@@ -2572,7 +2478,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10555</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapter 17
@@ -2581,7 +2487,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10556</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapter 18
@@ -2590,7 +2496,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10557</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapter 20
@@ -2599,7 +2505,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10558</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapter 21
@@ -2608,7 +2514,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10559</unitid>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title> - Chapter 22
@@ -2617,7 +2523,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unittitle>E.B. White Reads <title>Charlotte's Web</title>: Film Strips - Chapters
                      1-22 </unittitle>
@@ -2629,8 +2535,8 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">266</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">266</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unitdate>1973</unitdate>
                   <unittitle>Original pencil sketches and cels from the animated film <title>Charlotte's Web</title></unittitle>
                </did>
@@ -2640,8 +2546,8 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">1</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">1</container>
                   <unitdate>1973</unitdate>
                   <unittitle>Original color sketch from the animated film <title>Charlotte's Web</title></unittitle>
                </did>
@@ -2656,7 +2562,7 @@
                </did>
             <c03 level="file">
                <did>
-                  <container type="box">260</container>
+                  <container label="unspecified" type="box">260</container>
                   <unitdate>Undated</unitdate>
                   <unitid>SR-6343-6344</unitid>
                   <unittitle>Julie Harris reads <title>Stuart Little</title>
@@ -2666,7 +2572,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10560</unitid>
                   <unittitle><title>Stuart Little</title> - Music </unittitle>
@@ -2678,8 +2584,8 @@
           
             <c03 level="file">
                <did>
-                  <container type="box">266</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">266</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unitdate>1965</unitdate>
                   <unittitle>Still photographs from TV adaptation of <title>Stuart Little</title></unittitle>
                </did>
@@ -2687,8 +2593,8 @@
           
             <c03 level="file">
                <did>
-                  <container type="map-case"/>
-                  <container type="folder">1</container>
+                  
+                  <container label="unspecified" type="mapcase-folder">1</container>
                   <unitdate>Undated</unitdate>
                   <unittitle>Storyboards for <title>Stuart Little</title> Chapters 8-15</unittitle>
                </did>
@@ -2700,7 +2606,7 @@
             </did>
             <c03 level="file">
                <did>
-                  <container type="box">260</container>
+                  <container label="unspecified" type="box">260</container>
                   <unitdate>1985</unitdate>
                   <unitid>Cassette TR-10563</unitid>
                   <unittitle>Meet the Newberry Author: E.B. White</unittitle>
@@ -2712,15 +2618,15 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">266</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">266</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unitdate>Undated</unitdate>
                   <unittitle>Layout of E.B. White filmstrip by Random House</unittitle>
                </did>
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>July, 1977</unitdate>
                   <unitid>5in Reel TR-10528</unitid>
                   <unittitle>"The Right of Privacy" </unittitle>
@@ -2732,7 +2638,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>July, 1977</unitdate>
                   <unitid>Cassette TR-10531</unitid>
                   <unittitle>"The Right of Privacy" </unittitle>
@@ -2744,7 +2650,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>July, 1976</unitdate>
                   <unitid>7in Reel TR-10530</unitid>
                   <unittitle>"The Xerox Matter" </unittitle>
@@ -2756,7 +2662,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>July, 1976</unitdate>
                   <unitid>Cassette TR-10533</unitid>
                   <unittitle>"The Xerox Matter" </unittitle>
@@ -2768,7 +2674,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>October, 1964</unitdate>
                   <unitid>7in Reel TR-10529</unitid>
                   <unittitle>"E.B. White Recalls Cornell Years" </unittitle>
@@ -2780,7 +2686,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>October, 1964</unitdate>
                   <unitid>Cassette TR-10532</unitid>
                   <unittitle>"E.B. White Recalls Cornell Years" </unittitle>
@@ -2792,7 +2698,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>October, 1964</unitdate>
                   <unitid>CD-2363</unitid>
                   <unittitle>"E.B. White Recalls Cornell Years" </unittitle>
@@ -2807,7 +2713,7 @@
 
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10534</unitid>
                   <unittitle>Mrs. Bushong's 3rd Year Students Discussion of E.B. White s Children's
@@ -2819,7 +2725,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">264</container>
+                  <container label="unspecified" type="box">264</container>
                   <unitdate>Undated</unitdate>
                   <unitid>Cassette TR-10535</unitid>
                   <unittitle>Mrs. Flemmings Class </unittitle>
@@ -2828,7 +2734,7 @@
          
             <c03 level="file">
                <did>
-                  <container type="box">265</container>
+                  <container label="unspecified" type="box">265</container>
                   <unitdate>1973</unitdate>
                   <unitid>16mm F-1086</unitid>
                   <unittitle><title>The Family that Dwelt Apart</title>
@@ -2840,7 +2746,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">265</container>
+                  <container label="unspecified" type="box">265</container>
                   <unitdate>Undated</unitdate>
                   <unitid>16mm F-1087-1088</unitid>
                   <unittitle><title>Maine Lobsterman</title>
@@ -2861,7 +2767,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">265</container>
+                  <container label="unspecified" type="box">265</container>
                   <unitdate>Undated</unitdate>
                   <unitid>16mm F-1083-1085</unitid>
                   <unittitle>Camp Otter: Reels 1-3 </unittitle>
@@ -2872,7 +2778,7 @@
             </c03>
             <c03 level="file">
                <did>
-                  <container type="box">265</container>
+                  <container label="unspecified" type="box">265</container>
                   <unitdate>Undated</unitdate>
                   <unitid>16mm F-1089</unitid>
                   <unittitle>Little Boys in the Bush </unittitle>
@@ -2885,5 +2791,12 @@
 
          </c01>
       </dsc>
-   </archdesc>
+   <userestrict>
+            <head>Restrictions on use:</head>
+            <p>By appointment only. Researchers may view one folder at a time.</p>
+         </userestrict><prefercite>
+            <head>Cite As:</head>
+            <p>E. B. White collection, #4619. Division of Rare and Manuscript Collections, Cornell
+               University Library.</p>
+         </prefercite></archdesc>
 </ead>

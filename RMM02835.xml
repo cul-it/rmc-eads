@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02835::Lake Mohonk Mountain House records)//EN">RMM02835</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02835::Lake Mohonk Mountain House records)//EN">RMM02835</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Lake Mohonk Mountain House records, 1870-1968.</titleproper>
@@ -27,6 +26,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -35,22 +40,22 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Lake Mohonk Mountain House Records,<lb/>1870-1968</titleproper>
+         <titleproper>Guide to the Lake Mohonk Mountain House Records,1870-1968</titleproper>
          <num>Collection Number: 2835</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+         <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/>
-2B Carl A. Kroch Library<lb/>
-Cornell University<lb/>
-Ithaca, NY 14853<lb/>
-(607) 255-3530<lb/>
-Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections
+2B Carl A. Kroch Library
+Cornell University
+Ithaca, NY 14853
+(607) 255-3530
+Fax: (607) 255-9524
 <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
 <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
@@ -67,17 +72,15 @@ Fax: (607) 255-9524<lb/>
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Lake Mohonk Mountain House records, 
-		<unitdate type="inclusive" encodinganalog="MARC 245">1870-1968.</unitdate>
-		
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Lake Mohonk Mountain House records, 
+		</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1870-1968.</unitdate>
          <unitid label="Collection Number:">2835</unitid>
          <origination label="Creator:"> 
 		  
             <corpname encodinganalog="MARC 110">Lake Mohonk Mountain House.</corpname>
 		
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>80.0 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>80.0 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, bills, bank statements, payroll records, insurance politices, guest accounts, ledgers, farm records, and other materials.</physdesc>
          <repository label="Repository:"> Division of Rare and Manuscript Collections, Cornell University Library</repository>
          <abstract label="Abstract:">Records of Lake Mohonk Mountain House, a resort hotel in the Shawangunk Mountains near New Paltz, New York, owned and operated by the Smileys, a Quaker family. Albert Smiley bought a tavern near Lake Mohonk and 280 acres, including the lake, in 1869.</abstract>
@@ -85,7 +88,7 @@ Fax: (607) 255-9524<lb/>
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="organization">ORGANIZATIONAL HISTORY </head>
+         <head altrender="organization" id="a2">ORGANIZATIONAL HISTORY </head>
          <p>Lake Mohonk Mountain House is a resort hotel in the Shawangunk Mountains near New Paltz, New York, owned and operated by the Smileys, a Quaker family. Albert Smiley bought a tavern near Lake Mohonk and 280 acres, including the lake, in 1869.</p>
       </bioghist>
       <scopecontent encodinganalog="MARC 520">
@@ -113,438 +116,366 @@ Fax: (607) 255-9524<lb/>
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Ledgers.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Insurance policies.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Bills (financial).</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Guest registers.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Ledgers.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Insurance policies.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Bills (financial).</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Guest registers.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Lake Mohonk Mountain House records, #2835. Division of Rare and Manuscript Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>B letters 
-			 <unitdate>1905</unitdate>
-			 , P letters 1905, 1905 letters</unittitle>
+			 1905
+			 , P letters 1905, 1905 letters</unittitle><unitdate>1905</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
+               <container label="unspecified" type="box">2</container>
                <unittitle> 
 			 
-                  <unitdate>1908</unitdate>
+                  1908
 			 letters, 
-			 <unitdate>1915</unitdate>
+			 1915
 			 letters, 
-			 <unitdate>1921</unitdate>
-			 letters</unittitle>
+			 1921
+			 letters</unittitle><unitdate>1908</unitdate><unitdate>1915</unitdate><unitdate>1921</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>House Correspondence 
-			 <unitdate>1913-1914</unitdate>
-			 C-J</unittitle>
+			 1913-1914
+			 C-J</unittitle><unitdate>1913-1914</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
+               <container label="unspecified" type="box">4</container>
                <unittitle>House Correspondence 
-			 <unitdate>1913-1914</unitdate>
-			 K-P</unittitle>
+			 1913-1914
+			 K-P</unittitle><unitdate>1913-1914</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
+               <container label="unspecified" type="box">5</container>
                <unittitle>House Correspondence 
-			 <unitdate>1913-1914</unitdate>
-			 Q-W</unittitle>
+			 1913-1914
+			 Q-W</unittitle><unitdate>1913-1914</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">6</container>
+               <container label="unspecified" type="box">6</container>
                <unittitle>House Correspondence 
-			 <unitdate>1915</unitdate>
-			 A-D</unittitle>
+			 1915
+			 A-D</unittitle><unitdate>1915</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">7</container>
+               <container label="unspecified" type="box">7</container>
                <unittitle>House Correspondence 
-			 <unitdate>1915</unitdate>
-			 E-K</unittitle>
+			 1915
+			 E-K</unittitle><unitdate>1915</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">8</container>
+               <container label="unspecified" type="box">8</container>
                <unittitle>House Correspondence 
-			 <unitdate>1915</unitdate>
-			 M-Q</unittitle>
+			 1915
+			 M-Q</unittitle><unitdate>1915</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>House Correspondence 
-			 <unitdate>1915</unitdate>
-			 Q-V</unittitle>
+			 1915
+			 Q-V</unittitle><unitdate>1915</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">10</container>
+               <container label="unspecified" type="box">10</container>
                <unittitle>Correspondence, Smiley 
-			 <unitdate>1916-1925</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1916-1925</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">11</container>
+               <container label="unspecified" type="box">11</container>
                <unittitle>Benjamin S. Helmer Correspondence 
-			 <unitdate>1922</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1922</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">12</container>
+               <container label="unspecified" type="box">12</container>
                <unittitle>Benjamin S. Helmer Correspondence 
-			 <unitdate>1913-1920</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1913-1920</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">13</container>
+               <container label="unspecified" type="box">13</container>
                <unittitle>Benjamin S. Helmer Correspondence 
-			 <unitdate>1933-1937</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1933-1937</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">14</container>
+               <container label="unspecified" type="box">14</container>
                <unittitle>Form letters and miscellaneous correspondence, 
-			 <unitdate>1918-1965</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1918-1965</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">15</container>
+               <container label="unspecified" type="box">15</container>
                <unittitle>Job inquiries, Bellboy records, miscellaneous correspondence, Post office information, Railroad information, 
-			 <unitdate>1905-1911</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1905-1911</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">16</container>
+               <container label="unspecified" type="box">16</container>
                <unittitle>Gold Records and Unemployment Records, 
-			 <unitdate>1953-1971</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1953-1971</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">17</container>
+               <container label="unspecified" type="box">17</container>
                <unittitle>Guest Accounting - telephone 
-			 <unitdate>1964</unitdate>
+			 1964
 			 , and night auditor's reports 
-			 <unitdate>1964-1966</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1964</unitdate><unitdate>1964-1966</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">18</container>
+               <container label="unspecified" type="box">18</container>
                <unittitle>Bills, Registration sheet, banking notes, blank forms, sundry, 
-			 <unitdate>1883-1968</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1883-1968</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">19</container>
+               <container label="unspecified" type="box">19</container>
                <unittitle>Internal accounts</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">20</container>
+               <container label="unspecified" type="box">20</container>
                <unittitle>Charge slips 
-			 <unitdate>1944-1959</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1944-1959</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">21</container>
+               <container label="unspecified" type="box">21</container>
                <unittitle>Workmen's Compensation, Room charges 
-			 <unitdate>1954-1963</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1954-1963</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">22</container>
+               <container label="unspecified" type="box">22</container>
                <unittitle>Bank Statements 
-			 <unitdate>1961</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1961</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">23</container>
+               <container label="unspecified" type="box">23</container>
                <unittitle>Bills 
-			 <unitdate>1899</unitdate>
+			 1899
 			 F-K, Bank Statements 
-			 <unitdate>1937</unitdate>
+			 1937
 			 , Telephone bills, 
-			 <unitdate>1910</unitdate>
-			 A-F</unittitle>
+			 1910
+			 A-F</unittitle><unitdate>1899</unitdate><unitdate>1937</unitdate><unitdate>1910</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">24</container>
+               <container label="unspecified" type="box">24</container>
                <unittitle>Bills 
-			 <unitdate>1910</unitdate>
+			 1910
 			 G-Z, 
-			 <unitdate>1911</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1910</unitdate><unitdate>1911</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">25</container>
+               <container label="unspecified" type="box">25</container>
                <unittitle>Bills 
-			 <unitdate>1912</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1912</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">26</container>
+               <container label="unspecified" type="box">26</container>
                <unittitle>House Bills, 
-			 <unitdate>1905-1915</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1905-1915</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">27</container>
+               <container label="unspecified" type="box">27</container>
                <unittitle>Mohonk Salesrooms bills 
-			 <unitdate>1912</unitdate>
+			 1912
 			 , Western Union Bills 
-			 <unitdate>1917</unitdate>
+			 1917
 			 , Freight bills 
-			 <unitdate>1905, 1912, 1913</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1912</unitdate><unitdate>1917</unitdate><unitdate>1905, 1912, 1913</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">28</container>
+               <container label="unspecified" type="box">28</container>
                <unittitle>Bills 
-			 <unitdate>1913</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1913</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">29</container>
+               <container label="unspecified" type="box">29</container>
                <unittitle>Bills 
-			 <unitdate>1915</unitdate>
+			 1915
 			 , Room charges 
-			 <unitdate>1954</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1915</unitdate><unitdate>1954</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">30</container>
+               <container label="unspecified" type="box">30</container>
                <unittitle>Dining room records 
-			 <unitdate>1909-1948</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1909-1948</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">31</container>
+               <container label="unspecified" type="box">31</container>
                <unittitle>Spring Farm Records, rates and accommodations of other resorts, Milk Production Sheets, 3 wage ledgers 
-			 <unitdate>1894-1913</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1894-1913</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">32</container>
+               <container label="unspecified" type="box">32</container>
                <unittitle>Cattle Records 
-			 <unitdate>1943-1953</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1943-1953</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">33</container>
+               <container label="unspecified" type="box">33</container>
                <unittitle>Insurance records, 
-			 <unitdate>1926-1936</unitdate>
+			 1926-1936
 			 , Kleinehill, Brook and Spring Farm Cattle and Milk Production Records and correspondence 
-			 <unitdate>1906-1915</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1926-1936</unitdate><unitdate>1906-1915</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">34</container>
+               <container label="unspecified" type="box">34</container>
                <unittitle>Brook Farm Records 
-			 <unitdate>1932-1939, 1950-1956</unitdate>
+			 1932-1939, 1950-1956
 			 , Spring Farm 
-			 <unitdate>1932</unitdate>
+			 1932
 			 , guest records 
-			 <unitdate>1955-1965</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1932-1939, 1950-1956</unitdate><unitdate>1932</unitdate><unitdate>1955-1965</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">35</container>
+               <container label="unspecified" type="box">35</container>
                <unittitle>Employee Time Books mostly 
-			 <unitdate>1950's, few 1890's</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1950's, few 1890's</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">36</container>
+               <container label="unspecified" type="box">36</container>
                <unittitle>Employee Time Books mostly 
-			 <unitdate>1958-1965, few 1888-1899</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1958-1965, few 1888-1899</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">37</container>
+               <container label="unspecified" type="box">37</container>
                <unittitle>Employee Time Books 
-			 <unitdate>1941-1965</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1941-1965</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">38</container>
+               <container label="unspecified" type="box">38</container>
                <unittitle>Employee Time Books 
-			 <unitdate>1915-1960's</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1915-1960's</unitdate>
             </did>
          </c01>
 			 <c01 level="file">
             <did>
-               <container type="box">39</container>
+               <container label="unspecified" type="box">39</container>
                <unittitle>Employee Time Books 
-			 <unitdate>1915-1960's</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1915-1960's</unitdate>
             </did>
          </c01>
 			
 			 <c01 level="file">
             <did>
-               <container type="box">39a</container>
+               <container label="unspecified" type="box">39a</container>
                <unittitle>Employee Time Books 
-			 <unitdate>1915-1960's</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1915-1960's</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">40</container>
+               <container label="unspecified" type="box">40</container>
                <unittitle>Employee Time Books 
-			 <unitdate>1909-1943</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1909-1943</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">41</container>
+               <container label="unspecified" type="box">41</container>
                <unittitle>Invoices 
-			 <unitdate>1892</unitdate>
+			 1892
 			 , purchase records of newspapers 
-			 <unitdate>1898</unitdate>
+			 1898
 			 , Post Office 
-			 <unitdate>1893-1896</unitdate>
+			 1893-1896
 			 , school accounts 
-			 <unitdate>1922</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1892</unitdate><unitdate>1898</unitdate><unitdate>1893-1896</unitdate><unitdate>1922</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">42</container>
+               <container label="unspecified" type="box">42</container>
                <unittitle>4 editions and one duplicate of the History of Mohonk Book, brochures for Lake Mohonk Mountain House, anniversary booklet</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
                <unittitle>Room Occupancy Record (work sheet) for the years 
-			 <unitdate>1932-1940</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1932-1940</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
                <unittitle>Guest Account Ledgers for the years 
-			 <unitdate>1916, 1919-1922</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1916, 1919-1922</unitdate>
             </did>
          </c01>
          <c01 level="file">
@@ -553,221 +484,166 @@ Fax: (607) 255-9524<lb/>
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">43</container>
-                  <unittitle> 
-				
-                     <unitdate>1920-1925</unitdate>
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">43</container>
+                  <unitdate>1920-1925</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">44</container>
-                  <unittitle> 
-				
-                     <unitdate>1930-1932</unitdate>
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">44</container>
+                  <unitdate>1930-1932</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">45</container>
-                  <unittitle> 
-				
-                     <unitdate>1933</unitdate>
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">45</container>
+                  <unitdate>1933</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">46</container>
-                  <unittitle> 
-				
-                     <unitdate>1934</unitdate>
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">46</container>
+                  <unitdate>1934</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">47</container>
-                  <unittitle> 
-				
-                     <unitdate>1935</unitdate>
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">47</container>
+                  <unitdate>1935</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">48</container>
-                  <unittitle> 
-				
-                     <unitdate>1936-1938</unitdate>
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">48</container>
+                  <unitdate>1936-1938</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">49</container>
-                  <unittitle> 
-				
-                     <unitdate>1938-1939</unitdate>
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">49</container>
+                  <unitdate>1938-1939</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">50</container>
-                  <unittitle> 
-				
-                     <unitdate>1939-1942</unitdate>
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">50</container>
+                  <unitdate>1939-1942</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">51</container>
+                  <container label="unspecified" type="box">51</container>
                   <unittitle> 
 				
-                     <unitdate>1943</unitdate>
+                     1943
 				, 1 policy for 
-				<unitdate>1946, 1949</unitdate>
+				1946, 1949
 				and auto policies for 
-				<unitdate>1950-1956</unitdate>
-				
-                  </unittitle>
+				</unittitle><unitdate>1943</unitdate><unitdate>1946, 1949</unitdate><unitdate>1950-1956</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">52</container>
-                  <unittitle> 
-				
-                     <unitdate>1950-1953</unitdate>
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">52</container>
+                  <unitdate>1950-1953</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">53</container>
-                  <unittitle> 
-				
-                     <unitdate>1954-1956, 1958-1962</unitdate>
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">53</container>
+                  <unitdate>1954-1956, 1958-1962</unitdate>
                </did>
             </c02>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">54</container>
+               <container label="unspecified" type="box">54</container>
                <unittitle>Rustic Work 
-			 <unitdate>1919-1947</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1919-1947</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">55</container>
+               <container label="unspecified" type="box">55</container>
                <unittitle> Dining Room and Meal Books 
-			 <unitdate>1916-1946</unitdate>
+			 1916-1946
 			 , Laundry 
-			 <unitdate>1915-1927</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1916-1946</unitdate><unitdate>1915-1927</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">56</container>
+               <container label="unspecified" type="box">56</container>
                <unittitle> Transportation and Garage time books 
-			 <unitdate>1909-1945</unitdate>
+			 1909-1945
 			 , Stewards 
-			 <unitdate>1917-1921, 1942-1946</unitdate>
+			 1917-1921, 1942-1946
 			 , Tennis Courts 
-			 <unitdate>1919-1920</unitdate>
+			 1919-1920
 			 , Bowling Alley 
-			 <unitdate>1941-1942</unitdate>
+			 1941-1942
 			 , John Yeaple wage books 
-			 <unitdate>1918</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1909-1945</unitdate><unitdate>1917-1921, 1942-1946</unitdate><unitdate>1919-1920</unitdate><unitdate>1941-1942</unitdate><unitdate>1918</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">57</container>
+               <container label="unspecified" type="box">57</container>
                <unittitle> Brook Farm, Spring Farm 
-			 <unitdate>1922-1935</unitdate>
+			 1922-1935
 			 , Powerhouse 
-			 <unitdate>1915-1947</unitdate>
+			 1915-1947
 			 , Carpenters 
-			 <unitdate>1920-1924</unitdate>
+			 1920-1924
 			 , Phil Countryman 
-			 <unitdate>1921</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1922-1935</unitdate><unitdate>1915-1947</unitdate><unitdate>1920-1924</unitdate><unitdate>1921</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">58</container>
+               <container label="unspecified" type="box">58</container>
                <unittitle>Painters 
-			 <unitdate>1916-1925, 1945</unitdate>
+			 1916-1925, 1945
 			 , Guest Housekeepters 
-			 <unitdate>1904-1928, 1937-1941</unitdate>
+			 1904-1928, 1937-1941
 			 , Bell Boys 
-			 <unitdate>1918-1925</unitdate>
+			 1918-1925
 			 , Ira Smith 
-			 <unitdate>1918</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1916-1925, 1945</unitdate><unitdate>1904-1928, 1937-1941</unitdate><unitdate>1918-1925</unitdate><unitdate>1918</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">59</container>
+               <container label="unspecified" type="box">59</container>
                <unittitle> Hugh Smiley wage books 
-			 <unitdate>1915-1919</unitdate>
+			 1915-1919
 			 , Francis Smiley 
-			 <unitdate>1920</unitdate>
+			 1920
 			 , Rachel Smiley 
-			 <unitdate>1939</unitdate>
+			 1939
 			 , other wage books 
-			 <unitdate>1914-1935</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1915-1919</unitdate><unitdate>1920</unitdate><unitdate>1939</unitdate><unitdate>1914-1935</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">60</container>
+               <container label="unspecified" type="box">60</container>
                <unittitle> Miscellaneous wage books and chores 
-			 <unitdate>1907-1933</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1907-1933</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">61</container>
+               <container label="unspecified" type="box">61</container>
                <unittitle> 1 vol. of Guest charges 
-			 <unitdate>1906</unitdate>
+			 1906
 			 and miscellaneous guest bills 
-			 <unitdate>1930-1965</unitdate>
-			 
-               </unittitle>
+			 </unittitle><unitdate>1906</unitdate><unitdate>1930-1965</unitdate>
             </did>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Lake Mohonk Mountain House records, #2835. Division of Rare and Manuscript Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

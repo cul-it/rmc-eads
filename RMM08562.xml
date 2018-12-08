@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08562::Russ Meyer collection)//EN">RMM08562</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08562::Russ Meyer collection)//EN">RMM08562</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Russ Meyer collection,
@@ -23,19 +23,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>September 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Russ Meyer Collection,<lb/><date type="inclusive" encodinganalog="245$f">1954-1979.</date></titleproper>
+			<titleproper>Guide to the Russ Meyer Collection,<date encodinganalog="245$f" type="inclusive">1954-1979.</date></titleproper>
 			<num>Collection Number: 8562</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -57,11 +63,12 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Russ Meyer collection, <unitdate encodinganalog="MARC 245" type="inclusive">1954-1979.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Russ Meyer collection, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1954-1979.</unitdate>
 			<unitid label="Collection Number:">8562</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Meyer, Russ,  1922-2004. ">Meyer, Russ, </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.6 cubic feet (14
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>.6 cubic feet (14
 				items).</extent></physdesc>
 			<physdesc label="Forms of Material:">Manuscripts, photographs, printed material.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -78,7 +85,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>American film director, producer, screenwriter, cinematographer, film editor, actor,
 				and photographer. He is known mainly for writing and directing a series of
 				successful sexploitation films, such as "Faster, Pussycat! Kill! Kill!"</p>
@@ -120,151 +127,148 @@
 				<genreform encodinganalog="MARC 655" source="aat">Press kits.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Russ Meyer Collection, #8562. Division of Rare and Manuscript Collections,
-					Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unitdate>1969</unitdate>
 					<unittitle><title>The Pornies of Payton Junction</title>, by Martin Winkler (first edition)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
+					
 					<unittitle><title>Beyond the Valley of the Dolls</title>, color keybook contact sheet</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unitdate>1969</unitdate>
 					<unittitle><title>Beyond the Valley of the Dolls</title>, original screenplay</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unitdate>1977</unitdate>
 					<unittitle><title>Beneath the Valley of the Ultra-Vixens</title>, original screenplay</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unitdate>1971</unitdate>
 					<unittitle>Russ Meyer press photograph, talking about <title>The Supervixens</title></unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unitdate>1975</unitdate>
 					<unittitle>Russ Meyer directing <title>The Supervixens</title>, photo from the set</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unitdate>1973</unitdate>
 					<unittitle><title>The Supervixens</title>, original screenplay</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
-					<unitdate>ca. 1953</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
+					<unitdate certainty="approximate">1953</unitdate>
 					<unittitle><title>The Desperate Women (No Deadlier Sin)</title>, original screenplay with original pressbook</unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
-					<unitdate>ca. 1968</unitdate>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
+					<unitdate certainty="approximate">1968</unitdate>
 					<unittitle><title>Vixen... the female fox</title>, original screenplay, Erica Gavin's working copy</unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
-					<unitdate>ca. 1980's</unitdate>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
+					<unitdate certainty="approximate">1980's</unitdate>
 					<unittitle><title>Briefing for a Descent into Hell</title>, original screenplay, first script</unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
-					<unitdate>ca. 1980's</unitdate>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
+					<unitdate certainty="approximate">1980's</unitdate>
 					<unittitle><title>Briefing for a Descent into Hell</title>, original screenplay, second script</unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">1</container>
 					<unitdate>1965</unitdate>
 					<unittitle><title>Mudhoney</title>, pressbook</unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">2</container>
 					<unitdate>1965</unitdate>
 					<unittitle><title>Faster Pussycat! Kill! Kill!</title>, pressbook</unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">3</container>
 					<unitdate>1967</unitdate>
 					<unittitle><title>How Much Loving Does a Normal Couple Need? (Common Law Cabin)</title>, 4 original lobby cards</unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">4</container>
 					<unitdate>1969</unitdate>
 					<unittitle><title>Vixen... the female fox</title>, envelope with article about Russ Meyer stapled to back</unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">5</container>
 					<unitdate>1979</unitdate>
 					<unittitle><title>Beneath the Valley of the Ultra-Vixens</title>, press kit with 6 photographs</unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="map-case">Folder 1</container>
+					<container label="unspecified" type="map-case">Folder 1</container>
 					<unitdate>1979</unitdate>
 					<unittitle><title>Beneath the Valley of the Ultra-Vixens</title>, poster</unittitle>
 				</did>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Russ Meyer Collection, #8562. Division of Rare and Manuscript Collections,
+					Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

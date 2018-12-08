@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04172::Guide to the Jack Lambert papers,)//EN">RMA04172</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04172::Guide to the Jack Lambert papers,)//EN">RMA04172</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Jack Lambert papers, <date>1970-2012.</date></titleproper>
@@ -25,19 +25,25 @@
     <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>February 2015</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Jack Lambert Papers,<lb/><date type="inclusive" encodinganalog="245$f">1970-2012.</date></titleproper>
+      <titleproper>Guide to the Jack Lambert Papers,<date encodinganalog="245$f" type="inclusive">1970-2012.</date></titleproper>
       <num>Collection Number: 21-1-4172</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-            Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+            Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
         </defitem>
         <defitem>
           <label>Compiled by:</label>
@@ -63,14 +69,15 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">Jack Lambert papers, <unitdate encodinganalog="MARC 245" type="inclusive">1970-2012.</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">Jack Lambert papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1970-2012.</unitdate>
       <unitid label="Collection Number:">21-1-4172</unitid>
       <origination label="Creator:">
         <persname encodinganalog="100" normal="Lambert, R. L., (Jack)  ">Lambert, R.
           L.,(Jack) </persname>
       </origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>2</extent></physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>2</extent></physdesc>
       <physdesc label="Forms of Material:">Manuscripts, publications</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
         University Library</repository>
@@ -79,7 +86,7 @@
       <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">
-      <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+      <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
       <p>Robert "Jack" Lambert graduated from Cornell in 1950 and returned to the University
         as an instructor in 1953. Starting in 1962 he led Cornell's freehand drawing program,
         becoming a full professor in 1977. His coursework, mainly in the Department of
@@ -114,14 +121,7 @@
         <genreform encodinganalog="MARC 655" source="aat">Watercolor (paint)</genreform>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>Jack Lambert papers, #21-1-4172. Division of Rare and Manuscript Collections,
-          Cornell University Library.</p>
-      </prefercite>
-    </descgrp>
+    
     <relatedmaterial>
       <head id="a5">RELATED MATERIALS</head>
       <p>See also CALS Freehand Drawing Collection, #21-25-3736, <extref href="http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMA03736">http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMA03736</extref>.</p>
@@ -132,8 +132,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1970s-1990s</unitdate>
           <unittitle>Department and Campus Related Cartoons</unittitle> 
         </did> 
@@ -142,8 +142,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1995</unitdate>
           <unittitle>Scenic Watercolors</unittitle> 
         </did> 
@@ -151,8 +151,8 @@
       </c01>  
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1990s</unitdate>
           <unittitle>Sketches and Drawings of Cornell Buildings, Scenes, Locations</unittitle> 
         </did> 
@@ -160,8 +160,8 @@
       </c01>  
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>2011 and earlier</unitdate>
           <unittitle>Demonstrations Practice</unittitle> 
         </did> 
@@ -169,8 +169,8 @@
       </c01>  
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>2000s</unitdate>
           <unittitle>Publications (many concerning Cornell) with Lambert´s Illustrations</unittitle> 
         </did> 
@@ -178,48 +178,48 @@
       </c01>  
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">6</container>
           <unittitle>Sketches and Artistic Tutorials</unittitle> 
         </did> 
        
       </c01>  
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">7</container>
           <unittitle>Artist Drawing Pens</unittitle> 
         </did> 
      
       </c01>  
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">8</container>
           <unittitle>Papers Mainly Related to Art and Lambert Pump Company</unittitle> 
         </did> 
       
       </c01>  
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">9</container>
           <unittitle>Assorted Photographs, Mainly of People</unittitle> 
         </did> 
        
       </c01>  
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">10</container>
           <unittitle>Handouts and Papers from Courses</unittitle> 
         </did> 
        
       </c01>  
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1995 onwards</unitdate>
           <unittitle>Awards and Recognition</unittitle> 
         </did> 
@@ -229,7 +229,7 @@
       </c01>  
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unittitle>"Figure Notes" from Here and There</unittitle> 
         </did> 
         <scopecontent>
@@ -238,7 +238,7 @@
       </c01>  
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unitdate>1980s</unitdate>
           <unittitle>"Watercolor"</unittitle> 
         </did> 
@@ -248,7 +248,7 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unitdate>2008-2009</unitdate>
           <unittitle>Untitled Art Journal</unittitle> 
         </did> 
@@ -258,7 +258,7 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unitdate>1970s-1990s</unitdate>
           <unittitle>"Figure Notes" from Here and There</unittitle> 
         </did> 
@@ -268,7 +268,7 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unitdate>1976</unitdate>
           <unittitle>Untitled</unittitle> 
         </did> 
@@ -278,7 +278,7 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unittitle>"The Sands of the Desert"</unittitle> 
         </did> 
         <scopecontent>
@@ -287,7 +287,7 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unittitle>"Tree Grow- in Perspective"</unittitle> 
         </did> 
         <scopecontent>
@@ -296,7 +296,7 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unittitle>"News-Likes of Yesteryear</unittitle> 
         </did> 
         <scopecontent>
@@ -305,7 +305,7 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unitdate>1982</unitdate>
           <unittitle>"Are You Tired of Studying?</unittitle> 
         </did> 
@@ -315,7 +315,7 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unittitle>"Tree Grow- in Perspective</unittitle> 
         </did> 
         <scopecontent>
@@ -324,7 +324,7 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unittitle>Untitled</unittitle> 
         </did> 
         <scopecontent>
@@ -333,7 +333,7 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unittitle>"Hoshonuma, the Ancient Art"</unittitle> 
         </did> 
         <scopecontent>
@@ -342,7 +342,7 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unittitle>"Private Eye - Jack, Case of the Vanishing Point"</unittitle> 
         </did> 
         <scopecontent>
@@ -351,7 +351,7 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unitdate>1977</unitdate>
           <unittitle>"Making a Film-Like and Sketchbook Image"</unittitle> 
         </did> 
@@ -361,7 +361,7 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unitdate> Fall 1983</unitdate>
           <unittitle>"La Naturaleza tiene dos caras"</unittitle> 
         </did> 
@@ -371,87 +371,87 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">12</container>
           <unittitle>Assorted Handmade Miniatures</unittitle> 
         </did> 
        
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">13</container>
           <unittitle>Lambert Pump Company "Gold" Watch</unittitle> 
         </did> 
      
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">14</container>
           <unittitle>Miniature of Family Gazing Upwards</unittitle> 
         </did> 
      
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">15</container>
           <unittitle>"The Penny Award - President and Chief R. Lambert" </unittitle> 
         </did> 
     
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">16</container>
           <unittitle>"Clouds of the Masters" Handmade Miniature</unittitle> 
         </did> 
      
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">17</container>
           <unittitle>Miniature Model of a Potted Plant</unittitle> 
         </did> 
       
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">18</container>
           <unittitle>Model of Desk with Art Posters</unittitle> 
         </did> 
         
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">1</container>
           <unittitle>Lambert Pump Company Artistic Papers</unittitle> 
         </did> 
        
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">2</container>
           <unittitle>Lambert Pump Company Artistic Papers</unittitle> 
         </did> 
         
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">3</container>
           <unittitle>Cornell Campus Drawings</unittitle> 
         </did> 
       
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
+          <container label="unspecified" type="box">2</container>
           <unittitle>Watercolors, Drawings, and Other Artistic Renderings</unittitle> 
         </did> 
         <scopecontent>
@@ -460,5 +460,9 @@
       </c01>
 
     </dsc>  
-  </archdesc> 
+  <prefercite>
+        <head>Cite As:</head>
+        <p>Jack Lambert papers, #21-1-4172. Division of Rare and Manuscript Collections,
+          Cornell University Library.</p>
+      </prefercite></archdesc> 
 </ead>

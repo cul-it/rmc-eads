@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08418::Guide to the Paul Fishbeck menu collection)//EN">RMM08418</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08418::Guide to the Paul Fishbeck menu collection)//EN">RMM08418</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Paul Fishbeck menu
@@ -23,19 +23,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>September 2013</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Paul Fishbeck Menu Collection,<lb/><date type="inclusive" encodinganalog="245$f">1955-2015</date></titleproper>
+			<titleproper>Guide to the Paul Fishbeck Menu Collection,<date encodinganalog="245$f" type="inclusive">1955-2015</date></titleproper>
 			<num>Collection Number: 8418 </num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -61,12 +67,11 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Paul Fishbeck menu collection,
-					<unitdate encodinganalog="MARC 245" type="inclusive">1955-2015</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Paul Fishbeck menu collection,
+					</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1955-2015</unitdate>
 			<unitid label="Collection Number:">8418 </unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Fishbeck, Paul,   ">Fishbeck, Paul, </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.3 cubic feet.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.3 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Printed material</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -75,7 +80,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Class of 1956, Hotel.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
@@ -116,20 +121,13 @@
 				<genreform encodinganalog="MARC 655" source="aat">Menus.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Paul Fishbeck menu collection, #8418. Division of Rare and Manuscript
-					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unitdate>May 15, 1986</unitdate>
 					<unittitle>The Wayside Inn, South Sudbury, Massachusetts</unittitle>
 				</did>
@@ -149,8 +147,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 
 					<unittitle>St. Andrew’s Café at the Catering [sic] Institute of America on the
 						Hudson River at Hyde Park, New York</unittitle>
@@ -171,8 +169,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 
 					<unittitle>Royal Hawaiian Hotel, main dining room, Honolulu, Hawaii</unittitle>
 				</did>
@@ -194,8 +192,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 
 					<unittitle>Royal Hawaiian, Honolulu, Hawaii</unittitle>
 				</did>
@@ -208,8 +206,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unitdate>early 1980s</unitdate>
 					<unittitle>Tango, Chicago, Illinois</unittitle>
 				</did>
@@ -221,8 +219,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unitdate>1977</unitdate>
 					<unittitle>Campbell's Tavern, Williamsburg, Virginia</unittitle>
 				</did>
@@ -234,8 +232,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unitdate>July 1, 1988</unitdate>
 					<unittitle>Fraunces Tavern, New York, New York</unittitle>
 				</did>
@@ -250,8 +248,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unitdate>1977</unitdate>
 					<unittitle>Hotel Meurice, Paris, France</unittitle>
 				</did>
@@ -268,8 +266,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unitdate>mid 1980s</unitdate>
 					<unittitle>Cafe des Artistes, New York, New York</unittitle>
 				</did>
@@ -285,8 +283,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unitdate>1980s</unitdate>
 					<unittitle>Woodstock Inn, Woodstock, Vermont</unittitle>
 				</did>
@@ -299,8 +297,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unitdate>1950s</unitdate>
 					<unittitle>Aptos Beach Inn, Aptos, California</unittitle>
 				</did>
@@ -312,8 +310,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 
 					<unittitle>Windows on the World, New York, New York</unittitle>
 				</did>
@@ -324,8 +322,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unitdate>1975</unitdate>
 					<unittitle>Matson menu</unittitle>
 				</did>
@@ -346,8 +344,8 @@
 
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 
 					<unittitle>Victoria Station, San Francisco, California</unittitle>
 				</did>
@@ -364,8 +362,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 
 					<unittitle>Trader Vic's, San Francisco, California</unittitle>
 				</did>
@@ -378,8 +376,8 @@
 			
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unitdate>1977</unitdate>
 					<unittitle>New York Restaurant, Marseilles, France</unittitle>
 				</did>
@@ -400,8 +398,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 
 					<unittitle>Tasman Empire Airways Limited, TEAL, menu postcard </unittitle>
 				</did>
@@ -417,8 +415,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unitdate>1990</unitdate>
 					<unittitle>MS Ryndam</unittitle>
 				</did>
@@ -431,8 +429,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unitdate>July 8, 1957</unitdate>
 					<unittitle>Huddart Parker Line, MV Wanganella</unittitle>
 				</did>
@@ -446,9 +444,9 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
-					<unitdate>ca. 1950s</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
+					<unitdate certainty="approximate">1950s</unitdate>
 					<unittitle>Caesar's</unittitle>
 				</did>
 				<scopecontent>
@@ -463,8 +461,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unitdate>1998</unitdate>
 					<unittitle>Stag's Head and Bear Inn, Coventry, United Kingdom </unittitle>
 				</did>
@@ -489,8 +487,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 
 					<unittitle>Brennan's, New Orleans, Louisiana</unittitle>
 				</did>
@@ -514,8 +512,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 
 					<unittitle>The Mount Washington Hotel and Resort Guest Directory, Bretton Woods,
 						New Hampshire</unittitle>
@@ -545,8 +543,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unitdate>1977</unitdate>
 					<unittitle>Le Drugstore, Paris, France</unittitle>
 				</did>
@@ -558,8 +556,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 
 					<unittitle>Clyde's, Washington, D.C</unittitle>
 				</did>
@@ -578,8 +576,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unitdate>Mid 1970s</unitdate>
 					<unittitle>Maxwell's Plum, New York, New York</unittitle>
 				</did>
@@ -592,9 +590,9 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
-					<unitdate>ca. 1975</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
+					<unitdate certainty="approximate">1975</unitdate>
 					<unittitle>McClures, Melbourne, Australia</unittitle>
 				</did>
 				<scopecontent>
@@ -610,9 +608,9 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
-					<unitdate>ca. 2000s</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
+					<unitdate certainty="approximate">2000s</unitdate>
 					<unittitle>SS Nautica</unittitle>
 				</did>
 				<scopecontent>
@@ -638,7 +636,7 @@
 						which carry around 5000 passengers, Yes, that was five thousand. A veritable
 						city in itself. I recall the Pacific Princess had a main dining room with
 						two sittings for dinner, a bistro/cafeteria for the three meals, a small
-						food area by the pool and maybe one specialty restaurant. <lb/><lb/>The new
+						food area by the pool and maybe one specialty restaurant. The new
 						mega ships have almost twenty restaurants/ food area/ places to eat perhaps
 						at an extra cost. So on a seven day voyage you rarely have to eat in the
 						same place twice. On traditional ships there are two sittings for dinner,
@@ -655,7 +653,7 @@
 						(unpacking) and the last night (packing). On my first trip or two I had to
 						spend an hour each morning in the baggage room in case passengers wanted to
 						change some item. And the cases were not suitcases, but trunks. And very
-						heavy. <lb/><lb/>Note the prices for wines on the main menus. A Napa Valley
+						heavy. Note the prices for wines on the main menus. A Napa Valley
 						red for $93 doesn't sound like any bargain which it should be due to being
 						outside most zones for excise taxes. I guess it cuts down on drunken
 						passengers. Also a health warning to cover themselves in case of a problem.
@@ -664,8 +662,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unitdate>Various</unitdate>
 					<unittitle>Various</unittitle>
 				</did>
@@ -686,20 +684,20 @@
 						Louisiana has always had a fascinating political background going back to
 						Huey P. Long in the early part of last century. Now the restaurant – the
 						chef and owner was selected by President Reagan to go with him to Iceland
-						when he had a meeting with the Russian President!<lb/>The Australian and
+						when he had a meeting with the Russian President!The Australian and
 						American Association dinner at the Hilton Hotel sometime in the 80’s. I got
 						to carve the turkey at our table. The detail on American Culinary Heritage
-						is very detailed and thoroughly interesting.<lb/>The Fijian – breakfast
+						is very detailed and thoroughly interesting.The Fijian – breakfast
 						menu. Bottom cup of coffee – 25 cents gives one an idea of the date. I was
 						shown the second kitchen currently at that time not in use. Just as well as
-						all the pots hanging up were rusted. <lb/>The Kon-Tiki, Sheraton Portland,
+						all the pots hanging up were rusted. The Kon-Tiki, Sheraton Portland,
 						1959. A hotelie, ex fraternity brother Ross Bell ‘57 was the Sales Manager
 						when we were living in Portland. Ross was the head of the Army ROTC Corps at
 						Cornell and thought he would make the Army his career. After being posted to
 						Alaska he soon changed his mind. Tropical themes were very popular back in
 						those days. Maybe the musical South Pacific added to their appeal. Note a
 						daiquiri was 85 cents and a stinger $1. Ross went on to manage the Sheraton
-						Universal and then the Sheraton at the LAX.<lb/>And to top things off one of
+						Universal and then the Sheraton at the LAX.And to top things off one of
 						the best at the time. Restaurant de la Pyramide in Vienne, France between
 						Lyon and Marsailles. The day we stopped there for lunch was the day they
 						were closed, but the next best thing was to get a copy of the menu. Madame
@@ -713,8 +711,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unitdate>2013</unitdate>
 					<unittitle>Kotaraya</unittitle>
 				</did>
@@ -725,8 +723,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Phamish</unittitle>
 				</did>
 				<scopecontent>
@@ -735,8 +733,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Milanos</unittitle>
 				</did>
 				<scopecontent>
@@ -747,8 +745,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unitdate>2013</unitdate>
 					<unittitle>Greta Point Cafe</unittitle>
 				</did>
@@ -760,8 +758,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unitdate>2013</unitdate>
 					<unittitle>Terroir</unittitle>
 				</did>
@@ -773,8 +771,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Princess Cruises Dawn Princess lunch menus</unittitle>
 				</did>
 				<scopecontent>
@@ -785,8 +783,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Maxwell’s Plum in New York City, postcards</unittitle>
 				</did>
 				<scopecontent>
@@ -797,8 +795,8 @@
 
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 
 					<unittitle>Clyde’s in Washington D.C. area</unittitle>
 				</did>
@@ -814,8 +812,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 
 					<unittitle>Bouchon in Napa Valley.</unittitle>
 				</did>
@@ -831,8 +829,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unitdate>2013</unitdate>
 					<unittitle>Whispering Vines Cafe</unittitle>
 				</did>
@@ -846,8 +844,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 
 					<unittitle>Hotel du Lac Coppet </unittitle>
 				</did>
@@ -862,8 +860,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 
 					<unittitle>Wayside Inn brochures</unittitle>
 				</did>
@@ -874,8 +872,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 
 					<unittitle>Cape Cod Room in Chicago</unittitle>
 				</did>
@@ -887,8 +885,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 
 					<unittitle>Hoefly’s in Long Beach, California</unittitle>
 				</did>
@@ -901,9 +899,9 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
-					<unitdate>ca. 1962</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
+					<unitdate certainty="approximate">1962</unitdate>
 					<unittitle>Grison’s Chicken House in San Francisco</unittitle>
 				</did>
 				<scopecontent>
@@ -916,8 +914,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unitdate>1977</unitdate>
 					<unittitle>Bahnhof Buffet</unittitle>
 				</did>
@@ -932,9 +930,9 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
-					<unitdate>ca. 1962</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
+					<unitdate certainty="approximate">1962</unitdate>
 					<unittitle>Bentleigh’s</unittitle>
 				</did>
 				<scopecontent>
@@ -944,8 +942,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unitdate>1977</unitdate>
 					<unittitle>Baron’s Table, Holiday Inn in Hong Kong</unittitle>
 				</did>
@@ -957,8 +955,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unitdate>2014</unitdate>
 					<unittitle>The Chocolate Fish, Wellington, New Zealand</unittitle>
 				</did>
@@ -973,8 +971,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unitdate>2012</unitdate>
 					<unittitle>Moorooduc Estate, Mornington Peninsula, Melbourne,
 						Australia</unittitle>
@@ -989,8 +987,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unitdate>2013</unitdate>
 					<unittitle>Ciao Bella</unittitle>
 				</did>
@@ -1002,8 +1000,8 @@
 
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unitdate>1977</unitdate>
 					<unittitle>Holiday Inn, Hong Kong</unittitle>
 				</did>
@@ -1016,8 +1014,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unitdate>1977</unitdate>
 					<unittitle>Hofbrauhaus, Munnich, Germany</unittitle>
 				</did>
@@ -1031,8 +1029,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>Dining Experience, SS Dawn Princess</unittitle>
 				</did>
 				<scopecontent>
@@ -1048,8 +1046,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>Wildwood Inn, Paradise California</unittitle>
 				</did>
 				<scopecontent>
@@ -1063,8 +1061,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unitdate>2014</unitdate>
 					<unittitle>SS Dawn Princess Menus</unittitle>
 				</did>
@@ -1088,7 +1086,7 @@
 						everything would have been available and goods would be of a high standard
 						determined by shore visits to the various providers. The only item I saw
 						being taken aboard on the cruise was fuel in Auckland, New Zealand.
-						<lb/><lb/>The menus – The clue for each night is at the bottom of the page
+						The menus – The clue for each night is at the bottom of the page
 						with Italian Night, English Night, etc. etc. It seemed to be the Head
 						Waiter’s job to see the waiters used the correct ones for the particular
 						night. The menus are well balanced with three appetizers, four soups and
@@ -1105,19 +1103,19 @@
 						menu. There was a comprehensive wine list in addition to the above
 						mentioned.. In order to please light drinkers, one could have just one glass
 						and the waiter would mark the bottle and one could have more the next night.
-						<lb/><lb/>Everyone on the staff tried their best to please and if one didn’t
+						Everyone on the staff tried their best to please and if one didn’t
 						want, say Brussels sprouts, then one could ask for something else. I don’t
 						think menus have changed much over the years except perhaps healthier,
 						smaller portions, but not too small, and notices to warn of eating
 						undercooked items and reference to allergies and diet requests.
-						<lb/><lb/>The dining room had separate breakfast and lunch menus of a much
+						The dining room had separate breakfast and lunch menus of a much
 						simpler style, but still with daily specials. In case one couldn’t wait for
 						the dining room to open there was always the buffet which had everything
 						anyone could want and was open about eighteen hours each day. In addition
 						there was a restaurant which served only pizzas and also a steakhouse open
 						for evening meals at a slight extra charge. If getting from one’s stateroom
 						to the dining room proved too difficult there was always room service,
-						twenty-four hours a day. <lb/><lb/>The main dining rooms had two sittings
+						twenty-four hours a day. The main dining rooms had two sittings
 						for dinner – the first about 5:45 and the second about 7:45. Now there is a
 						trend to have open seating from say 5 PM to 10 PM which allows to dine when
 						the please more or less. We first came across this on a Norwegian Line Ship
@@ -1129,8 +1127,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unitdate>2014</unitdate>
 					<unittitle>U.K. Menus</unittitle>
 				</did>
@@ -1142,7 +1140,7 @@
 						form seems to take over the market over there. And most places seem to be
 						very concerned the customer doesn’t sue for any breach of nutrition. Our
 						friends had Chinese takeaway one night and were asked if they wanted chips
-						and gravy (commercial) with the food. All very exciting.<lb/><lb/>Menus
+						and gravy (commercial) with the food. All very exciting.Menus
 						include: Emirates Airlines, Best Pizza and Kebab House, The Boat Inn, The
 						Buccleuch Hotel and Restaurant, The Famous Star Hotel, Dumfriesshire, The
 						Fox and Pheasant Inn, Cumbria, Marston’s Inns and Taverns, Nith Hotel,
@@ -1152,8 +1150,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unitdate>2014</unitdate>
 					<unittitle>Victoria Australia Menus</unittitle>
 				</did>
@@ -1167,7 +1165,7 @@
 						get some very interesting replies – too busy, okay if the boss isn’t
 						looking, why do I want it, etc. When I have the chance to tell someone where
 						it is going the response can be completely different. For example -
-						<lb/><lb/>Late last year Barnie and I went to a small town for a few nights.
+						Late last year Barnie and I went to a small town for a few nights.
 						There was an Accor resort in the town of Creswick, just out of Ballarat, one
 						of our provincial cities. Good mining country and find the area fascinating.
 						Ballarat even had a stock exchange during the gold rush days. One night we
@@ -1176,7 +1174,7 @@
 						and told him where it would end up. He got quite excited and said to hold on
 						a minute. He gathered all his menus. He was a hometown boy and had never
 						heard of Cornell. Told him about the Ivy League and had heard of Harvard! He
-						asked if we would like to see the rest of the property. <lb/><lb/>There were
+						asked if we would like to see the rest of the property. There were
 						guest bedrooms, a function room, and more. He even pointed out the
 						outbuilding where the gold was held before being shipped to Melbourne. The
 						rooms were covered with prints of Norman Lindsay, a hometown boy. Originals
@@ -1186,15 +1184,15 @@
 						Creswick had seen better times since the gold rush days, but now a very
 						successful woolen mill with a retail outlet and a great patisserie on the
 						main street. The passenger rail has been brought back top life for a couple
-						of times each week. <lb/><lb/>We just spent four days in what is called the
+						of times each week. We just spent four days in what is called the
 						High Country some one and fifty miles north east of Melbourne. We ate in
 						four different restaurants and found them all satisfactory and a lot of fun.
-						Menus as follows- <lb/><lb/>The Bright Brewery. A good concept. You order
+						Menus as follows- The Bright Brewery. A good concept. You order
 						and pay at the counter. You get your own silver from a bucket. The food is
 						delivered to your table. Outside tables when the weather permits.
-						<lb/><lb/>Alpine Hotel. A bustling property. Same concept as the Brewery. A
+						Alpine Hotel. A bustling property. Same concept as the Brewery. A
 						bit of everything on the menu. Even Moet at $110.00. Established 1864.
-						<lb/><lb/>Tahbilk Restaurant in the Tahbilk Winery. This is a favorite of
+						Tahbilk Restaurant in the Tahbilk Winery. This is a favorite of
 						ours, only about sixty miles north of Melbourne on the Goulbourn River. It
 						is the oldest winery in Victoria and some of the oldest vines of a
 						particular variety in the world! We have been going to this winery for about
@@ -1204,8 +1202,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unitdate>2014</unitdate>
 					<unittitle>Doyles</unittitle>
 				</did>
@@ -1221,8 +1219,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unitdate>2015</unitdate>
 					<unittitle>Itali.co</unittitle>
 				</did>
@@ -1239,9 +1237,9 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
+					
 					<unittitle>Portsea Hotel</unittitle>
 				</did>
 				<scopecontent>
@@ -1256,8 +1254,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unitdate>2015</unitdate>
 					<unittitle>Le Bouchon</unittitle>
 				</did>
@@ -1271,9 +1269,9 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
+					
 					<unittitle>Lord Chumley’s</unittitle>
 				</did>
 				<scopecontent>
@@ -1288,9 +1286,9 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
-					<unitdate type="inclusive" normal="2015">2015</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
+					<unitdate normal="2015" type="inclusive">2015</unitdate>
 					<unittitle>Cunard, Queen Elizabeth</unittitle>
 				</did>
 				<scopecontent>
@@ -1314,8 +1312,8 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unitdate>Undated</unitdate>
 					<unittitle>Nickodell</unittitle>
 				</did>
@@ -1330,9 +1328,9 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
-					<unitdate type="inclusive" normal="2015">2015</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
+					<unitdate normal="2015" type="inclusive">2015</unitdate>
 					<unittitle>The Menzies Hotel, Sydney, Australia</unittitle>
 				</did>
 				<scopecontent>
@@ -1344,9 +1342,9 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
-					<unitdate type="inclusive" normal="2015">2015</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
+					<unitdate normal="2015" type="inclusive">2015</unitdate>
 					<unittitle>The Vibe, Melbourne, Australia</unittitle>
 				</did>
 				<scopecontent>
@@ -1360,9 +1358,9 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
-					<unitdate type="inclusive" normal="2015">2015</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
+					<unitdate normal="2015" type="inclusive">2015</unitdate>
 					<unittitle>Cafe Menu Trainlink</unittitle>
 				</did>
 				<scopecontent>
@@ -1375,20 +1373,24 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unitdate>Undated</unitdate>
 					<unittitle>King "Neptune's Table"</unittitle>
 				</did>
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unitdate>Undated</unitdate>
 					<unittitle>Kook-o-theek, Holland</unittitle>
 				</did>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Paul Fishbeck menu collection, #8418. Division of Rare and Manuscript
+					Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

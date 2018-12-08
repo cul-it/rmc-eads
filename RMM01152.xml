@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM01152::Cascadilla School publications)//EN">RMM01152</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM01152::Cascadilla School publications)//EN">RMM01152</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Cascadilla School publications, 1887-1932.</titleproper>
@@ -28,6 +27,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -36,19 +41,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Cascadilla School Publications,<lb/>1887-1932</titleproper>
+         <titleproper>Guide to the Cascadilla School Publications,1887-1932</titleproper>
          <num>Collection Number: 1152</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
@@ -65,16 +70,15 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Cascadilla School publications,
-               <unitdate type="inclusive" encodinganalog="MARC 245">1887-1932.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Cascadilla School publications,
+               </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1887-1932.</unitdate>
          <unitid label="Collection Number:">1152</unitid>
          <origination label="Creator:">
 
             <corpname encodinganalog="MARC 110">Cascadilla School (Ithaca, N.Y.)</corpname>
 
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.1 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.1 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Catalogues, a prospectus, a yearbook, and
             pictures.</physdesc>
          <repository label="Repository:"> Division of Rare and Manuscript Collections, Cornell
@@ -85,7 +89,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="organization">ORGANIZATIONAL HISTORY </head>
+         <head altrender="organization" id="a2">ORGANIZATIONAL HISTORY </head>
          <p>The Cascadilla School was a boarding school for boys in Ithaca, New York.</p>
       </bioghist>
       <scopecontent encodinganalog="MARC 520">
@@ -107,14 +111,7 @@
             <subject encodinganalog="MARC 650">Education--New York (State)--Ithaca.</subject>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Cascadilla School publications, #1152. Division of Rare and Manuscript Collections,
-               Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="series">
@@ -127,14 +124,14 @@
          </c01>
          <c01 level="item">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Cascadilla School Catalogue</unittitle>
                <unitdate>1893-1894</unitdate>
             </did>
          </c01>
          <c01 level="item">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Cascadilla School Catalogue (+ duplicate)</unittitle>
                <unitdate>1883</unitdate>
             </did>
@@ -142,11 +139,11 @@
          <c01 level="file">
             <did>
                <unittitle>Cascadilla School items</unittitle>
-               <unitdate>ca. 1900</unitdate>
+               <unitdate certainty="approximate">1900</unitdate>
             </did>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
+                  <container label="unspecified" type="box">1</container>
                   <unittitle>Prospectus and viewbook, containing endorsements of Jacob Gould
                      Schurman, Charles Kendall Adams, R.H. Thurston, E.A. Fuertes and photographs
                      and descriptions of the school and its facilities</unittitle>
@@ -154,21 +151,21 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
+                  <container label="unspecified" type="box">1</container>
                   <unittitle>Special announcement concerning innovations: a separate home for
                      younger boys and a recreation building</unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
+                  <container label="unspecified" type="box">1</container>
                   <unittitle>Leaflet of department of physical culture</unittitle>
                </did>
             </c02>
          </c01>
          <c01 level="item">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Cascadilla School Catalogue</unittitle>
                <unitdate>1896-1897</unitdate>
             </did>
@@ -179,7 +176,7 @@
          </c01>
          <c01 level="item">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Pictures of Cascadilla School buildings and activities, apparently removed
                   from a catalogue printed in the late '90s (10 pcs.)</unittitle>
             </did>
@@ -193,18 +190,22 @@
          </c01>
          <c01 level="item">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>The Cascadilla School - 1 sheet announcement</unittitle>
                <unitdate>1887</unitdate>
             </did>
          </c01>
          <c01 level="item">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Cascadilla School Catalogue</unittitle>
                <unitdate>1924-1925</unitdate>
             </did>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Cascadilla School publications, #1152. Division of Rare and Manuscript Collections,
+               Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

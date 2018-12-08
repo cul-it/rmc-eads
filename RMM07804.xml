@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07804::Gary Hallinen papers)//EN">RMM07804</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07804::Gary Hallinen papers)//EN">RMM07804</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Gary Hallinen papers, <date>1971-1991</date></titleproper>
@@ -25,19 +25,25 @@
     <profiledesc>
       <creation>Finding aid encoded by Marcie Farwell, <date>July 2015</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Gary Hallinen Papers,<lb/><date type="inclusive" encodinganalog="245$f">1971-1991</date></titleproper>
+      <titleproper>Guide to the Gary Hallinen Papers,<date encodinganalog="245$f" type="inclusive">1971-1991</date></titleproper>
       <num>Collection Number: 7804</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-            Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+            Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
         </defitem>
         <defitem>
           <label>Compiled by:</label>
@@ -63,13 +69,12 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">Gary Hallinen papers, <unitdate encodinganalog="MARC 245" type="inclusive">1971-1991</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">Gary Hallinen papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1971-1991</unitdate>
       <unitid label="Collection Number:">7804</unitid>
       <origination label="Creator:">
         <persname encodinganalog="100" normal="Hallinen, Gary   ">Hallinen, Gary </persname>
       </origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.3 cubic feet</extent></physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.3 cubic feet</extent></physdesc>
       <physdesc label="Forms of Material:">Correspondence, organizational records, printed materials and memorabilia.</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
         University Library</repository>
@@ -101,18 +106,7 @@
         <geogname encodinganalog="MARC 651">New York (State) -- Rochester</geogname>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>Gary Hallinen papers, #7804. Division of Rare and Manuscript Collections, Cornell
-          University Library.</p>
-      </prefercite>
-      <relatedmaterial>
-        <head id="a5">RELATED MATERIALS</head>
-        <p>  <extref href="http://rmc.library.cornell.edu/EAD/htmldocs/RMM07560.html">Gay Alliance of the Genesee Valley records</extref> </p>
-      </relatedmaterial>
-    </descgrp>
+    
     <odd type="notes">
       <head id="a6">NOTES</head>
       <p>Arrangement and description of the Gary Hallinen papers, #7804 made possible in part
@@ -124,8 +118,8 @@
      
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1971-1988</unitdate>
           <unittitle>Meeting notes and minutes</unittitle>
         </did>
@@ -133,8 +127,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1986-1987</unitdate>
           <unittitle>Housing Committee </unittitle>
         </did>
@@ -142,8 +136,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1986-1987</unitdate>
           <unittitle>Executive Committee</unittitle>
         </did>
@@ -151,8 +145,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1981, 1986-1989</unitdate>
           <unittitle>Administrative (1)</unittitle>
         </did>
@@ -160,17 +154,17 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">5</container>
-          <unitdate>c. 1988-1990</unitdate>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">5</container>
+          <unitdate certainty="approximate">1988-1990</unitdate>
           <unittitle>Donor and Board Member Lists</unittitle>
         </did>
         
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1989-1991</unitdate>
           <unittitle>Administrative (2)</unittitle>
         </did>
@@ -178,16 +172,16 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1989</unitdate>
           <unittitle>NAMES Project - Quilt Committee</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1990</unitdate>
           <unittitle>Administrative (3)</unittitle>
         </did>
@@ -195,8 +189,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1991</unitdate>
           <unittitle>GAGV Gala Auction</unittitle>
         </did>
@@ -204,8 +198,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1991</unitdate>
           <unittitle>GAGV Convention</unittitle>
         </did>
@@ -213,8 +207,8 @@
      
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>Undated</unitdate>
           <unittitle>Information pamphlets and flyers</unittitle>
         </did>
@@ -227,5 +221,12 @@
     
     </dsc> 
    
-  </archdesc> 
+  <prefercite>
+        <head>Cite As:</head>
+        <p>Gary Hallinen papers, #7804. Division of Rare and Manuscript Collections, Cornell
+          University Library.</p>
+      </prefercite><relatedmaterial>
+        <head id="a5">RELATED MATERIALS</head>
+        <p>  <extref href="http://rmc.library.cornell.edu/EAD/htmldocs/RMM07560.html">Gay Alliance of the Genesee Valley records</extref> </p>
+      </relatedmaterial></archdesc> 
 </ead>

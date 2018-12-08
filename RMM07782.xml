@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07782::Guide to the Boyd McDonald papers)//EN">RMM07782</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07782::Guide to the Boyd McDonald papers)//EN">RMM07782</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Boyd McDonald papers,<date>1925-1993.</date></titleproper>
@@ -23,19 +23,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>May 2013</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Boyd McDonald Papers,<lb/><date type="inclusive" encodinganalog="245$f">1925-1993.</date></titleproper>
+			<titleproper>Guide to the Boyd McDonald Papers,<date encodinganalog="245$f" type="inclusive">1925-1993.</date></titleproper>
 			<num>Collection Number: 7782</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -61,11 +67,10 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Boyd McDonald papers, <unitdate encodinganalog="MARC 245" type="inclusive">1925-1993.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Boyd McDonald papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1925-1993.</unitdate>
 			<unitid label="Collection Number:">7782</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="McDonald, Boyd   ">McDonald, Boyd </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>14.5 cubic ft.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>14.5 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Photographs, Publications</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -75,7 +80,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Boyd McDonald was a writer and anthologist who started "Straight to Hell: The
 				Manhattan Review of Unnatural Acts" and compiled about a dozen subsequent
 				anthologies based on true-life stories of gay men's sexual experiences. He was
@@ -112,14 +117,7 @@
 				<genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Boyd McDonald papers, #7782. Division of Rare and Manuscript Collections, Cornell
-					University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<odd type="notes">
 			<head id="a6">NOTES</head>
 			<p>Collecting program: Human Sexuality Collection.</p>
@@ -137,21 +135,21 @@
 			<head>SERIES LIST</head>
 			<p>
 				<emph render="bold">
-					<ref target="s1" show="replace" actuate="onrequest">Series I. Photographs</ref>
+					<ref actuate="onrequest" show="replace" target="s1">Series I. Photographs</ref>
 				</emph>
-				<lb/>Boxes 1-6</p>
+				Boxes 1-6</p>
 			
 			<p>
 				<emph render="bold">
-					<ref target="s2" show="replace" actuate="onrequest">Series II. Correspondence</ref>
+					<ref actuate="onrequest" show="replace" target="s2">Series II. Correspondence</ref>
 				</emph>
-				<lb/>Boxes 7-14</p>
+				Boxes 7-14</p>
 			
 			<p>
 				<emph render="bold">
-					<ref target="s3" show="replace" actuate="onrequest">Series III. Computer files</ref>
+					<ref actuate="onrequest" show="replace" target="s3">Series III. Computer files</ref>
 				</emph>
-				<lb/>Box 15</p>
+				Box 15</p>
 		</arrangement>
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
@@ -161,28 +159,28 @@
 				</did>		
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>July 1988 - June 1991</unitdate>						
 						<unittitle>Photos</unittitle>
 					</did>			
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>	
+						<container label="unspecified" type="box">2</container>	
 						<unitdate>1990-1991</unitdate>
 						<unittitle>Miscellaneous information</unittitle>
 					</did>			
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>		
+						<container label="unspecified" type="box">2</container>		
 						<unitdate>1991-1992</unitdate>
 						<unittitle>Photos</unittitle>
 					</did>			
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
+						<container label="unspecified" type="box">3</container>
 						<unitdate>1992-1993</unitdate>						
 						<unittitle>"Fotos"</unittitle>
 					</did>			
@@ -190,7 +188,7 @@
 				
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
+						<container label="unspecified" type="box">4</container>
 <unitdate>May 1993</unitdate>						
 						<unittitle>Alibi Fotos</unittitle>
 					</did>			
@@ -199,7 +197,7 @@
 				
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitdate>July - November 1994</unitdate>						
 						<unittitle>Fotos</unittitle>
 					</did>			
@@ -207,20 +205,20 @@
 				
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitdate>January - December 1995</unitdate>						
 						<unittitle>Alibi</unittitle>
 					</did>			
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>						
+						<container label="unspecified" type="box">6</container>						
 						<unittitle>The Guide Photo Archive</unittitle>
 					</did>			
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>											
+						<container label="unspecified" type="box">6</container>											
 						<unittitle>Scum Photos</unittitle>
 					</did>		
 					<scopecontent><p>1 folder</p></scopecontent>
@@ -233,63 +231,63 @@
 				</did>	
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
+						<container label="unspecified" type="box">7</container>
 <unitdate>1990s</unitdate>						
 						<unittitle>The Guide correspondence</unittitle>
 					</did>			
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>	
+						<container label="unspecified" type="box">8</container>	
 						<unitdate>mid 1990s - 2003</unitdate>
 						<unittitle>F. Wall, Guide correspondence</unittitle>
 					</did>			
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>		
+						<container label="unspecified" type="box">9</container>		
 						<unitdate>1993</unitdate>
 						<unittitle>Alibi</unittitle>
 					</did>			
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>		
+						<container label="unspecified" type="box">9</container>		
 						<unitdate>1991-1993</unitdate>
 						<unittitle>Miscellaneous ads</unittitle>
 					</did>			
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>		
+						<container label="unspecified" type="box">10</container>		
 						<unitdate>1994, 1997</unitdate>
 						<unittitle>Alibi</unittitle>
 					</did>			
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>		
+						<container label="unspecified" type="box">11</container>		
 						<unitdate>1996</unitdate>
 						<unittitle>Alibi files</unittitle>
 					</did>			
 				</c02>			
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>		
+						<container label="unspecified" type="box">12</container>		
 						<unitdate>2001</unitdate>
 						<unittitle>Records</unittitle>
 					</did>			
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-<unitdate>ca. 2001-2003</unitdate>						
+						<container label="unspecified" type="box">13</container>
+<unitdate certainty="approximate">2001-2003</unitdate>						
 						<unittitle>Guide &amp; Alibi</unittitle>
 					</did>			<scopecontent><p>Lawsuits</p></scopecontent>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">15</container>						
+						<container label="unspecified" type="box">15</container>						
 						<unittitle>Miscellaneous correspondence, The Guide</unittitle>
 					</did>			
 				</c02>
@@ -303,8 +301,8 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">15</container>				
-						<unitdate>ca. 1990-1996</unitdate>
+						<container label="unspecified" type="box">15</container>				
+						<unitdate certainty="approximate">1990-1996</unitdate>
 						<unittitle>Digital guide issue backups and correspondence</unittitle>
 					</did>		<scopecontent><p>3.5", Zip, and Jaz, disks.</p></scopecontent>	
 				</c02>
@@ -315,5 +313,9 @@
 			<head>SEPARATED MATERIAL</head>
 		<p>The issues of the publications have been catalogued individually.</p>
 		</separatedmaterial>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Boyd McDonald papers, #7782. Division of Rare and Manuscript Collections, Cornell
+					University Library.</p>
+			</prefercite></archdesc>
 </ead>

@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00086::Cornell University Treasurer's Office records)//EN">RMA00086</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00086::Cornell University Treasurer's Office records)//EN">RMA00086</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Cornell University Treasurer's Office records,1876-1955.</titleproper>
@@ -19,6 +18,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -27,22 +32,22 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Cornell University Treasurer's Office Records,<lb/>1876-1955</titleproper>
+         <titleproper>Guide to the Cornell University Treasurer's Office Records,1876-1955</titleproper>
          <num>Collection Number: 7-6-86</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+         <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/>
-2B Carl A. Kroch Library<lb/>
-Cornell University<lb/>
-Ithaca, NY 14853<lb/>
-(607) 255-3530<lb/>
-Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections
+2B Carl A. Kroch Library
+Cornell University
+Ithaca, NY 14853
+(607) 255-3530
+Fax: (607) 255-9524
 <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
 <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -63,17 +68,17 @@ Fax: (607) 255-9524<lb/>
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Cornell University Treasurer's Office records, 
-		  <unitdate type="inclusive" encodinganalog="MARC 245">1876-1955.</unitdate>
-		
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Cornell University Treasurer's Office records, 
+		  </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1876-1955.</unitdate>
          <unitid label="Collection Number:">7-6-86</unitid>
          <origination label="Creator:"> 
 		  
             <corpname encodinganalog="MARC 110">Cornell University.Treasurer's Office.</corpname>
 		
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>35.6 cubic feet; 248 volumes.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>35.6 cubic feet; 248 volumes.</extent></physdesc>
          <physdesc label="Forms of Material:">Vouchers.</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
          <abstract label="Abstract:">Legal files, credit books, cash books, vouchers, fund reports, contracts, bids, and many other financial records of the University.</abstract>
@@ -92,17 +97,7 @@ Fax: (607) 255-9524<lb/>
             <corpname encodinganalog="MARC 610">Cornell University--Finances.</corpname>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <accessrestrict>
-            <head>Access Restrictions:</head>
-            <p>Restricted to permission of the Office of Origin.</p>
-         </accessrestrict>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Cornell University Treasurer's Office records, #7-1-425. Division of Rare and Manuscript Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <relatedmaterial>
          <head id="a5">RELATED MATERIALS</head>
          <p>Includes collection #7-1-1610, 7-7-1636, 7-1-1345, 7-6-86, 7-6-425, 7-6-13, and 7-6-1110.</p>
@@ -111,7 +106,7 @@ Fax: (607) 255-9524<lb/>
          <head>CONTAINER LIST</head>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>W.H. Woodward - Vouchers</unittitle>
                <unitdate>1868,</unitdate>
                <unitdate>1869</unitdate>
@@ -119,213 +114,219 @@ Fax: (607) 255-9524<lb/>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>E.G. Putman - Vouchers</unittitle>
                <unitdate>1869-1871</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Vouchers</unittitle>
-               <unitdate>Sept. 1871-Dec. 1871</unitdate>
+               <unitdate certainty="approximate">Sept. 1871-Dec. 1871</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Miscellaneous letters and administrative information</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
+               <container label="unspecified" type="box">2</container>
                <unittitle>Alphabetized Vouchers</unittitle>
                <unitdate>1871-1875</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
+               <container label="unspecified" type="box">2</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>1872</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
+               <container label="unspecified" type="box">2</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>1873</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
+               <container label="unspecified" type="box">2</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>1874</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>1875</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>1876</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>1877</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>1878</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>1879</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>Miscellaneous Vouchers</unittitle>
                <unitdate>1877-1880</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
+               <container label="unspecified" type="box">4</container>
                <unittitle>Vouchers</unittitle>
-               <unitdate>Mar. 1880-Dec. 1880</unitdate>
+               <unitdate certainty="approximate">Mar. 1880-Dec. 1880</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
+               <container label="unspecified" type="box">4</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>1881</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
+               <container label="unspecified" type="box">4</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>Jan. 1882-July 1882</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
+               <container label="unspecified" type="box">4</container>
                <unittitle>Vouchers Mics.</unittitle>
                <unitdate>1873-1877</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
+               <container label="unspecified" type="box">4</container>
                <unittitle>Vouchers Misc.</unittitle>
                <unitdate>1880-1881</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
+               <container label="unspecified" type="box">5</container>
                <unittitle>Vouchers</unittitle>
-               <unitdate>Aug. 1882-Dec. 1882</unitdate>
+               <unitdate certainty="approximate">Aug. 1882-Dec. 1882</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
+               <container label="unspecified" type="box">5</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>1883</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
+               <container label="unspecified" type="box">5</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>Jan. 1884-Aug. 1884</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">6</container>
+               <container label="unspecified" type="box">6</container>
                <unittitle>Vouchers</unittitle>
-               <unitdate>SEpt. 1884-Dec. 1884</unitdate>
+               <unitdate certainty="approximate">SEpt. 1884-Dec. 1884</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">6</container>
+               <container label="unspecified" type="box">6</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>1885</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">6</container>
+               <container label="unspecified" type="box">6</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>Jan. 1886-Nov. 1886</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">7</container>
+               <container label="unspecified" type="box">7</container>
                <unittitle>Vouchers</unittitle>
-               <unitdate>Dec. 1886</unitdate>
+               <unitdate certainty="approximate">Dec. 1886</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">7</container>
+               <container label="unspecified" type="box">7</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>1887</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">7</container>
+               <container label="unspecified" type="box">7</container>
                <unittitle>Vouchers (except June)</unittitle>
                <unitdate>1888</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">7</container>
+               <container label="unspecified" type="box">7</container>
                <unittitle>Cornell University Medical College</unittitle>
                <unitdate>1901-1906</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">7</container>
+               <container label="unspecified" type="box">7</container>
                <unittitle>Miscellaneous</unittitle>
                <unitdate>1905-1906</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">8</container>
+               <container label="unspecified" type="box">8</container>
                <unittitle>Vouchers</unittitle>
                <unitdate>1922</unitdate>
             </did>
          </c01>
       </dsc>
-   </archdesc>
+   <accessrestrict>
+            <head>Access Restrictions:</head>
+            <p>Restricted to permission of the Office of Origin.</p>
+         </accessrestrict><prefercite>
+            <head>Cite As:</head>
+            <p>Cornell University Treasurer's Office records, #7-1-425. Division of Rare and Manuscript Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

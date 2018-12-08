@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02924::Anne Tjomsland papers)//EN">RMM02924</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02924::Anne Tjomsland papers)//EN">RMM02924</eadid>
   <filedesc>
     <titlestmt>
       <titleproper>Guide to the Anne Tjomsland papers, <date>[ca. 1838-1966]</date></titleproper>
@@ -27,18 +26,24 @@
   <profiledesc>
     <creation>Finding aid encoded by RMC Staff, <date>May 2018</date></creation>
   </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
            <titlepage>
-                   <titleproper>Guide to the Anne Tjomsland papers, <lb/><date type="inclusive" encodinganalog="245$f">[ca. 1872-1966]</date></titleproper>
+                   <titleproper>Guide to the Anne Tjomsland papers, <date encodinganalog="245$f" type="inclusive">[ca. 1872-1966]</date></titleproper>
            <num>Collection Number: 2924</num>
-           <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+           <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
            <list type="deflist">
                    <defitem>
                            <label>Contact Information:</label>
-                           <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                            Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
-                            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+                           <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                            Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
+                            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
                    </defitem>
                    <defitem>
                            <label>Compiled by:</label>
@@ -63,14 +68,13 @@
   <archdesc level="collection">
     <did>
             <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245">Anne Tjomsland papers,
-            <unitdate encodinganalog="MARC 245" type="inclusive">[ca. 1838-1966]</unitdate>
-            </unittitle>
+            <unittitle encodinganalog="MARC 245" label="Title:">Anne Tjomsland papers,
+            </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1838-1966</unitdate>
             <unitid label="Collection Number:">2924</unitid>
             <origination label="Creator:">
                     <persname encodinganalog="100" normal="Tjomsland, Anne, 1880-1968. "> Anne, Tjomsland, 1880-1968.                     </persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>4.2 cubic ft.</extent></physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>4.2 cubic feet</extent></physdesc>
      <physdesc label="Forms of Material:">Correspondence, photographs, publication reprints, patient record notes, schoolwork, and manuscripts.</physdesc>
             <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
             <abstract label="Abstract:">Includes correspondence, photographs, publication reprints, patient record notes, schoolwork, and manuscripts.
@@ -81,7 +85,7 @@
             </langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">
-            <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+            <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
             <p>Dr. Anne Tjomsland (Cornell University B.A. 1911, M.D. 1914) worked at Bellevue Hospital in New York City
              before serving as a contract surgeon for the U.S. Army in Vichy, France during World War I. She wrote about
              her experiences with the Bellevue Hospital medical unit in her book "Bellevue in France: Anecdotal History
@@ -133,18 +137,7 @@
       <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
     </controlaccess>
   </controlaccess>
-    <descgrp>
-           <head id="a8">INFORMATION FOR USERS</head>
-                  <accessrestrict>
-                          <head>Access Restrictions:</head>
-                                   <p>Under the HIPAA Privacy Rule, all individually identifiable health information in patients' medical records in Box 4 are restricted.</p>
-                  </accessrestrict>
-                  <prefercite>
-                          <head>Cite As:</head>
-                                   <p>Anne Tjomsland papers, #2924. Division of Rare and Manuscript Collections, Cornell University Library.
-                                   </p>
-                  </prefercite>
-    </descgrp>
+    
              <relatedmaterial>
                     <head id="a5">RELATED MATERIALS</head>
                                    <p>Related collections: Mary Merritt Crawford and Family Papers, #41-5-619</p>
@@ -154,45 +147,45 @@
   
    <p>
     <emph render="bold">
-     <ref target="s1" show="replace" actuate="onrequest">Series I. Correspondence, 1838-1966</ref>
+     <ref actuate="onrequest" show="replace" target="s1">Series I. Correspondence, 1838-1966</ref>
     </emph>
-    <lb/>Boxes 1-2 <lb/>
+    Boxes 1-2 
    </p>
    <p>
     <emph render="bold">
-     <ref target="s2" show="replace" actuate="onrequest">Series II. World War I Related Materials, 1914-1963</ref>
+     <ref actuate="onrequest" show="replace" target="s2">Series II. World War I Related Materials, 1914-1963</ref>
     </emph>
-    <lb/>Box 3 <lb/>
+    Box 3 
    </p>
    <p>
     <emph render="bold">
-     <ref target="s3" show="replace" actuate="onrequest">Series III. Writing and Translations, 1910-1963</ref>
+     <ref actuate="onrequest" show="replace" target="s3">Series III. Writing and Translations, 1910-1963</ref>
     </emph>
-    <lb/>Box 3<lb/>
+    Box 3
    </p>
    <p>
     <emph render="bold">
-     <ref target="s4" show="replace" actuate="onrequest">Series IV. Schooling Materials, 1891-1949</ref>
+     <ref actuate="onrequest" show="replace" target="s4">Series IV. Schooling Materials, 1891-1949</ref>
     </emph>
-    <lb/>Box 3<lb/>
+    Box 3
    </p>
    <p>
     <emph render="bold">
-     <ref target="s5" show="replace" actuate="onrequest">Series V. Research Materials, 1935-1959</ref>
+     <ref actuate="onrequest" show="replace" target="s5">Series V. Research Materials, 1935-1959</ref>
     </emph>
-    <lb/>Boxes 4-6<lb/>
+    Boxes 4-6
    </p>
    <p>
     <emph render="bold">
-     <ref target="s6" show="replace" actuate="onrequest">Series VI. Photographs, 1904-1956</ref>
+     <ref actuate="onrequest" show="replace" target="s6">Series VI. Photographs, 1904-1956</ref>
     </emph>
-    <lb/>Box 4 <lb/>
+    Box 4 
    </p>
    <p>
     <emph render="bold">
-     <ref target="s7" show="replace" actuate="onrequest">Series VII. Assorted Materials, 1904-1961</ref>
+     <ref actuate="onrequest" show="replace" target="s7">Series VII. Assorted Materials, 1904-1961</ref>
     </emph>
-    <lb/>Box 4<lb/>
+    Box 4
    </p>
   </arrangement> 
 
@@ -202,19 +195,19 @@
       <c01 level="series">
        <did>
 
-        <unitdate type="inclusive" normal="1838/1966">1838-1966</unitdate>
+        <unitdate normal="1838/1966" type="inclusive">1838-1966</unitdate>
         <unittitle id="s1">Correspondence</unittitle>
        </did><scopecontent><p>Contains personal and professional correspondence.</p></scopecontent>
       <c02 level="subseries">
        <did>
- <unitdate type="inclusive" normal="1838/1966">1838-1966</unitdate>
+ <unitdate normal="1838/1966" type="inclusive">1838-1966</unitdate>
         <unittitle>Assorted Correspondence</unittitle>
        </did>
        <arrangement><p>Arranged chronologically. </p></arrangement>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">1</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">1</container>
  <unitdate>Undated</unitdate>
         <unittitle>Blank postcards</unittitle>
        </did>
@@ -222,8 +215,8 @@
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">2</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">2</container>
  <unitdate>Undated</unitdate>
         <unittitle>Postcards</unittitle>
        </did>
@@ -231,323 +224,323 @@
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">5</container>
- <unitdate type="inclusive" certainty="Circa" normal="1838/1902">1838-1902</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">5</container>
+ <unitdate certainty="approximate" normal="1838/1902" type="inclusive">1838-1902</unitdate>
         <unittitle>Correspondence and documents from Norway</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">6</container>
- <unitdate type="bulk" normal="1904/1905">1872, 1880-1889</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">6</container>
+ <unitdate normal="1904/1905" type="bulk">1872, 1880-1889</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">7</container>
- <unitdate type="inclusive" normal="1908/1916">1908-1916</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1908/1916" type="inclusive">1908-1916</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1916/1919">1916-1919</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1916/1919" type="inclusive">1916-1919</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">11</container>
- <unitdate type="inclusive" normal="1920">1920</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">11</container>
+ <unitdate normal="1920" type="inclusive">1920</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1921/1922" type="inclusive">1921-1922</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">20</container>
- <unitdate type="bulk" normal="1924/1947">1924, 1935, 1938, 1942, 1946-1947</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">20</container>
+ <unitdate normal="1924/1947" type="bulk">1924, 1935, 1938, 1942, 1946-1947</unitdate>
         <unittitle>Assorted postcards</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">21</container>
- <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">21</container>
+ <unitdate normal="1924/1925" type="inclusive">1924-1925</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">24</container>
- <unitdate type="inclusive" normal="1926/1927">1926-1927</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">24</container>
+ <unitdate normal="1926/1927" type="inclusive">1926-1927</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">27</container>
- <unitdate type="inclusive" normal="1929">1929</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">27</container>
+ <unitdate normal="1929" type="inclusive">1929</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">30</container>
- <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">30</container>
+ <unitdate normal="1930/1931" type="inclusive">1930-1931</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">33</container>
- <unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">33</container>
+ <unitdate normal="1932/1933" type="inclusive">1932-1933</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">37</container>
- <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">37</container>
+ <unitdate normal="1934/1935" type="inclusive">1934-1935</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">45</container>
- <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">45</container>
+ <unitdate normal="1936/1937" type="inclusive">1936-1937</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">50</container>
- <unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">50</container>
+ <unitdate normal="1938/1939" type="inclusive">1938-1939</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">52</container>
- <unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">52</container>
+ <unitdate normal="1940/1941" type="inclusive">1940-1941</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">53</container>
- <unitdate type="inclusive" normal="1942/1944">1942-1944</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">53</container>
+ <unitdate normal="1942/1944" type="inclusive">1942-1944</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">54</container>
- <unitdate type="inclusive" normal="1945">1945</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">54</container>
+ <unitdate normal="1945" type="inclusive">1945</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">56</container>
- <unitdate type="inclusive" normal="1946">1946</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">56</container>
+ <unitdate normal="1946" type="inclusive">1946</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">59</container>
- <unitdate type="inclusive" normal="1947">1947</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">59</container>
+ <unitdate normal="1947" type="inclusive">1947</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">65</container>
- <unitdate type="inclusive" normal="1948">1948</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">65</container>
+ <unitdate normal="1948" type="inclusive">1948</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">3</container>
- <unitdate type="inclusive" normal="1949">1949</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">3</container>
+ <unitdate normal="1949" type="inclusive">1949</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">6</container>
- <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">6</container>
+ <unitdate normal="1950/1951" type="inclusive">1950-1951</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1950/1959">1950-1959</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1950/1959" type="inclusive">1950-1959</unitdate>
         <unittitle>Assorted postcards</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">10</container>
- <unitdate type="inclusive" certainty="Circa" normal="1950/1965">1950-1965</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">10</container>
+ <unitdate certainty="approximate" normal="1950/1965" type="inclusive">1950-1965</unitdate>
         <unittitle>Holiday cards</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1953/1954" type="inclusive">1953-1954</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">16</container>
- <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">16</container>
+ <unitdate normal="1955/1957" type="inclusive">1955-1957</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">25</container>
- <unitdate type="inclusive" normal="1958">1958</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">25</container>
+ <unitdate normal="1958" type="inclusive">1958</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">27</container>
- <unitdate type="inclusive" normal="1959">1959</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">27</container>
+ <unitdate normal="1959" type="inclusive">1959</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
        </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">29</container>
- <unitdate type="inclusive" normal="1960">1960</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">29</container>
+ <unitdate normal="1960" type="inclusive">1960</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">31</container>
- <unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">31</container>
+ <unitdate normal="1960/1965" type="inclusive">1960-1965</unitdate>
         <unittitle>Assorted postcards</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">33</container>
- <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">33</container>
+ <unitdate normal="1961/1962" type="inclusive">1961-1962</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">34</container>
- <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">34</container>
+ <unitdate normal="1961/1962" type="inclusive">1961-1962</unitdate>
         <unittitle>Holiday cards</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">35</container>
- <unitdate type="inclusive" normal="1963">1963</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">35</container>
+ <unitdate normal="1963" type="inclusive">1963</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">36</container>
- <unitdate type="inclusive" normal="1964">1964</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">36</container>
+ <unitdate normal="1964" type="inclusive">1964</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">37</container>
- <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">37</container>
+ <unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
 
@@ -555,14 +548,14 @@
            </c02>
       <c02 level="subseries">
        <did>
- <unitdate type="inclusive" normal="1919/1965">1919-1965</unitdate>
+ <unitdate normal="1919/1965" type="inclusive">1919-1965</unitdate>
         <unittitle>Subject Correspondence</unittitle>
        </did>
        <arrangement><p>Arranged chronologically. </p></arrangement>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">4</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
@@ -570,560 +563,560 @@
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">10</container>
- <unitdate type="inclusive" normal="1919">1919</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">10</container>
+ <unitdate normal="1919" type="inclusive">1919</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">12</container>
- <unitdate type="inclusive" normal="1920">1920</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">12</container>
+ <unitdate normal="1920" type="inclusive">1920</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1921">1921</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1921" type="inclusive">1921</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">15</container>
- <unitdate type="inclusive" normal="1922">1922</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">15</container>
+ <unitdate normal="1922" type="inclusive">1922</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">17</container>
- <unitdate type="inclusive" normal="1923">1923</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">17</container>
+ <unitdate normal="1923" type="inclusive">1923</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">18</container>
- <unitdate type="bulk" normal="1923/1940">1923-1933, 1938-1940</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">18</container>
+ <unitdate normal="1923/1940" type="bulk">1923-1933, 1938-1940</unitdate>
         <unittitle>Et. Petit correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">19</container>
- <unitdate type="inclusive" normal="1924">1924</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">19</container>
+ <unitdate normal="1924" type="inclusive">1924</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">22</container>
- <unitdate type="inclusive" normal="1925">1925</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">22</container>
+ <unitdate normal="1925" type="inclusive">1925</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">23</container>
- <unitdate type="inclusive" normal="1926">1926</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">23</container>
+ <unitdate normal="1926" type="inclusive">1926</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">25</container>
- <unitdate type="inclusive" normal="1927">1927</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">25</container>
+ <unitdate normal="1927" type="inclusive">1927</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">26</container>
- <unitdate type="inclusive" normal="1928">1928</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">26</container>
+ <unitdate normal="1928" type="inclusive">1928</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">28</container>
- <unitdate type="inclusive" normal="1929">1929</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">28</container>
+ <unitdate normal="1929" type="inclusive">1929</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">29</container>
- <unitdate type="inclusive" normal="1930">1930</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">29</container>
+ <unitdate normal="1930" type="inclusive">1930</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">31</container>
- <unitdate type="inclusive" normal="1931">1931</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">31</container>
+ <unitdate normal="1931" type="inclusive">1931</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">32</container>
- <unitdate type="inclusive" normal="1932">1932</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">32</container>
+ <unitdate normal="1932" type="inclusive">1932</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">34</container>
- <unitdate type="inclusive" normal="1933">1933</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">34</container>
+ <unitdate normal="1933" type="inclusive">1933</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">35</container>
- <unitdate type="inclusive" normal="1933/1957">1933-1957</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">35</container>
+ <unitdate normal="1933/1957" type="inclusive">1933-1957</unitdate>
         <unittitle>Henry E. Sigerist correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">36</container>
- <unitdate type="inclusive" normal="1934">1934</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">36</container>
+ <unitdate normal="1934" type="inclusive">1934</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">38</container>
- <unitdate type="bulk" normal="1934/1947">1934-1937, 1947</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">38</container>
+ <unitdate normal="1934/1947" type="bulk">1934-1937, 1947</unitdate>
         <unittitle>Fredrik Gron correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">39</container>
- <unitdate type="inclusive" normal="1934/1939">1934-1939</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">39</container>
+ <unitdate normal="1934/1939" type="inclusive">1934-1939</unitdate>
         <unittitle>Nordisk Tidende Newspaper correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">40</container>
- <unitdate type="inclusive" normal="1935">1935</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">40</container>
+ <unitdate normal="1935" type="inclusive">1935</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">42</container>
- <unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">42</container>
+ <unitdate normal="1935/1939" type="inclusive">1935-1939</unitdate>
         <unittitle>Ingjald Reichborn-Kjennerud correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">43</container>
- <unitdate type="inclusive" normal="1935/1951">1935-1951</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">43</container>
+ <unitdate normal="1935/1951" type="inclusive">1935-1951</unitdate>
         <unittitle>Nordisk Tidende Newspaper correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">44</container>
- <unitdate type="inclusive" normal="1936">1936</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">44</container>
+ <unitdate normal="1936" type="inclusive">1936</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">46</container>
- <unitdate type="inclusive" normal="1936/1954">1936-1954</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">46</container>
+ <unitdate normal="1936/1954" type="inclusive">1936-1954</unitdate>
         <unittitle>Halldor Hermannsson correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">47</container>
- <unitdate type="inclusive" normal="1937">1937</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">47</container>
+ <unitdate normal="1937" type="inclusive">1937</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">48</container>
- <unitdate type="bulk" normal="1937/1955">1937, 1948-1955</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">48</container>
+ <unitdate normal="1937/1955" type="bulk">1937, 1948-1955</unitdate>
         <unittitle>Erik Waller correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">49</container>
- <unitdate type="inclusive" normal="1938">1938</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">49</container>
+ <unitdate normal="1938" type="inclusive">1938</unitdate>
         <unittitle>Valentine Colonna correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">51</container>
- <unitdate type="inclusive" normal="1939/1949">1939-1949</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">51</container>
+ <unitdate normal="1939/1949" type="inclusive">1939-1949</unitdate>
         <unittitle>Sigrid Undset correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">55</container>
- <unitdate type="inclusive" normal="1945/1949">1945-1949</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">55</container>
+ <unitdate normal="1945/1949" type="inclusive">1945-1949</unitdate>
         <unittitle>Dittrick correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">58</container>
- <unitdate type="inclusive" normal="1946/1950">1946-1950</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">58</container>
+ <unitdate normal="1946/1950" type="inclusive">1946-1950</unitdate>
         <unittitle>Correspondence on Reichborn-Kjennerud obituary and pamphlets</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">60</container>
- <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">60</container>
+ <unitdate normal="1947/1948" type="inclusive">1947-1948</unitdate>
         <unittitle>Page Cooper correspondence</unittitle>
        </did>
 
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">61</container>
- <unitdate type="inclusive" normal="1947/1963">1947-1963</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">61</container>
+ <unitdate normal="1947/1963" type="inclusive">1947-1963</unitdate>
         <unittitle>Genevieve Miller correspondence</unittitle>
        </did>
        </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">62</container>
- <unitdate type="inclusive" normal="1947/1954">1947-1954</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">62</container>
+ <unitdate normal="1947/1954" type="inclusive">1947-1954</unitdate>
         <unittitle>Petra Jaabek correspondence</unittitle>
        </did>
            </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">63</container>
- <unitdate type="inclusive" normal="1947-01/1948-10">1947-01-1948-10</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">63</container>
+ <unitdate normal="1947-01/1948-10" type="inclusive">1947-01-1948-10</unitdate>
         <unittitle>Junius Bird correspondence</unittitle>
        </did>
            </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">64</container>
- <unitdate type="inclusive" normal="1947-11/1949-10">1947-11-1949-10</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">64</container>
+ <unitdate normal="1947-11/1949-10" type="inclusive">1947-11-1949-10</unitdate>
         <unittitle>George Strong correspondence</unittitle>
        </did>
            </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">66</container>
- <unitdate type="inclusive" normal="1948">1948</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">66</container>
+ <unitdate normal="1948" type="inclusive">1948</unitdate>
         <unittitle>John La Monte</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">67</container>
- <unitdate type="bulk" normal="1948/1961">1948, 1956-1961</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">67</container>
+ <unitdate normal="1948/1961" type="bulk">1948, 1956-1961</unitdate>
         <unittitle>Ellen H. Ringer</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">1</container>
- <unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">1</container>
+ <unitdate normal="1948/1949" type="inclusive">1948-1949</unitdate>
         <unittitle>Max Thorek correspondence</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1948-02/1949-05">1948-02-1949-05</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1948-02/1949-05" type="inclusive">1948-02-1949-05</unitdate>
         <unittitle>Austin Evans correspondence</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">4</container>
- <unitdate type="bulk" normal="1949/1965">1949, 1957-1965</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">4</container>
+ <unitdate normal="1949/1965" type="bulk">1949, 1957-1965</unitdate>
         <unittitle>Amy Grace Mekeel correspondence</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">5</container>
- <unitdate type="inclusive" normal="1949/1960">1949-1960</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">5</container>
+ <unitdate normal="1949/1960" type="inclusive">1949-1960</unitdate>
         <unittitle>Temkin Correspondence</unittitle>
        </did>
           </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">7</container>
- <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1950/1951" type="inclusive">1950-1951</unitdate>
         <unittitle>Emma and Inger Munch correspondence</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1950/1954">1950-1954</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1950/1954" type="inclusive">1950-1954</unitdate>
         <unittitle>Chr. M. Spilling correspondence</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">11</container>
- <unitdate type="bulk" normal="1951/1962">1951, 1961-1962</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">11</container>
+ <unitdate normal="1951/1962" type="bulk">1951, 1961-1962</unitdate>
         <unittitle>Ciba - The History of the White Potato, National Potato Council correspondence</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">12</container>
- <unitdate type="inclusive" normal="1951/1962">1951-1962</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">12</container>
+ <unitdate normal="1951/1962" type="inclusive">1951-1962</unitdate>
         <unittitle>History of Medicine by Robin Fahraeus correspondence</unittitle>
        </did>
            </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1952/1964">1952-1964</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1952/1964" type="inclusive">1952-1964</unitdate>
         <unittitle>Egill Snorrason correspondence</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">17</container>
- <unitdate type="bulk" normal="1956/1961">1956-1957, 1960-1961</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">17</container>
+ <unitdate normal="1956/1961" type="bulk">1956-1957, 1960-1961</unitdate>
         <unittitle>Pentothal postcards</unittitle>
        </did>
            </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">18</container>
- <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">18</container>
+ <unitdate normal="1956/1958" type="inclusive">1956-1958</unitdate>
         <unittitle>Odd Helland correspondence</unittitle>
        </did>
            </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">19</container>
- <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">19</container>
+ <unitdate normal="1957/1958" type="inclusive">1957-1958</unitdate>
         <unittitle>NSF Medical translation inquiries</unittitle>
        </did>
            </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">20</container>
- <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">20</container>
+ <unitdate normal="1957/1958" type="inclusive">1957-1958</unitdate>
         <unittitle>G. Natrud correspondence</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">21</container>
- <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">21</container>
+ <unitdate normal="1957/1958" type="inclusive">1957-1958</unitdate>
         <unittitle>Curt Proskauer correspondence</unittitle>
        </did>
            </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">22</container>
- <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">22</container>
+ <unitdate normal="1957/1959" type="inclusive">1957-1959</unitdate>
         <unittitle>Iago Galdston correspondence</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">23</container>
- <unitdate type="inclusive" normal="1957/1964">1957-1964</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">23</container>
+ <unitdate normal="1957/1964" type="inclusive">1957-1964</unitdate>
         <unittitle>Felix Marti-Ibanez correspondence</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">24</container>
- <unitdate type="inclusive" normal="1957-06/1958-11">1957-06-1958-11</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">24</container>
+ <unitdate normal="1957-06/1958-11" type="inclusive">1957-06-1958-11</unitdate>
         <unittitle>D.H. Daugherty, American Council of Learned Societies correspondence</unittitle>
        </did>
            </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">26</container>
- <unitdate type="inclusive" normal="1958/1965">1958-1965</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">26</container>
+ <unitdate normal="1958/1965" type="inclusive">1958-1965</unitdate>
         <unittitle>Erik J. Friis, Robert Hunter related correspondence</unittitle>
        </did>
           </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">28</container>
- <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">28</container>
+ <unitdate normal="1959/1962" type="inclusive">1959-1962</unitdate>
         <unittitle>Accident related correspondence</unittitle>
        </did>
           </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">30</container>
- <unitdate type="inclusive" normal="1960">1960</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">30</container>
+ <unitdate normal="1960" type="inclusive">1960</unitdate>
         <unittitle>Morris Bishop correspondence</unittitle>
        </did>
            </c03>
            </c02>
       <c02 level="subseries">
        <did>
- <unitdate type="inclusive" normal="1914/1966">1914-1966</unitdate>
+ <unitdate normal="1914/1966" type="inclusive">1914-1966</unitdate>
         <unittitle>Family Correspondence</unittitle>
        </did>
        <arrangement><p>Arranged chronologically. </p></arrangement>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">3</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">3</container>
  <unitdate>Undated</unitdate>
         <unittitle>Family correspondence</unittitle>
        </did>
            </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">8</container>
- <unitdate type="bulk" normal="1914/1918">1914-1915, 1918</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1914/1918" type="bulk">1914-1915, 1918</unitdate>
         <unittitle>Family correspondence</unittitle>
        </did>
           </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">16</container>
- <unitdate type="inclusive" normal="1923">1923</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">16</container>
+ <unitdate normal="1923" type="inclusive">1923</unitdate>
         <unittitle>Family correspondence</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">41</container>
- <unitdate type="inclusive" normal="1935/1938">1935-1938</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">41</container>
+ <unitdate normal="1935/1938" type="inclusive">1935-1938</unitdate>
         <unittitle>Family correspondence</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">57</container>
- <unitdate type="inclusive" normal="1946">1946</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">57</container>
+ <unitdate normal="1946" type="inclusive">1946</unitdate>
         <unittitle>Family correspondence</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">15</container>
- <unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">15</container>
+ <unitdate normal="1954/1959" type="inclusive">1954-1959</unitdate>
         <unittitle>Family correspondence</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">32</container>
- <unitdate type="inclusive" normal="1960/1966">1960-1966</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">32</container>
+ <unitdate normal="1960/1966" type="inclusive">1960-1966</unitdate>
         <unittitle>Family correspondence</unittitle>
        </did>
           </c03>
@@ -1131,7 +1124,7 @@
       </c01>
       <c01 level="series">
        <did>
- <unitdate type="inclusive" normal="1914/1963">1914-1963</unitdate>
+ <unitdate normal="1914/1963" type="inclusive">1914-1963</unitdate>
         <unittitle id="s2">World War I Related Materials</unittitle>
        </did><scopecontent>
       <p>Contains materials related to Tjomsland's service as a contract surgeon in World War I.</p>
@@ -1139,120 +1132,120 @@
        <arrangement><p>Arranged chronologically.</p></arrangement>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">23</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">23</container>
  <unitdate>Undated</unitdate>
         <unittitle>Vichy photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">24</container>
- <unitdate type="inclusive" normal="1914/1919">1914-1919</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">24</container>
+ <unitdate normal="1914/1919" type="inclusive">1914-1919</unitdate>
         <unittitle>Red Cross Cases - France</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">25</container>
- <unitdate type="inclusive" certainty="Circa" normal="1917/1919">1917-1919</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">25</container>
+ <unitdate certainty="approximate" normal="1917/1919" type="inclusive">1917-1919</unitdate>
         <unittitle>Singing in Vichy writing</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">26</container>
- <unitdate type="inclusive" certainty="Circa" normal="1917/1919">1917-1919</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">26</container>
+ <unitdate certainty="approximate" normal="1917/1919" type="inclusive">1917-1919</unitdate>
         <unittitle>WWI soldier photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">27</container>
- <unitdate type="inclusive" certainty="Circa" normal="1917/1919">1917-1919</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">27</container>
+ <unitdate certainty="approximate" normal="1917/1919" type="inclusive">1917-1919</unitdate>
         <unittitle>WWI soldier photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">28</container>
- <unitdate type="inclusive" normal="1917-07/1919-05">1917-07-1919-05</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">28</container>
+ <unitdate normal="1917-07/1919-05" type="inclusive">1917-07-1919-05</unitdate>
         <unittitle>WWI U.S. Army application and related materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">29</container>
- <unitdate type="inclusive" normal="1918-02">1918-02</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">29</container>
+ <unitdate normal="1918-02" type="inclusive">1918-02</unitdate>
         <unittitle>Passport and application</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">30</container>
- <unitdate type="inclusive" normal="1918-02/1919-03">1918-02-1919-03</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">30</container>
+ <unitdate normal="1918-02/1919-03" type="inclusive">1918-02-1919-03</unitdate>
         <unittitle>U.S. Army technician appointment</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">31</container>
- <unitdate type="inclusive" normal="1945-12-31">1945-12-31</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">31</container>
+ <unitdate normal="1945-12-31" type="inclusive">1945-12-31</unitdate>
         <unittitle>U.S. Treasury Department Patriotic Cooperation citation</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">32</container>
- <unitdate type="inclusive" normal="1956-06/1958-05">1956-06-1958-05</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">32</container>
+ <unitdate normal="1956-06/1958-05" type="inclusive">1956-06-1958-05</unitdate>
         <unittitle>Veteran pension petition correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">33</container>
- <unitdate type="bulk" normal="1958-05/1965-03">1958-05-1958-07, 1963-05, 1965-03</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">33</container>
+ <unitdate normal="1958-05/1965-03" type="bulk">1958-05-1958-07, 1963-05, 1965-03</unitdate>
         <unittitle>Social Security benefits petition correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">34</container>
- <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">34</container>
+ <unitdate normal="1962/1963" type="inclusive">1962-1963</unitdate>
         <unittitle>Veterans' Exemption from Real Property Taxes application</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">64</container>
- <unitdate type="inclusive" normal="1918-12-04">1918-12-04</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">64</container>
+ <unitdate normal="1918-12-04" type="inclusive">1918-12-04</unitdate>
         <unittitle>U.S. Army contract</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">65</container>
- <unitdate type="inclusive" normal="1919">1919</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">65</container>
+ <unitdate normal="1919" type="inclusive">1919</unitdate>
         <unittitle>U.S. Army French transport form</unittitle>
        </did>
            </c02>
       </c01>
       <c01 level="series">
        <did>
- <unitdate type="inclusive" normal="1910/1963">1910-1963</unitdate>
+ <unitdate normal="1910/1963" type="inclusive">1910-1963</unitdate>
         <unittitle id="s3">Writing and Translations</unittitle>
        </did>
      <scopecontent>
@@ -1260,254 +1253,254 @@
      </scopecontent>
       <c02 level="subseries">
        <did>
- <unitdate type="inclusive" normal="1915/1943">1915-1943</unitdate>
+ <unitdate normal="1915/1943" type="inclusive">1915-1943</unitdate>
         <unittitle>Bellevue in France</unittitle>
        </did>
        <arrangement><p>Arranged chronologically.</p></arrangement>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">35</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">35</container>
  <unitdate>Undated</unitdate>
         <unittitle>Bellevue Hospital photographs</unittitle>
        </did>
            </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">36</container>
- <unitdate type="inclusive" normal="1915/1926">1915-1926</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">36</container>
+ <unitdate normal="1915/1926" type="inclusive">1915-1926</unitdate>
         <unittitle>Bellevue Hospital newspaper clippings</unittitle>
        </did>
              </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">37</container>
- <unitdate type="inclusive" certainty="Circa" normal="1941">1941</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">37</container>
+ <unitdate certainty="approximate" normal="1941" type="inclusive">1941</unitdate>
         <unittitle>Bellevue Hospital article</unittitle>
        </did>
              </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">38</container>
- <unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">38</container>
+ <unitdate normal="1942/1943" type="inclusive">1942-1943</unitdate>
         <unittitle>Bellevue in France book reviews</unittitle>
        </did>
              </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">39</container>
- <unitdate type="inclusive" normal="1942-05-23">1942-05-23</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">39</container>
+ <unitdate normal="1942-05-23" type="inclusive">1942-05-23</unitdate>
         <unittitle>Bellevue in France book notice</unittitle>
        </did>
              </c03>
            </c02>
       <c02 level="subseries">
        <did>
- <unitdate type="inclusive" normal="1910/1963">1910-1963</unitdate>
+ <unitdate normal="1910/1963" type="inclusive">1910-1963</unitdate>
         <unittitle>Other Writing and Translations</unittitle>
        </did>
        <arrangement><p>Arranged chronologically, if no date arranged alphabetically.</p></arrangement>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">40</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">40</container>
  <unitdate>Undated</unitdate>
         <unittitle>Assorted poetry and notes</unittitle>
        </did>
              </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">41</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">41</container>
  <unitdate>Undated</unitdate>
         <unittitle>Assorted poetry and notes</unittitle>
        </did>
              </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">42</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">42</container>
  <unitdate>Undated</unitdate>
         <unittitle>Assorted writing and notes</unittitle>
        </did>
              </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">43</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">43</container>
  <unitdate>Undated</unitdate>
         <unittitle>Another Kind of Place</unittitle>
        </did>
              </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">44</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">44</container>
  <unitdate>Undated</unitdate>
         <unittitle>The Captain of the Men of Death</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">45</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">45</container>
  <unitdate>Undated</unitdate>
         <unittitle>Hermann Von Helmholtz</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">46</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">46</container>
  <unitdate>Undated</unitdate>
         <unittitle>The Incoming Tide</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">47</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">47</container>
  <unitdate>Undated</unitdate>
         <unittitle>Jan Fearnley's Flower-piece</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">48</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">48</container>
  <unitdate>Undated</unitdate>
         <unittitle>Karin</unittitle>
        </did>
              </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">49</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">49</container>
  <unitdate>Undated</unitdate>
         <unittitle>Off the Norwegian Coast</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">50</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">50</container>
  <unitdate>Undated</unitdate>
         <unittitle>The Saga of Hrafn Sveinbjarnarson translation</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">51</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">51</container>
  <unitdate>Undated</unitdate>
         <unittitle>Ships that List</unittitle>
        </did>
               </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">52</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">52</container>
  <unitdate>Undated</unitdate>
         <unittitle>Tug</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">53</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">53</container>
  <unitdate>Undated</unitdate>
         <unittitle>A Visit to Stratford-on-Avon</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">54</container>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">54</container>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Assorted writing and notes</unittitle>
        </did>
              </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">55</container>
- <unitdate type="inclusive" normal="1913">1913</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">55</container>
+ <unitdate normal="1913" type="inclusive">1913</unitdate>
         <unittitle>The Glory of Opportunity series</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">56</container>
- <unitdate type="inclusive" certainty="Circa" normal="1914/1915">1914-1915</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">56</container>
+ <unitdate certainty="approximate" normal="1914/1915" type="inclusive">1914-1915</unitdate>
         <unittitle>The Life Clinic</unittitle>
        </did>
              </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">57</container>
- <unitdate type="inclusive" normal="1927">1927</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">57</container>
+ <unitdate normal="1927" type="inclusive">1927</unitdate>
         <unittitle>Daily journal entries</unittitle>
        </did>
              </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">58</container>
- <unitdate type="inclusive" normal="1946">1946</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">58</container>
+ <unitdate normal="1946" type="inclusive">1946</unitdate>
         <unittitle>Hospital stay notes</unittitle>
        </did>
              </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">59</container>
- <unitdate type="bulk" normal="1956/1960">1956-1957, 1960</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">59</container>
+ <unitdate normal="1956/1960" type="bulk">1956-1957, 1960</unitdate>
         <unittitle>Robin Fahraeus articles</unittitle>
        </did>
            </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">60</container>
- <unitdate type="inclusive" normal="1958">1958</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">60</container>
+ <unitdate normal="1958" type="inclusive">1958</unitdate>
         <unittitle>Bergman Ole Johnsen Jamt translation</unittitle>
        </did>
            </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">61</container>
- <unitdate type="inclusive" normal="1958">1958</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">61</container>
+ <unitdate normal="1958" type="inclusive">1958</unitdate>
         <unittitle>Robin Fahraeus book translation</unittitle>
        </did>
              </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">62</container>
- <unitdate type="inclusive" normal="1959">1959</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">62</container>
+ <unitdate normal="1959" type="inclusive">1959</unitdate>
         <unittitle>It Can't Be Done</unittitle>
        </did>
              </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">63</container>
- <unitdate type="bulk" normal="1959-10/1961-04">1959-10, 1961-04</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">63</container>
+ <unitdate normal="1959-10/1961-04" type="bulk">1959-10, 1961-04</unitdate>
         <unittitle>The Bear Hunters in Bjollelfa translation</unittitle>
        </did>
             </c03>
       <c03 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">66</container>
- <unitdate type="inclusive" normal="1963-09">1963-09</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">66</container>
+ <unitdate normal="1963-09" type="inclusive">1963-09</unitdate>
         <unittitle>Don Felipe and Covarrubias history</unittitle>
        </did>
          </c03>
@@ -1515,7 +1508,7 @@
       </c01>
       <c01 level="series">
        <did>
- <unitdate type="inclusive" normal="1891/1949">1891-1949</unitdate>
+ <unitdate normal="1891/1949" type="inclusive">1891-1949</unitdate>
         <unittitle id="s4">Schooling Materials</unittitle>
        </did> <scopecontent>
       <p>Contains mainly coursework from Columbia University, as well as work prior to college.</p>
@@ -1523,212 +1516,212 @@
        <arrangement><p>Arranged chronologically.</p></arrangement>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">1</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">1</container>
  <unitdate>Undated</unitdate>
         <unittitle>Columbia University papers and notes</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">2</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">2</container>
  <unitdate>Undated</unitdate>
         <unittitle>Columbia University papers and notes</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">3</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">3</container>
  <unitdate>Undated</unitdate>
         <unittitle>Columbia University History of Italian Medicine</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">4</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Columbia University History 167</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">5</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">5</container>
  <unitdate>Undated</unitdate>
         <unittitle>Columbia University Philosophy 165-166</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">6</container>
- <unitdate type="bulk" normal="1891/1907">1891-1893, 1907</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">6</container>
+ <unitdate normal="1891/1907" type="bulk">1891-1893, 1907</unitdate>
         <unittitle>School notebooks</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">7</container>
- <unitdate type="inclusive" normal="1904-05-27">1904-05-27</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1904-05-27" type="inclusive">1904-05-27</unitdate>
         <unittitle>Central High School</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">8</container>
- <unitdate type="inclusive" certainty="Circa" normal="1915">1915</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate certainty="approximate" normal="1915" type="inclusive">1915</unitdate>
         <unittitle>Neurology drawings and notes</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1934/1935" type="inclusive">1934-1935</unitdate>
         <unittitle>Columbia University History 235-236</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">10</container>
- <unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">10</container>
+ <unitdate normal="1935/1939" type="inclusive">1935-1939</unitdate>
         <unittitle>Columbia University History of Science notebook</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">11</container>
- <unitdate type="inclusive" certainty="Circa" normal="1936/1939">1936-1939</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">11</container>
+ <unitdate certainty="approximate" normal="1936/1939" type="inclusive">1936-1939</unitdate>
         <unittitle>Columbia University Latin notes</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">12</container>
- <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">12</container>
+ <unitdate normal="1945/1946" type="inclusive">1945-1946</unitdate>
         <unittitle>Columbia University History 132</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1946/1947" type="inclusive">1946-1947</unitdate>
         <unittitle>Columbia University History 25-26: Intro to the History of Science</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1946/1947" type="inclusive">1946-1947</unitdate>
         <unittitle>Columbia University History 171</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">15</container>
- <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">15</container>
+ <unitdate normal="1946/1947" type="inclusive">1946-1947</unitdate>
         <unittitle>Columbia University History 201</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">16</container>
- <unitdate type="inclusive" certainty="Circa" normal="1947">1947</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">16</container>
+ <unitdate certainty="approximate" normal="1947" type="inclusive">1947</unitdate>
         <unittitle>Columbia University Latin America</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">17</container>
- <unitdate type="inclusive" certainty="Circa" normal="1947">1947</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">17</container>
+ <unitdate certainty="approximate" normal="1947" type="inclusive">1947</unitdate>
         <unittitle>Columbia University History</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">18</container>
- <unitdate type="inclusive" normal="1947">1947</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">18</container>
+ <unitdate normal="1947" type="inclusive">1947</unitdate>
         <unittitle>Columbia University papers and notes</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">19</container>
- <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">19</container>
+ <unitdate normal="1947/1948" type="inclusive">1947-1948</unitdate>
         <unittitle>Columbia University papers and notes</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">20</container>
- <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">20</container>
+ <unitdate normal="1947/1948" type="inclusive">1947-1948</unitdate>
         <unittitle>Columbia University History 115-116</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">21</container>
- <unitdate type="inclusive" normal="1948-10-12">1948-10-12</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">21</container>
+ <unitdate normal="1948-10-12" type="inclusive">1948-10-12</unitdate>
         <unittitle>Columbia University Presidential Inauguration program</unittitle>
        </did>
        <controlaccess><persname>Eisenhower, Dwight D.</persname></controlaccess>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">22</container>
- <unitdate type="inclusive" certainty="Circa" normal="1949">1949</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">22</container>
+ <unitdate certainty="approximate" normal="1949" type="inclusive">1949</unitdate>
         <unittitle>Columbia University transcripts</unittitle>
        </did>
            </c02>
       </c01>
       <c01 level="series">
        <did>
-        <unitdate type="inclusive" normal="1935/1959">1935-1959</unitdate>
+        <unitdate normal="1935/1959" type="inclusive">1935-1959</unitdate>
         <unittitle id="s5">Research Materials</unittitle>
        </did>
        <arrangement><p>Arranged chronologically.</p></arrangement>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
  <unitdate>Undated</unitdate>
         <unittitle>Bibliographic index cards</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
  <unitdate>Undated</unitdate>
         <unittitle>Bibliographic index cards</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Horse index cards</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Personal notebooks</unittitle>
        </did>
@@ -1736,165 +1729,165 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">21</container>
- <unitdate type="inclusive" normal="1935/1948">1935-1948</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">21</container>
+ <unitdate normal="1935/1948" type="inclusive">1935-1948</unitdate>
         <unittitle>Victor Robinson materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">22</container>
- <unitdate type="inclusive" certainty="Circa" normal="1936">1936</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">22</container>
+ <unitdate certainty="approximate" normal="1936" type="inclusive">1936</unitdate>
         <unittitle>Frederick Barry materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">25</container>
- <unitdate type="inclusive" normal="1959">1959</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">25</container>
+ <unitdate normal="1959" type="inclusive">1959</unitdate>
         <unittitle>Application for Public Health Service Research Grant</unittitle>
        </did>
            </c02>
       </c01>
       <c01 level="series">
        <did>
- <unitdate type="inclusive" normal="1904/1956">1904-1956</unitdate>
+ <unitdate normal="1904/1956" type="inclusive">1904-1956</unitdate>
         <unittitle id="s6">Photographs</unittitle>
        </did>
        <arrangement><p>Arranged chronologically, if no date arranged alphabetically.</p></arrangement>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">1</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">1</container>
  <unitdate>Undated</unitdate>
         <unittitle>Assorted photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">2</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">2</container>
  <unitdate>Undated</unitdate>
         <unittitle>Assorted photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">3</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">3</container>
  <unitdate>Undated</unitdate>
         <unittitle>Europe trip photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">4</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Maranon photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">5</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">5</container>
  <unitdate>Undated</unitdate>
         <unittitle>Max Thorek photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">26</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">26</container>
  <unitdate>Undated</unitdate>
         <unittitle>Anne Tjomsland photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">6</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">6</container>
  <unitdate>Undated</unitdate>
         <unittitle>Venice photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">7</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">7</container>
  <unitdate>Undated</unitdate>
         <unittitle>Erik Waller photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">8</container>
- <unitdate type="bulk" normal="1904/1918">1904, 1918</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1904/1918" type="bulk">1904, 1918</unitdate>
         <unittitle>Anne Tjomsland photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1916">1916</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1916" type="inclusive">1916</unitdate>
         <unittitle>Canoe trip photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">10</container>
- <unitdate type="inclusive" normal="1919">1919</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">10</container>
+ <unitdate normal="1919" type="inclusive">1919</unitdate>
         <unittitle>Norway photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">11</container>
- <unitdate type="inclusive" normal="1923">1923</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">11</container>
+ <unitdate normal="1923" type="inclusive">1923</unitdate>
         <unittitle>Mexico photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">12</container>
- <unitdate type="inclusive" normal="1936">1936</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">12</container>
+ <unitdate normal="1936" type="inclusive">1936</unitdate>
         <unittitle>Spain photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">13</container>
- <unitdate type="bulk" normal="1946/1956">1946-1947, 1954, 1956</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1946/1956" type="bulk">1946-1947, 1954, 1956</unitdate>
         <unittitle>Norway photographs</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">27</container>
- <unitdate type="inclusive" certainty="Circa" normal="1917/1919">1917-1919</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">27</container>
+ <unitdate certainty="approximate" normal="1917/1919" type="inclusive">1917-1919</unitdate>
         <unittitle>Carl Burdick photograph</unittitle>
        </did>
            </c02>
       </c01>
       <c01 level="series">
        <did>
- <unitdate type="inclusive" normal="1916/1961">1916-1961</unitdate>
+ <unitdate normal="1916/1961" type="inclusive">1916-1961</unitdate>
         <unittitle id="s7">Assorted Materials</unittitle>
        </did>
        <arrangement><p>Arranged chronologically.</p></arrangement>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Patient records A-Z</unittitle>
        </did>
@@ -1902,95 +1895,95 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">14</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">14</container>
  <unitdate>Undated</unitdate>
         <unittitle>Resume and professional history notes</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">15</container>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">15</container>
  <unitdate>Undated</unitdate>
         <unittitle>Dinner at 501 and France photographs, assorted painting reprints</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">16</container>
- <unitdate type="inclusive" normal="1916-07">1916-07</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">16</container>
+ <unitdate normal="1916-07" type="inclusive">1916-07</unitdate>
         <unittitle>Birth certificate statement</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">17</container>
- <unitdate type="bulk" normal="1924-04/1954-08">1924-04, 1935-08, 1954-08</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">17</container>
+ <unitdate normal="1924-04/1954-08" type="bulk">1924-04, 1935-08, 1954-08</unitdate>
         <unittitle>Passports</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">18</container>
- <unitdate type="bulk" normal="1926/1961">1926, 1944-1947, 1961</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">18</container>
+ <unitdate normal="1926/1961" type="bulk">1926, 1944-1947, 1961</unitdate>
         <unittitle>English Setter dogs information</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">19</container>
- <unitdate type="inclusive" normal="1929/1932">1929-1932</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">19</container>
+ <unitdate normal="1929/1932" type="inclusive">1929-1932</unitdate>
         <unittitle>New York City lease</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">20</container>
- <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">20</container>
+ <unitdate normal="1935/1936" type="inclusive">1935-1936</unitdate>
         <unittitle>Spain trip materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">23</container>
- <unitdate type="inclusive" certainty="Circa" normal="1951/1952">1951-1952</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">23</container>
+ <unitdate certainty="approximate" normal="1951/1952" type="inclusive">1951-1952</unitdate>
         <unittitle>Ole Tjomsland materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">24</container>
- <unitdate type="inclusive" normal="1956-08">1956-08</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">24</container>
+ <unitdate normal="1956-08" type="inclusive">1956-08</unitdate>
         <unittitle>Europe trip materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
-        <container type="folder">28</container>
- <unitdate type="inclusive" normal="1935-09/1936-05">1935-09-1936-05</unitdate>
+        <container label="unspecified" type="box">4</container>
+        <container label="unspecified" type="folder">28</container>
+ <unitdate normal="1935-09/1936-05" type="inclusive">1935-09-1936-05</unitdate>
         <unittitle>10th Congresso Internacional de Historia de la Medicina related materials</unittitle>
        </did>
        </c02>
        <c02 level="file">
         <did>
-         <container type="box">4</container>
-         <container type="folder">29</container>
-         <unitdate type="inclusive" normal="1903/1928">1903-1928</unitdate>
+         <container label="unspecified" type="box">4</container>
+         <container label="unspecified" type="folder">29</container>
+         <unitdate normal="1903/1928" type="inclusive">1903-1928</unitdate>
          <unittitle>Hans Tjomsland notebooks</unittitle>
         </did>
        </c02>
        <c02 level="file">
         <did>
-         <container type="box">5</container>
+         <container label="unspecified" type="box">5</container>
 
          <unitdate>Date Unknown</unitdate>
          <unittitle>Unprocessed material</unittitle>
@@ -1998,5 +1991,12 @@
        </c02>
    </c01>
     </dsc>
-  </archdesc>
+  <accessrestrict>
+                          <head>Access Restrictions:</head>
+                                   <p>Under the HIPAA Privacy Rule, all individually identifiable health information in patients' medical records in Box 4 are restricted.</p>
+                  </accessrestrict><prefercite>
+                          <head>Cite As:</head>
+                                   <p>Anne Tjomsland papers, #2924. Division of Rare and Manuscript Collections, Cornell University Library.
+                                   </p>
+                  </prefercite></archdesc>
  </ead>

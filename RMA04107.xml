@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04107::David Borden scores)//EN">RMA04107</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04107::David Borden scores)//EN">RMA04107</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the David Borden scores, <date>1952-2017.</date></titleproper>
@@ -22,19 +22,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>June 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the David Borden Scores,<lb/><date type="inclusive" encodinganalog="245$f">1952-2014.</date></titleproper>
+			<titleproper>Guide to the David Borden Scores,<date encodinganalog="245$f" type="inclusive">1952-2014.</date></titleproper>
 			<num>Collection Number: 14-20-4107</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -56,11 +62,10 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">David Borden scores, <unitdate encodinganalog="MARC 245" type="inclusive">1952-2017.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">David Borden scores, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1952-2017.</unitdate>
 			<unitid label="Collection Number:">14-20-4107</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Borden, David,  1938- ">Borden, David</persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>2.8 cubic feet.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>2.8 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Score sheets, CD's, a DVD, posters.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -68,7 +73,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Professor of Music. David Borden was educated at the Eastman School of Music and
 				Harvard University and was a Fulbright scholar in Berlin, studying at the Hochschule
 				fur Musik. His first composition teachers were jazz musicians Jimmy Giuffre and Jaki
@@ -117,30 +122,23 @@
 				<genreform encodinganalog="MARC 655" source="aat">Scores</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>David Borden scores, #14-20-4107. Division of Rare and Manuscript Collections,
-					Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<arrangement>
 			<head>SERIES LIST</head>
 			<p>
 				<emph render="bold">
-					<ref target="s1" show="replace" actuate="onrequest">Series I. Score Sheets</ref>
-				</emph><lb/>Box 1, 3, 4, 6</p>
+					<ref actuate="onrequest" show="replace" target="s1">Series I. Score Sheets</ref>
+				</emph>Box 1, 3, 4, 6</p>
 			<p>
 				<emph render="bold">
-					<ref target="s2" show="replace" actuate="onrequest">Series II. CD's, DVD's, and other
+					<ref actuate="onrequest" show="replace" target="s2">Series II. CD's, DVD's, and other
 						media</ref>
-				</emph><lb/>Box 2, 5 </p>
+				</emph>Box 2, 5 </p>
 			<p>
 				<emph render="bold">
-					<ref target="s3" show="replace" actuate="onrequest">Series III. Other
+					<ref actuate="onrequest" show="replace" target="s3">Series III. Other
 						material</ref>
-				</emph><lb/>Box 3, Mapcase Folder 1 </p>
+				</emph>Box 3, Mapcase Folder 1 </p>
 		</arrangement>
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
@@ -150,56 +148,56 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1959-1962</unitdate>
 						<unittitle>"Dialogues"</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1978</unitdate>
 						<unittitle>"Enfield in Winter"</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>1978</unitdate>
 						<unittitle>"Counterpoint For Flute, Cello and Harp"</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>1976</unitdate>
 						<unittitle>"The Continuing Story of Counterpoint" - Part I</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>1982</unitdate>
 						<unittitle>"The Continuing Story of Counterpoint" - Part II</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>1976</unitdate>
 						<unittitle>"The Continuing Story of Counterpoint" - Part III</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"The Continuing Story of Counterpoint" - Part IV
 							[unfinished]</unittitle>
@@ -207,16 +205,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"The Continuing Story of Counterpoint" - Part V</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"The Continuing Story of Counterpoint" - Part VI, orchestral
 							version</unittitle>
@@ -224,8 +222,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"The Continuing Story of Counterpoint" - Part VI, piano
 							version</unittitle>
@@ -233,71 +231,71 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"The Continuing Story of Counterpoint" - Part VII</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"The Continuing Story of Counterpoint" - Part VIII</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"The Continuing Story of Counterpoint" - Part IX</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1973-1975</unitdate>
 						<unittitle>"C-A-G-E" - Part I, II, III</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">15</container>
 						<unitdate>1984</unitdate>
 						<unittitle>"I Trill Tunes" - for 1 or 2 keyboard instruments</unittitle>
 					</did><scopecontent><p>3 copies</p></scopecontent>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1962-1963</unitdate>
 						<unittitle>"Le Tombeau de Josquin"</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>1964-1965</unitdate>
 						<unittitle>"CAIRN for JFK"</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>1967-1968</unitdate>
 						<unittitle>"Trudymusic"</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
+						<container label="unspecified" type="box">4</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"The Force (That Through the Green Fuse Drives the Flower)" -
 							bound score sheets</unittitle>
@@ -305,24 +303,24 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>2004</unitdate>
 						<unittitle>"Heaven - Kept Soul" - Score</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>2004</unitdate>
 						<unittitle>"Heaven - Kept Soul" - Piano</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>2004</unitdate>
 						<unittitle>"Heaven - Kept Soul" - USB 88-Key, MIDI Controller, Keyboard
 							1</unittitle>
@@ -330,8 +328,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>2004</unitdate>
 						<unittitle>"Heaven - Kept Soul" - USB 88-Key, MIDI Controller, Keyboard
 							2</unittitle>
@@ -339,72 +337,72 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>1987</unitdate>
 						<unittitle>"Double Portrait" (for 2 piano) - Score</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>1987</unitdate>
 						<unittitle>"Double Portrait" (for 2 pianos) - Piano 1</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>1987</unitdate>
 						<unittitle>"Double Portrait" (for 2 pianos) - Piano 2</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>2011-2014</unitdate>
 						<unittitle>"Variations on a Theme of Philip Glass" - Score</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>2011-2014</unitdate>
 						<unittitle>"Variations on a Theme of Philip Glass" - Keyboard 1</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>2011-2014</unitdate>
 						<unittitle>"Variations on a Theme of Philip Glass" - Keyboard 2</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">11</container>
 						<unitdate>2011-2014</unitdate>
 						<unittitle>"Variations on a Theme of Philip Glass" - Keyboard 3</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>2014</unitdate>
 						<unittitle>"Quartet in Four Movements for Oboe and String Trio"</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>2014</unitdate>
 						<unittitle>"Quartet in Four Movements for Oboe and String Trio" -
 							Oboe</unittitle>
@@ -412,8 +410,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>2014</unitdate>
 						<unittitle>"Quartet in Four Movements for Oboe and String Trio" -
 							Violin</unittitle>
@@ -421,8 +419,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">15</container>
 						<unitdate>2014</unitdate>
 						<unittitle>"Quartet in Four Movements for Oboe and String Trio" -
 							Viola</unittitle>
@@ -430,50 +428,50 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">16</container>
 						<unitdate>2014</unitdate>
 						<unittitle>"Quartet in Four Movements for Oboe and String Trio" -
 							Violoncello</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">1</container>
-						<unitdate type="inclusive" normal="2004">2004</unitdate>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">1</container>
+						<unitdate normal="2004" type="inclusive">2004</unitdate>
 						<unittitle>Heaven-kept Soul - Piano solo and 2 88-key MIDI controller keyboards attached via USB to laptops running Reason 7 or higher</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">2</container>
-						<unitdate type="inclusive" normal="2017">2017</unitdate>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">2</container>
+						<unitdate normal="2017" type="inclusive">2017</unitdate>
 						<unittitle>Twelve Preludes and Fugues - for two pianos, piano 1</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">3</container>
-						<unitdate type="inclusive" normal="2017">2017</unitdate>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">3</container>
+						<unitdate normal="2017" type="inclusive">2017</unitdate>
 						<unittitle>Twelve Preludes and Fugues - for two pianos, piano 2</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">4</container>
-						<unitdate type="inclusive" normal="2016">2016</unitdate>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">4</container>
+						<unitdate normal="2016" type="inclusive">2016</unitdate>
 						<unittitle>12 Preludes and Fugues - for two pianos, volume one</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">5</container>
-						<unitdate type="inclusive" normal="2016">2016</unitdate>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">5</container>
+						<unitdate normal="2016" type="inclusive">2016</unitdate>
 						<unittitle>12 Preludes and Fugues - for two pianos, volume two</unittitle>
 					</did>
 				</c02>
@@ -484,7 +482,7 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitid>CD-2370</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Earth Journeys, variations on Happy Birthday", Volume
@@ -493,7 +491,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitid>CD-2371</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Earth Journeys, variations on Happy Birthday", Volume
@@ -502,7 +500,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitid>CD-2372</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Earth Journeys, variations on Happy Birthday", Volume
@@ -511,7 +509,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitid>CD-2373</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Earth Journeys, variations on Happy Birthday", Volume
@@ -520,7 +518,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitid>CD-2374</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Earth Journeys, variations on Happy Birthday", Volume
@@ -529,7 +527,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitid>CD-2375</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Earth Journeys, variations on Happy Birthday", Volume
@@ -538,7 +536,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitid>CD-2376</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Earth Journeys, variations on Happy Birthday", Volume
@@ -547,7 +545,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitid>CD-2377</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Earth Journeys, variations on Happy Birthday", Volume
@@ -556,7 +554,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitid>CD-2378</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Earth Journeys, variations on Happy Birthday", Volume
@@ -565,7 +563,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitid>CD-2379</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Earth Journeys, variations on Happy Birthday", Volume
@@ -574,7 +572,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitid>CD-2380</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Earth Journeys, variations on Happy Birthday", Volume
@@ -583,7 +581,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitid>CD-2846</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Earth Journeys, variations on Happy Birthday", Volume
@@ -592,7 +590,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitid>CD-2381</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Heaven-Kept Soul"</unittitle>
@@ -600,7 +598,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitid>HD-3</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Flash drive, "Heaven-Kept Soul"</unittitle>
@@ -608,7 +606,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitid>DVD-1692</unitid>
 						<unitdate>2011-2014</unitdate>
 						<unittitle>Variations on a Theme of Philip Glass</unittitle>
@@ -616,7 +614,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitid>CD-2801</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"David Borden and Edward Murry play Gershwin"</unittitle>
@@ -624,7 +622,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitid>CD-2802</unitid>
 						<unitdate>1999</unitdate>
 						<unittitle>"A Tribute to Duke Ellington"</unittitle>
@@ -632,7 +630,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitid>CD-2803</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Night and Day"</unittitle>
@@ -640,7 +638,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitid>CD-2804</unitid>
 						<unitdate>1997</unitdate>
 						<unittitle>"As Time Goes By"</unittitle>
@@ -648,7 +646,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitid>CD-2805</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"The Continuing Story of Counterpoint", parts 1-4, 8</unittitle>
@@ -656,7 +654,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitid>CD-2806</unitid>
 						<unitdate>1999</unitdate>
 						<unittitle>"Mother Mallard's Portable Masterpiece, co.
@@ -665,7 +663,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitid>CD-2807</unitid>
 						<unitdate>2001</unitdate>
 						<unittitle>"Mother Mallard, Like a Duck to Water"</unittitle>
@@ -673,7 +671,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitid>CD-2808</unitid>
 						<unitdate>2011-2014</unitdate>
 						<unittitle>"Variations on a Theme of Philip Glass"</unittitle>
@@ -681,7 +679,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitid>CD-2809</unitid>
 						<unitdate>2014</unitdate>
 						<unittitle>"Music for Amplified Keyboard Instruments"</unittitle>
@@ -689,7 +687,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitid>CD-2810</unitid>
 						<unitdate>1993, 2002</unitdate>
 						<unittitle>"Cayuga Night Music"</unittitle>
@@ -697,7 +695,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitid>CD-2811</unitid>
 						<unitdate>n.d.</unitdate>
 						<unittitle>"Borden on Borden"</unittitle>
@@ -718,8 +716,8 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1969-1971</unitdate>
 						<unittitle>Silk screens of a self portrait and 2 Mother Mallard concert
 							posters</unittitle>
@@ -727,7 +725,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case">Folder 1</container>
+						<container label="unspecified" type="map-case">Folder 1</container>
 						<unitdate>1975</unitdate>
 						<unittitle>Poster depicting a performance of a composition written for a
 							Moog synthesizer</unittitle>
@@ -735,5 +733,9 @@
 				</c02>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>David Borden scores, #14-20-4107. Division of Rare and Manuscript Collections,
+					Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

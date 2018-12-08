@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM09063::George G. Heye autograph collection)//EN">RMM09063</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM09063::George G. Heye autograph collection)//EN">RMM09063</eadid>
     
     <filedesc> 
       <titlestmt> 
@@ -27,7 +26,13 @@
       <creation>Finding aid encoded by Evan Fay Earle, 
         <date>February 2006</date> </creation> 
     </profiledesc> 
-    <revisiondesc> 
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+ 
       <change encodinganalog="583"> 
         <date normal="2007-05-29">2007-05-29</date> 
         <item>converted from EAD 1.0 to EAD 2002 </item> 
@@ -37,19 +42,19 @@
   <frontmatter> 
     <titlepage> 
       <titleproper>Guide to the George G. Heye autograph
-        Collection,<lb/>1886-1928.</titleproper> 
+        Collection,1886-1928.</titleproper> 
       <num>Collection Number: 9063</num> 
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+      <publisher>Division of Rare and Manuscript Collections Cornell
         University Library</publisher> 
       <list type="deflist"> 
         <defitem> 
           <label>Contact Information:</label> 
-          <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-            Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/>
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> <lb/>
+          <item>Division of Rare and Manuscript Collections 2B Carl A.
+            Kroch Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
             <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-            <lb/></item> 
+            </item> 
         </defitem> 
         <defitem> 
           <label>Compiled by:</label> 
@@ -71,15 +76,14 @@
   <archdesc level="collection"> 
     <did> 
       <head id="a1">DESCRIPTIVE SUMMARY</head> 
-      <unittitle label="Title:" encodinganalog="MARC 245">George G. Heye autograph collection,
+      <unittitle encodinganalog="MARC 245" label="Title:">George G. Heye autograph collection,
         
-        <unitdate type="inclusive" encodinganalog="MARC 245">1886-1928.</unitdate> </unittitle> 
+        </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1886-1928.</unitdate> 
       <unitid label="Collection Number:">9063</unitid> 
       <origination label="Creator:"> 
         <persname encodinganalog="100" normal="Heye, George G.(George Gustav), 1874-1957.">George G.(George Gustav),
           Heye 1874-1957.</persname> </origination> 
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1
-        folder.</extent></physdesc> 
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 folders</extent></physdesc> 
       <physdesc label="Forms of Material:">Correspondence</physdesc> 
       <repository label="Repository:">Division of Rare and Manuscript
         Collections, Cornell University Library</repository> 
@@ -336,17 +340,10 @@
       </controlaccess> 
       <controlaccess> 
         <head>Form and Genre Terms:</head> 
-        <genreform source="aat" encodinganalog="MARC 655">Autographs.</genreform> 
+        <genreform encodinganalog="MARC 655" source="aat">Autographs.</genreform> 
       </controlaccess> 
     </controlaccess> 
-    <descgrp type="admininfo"> 
-      <head id="a8">INFORMATION FOR USERS</head> 
-      <prefercite> 
-        <head>Cite As:</head> 
-        <p>George G. Heye autograph collection, #9063. Division of Rare and Manuscript
-          Collections, Cornell University Library.</p> 
-      </prefercite> 
-    </descgrp> 
+     
     <relatedmaterial> 
       <head id="a5">RELATED MATERIALS</head> 
       <p>For additional letters from individuals in this collection see
@@ -362,11 +359,11 @@
     <arrangement> 
       <head>SERIES LIST</head> 
       <p> <emph render="bold"> 
-        <ref target="s1" show="replace" actuate="onrequest">Series I.
-          Correspondents A-M</ref> </emph> <lb/>Folder 1 </p> 
+        <ref actuate="onrequest" show="replace" target="s1">Series I.
+          Correspondents A-M</ref> </emph> Folder 1 </p> 
       <p> <emph render="bold"> 
-        <ref target="s2" show="replace" actuate="onrequest">Series II.
-          Correspondents N-Z</ref> </emph> <lb/>Folder 2 </p> 
+        <ref actuate="onrequest" show="replace" target="s2">Series II.
+          Correspondents N-Z</ref> </emph> Folder 2 </p> 
     </arrangement> 
     <dsc type="combined"> 
       <head>CONTAINER LIST</head> 
@@ -376,415 +373,415 @@
         </did> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Cassius McDonald Barnes </unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Samuel Alfred Barrett</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Daniel C. Beard, two letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>A. H. Blackiston</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Franz Boaz (AKA Franz Boas)</unittitle> 
           </did> 
         </c02>
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Captain John Gregory Bourke</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Charles Pickering Bowditch</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Daniel Garrison Brinton</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>David Ives Bushnell, three letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Lucien Carr</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Alexander F. Chamberlain</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Mabel Choate</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Stuart Culin, four letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>J. T. Cunningham Cherkoee Nation</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Edward S. Curtis, three letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>James Wheeler Davidson, see Schley letter</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Frederick Samuel Dellenbaugh</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Edward Willard Deming</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Frances Densmore, four letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Fanny Dixon</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Roland B. Dixon, two letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>George. T. Emmons, two letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Jesse Walter Fewkes, two letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Alice C. Fletcher</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Barbara Freire-Marreco</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Albert Samuel Gatschet</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Pliny Earle Goddard</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>George Byron Gordon</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>George Bird Grinnell, three letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>John Peabody Harrington, four letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Carl Vilhelm Hartman</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>H. O. S. Heistand, War Department</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Edgar Lee Hewett, two letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Thor Heyerdahl, two letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Walter James Hoffman</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>William Henry Holmes</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Gaillard Hunt, see Twitchell letter</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Ernest Ingersoll</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Waldemar Jochelson</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Charles Joseph Kappler</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Herman Frederik Carel ten Kate</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Minor C. Keith, two letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Alfred Vincent Kidder</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Alfred Louis Kroeber</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Berthold Laufer</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Nicolás León</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Francis Ellington Leupp</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Albert Buell Lewis</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Ralph Linton</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Samuel Kirkland Lothrop</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Otis Tufton Mason, three letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Washington Matthews</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>William John McGee</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Joseph Deakins McGuire, in his daughter's
               hand</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>William Corless Mills</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>James Mooney, three letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Clarence Bloomfield Moore, five letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Warren King Moorehead</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Adrien Gabriel Morice </unittitle> 
           </did> 
         </c02> 
@@ -795,167 +792,171 @@
         </did> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Erland Nordenskiöld</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Zelia Nutthall</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Undecipherable looks like J. T. Ogtrom, two
               letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Charles Peabody, two letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>George Hubbard Pepper</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Frederic Ward Putnam</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Paul Rivet</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Nelson A. Rockefeller</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Walter Edmund Roth, three letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Edward Sapir</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Winfield Scott Schley, six letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Harlan I. Smith, three letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Edward Anthony Spitzka</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Frederick Starr</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>John Reed Swanton</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Cyrus Thomas</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>William Wallace Tooker</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Alfred Marston Tozzer</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>James Hammond Trumbull</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>Ralph Emerson Twitchell, four letters</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>H. Newell Wardle</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-1</container> 
             <unittitle>Lee F. Warner, see Kappler letter</unittitle> 
           </did> 
         </c02> 
         <c02 level="item"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9063-2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9063-2</container> 
             <unittitle>George Parker Winship</unittitle> 
           </did> 
         </c02> 
       </c01> 
     </dsc> 
-  </archdesc>
+  <prefercite> 
+        <head>Cite As:</head> 
+        <p>George G. Heye autograph collection, #9063. Division of Rare and Manuscript
+          Collections, Cornell University Library.</p> 
+      </prefercite></archdesc>
 </ead>

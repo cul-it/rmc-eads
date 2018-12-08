@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06947::Guide to the Marjorie Grene papers)//EN">RMM06947</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06947::Guide to the Marjorie Grene papers)//EN">RMM06947</eadid>
     
     <filedesc> 
       <titlestmt> 
         <titleproper>Guide to the Marjorie Grene papers. 
-          <date/></titleproper> 
+          </titleproper> 
         <titleproper type="sort">Grene, Marjorie papers</titleproper> 
         <author>Compiled by Dhaval Mehta</author> 
       </titlestmt> 
@@ -27,22 +27,28 @@
       <creation>Finding aid encoded by Dhaval Mehta, 
         <date>March 2011</date></creation> 
     </profiledesc> 
-  </eadheader> 
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader> 
   <frontmatter> 
     <titlepage> 
-      <titleproper>Guide to the Marjorie Grene Papers.<lb/> 
-        <date type="inclusive" encodinganalog="245$f"/></titleproper> 
+      <titleproper>Guide to the Marjorie Grene Papers. 
+        </titleproper> 
       <num>Collection Number: 6947</num> 
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+      <publisher>Division of Rare and Manuscript Collections Cornell
         University Library</publisher> 
       <list type="deflist"> 
         <defitem> 
           <label>Contact Information:</label> 
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-            Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/> 
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/> 
-            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A.
+            Kroch Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524 
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
+            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
           
         </defitem> 
         <defitem> 
@@ -68,13 +74,15 @@
   <archdesc level="collection"> 
     <did> 
       <head id="a1">DESCRIPTIVE SUMMARY</head> 
-      <unittitle label="Title:" encodinganalog="MARC 245">Marjorie Grene
+      <unittitle encodinganalog="MARC 245" label="Title:">Marjorie Grene
         papers. </unittitle> 
       <unitid label="Collection Number:">6947</unitid> 
       <origination label="Creator:"> 
         <persname encodinganalog="100" normal="Green, Marjorie 1910-2009.">Marjorie Green
           1910-2009.</persname></origination> 
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>444</extent></physdesc> 
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>444</extent></physdesc> 
       <physdesc label="Forms of Material:">Correspondence, Printed Materials,
         Publications, Research Materials</physdesc> 
       <repository label="Repository:">Division of Rare and Manuscript
@@ -85,9 +93,9 @@
       <langmaterial label="Language:">Collection material in
         <language encodinganalog="041" langcode="eng">English</language></langmaterial>
       
-    </did> 
+    <unitdate normal="0000/2999">0000-2999</unitdate></did> 
     <bioghist encodinganalog="MARC 545"> 
-      <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head> 
+      <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head> 
       <p>Marjorie Grene (December 13, 1910 - March 16, 2009) taught at the
         University of California at Davis from 1965 to 1978, and from 1988 onwards
         served as the Honorary University Distinguished Professor of philosophy at
@@ -126,21 +134,14 @@
         <subject encodinganalog="MARC 650">Science--Philosophy</subject> 
       </controlaccess> 
     </controlaccess> 
-    <descgrp> 
-      <head id="a8">INFORMATION FOR USERS</head> 
-      <prefercite> 
-        <head>Cite As:</head> 
-        <p>Marjorie Grene papers. #6947. Division of Rare and Manuscript
-          Collections, Cornell University Library.</p> 
-      </prefercite> 
-    </descgrp> 
+     
    <dsc type="combined"> 
       <head>CONTAINER LIST</head> 
      
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>         
-          <unitdate/> 
+          <container label="unspecified" type="box">1</container>         
+           
             <unittitle>Essays and Manuscripts</unittitle> 
         </did>
         <scopecontent><p> Writings on Descartes, Spinoza, Darwin, Aristotle, Locke,
@@ -150,677 +151,681 @@
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">1</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">1</container> 
+           
           <unittitle>Articles and Papers: August Weisman</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">2</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">2</container> 
+           
           <unittitle>Articles and Papers: Weinberg</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">3</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">3</container> 
+           
           <unittitle>Articles and Papers: Wald</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">4</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">4</container> 
+           
           <unittitle>Articles and Papers: C. H. Waddington</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">5</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">5</container> 
+           
           <unittitle>Articles and Papers: Eleanor J. Gibson, James J. Gibson</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">6</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">6</container> 
+           
           <unittitle>Manuscript: James J. Gibson</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">7</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">7</container> 
+           
           <unittitle>Articles and Papers: Mark B. Adams</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">8</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">8</container> 
+           
           <unittitle>Articles and Papers: Emile Durkeim, M. Maus</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">9</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">9</container> 
+           
           <unittitle>Articles and Papers: Theodosius Dobzhansky</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">10</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">10</container> 
+           
           <unittitle>Articles and Papers: Leon Brillouin</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">11</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">11</container> 
+           
           <unittitle>Articles and Papers: Robert Brandon</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">12</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">12</container> 
+           
           <unittitle>Articles and Papers: Richard Burian</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">13</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">13</container> 
+           
           <unittitle>Articles and Papers: R. N. H. Bulmer, Thaddeus J. Trenn</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">14</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">14</container> 
+           
           <unittitle>Articles and Papers: Jean Gayon</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">15</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">15</container> 
+           
           <unittitle>Articles and Papers: Phillip Kitcher</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">16</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">16</container> 
+           
           <unittitle>Articles and Papers: David Kohn</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">17</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">17</container> 
+           
           <unittitle>Articles and Papers: Clifford Grobstein</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">18</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">18</container> 
+           
           <unittitle>Articles and Papers: R. C. Lewontis</unittitle> 
         </did>
       </c01>
 
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">19</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">19</container> 
+           
           <unittitle>Articles and Papers: J. B. S. Haldene</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">20</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">20</container> 
+           
           <unittitle>Articles and Papers: H. L. Hawkins</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">21</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">21</container> 
+           
           <unittitle>Articles and Papers: Hubert L. Dreyfus</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">22</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">22</container> 
+           
           <unittitle>Articles and Papers: David B. Kitts</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">23</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">23</container> 
+           
           <unittitle>Articles and Papers: Alan Charles Kors</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">24</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">24</container> 
+           
           <unittitle>Articles and Papers: Alexandre Koyre</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">25</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">25</container> 
+           
           <unittitle>Articles and Papers: Keith Hutchison</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">26</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">26</container> 
+           
           <unittitle>Articles and Papers: Jules Vuillemin</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">27</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">27</container> 
+           
           <unittitle>Articles and Papers: Miscellaneous Authors, V-W</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">28</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">28</container> 
+           
           <unittitle>Articles and Papers: Sewall Wright</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">29</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">29</container> 
+           
           <unittitle>Articles and Papers: Richard Levins</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">30</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">30</container> 
+           
           <unittitle>Articles and Papers: Ian Franklin, R. C. Lewontin</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">31</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">31</container> 
+           
           <unittitle>Articles and Papers: Stephen J. Gould</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">32</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">32</container> 
+           
           <unittitle>Articles and Papers: Ron Amundson</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">33</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">33</container> 
+           
           <unittitle>Articles and Papers: John Endler, Stephen J. Gould</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">34</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">34</container> 
+           
           <unittitle>Articles and Papers: obert Brandon, Gilbert Gottlieb, Niles Eldredge</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">35</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">35</container> 
+           
           <unittitle>Articles and Papers: Richard M. Burian</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">36</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">36</container> 
+           
           <unittitle>Articles and Papers: J. W. Baker, John Beatty, James Greisemer</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">37</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">37</container> 
+           
           <unittitle>Articles and Papers: Miscellaneous Authors</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">38</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">38</container> 
+           
           <unittitle>Articles and Papers: Miscellaneous Authors</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container> 
-          <container type="folder">39</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">2</container> 
+          <container label="unspecified" type="folder">39</container> 
+           
           <unittitle>Miscellaneous Manuscripts and Correspondence</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">1</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">1</container> 
+           
           <unittitle>Articles and Papers: Laurence Brokliss</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">2</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">2</container> 
+           
           <unittitle>Articles and Papers: Miscellaneous Authors, F-J</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">3</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">3</container> 
+           
           <unittitle>Articles and Papers: John M. Cooper</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">4</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">4</container> 
+           
           <unittitle>Articles and Papers: Jaques Bouvaresse, Dong G. Bates</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">5</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">5</container> 
+           
           <unittitle>Articles and Papers: Miscellaneous Authors, J-K</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">6</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">6</container> 
+           
           <unittitle>Reprint: Meletemata Philosophica, by Adrianus Heereboord </unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">7</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">7</container> 
+           
           <unittitle>Articles and Papers: Charles Larmore</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">8</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">8</container> 
+           
           <unittitle>Articles and Papers: Ernst Mayr</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">9</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">9</container> 
+           
           <unittitle>Articles and Papers: Jones</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">10</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">10</container> 
+           
           <unittitle>Reprint: In Aristotelis Physicam </unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">11</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">11</container> 
+           
           <unittitle>Articles and Papers: Pierre Gassendi (Translated by Craig B Brush), Pimet Mor</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">12</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">12</container> 
+           
           <unittitle>Articles and Papers: R. C. Lewontin</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">13</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">13</container> 
+           
           <unittitle>Articles and Papers: Camille Limoges</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">14</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">14</container> 
+           
           <unittitle>Articles and Papers: Robert Lickliter, Lorraine E. Bahrick</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">15</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">15</container> 
+           
           <unittitle>Articles and Papers: Miscellaneous Authors, A-C</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">16</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">16</container> 
+           
           <unittitle>Articles and Papers: Tobais Cheung</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">17</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">17</container> 
+           
           <unittitle>Articles and Papers: Ecological Psychology</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">18</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">18</container> 
+           
           <unittitle>Articles, Papers and Correspondence: Richard Burian</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">19</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">19</container> 
+           
           <unittitle>Articles and Papers: Miscellaneous Authors, L-M</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">20</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">20</container> 
+           
           <unittitle>Articles and Papers: Richard Levins</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">21</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">21</container> 
+           
           <unittitle>Reprints: Enstace de St. Paul </unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">22</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">22</container> 
+           
           <unittitle>Articles and Papers: Mark A. Olson</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">23</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">23</container> 
+           
           <unittitle>Articles and Papers:  Theo Verbeek</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">24</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">24</container> 
+           
           <unittitle>Articles and Papers: Miscellaneous Authors, S</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">25</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">25</container> 
+           
           <unittitle>Articles and Papers: John Etchemendy</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">26</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">26</container> 
+           
           <unittitle>Reprint: Philosophia Naturalis </unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">27</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">27</container> 
+           
           <unittitle>Reprint: Tertia Pars Summae </unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">28</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">28</container> 
+           
           <unittitle>Articles and Papers: Sewall Wright</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">29</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">29</container> 
+           
           <unittitle>Articles and Correspondence on Kant</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">30</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">30</container> 
+           
           <unittitle>Articles and Papers: Deborah G Mayo</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">31</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">31</container> 
+           
           <unittitle>Articles and Papers: Barry Smith</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">32</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">32</container> 
+           
           <unittitle>Articles and Papers on Alan Donagan </unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container> 
-          <container type="folder">33</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">3</container> 
+          <container label="unspecified" type="folder">33</container> 
+           
           <unittitle>Articles and Papers: Miscellaneous Authors: E-G</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container> 
-          <container type="folder">1</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">4</container> 
+          <container label="unspecified" type="folder">1</container> 
+           
           <unittitle>Articles and Papers: M. J. S. Hodge</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container> 
-          <container type="folder">2</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">4</container> 
+          <container label="unspecified" type="folder">2</container> 
+           
           <unittitle>Articles and Papers:  Philip R. Sloan</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container> 
-          <container type="folder">3</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">4</container> 
+          <container label="unspecified" type="folder">3</container> 
+           
           <unittitle>Articles and Papers: Pierre Cahne, M. F. Burnyeat, Delphine Kolesnik-Antpone, Edward S. Reed </unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container> 
-          <container type="folder">4</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">4</container> 
+          <container label="unspecified" type="folder">4</container> 
+           
           <unittitle>Articles and Papers: Silvia Berti, Daniel Garber, Hans-Jorg Pheinberger</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container> 
-          <container type="folder">5, 6</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">4</container> 
+          <container label="unspecified" type="folder">5, 6</container> 
+           
           <unittitle>Works by Marjorie Grene </unittitle> 
         </did>
       </c01>
    
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container> 
-          <container type="folder">7</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">4</container> 
+          <container label="unspecified" type="folder">7</container> 
+           
           <unittitle>Notes for a Book: Philosophy of Biology</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container> 
-          <container type="folder">8</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">4</container> 
+          <container label="unspecified" type="folder">8</container> 
+           
           <unittitle>Documents: Licenses and Agreements Regarding Publishing </unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container> 
-          <container type="folder">9</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">4</container> 
+          <container label="unspecified" type="folder">9</container> 
+           
           <unittitle>Course Material and Notes</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container> 
-          <container type="folder">10</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">4</container> 
+          <container label="unspecified" type="folder">10</container> 
+           
           <unittitle>Correspondence and Miscellaneous Notes</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container> 
-          <container type="folder">11</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">4</container> 
+          <container label="unspecified" type="folder">11</container> 
+           
           <unittitle>Symposium Program: "Histoire et Philosophie des sciences: vers une nouvelle alliance?"</unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container> 
-          <container type="folder">12</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">4</container> 
+          <container label="unspecified" type="folder">12</container> 
+           
           <unittitle>Loose Papers </unittitle> 
         </did>
       </c01>
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container> 
-          <unitdate/> 
+          <container label="unspecified" type="box">4</container> 
+           
           <unittitle>Collected Papers: San Jose State University Celebration of the 350th Anniversary of the "Discourse on Method"</unittitle> 
         </did>
       </c01>
     </dsc> 
-  </archdesc> 
+  <prefercite> 
+        <head>Cite As:</head> 
+        <p>Marjorie Grene papers. #6947. Division of Rare and Manuscript
+          Collections, Cornell University Library.</p> 
+      </prefercite></archdesc> 
 </ead>

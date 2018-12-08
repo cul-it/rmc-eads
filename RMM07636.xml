@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07636::Images of German female impersonators)//EN">RMM07636</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07636::Images of German female impersonators)//EN">RMM07636</eadid>
   <filedesc>
     <titlestmt>
       <titleproper>Guide to the Postcards of German female impersonators, <date>1900-1925.</date></titleproper>
@@ -24,16 +24,22 @@
   <profiledesc>
     <creation>Finding aid encoded by Amanda Kiesl, <date>July 2018</date></creation>
   </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
            <titlepage>
-                   <titleproper>Guide to the Postcards of German female impersonators,<lb/><date type="inclusive" encodinganalog="245$f">1900-1925.</date></titleproper>
+                   <titleproper>Guide to the Postcards of German female impersonators,<date encodinganalog="245$f" type="inclusive">1900-1925.</date></titleproper>
            <num>Collection Number: 7636</num>
-           <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+           <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
            <list type="deflist">
                    <defitem>
                            <label>Contact Information:</label>
-                           <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+                           <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
                    </defitem>
             <defitem>
              <label>Compiled by:</label>
@@ -45,7 +51,7 @@
             </defitem>
             <defitem>
              <label>EAD encoding:</label>
-             <item>Andrea Hektor<lb/>Peter Martinez, June 2003<lb/>Sarah Keen, October 2008</item>
+             <item>Andrea HektorPeter Martinez, June 2003Sarah Keen, October 2008</item>
             </defitem>
             <defitem>
              <label>Date modified:</label>
@@ -58,13 +64,12 @@
   <archdesc level="collection">
     <did>
             <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245">Postcards of German female impersonators,
-            <unitdate encodinganalog="MARC 245" type="inclusive">1900-1925.</unitdate>
-            </unittitle>
+            <unittitle encodinganalog="MARC 245" label="Title:">Postcards of German female impersonators,
+            </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1900-1925.</unitdate>
             <unitid label="Collection Number:">7636</unitid>
             <origination label="Creator:">
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>62 items.</extent></physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>62 items</extent></physdesc>
             <physdesc label="Forms of Material:">Postcards, cabinet cards</physdesc>
             <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
             <abstract label="Abstract:">Sixty-two late-Wilhelmine male transvestite postcards portraying thirty individuals in their Damen-Imitator personas, including three images of "Gauze, Canadian Indian Soprano."  Sixteen are signed or inscribed by the subjects, with references to gay cabarets in Berlin, Cologne, Kiel, and throughout the country.  Five are addressed to Paul Shafer and one to Asta, female impersonators of the period, who are also pictured on some of the cards. One postcard depicts Man de Wirth in costume, circa 1920s. This may be Franz Man de Wirth, described on an 1898 German postcard (viewed online) as the best female impersonator of the time.</abstract>
@@ -108,14 +113,7 @@
       <genreform encodinganalog="MARC 655" source="aat">Collotypes (prints)</genreform>
     </controlaccess>
   </controlaccess>
-    <descgrp>
-           <head id="a8">INFORMATION FOR USERS</head>
-                  <prefercite>
-                          <head>Cite As:</head>
-                   <p>Postcards of German female impersonators, #7636.  Division of Rare and Manuscript Collections, Cornell University Library.
-                                   </p>
-                  </prefercite>
-    </descgrp>
+    
              <odd type="notes">
                     <head id="a6">NOTES</head>
                             <p>Collecting Program:  Human Sexuality Collection.</p>
@@ -124,23 +122,23 @@
       <head>CONTAINER LIST</head>
       <c01 level="series">
        <did>
-        <container type="box">1</container>
- <unitdate type="inclusive" certainty="Circa" normal="1900/1925">1900-1925</unitdate>
+        <container label="unspecified" type="box">1</container>
+ <unitdate certainty="approximate" normal="1900/1925" type="inclusive">1900-1925</unitdate>
         <unittitle>Female Impersonators</unittitle>
-       <physdesc><extent>61 postcards, 2 cabinet cards</extent></physdesc>
+       <physdesc>61 postcards, 2 cabinet cards</physdesc>
        </did>
        <processinfo><p>Punctuation originally published within titles on cards were transcribed to titles in this guide.</p></processinfo>
        <controlaccess><subject>Female impersonators</subject></controlaccess>
       <c02 level="subseries">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Charly Letsche</unittitle>
        </did>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>1</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Charly Letsche</unittitle>
        <origination label="Creator"><corpname>Nordische Kunstanstalt Ernst Schmidt and Co.</corpname></origination>
        <physdesc><dimensions>13.9 x 8.8 cm</dimensions></physdesc>
@@ -152,9 +150,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>22</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Charly Letsche</unittitle>
        <physdesc><dimensions>14 x 9 cm</dimensions></physdesc>
        </did>
@@ -164,14 +162,14 @@
            </c02>
       <c02 level="subseries">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Ferry Krieg</unittitle>
        </did>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>2</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Ferry Krieg, Damen-Imitator</unittitle>
        <origination label="Creator"><corpname>Nordische Kunstanstalt Ernst Schmidt and Co.</corpname></origination>
        <physdesc><dimensions>13.8 x 8.8 cm</dimensions></physdesc>
@@ -182,9 +180,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>16</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Ferry Krieg, Damen-Imitator</unittitle>
        <origination label="Creator"><corpname>Nordische Kunstanstalt Ernst Schmidt and Co.</corpname></origination>
        <physdesc><dimensions>8.9 x 14.1 cm</dimensions></physdesc>
@@ -195,9 +193,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>50</unitid>
- <unitdate type="inclusive" normal="1903">1903</unitdate>
+ <unitdate normal="1903" type="inclusive">1903</unitdate>
         <unittitle>Ferry Krieg, Damen-Imitator</unittitle>
        <origination label="Creator"><corpname>Berl. Phototyp. Inst. Reb. Prager</corpname></origination>
        <physdesc><dimensions>14.2 x 9.2 cm</dimensions></physdesc>
@@ -210,14 +208,14 @@
            </c02>
       <c02 level="subseries">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Luzernow</unittitle>
        </did>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>5</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Gustav Luzernow - in seinen urkomischen Frauentypen</unittitle>
        <origination label="Creator"><corpname>Nordische Kunstanstalt Ernst Schmidt and Co.</corpname></origination>
        <physdesc><dimensions>8.8 x 13.8 cm</dimensions></physdesc>
@@ -229,9 +227,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>7</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>? Luzernow ?</unittitle>
        <origination label="Creator"><corpname>John Koefod, Lichtdruckanstalt</corpname></origination>
        <physdesc><dimensions>14.1 x 9 cm</dimensions></physdesc>
@@ -242,9 +240,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>8</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>? Luzernow ?</unittitle>
        <origination label="Creator"><corpname>Nordische Kunstanstalt Ernst Schmidt and Co.</corpname></origination>
        <physdesc><dimensions>13.9 x 8.9 cm</dimensions></physdesc>
@@ -256,9 +254,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>9</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>? Luzernow ?</unittitle>
        <origination label="Creator"><persname>Fletscher, W.</persname></origination>
        <physdesc><dimensions>13.6 x 8.5 cm</dimensions></physdesc>
@@ -269,9 +267,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>10</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Luzernow - Chansonetten-Darsteller</unittitle>
        <origination label="Creator"><corpname>Bebr.  Ziebner</corpname></origination>
        <physdesc><dimensions>14 x 9 cm</dimensions></physdesc>
@@ -284,14 +282,14 @@
            </c02>
       <c02 level="subseries">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Asta </unittitle>
        </did>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>6</unitid>
- <unitdate type="inclusive" normal="1914">1914</unitdate>
+ <unitdate normal="1914" type="inclusive">1914</unitdate>
         <unittitle>Asta </unittitle>
        <origination label="Creator"><corpname>Nordische Kunstanstalt Ernst Schmidt and Co.</corpname></origination>
        <physdesc><dimensions>8.8 x 13.8 cm</dimensions></physdesc>
@@ -303,9 +301,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>53</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Asta</unittitle>
        <origination label="Creator"><corpname>Nordische Kunstanstalt Ernst Schmidt and Co.</corpname></origination>
        <physdesc><dimensions>9.2 x 13.9 cm</dimensions></physdesc>
@@ -317,14 +315,14 @@
            </c02>
       <c02 level="subseries">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Paul Schafer</unittitle>
        </did>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>12</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Paul Schafer</unittitle>
        <physdesc><dimensions>13.9 x 9 cm</dimensions></physdesc>
        <physdesc>Toned</physdesc>
@@ -335,9 +333,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>26</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1900">1900</unitdate>
+ <unitdate certainty="approximate" normal="1900" type="inclusive">1900</unitdate>
         <unittitle>? Schafer ? </unittitle>
        <physdesc><dimensions>17.5 x 11.4 cm</dimensions></physdesc>
        <physdesc>Cabinet card</physdesc>
@@ -348,9 +346,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>27</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1900">1900</unitdate>
+ <unitdate certainty="approximate" normal="1900" type="inclusive">1900</unitdate>
         <unittitle>Schafer</unittitle>
        <origination label="Creator"><persname>Jensen, M.</persname></origination>
        <physdesc><dimensions>16.8 x 10.8 cm</dimensions></physdesc>
@@ -362,9 +360,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>44</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Paul Schafer, Soubrettendarsteller</unittitle>
        <origination label="Creator"><corpname>Dr. Trenkler Co.</corpname></origination>
        <physdesc><dimensions>14 x 8.8 cm</dimensions></physdesc>
@@ -375,9 +373,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>45</unitid>
- <unitdate type="inclusive" normal="1908">1908</unitdate>
+ <unitdate normal="1908" type="inclusive">1908</unitdate>
         <unittitle>Paul Schafer</unittitle>
        <physdesc><dimensions>14.2 x 9 cm</dimensions></physdesc>
        </did>
@@ -387,9 +385,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>56</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Performer with tambourine</unittitle>
        <physdesc><dimensions>13.9 x 9.9 cm</dimensions></physdesc>
        </did>
@@ -398,9 +396,9 @@
               </c03>
        <c03 level="item">
         <did>
-         <container type="box">1</container>
+         <container label="unspecified" type="box">1</container>
          <unitid>63</unitid>
-         <unitdate type="inclusive" certainty="Circa" normal="1905">1900</unitdate>
+         <unitdate certainty="approximate" normal="1905" type="inclusive">1900</unitdate>
          <unittitle>Performer with parasol</unittitle>
          <physdesc><dimensions>14 x 9.1 cm</dimensions></physdesc>
         </did>
@@ -414,9 +412,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>21</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1900">1900</unitdate>
+ <unitdate certainty="approximate" normal="1900" type="inclusive">1900</unitdate>
         <unittitle>Ferri Verdini</unittitle>
        <physdesc><dimensions>13.9 x 8.9 cm</dimensions></physdesc>
        </did>
@@ -425,9 +423,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>38</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Ferri Verdini</unittitle>
        <physdesc><dimensions>14 x 8.6 cm</dimensions></physdesc>
        </did>
@@ -437,14 +435,14 @@
            </c02>
       <c02 level="subseries">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Rudi Rufino</unittitle>
        </did>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>24</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Rudi Rufino, Imitateur de la Soubrette?</unittitle>
        <origination label="Creator"><corpname>Nordische Kunstanstalt Ernst Schmidt and Co.</corpname></origination>
        <physdesc><dimensions>13.8 x 8.7 cm</dimensions></physdesc>
@@ -455,9 +453,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>39</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Rufino ? -Imitateur de la Soubrette</unittitle>
        <origination label="Creator"><corpname>Lubecker Lichtdruck-Anstalt Schmidt and Gebr. Bottger</corpname></origination>
        <physdesc><dimensions>13.8 x 8.6 cm</dimensions></physdesc>
@@ -468,14 +466,14 @@
            </c02>
       <c02 level="subseries">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Friedel Schwarz</unittitle>
        </did>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>28</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>? Friedel Schwarz ?</unittitle>
        <origination label="Creator"><corpname>Lubecker Lichtdruck-Anstalt Schmidt and Gebr. Bottger</corpname></origination>
        <physdesc><dimensions>14 x 8.9 cm</dimensions></physdesc>
@@ -485,9 +483,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>54</unitid>
- <unitdate type="inclusive" normal="1913">1913</unitdate>
+ <unitdate normal="1913" type="inclusive">1913</unitdate>
         <unittitle>? Friedel Schwarz ?</unittitle>
        <origination label="Creator"><corpname>Lubecker Lichtdruck-Anstalt Schmidt and Gebr. Bottger</corpname></origination>
        <physdesc><dimensions>13.7 x 8.8 cm</dimensions></physdesc>
@@ -499,14 +497,14 @@
            </c02>
       <c02 level="subseries">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Gauze</unittitle>
        </did>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>30</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Gauze, Canadian Indian soprano</unittitle>
        <physdesc><dimensions>13.5 x 8.7 cm</dimensions></physdesc>
        </did>
@@ -515,9 +513,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>31</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Gauze, Canadian Indian soprano</unittitle>
        <physdesc><dimensions>13.6 x 8.5 cm</dimensions></physdesc>
        </did>
@@ -526,9 +524,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>58</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Gauze, Canadian Indian soprano</unittitle>
        <physdesc><dimensions>14.1 x 8.6 cm</dimensions></physdesc>
        </did>
@@ -538,14 +536,14 @@
            </c02>
       <c02 level="subseries">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Zwegaly</unittitle>
        </did>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>34</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Zwegaly ?</unittitle>
        <origination label="Creator"><corpname>Berl. Phototyp. Inst. Rob. Prager</corpname></origination>
        <physdesc><dimensions>14 x 9 cm</dimensions></physdesc>
@@ -556,9 +554,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>60</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Zwegaly ?</unittitle>
        <origination label="Creator"><corpname>Lichtdruck von Trau and Schwab</corpname></origination>
        <physdesc><dimensions>13.9 x 9.1 cm</dimensions></physdesc>
@@ -570,14 +568,14 @@
            </c02>
       <c02 level="subseries">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Hilmar</unittitle>
        </did>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>51</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Hilmar</unittitle>
        <physdesc><dimensions>13.5 x 8.5 cm</dimensions></physdesc>
        </did>
@@ -586,9 +584,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>57</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Hilmar</unittitle>
        <physdesc><dimensions>13.5 x 8.6 cm</dimensions></physdesc>
        </did>
@@ -598,14 +596,14 @@
            </c02>
       <c02 level="subseries">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unittitle>Named impersonators</unittitle>
        </did>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>3</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Heinr. Wessels, Damen-Imitator</unittitle>
        <physdesc><dimensions>14 x 9 cm</dimensions></physdesc>
        </did>
@@ -614,9 +612,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>4</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Emil Brunelly - Soubretten parodist, rezitator sopran u bariton sanger</unittitle>
        <physdesc><dimensions>9.1 x 13.8 cm</dimensions></physdesc>
        </did>
@@ -625,9 +623,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>11</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Myllardo - sopransanger</unittitle>
        <physdesc><dimensions>14 x 9 cm</dimensions></physdesc>
        </did>
@@ -635,9 +633,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>14</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Sissi Lafaly</unittitle>
        <physdesc><dimensions>13.6 x 8.7 cm</dimensions></physdesc>
        </did>
@@ -647,9 +645,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>15</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Ernst Loretto</unittitle>
        <physdesc><dimensions>14 x 9 cm</dimensions></physdesc>
        </did>
@@ -659,9 +657,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>23</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Niels Holmes, Soubrette-Imitator</unittitle>
        <origination label="Creator"><corpname>Nordische Kunstanstalt Ernst Schmidt and Co.</corpname></origination>
        <physdesc><dimensions>14 x 8.8 cm</dimensions></physdesc>
@@ -672,9 +670,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>25</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>H. Vorst - Soubrettendarsteller u. sopransanger</unittitle>
        <physdesc><dimensions>14 x 9 cm</dimensions></physdesc>
        </did>
@@ -684,9 +682,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>33</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1900">1900</unitdate>
+ <unitdate certainty="approximate" normal="1900" type="inclusive">1900</unitdate>
         <unittitle>Paul Storsberg - Sopransanger</unittitle>
        <physdesc><dimensions>14 x 8.9 cm</dimensions></physdesc>
        </did>
@@ -695,9 +693,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>35</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1900">1900</unitdate>
+ <unitdate certainty="approximate" normal="1900" type="inclusive">1900</unitdate>
         <unittitle>Probasta, das psychologische Ratsel</unittitle>
        <origination label="Creator"><corpname>John Koefod, Lichtdruckanstalt</corpname></origination>
        <physdesc><dimensions>13.8 x 8.8 cm</dimensions></physdesc>
@@ -708,9 +706,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>36</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1900">1900</unitdate>
+ <unitdate certainty="approximate" normal="1900" type="inclusive">1900</unitdate>
         <unittitle>? Hardi Simon ?</unittitle>
        <origination label="Creator"><corpname>Gebr. Siegner, Kotzchenbroda</corpname></origination>
        <physdesc><dimensions>9.3 x 13.9 cm</dimensions></physdesc>
@@ -720,9 +718,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>37</unitid>
- <unitdate type="inclusive" normal="1914">1914</unitdate>
+ <unitdate normal="1914" type="inclusive">1914</unitdate>
         <unittitle>Paul Sander</unittitle>
        <origination label="Creator"><corpname>Lubecker Lichtdruck-Anstalt Schmidt and Gebr. Bottger</corpname></origination>
        <physdesc><dimensions>9.4 x 13.9 cm</dimensions></physdesc>
@@ -733,9 +731,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>46</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>? Eishauer (Eshally) ?</unittitle>
        <origination label="Creator"><corpname>Nordische Kunstanstalt Ernst Schmidt and Co.</corpname></origination>
        <physdesc><dimensions>13.8 x 8.7 cm</dimensions></physdesc>
@@ -745,9 +743,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>47</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1915">1915</unitdate>
+ <unitdate certainty="approximate" normal="1915" type="inclusive">1915</unitdate>
         <unittitle>Taulleur</unittitle>
        <origination label="Creator"><corpname>Lubecker Lichtdruck-Anstalt Schmidt and Gebr. Bottger</corpname></origination>
        <physdesc><dimensions>13.9 x 8.9 cm</dimensions></physdesc>
@@ -758,9 +756,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>48</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1915">1915</unitdate>
+ <unitdate certainty="approximate" normal="1915" type="inclusive">1915</unitdate>
         <unittitle>Gomarre - Die fabelhafte indische Tanz-und Fakirschau</unittitle>
        <origination label="Creator"><corpname>Anstalt, Gebr. Garloff</corpname></origination>
        <physdesc><dimensions>14.1 x 9.3 cm</dimensions></physdesc>
@@ -771,9 +769,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>49</unitid>
- <unitdate type="inclusive" normal="1913">1913</unitdate>
+ <unitdate normal="1913" type="inclusive">1913</unitdate>
         <unittitle>Alraunen duo</unittitle>
        <origination label="Creator"><corpname>Fotograf Fritz Frank</corpname></origination>
        <physdesc><dimensions>13.9 x 8.8 cm</dimensions></physdesc>
@@ -784,9 +782,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>55</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Mitzi Kaller</unittitle>
        <physdesc><dimensions>14 x 9 cm</dimensions></physdesc>
        </did>
@@ -795,9 +793,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>62</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1920">1920</unitdate>
+ <unitdate certainty="approximate" normal="1920" type="inclusive">1920</unitdate>
         <unittitle>Man de Wirth</unittitle>
        <origination label="Creator"><persname>Haas, H.</persname></origination>
        <physdesc><dimensions>13.5 x 8.6 cm</dimensions></physdesc>
@@ -812,9 +810,9 @@
        </did>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>13</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Female impersonator as ballerina</unittitle>
        <physdesc><dimensions>13.7 x 8.5 cm</dimensions></physdesc>
        </did>
@@ -823,9 +821,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>17</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1900">1900</unitdate>
+ <unitdate certainty="approximate" normal="1900" type="inclusive">1900</unitdate>
         <unittitle>Performer in costume</unittitle>
        <physdesc><dimensions>13.8 x 9.1 cm</dimensions></physdesc>
        </did>
@@ -834,9 +832,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>18</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Female impersonator in costume</unittitle>
        <physdesc><dimensions>13.9 x 8.9 cm</dimensions></physdesc>
        </did>
@@ -844,9 +842,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>19</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1900">1900</unitdate>
+ <unitdate certainty="approximate" normal="1900" type="inclusive">1900</unitdate>
         <unittitle>Female impersonator with headpiece</unittitle>
        <physdesc><dimensions>13.6 x 8.6 cm</dimensions></physdesc>
        <physdesc>Applied color</physdesc>
@@ -856,9 +854,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>20</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1900">1900</unitdate>
+ <unitdate certainty="approximate" normal="1900" type="inclusive">1900</unitdate>
         <unittitle>Female impersonator with hat</unittitle>
        <origination label="Creator"><corpname>Photographische Kunstanstalt Gerh. Merlens</corpname></origination>
        <physdesc><dimensions>13.3 x 8.3 cm </dimensions></physdesc>
@@ -868,9 +866,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>29</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1900">1900</unitdate>
+ <unitdate certainty="approximate" normal="1900" type="inclusive">1900</unitdate>
         <unittitle>Female impersonator in dress and heels</unittitle>
        <physdesc><dimensions>13.4 x 8.5 cm</dimensions></physdesc>
        </did>
@@ -879,9 +877,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>32</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Female impersonator in sleeveless dress</unittitle>
        <origination label="Creator"><persname>Rembrandt</persname></origination>
        <physdesc><dimensions>13.8 x 9 cm</dimensions></physdesc>
@@ -890,9 +888,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>40</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Two female impersonators dancing</unittitle>
        <origination label="Creator"><persname>Heldberg, F. </persname></origination>
        <origination label="Creator"><corpname>Hansa-Atelier</corpname></origination>
@@ -903,9 +901,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>41</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Two female impersonators dancing</unittitle>
        <origination label="Creator"><persname>Heldberg, F. </persname></origination>
        <origination label="Creator"><corpname>Hansa-Atelier</corpname></origination>
@@ -916,9 +914,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>42</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Two female impersonators as dancers</unittitle>
        <origination label="Creator"><corpname>Atelier Electra G. Reh </corpname></origination>
        <physdesc><dimensions>14.1 x 9 cm</dimensions></physdesc>
@@ -929,9 +927,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>43</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Female impersonator doing a split</unittitle>
        <origination label="Creator"><corpname>Atelier Electra G. Reh</corpname></origination>
        <physdesc><dimensions>8.8 x 14 cm</dimensions></physdesc>
@@ -941,9 +939,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>52</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1900">1900</unitdate>
+ <unitdate certainty="approximate" normal="1900" type="inclusive">1900</unitdate>
         <unittitle>Female impersonator in top hat</unittitle>
        <physdesc><dimensions>14.1 x 8.8 cm</dimensions></physdesc>
        </did>
@@ -951,9 +949,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>59</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1910">1910</unitdate>
+ <unitdate certainty="approximate" normal="1910" type="inclusive">1910</unitdate>
         <unittitle>Female impersonator in ballet slippers</unittitle>
        <physdesc><dimensions>14.1 x 9.1 cm</dimensions></physdesc>
        </did>
@@ -961,9 +959,9 @@
               </c03>
       <c03 level="item">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>61</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1905">1905</unitdate>
+ <unitdate certainty="approximate" normal="1905" type="inclusive">1905</unitdate>
         <unittitle>Female impersonator wearing lace shawl</unittitle>
        <physdesc><dimensions>13.7 x 8.9 cm</dimensions></physdesc>
        </did>
@@ -972,5 +970,9 @@
        </c02>
    </c01>
     </dsc>
-  </archdesc>
+  <prefercite>
+                          <head>Cite As:</head>
+                   <p>Postcards of German female impersonators, #7636.  Division of Rare and Manuscript Collections, Cornell University Library.
+                                   </p>
+                  </prefercite></archdesc>
  </ead>

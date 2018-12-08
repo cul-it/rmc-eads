@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08408::Guide to the Robert S. and Eloise C. Wickham papers)//EN">RMM08408</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08408::Guide to the Robert S. and Eloise C. Wickham papers)//EN">RMM08408</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Robert S. and Eloise C. Wickham
@@ -26,19 +26,25 @@
     <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>March 2013</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Robert S. And Eloise C. Wickham Papers,<lb/><date type="inclusive" encodinganalog="245$f">1776-1988.</date></titleproper>
+      <titleproper>Guide to the Robert S. And Eloise C. Wickham Papers,<date encodinganalog="245$f" type="inclusive">1776-1988.</date></titleproper>
       <num>Collection Number: 8408</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-            Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607)
-              255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+            Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607)
+              255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
         </defitem>
         <defitem>
           <label>Compiled by:</label>
@@ -63,15 +69,14 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">Robert S. and Eloise C. Wickham papers,
-          <unitdate encodinganalog="MARC 245" type="inclusive">1776-1988.</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">Robert S. and Eloise C. Wickham papers,
+          </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1776-1988.</unitdate>
       <unitid label="Collection Number:">8408</unitid>
       <origination label="Creator:">
         <persname encodinganalog="100" normal="Wickham, Robert Sloane,  1877- ">Wickham, Robert
           Sloane, </persname>
       </origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>3.6 cubic feet.</extent></physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>3.6 cubic feet</extent></physdesc>
       <physdesc label="Forms of Material:">Bound manuscripts, correspondence, photographs, printed
         material, publications</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -84,7 +89,7 @@
       <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">
-      <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+      <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
       <p>Robert Sloane Wickham was born at Ballston Spa on March 14, 1877. He graduated from
         Saratoga Springs High School, studied law in the office of Babcock, sperry, and Van Cleve in
         Binghamton and attended Binghamton High School. In 1897, he won a state scholarship to
@@ -157,20 +162,13 @@
         <geogname encodinganalog="MARC 651">United States -- History -- War of 1812.</geogname>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>Robert S. and Eloise C. Wickham papers, #8408. Division of Rare and Manuscript
-          Collections, Cornell University Library.</p>
-      </prefercite>
-    </descgrp>
+    
     <dsc type="combined">
       <head>CONTAINER LIST</head>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1896-1950</unitdate>
           <unittitle>Back Log Camp, Sabael, N.Y.</unittitle>
         </did>
@@ -182,8 +180,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Carpenter, Alice.</unittitle>
         </did>
@@ -193,8 +191,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Carpenter, Alonzo B., Schuylerville.</unittitle>
         </did>
@@ -204,8 +202,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1914</unitdate>
           <unittitle>Carpenter, Alvin R. I.</unittitle>
         </did>
@@ -215,8 +213,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1914</unitdate>
           <unittitle>Carpenter, Alvin R. I.</unittitle>
         </did>
@@ -226,8 +224,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1914-16, 95</unitdate>
           <unittitle>Carpenter, Alvin R. II.</unittitle>
         </did>
@@ -239,8 +237,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1917</unitdate>
           <unittitle>Carpenter, Alvin R. II.</unittitle>
         </did>
@@ -252,8 +250,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1964</unitdate>
           <unittitle>Carpenter, Betty, Tulsa, Okla</unittitle>
         </did>
@@ -263,8 +261,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Carpenter family.</unittitle>
         </did>
@@ -274,8 +272,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1914</unitdate>
           <unittitle>Carpenter, Mary (Hendy).</unittitle>
         </did>
@@ -285,8 +283,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1905</unitdate>
           <unittitle>DeRidder family.</unittitle>
         </did>
@@ -298,8 +296,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1941</unitdate>
           <unittitle>Hendy family.</unittitle>
         </did>
@@ -310,8 +308,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>1978</unitdate>
           <unittitle>Mayhew, Charles W.</unittitle>
         </did>
@@ -323,8 +321,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>1901</unitdate>
           <unittitle>Mayhew, Charles W.</unittitle>
         </did>
@@ -334,8 +332,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Mayhew, Charles W.</unittitle>
         </did>
@@ -347,8 +345,8 @@
 
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>1956-67</unitdate>
           <unittitle>Mayhew family.</unittitle>
         </did>
@@ -359,8 +357,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">17</container>
           <unitdate>1901-02</unitdate>
           <unittitle>Saturday Study Club, Schuylerville, N.Y.</unittitle>
         </did>
@@ -370,8 +368,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>1956-67</unitdate>
           <unittitle>Shakespeare Dramatic Club, Binghamton, N.Y.</unittitle>
         </did>
@@ -383,8 +381,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">19</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">19</container>
           <unitdate>1963-67</unitdate>
           <unittitle>Wickham, Alan R.</unittitle>
         </did>
@@ -395,8 +393,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">20</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">20</container>
           <unitdate>1965</unitdate>
           <unittitle>Wickham, Carolyn.</unittitle>
         </did>
@@ -406,8 +404,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">Not Received</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">Not Received</container>
           <unitdate>1901</unitdate>
           <unittitle>Mayhew family.</unittitle>
         </did>
@@ -418,16 +416,16 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1947-65</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).Business papers</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).</unittitle>
         </did>
@@ -437,8 +435,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1966-67</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).</unittitle>
         </did>
@@ -451,8 +449,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1966</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).</unittitle>
         </did>
@@ -462,8 +460,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1914-41</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).</unittitle>
         </did>
@@ -473,8 +471,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1963-65</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).</unittitle>
         </did>
@@ -484,8 +482,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1951-66</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).</unittitle>
         </did>
@@ -495,8 +493,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1946-64</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).</unittitle>
         </did>
@@ -507,8 +505,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1982-89</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).</unittitle>
         </did>
@@ -518,8 +516,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1982-89</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).</unittitle>
         </did>
@@ -529,8 +527,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1901-02</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).</unittitle>
         </did>
@@ -540,8 +538,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Wickham family, Ballston Spa, N.Y.</unittitle>
         </did>
@@ -551,8 +549,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>1912</unitdate>
           <unittitle>Wickham, Robert Sloane.</unittitle>
         </did>
@@ -564,8 +562,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>1917-58</unitdate>
           <unittitle>Wickham, Robert Sloane.</unittitle>
         </did>
@@ -576,8 +574,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Wickham, Robert Sloane.</unittitle>
         </did>
@@ -587,8 +585,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Wickham, Robert Sloane.</unittitle>
         </did>
@@ -598,8 +596,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">17</container>
           <unitdate>1893-96</unitdate>
           <unittitle>Wickham, Robert Sloane.</unittitle>
         </did>
@@ -609,8 +607,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Wickham, Robert Sloane.</unittitle>
         </did>
@@ -620,8 +618,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">19</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">19</container>
           <unitdate>1928-70</unitdate>
           <unittitle>Wickham, Robert Sloane and Eloise (Carpenter).</unittitle>
         </did>
@@ -633,8 +631,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">20</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">20</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Wickham, Robert Sloane and Eloise (Carpenter).</unittitle>
         </did>
@@ -644,120 +642,120 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1910</unitdate>
           <unittitle>Business</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1911</unitdate>
           <unittitle>Personal</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1912</unitdate>
           <unittitle>Personal</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1913</unitdate>
           <unittitle>Personal</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1913</unitdate>
           <unittitle>Business</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1914</unitdate>
           <unittitle>Personal</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1914</unitdate>
           <unittitle>Business</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1915</unitdate>
           <unittitle>Personal</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1915</unitdate>
           <unittitle>Business</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1916</unitdate>
           <unittitle>Personal</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1916</unitdate>
           <unittitle>Business</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1952</unitdate>
           <unittitle>Personal</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Business</unittitle>
         </did>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">3</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Bankbooks and other records</unittitle>
         </did>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="volume">1</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="volume">1</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Allaben Drawings</unittitle>
         </did>
@@ -772,8 +770,8 @@
 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="volume">1</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="volume">1</container>
           <unitdate>1893</unitdate>
           <unittitle>Adirondack League Club</unittitle>
         </did>
@@ -785,20 +783,20 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">5</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1818</unitdate>
           <unittitle>An Act, to Organize the Militia of the State of New-York, Passed April 21,
             1818. Albany: J.W. Clark</unittitle>
         </did>
         <scopecontent>
-          <p/>
+          
         </scopecontent>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">5</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1821</unitdate>
           <unittitle>Amendments to the Militia Law, Passed March 13, 1821. Albany: Websters and
             Skinners, n,d,</unittitle>
@@ -810,20 +808,20 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">5</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1875</unitdate>
           <unittitle>Annual Register of the United States Naval Academy at Annapolis, Md. 1875-76.
             Washington: Government Printing Office</unittitle>
         </did>
         <scopecontent>
-          <p/>
+          
         </scopecontent>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">5</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1814</unitdate>
           <unittitle>Laws of New-York: viz. An Act, to amend an Act, entitled “an Act to organize
             the Militia of this State” . . . Albany: J. Buel, [1814]</unittitle>
@@ -834,8 +832,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">5</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1864</unitdate>
           <unittitle>Official Register of the Officers and Midshipmen of the United States Naval
             Academy. Newport, Rhode Island. Nov. 1st, 1864. Newport: Frederick A. Pratt</unittitle>
@@ -850,8 +848,8 @@
 
       <c01 level="file">
         <did>
-          <container type="box">5</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1814?</unitdate>
           <unittitle>To the Republican Electors of the State of New-York</unittitle>
         </did>
@@ -861,8 +859,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="volume">8</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="volume">8</container>
           <unitdate>1900</unitdate>
           <unittitle>The Book of Common Prayer. London: Eyre and Spottiswoode</unittitle>
         </did>
@@ -873,8 +871,8 @@
 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="volume">9</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="volume">9</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Wickham, Robert S., Binghamton, N.Y.</unittitle>
         </did>
@@ -884,7 +882,7 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">5</container>
+          <container label="unspecified" type="box">5</container>
           <unitdate>June 1998</unitdate>
           <unittitle>Wickham, Robert S.</unittitle>
         </did>
@@ -894,7 +892,7 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">5</container>
+          <container label="unspecified" type="box">5</container>
           <unitdate>1998</unitdate>
           <unittitle>Wickham, Robert S.</unittitle>
         </did>
@@ -905,8 +903,8 @@
 
       <c01 level="file">
         <did>
-          <container type="box">6</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1915</unitdate>
           <unittitle>Ansco Company, Binghamton, N.Y.</unittitle>
         </did>
@@ -916,8 +914,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">6</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1928-42</unitdate>
           <unittitle>Carpenter, Alvin R. II.</unittitle>
         </did>
@@ -928,8 +926,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">6</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1800's</unitdate>
           <unittitle>DeRidder family.</unittitle>
         </did>
@@ -945,8 +943,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">6</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1809</unitdate>
           <unittitle>Mayhew, Abiel W.</unittitle>
         </did>
@@ -956,8 +954,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">6</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1914</unitdate>
           <unittitle>Schuylerville Standard.</unittitle>
         </did>
@@ -967,8 +965,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">6</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1929</unitdate>
           <unittitle>Wickham, Alan R.</unittitle>
         </did>
@@ -978,8 +976,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">6</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1889</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).</unittitle>
         </did>
@@ -989,8 +987,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">6</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1896</unitdate>
           <unittitle>Wickham, Robert Sloane.</unittitle>
         </did>
@@ -1000,8 +998,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="volume">1</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="volume">1</container>
           <unitdate>1912</unitdate>
           <unittitle>Carpenter, Charles Mayhew.</unittitle>
         </did>
@@ -1013,8 +1011,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="volume">2</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="volume">2</container>
           <unitdate>1887-88</unitdate>
           <unittitle>DeRidder, C[atherine] S.</unittitle>
         </did>
@@ -1027,8 +1025,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="volume">3</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="volume">3</container>
           <unitdate>1887</unitdate>
           <unittitle>DeRidder, C[atherine] S.</unittitle>
         </did>
@@ -1038,8 +1036,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="volume">4</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="volume">4</container>
           <unitdate>1835</unitdate>
           <unittitle>DeRidder, Walter [?].</unittitle>
         </did>
@@ -1051,8 +1049,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="volume">5</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="volume">5</container>
           <unitdate>1862</unitdate>
           <unittitle>Mayhew, Ida C., Victory Mills, N.Y.</unittitle>
         </did>
@@ -1064,8 +1062,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="volume">6</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="volume">6</container>
           <unitdate>1932-37</unitdate>
           <unittitle>Wickham, Eloise (Carpenter). </unittitle>
         </did>
@@ -1077,8 +1075,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="volume">7</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="volume">7</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Wickham, Robert S.,</unittitle>
         </did>
@@ -1089,8 +1087,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="volume">8</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="volume">8</container>
           <unitdate>1948</unitdate>
           <unittitle>Wickham, Robert S.</unittitle>
         </did>
@@ -1103,8 +1101,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">8</container>
-          <container type="volume">1</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="volume">1</container>
           <unitdate>1895</unitdate>
           <unittitle>“Aunt Fanny.” Night Cap Stories. Boston: Estes and Lauriat</unittitle>
         </did>
@@ -1114,8 +1112,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">8</container>
-          <container type="volume">2</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="volume">2</container>
           <unitdate>1798</unitdate>
           <unittitle>An Impartial Narrative of the Most Important Engagements Which Took Place
             Between His Majesty’s Forces and the Rebels, During the Irish Rebellion</unittitle>
@@ -1127,8 +1125,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">8</container>
-          <container type="volume">3</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="volume">3</container>
           <unitdate>1863</unitdate>
           <unittitle>Luce. S.B. Seamanship. New York: D. Van Nostrand</unittitle>
         </did>
@@ -1139,8 +1137,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">8</container>
-          <container type="volume">4</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="volume">4</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Redfield, Henry S. Civil Procedure. Selected Pleadings. No. I. Cornell
             University College of Law</unittitle>
@@ -1151,8 +1149,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">8</container>
-          <container type="volume">5, 6</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="volume">5, 6</container>
           <unitdate>1864-1868 </unitdate>
           <unittitle>Class 1864-1868 / United States Naval Academy / The Fiftieth
             Anniversary</unittitle>
@@ -1165,8 +1163,8 @@
 
       <c01 level="item">
         <did>
-          <container type="box">9</container>
-          <container type="volume">1</container>
+          <container label="unspecified" type="box">9</container>
+          <container label="unspecified" type="volume">1</container>
           <unitdate>1905-19</unitdate>
           <unittitle>Album</unittitle>
         </did>
@@ -1180,8 +1178,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">9</container>
-          <container type="volume">2</container>
+          <container label="unspecified" type="box">9</container>
+          <container label="unspecified" type="volume">2</container>
           <unitdate>1917-23</unitdate>
           <unittitle>Album</unittitle>
         </did>
@@ -1195,8 +1193,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">10</container>
-          <container type="volume">1</container>
+          <container label="unspecified" type="box">10</container>
+          <container label="unspecified" type="volume">1</container>
           <unitdate>1923-38</unitdate>
           <unittitle>Album</unittitle>
         </did>
@@ -1210,8 +1208,8 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">10</container>
-          <container type="volume">2</container>
+          <container label="unspecified" type="box">10</container>
+          <container label="unspecified" type="volume">2</container>
           <unitdate>1939-49</unitdate>
           <unittitle>Album</unittitle>
         </did>
@@ -1225,8 +1223,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">11</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">11</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1916</unitdate>
           <unittitle>Karl B Stickley</unittitle>
         </did>
@@ -1237,8 +1235,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">11</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">11</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1919</unitdate>
           <unittitle>“Camp Roosevelt / Oteyokwa Lake, Pa.”</unittitle>
         </did>
@@ -1249,8 +1247,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">11</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">11</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1920</unitdate>
           <unittitle>“Austin S. Bump” [hereafter ASB], 180 Washington Street</unittitle>
         </did>
@@ -1260,8 +1258,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">11</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">11</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1920</unitdate>
           <unittitle>Photo envelope with no identification</unittitle>
         </did>
@@ -1271,8 +1269,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">11</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">11</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1922</unitdate>
           <unittitle>1922</unittitle>
         </did>
@@ -1283,8 +1281,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">11</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">11</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1923</unitdate>
           <unittitle>KBS, 47 Carroll Street</unittitle>
         </did>
@@ -1294,8 +1292,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">11</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">11</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1923</unitdate>
           <unittitle>KBS, 47 Carroll Street</unittitle>
         </did>
@@ -1305,8 +1303,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">12</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">12</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1923</unitdate>
           <unittitle>KBS, 47 Carroll Street</unittitle>
         </did>
@@ -1316,8 +1314,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">12</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">12</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1923</unitdate>
           <unittitle>KBS, 47 Carroll Street</unittitle>
         </did>
@@ -1327,8 +1325,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">12</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">12</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1926</unitdate>
           <unittitle>KBS, 47 Carroll Street</unittitle>
         </did>
@@ -1338,8 +1336,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">12</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">12</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1929 and 1930</unitdate>
           <unittitle>Robert S. Wickham, U.S. District Court, Binghamton</unittitle>
         </did>
@@ -1349,8 +1347,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">12</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">12</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1931</unitdate>
           <unittitle>Plain envelope</unittitle>
         </did>
@@ -1360,8 +1358,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">12</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">12</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>1932</unitdate>
           <unittitle>Robert S. Wickham, U.S. District Court, Binghamton</unittitle>
         </did>
@@ -1371,8 +1369,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">13</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">13</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>1938</unitdate>
           <unittitle>KBS, art deco envelope</unittitle>
         </did>
@@ -1383,8 +1381,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">13</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">13</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>n.d.</unitdate>
           <unittitle>“Randall’s Photo Finishing Service / Binghamton Savings Bank”</unittitle>
         </did>
@@ -1395,8 +1393,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">13</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">13</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>1939</unitdate>
           <unittitle>Stickley’s Certified Art Prints</unittitle>
         </did>
@@ -1406,8 +1404,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">13</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">13</container>
+          <container label="unspecified" type="folder">17</container>
           <unitdate>n.d.</unitdate>
           <unittitle>ASB</unittitle>
         </did>
@@ -1420,8 +1418,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">13</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">13</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>1920</unitdate>
           <unittitle>ASB</unittitle>
         </did>
@@ -1432,8 +1430,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">13</container>
-          <container type="folder">19</container>
+          <container label="unspecified" type="box">13</container>
+          <container label="unspecified" type="folder">19</container>
           <unitdate>n.d.</unitdate>
           <unittitle>ASB</unittitle>
         </did>
@@ -1443,8 +1441,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">13</container>
-          <container type="folder">20</container>
+          <container label="unspecified" type="box">13</container>
+          <container label="unspecified" type="folder">20</container>
           <unitdate>JUL 20 1920</unitdate>
           <unittitle>ASB</unittitle>
         </did>
@@ -1455,8 +1453,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">13</container>
-          <container type="folder">21</container>
+          <container label="unspecified" type="box">13</container>
+          <container label="unspecified" type="folder">21</container>
           <unitdate>1920</unitdate>
           <unittitle>ASB</unittitle>
         </did>
@@ -1467,8 +1465,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">13</container>
-          <container type="folder">22</container>
+          <container label="unspecified" type="box">13</container>
+          <container label="unspecified" type="folder">22</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Plain envelope</unittitle>
         </did>
@@ -1478,9 +1476,9 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">14</container>
-          <container type="folder">23</container>
-          <unitdate>c.1890 </unitdate>
+          <container label="unspecified" type="box">14</container>
+          <container label="unspecified" type="folder">23</container>
+          <unitdate certainty="approximate">1890</unitdate>
           <unittitle>Envelope printed “Mrs. Robert S. Wickham”</unittitle>
         </did>
         <scopecontent>
@@ -1491,8 +1489,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">14</container>
-          <container type="folder">24</container>
+          <container label="unspecified" type="box">14</container>
+          <container label="unspecified" type="folder">24</container>
           <unitdate>n.d.</unitdate>
           <unittitle>KBS, 59 Carroll Street</unittitle>
         </did>
@@ -1503,8 +1501,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">14</container>
-          <container type="folder">25</container>
+          <container label="unspecified" type="box">14</container>
+          <container label="unspecified" type="folder">25</container>
           <unitdate>n.d.</unitdate>
           <unittitle>KBS, Art Deco envelope</unittitle>
         </did>
@@ -1514,8 +1512,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">14-15</container>
-          <container type="folder">26</container>
+          <container label="unspecified" type="box">14-15</container>
+          <container label="unspecified" type="folder">26</container>
           <unitdate>1917 </unitdate>
           <unittitle>KBS, 59 Carroll Street</unittitle>
         </did>
@@ -1528,8 +1526,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">15</container>
-          <container type="folder">27</container>
+          <container label="unspecified" type="box">15</container>
+          <container label="unspecified" type="folder">27</container>
           <unitdate>n.d.</unitdate>
           <unittitle>KBS, 47 Carroll Street</unittitle>
         </did>
@@ -1541,8 +1539,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">15</container>
-          <container type="folder">28</container>
+          <container label="unspecified" type="box">15</container>
+          <container label="unspecified" type="folder">28</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Plain brown envelope</unittitle>
         </did>
@@ -1552,8 +1550,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">15</container>
-          <container type="folder">29</container>
+          <container label="unspecified" type="box">15</container>
+          <container label="unspecified" type="folder">29</container>
           <unitdate>n.d.</unitdate>
           <unittitle>RSW, 47 Carroll Street</unittitle>
         </did>
@@ -1563,8 +1561,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">15</container>
-          <container type="folder">30</container>
+          <container label="unspecified" type="box">15</container>
+          <container label="unspecified" type="folder">30</container>
           <unitdate>n.d.</unitdate>
           <unittitle>RSW, 47 Carroll Street</unittitle>
         </did>
@@ -1574,8 +1572,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">15</container>
-          <container type="folder">31</container>
+          <container label="unspecified" type="box">15</container>
+          <container label="unspecified" type="folder">31</container>
           <unitdate>SEP 1 1938</unitdate>
           <unittitle>RSW, Art Deco envelope</unittitle>
         </did>
@@ -1585,9 +1583,9 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">16</container>
-          <container type="folder">1</container>
-          <unitdate>c.1900-14</unitdate>
+          <container label="unspecified" type="box">16</container>
+          <container label="unspecified" type="folder">1</container>
+          <unitdate certainty="approximate">1900-14</unitdate>
           <unittitle>Carpenter and Symmes Coalyard</unittitle>
         </did>
         <scopecontent>
@@ -1597,9 +1595,9 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">16</container>
-          <container type="folder">2</container>
-          <unitdate>c.1900-14</unitdate>
+          <container label="unspecified" type="box">16</container>
+          <container label="unspecified" type="folder">2</container>
+          <unitdate certainty="approximate">1900-14</unitdate>
           <unittitle>Carpenter family. 14 items.</unittitle>
         </did>
         <scopecontent>
@@ -1608,9 +1606,9 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">16</container>
-          <container type="folder">3</container>
-          <unitdate>c.1900-14</unitdate>
+          <container label="unspecified" type="box">16</container>
+          <container label="unspecified" type="folder">3</container>
+          <unitdate certainty="approximate">1900-14</unitdate>
           <unittitle>Churches. 6 items.</unittitle>
         </did>
         <scopecontent>
@@ -1619,9 +1617,9 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">16</container>
-          <container type="folder">4</container>
-          <unitdate>c.1900-14</unitdate>
+          <container label="unspecified" type="box">16</container>
+          <container label="unspecified" type="folder">4</container>
+          <unitdate certainty="approximate">1900-14</unitdate>
           <unittitle>Houses. 11 items.</unittitle>
         </did>
         <scopecontent>
@@ -1630,9 +1628,9 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">16</container>
-          <container type="folder">5</container>
-          <unitdate>c.1900-14</unitdate>
+          <container label="unspecified" type="box">16</container>
+          <container label="unspecified" type="folder">5</container>
+          <unitdate certainty="approximate">1900-14</unitdate>
           <unittitle>Outdoor scenes and genre. 19 items.</unittitle>
         </did>
         <scopecontent>
@@ -1642,9 +1640,9 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">16</container>
-          <container type="folder">6</container>
-          <unitdate>c.1900-14</unitdate>
+          <container label="unspecified" type="box">16</container>
+          <container label="unspecified" type="folder">6</container>
+          <unitdate certainty="approximate">1900-14</unitdate>
           <unittitle>Overseas. 8 items.</unittitle>
         </did>
         <scopecontent>
@@ -1653,9 +1651,9 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">16</container>
-          <container type="folder">7</container>
-          <unitdate>c.1900-14</unitdate>
+          <container label="unspecified" type="box">16</container>
+          <container label="unspecified" type="folder">7</container>
+          <unitdate certainty="approximate">1900-14</unitdate>
           <unittitle>People. 32 items.</unittitle>
         </did>
         <scopecontent>
@@ -1664,9 +1662,9 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">16</container>
-          <container type="folder">8</container>
-          <unitdate>c.1900-14</unitdate>
+          <container label="unspecified" type="box">16</container>
+          <container label="unspecified" type="folder">8</container>
+          <unitdate certainty="approximate">1900-14</unitdate>
           <unittitle>Scenery. 24 items.</unittitle>
         </did>
         <scopecontent>
@@ -1675,9 +1673,9 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">16</container>
-          <container type="folder">9</container>
-          <unitdate>c.1900-14</unitdate>
+          <container label="unspecified" type="box">16</container>
+          <container label="unspecified" type="folder">9</container>
+          <unitdate certainty="approximate">1900-14</unitdate>
           <unittitle>Street views. 6 items</unittitle>
         </did>
         <scopecontent>
@@ -1687,8 +1685,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">17</container>
-          <container type="volume">1</container>
+          <container label="unspecified" type="box">17</container>
+          <container label="unspecified" type="volume">1</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Carte-de-Visite Album</unittitle>
         </did>
@@ -1717,8 +1715,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">18</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">18</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).</unittitle>
         </did>
@@ -1728,8 +1726,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">18</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">18</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).</unittitle>
         </did>
@@ -1739,8 +1737,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">18</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">18</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>n.d.</unitdate>
           <unittitle>Wickham, Eloise (Carpenter).</unittitle>
         </did>
@@ -1750,8 +1748,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">18</container>
-          <container type="volume">4</container>
+          <container label="unspecified" type="box">18</container>
+          <container label="unspecified" type="volume">4</container>
           <unitdate>1792, 1812</unitdate>
           <unittitle>DeRidder, Simon</unittitle>
         </did>
@@ -1763,7 +1761,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">19</container>
+          <container label="unspecified" type="box">19</container>
           <unitid>MU-2072</unitid>
           <unitdate>1928</unitdate>
           <unittitle>4 class caps</unittitle>
@@ -1778,7 +1776,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">20</container>
+          <container label="unspecified" type="box">20</container>
           <unitdate>1860-1956</unitdate>
           <unittitle>Photographic Scrapbook</unittitle>
         </did>
@@ -1789,5 +1787,9 @@
         </scopecontent>
       </c01>
     </dsc>
-  </archdesc>
+  <prefercite>
+        <head>Cite As:</head>
+        <p>Robert S. and Eloise C. Wickham papers, #8408. Division of Rare and Manuscript
+          Collections, Cornell University Library.</p>
+      </prefercite></archdesc>
 </ead>

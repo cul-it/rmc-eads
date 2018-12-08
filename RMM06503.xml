@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06503::Guide to the Stephen and Betsy Myers collection of citizens' resistance    to the placement of a low level radioactive dump site)//EN">RMM06503</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06503::Guide to the Stephen and Betsy Myers collection of citizens' resistance    to the placement of a low level radioactive dump site)//EN">RMM06503</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Stephen and Betsy Myers collection of citizens' resistance
@@ -18,27 +18,33 @@
 			</publicationstmt>
 			<notestmt>
 				<note audience="internal">
-					<p><subject/></p>
+					
 				</note>
 			</notestmt>
 		</filedesc>
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>October 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
 			<titleproper>Guide to the Stephen And Betsy Myers Collection Of Citizens' Resistance To
-				The Placement Of A Low Level Radioactive Dump Site,<lb/><date type="inclusive" encodinganalog="245$f">1989-2000.</date></titleproper>
+				The Placement Of A Low Level Radioactive Dump Site,<date encodinganalog="245$f" type="inclusive">1989-2000.</date></titleproper>
 			<num>Collection Number: 6503</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -64,13 +70,12 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Stephen and Betsy Myers collection
+			<unittitle encodinganalog="MARC 245" label="Title:">Stephen and Betsy Myers collection
 				of citizens' resistance to the placement of a low level radioactive dump site,
-					<unitdate encodinganalog="MARC 245" type="inclusive">1989-2000.</unitdate>
-			</unittitle>
+					</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1989-2000.</unitdate>
 			<unitid label="Collection Number:">6503</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Myers, Stephen.   ">Myers, Stephen. </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>8.5 cubic ft.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>8.5 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Correspondence, newspapers, audio recordings, memorabilia and legal documents.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -84,7 +89,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>In 1989, the New York State Low-Level Radioactive Waste Siting Commission, under
 				federal mandate to find a home for low-level nuclear waste, notified Allegany County
 				in western New York that it was one of ten counties under consideration. Citizens of
@@ -174,14 +179,7 @@
 				<geogname encodinganalog="MARC 651">United States</geogname>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Stephen and Betsy Myers Archive, #6503. Division of Rare and Manuscript
-					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="series"> 
@@ -191,5 +189,9 @@
 				</did> 
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Stephen and Betsy Myers Archive, #6503. Division of Rare and Manuscript
+					Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

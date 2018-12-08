@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM03612::Allan H. Treman papers)//EN">RMM03612</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM03612::Allan H. Treman papers)//EN">RMM03612</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Allan H. Treman papers, 1824-1967</titleproper>
@@ -26,6 +25,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -34,19 +39,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Allan H. Treman Papers,<lb/>1824-1967</titleproper>
+         <titleproper>Guide to the Allan H. Treman Papers,1824-1967</titleproper>
          <num>Collection Number: 3612</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
@@ -63,14 +68,13 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Allan H. Treman papers, <unitdate type="inclusive" encodinganalog="MARC 245">1824-1967.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Allan H. Treman papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1824-1967.</unitdate>
          <unitid label="Collection Number:">3612</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Treman, Allan H., 1899-1975.">Allan H., Treman
                1899-1975.</persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>3 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>3 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Legal documents; letters; news clippings; photographs;
             slides; programs; scrapbooks; audiotapes and transcripts; and other
             materials.</physdesc>
@@ -86,7 +90,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>Allan H. Treman was the son of Robert H. and Mary McLallan Treman. He attended Cornell
             University and was a lawyer, law teacher, and counsel to Cornell University. He was an
             active public figure in Ithaca and Tompkins County, New York.</p>
@@ -116,20 +120,13 @@
             <geogname encodinganalog="MARC 651">Tompkins County (N.Y.)</geogname>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Allan H. Treman papers, #3612. Division of Rare and Manuscript Collections, Cornell
-               University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">1</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">1</container>
                <unitdate>1833-1853</unitdate>
                <unittitle>Legal documents re: Abner Treman, Town of Ulysses 
                </unittitle>
@@ -137,8 +134,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">1</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">1</container>
                <unitdate>1955</unitdate>
                <unittitle>Covering letter from Dorman Purdy
                </unittitle>
@@ -146,8 +143,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">2</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">2</container>
                <unitdate>1939-1967</unitdate>
                <unittitle>Letters
                </unittitle>
@@ -155,8 +152,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">3</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">3</container>
                <unitdate>1937-1959</unitdate>
                <unittitle>Newsclippings
                </unittitle>
@@ -164,28 +161,28 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">4</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">4</container>
                <unittitle>Photographs</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">5</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">5</container>
                <unittitle>Photographs and stereoptic slides</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">6</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">6</container>
                <unittitle>Miscellany: programs, scorecards, photogravure, etc.</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unitdate>1910</unitdate> 
                <unittitle>Wood-bound volume: <title>The Life of Jesus of Nazareth: Eighty Pictures
                      by William Hole.</title> London: Eyre &amp; Spottswoode, Ltd.(from Jerusalem)</unittitle>
@@ -193,7 +190,7 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unitdate>1912</unitdate>
                <unittitle>Framed sketch of Hiram Corson 
                </unittitle>
@@ -201,8 +198,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
-               <container type="folder">1</container>
+               <container label="unspecified" type="box">2</container>
+               <container label="unspecified" type="folder">1</container>
                <unitdate>1917-1919</unitdate>
                <unittitle>A.H.T.'s scrapbook, includes programs and
                   newsclippings</unittitle>
@@ -210,22 +207,22 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
-               <container type="folder">2</container>
+               <container label="unspecified" type="box">2</container>
+               <container label="unspecified" type="folder">2</container>
                <unitdate>1917-1919</unitdate>
                <unittitle>Scrapbook, newsclipping and photos</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>Material used in compiling Treman book, <title>As I Remember</title>
                   (i.e., newspaper clippings, transcripts of cassette tapes)</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
+               <container label="unspecified" type="box">4</container>
                <unitdate>1896</unitdate>
                <unittitle>Framed sketch of plan of Cornell Park, Ithaca, N.Y. by Wm. Webster
                </unittitle>
@@ -233,15 +230,15 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <unitdate>ca. 1890-1959</unitdate>
+               <container label="unspecified" type="box">4</container>
+               <unitdate certainty="approximate">1890-1959</unitdate>
                <unittitle>Scrapbook made for Allan H. Treman by
                   his mother, 1939; mostly newsclippings about Robert H. Treman</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="volume">1</container>
+               <container label="unspecified" type="volume">1</container>
                <unitdate>1949-1967</unitdate>
                <unittitle>Scrapbook containing newsclipping,
                   photos</unittitle>
@@ -249,32 +246,36 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="map-case">Folder 1</container>
-               <unitdate>ca. 1900's</unitdate>
+               <container label="unspecified" type="map-case">Folder 1</container>
+               <unitdate certainty="approximate">1900's</unitdate>
                <unittitle>Panorama view from South Hill looking at Cayuga Lake and surrounding area</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="map-case">Folder 1</container>
+               <container label="unspecified" type="map-case">Folder 1</container>
                <unitdate>1903</unitdate>
                <unittitle>Panorama of Ithaca flood conditions, taken from West Hill toward South East</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="map-case">Folder 1</container>
+               <container label="unspecified" type="map-case">Folder 1</container>
                <unitdate>1906</unitdate>
                <unittitle>Hand-colored painting of Cornell campus, by Richard Rummell</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="map-case">Folder 1</container>
+               <container label="unspecified" type="map-case">Folder 1</container>
                <unitdate>Undated</unitdate>
                <unittitle>Allan H. Treman certificate from U.S. Supreme Court</unittitle>
             </did>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Allan H. Treman papers, #3612. Division of Rare and Manuscript Collections, Cornell
+               University Library.</p>
+         </prefercite></archdesc>
 </ead>

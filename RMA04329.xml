@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04329::Arthur Ovaska papers.)//EN">RMA04329</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04329::Arthur Ovaska papers.)//EN">RMA04329</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Arthur Ovaska papers <date>1888-2000</date></titleproper>
@@ -16,7 +16,7 @@
             <notestmt>
                 <note audience="internal">
                     <p>
-                        <subject/>
+                        
                     </p>
                 </note>
             </notestmt>
@@ -24,20 +24,26 @@
         <profiledesc>
             <creation>Finding aid encoded by RMC Staff, <date>October 2018</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the Arthur Ovaska papers, <lb/><date type="inclusive" encodinganalog="245$f">1888-2000, </date>
-                <date type="bulk" encodinganalog="245$g">[bulk 1970-1990.]</date></titleproper>
+            <titleproper>Guide to the Arthur Ovaska papers, <date encodinganalog="245$f" type="inclusive">1888-2000, </date>
+                <date encodinganalog="245$g" type="bulk">[bulk 1970-1990.]</date></titleproper>
             <num>Collection Number: 15-2-4329</num>
-            <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+            <publisher>Division of Rare and Manuscript Collections Cornell University
                 Library</publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-                        Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-                        255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+                    <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+                        Library Cornell University Ithaca, NY 14853 (607)
+                        255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
                 </defitem>
                 <defitem>
                     <label>Compiled by:</label>
@@ -63,17 +69,17 @@
     <archdesc level="collection">
         <did>
             <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245">Arthur Ovaska papers. <unitdate encodinganalog="MARC 245" type="inclusive">1888-2000, </unitdate>
-                <unitdate encodinganalog="MARC 245" type="bulk">bulk 1970-1990.</unitdate>
-            </unittitle>
+            <unittitle encodinganalog="MARC 245" label="Title:">Arthur Ovaska papers. </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1888-2000, </unitdate><unitdate encodinganalog="MARC 245" type="bulk">bulk 1970-1990.</unitdate>
             <unitid label="Collection Number:">15-2-4329</unitid>
             <origination label="Creator:">
                 <persname encodinganalog="100" normal="Ovaska, Arthur, 1951-. "> Arthur, Ovaska,
                     1951-. </persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>9.2 cubic
+            <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>9.2 cubic
                 feet.</extent></physdesc>
-            <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>18 mapcase
+            <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>18 mapcase
                     folders.</extent></physdesc>
             <physdesc label="Forms of Material:">Drawings, plans.</physdesc>
             <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -84,7 +90,7 @@
             </langmaterial>
         </did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+            <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
             <p>Arthur Ovaska received his Bachelor of Architecture degree at Cornell University in
                 1974. After receiving his undergraduate degree at Cornell, Ovaska began graduate
                 architecture studies with his mentor, professor and department chair O. M. Ungers.
@@ -106,54 +112,47 @@
                 <persname encodinganalog="MARC 100">Ovaska, Arthur, 1951-. </persname>
             </controlaccess>
         </controlaccess>
-        <descgrp>
-            <head id="a8">INFORMATION FOR USERS</head>
-            <prefercite>
-                <head>Cite As:</head>
-                <p>Arthur Ovaska papers, #15-2-4329. Division of Rare and Manuscript Collections,
-                    Cornell University Library. </p>
-            </prefercite>
-        </descgrp>
+        
         <arrangement>
             <head>SERIES LIST</head>
             <p>
                 <emph render="bold">
-                    <ref target="s1" show="replace" actuate="onrequest">Series I. Competition</ref>
+                    <ref actuate="onrequest" show="replace" target="s1">Series I. Competition</ref>
                 </emph>
-                <lb/>
+                
             </p>
             <p>
                 <emph render="bold">
-                    <ref target="s2" show="replace" actuate="onrequest">Series II. Working
+                    <ref actuate="onrequest" show="replace" target="s2">Series II. Working
                         Drawings</ref>
                 </emph>
-                <lb/>
+                
             </p>
             <p>
                 <emph render="bold">
-                    <ref target="s3" show="replace" actuate="onrequest">Series III. Work as
+                    <ref actuate="onrequest" show="replace" target="s3">Series III. Work as
                         Student</ref>
                 </emph>
-                <lb/>
+                
             </p>
             <p>
                 <emph render="bold">
-                    <ref target="s4" show="replace" actuate="onrequest">Series IV. Posters</ref>
+                    <ref actuate="onrequest" show="replace" target="s4">Series IV. Posters</ref>
                 </emph>
-                <lb/>
+                
             </p>
             <p>
                 <emph render="bold">
-                    <ref target="s5" show="replace" actuate="onrequest">Series V. Work and
+                    <ref actuate="onrequest" show="replace" target="s5">Series V. Work and
                         miscellaneous</ref>
                 </emph>
-                <lb/>
+                
             </p>
             <p>
                 <emph render="bold">
-                    <ref target="s6" show="replace" actuate="onrequest">Series VI. Maps</ref>
+                    <ref actuate="onrequest" show="replace" target="s6">Series VI. Maps</ref>
                 </emph>
-                <lb/>
+                
             </p>
         </arrangement>
         <dsc type="combined">
@@ -164,9 +163,9 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">2</container>
-                        <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">2</container>
+                        <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                         <unittitle>Berlin Museum ERW</unittitle>
                     </did>
                     <scopecontent>
@@ -177,9 +176,9 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">3</container>
-                        <unitdate type="inclusive" normal="1991">1991</unitdate>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">3</container>
+                        <unitdate normal="1991" type="inclusive">1991</unitdate>
                         <unittitle>Salem</unittitle>
                     </did>
                     <scopecontent>
@@ -205,16 +204,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <unitdate type="inclusive" normal="1991">1991</unitdate>
+                        <container label="unspecified" type="box">2</container>
+                        <unitdate normal="1991" type="inclusive">1991</unitdate>
                         <unittitle>Chapter book, titled, The Devil in Massachusetts by Marion L.
                             Starkey</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">1</container>
-                        <unitdate type="inclusive" certainty="Circa" normal="1980/1989">1980-1989</unitdate>
+                        <container label="unspecified" type="mapcase-folder">1</container>
+                        <unitdate certainty="approximate" normal="1980/1989" type="inclusive">1980-1989</unitdate>
                         <unittitle>Berlin Museum Extension</unittitle>
                     </did>
                     <scopecontent>
@@ -227,7 +226,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">4</container>
+                        <container label="unspecified" type="mapcase-folder">4</container>
                         <unittitle>Miscellaneous sketches</unittitle>
                         <unitdate>Date Unknown</unitdate>
                     </did>
@@ -239,7 +238,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">6</container>
+                        <container label="unspecified" type="mapcase-folder">6</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Moscow</unittitle>
                     </did>
@@ -250,8 +249,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">8</container>
-                        <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                        <container label="unspecified" type="mapcase-folder">8</container>
+                        <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                         <unittitle>Berlin Museum Extension</unittitle>
                     </did>
                     <scopecontent>
@@ -262,7 +261,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">11</container>
+                        <container label="unspecified" type="mapcase-folder">11</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Cornell Project</unittitle>
                     </did>
@@ -274,7 +273,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">12</container>
+                        <container label="unspecified" type="mapcase-folder">12</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Berlin Museum Garten</unittitle>
                     </did>
@@ -303,7 +302,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">14</container>
+                        <container label="unspecified" type="mapcase-folder">14</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Berlin Museum Garden Sketches</unittitle>
                     </did>
@@ -314,7 +313,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">15</container>
+                        <container label="unspecified" type="mapcase-folder">15</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Set of presentation boards for Berlin Museum Garden</unittitle>
                     </did>
@@ -338,7 +337,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">16</container>
+                        <container label="unspecified" type="mapcase-folder">16</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Set of presentation boards for Berlin Museum Garden</unittitle>
                     </did>
@@ -368,7 +367,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">1</container>
+                         <container label="unspecified" type="tube">1</container>
                         <unitdate>Undated</unitdate>
                         <unittitle>Welfare Island: competition submission for an urban design plan
                             for Roosevelt Island</unittitle>
@@ -380,8 +379,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">2</container>
-                        <unitdate type="inclusive" normal="1980"/>
+                         <container label="unspecified" type="tube">2</container>
+                        <unitdate normal="1980" type="inclusive"/>
                         <unittitle>Berlin Neuenberg St. Base</unittitle>
                     </did>
                     <scopecontent>
@@ -390,7 +389,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">4</container>
+                         <container label="unspecified" type="tube">4</container>
                         <unitdate>Undated</unitdate>
                         <unittitle>Hamburg: Deichtor and Ericus</unittitle>
                     </did>
@@ -401,7 +400,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">11</container>
+                         <container label="unspecified" type="tube">11</container>
                         <unitdate>Undated</unitdate>
                         <unittitle>A.Ovaska, Berlin Address (Sportparkplatz)</unittitle>
                     </did>
@@ -411,7 +410,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">11</container>
+                         <container label="unspecified" type="tube">11</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Savannah</unittitle>
                     </did>
@@ -422,8 +421,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">11</container>
-                        <unitdate type="inclusive" normal="1987">1987</unitdate>
+                         <container label="unspecified" type="tube">11</container>
+                        <unitdate normal="1987" type="inclusive">1987</unitdate>
                         <unittitle>Berlin</unittitle>
                     </did>
                     <scopecontent>
@@ -435,7 +434,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">9</container>
+                         <container label="unspecified" type="tube">9</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Sportparkplatz Wil. Original Competition Submission</unittitle>
                     </did>
@@ -447,7 +446,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">9</container>
+                         <container label="unspecified" type="tube">9</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Sportparkplatz Originals</unittitle>
                     </did>
@@ -458,7 +457,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">13</container>
+                         <container label="unspecified" type="tube">13</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Housing Development Competition for Kita am
                             Dennewitzpark</unittitle>
@@ -479,7 +478,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">16</container>
+                         <container label="unspecified" type="tube">16</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Competition Diplomatenvier</unittitle>
                     </did>
@@ -493,7 +492,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">18</container>
+                         <container label="unspecified" type="tube">18</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Sportpakplatz Competition submission boards</unittitle>
                     </did>
@@ -510,7 +509,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">19</container>
+                         <container label="unspecified" type="tube">19</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Kammergericht Axon Bleistift</unittitle>
                     </did>
@@ -520,7 +519,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">19</container>
+                         <container label="unspecified" type="tube">19</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>BMG Erweiterung Axon</unittitle>
                     </did>
@@ -531,7 +530,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">21</container>
+                         <container label="unspecified" type="tube">21</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Long trace paper sketches</unittitle>
                     </did>
@@ -552,7 +551,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">11</container>
+                         <container label="unspecified" type="tube">11</container>
                         <unittitle>Berlin Maps/Sketches</unittitle>
                     </did>
                     <scopecontent>
@@ -568,7 +567,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">23</container>
+                         <container label="unspecified" type="tube">23</container>
                         <unittitle>Skizzen Platz der Republik</unittitle>
                     </did>
                     <scopecontent>
@@ -580,7 +579,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">25</container>
+                         <container label="unspecified" type="tube">25</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Savannah</unittitle>
                     </did>
@@ -609,7 +608,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">25</container>
+                         <container label="unspecified" type="tube">25</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Holocaust Memorial</unittitle>
                     </did>
@@ -637,7 +636,7 @@
                 </did>
                 <c02 level="file">
                     <did>
-                         <container type="tube">1</container>
+                         <container label="unspecified" type="tube">1</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Welfare Island: working drawings for competition</unittitle>
                     </did>
@@ -647,8 +646,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">21</container>
-                        <unitdate type="inclusive" certainty="Circa" normal="1996">1996</unitdate>
+                         <container label="unspecified" type="tube">21</container>
+                        <unitdate certainty="approximate" normal="1996" type="inclusive">1996</unitdate>
                         <unittitle>Working drawings</unittitle>
                     </did>
                     <scopecontent>
@@ -676,9 +675,9 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">1</container>
-                        <unitdate type="inclusive" normal="1974">1974</unitdate>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">1</container>
+                        <unitdate normal="1974" type="inclusive">1974</unitdate>
                         <unittitle>Watkins Glen</unittitle>
                     </did>
                     <scopecontent>
@@ -689,7 +688,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">2-3</container>
+                        <container label="unspecified" type="mapcase-folder">2-3</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Miscellaneous sketches</unittitle>
                     </did>
@@ -702,8 +701,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">5</container>
-                        <unitdate type="inclusive" certainty="Circa" normal="1972">1972</unitdate>
+                        <container label="unspecified" type="mapcase-folder">5</container>
+                        <unitdate certainty="approximate" normal="1972" type="inclusive">1972</unitdate>
                         <unittitle>4th year Design Studio</unittitle>
                     </did>
                     <scopecontent>
@@ -718,9 +717,9 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">7</container>
+                        <container label="unspecified" type="mapcase-folder">7</container>
                         <unitdate>Date Unknown</unitdate>
-                        <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate>
+                        <unitdate normal="1970/1973" type="inclusive">1970-1973</unitdate>
                         <unittitle>Miscellaneous sketches</unittitle>
                     </did>
                     <scopecontent>
@@ -751,7 +750,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">17</container>
+                        <container label="unspecified" type="mapcase-folder">17</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Work as Student</unittitle>
                     </did>
@@ -783,67 +782,67 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">6</container>
-                        <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
+                         <container label="unspecified" type="tube">6</container>
+                        <unitdate normal="1970/1974" type="inclusive">1970-1974</unitdate>
                         <unittitle>Design 103 1970, Prof. Cohen, "Crafts Museum" original drawings
                             by A.Ovaska</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">6</container>
-                        <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
+                         <container label="unspecified" type="tube">6</container>
+                        <unitdate normal="1970/1974" type="inclusive">1970-1974</unitdate>
                         <unittitle>Design 104, "Row House" original drawings by A.Ovaska</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">6</container>
-                        <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
+                         <container label="unspecified" type="tube">6</container>
+                        <unitdate normal="1970/1974" type="inclusive">1970-1974</unitdate>
                         <unittitle>Design 105, "North Campus Housing" original drawings by
                             A.Ovaska</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">6</container>
-                        <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
+                         <container label="unspecified" type="tube">6</container>
+                        <unitdate normal="1970/1974" type="inclusive">1970-1974</unitdate>
                         <unittitle>Tech. 601, "Beach Shelter" 10.15.1970, original drawings by
                             A.Ovaska</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">6</container>
-                        <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
+                         <container label="unspecified" type="tube">6</container>
+                        <unitdate normal="1970/1974" type="inclusive">1970-1974</unitdate>
                         <unittitle>Design 106 "City Hall" original drawings by A.Ovaska</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">6</container>
-                        <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
+                         <container label="unspecified" type="tube">6</container>
+                        <unitdate normal="1970/1974" type="inclusive">1970-1974</unitdate>
                         <unittitle>DWG 511 May, original drawings by A.Ovaska</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">6</container>
-                        <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
+                         <container label="unspecified" type="tube">6</container>
+                        <unitdate normal="1970/1974" type="inclusive">1970-1974</unitdate>
                         <unittitle>ARCH 205, Warehouse, original drawings by A.Ovaska</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">6</container>
-                        <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
+                         <container label="unspecified" type="tube">6</container>
+                        <unitdate normal="1970/1974" type="inclusive">1970-1974</unitdate>
                         <unittitle>Unlabelled miscellaneous drawings by Ovaska</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">6</container>
-                        <unitdate type="inclusive" normal="1970">1970</unitdate>
+                         <container label="unspecified" type="tube">6</container>
+                        <unitdate normal="1970" type="inclusive">1970</unitdate>
                         <unittitle>Originals Craft Museum</unittitle>
                     </did>
                     <scopecontent>
@@ -854,7 +853,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">6</container>
+                         <container label="unspecified" type="tube">6</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Gotham City</unittitle>
                     </did>
@@ -874,8 +873,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">8</container>
-                        <unitdate type="inclusive" normal="1974">1974</unitdate>
+                         <container label="unspecified" type="tube">8</container>
+                        <unitdate normal="1974" type="inclusive">1974</unitdate>
                         <unittitle>Graduate Studio Watkins</unittitle>
                     </did>
                     <scopecontent>
@@ -896,8 +895,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">10</container>
-                        <unitdate type="inclusive" normal="1974">1974</unitdate>
+                         <container label="unspecified" type="tube">10</container>
+                        <unitdate normal="1974" type="inclusive">1974</unitdate>
                         <unittitle>Graduate Studio Watkins Glen</unittitle>
                     </did>
                     <scopecontent>
@@ -907,8 +906,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">22</container>
-                        <unitdate type="inclusive" certainty="Circa" normal="1970">1970</unitdate>
+                         <container label="unspecified" type="tube">22</container>
+                        <unitdate certainty="approximate" normal="1970" type="inclusive">1970</unitdate>
                         <unittitle>Work as Student</unittitle>
                     </did>
                     <scopecontent>
@@ -925,8 +924,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">24</container>
-                        <unitdate type="inclusive" normal="1974">1974</unitdate>
+                         <container label="unspecified" type="tube">24</container>
+                        <unitdate normal="1974" type="inclusive">1974</unitdate>
                         <unittitle>Watkins Glen Highway Experiment</unittitle>
                     </did>
                     <scopecontent>
@@ -942,8 +941,8 @@
                 </did>
                 <c02 level="file">
                     <did>
-                         <container type="tube">2</container>
-                        <unitdate type="inclusive" certainty="Circa" normal="1970/1980">1970-1980</unitdate>
+                         <container label="unspecified" type="tube">2</container>
+                        <unitdate certainty="approximate" normal="1970/1980" type="inclusive">1970-1980</unitdate>
                         <unittitle>Assorted posters</unittitle>
                     </did>
                     <scopecontent>
@@ -953,7 +952,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">5</container>
+                         <container label="unspecified" type="tube">5</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Assorted posters</unittitle>
                     </did>
@@ -968,7 +967,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">5</container>
+                         <container label="unspecified" type="tube">5</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Assorted posters</unittitle>
                     </did>
@@ -1000,7 +999,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">15</container>
+                         <container label="unspecified" type="tube">15</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Assorted posters</unittitle>
                     </did>
@@ -1019,7 +1018,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">19</container>
+                         <container label="unspecified" type="tube">19</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Glossy, colored print painting titled "Cahokia Mounds" by AL
                             Townsend</unittitle>
@@ -1027,7 +1026,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">20</container>
+                         <container label="unspecified" type="tube">20</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Assorted posters</unittitle>
                     </did>
@@ -1043,7 +1042,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">24</container>
+                         <container label="unspecified" type="tube">24</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Train posters</unittitle>
                     </did>
@@ -1063,8 +1062,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">24</container>
-                        <unitdate type="inclusive" certainty="Circa" normal="1988">1988</unitdate>
+                         <container label="unspecified" type="tube">24</container>
+                        <unitdate certainty="approximate" normal="1988" type="inclusive">1988</unitdate>
                         <unittitle>Posters</unittitle>
                     </did>
                     <scopecontent>
@@ -1076,7 +1075,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">24</container>
+                         <container label="unspecified" type="tube">24</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Aalto</unittitle>
                     </did>
@@ -1088,7 +1087,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">30</container>
+                         <container label="unspecified" type="tube">30</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Exhibition: Golden Oldies</unittitle>
                     </did>
@@ -1115,9 +1114,9 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">4</container>
-                        <unitdate type="inclusive" normal="1991">1991</unitdate>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">4</container>
+                        <unitdate normal="1991" type="inclusive">1991</unitdate>
                         <unittitle>2 Lecture posters advertising lectures by A.Ovaska at Savannah
                             College of Art and Design (SCAD)</unittitle>
                     </did>
@@ -1132,7 +1131,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">10</container>
+                        <container label="unspecified" type="mapcase-folder">10</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Posters</unittitle>
                     </did>
@@ -1157,7 +1156,7 @@
                 </did>
                 <c02 level="file">
                     <did>
-                         <container type="tube">3</container>
+                         <container label="unspecified" type="tube">3</container>
                         <unitdate>Undated</unitdate>
                         <unittitle>Moscow</unittitle>
                     </did>
@@ -1168,8 +1167,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">7</container>
-                        <unitdate type="inclusive" certainty="Circa" normal="1975">1975</unitdate>
+                         <container label="unspecified" type="tube">7</container>
+                        <unitdate certainty="approximate" normal="1975" type="inclusive">1975</unitdate>
                         <unittitle>Tribeca Housing Project/Lower Manhattan</unittitle>
                     </did>
                     <scopecontent>
@@ -1180,8 +1179,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">3</container>
-                        <unitdate type="inclusive" normal="2000">2000</unitdate>
+                         <container label="unspecified" type="tube">3</container>
+                        <unitdate normal="2000" type="inclusive">2000</unitdate>
                         <unittitle>Student work by Monika Saras</unittitle>
                     </did>
                     <scopecontent>
@@ -1190,8 +1189,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">12</container>
-                        <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                         <container label="unspecified" type="tube">12</container>
+                        <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                         <unittitle>Berlin Museum Extension</unittitle>
                     </did>
                     <scopecontent>
@@ -1201,7 +1200,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">12</container>
+                         <container label="unspecified" type="tube">12</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Berlin Museum Garten</unittitle>
                     </did>
@@ -1212,8 +1211,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">8</container>
-                        <unitdate type="inclusive" certainty="Circa" normal="1988">1988</unitdate>
+                         <container label="unspecified" type="tube">8</container>
+                        <unitdate certainty="approximate" normal="1988" type="inclusive">1988</unitdate>
                         <unittitle>Cornell</unittitle>
                     </did>
                     <scopecontent>
@@ -1225,7 +1224,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">10</container>
+                         <container label="unspecified" type="tube">10</container>
                         <unitdate>Undated</unitdate>
                         <unittitle>Adenauer Platz Potsdam Base DWGs</unittitle>
                     </did>
@@ -1235,7 +1234,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">15</container>
+                         <container label="unspecified" type="tube">15</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Prelim Welfare Island and Misc</unittitle>
                     </did>
@@ -1247,7 +1246,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">16</container>
+                         <container label="unspecified" type="tube">16</container>
                         <unittitle>Savannah</unittitle>
                     </did>
                     <scopecontent>
@@ -1258,7 +1257,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">17</container>
+                         <container label="unspecified" type="tube">17</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Various sketches, maps, and drawings</unittitle>
                     </did>
@@ -1272,7 +1271,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">19</container>
+                         <container label="unspecified" type="tube">19</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Wassaic</unittitle>
                     </did>
@@ -1290,7 +1289,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">20</container>
+                         <container label="unspecified" type="tube">20</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Braunschweig</unittitle>
                     </did>
@@ -1308,8 +1307,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">23</container>
-                        <unitdate type="inclusive" normal="1980">1980</unitdate>
+                         <container label="unspecified" type="tube">23</container>
+                        <unitdate normal="1980" type="inclusive">1980</unitdate>
                         <unittitle>Hingham</unittitle>
                     </did>
                     <scopecontent>
@@ -1328,7 +1327,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">18</container>
+                         <container label="unspecified" type="tube">18</container>
                         <unittitle>Thesis, S. Tierg</unittitle>
                     </did>
                     <scopecontent>
@@ -1353,7 +1352,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">21</container>
+                         <container label="unspecified" type="tube">21</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Site study: Sudl. Tiergarten Thesis</unittitle>
                     </did>
@@ -1373,7 +1372,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">25</container>
+                         <container label="unspecified" type="tube">25</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Site study: Maps of Berlin</unittitle>
                     </did>
@@ -1389,7 +1388,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">31</container>
+                         <container label="unspecified" type="tube">31</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Miscellaneous plans</unittitle>
                     </did>
@@ -1400,7 +1399,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">31</container>
+                         <container label="unspecified" type="tube">31</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Rand Hall</unittitle>
                     </did>
@@ -1411,14 +1410,14 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">31</container>
+                         <container label="unspecified" type="tube">31</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Unlabelled drawing on vellum</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">24</container>
+                         <container label="unspecified" type="tube">24</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Miscellaneous blueprint posters</unittitle>
                     </did>
@@ -1430,7 +1429,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">26</container>
+                         <container label="unspecified" type="tube">26</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Miscellaneous drawing</unittitle>
                     </did>
@@ -1444,7 +1443,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">26</container>
+                         <container label="unspecified" type="tube">26</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Architectural Analysis Student Work</unittitle>
                     </did>
@@ -1468,7 +1467,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">27</container>
+                         <container label="unspecified" type="tube">27</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Auditorium Drawings</unittitle>
                     </did>
@@ -1479,7 +1478,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">27</container>
+                         <container label="unspecified" type="tube">27</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Miscellaneous drawings</unittitle>
                     </did>
@@ -1493,7 +1492,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">27</container>
+                         <container label="unspecified" type="tube">27</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Lee Hodgeden, Design : Museum at Aalborg - Originals, Sandra
                             Schwart</unittitle>
@@ -1505,7 +1504,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">28</container>
+                         <container label="unspecified" type="tube">28</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Aalto Paimio</unittitle>
                     </did>
@@ -1518,7 +1517,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">28</container>
+                         <container label="unspecified" type="tube">28</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Grand Central</unittitle>
                     </did>
@@ -1532,7 +1531,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">29</container>
+                         <container label="unspecified" type="tube">29</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Van der Poll, Aalto DWGs Hedemora</unittitle>
                     </did>
@@ -1545,7 +1544,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">30</container>
+                         <container label="unspecified" type="tube">30</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Student Work: Maison Cook, Eric Boulet</unittitle>
                     </did>
@@ -1563,7 +1562,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">30</container>
+                         <container label="unspecified" type="tube">30</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Facades on Film</unittitle>
                     </did>
@@ -1574,7 +1573,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">30</container>
+                         <container label="unspecified" type="tube">30</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Miscellaneous</unittitle>
                     </did>
@@ -1612,8 +1611,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Photocopies</unittitle>
                     </did>
@@ -1624,8 +1623,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">2-3</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">2-3</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Photocopies</unittitle>
                     </did>
@@ -1636,9 +1635,9 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">4</container>
-                        <unitdate type="inclusive" normal="1988">1988</unitdate>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">4</container>
+                        <unitdate normal="1988" type="inclusive">1988</unitdate>
                         <unittitle>Olin Lib./AAP Design proposal</unittitle>
                     </did>
                     <scopecontent>
@@ -1651,8 +1650,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <unitdate type="inclusive" normal="1988">1988</unitdate>
+                        <container label="unspecified" type="box">1</container>
+                        <unitdate normal="1988" type="inclusive">1988</unitdate>
                         <unittitle>Feasibility Study Expansion of Olin Library /AAP</unittitle>
                     </did>
                     <scopecontent>
@@ -1663,8 +1662,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Boston</unittitle>
                     </did>
@@ -1678,8 +1677,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Maps of Berlin, site study</unittitle>
                     </did>
@@ -1709,8 +1708,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Miscellaneous</unittitle>
                     </did>
@@ -1726,9 +1725,9 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">9</container>
+                        <container label="unspecified" type="mapcase-folder">9</container>
                         <unitdate>Date Unknown</unitdate>
-                        <unitdate type="inclusive" normal="1970/1981">1970-1981</unitdate>
+                        <unitdate normal="1970/1981" type="inclusive">1970-1981</unitdate>
                         <unittitle>Miscellaneous</unittitle>
                     </did>
                     <scopecontent>
@@ -1742,7 +1741,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">13</container>
+                        <container label="unspecified" type="mapcase-folder">13</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Sketch plans</unittitle>
                     </did>
@@ -1754,7 +1753,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">18</container>
+                        <container label="unspecified" type="mapcase-folder">18</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Miscellaneous</unittitle>
                     </did>
@@ -1770,7 +1769,7 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="mapcase-folder">18</container>
+                        <container label="unspecified" type="mapcase-folder">18</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Maps</unittitle>
                     </did>
@@ -1782,7 +1781,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">11</container>
+                         <container label="unspecified" type="tube">11</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Maps of Berlin</unittitle>
                     </did>
@@ -1792,8 +1791,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">12</container>
-                        <unitdate type="inclusive" certainty="Circa" normal="1888">1888</unitdate>
+                         <container label="unspecified" type="tube">12</container>
+                        <unitdate certainty="approximate" normal="1888" type="inclusive">1888</unitdate>
                         <unittitle>Assorted maps</unittitle>
                     </did>
                     <scopecontent>
@@ -1804,8 +1803,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">14</container>
-                        <unitdate type="inclusive" certainty="Circa" normal="1935/1980">1935-1980</unitdate>
+                         <container label="unspecified" type="tube">14</container>
+                        <unitdate certainty="approximate" normal="1935/1980" type="inclusive">1935-1980</unitdate>
                         <unittitle>Assorted maps</unittitle>
                     </did>
                     <scopecontent>
@@ -1815,8 +1814,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">14</container>
-                        <unitdate type="inclusive" certainty="Circa" normal="1985">1985</unitdate>
+                         <container label="unspecified" type="tube">14</container>
+                        <unitdate certainty="approximate" normal="1985" type="inclusive">1985</unitdate>
                         <unittitle>Maps of Berlin</unittitle>
                     </did>
                     <scopecontent>
@@ -1827,7 +1826,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">20</container>
+                         <container label="unspecified" type="tube">20</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Geological Survey South Shore</unittitle>
                     </did>
@@ -1841,22 +1840,22 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">31</container>
+                         <container label="unspecified" type="tube">31</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>University of Maryland Map</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">31</container>
-                        <unitdate type="inclusive" normal="1984">1984</unitdate>
+                         <container label="unspecified" type="tube">31</container>
+                        <unitdate normal="1984" type="inclusive">1984</unitdate>
                         <unittitle>Figure ground map labeled, Boston Proper, 1:400 1984</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">31</container>
-                        <unitdate type="inclusive" normal="1985">1985</unitdate>
+                         <container label="unspecified" type="tube">31</container>
+                        <unitdate normal="1985" type="inclusive">1985</unitdate>
                         <unittitle>Boston Chinatown</unittitle>
                     </did>
                     <scopecontent>
@@ -1865,7 +1864,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">31</container>
+                         <container label="unspecified" type="tube">31</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Assorted maps</unittitle>
                     </did>
@@ -1884,7 +1883,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">31</container>
+                         <container label="unspecified" type="tube">31</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Maps of New Jersey</unittitle>
                     </did>
@@ -1907,8 +1906,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">31</container>
-                        <unitdate type="inclusive" normal="1965">1965</unitdate>
+                         <container label="unspecified" type="tube">31</container>
+                        <unitdate normal="1965" type="inclusive">1965</unitdate>
                         <unittitle>Campus Plan</unittitle>
                     </did>
                     <scopecontent>
@@ -1918,7 +1917,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">31</container>
+                         <container label="unspecified" type="tube">31</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>University of Virginia</unittitle>
                     </did>
@@ -1937,7 +1936,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">26</container>
+                         <container label="unspecified" type="tube">26</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>FG Jaipur</unittitle>
                     </did>
@@ -1948,7 +1947,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">26</container>
+                         <container label="unspecified" type="tube">26</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Helsinki</unittitle>
                     </did>
@@ -1959,7 +1958,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">26</container>
+                         <container label="unspecified" type="tube">26</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>University of Virginia</unittitle>
                     </did>
@@ -1975,8 +1974,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">27</container>
-                        <unitdate type="inclusive" normal="1935">1935</unitdate>
+                         <container label="unspecified" type="tube">27</container>
+                        <unitdate normal="1935" type="inclusive">1935</unitdate>
                         <unittitle>Chichen Itza</unittitle>
                     </did>
                     <scopecontent>
@@ -1987,14 +1986,14 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">27</container>
+                         <container label="unspecified" type="tube">27</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Figure ground map of London, print on vellum</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">27</container>
+                         <container label="unspecified" type="tube">27</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Athens</unittitle>
                     </did>
@@ -2005,7 +2004,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">28</container>
+                         <container label="unspecified" type="tube">28</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Kimbolton/Writtle</unittitle>
                     </did>
@@ -2029,7 +2028,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">28</container>
+                         <container label="unspecified" type="tube">28</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Greater London</unittitle>
                     </did>
@@ -2052,7 +2051,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">28</container>
+                         <container label="unspecified" type="tube">28</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>New York City</unittitle>
                     </did>
@@ -2064,7 +2063,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">28</container>
+                         <container label="unspecified" type="tube">28</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Annapolis FG</unittitle>
                     </did>
@@ -2079,7 +2078,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">28</container>
+                         <container label="unspecified" type="tube">28</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Greater London</unittitle>
                     </did>
@@ -2100,7 +2099,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">29</container>
+                         <container label="unspecified" type="tube">29</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Cornell Campus</unittitle>
                     </did>
@@ -2110,7 +2109,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">29</container>
+                         <container label="unspecified" type="tube">29</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Mayan Pelhal</unittitle>
                     </did>
@@ -2120,7 +2119,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">29</container>
+                         <container label="unspecified" type="tube">29</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>University of Virginia</unittitle>
                     </did>
@@ -2131,8 +2130,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">29</container>
-                        <unitdate type="inclusive" certainty="Circa" normal="1959">1959</unitdate>
+                         <container label="unspecified" type="tube">29</container>
+                        <unitdate certainty="approximate" normal="1959" type="inclusive">1959</unitdate>
                         <unittitle>Mayan Tikal</unittitle>
                     </did>
                     <scopecontent>
@@ -2143,7 +2142,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">29</container>
+                         <container label="unspecified" type="tube">29</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Lugano</unittitle>
                     </did>
@@ -2154,7 +2153,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">29</container>
+                         <container label="unspecified" type="tube">29</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Venice Aerials</unittitle>
                     </did>
@@ -2166,7 +2165,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">29</container>
+                         <container label="unspecified" type="tube">29</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>St. Die Etc. FG</unittitle>
                     </did>
@@ -2177,7 +2176,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">29</container>
+                         <container label="unspecified" type="tube">29</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Boston Maps</unittitle>
                     </did>
@@ -2196,7 +2195,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">30</container>
+                         <container label="unspecified" type="tube">30</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Quintana Roo</unittitle>
                     </did>
@@ -2211,7 +2210,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">30</container>
+                         <container label="unspecified" type="tube">30</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Bath</unittitle>
                     </did>
@@ -2223,7 +2222,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">30</container>
+                         <container label="unspecified" type="tube">30</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>FG Munich Turin</unittitle>
                     </did>
@@ -2242,7 +2241,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">30</container>
+                         <container label="unspecified" type="tube">30</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Cambridge</unittitle>
                     </did>
@@ -2252,7 +2251,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">30</container>
+                         <container label="unspecified" type="tube">30</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Miscellaneous maps</unittitle>
                     </did>
@@ -2263,7 +2262,7 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                         <container type="tube">30</container>
+                         <container label="unspecified" type="tube">30</container>
                         <unitdate>Date Unknown</unitdate>
                         <unittitle>Ruins of Tikal</unittitle>
                     </did>
@@ -2282,5 +2281,9 @@
                 </c02>
             </c01>
         </dsc>
-    </archdesc>
+    <prefercite>
+                <head>Cite As:</head>
+                <p>Arthur Ovaska papers, #15-2-4329. Division of Rare and Manuscript Collections,
+                    Cornell University Library. </p>
+            </prefercite></archdesc>
 </ead>

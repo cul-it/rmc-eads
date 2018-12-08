@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04086::Guide to the Kenneth G. Wilson papers)//EN">RMA04086</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04086::Guide to the Kenneth G. Wilson papers)//EN">RMA04086</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Kenneth G. Wilson papers,
@@ -25,19 +25,25 @@
     <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>May 2015</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Kenneth G. Wilson Papers,<lb/><date type="inclusive" encodinganalog="245$f">1960-2000.</date></titleproper>
+      <titleproper>Guide to the Kenneth G. Wilson Papers,<date encodinganalog="245$f" type="inclusive">1960-2000.</date></titleproper>
       <num>Collection Number: 14-22-4086</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-            Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+            Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
         </defitem>
         <defitem>
           <label>Compiled by:</label>
@@ -63,14 +69,13 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">Kenneth G. Wilson papers, <unitdate encodinganalog="MARC 245" type="inclusive">1960-2000.</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">Kenneth G. Wilson papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1960-2000.</unitdate>
       <unitid label="Collection Number:">14-22-4086</unitid>
       <origination label="Creator:">
         <persname encodinganalog="100" normal="Wilson, Kenneth G. (Kenneth Geddes), 1936-2013. ">Wilson, Kenneth
           G.(Kenneth Geddes), </persname>
       </origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>6.3 cubic feet.</extent></physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>6.3 cubic feet</extent></physdesc>
       <physdesc label="Forms of Material:">Correspondence, manuscripts, publications, research materials</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
         University Library</repository>
@@ -78,7 +83,7 @@
       <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">
-      <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+      <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
       <p>Kenneth G. Wilson taught at Cornell from 1963 to 1987. In 1987, Wilson left Cornell
         for Ohio State University where he helped found the Physics Education Research
         Group, and focused on physics and science education. Wilson won the Nobel Prize in
@@ -109,61 +114,54 @@
         <subject encodinganalog="MARC 650">Supercomputers</subject>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>Kenneth G. Wilson Papers, #14-22-4086. Division of Rare and Manuscript
-          Collections, Cornell University Library.</p>
-      </prefercite>
-    </descgrp>
+    
         
     <arrangement>
       <head>SERIES LIST</head>
       <p>
         <emph render="bold">
-          <ref target="s1" show="replace" actuate="onrequest">Series I. Selected Materials from Cornell</ref>
+          <ref actuate="onrequest" show="replace" target="s1">Series I. Selected Materials from Cornell</ref>
         </emph>
-        <lb/>Box 1</p>
+        Box 1</p>
       <p>
         <emph render="bold">
-          <ref target="s2" show="replace" actuate="onrequest">Series II. Wilson's Publications</ref>
+          <ref actuate="onrequest" show="replace" target="s2">Series II. Wilson's Publications</ref>
         </emph>
-        <lb/>Box 1, 2, 3</p>
+        Box 1, 2, 3</p>
       <p>
         <emph render="bold">
-          <ref target="s3" show="replace" actuate="onrequest">Series III. Correspondence and Memorabilia, Materials from Wilson's Physics Courses</ref>
+          <ref actuate="onrequest" show="replace" target="s3">Series III. Correspondence and Memorabilia, Materials from Wilson's Physics Courses</ref>
         </emph>
-        <lb/>Box 3</p>
+        Box 3</p>
       <p>
         <emph render="bold">
-          <ref target="s4" show="replace" actuate="onrequest">Series IV. Wilson's Research Notebooks from Cornell</ref>
+          <ref actuate="onrequest" show="replace" target="s4">Series IV. Wilson's Research Notebooks from Cornell</ref>
         </emph>
-        <lb/>Box 4
+        Box 4
       </p>
       <p>
         <emph render="bold">
-          <ref target="s5" show="replace" actuate="onrequest">Series V. Raw Research Notes</ref>
+          <ref actuate="onrequest" show="replace" target="s5">Series V. Raw Research Notes</ref>
         </emph>
-        <lb/>Box 6, 7
+        Box 6, 7
       </p>
       <p>
         <emph render="bold">
-          <ref target="s6" show="replace" actuate="onrequest">Series VI. Computer Output</ref>
+          <ref actuate="onrequest" show="replace" target="s6">Series VI. Computer Output</ref>
         </emph>
-        <lb/>Box 5
+        Box 5
       </p>
       <p>
         <emph render="bold">
-          <ref target="s7" show="replace" actuate="onrequest">Series VII. Materials on Supercomputing and the Cornell Supercomputing Theory Center</ref>
+          <ref actuate="onrequest" show="replace" target="s7">Series VII. Materials on Supercomputing and the Cornell Supercomputing Theory Center</ref>
         </emph>
-        <lb/>Box 6
+        Box 6
       </p>
       <p>
         <emph render="bold">
-          <ref target="s8" show="replace" actuate="onrequest">Series VIII. Materials on Education Reform</ref>
+          <ref actuate="onrequest" show="replace" target="s8">Series VIII. Materials on Education Reform</ref>
         </emph>
-        <lb/>Box 7
+        Box 7
       </p>
    
     </arrangement>
@@ -179,8 +177,8 @@
         </p></scopecontent>
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">1</container>
             <unitdate>1962-2005</unitdate>
             <unittitle>Gibbs' Lecture "Proof of a Conjecture by Dyson", CV</unittitle> 
           </did> 
@@ -193,9 +191,9 @@
         </c02>
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container>
-            <container type="folder">2</container>
-            <unitdate>c. 1986</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">2</container>
+            <unitdate certainty="approximate">1986</unitdate>
             <unittitle>"Generalized Wannier Functions","Future of Supercomputing"</unittitle> 
           </did> 
           <scopecontent>
@@ -207,9 +205,9 @@
           </scopecontent>
         </c02><c02 level="file"> 
           <did> 
-            <container type="box">1</container>
-            <container type="folder">3</container>
-            <unitdate>c. 1985</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">3</container>
+            <unitdate certainty="approximate">1985</unitdate>
             <unittitle>Monte Carlo Renormalization Group on FPS Supercomputer</unittitle> 
           </did> 
           <scopecontent>
@@ -219,9 +217,9 @@
           </scopecontent>
         </c02><c02 level="file"> 
           <did> 
-            <container type="box">1</container>
-            <container type="folder">4</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">4</container>
+            
             <unittitle>Research notes on atomic physics, strong coupling lattice gauge theory</unittitle> 
           </did> 
           <scopecontent>
@@ -234,9 +232,9 @@
         </c02>
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container>
-            <container type="folder">5</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">5</container>
+            
             <unittitle>Notes on quantum chemistry and supercomputing </unittitle> 
           </did> 
           <scopecontent>
@@ -245,9 +243,9 @@
           </scopecontent>
         </c02><c02 level="file"> 
           <did> 
-            <container type="box">1</container>
-            <container type="folder">6</container>
-            <unitdate>c.1960</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">6</container>
+            <unitdate certainty="approximate">1960</unitdate>
             <unittitle>Lecture and reference notes</unittitle> 
           </did> 
           <scopecontent>
@@ -273,8 +271,8 @@
           </scopecontent>
         </c02><c02 level="file"> 
           <did> 
-            <container type="box">1</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">7</container>
             <unitdate>1965-1969</unitdate>
             <unittitle>Manuscripts of Unpublished Papers</unittitle> 
           </did> 
@@ -289,8 +287,8 @@
           </scopecontent>
         </c02><c02 level="file"> 
           <did> 
-            <container type="box">1</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">8</container>
             <unitdate>1980s</unitdate>
             <unittitle>Rough notes on supercomputing, blockspin, instantons, atomic physics</unittitle> 
           </did> 
@@ -305,8 +303,8 @@
           </scopecontent>
         </c02><c02 level="file"> 
           <did> 
-            <container type="box">1</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">9</container>
             <unitdate>1970s-1980s</unitdate>
             <unittitle>Rough notes on Wannier function, blockspin, FPS programing</unittitle> 
           </did> 
@@ -321,8 +319,8 @@
           </scopecontent>
         </c02><c02 level="file"> 
           <did> 
-            <container type="box">1</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">10</container>
             <unitdate>1960s-1970s</unitdate>
             <unittitle>Research notes on atomic physics, fixed source problem</unittitle> 
           </did> 
@@ -337,8 +335,8 @@
           </scopecontent>
         </c02><c02 level="file"> 
           <did> 
-            <container type="box">1</container>
-            <container type="folder">11</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">11</container>
             <unitdate>1960s</unitdate>
             <unittitle>Notes on topics in quantum field theory</unittitle> 
           </did> 
@@ -363,8 +361,8 @@
           </scopecontent>
         </c02><c02 level="file"> 
           <did> 
-            <container type="box">1</container>
-            <container type="folder">12</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">12</container>
             <unitdate>1982-1984</unitdate>
             <unittitle>Notes for Physics 574 - Applications of Quantum Mechanics</unittitle> 
           </did> 
@@ -388,8 +386,8 @@
         
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">13</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">13</container>
             <unittitle>Dispersion Relations for Infinite Plasmas</unittitle>
             <unitdate>1958</unitdate>
           </did>
@@ -399,8 +397,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">14</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">14</container>
             <unittitle>An Investigation of the Low Equation and the Chew-Mandelstam Equations</unittitle>
             <unitdate>1961</unitdate>
           </did>
@@ -410,8 +408,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">11</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">11</container>
             <unittitle>Regge Poles and Multiple Production, Acta Phys. Aust. 17, 37 </unittitle>
             <unitdate>1963</unitdate>
           </did>
@@ -421,8 +419,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">15</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">15</container>
             <unittitle>Proof of a Conjecture by Dyson, J. Math. Phys. 3, 1040 </unittitle>
             <unitdate>1962</unitdate>
           </did>
@@ -432,8 +430,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">16</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">16</container>
             <unittitle>A Set of Double Integral Equations for Low-Energy Pion-Pion Scattering</unittitle>
             <unitdate>1960</unitdate>
           </did>
@@ -443,8 +441,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">17</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">17</container>
             <unittitle>Solution of the Symmetric Scalar Low Equation in the One Meson Approximation</unittitle>
             <unitdate>1963</unitdate>
           </did>
@@ -454,8 +452,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">7</container>
             <unittitle>A Model for Coupling Constant Renormalization</unittitle>
             <unitdate>1965</unitdate>
           </did>
@@ -465,8 +463,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">18</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">18</container>
             <unittitle>On Products of Quantum Field Operators at Short Distances</unittitle>
             <unitdate>1965, 1969</unitdate>
           </did>
@@ -479,10 +477,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">7</container>
             <unittitle>Renormalization Theory for Strong Interactions</unittitle>
-            <unitdate>c. 1969</unitdate>
+            <unitdate certainty="approximate">1969</unitdate>
           </did>
           <scopecontent>
             <p>Unpublished manuscript located in Series I</p>
@@ -490,8 +488,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">19</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">19</container>
             <unittitle>Some Experiments on Multiple Production</unittitle>
             <unitdate>1970</unitdate>
           </did>
@@ -501,8 +499,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">20</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">20</container>
             <unittitle>Renormalization Group and Strong Interactions</unittitle>
             <unitdate>1971</unitdate>
           </did>
@@ -512,8 +510,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">21</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">21</container>
             <unittitle>Renormalization Group and Critical Phenomena I. Renormalization Group and the Kadanoff Scaling Picture</unittitle>
             <unitdate>1971</unitdate>
           </did>
@@ -523,8 +521,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">22</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">22</container>
             <unittitle>Renormalization Group and Critical Phenomena II. Phase-Space Cell Analysis of Critical Behavior</unittitle>
             <unitdate>1971</unitdate>
           </did>
@@ -534,8 +532,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">23</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">23</container>
             <unittitle>Deep Inelastic Scattering - Theory</unittitle>
             <unitdate>1971</unitdate>
           </did>
@@ -547,8 +545,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">24</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">24</container>
             <unittitle>Gauge Transformations in the Thirring Model</unittitle>
             <unitdate>1972</unitdate>
           </did>
@@ -558,10 +556,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">25</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">25</container>
             <unittitle>Renormalization Group II</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Unpublished lectures given at Cornell, lecture notes by J. Serene</p>
@@ -569,10 +567,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">26</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">26</container>
             <unittitle>Renormalization Group III</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Unpublished lectures given at Cornell, lecture notes by J. Serene</p>
@@ -580,10 +578,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">27</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">27</container>
             <unittitle>Breakdown of Landau Theory, Fluctuations and Renormalization</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Offprint from the 1973 Nobel symposium proceedings containing an abstract of the talk and a record of the discussion
@@ -592,8 +590,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">28</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">28</container>
             <unittitle>Solution of the Spin-1/2 Kondo Hamiltonian</unittitle>
             <unitdate>1973</unitdate>
           </did>
@@ -603,8 +601,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">29</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">29</container>
             <unittitle>Quantum Field Theory Models in Less Than 4 Dimensions</unittitle>
             <unitdate>1973</unitdate>
           </did>
@@ -615,8 +613,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">30</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">30</container>
             <unittitle>The Renormalization Group and the Epsilon Expansion</unittitle>
             <unitdate>1974</unitdate>
           </did>
@@ -628,8 +626,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">31</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">31</container>
             <unittitle>Confinement of Quarks</unittitle>
             <unitdate>1974</unitdate>
           </did>
@@ -641,8 +639,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">1</container>
             <unittitle>Finite Lattice Approximation to Renormalization Groups</unittitle>
             <unitdate>1975</unitdate>
           </did>
@@ -652,8 +650,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">2</container>
             <unittitle>Temperature-Dependent Susceptibility of the Symmetric Anderson Model: Connection to the Kondo Model</unittitle>
             <unitdate>1975</unitdate>
           </did>
@@ -664,8 +662,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">3</container>
             <unittitle>Renormalization Group Methods</unittitle>
             <unitdate>1975</unitdate>
           </did>
@@ -675,8 +673,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">4</container>
             <unittitle>The Renormalization Group and Block Spins</unittitle>
             <unitdate>1975</unitdate>
           </did>
@@ -687,8 +685,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">5</container>
             <unittitle>
               The Renormalization Group: Critical Phenomena and the Kondo Problem   
             </unittitle>
@@ -702,10 +700,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">6</container>
             <unittitle>Quark Confinement and Lattice Calculations</unittitle>
-            <unitdate>c. 1975</unitdate>
+            <unitdate certainty="approximate">1975</unitdate>
           </did>
           <scopecontent>
             <p>
@@ -715,8 +713,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">7</container>
             <unittitle>The Renormalization Group - Introduction</unittitle>
             <unitdate>1976</unitdate>
           </did>
@@ -728,8 +726,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">8</container>
             <unittitle>Relativistically Invariant Lattice Theories</unittitle>
             <unitdate>1976</unitdate>
           </did>
@@ -741,8 +739,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">9</container>
             <unittitle>Quantum Chromodynamics on a Lattice</unittitle>
             <unitdate>1976</unitdate>
           </did>
@@ -754,8 +752,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">10</container>
             <unittitle>Susceptibility of the Asymmetric Anderson Model: Relevance to Valence Fluctuation Compounds</unittitle>
             <unitdate>1977</unitdate>
           </did>
@@ -767,8 +765,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">11</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">11</container>
             <unittitle>Problems in Physics with Many Scales of Length</unittitle>
             <unitdate>1977</unitdate>
           </did>
@@ -780,8 +778,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">12</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">12</container>
             <unittitle>Monte Carlo Calculations for the Lattice Gauge Theory</unittitle>
             <unitdate>1980</unitdate>
           </did>
@@ -793,8 +791,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">13</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">13</container>
             <unittitle>Renormalization Group Approach to the Anderson Model of Dilute Magnetic Alloys. I. Static properties for the symmetric case </unittitle>
             <unitdate>1980</unitdate>
           </did>
@@ -806,8 +804,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">14</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">14</container>
             <unittitle>Renormalization Group Approach to the Anderson Model of Dilute Magnetic Alloys. II. Static properties for the asymmetric case </unittitle>
             <unitdate>1980</unitdate>
           </did>
@@ -819,8 +817,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">15</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">15</container>
             <unittitle>Experiences with a Floating Point Systems Array Processor</unittitle>
             <unitdate>1981</unitdate>
           </did>
@@ -832,8 +830,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">16</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">16</container>
             <unittitle>Monte Carlo Techniques in Code Optimization</unittitle>
             <unitdate>1982</unitdate>
           </did>
@@ -845,8 +843,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">17</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">17</container>
             <unittitle>A Remnant of Chiral Symmetry on the Lattice</unittitle>
             <unitdate>1982</unitdate>
           </did>
@@ -858,8 +856,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">18</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">18</container>
             <unittitle>The Renormalization Group and Critical Phenomena</unittitle>
             <unitdate>1983</unitdate>
           </did>
@@ -874,8 +872,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">19</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">19</container>
             <unittitle>Quelle Informatique pour la Science?</unittitle>
             <unitdate>1983</unitdate>
           </did>
@@ -887,8 +885,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">20</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">20</container>
             <unittitle>Science, Industry, and the New Japanese Challenge</unittitle>
             <unitdate>1984</unitdate>
           </did>
@@ -900,8 +898,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">21</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">21</container>
             <unittitle>Monte Carlo Renormalization-Group Calculations of Critical Behavior in the Simple-Cubic Ising Model</unittitle>
             <unitdate>1984</unitdate>
           </did>
@@ -913,8 +911,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">22</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">22</container>
             <unittitle>Monte Carlo Renormalization Group and the Three-Dimensional Ising Model</unittitle>
             <unitdate>1983</unitdate>
           </did>
@@ -927,8 +925,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">23</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">23</container>
             <unittitle>Langevin Simulation of Lattice Field Theories</unittitle>
             <unitdate>1985</unitdate>
           </did>
@@ -940,8 +938,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">24</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">24</container>
             <unittitle>Renormalization Group Approach for Electronic Structure</unittitle>
             <unitdate>1986</unitdate>
           </did>
@@ -953,8 +951,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">25</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">25</container>
             <unittitle>Optimized Trial Wave Functions for Quantum Monte Carlo Calculations</unittitle>
             <unitdate>1988</unitdate>
           </did>
@@ -966,8 +964,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">26</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">26</container>
             <unittitle>Fourier Acceleration in Lattice Gauge Theories. I. Landau Gauge Fixing</unittitle>
             <unitdate>1988</unitdate>
           </did>
@@ -979,8 +977,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">27</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">27</container>
             <unittitle>Fourier Acceleration in Lattice Gauge Theories. III. Updating Field Configurations</unittitle>
             <unitdate>1990</unitdate>
           </did>
@@ -992,8 +990,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">28</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">28</container>
             <unittitle>Grand Challenges to Computational Science</unittitle>
             <unitdate>1989</unitdate>
           </did>
@@ -1005,8 +1003,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">29</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">29</container>
             <unittitle>Generalized Wannier Functions</unittitle>
             <unitdate>1987, 1989</unitdate>
           </did>
@@ -1020,8 +1018,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">30</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">30</container>
             <unittitle>Ab Initio Quantum Chemistry:  A Source of Ideas for Lattice Gauge Theorists</unittitle>
             <unitdate>1990</unitdate>
           </did>
@@ -1033,8 +1031,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">31</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">31</container>
             <unittitle>Light-Front Tamm Dancoff Field Theory</unittitle>
             <unitdate>1990</unitdate>
           </did>
@@ -1046,8 +1044,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">32</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">32</container>
             <unittitle>Towards a Solution of Quantum Chromodynamics on the Light-Front</unittitle>
             <unitdate>1991</unitdate>
           </did>
@@ -1059,8 +1057,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">33</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">33</container>
             <unittitle>Perturbative Renormalization of Null-Plane QED</unittitle>
             <unitdate>1991</unitdate>
           </did>
@@ -1072,8 +1070,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">34</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">34</container>
             <unittitle>Basis Set Reduction in Hilbert Space</unittitle>
             <unitdate>1992</unitdate>
           </did>
@@ -1085,8 +1083,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">35</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">35</container>
             <unittitle>Perturbative Renormalizability wiht an Infinite Number of Relevant and Marginal Operators</unittitle>
             <unitdate>1993</unitdate>
           </did>
@@ -1098,8 +1096,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">36</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">36</container>
             <unittitle>On the Relativistic Bound State Problem in Light-Front Yukawa Model</unittitle>
             <unitdate>1992</unitdate>
           </did>
@@ -1111,8 +1109,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">37</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">37</container>
             <unittitle>Light-Front Tamm-Dancoff Method: Hydrogen Atom and Positronium</unittitle>
             <unitdate>1992</unitdate>
           </did>
@@ -1124,8 +1122,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">38</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">38</container>
             <unittitle>Light-Front Tamm-Dancoff Method: Hydrogen Atom and 2D Yukawa Model</unittitle>
             <unitdate>1992</unitdate>
           </did>
@@ -1137,8 +1135,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">39</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">39</container>
             <unittitle>Positronia in Light-Front Tamm-Dancoff QED</unittitle>
             <unitdate>1992</unitdate>
           </did>
@@ -1150,8 +1148,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">40</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">40</container>
             <unittitle>Renormalization of Overlapping Transverse Divergences in a Model Light-Front Hamiltonian w/ Glazek</unittitle>
             <unitdate>1993</unitdate>
           </did>
@@ -1161,8 +1159,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">41</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">41</container>
             <unittitle>Similarity Transformation for Renormalization of Light-Front Hamiltonians w/ Glazek</unittitle>
             <unitdate>1993</unitdate>
           </did>
@@ -1172,8 +1170,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">42</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">42</container>
             <unittitle>Renormalization of Hamiltonians w/ Glazek</unittitle>
             <unitdate>1993</unitdate>
           </did>
@@ -1185,8 +1183,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">43</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">43</container>
             <unittitle>Mass Renormalization in Light-Front Tamm-Dancoff QED</unittitle>
             <unitdate>1993</unitdate>
           </did>
@@ -1196,8 +1194,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">44</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">44</container>
             <unittitle>The Efficient Treatment of High Excitations in CI Calculations </unittitle>
             <unitdate>1994</unitdate>
           </did>
@@ -1207,8 +1205,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">45</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">45</container>
             <unittitle>Nonperturbative QCD: A Weak-Coupling Treatment on the Light Front</unittitle>
             <unitdate>1994</unitdate>
           </did>
@@ -1218,8 +1216,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">46</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">46</container>
             <unittitle>Quarkonia in Hamiltonian Light-Front QCD</unittitle>
             <unitdate>1996</unitdate>
           </did>
@@ -1229,8 +1227,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">47</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">47</container>
             <unittitle>Renormalization Group for Hamiltonians</unittitle>
             <unitdate>1996</unitdate>
           </did>
@@ -1242,8 +1240,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">48</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">48</container>
             <unittitle>Object-Oriented Techniques in Large Scientific Computing Projects</unittitle>
             <unitdate>1997</unitdate>
           </did>
@@ -1253,8 +1251,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">49</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">49</container>
             <unittitle>Science as a Cultural Construct</unittitle>
             <unitdate>1997</unitdate>
           </did>
@@ -1264,8 +1262,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">50</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">50</container>
             <unittitle>Asymptotic Freedom and Bound States in Hamiltonian Dynamics</unittitle>
             <unitdate>1998</unitdate>
           </did>
@@ -1275,8 +1273,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">51</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">51</container>
             <unittitle>Limit Cycles in Quantum Theories</unittitle>
             <unitdate>2002</unitdate>
           </did>
@@ -1286,8 +1284,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">52</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">52</container>
             <unittitle>Wiley Handbook of Molecular Physics and Quantum Chemistry  </unittitle>
             <unitdate>2002</unitdate>
           </did>
@@ -1297,8 +1295,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">53</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">53</container>
             <unittitle>"Universality, Marginal Operators, and Limit Cycles" (with Glazek) </unittitle>
             <unitdate>2004</unitdate>
           </did>
@@ -1308,8 +1306,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">54</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">54</container>
             <unittitle>The Origins of Lattice Gauge Theory</unittitle>
             <unitdate>2005</unitdate>
           </did>
@@ -1321,8 +1319,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">1</container>
             <unittitle>Precise Numerical Results for Limit Cycles in the Quantum Three-Body Problem</unittitle>
             <unitdate>2006</unitdate>
           </did>
@@ -1332,10 +1330,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">2</container>
             <unittitle>Miscellaneous Technical Articles</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Includes an article on Gaussian basis sets for atomic physics, the draft of a grant proposal for
@@ -1346,10 +1344,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">3</container>
             <unittitle>Miscellaneous Correspondence with Publishers</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Correspondence with Physical Review, World Scientific</p>
@@ -1357,24 +1355,24 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">4</container>
             <unittitle>Slides from Wilson's Talks</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
-            <p/>
+            
           </scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">5</container>
             <unittitle>PhD Thesis Draft (Steven White?)</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
-            <p/>
+            
           </scopecontent>
         </c02>
       </c01>
@@ -1387,19 +1385,19 @@
         </did>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">6</container>
             <unittitle>Letters of recommendation and replies to requests for evaluation</unittitle>
             <unitdate>1988-1989</unitdate>
           </did>
           <scopecontent>
-            <p/>
+            
           </scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">7</container>
             <unittitle>Correspondence on history and philosophy of science</unittitle>
             <unitdate>1991-2001</unitdate>
           </did>
@@ -1409,8 +1407,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">8</container>
             <unittitle>Correspondence with politicians about science</unittitle>
             <unitdate>1983</unitdate>
           </did>
@@ -1420,8 +1418,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">9</container>
             <unittitle>Miscellaneous correspondence</unittitle>
             <unitdate>1985-2000</unitdate>
           </did>
@@ -1431,8 +1429,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">10</container>
             <unittitle>Materials related to grant proposals at Cornell and Ohio State</unittitle>
             <unitdate>1986-1991</unitdate>
           </did>
@@ -1442,8 +1440,8 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">11</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">11</container>
             <unittitle>Various papers sent to Wilson for comments</unittitle>
             <unitdate>1978-1994</unitdate>
           </did>
@@ -1453,30 +1451,30 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">12</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">12</container>
             <unittitle>Materials related to Wilson's awards</unittitle>
             <unitdate>1977-2005</unitdate>
           </did>
           <scopecontent>
-            <p/>
+            
           </scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">13</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">13</container>
             <unittitle>Materials related to Wilson's Nobel Prize award</unittitle>
             <unitdate>1982-1983</unitdate>
           </did>
           <scopecontent>
-            <p/>
+            
           </scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">14</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">14</container>
             <unittitle>Interviews at Roundtables</unittitle>
             <unitdate>1985-2000</unitdate>
           </did>
@@ -1489,19 +1487,19 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">15</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">15</container>
             <unittitle>In memory of E. Bright Wilson</unittitle>
             <unitdate>1992</unitdate>
           </did>
           <scopecontent>
-            <p/>
+            
           </scopecontent>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">16</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">16</container>
             <unittitle>Ken Wilson vs. Columbia State University</unittitle>
             <unitdate>1998</unitdate>
           </did>
@@ -1511,10 +1509,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">17</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">17</container>
             <unittitle>Lecture Notes: Quantum Mechanics</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Previously stored in a binder</p>
@@ -1522,10 +1520,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">18</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">18</container>
             <unittitle>Lecture Notes: Quantum Field Theory</unittitle>
-            <unitdate>c. 1982</unitdate>
+            <unitdate certainty="approximate">1982</unitdate>
           </did>
           <scopecontent>
             <p>Previously stored in a binder</p>
@@ -1533,10 +1531,10 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">19</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">19</container>
             <unittitle>Miscellaneous materials from Wilson's courses at Cornell</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Includes lecture notes, problem sets</p>
@@ -1552,75 +1550,75 @@
           <unitdate>1980s</unitdate>
         </did>
         <scopecontent><p>Mainly computer-related; includes 22 green notebooks, documentation of "Basis Set Reduction" by Wilson and Wenzel</p></scopecontent>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
            
             <unittitle>2-D Ising Calculations</unittitle>
-            <unitdate/>
+            
           </did>
             <scopecontent>
               <p>Notebook; Monte Carlo and comparison to high temperature series</p>
             </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
            
             <unittitle>Schroedinger Equation</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook; numerical methods for solution</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>SU(3) Gauge Theory with Fermions</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook; formalism for Monte Carlo implementation</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>APPEAL</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook; design of an assembler language</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>CMS Operations</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook; various terminal command line instructions</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
            
             <unittitle>1972 Graduate Students</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>Optimizer</unittitle>
             <unitdate>1982</unitdate>
@@ -1629,175 +1627,175 @@
             <p>Notebook; seems to be for paper on Code Optimization</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
            
             <unittitle>Untitled</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook; timing tests on lattice gauge theory loop expectation value evaluations</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>UCSD Pascal</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook; vector operations in this language</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>Computer Committee</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook; discussion of prices, strategy, also many pages of lattice gauge theory calculation</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>Lattice Gauge Theory Coordinate Space Program</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>APTRAN Testing</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
            
             <unittitle>370 to AP Conversion</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>Quark Lattice Program</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook; computer program for strong coupling calculations</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>Quark Lattice Program, Book 2</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>Untitled</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook; notes on formalism for block spins and gauge fixing</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>APTRAN</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook; computer operation sequencing</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>Lattice Gauge Theory Free Quark Fixed Point</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook; attempt to find this numerically</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>Lattice Gauge Theory Monte Carlo</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
            
             <unittitle>Lattice Gauge Theory Free Quark Limit for Monte Carlo Formulation</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>SO(3) Extension of MCRG Lattice Gauge Program</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook; some formalism, mostly program structure</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
+            <container label="unspecified" type="box">4</container>
             
             <unittitle>AP Routines</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
             <p>Notebook</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">1</container>
             <unittitle>Basis Set Reduction</unittitle>
             <unitdate>1991</unitdate>
           </did>
@@ -1805,26 +1803,26 @@
             <p>Previously stored in binder; by K.G. Wilson and W. Wenzel, computer program description</p>
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">2</container>
             <unittitle>Documentation of the Basis Set Reduction Program</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
-            <p/>
+            
           </scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">4</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">3</container>
             <unittitle>Notes Accompanying Basis Set Reduction </unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent>
-            <p/>
+            
           </scopecontent>
         </c02> 
       </c01>
@@ -1835,59 +1833,59 @@
           <unittitle id="s5">Series V. Raw Research Notes</unittitle>        
         </did>
           <scopecontent><p>Mainly from Ohio State; grouped as they were in the original boxes</p></scopecontent>
-      <c02>
+      <c02 level="otherlevel" otherlevel="unspecified">
         <did>
-          <container type="box">6</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">15</container>
           <unittitle>Notes from Cornell</unittitle>
-          <unitdate/>
+          
         </did>
         <scopecontent><p>Mainly on computer implementations for light-front QCD</p></scopecontent>
       </c02>  
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">16</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">16</container>
             <unittitle>Raw Notes-Mainly Atomic Physics Calculations</unittitle>
-            <unitdate/>
+            
           </did>
-          <scopecontent><p/></scopecontent>
+          
         </c02>  
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">17</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">17</container>
             <unittitle>Raw Notes-Mainly Light-Front Hamiltonian Calculations</unittitle>
-            <unitdate/>
+            
           </did>
-          <scopecontent><p/></scopecontent>
+          
         </c02> 
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">1</container>
             <unittitle>Ohio State Note Pads-Mainly Light-Front Hamiltonian</unittitle>
-            <unitdate/>
+            
           </did>
-          <scopecontent><p/></scopecontent>
+          
         </c02> 
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">2</container>
             <unittitle>Notes from Ohio State-Mainly Light-Front QCD</unittitle>
-            <unitdate/>
+            
           </did>
-          <scopecontent><p/></scopecontent>
+          
         </c02> 
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">3</container>
             <unittitle>Raw Notes-Mainly Science Education</unittitle>
-            <unitdate/>
+            
           </did>
-          <scopecontent><p/></scopecontent>
+          
         </c02> 
       </c01>
       
@@ -1896,7 +1894,7 @@
         <did>
           <unittitle id="s6">Series VI. Computer Output</unittitle>
           <unitdate>1981-1985</unitdate>
-          <container type="box">5</container>
+          <container label="unspecified" type="box">5</container>
         </did>
           <scopecontent><p>Miscellaneous Computer Output from Cornell; includes report : "Simulating QCD with Dynamical Wilson and Staggered Fermions"</p></scopecontent>
        </c01> 
@@ -1908,10 +1906,10 @@
           <unittitle id="s7">Series VII. Materials on Supercomputing and the Cornell Supercomputing Theory Center</unittitle>
         </did>
           <scopecontent><p>Includes documentation for the Gibbs Project</p></scopecontent>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">1</container>
             <unittitle>Articles on Supercomputing</unittitle>
             <unitdate>1983</unitdate>
           </did>
@@ -1921,12 +1919,12 @@
             page proofs and manuscript with corrections
           </p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">2</container>
             <unittitle>Drafts for Articles on Supercomputing</unittitle>
-            <unitdate>c. 1983</unitdate>
+            <unitdate certainty="approximate">1983</unitdate>
           </did>
           <scopecontent><p>Mostly undated; "Planning for the Future of U.S. Scientific and Engineering Computing",
             "Theoretical Science and Computer Technology",
@@ -1942,10 +1940,10 @@
             Topics for Talk by K. Wilson at Los Alamos Panel (1983)
           </p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">3</container>
             <unittitle>Formal Reports and Congressional Testimony</unittitle>
             <unitdate>1981-1989</unitdate>
           </did>
@@ -1970,107 +1968,107 @@
             transcript of a panel: Fiber Optics, an Important tool (undated; includes Gov. Mario Cuomo)
           </p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">4</container>
             <unittitle>The National Science Foundation in the 1990's</unittitle>
             <unitdate>July 1988</unitdate>
           </did>
           <scopecontent><p>Pamphlet, reprints, and associated correspondence</p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">5</container>
             <unittitle>Cornell Theory Center Documents</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>Cornell Theory Center grant proposals and supporting documents</p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">6</container>
             <unittitle>Cornell Theory Center Correspondence</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>Correspondence associated with the Cornell Theory Center</p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">7</container>
             <unittitle>Cornell Theory Center News Articles and Interviews</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>News clippings and interviews related to supercomputing</p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">8</container>
             <unittitle>Raw Notes</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>Raw notes for articles on supercomputing</p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">9</container>
             <unittitle>Slides</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>Transparencies of talks on supercomputing and the Theory Center</p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">10</container>
             <unittitle>Correspondence Related to Supercomputing</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>Mainly invitations to conferences</p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">11</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">11</container>
             <unittitle>Theory Center Printed Materials</unittitle>
-            <unitdate>c. 1989</unitdate>
+            <unitdate certainty="approximate">1989</unitdate>
           </did>
           <scopecontent><p>Issues of Forefronts, the Theory Center newsletter
             Science and Supercomputing (glossy brochure, 1989)
           </p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">12</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">12</container>
             <unittitle>Supercomputing Reports by Others</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>Miscellaneous reports relevant to supercomputing</p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">13</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">13</container>
             <unittitle>Technical Materials from the Theory Center</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>T-series users guide (preliminary) - Floating Point Systems,
             tutorial introduction to Trillium for C Programmers - M. Braner,
             an application for the T-20: a vector interpreter - D. Bergmark
           </p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">6</container>
-            <container type="folder">14</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">14</container>
             <unittitle>Gibbs Project Documentation</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>Gibbs project proposal, K. G. Wilson, D. Gries, and A. Grimison,
             addendum by K. G. Wilson,
@@ -2087,23 +2085,23 @@
         <did>
           <unittitle id="s8">Series VIII. Materials on Education Reform</unittitle>
         </did>
-          <scopecontent><p/></scopecontent>
+          
       
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">4</container>
             <unittitle>A National Plan for Education Reform</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>Report, correspondence and responses</p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">5</container>
             <unittitle>Drafts of Papers on Education Reform</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>"Industrial Redesign",
             "Achieving Education Reform" (op. ed. piece)   
@@ -2118,32 +2116,32 @@
             "Achieving Education Reform"
           </p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">6</container>
             <unittitle>Rough Drafts and Raw Notes on Education Reform</unittitle>
-            <unitdate/>
+            
           </did>
-          <scopecontent><p/></scopecontent>
+          
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">7</container>
             <unittitle>Discovery Project</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>Discovery Project: Proposal to the National Science Foundation,
             materials and correspondence related to the Discovery Project
           </p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">8</container>
             <unittitle>Ohio State Education Proposals</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>Ohio State interdisciplinary seed grant proposal:  "Cooperative Inquiry with 
             Diversified Learning Teams Engaged in Systemic Education Reform",
@@ -2152,23 +2150,23 @@
             related correspondence
           </p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">9</container>
             <unittitle>Material for "Redesigning Education"</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>Chapter summaries for the book proposal (Ben Daviss),
             rough drafts
           </p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">10</container>
             <unittitle>On Peter Drucker's School Reform Proposals</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>Drucker on Education: "Does Drucker have the best ideas for school reform?" (March 2006)
             "A New Strategy for Education Reform, Starting with a Skunk Works",
@@ -2176,12 +2174,12 @@
             (drafts - K. G. Wilson and C. Barsky)
           </p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">11</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">11</container>
             <unittitle>Substantive Correspondence on Education Issues</unittitle>
-            <unitdate/>
+            
           </did>
           <scopecontent><p>Exchange of letters, and related materials to/from:
             
@@ -2212,83 +2210,87 @@
             William Wulf (National Academy of Engineering)
           </p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">12</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">12</container>
             <unittitle>Less Substantive Correspondence Related to Education</unittitle>
-            <unitdate/>
+            
           </did>
-          <scopecontent><p/></scopecontent>
+          
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">13</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">13</container>
             <unittitle>Letters of Recommendation and Evaluation - Physics Education</unittitle>
-            <unitdate/>
+            
           </did>
-          <scopecontent><p/></scopecontent>
+          
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">14</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">14</container>
             <unittitle>Miscellaneous Correspondence from Ohio State</unittitle>
-            <unitdate/>
+            
           </did>
-          <scopecontent><p/></scopecontent>
+          
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">15</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">15</container>
             <unittitle>ARTE Draft Proposal</unittitle>
             <unitdate>1998</unitdate>
           </did>
           <scopecontent><p>ARTE (Association for the Recognition of Talent in Education)</p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">16</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">16</container>
             <unittitle>Ohio Science and Technology Commission</unittitle>
             <unitdate>1989</unitdate>
           </did>
           <scopecontent><p>Materials for the Human Resources Subcommittee</p></scopecontent>
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">17</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">17</container>
             <unittitle>Correspondence with the National Science Foundation (NSF), the National Research Council (NRC),
               and the National Education Association (NEA)
             </unittitle>
-            <unitdate/>
+            
           </did>
-          <scopecontent><p/></scopecontent>
+          
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">18</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">18</container>
             <unittitle>Slides from Wilson's Presentations</unittitle>
-            <unitdate/>
+            
           </did>
-          <scopecontent><p/></scopecontent>
+          
         </c02>
-        <c02>
+        <c02 level="otherlevel" otherlevel="unspecified">
           <did>
-            <container type="box">7</container>
-            <container type="folder">19</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">19</container>
             <unittitle>Materials by Others on Science Education</unittitle>
-            <unitdate/>
+            
           </did>
-          <scopecontent><p/></scopecontent>
+          
         </c02>
     
         </c01>
       
     </dsc> 
-  </archdesc> 
+  <prefercite>
+        <head>Cite As:</head>
+        <p>Kenneth G. Wilson Papers, #14-22-4086. Division of Rare and Manuscript
+          Collections, Cornell University Library.</p>
+      </prefercite></archdesc> 
 </ead>

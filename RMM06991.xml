@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06991::Guide to the Gail and Stephen Rudin New York landmarks collection)//EN">RMM06991</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06991::Guide to the Gail and Stephen Rudin New York landmarks collection)//EN">RMM06991</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Gail and Stephen Rudin New York landmarks
@@ -26,20 +26,26 @@
         <profiledesc>
             <creation>Finding aid encoded by RMC Staff, <date>October 2012</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
             <titleproper>Guide to the Gail And Stephen Rudin New York Landmarks
-                Collection,<lb/><date type="inclusive" encodinganalog="245$f">1835-1944.</date></titleproper>
+                Collection,<date encodinganalog="245$f" type="inclusive">1835-1944.</date></titleproper>
             <num>Collection Number: 6991</num>
-            <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+            <publisher>Division of Rare and Manuscript Collections Cornell University
                 Library</publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-                        Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-                        255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+                    <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+                        Library Cornell University Ithaca, NY 14853 (607)
+                        255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
                 </defitem>
                 <defitem>
                     <label>Compiled by:</label>
@@ -65,15 +71,14 @@
     <archdesc level="collection">
         <did>
             <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245">Gail and Stephen Rudin New York
-                landmarks collection, <unitdate encodinganalog="MARC 245" type="inclusive">1835-1944.</unitdate>
-            </unittitle>
+            <unittitle encodinganalog="MARC 245" label="Title:">Gail and Stephen Rudin New York
+                landmarks collection, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1835-1944.</unitdate>
             <unitid label="Collection Number:">6991</unitid>
             <origination label="Creator:">
                 <persname encodinganalog="100" normal="Rudin, Stephen,   ">Rudin, Stephen,
                 </persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.3 cubic feet.</extent></physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.3 cubic feet</extent></physdesc>
             <physdesc label="Forms of Material:">correspondence, printed materials, publications, photographs</physdesc>
             <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
                 University Library</repository>
@@ -109,19 +114,12 @@
                 <geogname encodinganalog="MARC 651">New York (N.Y.) -- History.</geogname>
             </controlaccess>
         </controlaccess>
-        <descgrp>
-            <head id="a8">INFORMATION FOR USERS</head>
-            <prefercite>
-                <head>Cite As:</head>
-                <p>Gail and Stephen Rudin New York landmarks collection, #6991. Division of Rare and
-                    Manuscript Collections, Cornell University Library.</p>
-            </prefercite>
-        </descgrp>
+        
         <arrangement><head>SERIES LIST</head>
             <p> <emph render="bold">
-                <ref target="s1" show="replace" actuate="onrequest">Series I. Brooklyn Bridge</ref>
+                <ref actuate="onrequest" show="replace" target="s1">Series I. Brooklyn Bridge</ref>
             </emph></p> <p><emph render="bold">
-                <ref target="s2" show="replace" actuate="onrequest">Series II. Other New York Landmarks</ref>
+                <ref actuate="onrequest" show="replace" target="s2">Series II. Other New York Landmarks</ref>
             </emph></p>
            
         </arrangement>
@@ -132,213 +130,213 @@
                         </unittitle>
                    </did>
                 
-            <c02>
-                <did><container type="box">1</container>
-                    <container type="folder">1</container>
-                    <unitdate/>
+            <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
+                    
                     <unittitle>Stranahan, James S.T.
                     </unittitle> <physdesc>  </physdesc><physdesc>Pages: 	1</physdesc>
                 </did>
                 <scopecontent><p>Signature of the President of Brooklyn Park Board; Father of the Brooklyn Bridge.
-                    <lb/>Rudin # M-45A</p></scopecontent>
-            </c02>  <c02>
-                <did><container type="box">1</container>
-                    <container type="folder">2	</container>
+                    Rudin # M-45A</p></scopecontent>
+            </c02>  <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">2	</container>
                     <unitdate>1872</unitdate>
                     <unittitle>"Pneumatic Tower Foundations of the East River Suspension Bridge", by W.A. Roebling.
                     </unittitle>
                 </did>
-                <scopecontent><p>With folding plates.	<lb/>Rudin # M-46</p></scopecontent>
-            </c02>  <c02>
-                <did><container type="box">1</container>
-                    <container type="folder">3</container>
+                <scopecontent><p>With folding plates.	Rudin # M-46</p></scopecontent>
+            </c02>  <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unitdate>1883</unitdate>
                     <unittitle>Opening day souvenir booklet.
                     </unittitle>
                 </did>
-                <scopecontent><p><lb/>Rudin # M-47</p></scopecontent>
-            </c02>  <c02>
-                <did><container type="box">1</container>
-                    <container type="folder">4</container>
+                <scopecontent><p>Rudin # M-47</p></scopecontent>
+            </c02>  <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unitdate>April 21, 1883</unitdate>
                     <unittitle>Brooklyn Bridge pass
-                    </unittitle><physdesc>ADS</physdesc><physdesc/>
+                    </unittitle><physdesc>ADS</physdesc>
                 </did>
                 <scopecontent><p>"Pass the bearer and friends over the Bridge at all times", signed by William Kingsley.
-                    <lb/>Rudin # M-47A</p></scopecontent>
-            </c02>  <c02>
-                <did><container type="box">1</container>
-                    <container type="folder">5</container>
+                    Rudin # M-47A</p></scopecontent>
+            </c02>  <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unitdate>May 24, 1883</unitdate>
                     <unittitle>Opening ceremonies program
-                    </unittitle><physdesc/>
+                    </unittitle>
                 </did>
                 <scopecontent><p>"Opening Ceremonies of New York and Brooklyn Bridge" - Program.  With Brooklyn Bridge First Day Cover and Brooklyn Bridge Maximum Card.
-                    <lb/>Rudin # M-48</p></scopecontent>
-            </c02>  <c02>
-                <did><container type="box">1</container>
-                    <container type="folder">6</container>
+                    Rudin # M-48</p></scopecontent>
+            </c02>  <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unitdate>May 24, 1883</unitdate>
                     <unittitle>Official invitation for the Opening Ceremonies of the New York and Brooklyn Bridge.
                         
                     </unittitle>
                 </did>
-                <scopecontent><p><lb/>Rudin # M-49</p></scopecontent>
-            </c02>  <c02>
-                <did><container type="box">1</container>
-                    <container type="folder">7	</container>
+                <scopecontent><p>Rudin # M-49</p></scopecontent>
+            </c02>  <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">7	</container>
                     <unitdate>May 24, 1883</unitdate>
                     <unittitle>Ticket to the Opening Ceremonies of the New York and Brooklyn Bridge.
                         
                     </unittitle>
                 </did>
-                <scopecontent><p><lb/>Rudin # M-50</p></scopecontent>
-            </c02>  <c02>
-                <did><container type="box">1</container>
-                    <container type="folder">8</container>
+                <scopecontent><p>Rudin # M-50</p></scopecontent>
+            </c02>  <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unitdate>September 13, 1890</unitdate>
                     <unittitle>Advertising envelope with engraving of Brooklyn Bridge.
                         
                     </unittitle>
                 </did>
                 <scopecontent><p>Rudin # M-51A</p></scopecontent>
-            </c02>  <c02>
-                <did><container type="map-case"/>
-                    <container type="folder">1</container>
+            </c02>  <c02 level="otherlevel" otherlevel="unspecified">
+                <did>
+                    <container label="unspecified" type="mapcase-folder">1</container>
                     <unitdate>May 25, 1883</unitdate>
                     <unittitle>Newspaper
                         
                     </unittitle>
                 </did>
                 <scopecontent><p>"The Herald" - Omaha: "Brooklyn's Bridge.  Opening of the New Link Between the Two Great Cities…" Describes festivities and political events surrounding the opening.
-                    <lb/>Rudin # M-51</p></scopecontent>
-            </c02> <c02>
-                <did><container type="box">1</container>
-                    <container type="folder">9</container>
-                    <unitdate>ca. 1880s</unitdate>
+                    Rudin # M-51</p></scopecontent>
+            </c02> <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">9</container>
+                    <unitdate certainty="approximate">1880s</unitdate>
                     <unittitle>Two albumen photos of the Brooklyn Bridge.
                         
                     </unittitle>
                 </did>
                 <scopecontent><p>Rudin # M-52B</p></scopecontent>
-            </c02>  <c02>
-                <did><container type="box">1</container>
-                    <container type="folder">10</container>
-                    <unitdate/>
+            </c02>  <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">10</container>
+                    
                     <unittitle>Six New York and Brooklyn Bridge railroad and promenade tickets
                     </unittitle>
                 </did>
-                <scopecontent><p><lb/>Rudin # M-53</p></scopecontent>
-            </c02>  <c02>
-                <did><container type="box">1</container>
-                    <container type="folder">11</container>
+                <scopecontent><p>Rudin # M-53</p></scopecontent>
+            </c02>  <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unitdate>August 13, 1903</unitdate>
                     <unittitle>Roebling letterhead
                     </unittitle>
                 </did>
                 <scopecontent><p>Ornate pictorial letterhead (of Brooklyn Bridge) with stylized typography, including Roebling correspondence regarding legal matters. Signed in type.
-                    <lb/>Rudin # M-53A</p></scopecontent>
-            </c02>  <c02>
-                <did><container type="box">1</container>
-                    <container type="folder">12</container>
-                    <unitdate/>
+                    Rudin # M-53A</p></scopecontent>
+            </c02>  <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">12</container>
+                    
                     <unittitle>Five philatelic envelopes and one woodcut relating to the Brooklyn Bridge.
                     </unittitle>
                 </did>
-                <scopecontent><p><lb/>Rudin # M-54A</p></scopecontent>
-            </c02>  <c02>
-                <did><container type="box">1</container>
-                    <container type="folder">13	</container>
-                    <unitdate/>
+                <scopecontent><p>Rudin # M-54A</p></scopecontent>
+            </c02>  <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">13	</container>
+                    
                     <unittitle>Magnus print of "New York, Brooklyn and Williamsburg".
                         
                     </unittitle>
                 </did>
-                <scopecontent><p><lb/>Rudin # M-54B</p></scopecontent>
-            </c02>  <c02>
-                <did><container type="box">1</container>
-                    <container type="folder">14</container>
+                <scopecontent><p>Rudin # M-54B</p></scopecontent>
+            </c02>  <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unitdate>1903-1944</unitdate>
                     <unittitle>Postcard collection of Brooklyn Bridge images.
                     </unittitle>
                 </did>
-                <scopecontent><p><lb/>Rudin # M-54C</p></scopecontent>
-            </c02> <c02>
-                <did><container type="box">2</container>
-                    <container type="folder">1</container>
+                <scopecontent><p>Rudin # M-54C</p></scopecontent>
+            </c02> <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unitdate>1894</unitdate>
                     <unittitle>New York City map.
                     </unittitle>
                 </did>
                 <scopecontent><p>Map of New York with portions of Brooklyn and Jersey City, including Brooklyn Bridge location. 
-                    <lb/>Rudin # M-50B </p></scopecontent>
-            </c02> <c02>
-                <did><container type="box">2</container>
-                    <container type="folder">2</container>
-                    <unitdate>ca. 1880s</unitdate>
+                    Rudin # M-50B </p></scopecontent>
+            </c02> <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">2</container>
+                    <unitdate certainty="approximate">1880s</unitdate>
                     <unittitle>Photograph
                     </unittitle>
                 </did>
                 <scopecontent><p>The "Great Bridge" - Image probably taken soon after bridge was completed.
-                    <lb/>Rudin # M-52</p></scopecontent>
-            </c02> <c02>
-                <did><container type="box">2</container>
+                    Rudin # M-52</p></scopecontent>
+            </c02> <c02 level="otherlevel" otherlevel="unspecified">
+                <did><container label="unspecified" type="box">2</container>
                   
                     <unitdate>1883</unitdate>
                     <unittitle>Panorama viewing set
                     </unittitle>
                 </did>
                 <scopecontent><p>Box cut with magnifying lens.  Contains 11 views of Brooklyn Bridge, etc.
-                    <lb/>Rudin # M-50A</p></scopecontent>
-            </c02><c02>
-                <did><container type="map-case"/>
-                    <container type="folder">1</container>
-                    <unitdate>ca. 1883</unitdate>
+                    Rudin # M-50A</p></scopecontent>
+            </c02><c02 level="otherlevel" otherlevel="unspecified">
+                <did>
+                    <container label="unspecified" type="mapcase-folder">1</container>
+                    <unitdate certainty="approximate">1883</unitdate>
                     <unittitle>Engraving
                     </unittitle>
                 </did>
                 <scopecontent><p>Period engraving of Brooklyn Bridge soon after it opened.
-                    <lb/>Rudin # M-52C</p></scopecontent>
+                    Rudin # M-52C</p></scopecontent>
             </c02> </c01><c01 level="series">
                 <did><unittitle id="s2">Series II. Other New York Landmarks</unittitle></did>
-           <c02>
+           <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                   <container type="box">1</container>
-                   <container type="folder">15</container>
+                   <container label="unspecified" type="box">1</container>
+                   <container label="unspecified" type="folder">15</container>
                    <unitdate>April 23, 1835</unitdate>
                    <unittitle>Randall's Island purchase</unittitle>
                </did>
                <scopecontent><p>Receipt for the purchase of Randall's Island by the City of New York for $60,000.
-                   <lb/>Rudin # M-91</p></scopecontent>
+                   Rudin # M-91</p></scopecontent>
            </c02>
-                <c02>
+                <c02 level="otherlevel" otherlevel="unspecified">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unitdate>1927</unitdate>
                         <unittitle>Holland Tunnel Invitation, Ticket, and Envelope
                         </unittitle>
                     </did>
-                    <scopecontent><p><lb/>Rudin # M-93</p></scopecontent>
-                </c02> <c02>
+                    <scopecontent><p>Rudin # M-93</p></scopecontent>
+                </c02> <c02 level="otherlevel" otherlevel="unspecified">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unitdate>October 28, 1886</unitdate>
                         <unittitle>Dedicating the Statue of Liberty
                         </unittitle>
                     </did>
                     <scopecontent><p>Two pieces: Engraved image of the Statue of Liberty inviting the bearer to the inauguration by the President; Rare steamboat ticket for passage and admission to the platform at the event. See also Bartholdi and Pulitzer letters, Rudin #s A-7, A-8, A-8A, and A-191 in the Gail and Stephen Rudin Autograph Collection, <extref href="http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMM06875" show="new">collection #6875.</extref>
-                        <lb/>Rudin # M-103</p></scopecontent>
-                </c02> <c02>
+                        Rudin # M-103</p></scopecontent>
+                </c02> <c02 level="otherlevel" otherlevel="unspecified">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">18</container>
-                        <unitdate/>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">18</container>
+                        
                         <unittitle>Statue of Liberty stamps and coins </unittitle>
                     </did>
                     <scopecontent><p>Folder containing eleven stamps and four coins commemorating the 125th anniversary of the Statue of Liberty.
-                        <lb/>Rudin # M-104</p></scopecontent>
+                        Rudin # M-104</p></scopecontent>
                 </c02>
             
             </c01>
@@ -351,9 +349,13 @@
             <item>  <title>Opening Ceremonies of the New York and Brooklyn Bridge</title>. 1883. Inscribed on flyleaf by Emily Warren Roebling, wife of Chief Engineer Washington Roebling. Rudin # M-48A</item>
             <item>  <title>The New York City Subway: Its Construction and Equipment</title>. Inscription reads "Presented to Alderman John H. Dougherty, by August Belmont, Esq. President, Interborough Rapid Transit Company, November 21st, 1904". Rudin # M-94 </item>
            
-            <item>  <title/> </item>
+            <item>   </item>
             
         </list>    
         </separatedmaterial>
-</archdesc> 
+<prefercite>
+                <head>Cite As:</head>
+                <p>Gail and Stephen Rudin New York landmarks collection, #6991. Division of Rare and
+                    Manuscript Collections, Cornell University Library.</p>
+            </prefercite></archdesc> 
 </ead>

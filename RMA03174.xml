@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead>
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03174::Cornell Law School student records)//EN">RMA03174</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03174::Cornell Law School student records)//EN">RMA03174</eadid>
   <filedesc>
     <titlestmt>
       <titleproper>Guide to the Cornell Law School student records, <date>(ca.1890-1965).</date></titleproper>
@@ -23,16 +23,22 @@
   <profiledesc>
     <creation>Finding aid encoded by RMC Staff, <date>October 2018</date></creation>
   </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
            <titlepage>
-                   <titleproper>Guide to the Cornell Law School student records, <lb/><date type="inclusive" encodinganalog="245$f">(ca.1890-1965).</date></titleproper>
+                   <titleproper>Guide to the Cornell Law School student records, <date encodinganalog="245$f" type="inclusive">(ca.1890-1965).</date></titleproper>
            <num>Collection Number: 18-4-3174</num>
-           <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+           <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
            <list type="deflist">
                    <defitem>
                            <label>Contact Information:</label>
-                           <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+                           <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
                    </defitem>
                    <defitem>
                            <label>Compiled by:</label>
@@ -57,14 +63,13 @@
   <archdesc level="collection">
     <did>
             <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245">Cornell Law School student records,
-            <unitdate encodinganalog="MARC 245" type="inclusive">(ca.1890-1965).</unitdate>
-            </unittitle>
+            <unittitle encodinganalog="MARC 245" label="Title:">Cornell Law School student records,
+            </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">(1890-1965).</unitdate>
             <unitid label="Collection Number:">18/04/3174</unitid>
             <origination label="Creator:">
                     <corpname encodinganalog="110" normal="Cornell Law School. Office of the Registrar. ">Cornell Law School. Office of the Registrar. </corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>8.5 cubic ft.</extent></physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>8.5 cubic feet</extent></physdesc>
       <physdesc label="Forms of Material:">Photographs, Printed Materials.</physdesc>
             <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
             <abstract label="Abstract:">Student record cards in alphabetical order containing admissions and academic information, including photographs.</abstract>
@@ -92,150 +97,146 @@
       <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
     </controlaccess>
   </controlaccess>
-    <descgrp>
-           <head id="a8">INFORMATION FOR USERS</head>
-                  <accessrestrict>
-                          <head>Access Restrictions:</head>
-                                   <p>During student's lifetime individual student records restricted to permission of student and office of origin.</p>
-                  </accessrestrict>
-                  <prefercite>
-                          <head>Cite As:</head>
-                                   <p>Cornell Law School Student Records, #18/4/3174.  Division of Rare and Manuscript Collections, Cornell University Library.
-                                   </p>
-                  </prefercite>
-    </descgrp>
+    
     <arrangement>
       <head>SERIES LIST</head>
       <p> <emph render="bold">
-        <ref target="s1" show="replace" actuate="onrequest">Series I. Student Record Cards</ref> </emph> <lb/> </p>
+        <ref actuate="onrequest" show="replace" target="s1">Series I. Student Record Cards</ref> </emph>  </p>
     </arrangement>
     <dsc type="combined">
       <head>CONTAINER LIST</head>
       <c01 level="series">
         <did>
-          <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+          <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
           <unittitle id="s1">Student Record Cards</unittitle>
         </did>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>A-Bel</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">2</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Belli-Bur</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">3</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Bur-Corb</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">4</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Corc-Don</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">5</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Dor-Flem</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">6</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Flex-Got</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">7</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Gou-Het</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">8</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">8</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Hig-Kap</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">9</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">9</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Kar-Leh</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">10</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">10</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Leh-Maso</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">11</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">11</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Mast-Mur</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">12</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">12</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Mus-Presc</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">13</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">13</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Prest-R</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">14</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">14</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Sa-Spenc</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">15</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">15</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Spen-Ull</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">16</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">16</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Ulm-Wilm</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">17</container>
-            <unitdate type="inclusive" certainty="Circa" normal="1890/1965">1890-1965</unitdate>
+            <container label="unspecified" type="box">17</container>
+            <unitdate certainty="approximate" normal="1890/1965" type="inclusive">1890-1965</unitdate>
             <unittitle>Wils-Z</unittitle>
           </did>
         </c02>
       </c01>
     </dsc>
-  </archdesc>
+  <accessrestrict>
+                          <head>Access Restrictions:</head>
+                                   <p>During student's lifetime individual student records restricted to permission of student and office of origin.</p>
+                  </accessrestrict><prefercite>
+                          <head>Cite As:</head>
+                                   <p>Cornell Law School Student Records, #18/4/3174.  Division of Rare and Manuscript Collections, Cornell University Library.
+                                   </p>
+                  </prefercite></archdesc>
 </ead>

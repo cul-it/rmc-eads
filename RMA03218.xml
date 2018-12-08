@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03218::Elmer S. Phillips papers)//EN">RMA03218</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03218::Elmer S. Phillips papers)//EN">RMA03218</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Elmer S. Phillips papers, [ca. 1943-1994]</titleproper>
@@ -29,6 +28,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -37,19 +42,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Elmer S. Phillips Papers,<lb/>ca. 1943-1994</titleproper>
+         <titleproper>Guide to the Elmer S. Phillips Papers,ca. 1943-1994</titleproper>
          <num>Collection Number: 21-42-3218</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -70,14 +75,13 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245$a">Elmer S. Phillips papers, <unitdate type="inclusive" encodinganalog="MARC 245$f">ca.1943-1994</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245$a" label="Title:">Elmer S. Phillips papers, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245$f" type="inclusive">1943-1994</unitdate>
          <unitid label="Collection Number:">21-42-3218</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Phillips, E. S. " role="creator">Phillips, E.
                S.</persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>2.8 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>2.8 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, lecture notes, publications,
             photographs, slides, films, and other papers.</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -93,7 +97,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>Elmer S. Phillips is Professor Emeritus of Communications in the New York State College
             of Agriculture and Life Sciences at Cornell University.</p>
       </bioghist>
@@ -132,19 +136,12 @@
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Photographs.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655 ">Motion pictures (visual
+            <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
+            <genreform encodinganalog="MARC 655 " source="aat">Motion pictures (visual
                works).</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Elmer S. Phillips papers, #21-42-3218. Division of Rare and Manuscript Collections,
-               Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <relatedmaterial>
          <head id="a5">RELATED MATERIALS</head>
          <p>The films <extref href="https://media.library.cornell.edu/media/Helen+Powell+Smith/1_8j110ba6/7781881">
@@ -158,48 +155,48 @@
          <head>CONTAINER LIST</head>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">1</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">1</container>
                <unitdate>1935</unitdate>
                <unittitle>1935 Flood Photos</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">2</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">2</container>
                <unitdate>1937</unitdate>
                <unittitle>Aerial Photos of Cornell 1937</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">3</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">3</container>
                <unitdate>1937</unitdate>
                <unittitle>Radio Tower</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">3A</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">3A</container>
                <unitdate>1937</unitdate>
                <unittitle>1937 Flood Photos</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">3B</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">3B</container>
                <unitdate>1920s</unitdate>
                <unittitle>National Scouting Conference</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">4</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">4</container>
                <unitdate>1970</unitdate>
                <unittitle>Script for the Movie "Roots of Empire"</unittitle>
             </did>
@@ -210,55 +207,55 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">5</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">5</container>
                <unittitle>"Roots of Empire" Teachers Guide and Correspondence City of Ithaca
                   meetings Hospital Highlights Vol. 1 No. 1 1979 - Vol. 3 No. 1980</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">6</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">6</container>
                <unitdate>1969-1974</unitdate>
                <unittitle>American Wine Society Newsletter</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">7</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">7</container>
                <unitdate>1962-1992</unitdate>
                <unittitle>Slides of Cornell</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">8</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">8</container>
                <unitdate>1956-1960</unitdate>
                <unittitle>Publications started by Phillips while in Costa Rica</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">9</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">9</container>
                <unittitle>"Visual Aids in Agricultural Extension"</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">10</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">10</container>
                <unitdate>1956</unitdate>
                <unittitle>Photograph - Radio Workshop in Turrialba, Costa Rica</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">11</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">11</container>
                <unitdate>1968-1976</unitdate>
                <unittitle>Elmer Phillips lectures on Film "Fifty Golden Years" Hotel
                   School</unittitle>
@@ -266,40 +263,40 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">12</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">12</container>
                <unitdate>1952</unitdate>
                <unittitle>Elmer Phillips Epsilon Sigma Phi Correspondence</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">13</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">13</container>
                <unitdate>1980-1985</unitdate>
                <unittitle>Hospital Highlights</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">14</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">14</container>
                <unitdate>1985-1990</unitdate>
                <unittitle>Hospital Highlights</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">15</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">15</container>
                <unitdate>1990-1993</unitdate>
                <unittitle>Elmer Phillips notes on photography/Hospital Highlights</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">16</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">16</container>
                <unitdate>1974</unitdate>
                <unittitle>E Phillips Photo Enhancement of ERTS Imagery (2 nice packets) / "Land use
                   Classification with Simulated Satellite Photography" packet</unittitle>
@@ -307,8 +304,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">17</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">17</container>
                <unitdate>1973</unitdate>
                <unittitle>Investigators for Agriculture, Forestry /ERTS Evaluation for land use
                   inventory</unittitle>
@@ -316,24 +313,24 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">18</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">18</container>
                <unitdate>1952-1974</unitdate>
                <unittitle>Elmer Phillips Notes on Film</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">19</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">19</container>
                <unitdate>1950</unitdate>
                <unittitle>Life Style comments</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">20</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">20</container>
                <unitdate>1937/1968</unitdate>
                <unittitle>"Roots of Empire" info/ "Life" October 4, 1937 - Cornell
                   picture</unittitle>
@@ -341,47 +338,47 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">21</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">21</container>
                <unittitle>Aerial Photos of Cornell</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
-               <container type="folder">1</container>
+               <container label="unspecified" type="box">2</container>
+               <container label="unspecified" type="folder">1</container>
                <unitdate>1942-1968</unitdate>
                <unittitle>Exhibit photos/ Poultry periodicals/ Teaching guides</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
-               <container type="folder">2</container>
+               <container label="unspecified" type="box">2</container>
+               <container label="unspecified" type="folder">2</container>
                <unitdate>1966-1973</unitdate>
                <unittitle>Wine making/ Photography notes</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
-               <container type="folder">3</container>
+               <container label="unspecified" type="box">2</container>
+               <container label="unspecified" type="folder">3</container>
                <unitdate>1957-1968</unitdate>
                <unittitle>Elmer Phillips lectures</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
-               <container type="volume">1</container>
+               <container label="unspecified" type="box">2</container>
+               <container label="unspecified" type="volume">1</container>
                <unitdate>1978</unitdate>
                <unittitle>"Skylab EREP Investigations Summary"</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
-               <container type="volume">2</container>
+               <container label="unspecified" type="box">2</container>
+               <container label="unspecified" type="volume">2</container>
                <unitdate>1975</unitdate>
                <unittitle>Enhancement and Evaluation of Skylab Photography for Potential Land use
                   inventories</unittitle>
@@ -389,40 +386,40 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
-               <container type="volume">1</container>
+               <container label="unspecified" type="box">3</container>
+               <container label="unspecified" type="volume">1</container>
                <unitdate>1936-1970</unitdate>
                <unittitle>Slides, negatives, correspondence</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">1</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">1</container>
                <unitdate>1952</unitdate>
                <unittitle>Reunion at Hoy Field,(Commercial Kodachrome)</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">2</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">2</container>
                <unitdate>1950</unitdate>
                <unittitle>Professor Randolph Botany,(Commercial Kodachrome) </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">3</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">3</container>
                <unitdate>1952</unitdate>
                <unittitle> Lev Saltonstall Botany,(Commercial Kodachrome) </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">4</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">4</container>
                <unitdate>1951</unitdate>
                <unittitle>Whiteface Mountain/ Sandy Atwood Botany,(Commercial
                   Kodachrome)</unittitle>
@@ -430,8 +427,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">5</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">5</container>
                <unitdate>1952</unitdate>
                <unittitle>Farm and Home Week Event-Judging pavilion; students preparing Holsteins
                   for the ring; Tractor-drawn tree mover; Inside the judging pavilion (Commercial
@@ -440,8 +437,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">6</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">6</container>
                <unitdate>1952</unitdate>
                <unittitle>Farm and Home Week Event-Crowd coming from Bailey Hall after a Farm and
                   Home Week Lecture (Commercial Kodachrome)</unittitle>
@@ -449,16 +446,16 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">7</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">7</container>
                <unitdate>1952</unitdate>
                <unittitle>Crew team shots, (Commercial Kodachrome)</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">8</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">8</container>
                <unitdate>1952</unitdate>
                <unittitle>Photos of elms in different parts of New York,(Commercial Kodachrome)
                </unittitle>
@@ -466,64 +463,64 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">9</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">9</container>
                <unitdate>1952</unitdate>
                <unittitle>Tree-removal, (Commercial Kodachrome) </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">10</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">10</container>
                <unitdate>1952</unitdate>
                <unittitle>Cornell Campus shots,(Commercial Kodachrome) </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">11</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">11</container>
                <unitdate>1952</unitdate>
                <unittitle>ROTC review,(Commercial Kodachrome) </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">12</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">12</container>
                <unitdate>1952</unitdate>
                <unittitle>Skiing Tar Young Hill,(Commercial Kodachrome) </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">13</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">13</container>
                <unitdate>1952</unitdate>
                <unittitle>Spring Day,(Commercial Kodachrome) </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">14</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">14</container>
                <unitdate>1952</unitdate>
                <unittitle>Floats on Spring Day,(Commercial Kodachrome) </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">15</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">15</container>
                <unitdate>1951</unitdate>
                <unittitle>Professor C B Raymond with corn, (Commercial Kodachrome) </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">16</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">16</container>
                <unitdate>1952</unitdate>
                <unittitle>Professor Raymond and Pratt taking soil samples,(Commercial Kodachrome)
                </unittitle>
@@ -531,15 +528,15 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">17</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">17</container>
                <unittitle>Carnival (Commercial Kodachrome) </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">18</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">18</container>
                <unitid>F-823</unitid>
                <unittitle> Professor Helen Smith - Home Economics (Commercial Kodachrome). (Use copy
                   DVD-995 in the same box.) </unittitle>
@@ -551,104 +548,104 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
+               <container label="unspecified" type="box">4</container>
                <unitid>DVD-995</unitid>
-               <unittitle> Professor Helen Smith Home Economics - copy of F-823<unitdate/>
+               <unittitle> Professor Helen Smith Home Economics - copy of F-823
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="reel">19</container>
-               <unittitle>Container with four untitled reels <unitdate/>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="reel">19</container>
+               <unittitle>Container with four untitled reels 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">1</container>
-               <unittitle> Biological Control of Oriental Fruit Moth #1 <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">1</container>
+               <unittitle> Biological Control of Oriental Fruit Moth #1 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">2</container>
-               <unittitle>Biological Control of Oriental Fruit Moth #2 <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">2</container>
+               <unittitle>Biological Control of Oriental Fruit Moth #2 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">3</container>
-               <unittitle> Caponizing <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">3</container>
+               <unittitle> Caponizing 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">4</container>
-               <unittitle>Celery Harvesting Methods #1 <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">4</container>
+               <unittitle>Celery Harvesting Methods #1 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">5</container>
-               <unittitle>Celery Harvesting Methods #2 <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">5</container>
+               <unittitle>Celery Harvesting Methods #2 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">6</container>
-               <unittitle>Garden Preparation <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">6</container>
+               <unittitle>Garden Preparation 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">7</container>
-               <unittitle>Japanese Beetle #1 <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">7</container>
+               <unittitle>Japanese Beetle #1 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">8</container>
-               <unittitle>Japanese Beetle #2 <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">8</container>
+               <unittitle>Japanese Beetle #2 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">9</container>
-               <unittitle>Maple Sap into Maple Syrup #1 <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">9</container>
+               <unittitle>Maple Sap into Maple Syrup #1 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">10</container>
-               <unittitle>Maple Sap into Maple Syrup #2 <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">10</container>
+               <unittitle>Maple Sap into Maple Syrup #2 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">11</container>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">11</container>
                <unitdate>1946</unitdate>
                <unitid>F-822</unitid>
                <unittitle>Railway Exhibit - Farm and Home Special. (Use DVD-994 in same box.)
@@ -663,7 +660,7 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
+               <container label="unspecified" type="box">5</container>
                <unitid>DVD-994</unitid>
                <unitdate>1946</unitdate>
                <unittitle>Railway Exhibit- Farm and Home Special. Copy of Film F-822 </unittitle>
@@ -671,58 +668,62 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">12</container>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">12</container>
                <unittitle>Steps Take Time in Feeding the Hens #1 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">13</container>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">13</container>
                <unittitle>Steps Take Time in Feeding the Hens #2 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">14</container>
-               <unittitle>Steps Take Time in Watering Hens <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">14</container>
+               <unittitle>Steps Take Time in Watering Hens 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">15</container>
-               <unittitle>Steps Take Time in Gathering and Packing Eggs #1 <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">15</container>
+               <unittitle>Steps Take Time in Gathering and Packing Eggs #1 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">16</container>
-               <unittitle>Steps Take Time in Gathering and Packing Eggs #2 <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">16</container>
+               <unittitle>Steps Take Time in Gathering and Packing Eggs #2 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">17</container>
-               <unittitle>Transplanting Shrubs, Evergreens and Trees #1 <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">17</container>
+               <unittitle>Transplanting Shrubs, Evergreens and Trees #1 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="reel">18</container>
-               <unittitle>Transplanting Shrubs, Evergreens and Trees #2 <unitdate/>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="reel">18</container>
+               <unittitle>Transplanting Shrubs, Evergreens and Trees #2 
                </unittitle>
             </did>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Elmer S. Phillips papers, #21-42-3218. Division of Rare and Manuscript Collections,
+               Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

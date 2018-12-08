@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06896::&gt;Guide to the Milton Glass files on Kitimat Canada)//EN">RMM06896</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06896::&gt;Guide to the Milton Glass files on Kitimat Canada)//EN">RMM06896</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Milton Glass files on Kitimat Canada<date>circa
@@ -23,19 +23,25 @@
     <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>July 2012</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Milton Glass Files On Kitimat Canada<lb/><date type="inclusive" encodinganalog="245$f">circa 1950-1954.</date></titleproper>
+      <titleproper>Guide to the Milton Glass Files On Kitimat Canada<date encodinganalog="245$f" type="inclusive">circa 1950-1954.</date></titleproper>
       <num>Collection Number: 6896</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-            Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+            Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
         </defitem>
         <defitem>
           <label>Compiled by:</label>
@@ -61,13 +67,12 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">Milton Glass files on Kitimat Canada
-        <unitdate encodinganalog="MARC 245" type="inclusive">circa 1950-1954.</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">Milton Glass files on Kitimat Canada
+        </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1950-1954.</unitdate>
       <unitid label="Collection Number:">6896</unitid>
       <origination label="Creator:"><persname encodinganalog="100" normal="Glass, Milton.   ">
         Glass </persname></origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>ca. 10 cubic feet</extent></physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>10 cubic feet</extent></physdesc><physdesc>Extent is approximate.</physdesc>
       <physdesc label="Forms of Material:">Correspondence, maps, photographs, plans, printed materials, publications</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
         University Library</repository>
@@ -76,7 +81,7 @@
       <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">
-      <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+      <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
       <p>Architect. Milton Glass worked on the planned community of Kitimat, British Columbia.
         Commissioned by Alcan (Aluminum Company of Canada), it was to be British Columbia's
         first planned community: "Kitimat would be designed for the worker and his family.
@@ -128,14 +133,7 @@
           Kitimat.</subject>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>Milton Glass files on Kitimat Canada #6896. Division of Rare and Manuscript
-          Collections, Cornell University Library.</p>
-      </prefercite>
-    </descgrp>
+    
     <relatedmaterial>
       <head id="a5">RELATED MATERIALS</head>
       <p>See also the Clarence Stein papers, #3600, <extref href="http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMM03600" show="new">http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMM03600</extref></p>
@@ -145,8 +143,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1957</unitdate>
           <unittitle>From the Start of the Job Through to the End of W and C Participation</unittitle> 
         </did>
@@ -158,8 +156,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1952</unitdate>
           <unittitle>Townsite Report</unittitle> 
         </did> 
@@ -167,8 +165,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1951</unitdate>
           <unittitle>Correspondence Between Partners of Mayer and Whittlesey re Alcan</unittitle> 
         </did> 
@@ -176,8 +174,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1951</unitdate>
           <unittitle>Miscellaneous Correspondence Relative to Kitimat</unittitle> 
         </did> 
@@ -185,8 +183,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1951-1952</unitdate>
           <unittitle>General Correspondence with Alcan</unittitle> 
         </did> 
@@ -195,8 +193,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1952</unitdate>
           <unittitle>Billing Beta - Fees</unittitle> 
         </did> 
@@ -204,8 +202,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1952</unitdate>
           <unittitle>Billing Data - Reimbursible Expenses</unittitle> 
         </did> 
@@ -213,8 +211,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1951</unitdate>
           <unittitle>Cost Estimates</unittitle> 
         </did> 
@@ -222,8 +220,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1952</unitdate>
           <unittitle>Architectural Production Costs</unittitle> 
         </did> 
@@ -231,8 +229,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1952</unitdate>
           <unittitle>Town Development Costs</unittitle> 
         </did> 
@@ -240,8 +238,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1952</unitdate>
           <unittitle>Drawings Filed in Drafting Room</unittitle> 
         </did> 
@@ -249,8 +247,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1951</unitdate>
           <unittitle>Minutes of Meetings</unittitle> 
         </did> 
@@ -258,8 +256,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>1952</unitdate>
           <unittitle>Record of Plans and Reports Submitted to ALCAN</unittitle> 
         </did> 
@@ -267,8 +265,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>1952-1955</unitdate>
           <unittitle>Planning Notes, Comments, and Reports</unittitle> 
         </did> 
@@ -276,8 +274,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>1953</unitdate>
           <unittitle>James C. Buckley</unittitle> 
         </did> 
@@ -285,8 +283,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>1952</unitdate>
           <unittitle>Dan Kiley - Landscape</unittitle> 
         </did> 
@@ -294,8 +292,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">17</container>
           <unitdate>1952</unitdate>
           <unittitle>Telecommunications - Walter Duchinsky</unittitle> 
         </did> 
@@ -303,8 +301,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>1951-1952</unitdate>
           <unittitle>Kitimat Constructors - Correspondence with</unittitle> 
         </did> 
@@ -312,8 +310,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">19</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">19</container>
           <unitdate>1952</unitdate>
           <unittitle>Sharp, Thompson, Berwick and Pratt - Architects for Alcan</unittitle> 
         </did> 
@@ -321,8 +319,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">20</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">20</container>
           <unitdate>1952</unitdate>
           <unittitle>Swan, Rhodes and Wooster Report on Kitimat River Bridge</unittitle> 
         </did> 
@@ -330,8 +328,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">21</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">21</container>
           <unitdate>1954</unitdate>
           <unittitle>Clarence S. Stein</unittitle> 
         </did> 
@@ -339,8 +337,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">22</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">22</container>
           <unitdate>1951</unitdate>
           <unittitle>Ralph Eberlin (Utilities)</unittitle> 
         </did> 
@@ -348,8 +346,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">23</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">23</container>
           <unitdate>1952</unitdate>
           <unittitle>Walter E. Kroening (Community Management)</unittitle> 
         </did> 
@@ -357,8 +355,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">24</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">24</container>
           <unitdate>1951-1958</unitdate>
           <unittitle>Larry Smith (Commerce and Business)</unittitle> 
         </did> 
@@ -366,8 +364,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">25</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">25</container>
           <unitdate>1952</unitdate>
           <unittitle>Community Living - Planning for Reports by Lois Barclay Murphy</unittitle> 
         </did> 
@@ -375,8 +373,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">26</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">26</container>
           <unitdate>1952</unitdate>
           <unittitle>Community "A" - The First Neighborhood; Home, Plot and Road: House Types and Materials</unittitle> 
         </did> 
@@ -384,8 +382,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">27</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">27</container>
           <unitdate>1952</unitdate>
           <unittitle>Butler Report - Recreation</unittitle> 
         </did> 
@@ -393,8 +391,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">28</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">28</container>
           <unitdate>1952</unitdate>
           <unittitle>Schools - N. L. Engelhardt</unittitle> 
         </did> 
@@ -402,8 +400,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">29</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">29</container>
           <unitdate>1952-1953</unitdate>
           <unittitle>Robert L. Davison (Howard T. Fisher Associates)</unittitle> 
         </did> 
@@ -411,8 +409,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">30</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">30</container>
           <unitdate>1952</unitdate>
           <unittitle>Frederick Latzer (re Utilities)</unittitle> 
         </did> 
@@ -420,8 +418,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">31</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">31</container>
           <unitdate>1952</unitdate>
           <unittitle>Semmons and Simpson - Architects for Alcan</unittitle> 
         </did> 
@@ -429,8 +427,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">32</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">32</container>
           <unitdate>1952</unitdate>
           <unittitle>River Control and Mr. K. Ross</unittitle> 
         </did> 
@@ -438,8 +436,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">33</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">33</container>
           <unitdate>1951-1952</unitdate>
           <unittitle>Weather - Dr. Landsberg</unittitle> 
         </did> 
@@ -447,8 +445,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">34</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">34</container>
           <unitdate>1951-1952</unitdate>
           <unittitle>Weather Reports from Dr. Landsberg</unittitle> 
         </did> 
@@ -456,8 +454,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">35</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">35</container>
           <unitdate>1952</unitdate>
           <unittitle>Maps</unittitle> 
         </did> 
@@ -465,17 +463,17 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">36</container>
-          <unitdate/>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">36</container>
+          
           <unittitle>Indian Mission Weather Records</unittitle> 
         </did> 
       </c01> 
       
       <c01 level="file"> 
         <did> 
-          <container type="box">1</container>
-          <container type="folder">37</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">37</container>
           <unitdate>1947-1957</unitdate>
           <unittitle>Weather - Charts, etc.</unittitle> 
         </did> 
@@ -483,8 +481,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1955</unitdate>
           <unittitle>Publicity</unittitle> 
         </did> 
@@ -492,8 +490,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>No Date</unitdate>
           <unittitle>Source Material (Empty as of August 18th 2011)</unittitle> 
         </did> 
@@ -501,8 +499,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1953</unitdate>
           <unittitle>Kitimat Master Plan Report Backups of Parts I, II, II, and Index</unittitle> 
         </did> 
@@ -510,8 +508,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1952</unitdate>
           <unittitle>Part I of Report on Master Planning</unittitle> 
         </did> 
@@ -523,8 +521,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1952</unitdate>
           <unittitle>House Types and Their Relation to Land and Living; Self-Building; Landscaping</unittitle> 
         </did> 
@@ -532,8 +530,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1951-1952</unitdate>
           <unittitle>First Interim Report (Land Use Study and Preliminary Master Plan)</unittitle> 
         </did> 
@@ -541,8 +539,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1952</unitdate>
           <unittitle>Second Interim Report (Revised Town Plan)</unittitle> 
         </did> 
@@ -550,8 +548,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1957</unitdate>
           <unittitle>Larry Smith Reports on Commercial Aspects of Kitimat and the Hotel Facility 1957</unittitle> 
         </did> 
@@ -559,8 +557,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1952</unitdate>
           <unittitle>Larry Smith Reports on Commercial Aspects of Kitimat and the Hotel Facility 1952</unittitle> 
         </did> 
@@ -568,8 +566,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1951</unitdate>
           <unittitle>Walter E. Kroening and Lawrence H. Tucker</unittitle> 
         </did> 
@@ -580,8 +578,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1952</unitdate>
           <unittitle>Stein: Progress Report for Kitimat Townsite Planning</unittitle> 
         </did> 
@@ -589,8 +587,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1952</unitdate>
           <unittitle>Howard T. Fisher Associates Report on Materials and Methods - Parts 1 and 2</unittitle> 
         </did> 
@@ -598,8 +596,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1952</unitdate>
           <unittitle>Buckley Secion of Report on Kitimat</unittitle> 
         </did>
@@ -610,8 +608,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>1953</unitdate>
           <unittitle>Master Plan for Service Center</unittitle> 
         </did> 
@@ -622,8 +620,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">2</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>1953</unitdate>
           <unittitle>Master Plan Report for Kitimat - Part I</unittitle> 
         </did> 
@@ -634,8 +632,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1953</unitdate>
           <unittitle>Master Plan Report for Kitimat - Part II</unittitle> 
         </did> 
@@ -646,8 +644,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1953</unitdate>
           <unittitle>Master Plan Report for Kitimat - Part III</unittitle> 
         </did> 
@@ -658,8 +656,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1951-1952</unitdate>
           <unittitle>Church Planning</unittitle> 
         </did> 
@@ -667,8 +665,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1952-1955</unitdate>
           <unittitle>City and Neighborhood Centers, Commercial Center, Service Center</unittitle> 
         </did> 
@@ -676,8 +674,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1952-1953</unitdate>
           <unittitle>Theater Concept</unittitle> 
         </did> 
@@ -685,8 +683,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1952-1953</unitdate>
           <unittitle>Service Center</unittitle> 
         </did> 
@@ -694,8 +692,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1953</unitdate>
           <unittitle>Parking Facilities</unittitle> 
         </did> 
@@ -703,8 +701,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1953</unitdate>
           <unittitle>Weather</unittitle> 
         </did> 
@@ -715,8 +713,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1953</unitdate>
           <unittitle>Commercial Space - J. S. Shakespeare</unittitle> 
         </did> 
@@ -724,8 +722,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1953-1953</unitdate>
           <unittitle>Utilities (Water, Central Heating) and Site Engineering - River Control</unittitle> 
         </did> 
@@ -733,8 +731,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1953</unitdate>
           <unittitle>Terrace Road</unittitle> 
         </did> 
@@ -742,8 +740,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1952-1954</unitdate>
           <unittitle>Landscaping - Dan Kiley</unittitle> 
         </did> 
@@ -751,8 +749,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1952-1958</unitdate>
           <unittitle>Architects - Semmons and Simpson and Sharp, Thompson, Berwik and Pratt</unittitle> 
         </did> 
@@ -760,8 +758,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1953</unitdate>
           <unittitle>James C. Buckley</unittitle> 
         </did> 
@@ -769,8 +767,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>1952-1953</unitdate>
           <unittitle>Utilities - Ralph Eberlin</unittitle> 
         </did> 
@@ -778,8 +776,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>1952-1956</unitdate>
           <unittitle>Clarence S. Stein and Roger Willcox - Correspondence</unittitle> 
         </did> 
@@ -787,8 +785,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>1952-1953</unitdate>
           <unittitle>Correspondence with ALCAN</unittitle> 
         </did> 
@@ -796,8 +794,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">3</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>1953</unitdate>
           <unittitle>Correspondence with ALCAN</unittitle> 
         </did> 
@@ -805,8 +803,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1954</unitdate>
           <unittitle>Correspondence with ALCAN</unittitle> 
         </did> 
@@ -814,8 +812,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1956-1957</unitdate>
           <unittitle>Town Building Documents and Correspondents</unittitle> 
         </did> 
@@ -823,8 +821,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1955-1958</unitdate>
           <unittitle>Town Building Letters</unittitle> 
         </did> 
@@ -832,8 +830,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1955</unitdate>
           <unittitle>Correspondence With Vancouver Office</unittitle> 
         </did> 
@@ -841,8 +839,8 @@
          
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1956</unitdate>
           <unittitle>Correspondence With Vancouver Office</unittitle> 
         </did> 
@@ -850,8 +848,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1954-1956</unitdate>
           <unittitle>Correspondence With Corporation of the District of Kitimat Officials</unittitle> 
         </did> 
@@ -859,8 +857,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1957</unitdate>
           <unittitle>Kitimat Community Council (Stan Rough, Chairman)</unittitle> 
         </did> 
@@ -868,8 +866,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1952-1956</unitdate>
           <unittitle>Contract Proposal</unittitle> 
         </did> 
@@ -877,8 +875,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1952-1956</unitdate>
           <unittitle>Billing</unittitle> 
         </did> 
@@ -886,8 +884,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1953-1954</unitdate>
           <unittitle>Progress Reports</unittitle> 
         </did> 
@@ -895,8 +893,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1953-1955</unitdate>
           <unittitle>By-Laws and Regulations</unittitle> 
         </did> 
@@ -904,8 +902,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1953</unitdate>
           <unittitle>By-Laws (Comments on, bound copies)</unittitle> 
         </did> 
@@ -913,8 +911,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>1954</unitdate>
           <unittitle>Master Plan Revisions</unittitle> 
         </did> 
@@ -922,8 +920,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>1952</unitdate>
           <unittitle>Survey</unittitle> 
         </did> 
@@ -931,8 +929,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>1952</unitdate>
           <unittitle>Field Directions to ALCAN</unittitle> 
         </did> 
@@ -940,8 +938,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">4</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>1952</unitdate>
           <unittitle>Maps in Connection With Field Directions</unittitle> 
         </did> 
@@ -949,8 +947,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1952</unitdate>
           <unittitle>Minutes of Meetings and Office Memos</unittitle> 
         </did> 
@@ -958,8 +956,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1952</unitdate>
           <unittitle>Architectural Production Costs</unittitle> 
         </did> 
@@ -967,8 +965,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1956</unitdate>
           <unittitle>Planning Notes (Data extracted from Report by Dudley)</unittitle> 
         </did> 
@@ -976,8 +974,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1957</unitdate>
           <unittitle>Conference: Understanding the Community</unittitle> 
         </did> 
@@ -985,8 +983,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1955</unitdate>
           <unittitle>Meeting Report Back Ups</unittitle> 
         </did> 
@@ -994,8 +992,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1955-1956</unitdate>
           <unittitle>Fall (1955) Conference: Development Program; Agendas; Proceedings</unittitle> 
         </did> 
@@ -1003,8 +1001,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1952-1955</unitdate>
           <unittitle>Material for Possible Publication on Kitimat</unittitle> 
         </did> 
@@ -1012,8 +1010,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1954</unitdate>
           <unittitle>Correspondence with FORUM (Haskell) re Publication</unittitle> 
         </did> 
@@ -1021,8 +1019,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1955</unitdate>
           <unittitle>Letters Sent to Individuals and Firms with Brochure Reprint of FORUM Article</unittitle> 
         </did> 
@@ -1030,8 +1028,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1954</unitdate>
           <unittitle>Publication of Mt. and Reports on Loan</unittitle> 
         </did> 
@@ -1039,8 +1037,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1957-1958</unitdate>
           <unittitle>Miscellaneous Correspondence Relative to Kitimat</unittitle> 
         </did> 
@@ -1048,8 +1046,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1952-1959</unitdate>
           <unittitle>Customs Forms and Instructions on Their Use When Shipping Blueprints</unittitle> 
         </did> 
@@ -1057,8 +1055,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>July 12, 1957</unitdate>
           <unittitle>Preliminary Report on Kitimat City Center - Mayer Whittlesey and Glass</unittitle> 
         </did> 
@@ -1066,8 +1064,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>1955</unitdate>
           <unittitle>Annual Report with Info on Alcan and Other Subsidaries of Aluminum Limited</unittitle> 
         </did> 
@@ -1075,8 +1073,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>1957</unitdate>
           <unittitle>City Center - Draft for Final Report (Mayer Whttlesey and Glass)</unittitle> 
         </did> 
@@ -1084,8 +1082,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>1957</unitdate>
           <unittitle>City Center Commercial Development - Volume 1 Draft</unittitle> 
         </did> 
@@ -1093,8 +1091,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">17</container>
           <unitdate>1957</unitdate>
           <unittitle>Ripley and Associates (Soil)</unittitle> 
         </did> 
@@ -1102,8 +1100,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>1957-1958</unitdate>
           <unittitle>Proposal, Contract, Billing</unittitle> 
         </did> 
@@ -1111,8 +1109,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">19</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">19</container>
           <unitdate>1957-1958</unitdate>
           <unittitle>Larry Smith and Company</unittitle> 
         </did> 
@@ -1120,8 +1118,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">20</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">20</container>
           <unitdate>1957</unitdate>
           <unittitle>Municipality of Kitimat Federal Government</unittitle> 
         </did> 
@@ -1129,8 +1127,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">21</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">21</container>
           <unitdate>1957-1958</unitdate>
           <unittitle>Correspondence with Alcan re City Center</unittitle> 
         </did> 
@@ -1138,8 +1136,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">5</container>
-          <container type="folder">22</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">22</container>
           <unitdate>1958</unitdate>
           <unittitle>Miscellaneous Correspondence</unittitle> 
         </did> 
@@ -1147,8 +1145,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1957</unitdate>
           <unittitle>Notes: Made by J.W. in the Field in April-May, 1957</unittitle> 
         </did> 
@@ -1156,8 +1154,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1955-1958</unitdate>
           <unittitle>Eric West - re Exhibit (1955) and Later Correspondence</unittitle> 
         </did> 
@@ -1165,8 +1163,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1952-1954</unitdate>
           <unittitle>Publications</unittitle> 
         </did> 
@@ -1177,8 +1175,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1951</unitdate>
           <unittitle>Kitimat Proposal by Mayer and Whittlesey</unittitle> 
         </did> 
@@ -1186,8 +1184,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1951</unitdate>
           <unittitle>Proposal Dated July 31/51</unittitle> 
         </did> 
@@ -1195,8 +1193,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1953-1958</unitdate>
           <unittitle>Publications</unittitle> 
         </did> 
@@ -1207,8 +1205,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1950s</unitdate>
           <unittitle>Publicity, etc.</unittitle> 
         </did> 
@@ -1216,8 +1214,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1950s</unitdate>
           <unittitle>Publicity and Historical and Other Data from Kitimat Newspapers and Elsewhere</unittitle> 
         </did> 
@@ -1225,8 +1223,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1956-1957</unitdate>
           <unittitle>Progress on Physical Development on Kitimat</unittitle> 
         </did> 
@@ -1235,8 +1233,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1954</unitdate>
           <unittitle>Publicity</unittitle> 
         </did> 
@@ -1244,8 +1242,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1954</unitdate>
           <unittitle>Publicity Material1954-1957</unittitle> 
         </did> 
@@ -1253,8 +1251,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1953</unitdate>
           <unittitle>Zoning (Draft)</unittitle> 
         </did> 
@@ -1262,8 +1260,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>November 1956</unitdate>
           <unittitle>Zoning</unittitle> 
         </did> 
@@ -1271,8 +1269,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>1954-1964</unitdate>
           <unittitle>Zoning</unittitle> 
         </did> 
@@ -1280,8 +1278,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">6</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>1952</unitdate>
           <unittitle>Photostats of 4 Drawings</unittitle> 
         </did> 
@@ -1289,8 +1287,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1951-1957</unitdate>
           <unittitle>Kitimat</unittitle> 
         </did>
@@ -1302,8 +1300,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1950s</unitdate>
           <unittitle>Kitimat Photos</unittitle> 
         </did> 
@@ -1311,8 +1309,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1950s</unitdate>
           <unittitle>Kitimat Photos</unittitle> 
         </did> 
@@ -1320,8 +1318,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1950s</unitdate>
           <unittitle>Kitimat Photos</unittitle> 
         </did> 
@@ -1329,8 +1327,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1950s</unitdate>
           <unittitle>Kitimat Photos</unittitle> 
         </did> 
@@ -1338,8 +1336,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1950s</unitdate>
           <unittitle>Kitimat Photos</unittitle> 
         </did> 
@@ -1347,8 +1345,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1950s</unitdate>
           <unittitle>Kitimat Photos</unittitle> 
         </did> 
@@ -1356,8 +1354,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1950s</unitdate>
           <unittitle>Kitimat Photos</unittitle> 
         </did> 
@@ -1365,8 +1363,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1951</unitdate>
           <unittitle>Photographs of Kitimat, Kemano, and Nechako</unittitle> 
         </did> 
@@ -1374,8 +1372,8 @@
           
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>No Date</unitdate>
           <unittitle>Kitimat Exhibition Panels</unittitle> 
         </did> 
@@ -1383,8 +1381,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1959-1960</unitdate>
           <unittitle>Reports and Small Plans from Kitimat</unittitle> 
         </did> 
@@ -1392,8 +1390,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1958-1960
           </unitdate>
           <unittitle>Reports and Other Material Sent Direct from Kitimat to JW in Athens</unittitle> 
@@ -1402,8 +1400,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>1959-1965</unitdate>
           <unittitle>Correspondence with Mariel Ames (includes Social Study of Kitimat)</unittitle> 
         </did> 
@@ -1411,8 +1409,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>1962</unitdate>
           <unittitle>Consultation with the Municipality Report: Parks and Recreation (Community Plan Report)</unittitle> 
         </did> 
@@ -1420,8 +1418,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>1959-1965</unitdate>
           <unittitle>Community Center Plans</unittitle> 
         </did> 
@@ -1429,8 +1427,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>1962</unitdate>
           <unittitle>Report: Park and Recreation</unittitle> 
         </did> 
@@ -1438,8 +1436,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">17</container>
           <unitdate>1964-1965</unitdate>
           <unittitle>Reports (brought back by JW Nov. 1965)</unittitle> 
         </did> 
@@ -1447,8 +1445,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>No Date</unitdate>
           <unittitle>Kitimat Negatives</unittitle> 
         </did> 
@@ -1456,8 +1454,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">19</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">19</container>
           <unitdate>1964</unitdate>
           <unittitle>Drawing List as of January 1964</unittitle> 
         </did> 
@@ -1465,8 +1463,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">20</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">20</container>
           <unitdate>1958</unitdate>
           <unittitle>Townsite Development Maps</unittitle> 
         </did> 
@@ -1474,8 +1472,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">7</container>
-          <container type="folder">21</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">21</container>
           <unitdate>No Date</unitdate>
           <unittitle>House Plans</unittitle> 
         </did> 
@@ -1483,8 +1481,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1965-1966</unitdate>
           <unittitle>Kitimat Consultancy</unittitle> 
         </did> 
@@ -1492,8 +1490,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1960</unitdate>
           <unittitle>Record of Materials Sent to Julian Whittlesey in Athens, June 1960</unittitle> 
         </did> 
@@ -1501,8 +1499,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1959-1961</unitdate>
           <unittitle>Henry Strub (Aluminum Secretariat Ltd., in Montreal)</unittitle> 
         </did> 
@@ -1510,8 +1508,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1959-1961</unitdate>
           <unittitle>Miscellaneous Correspondence re Kitimat, Including Correspondence with Some Alcan People</unittitle> 
         </did> 
@@ -1519,8 +1517,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1959-1961</unitdate>
           <unittitle>Correspondence with Mrs. Meldrm (Editor, Northern Sentinel) and Planning Articles Therein by Edmund T. Ames</unittitle> 
         </did> 
@@ -1528,8 +1526,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1958</unitdate>
           <unittitle>Industrial Development Report (Delta Area) by Hopkins</unittitle> 
         </did> 
@@ -1537,8 +1535,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1961-1962</unitdate>
           <unittitle>Edmund T. Ames (Personal)</unittitle> 
         </did> 
@@ -1546,8 +1544,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1960</unitdate>
           <unittitle>Kitimat Consultancy - Kitimat Townsite Report</unittitle> 
         </did> 
@@ -1555,8 +1553,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1966</unitdate>
           <unittitle>Bibliography (Jan. 1962): Community Plan Report Index</unittitle> 
         </did> 
@@ -1564,8 +1562,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1961</unitdate>
           <unittitle>Background Info - Clippings, Reports, Minutes, etc.</unittitle> 
         </did> 
@@ -1573,15 +1571,15 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">11-22</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">11-22</container>
           <unittitle>CONSULTATION WITH THE MUNICIPALITY</unittitle> 
           </did>
       
       <c02 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1952-1963</unitdate>
           <unittitle>Correspondence Reports and Bill re May/63 Trip</unittitle> 
         </did> 
@@ -1589,8 +1587,8 @@
       
       <c02 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1956-1962</unitdate>
           <unittitle>Traffic Survey Material Related to Wilber Smith File</unittitle> 
         </did> 
@@ -1601,8 +1599,8 @@
       
       <c02 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>1961-1962</unitdate>
           <unittitle>Wilbur Smith and Associates (Traffic)</unittitle> 
         </did> 
@@ -1610,8 +1608,8 @@
       
       <c02 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>1961-1962</unitdate>
           <unittitle>Contract and Billing</unittitle> 
         </did> 
@@ -1619,8 +1617,8 @@
       
       <c02 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>1961</unitdate>
           <unittitle>Correspondence with Ames and Currie</unittitle> 
         </did> 
@@ -1628,8 +1626,8 @@
       
       <c02 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>1961-1962</unitdate>
           <unittitle>Correspondence with Ames and Currie</unittitle> 
         </did> 
@@ -1637,8 +1635,8 @@
       
       <c02 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">17</container>
           <unitdate>1960-1961</unitdate>
           <unittitle>Portions of Minutes of Council Meetings</unittitle> 
         </did> 
@@ -1646,8 +1644,8 @@
       
       <c02 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>1960</unitdate>
           <unittitle>Correspondence with W. R. Ussner (Architect)</unittitle> 
         </did> 
@@ -1655,8 +1653,8 @@
       
       <c02 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">19</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">19</container>
           <unitdate>1960</unitdate>
           <unittitle>Proposal, Contract, Billing</unittitle> 
         </did> 
@@ -1664,8 +1662,8 @@
       
       <c02 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">20</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">20</container>
           <unitdate>1960-1961</unitdate>
           <unittitle>Planning Personnel</unittitle> 
         </did> 
@@ -1673,8 +1671,8 @@
       
       <c02 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">21</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">21</container>
           <unitdate>1960</unitdate>
           <unittitle>Correspondence (Ames and Currie)</unittitle> 
         </did> 
@@ -1685,8 +1683,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">22</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">22</container>
           <unitdate>1959</unitdate>
           <unittitle>Correspondence (Ames and Currie)</unittitle> 
         </did> 
@@ -1696,8 +1694,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="box">8</container>
-          <container type="folder">23</container>
+          <container label="unspecified" type="box">8</container>
+          <container label="unspecified" type="folder">23</container>
           <unitdate>No Date</unitdate>
           <unittitle>Mayer and Whittlesey Photos</unittitle> 
         </did> 
@@ -1705,8 +1703,8 @@
       
       <c01 level="file"> 
         <did> 
-          <container type="map-case">W-5</container>
-          <container type="folder">1-5</container>
+          <container label="unspecified" type="map-case">W-5</container>
+          <container label="unspecified" type="folder">1-5</container>
                    <unittitle>Folders of oversized items. These items are mostly plan drawings for the Kitimat area. Includes plans for the Service Center of the Aluminum company of Canada and the Kitimat Townsite Report, 1960</unittitle> 
         </did> 
         <scopecontent>
@@ -1715,5 +1713,9 @@
       </c01>  
       
     </dsc> 
-  </archdesc> 
+  <prefercite>
+        <head>Cite As:</head>
+        <p>Milton Glass files on Kitimat Canada #6896. Division of Rare and Manuscript
+          Collections, Cornell University Library.</p>
+      </prefercite></archdesc> 
 </ead>

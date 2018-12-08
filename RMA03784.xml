@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03784::Guide to the Michael L. and Catherine H. Whalen Collection of Cornelliana)//EN">RMA03784</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03784::Guide to the Michael L. and Catherine H. Whalen Collection of Cornelliana)//EN">RMA03784</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Michael L. and Catherine H. Whalen Collection of Cornelliana,
@@ -26,21 +26,27 @@
     <profiledesc>
       <creation>Finding aid encoded by Evan Fay Earle, <date>December 2009</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Michael L. And Catherine H. Whalen Collection Of Cornelliana,<lb/>
-        <date type="inclusive" encodinganalog="245$f">1865-1975.</date></titleproper>
+      <titleproper>Guide to the Michael L. And Catherine H. Whalen Collection Of Cornelliana,
+        <date encodinganalog="245$f" type="inclusive">1865-1975.</date></titleproper>
       <num>Collection Number: 37-5-3784</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-            Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/>
-            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+            Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
+            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
         </defitem>
         <defitem>
           <label>Compiled by:</label>
@@ -65,14 +71,15 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">Michael L. and Catherine H. Whalen
-        Collection of Cornelliana, <unitdate encodinganalog="MARC 245" type="inclusive">1865-1975.</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">Michael L. and Catherine H. Whalen
+        Collection of Cornelliana, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1865-1975.</unitdate>
       <unitid label="Collection Number:">37-5-3784</unitid>
       <origination label="Creator:">
         <persname encodinganalog="100" normal="Whalen, Michael L., ">Michael L. Whalen
         </persname></origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>13.8 Cubic Feet, 4.18 gigabytes</extent></physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>13.8 Cubic Feet, 4.18 gigabytes</extent></physdesc>
       <physdesc label="Forms of Material:">Computer Media, Memorabilia, Manuscripts, Photographs,
         Scrapbooks</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -197,17 +204,7 @@
         <genreform encodinganalog="MARC 655" source="aat">Stereoscopic photographs.</genreform>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>Michael L. and Catherine H. Whalen Collection of Cornelliana, #37-5-3784. Division of
-          Rare and Manuscript Collections, Cornell University Library.</p>
-      </prefercite>
-      <p>Note that items next to each other in boxes do not necessarily come from the same person or
-        have the same provenance. See the PDF guide to determine groupings.</p>
-      <p>See the catalog linked below for a complete inventory of the collection, the box listing below does not cover all the items.</p>
-    </descgrp>
+    
     <relatedmaterial> 
       <head>RELATED MATERIAL</head> 
       <p>See also New York State College of Agriculture Winter Short Course Scrapbooks, #21-34-4029.</p>
@@ -243,37 +240,37 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">1</container>          
+          <container label="unspecified" type="box">1</container>          
           <unittitle>Items 1-93</unittitle>
         </did><scopecontent><p>Carte de visites and cabinet cards including images of alumni and faculty, William Benjamin Bowler, crew, stereo view cards of campus, etc.. </p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">2</container>          
+          <container label="unspecified" type="box">2</container>          
           <unittitle>Items 94-172</unittitle>
         </did><scopecontent><p>Cabinet cards and photographs of campus and Ithaca area, including Taughannock Falls, gorges, Cayuga Lake, alumni, Spring Day, White Hall architecture studio, etc..</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">3</container>
+          <container label="unspecified" type="box">3</container>
           <unittitle>Items 173-191</unittitle>
         </did><scopecontent><p>Photographs including Alpha Theta fraternity, letters from students, administrators, and others, Freshman Banquet and other handbills, ad for the Kornell Krinkles, Globe Hotel Syracuse menu, event programs including Ulysses of Ithaka by the Cornell Masque, The Contrast by Cornell Dramatic Club, etc..</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">22</container>
+          <container label="unspecified" type="box">22</container>
           <unittitle>Item 192</unittitle>
         </did><scopecontent><p>Felt banner and reunion buttons of Mary Lucetta Thompson Davis Class of 1896.</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">4</container>
+          <container label="unspecified" type="box">4</container>
           <unittitle>Item 193</unittitle>
         </did><scopecontent><p>1896 diploma of Lynn Leroy Davis</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">5</container>
+          <container label="unspecified" type="box">5</container>
           <unittitle>Items 194-202</unittitle>
         </did><scopecontent><p>Cornell registers, reports, The Cornell Earache, 1904 directory, chemistry class notebook of Cicero Shaffer Class
           of 1878, American history class notebook of Sarah McCune Gallaher,
@@ -281,7 +278,7 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">4</container>
+          <container label="unspecified" type="box">4</container>
           <unittitle>Item 203</unittitle>
         </did><scopecontent><p>Three bound books of mechanical drawings
           created by Frank Cook Moore, Class of
@@ -289,7 +286,7 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">5</container>
+          <container label="unspecified" type="box">5</container>
           <unittitle>Item 204</unittitle>
         </did><scopecontent><p>Fund-raising “position statement” issued by
           the Cornellian Council in 1925 entitled,
@@ -297,73 +294,73 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">4</container>
+          <container label="unspecified" type="box">4</container>
           <unittitle>Items 205-209</unittitle>
         </did><scopecontent><p>Book of views, 1890s Cornell Daily Suns, 1906 Cornell Deadly Sin, 1866 Harper's Weekly about Ezra Cornell, six issues of the 1924-1925 Cornell Graphic</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">6</container>
+          <container label="unspecified" type="box">6</container>
           <unittitle>Item 210</unittitle>
         </did><scopecontent><p>Scrapbook assembled by Lily Hawley,
           Class of 1919</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">7</container>
+          <container label="unspecified" type="box">7</container>
           <unittitle>Item 211</unittitle>
         </did><scopecontent><p>Scrapbook assembled by John Neal Tilton
           Jr., Class of 1913</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">4</container>
+          <container label="unspecified" type="box">4</container>
           <unittitle>Item 212</unittitle>
         </did><scopecontent><p>Scrapbook assembled by Leon Wendell
           Walton, Class of 1926</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">8</container>
+          <container label="unspecified" type="box">8</container>
           <unittitle>Item 213</unittitle>
         </did><scopecontent><p>Scrapbook assembled by Marion Helen
           Rogers, Class of 1927</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">2</container>
+          <container label="unspecified" type="box">2</container>
           <unittitle>Item 214</unittitle>
         </did><scopecontent><p>1927 group portrait of the Sigma Kappa Sorority</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">8</container>
+          <container label="unspecified" type="box">8</container>
           <unittitle>Item 215</unittitle>
         </did><scopecontent><p>Scrapbook assembled by Marion Ruthella
           Roberts, Class of 1924</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">2</container>
+          <container label="unspecified" type="box">2</container>
           <unittitle>Items 216, 217</unittitle>
         </did><scopecontent><p>1922 and 1923 group portrait of the Kappa Delta Sorority</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">9</container>
+          <container label="unspecified" type="box">9</container>
           <unittitle>Items 218-222</unittitle>
         </did><scopecontent><p>Scrapbook assembled by Henry Vernon
           Davis, Class of 1914 and other material owned by him</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unittitle>Item 223</unittitle>
         </did><scopecontent><p>Portrait of Henry Marx, Class of 1879</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">7</container>
+          <container label="unspecified" type="box">7</container>
           <unittitle>Item 224</unittitle>
         </did><scopecontent><p>Scrapbook assembled by Helen Levengood
           during her attendance at a Summer School
@@ -371,19 +368,19 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">4</container>
+          <container label="unspecified" type="box">4</container>
           <unittitle>Item 225</unittitle>
         </did><scopecontent><p>Photo composite of students in the Winter Course of 1918-19 in the College of Agriculture.</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">10</container>
+          <container label="unspecified" type="box">10</container>
           <unittitle>Items 226</unittitle>
         </did><scopecontent><p>Correspondence written and received by Dorothy McCormack, Class of 1937, while she was a student</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">11</container>
+          <container label="unspecified" type="box">11</container>
           <unittitle>Items 227-229</unittitle>
         </did><scopecontent><p>Letter from John Newton Dexter Shinkel,
           Class of 1881, to Josiah Dustin Wilson,
@@ -394,98 +391,98 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">12</container>
+          <container label="unspecified" type="box">12</container>
           <unittitle>Item 230</unittitle>
         </did><scopecontent><p>Scrapbook compiled by Nicholas Cooke
           Cushing, Class of 1896,</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">13</container>
+          <container label="unspecified" type="box">13</container>
           <unittitle>Items 231-271</unittitle>
         </did><scopecontent><p>Photographs of students and others, many owned by Albert Haywood, Class of 1889,  </p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">14</container>
+          <container label="unspecified" type="box">14</container>
           <unittitle>Item 272</unittitle>
         </did><scopecontent><p>Scrapbook assembled by Alexander Glencairn
           Acheson, Class of 1917</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">15</container>
+          <container label="unspecified" type="box">15</container>
           <unittitle>Item 273</unittitle>
         </did><scopecontent><p>Scrapbook assembled by Le Roy William
           Pritchard, Class of 1922</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">16</container>
+          <container label="unspecified" type="box">16</container>
           <unittitle>Item 274</unittitle>
         </did><scopecontent><p>Correspondence of Marion Ruthella Roberts,
           Class of 1924</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">17-20</container>
+          <container label="unspecified" type="box">17-20</container>
           <unittitle>Item 275A</unittitle>
         </did><scopecontent><p>Laboratory notebooks and class project
           reports for a variety of courses created by
           Frederick Edgar Stark, Class of 1912</p></scopecontent>
         <c02 level="item">
           <did>
-            <container type="box">17</container>
+            <container label="unspecified" type="box">17</container>
             <unittitle>Item 275A</unittitle>
           </did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">18</container>
+            <container label="unspecified" type="box">18</container>
             <unittitle>Item 275B</unittitle>
           </did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">19</container>
+            <container label="unspecified" type="box">19</container>
             <unittitle>Item 275C</unittitle>
           </did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">20</container>
+            <container label="unspecified" type="box">20</container>
             <unittitle>Item 275D</unittitle>
           </did>
         </c02>
         <c02 level="item">
           <did>
-            <container type="box">21</container>
+            <container label="unspecified" type="box">21</container>
             <unittitle>Item 275E</unittitle>
           </did>
         </c02></c01>
       
       <c01 level="item">
         <did>
-          <container type="box">25</container>
+          <container label="unspecified" type="box">25</container>
           <unittitle>Item 276</unittitle>
         </did><scopecontent><p>Photograph of the Class of 1887</p></scopecontent>
       </c01>
 
       <c01 level="item">
         <did>
-          <container type="box">22</container>
+          <container label="unspecified" type="box">22</container>
           <unittitle>Items 277-372</unittitle>
         </did><scopecontent><p>Various ephemera, stereo view photographs of campus, other campus and Ithaca photographs including military, mud rush,  student and faculty carte de visites and cabinet cards, photo of Ezra Cornell Class of 1971,  </p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">25</container>
+          <container label="unspecified" type="box">25</container>
           <unittitle>Item 373</unittitle>
         </did><scopecontent><p>1897 photo of Kappa Alpha Fraternity</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">11</container>
+          <container label="unspecified" type="box">11</container>
           <unittitle>Items 374-375</unittitle>
         </did><scopecontent><p>Scrapbook assembled by Carl Frederick
           Meyer, Class of 1908, ten-inch Keuffel and Esser mahogany slide
@@ -495,7 +492,7 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">16</container>
+          <container label="unspecified" type="box">16</container>
           <unittitle>Items 376-391</unittitle>
         </did><scopecontent><p>Various ephemera including shingles, letters, programs, state examination booklets, 1892 University Corps of Cadets roster, Telegram sent by George H. Conklin to
           William Henry Peer Conklin, Class of
@@ -504,14 +501,14 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">10</container>
+          <container label="unspecified" type="box">10</container>
           <unittitle>Items 392-447</unittitle>
         </did><scopecontent><p>Photographs including carte de visites and stereo view cards of students, faculty (including Ezra Cornell), staff, campus buildings and the Ithaca area, 1875 course book, letters, program for the Thirtieth Annual Contest for
           the ’86 Memorial Prize in Declamation</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">23</container>
+          <container label="unspecified" type="box">23</container>
           <unittitle>Items 448-453</unittitle>
         </did><scopecontent><p>Scrapbook assembled by Edward John
           Burns Jr., Class of 1917, scrapbook assembled by Henry Godley,
@@ -520,44 +517,44 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">6</container>
+          <container label="unspecified" type="box">6</container>
           <unittitle>Item 454</unittitle>
         </did><scopecontent><p>1941 diary belonging to Theodore Ryder</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">7</container>
+          <container label="unspecified" type="box">7</container>
           <unittitle>Item 455</unittitle>
         </did><scopecontent><p>1913-1914 scrapbook assembled by Frank (?)</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">13</container>
+          <container label="unspecified" type="box">13</container>
           <unittitle>Item 456</unittitle>
         </did><scopecontent><p>Program for Music Festival 1916 Cornell University
           April 27 28 29</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">1</container>
+          <container label="unspecified" type="box">1</container>
           <unittitle>Items 457-482</unittitle>
         </did><scopecontent><p>Various ephemera including letters, certificates, telegrams, tintype of Simon Henry Gage, stereo view cards of campus, cabinet cards of students, other photos and tintype of students and campus and Ezra Cornell  </p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">13</container>
+          <container label="unspecified" type="box">13</container>
           <unittitle>Item 483</unittitle>
         </did><scopecontent><p>Programs for Music Festival 1920 Cornell University</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">24</container>
+          <container label="unspecified" type="box">24</container>
           <unittitle>Item 484</unittitle>
         </did><scopecontent><p>Collection of 16 brass wax seal stamps of student organization logos used for shingles and certificates</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">14</container>
+          <container label="unspecified" type="box">14</container>
           <unittitle>Items 485-487</unittitle>
         </did><scopecontent><p>Certificate of membership in the Cornell
           Chapter of Acacia Fraternity issued to
@@ -567,20 +564,20 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">25</container>
+          <container label="unspecified" type="box">25</container>
           <unittitle>Items 488-494</unittitle>
         </did><scopecontent><p>Diplomas and certificates relating to Vining Campbell Dunlap Class of 1916 and others, </p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">26</container>
+          <container label="unspecified" type="box">26</container>
           <unittitle>Item 495</unittitle>
         </did><scopecontent><p>Scrapbook assembled by James Aloysius
           Barrett, Class of 1912</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">27</container>
+          <container label="unspecified" type="box">27</container>
           <unittitle>Item 496</unittitle>
         </did><scopecontent><p>Collection of letters and other documents
           belonging to Mary Ellen Gillett, Class of
@@ -588,7 +585,7 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">14</container>
+          <container label="unspecified" type="box">14</container>
           <unittitle>Item 497</unittitle>
         </did><scopecontent><p>Certificate appointing of Edward Benedict Clark,
           Class of 1912, as a principal musician in
@@ -596,7 +593,7 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">22</container>
+          <container label="unspecified" type="box">22</container>
           <unittitle>Items 498-499</unittitle>
         </did><scopecontent><p>Felt arm patch and brass pin belonging to
           Edward Benedict Clark, Class of 1912, as a
@@ -605,19 +602,19 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">3</container>
+          <container label="unspecified" type="box">3</container>
           <unittitle>Items 500-515</unittitle>
         </did><scopecontent><p>Various pamphlets, photographs, letters, and other ephemera</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">28</container>
+          <container label="unspecified" type="box">28</container>
           <unittitle>Items 516-598</unittitle>
         </did><scopecontent><p>Stereo-view, cabinet cards, carte de visite photographs, tintyps of the Cornell campus, Ithaca, McGraw-Fiske mansion, Ezra's tunnel, waterfalls, Cornell students and faculty, many photos owned by James Duncan Upham, some related to Zeta Psi fraternity </p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">29</container>
+          <container label="unspecified" type="box">29</container>
           <unittitle>Item 599</unittitle>
         </did><scopecontent><p>Set of 11 notebooks used by Robert
           Grantier Miller, Law School Class of 1940,
@@ -625,20 +622,20 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">25</container>
+          <container label="unspecified" type="box">25</container>
           <unittitle>Item 600</unittitle>
         </did><scopecontent><p>Photograph of the twentieth anniversary
           reunion of the Class of 1894</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">30</container>
+          <container label="unspecified" type="box">30</container>
           <unittitle>Items 601-607</unittitle>
         </did><scopecontent><p>1956, 1960-1964, 1975 Freshman registers, pig books</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">31</container>
+          <container label="unspecified" type="box">31</container>
           <unittitle>Item 608</unittitle>
         </did><scopecontent><p>Menu card for the Cornell University
           Medical College Class of 1904 senior banquet
@@ -647,7 +644,7 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">34</container>
+          <container label="unspecified" type="box">34</container>
           <unittitle>Item 609</unittitle>
         </did><scopecontent><p>Notebook used by Jefferson Mack Myers,
           Class of 1876, for his human physiology
@@ -657,34 +654,34 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">31</container>
+          <container label="unspecified" type="box">31</container>
           <unittitle>Items 610-622</unittitle>
         </did><scopecontent><p>Various ephemera, programs, pamphlets</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">34</container>
+          <container label="unspecified" type="box">34</container>
           <unittitle>Item 623</unittitle>
         </did><scopecontent><p>Multi-year diary maintained by Arthur
           Cornelius Lansing, Class of 1921</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">31</container>
+          <container label="unspecified" type="box">31</container>
           <unittitle>Items 624-666</unittitle>
         </did><scopecontent><p>Ephemera, postcards, letters, photographs relating to Cornell and Ithaca. Includes photo of Phi Sigma Kappa fraternity when used as barracks for the S.A.T.C., Dwellers Reunion program, Official Guide to the
           Schoellkopf Sweepstakes Spring Day 1923, items relating to Clarence Isaac Robinson, Class of 1884,</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">32</container>
+          <container label="unspecified" type="box">32</container>
           <unittitle>Items 667-733</unittitle>
         </did><scopecontent><p>Cabinet cards, stereo views and other photographs, several relating to the Vermont Academy, Cornell students and dorm room images, Ithaca parade, tintype of Taughannock Falls with people holding an umbrella, Ithaca and Lucifer Falls </p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
           
-          <container type="map-case">Folder 1</container>
+          <container label="unspecified" type="map-case">Folder 1</container>
           <unittitle>Item 734
           </unittitle>
         </did>
@@ -696,7 +693,7 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">34</container>
+          <container label="unspecified" type="box">34</container>
           <unittitle>Items 735-737</unittitle>
         </did><scopecontent><p>Notes
           on Geodesy, prepared for the Senior Class
@@ -710,13 +707,13 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">25</container>
+          <container label="unspecified" type="box">25</container>
           <unittitle>Items 738-739</unittitle>
         </did><scopecontent><p>1921 photo of the faculty and students of the Cornell University Chemistry Department, group portrait of the Class of 1895</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">33</container>
+          <container label="unspecified" type="box">33</container>
           <unittitle>Item 740</unittitle>
         </did><scopecontent><p>Large collection of letters—many professing
           love and admiration—sent by 17 different
@@ -727,20 +724,20 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">25</container>
+          <container label="unspecified" type="box">25</container>
           <unittitle>Item 741</unittitle>
         </did><scopecontent><p>Circa 1890 photograph of the Peck Shoe Store in Cortland, NY</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">32</container>
+          <container label="unspecified" type="box">32</container>
           <unittitle>Items 742-793</unittitle>
         </did><scopecontent><p>Stereo view, cabinet cards, and other photographs of Cornell and the Ithaca area including bridges, Taughannock Hotel and Falls, Cornell weather station, images relating to Ithaca trolley cars and George W. Brownell. Ephemera, letters relating to Cornell students,  </p></scopecontent>
       </c01>     
       
       <c01 level="item">
         <did>
-                    <container type="map-case">Folder 1</container>
+                    <container label="unspecified" type="map-case">Folder 1</container>
           <unittitle>Item 794</unittitle>
         </did>
         <scopecontent>
@@ -749,25 +746,25 @@
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">35</container>
+          <container label="unspecified" type="box">35</container>
           <unittitle>Items 795-896</unittitle>
         </did><scopecontent><p>Cabinet cards of students and faculty mostly from the Class of 1873</p></scopecontent>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">36</container>
+          <container label="unspecified" type="box">36</container>
           <unittitle>Items 897-921</unittitle>
-        </did><scopecontent><p/></scopecontent>
+        </did>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">25</container>
+          <container label="unspecified" type="box">25</container>
           <unittitle>Items 922-924</unittitle>
-        </did><scopecontent><p/></scopecontent>
+        </did>
       </c01>
       <c01 level="item">
         <did>
-          <container type="box">36</container>
+          <container label="unspecified" type="box">36</container>
           <unittitle>Items 925-935</unittitle>
         </did><scopecontent><p>Items relating to Clark Dillenbeck</p></scopecontent>
       </c01>
@@ -1543,5 +1540,10 @@
         </scopecontent>
       </c01>
     </dsc>
-  </archdesc>
+  <odd><p>Note that items next to each other in boxes do not necessarily come from the same person or
+        have the same provenance. See the PDF guide to determine groupings.</p></odd><odd><p>See the catalog linked below for a complete inventory of the collection, the box listing below does not cover all the items.</p></odd><prefercite>
+        <head>Cite As:</head>
+        <p>Michael L. and Catherine H. Whalen Collection of Cornelliana, #37-5-3784. Division of
+          Rare and Manuscript Collections, Cornell University Library.</p>
+      </prefercite></archdesc>
 </ead>

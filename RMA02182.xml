@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02182::Herbert Finch papers)//EN">RMA02182</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02182::Herbert Finch papers)//EN">RMA02182</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Herbert Finch papers, 1967-1983</titleproper>
@@ -28,6 +27,12 @@
             May 2003</creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -36,19 +41,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Herbert Finch Papers,<lb/>1967-1983</titleproper>
+         <titleproper>Guide to the Herbert Finch Papers,1967-1983</titleproper>
          <num>Collection Number: 13-6-2182</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -60,7 +65,7 @@
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
-               <item>Ann Hubert, July 2002<lb/>Peter Martinez, May 2003</item>
+               <item>Ann Hubert, July 2002Peter Martinez, May 2003</item>
             </defitem>
             <defitem>
                <label>Date modified:</label>
@@ -73,13 +78,12 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Herbert Finch papers, <unitdate type="inclusive" encodinganalog="MARC 245">1967-1983.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Herbert Finch papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1967-1983.</unitdate>
          <unitid label="Collection Number:">13-6-2182</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Finch, Herbert. ">Herbert Finch </persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>6.3 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>6.3 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, consultant reports, speeches,
             articles, master's thesis, Ph.D. dissertation, material from Joyce Hamilton
             Finch</physdesc>
@@ -93,7 +97,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>Archivist and librarian, Cornell University Library.</p>
       </bioghist>
       <scopecontent encodinganalog="MARC 520">
@@ -117,14 +121,7 @@
             <subject encodinganalog="MARC 650">Regional planning.</subject>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Herbert Finch papers, #13-6-2182. Division of Rare and Manuscript Collections,
-               Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="series">
@@ -141,8 +138,8 @@
             </scopecontent>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Vita, position classification, change of status, <title>Who's
                         Who</title>
                   </unittitle>
@@ -150,23 +147,23 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Clippings and photographs</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unitdate>1972-1973</unitdate>
                   <unittitle>American Management Assn. planning exercise, </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unitdate>1972-1973</unitdate>
                   <unittitle>American Management Assn. planning exercise, including McGrath report
                   </unittitle>
@@ -174,8 +171,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unitdate>1973</unitdate>
                   <unittitle>Oral History Manuscript, "A Policy Statement on Academic Archives,"
                      with Olivia Narins </unittitle>
@@ -183,213 +180,213 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unitdate>1961-1964</unitdate>
                   <unittitle>Field Log for University of Kentucky </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unitdate>1954-1986</unitdate>
                   <unittitle>Journal, disbounded </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unitdate>1969</unitdate>
                   <unittitle>Research Leave Application </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>1964-1965</unitdate>
                   <unittitle>Personal Correspondence </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unitdate>1966-1969</unitdate>
                   <unittitle>Personal Correspondence </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitdate>1970-1973</unitdate>
                   <unittitle>Personal Correspondence </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitdate>1971</unitdate>
                   <unittitle>Letter's from Phil's class </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unitdate>1974-1975</unitdate>
                   <unittitle>Personal Correspondence </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitdate>1976</unitdate>
                   <unittitle>Personal Correspondence </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitdate>1977-1979</unitdate>
                   <unittitle>Personal Correspondence </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitdate>1980-1984</unitdate>
                   <unittitle>Personal Correspondence </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitdate>1985-1989</unitdate>
                   <unittitle>Personal Correspondence </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitdate>1990-1993</unitdate>
                   <unittitle>Personal Correspondence </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitdate>1994-1996</unitdate>
                   <unittitle>Personal Correspondence </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
+                  <container label="unspecified" type="box">17</container>
                   <unitdate>1991-2004</unitdate>
                   <unittitle>Personal Correspondence </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unitdate>1996-1997</unitdate>
                   <unittitle>Retirement Letters </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
+                  <container label="unspecified" type="box">17</container>
                   <unitdate>1991-2004</unitdate>
                   <unittitle>Personal Correspondence </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>1980-1995</unitdate>
                   <unittitle>Weekly Calendars </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">4</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>1963-1973</unitdate>
                   <unittitle>Speeches and Articles </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">5</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>1974-1980</unitdate>
                   <unittitle>Speeches and Articles </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>1981-1996</unitdate>
                   <unittitle>Speeches and Articles </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">7</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>1966-1975</unitdate>
                   <unittitle>Boards, Committees and Consultations </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">8</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">8</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>1976-1979</unitdate>
                   <unittitle>Boards, Committees and Consultations </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">9</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">9</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>1980-1990</unitdate>
                   <unittitle>Boards, Committees and Consultations </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">10</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">10</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>1966-1980</unitdate>
                   <unittitle>COPAR and City Planning Correspondence</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">11</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>1959, 1965</unitdate>
                   <unittitle>Thesis</unittitle>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">11</container>
-                  <container type="folder">6-7</container>
+                  <container label="unspecified" type="box">11</container>
+                  <container label="unspecified" type="folder">6-7</container>
                   <unitdate>1975</unitdate>
                   <unittitle>Loss Prevention Survey Olin Library</unittitle>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">11</container>
-                  <container type="folder">6-7</container>
+                  <container label="unspecified" type="box">11</container>
+                  <container label="unspecified" type="folder">6-7</container>
                   <unitdate>1979-1981</unitdate>
                   <unittitle>University Library Committee on Development</unittitle>
                </did>
@@ -401,8 +398,8 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">1-3</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">1-3</container>
                   <unitdate>1960-1991</unitdate>
                   <unittitle>Correspondence</unittitle>
                </did>
@@ -414,8 +411,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">4-10</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">4-10</container>
                   <unitdate>May-June 1991</unitdate>
                   <unittitle>Letters</unittitle>
                </did>
@@ -1031,8 +1028,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Documents generated by Joyce Hamilton Finch's death and
                      funeral</unittitle>
                </did>
@@ -1044,8 +1041,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">12-16</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">12-16</container>
                   <unitdate>June-October 1991</unitdate>
                   <unittitle>Letters Herbert received</unittitle>
                </did>
@@ -1601,7 +1598,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Diaries, journals, documents and writings</unittitle>
                </did>
                <scopecontent>
@@ -1618,10 +1615,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <unittitle>
-                     <unitdate>Oct. 26, 1961</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">13</container>
+                  <unitdate>Oct. 26, 1961</unitdate>
                   <physdesc>1 page typed</physdesc>
                </did>
                <scopecontent>
@@ -1650,10 +1645,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <unittitle>
-                     <unitdate>Sept. 25, 1962</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">13</container>
+                  <unitdate>Sept. 25, 1962</unitdate>
                </did>
                <scopecontent>
                   <p>Douglas is four months old; the healthiest, happiest child you can imagine. It
@@ -1666,7 +1659,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
+                  <container label="unspecified" type="box">13</container>
                   <unittitle>Addendum</unittitle>
                </did>
                <scopecontent>
@@ -1689,8 +1682,8 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unitdate>1972-1980</unitdate>
                   <unittitle>Class Schedules, Syllabi, Grades and Evaluations
                   </unittitle>
@@ -1698,19 +1691,23 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Lectures, Documents and Independent Studies (499)</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Student research papers on various cities</unittitle>
                </did>
             </c02>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Herbert Finch papers, #13-6-2182. Division of Rare and Manuscript Collections,
+               Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

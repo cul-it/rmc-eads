@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01866::Guide to the Larry I. Palmer records)//EN">RMA01866</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01866::Guide to the Larry I. Palmer records)//EN">RMA01866</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Larry I. Palmer records,
@@ -25,19 +25,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>May 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Larry I. Palmer Records,<lb/><date type="inclusive" encodinganalog="245$f">1967-1992.</date></titleproper>
+			<titleproper>Guide to the Larry I. Palmer Records,<date encodinganalog="245$f" type="inclusive">1967-1992.</date></titleproper>
 			<num>Collection Number: 4-2-1866</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -63,14 +69,13 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Larry I. Palmer records, <unitdate encodinganalog="MARC 245" type="inclusive">1967-1992.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Larry I. Palmer records, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1967-1992.</unitdate>
 			<unitid label="Collection Number:">4-2-1866</unitid>
 			<origination label="Creator:">
 				<corpname encodinganalog="MARC 110">Cornell University. Vice President for Academic
 					Programs.</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>53 cubic ft.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>53 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Correspondence and departmental records.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -82,7 +87,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="organization">ORGANIZATIONAL HISTORY </head>
+			<head altrender="organization" id="a2">ORGANIZATIONAL HISTORY </head>
 			<p>Records from 1967 to 1984 are from the Office of Vice Provost; records from 1985 to
 				1986 are from the office of the Vice President for Academic Programs. The name
 				change did not reflect any change in personnel or responsibilities.</p>
@@ -109,19 +114,7 @@
 				<corpname encodinganalog="MARC 610">Cornell University. Libraries</corpname>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<accessrestrict>
-				<head>Access Restrictions:</head>
-				<p>Restricted to permission of office of origin.</p>
-			</accessrestrict>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Cornell University. Vice President for Academic Programs. Larry I. Palmer
-					Records, #4-2-1866. Division of Rare and Manuscript Collections, Cornell
-					University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<arrangement encodinganalog="MARC 351$a">
 			<head id="a4">COLLECTION ARRANGEMENT</head>
 			<p>Alphabetical by subject within fiscal year.</p>
@@ -140,5 +133,13 @@
 				</scopecontent> 
 			</c01> 
 		</dsc>
-	</archdesc>
+	<accessrestrict>
+				<head>Access Restrictions:</head>
+				<p>Restricted to permission of office of origin.</p>
+			</accessrestrict><prefercite>
+				<head>Cite As:</head>
+				<p>Cornell University. Vice President for Academic Programs. Larry I. Palmer
+					Records, #4-2-1866. Division of Rare and Manuscript Collections, Cornell
+					University Library.</p>
+			</prefercite></archdesc>
 </ead>

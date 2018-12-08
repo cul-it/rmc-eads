@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM00330::Matthew T. Scott papers)//EN">RMM00330</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM00330::Matthew T. Scott papers)//EN">RMM00330</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Matthew T. Scott papers, 1831-1930.</titleproper>
@@ -28,6 +27,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -36,19 +41,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Matthew T. Scott Papers,<lb/>1831-1930</titleproper>
+         <titleproper>Guide to the Matthew T. Scott Papers,1831-1930</titleproper>
          <num>Collection Number: 330</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -69,14 +74,13 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Matthew T. Scott papers, <unitdate type="inclusive" encodinganalog="MARC 245">1831-1930.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Matthew T. Scott papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1831-1930.</unitdate>
          <unitid label="Collection Number:">330</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Scott, Matthew T., 1828-1891.">Matthew Thompson
                Scott, 1828-1891.</persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>4.5 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>4.5 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, contracts, reports, business diaries,
             receipts, deeds and other financial documents</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -91,7 +95,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>During the decade preceding the Civil War, Matthew T. Scott, Jr., son of a prominent
             Lexington, Kentucky banker, became the principal figure in a series of investments made
             by the Scott family and their partners in Illinois and Iowa land by purchases from the
@@ -183,20 +187,13 @@
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Contracts.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Deeds.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Diaries.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Leases.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Contracts.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Deeds.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Diaries.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Leases.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Matthew T. Scott papers, #330. Division of Rare and Manuscript Collections, Cornell
-               University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="series">
@@ -209,35 +206,35 @@
                </did>
                <c03 level="item">
                   <did>
-                     <container type="box">1</container>
+                     <container label="unspecified" type="box">1</container>
                      <unitdate>1831-1869</unitdate>
                      <unittitle>1831-1969</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">2</container>
+                     <container label="unspecified" type="box">2</container>
                      <unitdate>1870-1890</unitdate>
                      <unittitle>1870-1890</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">3</container>
+                     <container label="unspecified" type="box">3</container>
                      <unitdate>1891-1903</unitdate>
                      <unittitle>1891-1903</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">4</container>
+                     <container label="unspecified" type="box">4</container>
                      <unitdate>1904-1906</unitdate>
                      <unittitle>1904-1906</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">5</container>
+                     <container label="unspecified" type="box">5</container>
                      <unitdate>1907-1909</unitdate>
                      <unittitle>1907-1909</unittitle>
                   </did>
@@ -249,945 +246,711 @@
                </did>
                <c03 level="item">
                   <did>
-                     <container type="box">5</container>
-                     <unittitle>
-                        <unitdate>Dec. 10, 1909</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">5</container>
+                     <unitdate certainty="approximate">Dec. 10, 1909</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Jan. 19, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Jan. 19, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Feb. 2, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Feb. 2, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Feb. 5, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Feb. 5, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Feb. 14, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Feb. 14, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Feb. 17, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Feb. 17, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Apr. 1, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Apr. 1, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Apr. 12, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Apr. 12, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>July 29, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>July 29, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Aug. 22, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Aug. 22, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Aug. 23, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Aug. 23, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Oct. 3, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Oct. 3, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Oct. 4, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Oct. 4, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Oct. 8, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Oct. 8, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Nov. 2, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Nov. 2, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Nov. 14, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Nov. 14, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Nov. 18, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Nov. 18, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Nov. 19, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Nov. 19, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Dec. 8, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate certainty="approximate">Dec. 8, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Dec. 28, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate certainty="approximate">Dec. 28, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
+                     <container label="unspecified" type="box">6</container>
                      <unittitle>
-                        <unitdate>Thurs. 30</unitdate> (filed in Dec. 1910)</unittitle>
+                        Thurs. 30 (filed in Dec. 1910)</unittitle><unitdate>Thurs. 30</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Undated (filed in Dec. 1910)</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate certainty="approximate">Undated (filed in Dec. 1910)</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Feb. 3, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Feb. 3, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Mar. 1, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Mar. 1, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Mar. 18, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Mar. 18, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Apr. 4, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Apr. 4, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>May 4, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>May 4, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>May 13, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>May 13, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>May 22, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>May 22, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>June 2, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>June 2, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>June 10, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>June 10, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>June 23, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>June 23, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>June 28, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>June 28, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>July 1, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>July 1, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>July 6, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>July 6, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>July 13, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>July 13, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>July 27, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>July 27, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Aug. 14, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Aug. 14, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Aug. 21, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Aug. 21, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Sept. 7, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Sept. 7, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Sept. 18, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Sept. 18, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Oct. 15, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Oct. 15, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Nov. 12, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Nov. 12, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Dec. 1, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate certainty="approximate">Dec. 1, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Jan. 16, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Jan. 16, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Feb. 10, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Feb. 10, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Feb. 11, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Feb. 11, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Feb. 20, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Feb. 20, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Feb. 28, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Feb. 28, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 14, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 14, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 20, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 20, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 21, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 21, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Apr. 7, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Apr. 7, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Apr. 25, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Apr. 25, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Apr. 30, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Apr. 30, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>June 11, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>June 11, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>June 20, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>June 20, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>June 29, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>June 29, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>July 12, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>July 12, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>July 17, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>July 17, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>July 31, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>July 31, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Aug. 13, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Aug. 13, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Sept. 6, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Sept. 6, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Sept. 21, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Sept. 21, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Sept. 27, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Sept. 27, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Dec. 2, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate certainty="approximate">Dec. 2, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Dec. 12, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate certainty="approximate">Dec. 12, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Dec. 28, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate certainty="approximate">Dec. 28, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Dec. 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate certainty="approximate">Dec. 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Jan. 21, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Jan. 21, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Feb. 24, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Feb. 24, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 14, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 14, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 24, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 24, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 28, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 28, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Apr. 6, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Apr. 6, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>May 2, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>May 2, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Aug. 6, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Aug. 6, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Sept. 29, 1914</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Sept. 29, 1914</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Dec. 31, 1914</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate certainty="approximate">Dec. 31, 1914</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Jan. 4, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Jan. 4, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Jan. 5, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Jan. 5, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Feb. 1, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Feb. 1, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Feb. 3, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Feb. 3, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Feb. 4, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Feb. 4, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Feb. 13, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Feb. 13, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Feb. 22, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Feb. 22, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Feb. 26, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Feb. 26, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Mar. 4, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Mar. 4, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Mar. 6, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Mar. 6, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>June 8, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>June 8, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>June 16, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>June 16, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>July 10, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>July 10, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>July 12, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>July 12, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Undated; postmarked July 13, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Undated; postmarked July 13, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>July 15, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>July 15, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>July 19, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>July 19, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Aug. 10, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Aug. 10, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Sept. 6, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Sept. 6, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Sept. 10, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Sept. 10, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Sept. 11, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Sept. 11, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Sept. 18, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Sept. 18, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Sept. 28, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Sept. 28, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Oct. 8, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Oct. 8, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Oct. 12, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Oct. 12, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Oct. 28, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Oct. 28, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Nov. 2, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Nov. 2, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Dec. 31, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate certainty="approximate">Dec. 31, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Jan. 28, 1916</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Jan. 28, 1916</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Feb. 2, 1916</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Feb. 2, 1916</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Feb. 24, 1916</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Feb. 24, 1916</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Undated; filed at end of Feb. 1916</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Undated; filed at end of Feb. 1916</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Mar. 1, 1916</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Mar. 1, 1916</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Mar. 6, 1916</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Mar. 6, 1916</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Mar. 10, 1916</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Mar. 10, 1916</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Mar. 17, 1916</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Mar. 17, 1916</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Apr. 4, 1916</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Apr. 4, 1916</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Apr. 6, 1916</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Apr. 6, 1916</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Apr. 9, 1916</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Apr. 9, 1916</unitdate>
                   </did>
                </c03>
             </c02>
@@ -1198,634 +961,476 @@
                </did>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Sept. 12, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Sept. 12, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Sept. 23, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Sept. 23, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Sept. 26, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Sept. 26, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Oct. 5, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Oct. 5, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Oct. 7, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Oct. 7, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Oct. 15, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Oct. 15, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Oct. 18, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Oct. 18, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Oct. 20, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Oct. 20, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Oct. 17, 1910 (clipped to Oct. 20 letter)</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Oct. 17, 1910 (clipped to Oct. 20 letter)</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Nov. 8, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Nov. 8, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Nov. 9, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Nov. 9, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Nov. 16, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate>Nov. 16, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">6</container>
-                     <unittitle>
-                        <unitdate>Dec. 19, 1910</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">6</container>
+                     <unitdate certainty="approximate">Dec. 19, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Feb. 12, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Feb. 12, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 1, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 1, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 7, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 7, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 25, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 25, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Apr. 7, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Apr. 7, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Apr. 29, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Apr. 29, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>May 6, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>May 6, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>May 11, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>May 11, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>May 13, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>May 13, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>May 19, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>May 19, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>June 18, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>June 18, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>July 1911; clipped to letter dated July 15</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>July 1911; clipped to letter dated July 15</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>July 1911 (dated Sunday)</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>July 1911 (dated Sunday)</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Oct. 5, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Oct. 5, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Oct. 13, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Oct. 13, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Oct. 17, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Oct. 17, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Nov. 28, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Nov. 28, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Thanksgiving Day, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Thanksgiving Day, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Dec. 4, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate certainty="approximate">Dec. 4, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Dec. 9, 1911</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate certainty="approximate">Dec. 9, 1911</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 4, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 4, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 5, 1912; clipped to Mar. 14</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 5, 1912; clipped to Mar. 14</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 6, 1912; clipped to Mar. 14</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 6, 1912; clipped to Mar. 14</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 14, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 14, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 24, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 24, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>July 7, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>July 7, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Aug. 31, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Aug. 31, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Sept. 1, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Sept. 1, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Sept. 3, 1912; clipped to undated Sunday letter</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Sept. 3, 1912; clipped to undated Sunday letter</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Oct. 30, 1912</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Oct. 30, 1912</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Jan. 7, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Jan. 7, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Jan. 13, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Jan. 13, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 10, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 10, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 14, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 14, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 21, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 21, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Mar. 27, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Mar. 27, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>June 6, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>June 6, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Aug. 7, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Aug. 7, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Aug. 11, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Aug. 11, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Aug. 17, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Aug. 17, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Aug. 27, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Aug. 27, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">7</container>
-                     <unittitle>
-                        <unitdate>Aug. 27, 1913</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">7</container>
+                     <unitdate>Aug. 27, 1913</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Undated letter filed in Dec. 1914</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate certainty="approximate">Undated letter filed in Dec. 1914</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Jan. 25, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Jan. 25, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Feb. 2, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Feb. 2, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Feb. 7, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Feb. 7, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Feb. 26, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Feb. 26, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Mar. 2, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Mar. 2, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Mar. 4, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Mar. 4, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Mar. 21, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Mar. 21, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Apr. 14, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Apr. 14, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Apr. 16, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Apr. 16, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Apr. 20, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Apr. 20, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>July 10, 1915</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>July 10, 1915</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Feb. 4, 1916 (fragment)</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Feb. 4, 1916 (fragment)</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Mar. 22, 1916</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Mar. 22, 1916</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Mar. 31, 1916</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Mar. 31, 1916</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Apr. 5, 1916 (fragment)</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Apr. 5, 1916 (fragment)</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Apr. 24, 1916 (receipt)</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Apr. 24, 1916 (receipt)</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>May 11, 1917 (receipt)</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>May 11, 1917 (receipt)</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Dec. 1919</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate certainty="approximate">Dec. 1919</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Jan. 1, 1920</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Jan. 1, 1920</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Jan. 31, 1920</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Jan. 31, 1920</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Jan. 31, 1920</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Jan. 31, 1920</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>Apr. 7, 1920</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>Apr. 7, 1920</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
-                     <unittitle>
-                        <unitdate>May 21, 1920</unitdate>
-                     </unittitle>
+                     <container label="unspecified" type="box">8</container>
+                     <unitdate>May 21, 1920</unitdate>
                   </did>
                </c03>
             </c02>
@@ -1835,87 +1440,87 @@
                </did>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
+                     <container label="unspecified" type="box">8</container>
                      <unittitle>On letterhead: Lewis G. Stevenson, Office, McLean County Coal Co.,
                         Bloomington, Ill.; Wednesday</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
+                     <container label="unspecified" type="box">8</container>
                      <unittitle>On letterhead: Galen Hall, Atlantic City, N.J.</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
+                     <container label="unspecified" type="box">8</container>
                      <unittitle>On letterhead: The Greenbrier, White Sulphur Springs, West
                         Virginia</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
+                     <container label="unspecified" type="box">8</container>
                      <unittitle>On letterhead: Lewis G. Stevenson, Secretary of State, State of
                         Illinois, Springfield</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
+                     <container label="unspecified" type="box">8</container>
                      <unittitle>On letterhead: Lewis G. Stevenson, Office, McLean County Coal Co.,
                         Bloomington, Ill.</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
+                     <container label="unspecified" type="box">8</container>
                      <unittitle>On letterhead: The Battle Creek Sanitarium, Battle Creek,
                         Mich.</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
+                     <container label="unspecified" type="box">8</container>
                      <unittitle>On letterhead: The Battle Creek Sanitarium, Battle Creek, Mich.;
                         dated Saturday</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
+                     <container label="unspecified" type="box">8</container>
                      <unittitle>On letterhead: The New Leland, Springfield, Ill.,
                         3/19/--</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
+                     <container label="unspecified" type="box">8</container>
                      <unittitle>On letterhead: Lewis G. Stevenson, Office, McLean County Coal Co.,
                         Bloomington, Ill.; possibly 1915 or 1917</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
+                     <container label="unspecified" type="box">8</container>
                      <unittitle>"On train Saturday"</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
+                     <container label="unspecified" type="box">8</container>
                      <unittitle>Dated Saturday</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
+                     <container label="unspecified" type="box">8</container>
                      <unittitle>Dated Tuesday</unittitle>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">8</container>
+                     <container label="unspecified" type="box">8</container>
                      <unittitle>Updated fragment, page 2 of a letter</unittitle>
                   </did>
                </c03>
@@ -1973,14 +1578,14 @@
                <c03 level="item">
                   <did>
                      <unittitle>List of LGS's traveling expenses</unittitle>
-                     <unitdate>Dec. 3, 1910</unitdate>
+                     <unitdate certainty="approximate">Dec. 3, 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
                      <unittitle>Letter, not addressed, on McLean County Coal Company
                         letterhead</unittitle>
-                     <unitdate>Undated; filed at end of Dec. 1910</unitdate>
+                     <unitdate certainty="approximate">Undated; filed at end of Dec. 1910</unitdate>
                   </did>
                </c03>
                <c03 level="item">
@@ -2034,16 +1639,16 @@
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">7</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">7</container>
                      <unittitle>Daughters of the American Revolution papers</unittitle>
                      <unitdate>1914-1915</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">10</container>
-                     <container type="folder">1-2</container>
+                     <container label="unspecified" type="box">10</container>
+                     <container label="unspecified" type="folder">1-2</container>
                      <unitdate>1916</unitdate>
                      <unittitle>Correspondence regarding financial matters</unittitle>
                   </did>
@@ -2055,7 +1660,7 @@
                </did>
                <c03 level="item">
                   <did>
-                     <container type="box">9</container>
+                     <container label="unspecified" type="box">9</container>
                      <unittitle>In Memoriam: Matthew T. Scott</unittitle>
                      <unitdate>1891</unitdate>
                   </did>
@@ -2063,56 +1668,56 @@
               
                <c03 level="item">
                   <did>
-                     <container type="box">11</container>
+                     <container label="unspecified" type="box">11</container>
                      <unittitle>Memorandum book</unittitle>
                      <unitdate>1859-1860</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">11</container>
+                     <container label="unspecified" type="box">11</container>
                      <unittitle>Memorandum book</unittitle>
                      <unitdate>1860-1861</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">11</container>
+                     <container label="unspecified" type="box">11</container>
                      <unittitle>Memorandum book</unittitle>
                      <unitdate>1856-1867</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">11</container>
+                     <container label="unspecified" type="box">11</container>
                      <unittitle>Notebook</unittitle>
                      <unitdate>1852-1853</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">11</container>
+                     <container label="unspecified" type="box">11</container>
                      <unittitle>Notebook</unittitle>
                      <unitdate>1855-1856</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">11</container>
+                     <container label="unspecified" type="box">11</container>
                      <unittitle>Memorandum book</unittitle>
                      <unitdate>1856-18583</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="box">11</container>
+                     <container label="unspecified" type="box">11</container>
                      <unittitle>Notebook</unittitle>
                      <unitdate>1858</unitdate>
                   </did>
                </c03>
                <c03 level="item">
                   <did>
-                     <container type="volume">1-5</container>
+                     <container label="unspecified" type="volume">1-5</container>
                      <unittitle>City Directories</unittitle>
                   </did>
                </c03>
@@ -2125,8 +1730,8 @@
                   </did>
                   <c02 level="file">
                      <did>
-                        <container type="box">9</container>
-                        <container type="folder">1-2</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">1-2</container>
                         <unitdate>1931-1945</unitdate>
                         <unittitle>Correspondence and Financial papers</unittitle>
                      </did>
@@ -2134,62 +1739,62 @@
                 
                   <c02 level="file">
                      <did>
-                        <container type="box">9</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unitdate>1866-1928</unitdate>
                         <unittitle>McClean County Coal Company</unittitle>
                      </did>
                   </c02>
                   <c02 level="file">
                      <did>
-                        <container type="box">9</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unitdate>1870s-1920</unitdate>
                         <unittitle>McClean County Coal Company</unittitle>
                      </did>
                   </c02>
                   <c02 level="file">
                      <did>
-                        <container type="box">9</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unitdate>1909-1922</unitdate>
                         <unittitle>McClean County Coal Company</unittitle>
                      </did>
                   </c02>
                   <c02 level="file">
                      <did>
-                        <container type="box">9</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unitdate>1909-1922</unitdate>
                         <unittitle>Blank Lease and Indenture Forms</unittitle>
                      </did>
                   </c02>
                   <c02 level="item">
                      <did>
-                        <container type="box">9</container>
+                        <container label="unspecified" type="box">9</container>
                         <unittitle>Vrooman for Senator - posters and newsletter</unittitle>
                         <unitdate>1914</unitdate>
                      </did>
                   </c02>
                   <c02 level="item">
                      <did>
-                        <container type="box">9</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle>National Bureau of Volunteer Speakers: Speech by Carl Vrooman</unittitle>
                         <unitdate>1896</unitdate>
                      </did>
                   </c02>
                   <c02 level="item">
                      <did>
-                        <container type="box">9</container>
+                        <container label="unspecified" type="box">9</container>
                         <unittitle><title>Theodore Roosevelt: Dynamic Geographer</title> by Frank Buffington Vrooman</unittitle>
                         <unitdate>1909</unitdate>
                      </did>
                   </c02>
                   <c02 level="item">
                      <did>
-                        <container type="box">9</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle><title>Feeding the World</title>; <title>Meeting the Farmer Halfway</title>; 
                            <title>Initiative and Referendum in Switzerland</title>; <title>Redressing the Rural Grievance</title>; 
                            <title>The Agricultural Revolution</title>; <title>A Square Deal for the Farmer</title>; <title>The Present Republican Opportunity: By a Democrat</title>; "Inasmuch..." by Carl Vrooman</unittitle>
@@ -2198,35 +1803,39 @@
                   </c02>
                   <c02 level="item">
                      <did>
-                        <container type="box">9</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle>"A Foreign Market or a Post-Mortem" No. 1 document of the 1st Farm Relief Bill by Carl Vrooman</unittitle>
                         <unitdate>1921</unitdate>
                      </did>
                   </c02>
                   <c02 level="item">
                      <did>
-                        <container type="box">9</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle>Report of the Gift Corn Movement</unittitle>
                         <unitdate>1921</unitdate>
                      </did>
                   </c02>
                   <c02 level="item">
                      <did>
-                        <container type="box">10</container>
+                        <container label="unspecified" type="box">10</container>
                         <unittitle>Protest Against Assessment of Deficiency Estate Tax made by Carl Vrooman and Scott Bromwell - Executers of the estate of Julia G. Scott</unittitle>
                      </did>
                   </c02>
                  
                   <c02 level="item">
                      <did>
-                        <container type="box">10</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle>Chenoa Community Centennial</unittitle>
                      </did>
                   </c02>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Matthew T. Scott papers, #330. Division of Rare and Manuscript Collections, Cornell
+               University Library.</p>
+         </prefercite></archdesc>
 </ead>
