@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04202::Geoffrey Chester papers)//EN">RMA04202</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04202::Geoffrey Chester papers)//EN">RMA04202</eadid>
   <filedesc>
     <titlestmt>
       <titleproper>Guide to the Geoffrey Chester papers, <date>1964-2014.</date></titleproper>
@@ -23,16 +23,22 @@
   <profiledesc>
     <creation>Finding aid encoded by RMC Staff, <date>December 2017</date></creation>
   </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
            <titlepage>
-                   <titleproper>Guide to the Geoffrey Chester papers,<lb/><date type="inclusive" encodinganalog="245$f">1964-2014.</date></titleproper>
+                   <titleproper>Guide to the Geoffrey Chester papers,<date encodinganalog="245$f" type="inclusive">1964-2014.</date></titleproper>
            <num>Collection Number: 14-22-4202</num>
-           <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+           <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
            <list type="deflist">
                    <defitem>
                            <label>Contact Information:</label>
-                           <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+                           <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
                    </defitem>
                    <defitem>
                            <label>Compiled by:</label>
@@ -57,14 +63,13 @@
   <archdesc level="collection">
     <did>
             <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245">Geoffrey Chester papers,
-            <unitdate encodinganalog="MARC 245" type="inclusive">1964-2014.</unitdate>
-            </unittitle>
+            <unittitle encodinganalog="MARC 245" label="Title:">Geoffrey Chester papers,
+            </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1964-2014.</unitdate>
             <unitid label="Collection Number:">14-22-4202</unitid>
             <origination label="Creator:">
                     <persname encodinganalog="100" normal="Chester, Geoffrey "> Geoffrey Chester                    </persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>3 cubic feet.</extent></physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>3 cubic feet</extent></physdesc>
             <physdesc label="Forms of Material:">{**Comma Separated List Of Material Formats,End With Period**.}</physdesc>
             <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
             <abstract label="Abstract:">Includes correspondence and subject files pertaining to Chester's career at Cornell.</abstract>
@@ -72,7 +77,7 @@
             </langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">
-            <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+            <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
             <p>Chester was professor emeritus of physics and dean emeritus of Cornell's College of Arts and Sciences. He was an authority on liquid helium.</p>
             <p>He received a B.S. from Edinburgh University in 1950 and a Ph.D. from King's College of London University in 1953.</p>
     </bioghist>
@@ -95,43 +100,36 @@
       <subject encodinganalog="MARC 650">Universities and colleges --  Faculty</subject>
     </controlaccess>
   </controlaccess>
-    <descgrp>
-           <head id="a8">INFORMATION FOR USERS</head>
-                  <prefercite>
-                          <head>Cite As:</head>
-                                   <p>Geoffrey Chester Papers, #14-22-4202. Division of Rare and Manuscript Collections, Cornell University Library.
-                                   </p>
-                  </prefercite>
-    </descgrp>
+    
     <dsc type="combined">
       <head>CONTAINER LIST</head>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">1</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">1</container>
         <unittitle>Manousakis and Reatto Pseudo-Dots Papers</unittitle>
        </did> </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1969/2000">1969-2000</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1969/2000" type="inclusive">1969-2000</unitdate>
         <unittitle>Papers- Surface Fluctuations</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">3</container>
- <unitdate type="inclusive" normal="1977/2000">1977-2000</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">3</container>
+ <unitdate normal="1977/2000" type="inclusive">1977-2000</unitdate>
         <unittitle>Irreversible Processes Papers (Englert)</unittitle>
        </did>
        <scopecontent><p>Sticky Note: BASIC Surface Papers WLTE(Illegible) and Droplets; 14, 26, 41-55</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">4</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Coding Summaries and Homework</unittitle>
        </did>
@@ -139,26 +137,26 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">5</container>
- <unitdate type="inclusive" normal="1984">1984</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">5</container>
+ <unitdate normal="1984" type="inclusive">1984</unitdate>
         <unittitle>Papers and Graphs- He Clusters</unittitle>
        </did>
        <scopecontent><p>Badri- 2D</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">6</container>
- <unitdate type="inclusive" normal="1974/1991">1974-1991</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">6</container>
+ <unitdate normal="1974/1991" type="inclusive">1974-1991</unitdate>
         <unittitle>Papers- Nucleation</unittitle>
        </did>
        <scopecontent><p>Nucleation Classical</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">7</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">7</container>
  <unitdate>Undated</unitdate>
         <unittitle>References and Notes- Drafting Failure</unittitle>
        </did>
@@ -166,86 +164,86 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1966/1999">1966-1999</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1966/1999" type="inclusive">1966-1999</unitdate>
         <unittitle>Papers- Neutron Scattering Exp.</unittitle>
        </did>
        <scopecontent><p>Jim PROJECT</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1997">1997</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1997" type="inclusive">1997</unitdate>
         <unittitle>Papers and Notes- Delta Potentials</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">10</container>
- <unitdate type="inclusive" normal="1978/1996">1978-1996</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">10</container>
+ <unitdate normal="1978/1996" type="inclusive">1978-1996</unitdate>
         <unittitle>Papers- He-He Potentials</unittitle>
        </did>
        <scopecontent><p>(DOBBS Corr) Recent Refheuen(Illegible) M.C. and all Hziz Potentials</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">11</container>
- <unitdate type="inclusive" normal="1966/1999">1966-1999</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">11</container>
+ <unitdate normal="1966/1999" type="inclusive">1966-1999</unitdate>
         <unittitle>Papers- Reprints, Miscellaneous</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">12</container>
- <unitdate type="inclusive" normal="1979/1999">1979-1999</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">12</container>
+ <unitdate normal="1979/1999" type="inclusive">1979-1999</unitdate>
         <unittitle>Papers- Reprints, Miscellaneous</unittitle>
        </did>
        <scopecontent><p>References</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1974/1997">1974-1997</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1974/1997" type="inclusive">1974-1997</unitdate>
         <unittitle>Papers- Basic Variational/Exact Calculations</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1969/1991">1969-1991</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1969/1991" type="inclusive">1969-1991</unitdate>
         <unittitle>Papers- Group</unittitle>
        </did>
        <scopecontent><p>Sticky Note: McK: Fax 011-44-131-226-5284</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">15</container>
- <unitdate type="inclusive" normal="1969/2012">1969-2012</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">15</container>
+ <unitdate normal="1969/2012" type="inclusive">1969-2012</unitdate>
         <unittitle>Papers (and E-mail)- Older</unittitle>
        </did>
        <scopecontent><p>Sticky Note: Review</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">16</container>
- <unitdate type="inclusive" normal="1993">1993</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">16</container>
+ <unitdate normal="1993" type="inclusive">1993</unitdate>
         <unittitle>Faculty of Applied Physics Information and Notes</unittitle>
        </did>
        <scopecontent><p>A.E.P.</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">17</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">17</container>
  <unitdate>Undated</unitdate>
         <unittitle>Notes and Tables</unittitle>
        </did>
@@ -253,51 +251,51 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">18</container>
- <unitdate type="inclusive" normal="2000">2000</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">18</container>
+ <unitdate normal="2000" type="inclusive">2000</unitdate>
         <unittitle>Paper from Prof. GV Chester and Cassette Tapes</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">20</container>
- <unitdate type="inclusive" normal="2000/2001 ">2000-2001 </unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">20</container>
+ <unitdate normal="2000/2001 " type="inclusive">2000-2001 </unitdate>
         <unittitle>Cornell Academic Calendar 2000-01</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">21</container>
- <unitdate type="inclusive" normal="1977/1989">1977-1989</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">21</container>
+ <unitdate normal="1977/1989" type="inclusive">1977-1989</unitdate>
         <unittitle>Papers and Notes- Leipzig</unittitle>
        </did>
        <scopecontent><p>JIM: P^2exl vanives approx. (Illegible)</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">22</container>
- <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">22</container>
+ <unitdate normal="1998/1999" type="inclusive">1998-1999</unitdate>
         <unittitle>Papers Regarding Monte Carlo Simulation and Thesis: Quantum Many Body Calculations</unittitle>
        </did>
        <scopecontent><p>Sticky Notes: 1. Mike-Thesis 2. Second Layer 3. 1st Layer-Graph</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">23</container>
- <unitdate type="inclusive" normal="1989/1999">1989-1999</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">23</container>
+ <unitdate normal="1989/1999" type="inclusive">1989-1999</unitdate>
         <unittitle>Papers Regarding Shadow Wave Function</unittitle>
        </did>
        <scopecontent><p>Sticky Notes: 1. Shadows-Bulk 2. Shadows-Bulk 3. First Shadow 4. IMP. Binding</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">24</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">24</container>
  <unitdate>Undated</unitdate>
         <unittitle>Physical Review Editorial Material</unittitle>
        </did>
@@ -305,261 +303,261 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">25</container>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">25</container>
  <unitdate>Undated</unitdate>
         <unittitle>P.R.L. Rules</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">26</container>
- <unitdate type="inclusive" normal="1996/1999">1996-1999</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">26</container>
+ <unitdate normal="1996/1999" type="inclusive">1996-1999</unitdate>
         <unittitle>Papers Regarding Vortexes</unittitle>
        </did>
        <scopecontent><p>Sticky Notes: 1. PRL. Vortex 2. Vortex-Cylinder 3. 2D Shadows 4. 2D Puddles</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">27</container>
- <unitdate type="inclusive" normal="1987/1999">1987-1999</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">27</container>
+ <unitdate normal="1987/1999" type="inclusive">1987-1999</unitdate>
         <unittitle>Papers- Miscellaneous</unittitle>
        </did>
        <scopecontent><p>Sticky Notes: 1. 2D- Helium 2. First-Vacancy 3. BCC/HCP Vac.</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">28</container>
- <unitdate type="inclusive" normal="1987/1992">1987-1992</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">28</container>
+ <unitdate normal="1987/1992" type="inclusive">1987-1992</unitdate>
         <unittitle>Papers- Miscellaneous</unittitle>
        </did>
        <scopecontent><p>Sticky Notes: 1. Finite T.H.S. 2. H-S El. Consts </p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">29</container>
- <unitdate type="inclusive" normal="1976/1990">1976-1990</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">29</container>
+ <unitdate normal="1976/1990" type="inclusive">1976-1990</unitdate>
         <unittitle>Papers- Monte Carlo Simulation and Van der Waals Study</unittitle>
        </did>
        <scopecontent><p>Sticky Note: H.D. Solid </p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">30</container>
- <unitdate type="inclusive" normal="1966/1980">1966-1980</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">30</container>
+ <unitdate normal="1966/1980" type="inclusive">1966-1980</unitdate>
         <unittitle>Papers- Miscellaneous</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">31</container>
- <unitdate type="inclusive" normal="1982/1988">1982-1988</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">31</container>
+ <unitdate normal="1982/1988" type="inclusive">1982-1988</unitdate>
         <unittitle>Papers Regarding Monte Carlo Simulation </unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">32</container>
- <unitdate type="inclusive" normal="1984/1991">1984-1991</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">32</container>
+ <unitdate normal="1984/1991" type="inclusive">1984-1991</unitdate>
         <unittitle>Papers Regarding Monte Carlo Simulation</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">33</container>
- <unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">33</container>
+ <unitdate normal="1981/1983" type="inclusive">1981-1983</unitdate>
         <unittitle>Papers- Miscellaneous</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">34</container>
- <unitdate type="inclusive" normal="1979/1981">1979-1981</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">34</container>
+ <unitdate normal="1979/1981" type="inclusive">1979-1981</unitdate>
         <unittitle>Papers- Miscellaneous</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">35</container>
- <unitdate type="inclusive" normal="1976/1978">1976-1978</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">35</container>
+ <unitdate normal="1976/1978" type="inclusive">1976-1978</unitdate>
         <unittitle>Papers- Miscellaneous</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">36</container>
- <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">36</container>
+ <unitdate normal="1974/1976" type="inclusive">1974-1976</unitdate>
         <unittitle>Papers- Miscellaneous</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">37</container>
- <unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">37</container>
+ <unitdate normal="1966/1974" type="inclusive">1966-1974</unitdate>
         <unittitle>Papers- Miscellaneous</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">1</container>
-        <container type="folder">38</container>
- <unitdate type="inclusive" normal="1974-07">1974-07</unitdate>
+        <container label="unspecified" type="box">1</container>
+        <container label="unspecified" type="folder">38</container>
+ <unitdate normal="1974-07" type="inclusive">1974-07</unitdate>
         <unittitle>Unpublished Papers</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">1</container>
- <unitdate type="inclusive" normal="1956/1971">1956-1971</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">1</container>
+ <unitdate normal="1956/1971" type="inclusive">1956-1971</unitdate>
         <unittitle>Old Reprints- Miscellaneous</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1940/1991">1940-1991</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1940/1991" type="inclusive">1940-1991</unitdate>
         <unittitle>Miscellaneous Materials: Pamphlet and Notes</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">3</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">3</container>
  <unitdate>Undated</unitdate>
         <unittitle>Curricula Vitae: Brown-Randel</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">4</container>
- <unitdate type="inclusive" normal="1991">1991</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">4</container>
+ <unitdate normal="1991" type="inclusive">1991</unitdate>
         <unittitle>Information on DeKiewiet, Cornelis W.</unittitle>
        </did>
        <scopecontent><p>Photo included</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">5</container>
- <unitdate type="inclusive" normal="1952/1957">1952-1957</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">5</container>
+ <unitdate normal="1952/1957" type="inclusive">1952-1957</unitdate>
         <unittitle>Information on O'Leary, Paul M.</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">6</container>
- <unitdate type="inclusive" normal="1945/1949">1945-1949</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">6</container>
+ <unitdate normal="1945/1949" type="inclusive">1945-1949</unitdate>
         <unittitle>Information on Cottrell, Leonard S. Jr.</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">7</container>
- <unitdate type="inclusive" normal="1985">1985</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">7</container>
+ <unitdate normal="1985" type="inclusive">1985</unitdate>
         <unittitle>Information on Mineka, Francis E. </unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1957/1965">1957-1965</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1957/1965" type="inclusive">1957-1965</unitdate>
         <unittitle>Information on Keast, W.R.</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1896/1930">1896-1930</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1896/1930" type="inclusive">1896-1930</unitdate>
         <unittitle>Information on Crane, Thomas F.</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">10</container>
- <unitdate type="inclusive" normal="1902/1907">1902-1907</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">10</container>
+ <unitdate normal="1902/1907" type="inclusive">1902-1907</unitdate>
         <unittitle>Information on Wilcox, Walter F.</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">11</container>
- <unitdate type="inclusive" normal="1913">1913</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">11</container>
+ <unitdate normal="1913" type="inclusive">1913</unitdate>
         <unittitle>Information on Hull, Henry C.</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">12</container>
- <unitdate type="inclusive" normal="1907/1908">1907-1908</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">12</container>
+ <unitdate normal="1907/1908" type="inclusive">1907-1908</unitdate>
         <unittitle>Information on Hill, Albert R.</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1867/1946">1867-1946</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1867/1946" type="inclusive">1867-1946</unitdate>
         <unittitle>Information on Nichols, Edward L.</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1870/1934">1870-1934</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1870/1934" type="inclusive">1870-1934</unitdate>
         <unittitle>Information on Thilly, Frank</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">15</container>
- <unitdate type="inclusive" normal="1877/1959">1877-1959</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">15</container>
+ <unitdate normal="1877/1959" type="inclusive">1877-1959</unitdate>
         <unittitle>Information on Ogden, Robert M.</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">16</container>
- <unitdate type="inclusive" normal="1976-08/1976-12">1976-08-1976-12</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">16</container>
+ <unitdate normal="1976-08/1976-12" type="inclusive">1976-08-1976-12</unitdate>
         <unittitle>Preliminary and Final reports of the President's Commission on Self-Governance</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">17</container>
- <unitdate type="inclusive" normal="1976-09">1976-09</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">17</container>
+ <unitdate normal="1976-09" type="inclusive">1976-09</unitdate>
         <unittitle>Supplement to the Preliminary Report of the President's Commission on Self-Governance</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">18</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">18</container>
  <unitdate>Undated</unitdate>
         <unittitle>Transparencies and Notes</unittitle>
        </did>
@@ -567,56 +565,56 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">19</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">19</container>
  <unitdate>Undated</unitdate>
         <unittitle>Transparencies: V.G. Vortices</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">20</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">20</container>
  <unitdate>Undated</unitdate>
         <unittitle>Transparencies</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">21</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">21</container>
  <unitdate>Undated</unitdate>
         <unittitle>Transparencies and Notes</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">22</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">22</container>
  <unitdate>Undated</unitdate>
         <unittitle>Blank Transparencies</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">23</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">23</container>
  <unitdate>Undated</unitdate>
         <unittitle>Transparencies: Film V.G.</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">24</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">24</container>
  <unitdate>Undated</unitdate>
         <unittitle>Transparencies: Shadow-Wave-FNS. Talk</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">25</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">25</container>
  <unitdate>Undated</unitdate>
         <unittitle>Transparencies: V.G. Film</unittitle>
        </did>
@@ -624,274 +622,274 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">26</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">26</container>
  <unitdate>Undated</unitdate>
         <unittitle>Papers: A. Griffin</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">27</container>
- <unitdate type="inclusive" normal="1952/1957">1952-1957</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">27</container>
+ <unitdate normal="1952/1957" type="inclusive">1952-1957</unitdate>
         <unittitle>Papers: M.C. History</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">28</container>
- <unitdate type="inclusive" normal="1978/1980">1978-1980</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">28</container>
+ <unitdate normal="1978/1980" type="inclusive">1978-1980</unitdate>
         <unittitle>Papers: D. Ceperley</unittitle>
        </did>
        <scopecontent><p>The Airy-Gas</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">29</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">29</container>
  <unitdate>Undated</unitdate>
         <unittitle>Recent References</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">30</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">30</container>
  <unitdate>Undated</unitdate>
         <unittitle>References: E/W  </unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">31</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">31</container>
  <unitdate>Undated</unitdate>
         <unittitle>Papers: A.A. Robb</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">32</container>
- <unitdate type="inclusive" normal="1995/1999">1995-1999</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">32</container>
+ <unitdate normal="1995/1999" type="inclusive">1995-1999</unitdate>
         <unittitle>Papers: Nano-Tubes</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">33</container>
- <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">33</container>
+ <unitdate normal="1998/1999" type="inclusive">1998-1999</unitdate>
         <unittitle>Papers: Nano-Tubes</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">34</container>
- <unitdate type="inclusive" normal="1994/1999">1994-1999</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">34</container>
+ <unitdate normal="1994/1999" type="inclusive">1994-1999</unitdate>
         <unittitle>Miscellaneous Papers</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">35</container>
- <unitdate type="inclusive" normal="1964/1973">1964-1973</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">35</container>
+ <unitdate normal="1964/1973" type="inclusive">1964-1973</unitdate>
         <unittitle>Older Papers: Ground-State He^4</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">36</container>
- <unitdate type="inclusive" normal="1988/1992">1988-1992</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">36</container>
+ <unitdate normal="1988/1992" type="inclusive">1988-1992</unitdate>
         <unittitle>Miscellaneous Papers: Bill-Magra</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">37</container>
- <unitdate type="inclusive" normal="1996/1999">1996-1999</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">37</container>
+ <unitdate normal="1996/1999" type="inclusive">1996-1999</unitdate>
         <unittitle>Miscellaneous Papers</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">38</container>
- <unitdate type="inclusive" normal="1999">1999</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">38</container>
+ <unitdate normal="1999" type="inclusive">1999</unitdate>
         <unittitle>Recent Papers </unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">39</container>
- <unitdate type="inclusive" normal="1976/1988">1976-1988</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">39</container>
+ <unitdate normal="1976/1988" type="inclusive">1976-1988</unitdate>
         <unittitle>David's PI Papers</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">40</container>
- <unitdate type="inclusive" normal="1968">1968</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">40</container>
+ <unitdate normal="1968" type="inclusive">1968</unitdate>
         <unittitle>Miscellaneous Papers</unittitle>
        </did>
        <scopecontent><p>G.N.C. ald Payen (Illegible)</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">41</container>
- <unitdate type="inclusive" normal="1999">1999</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">41</container>
+ <unitdate normal="1999" type="inclusive">1999</unitdate>
         <unittitle>Correspondence, Notes, and Papers</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">42</container>
- <unitdate type="inclusive" normal="1954/1978">1954-1978</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">42</container>
+ <unitdate normal="1954/1978" type="inclusive">1954-1978</unitdate>
         <unittitle>Old Papers</unittitle>
        </did>
        <scopecontent><p>B.E.C.</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">43</container>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">43</container>
  <unitdate>Undated</unitdate>
         <unittitle>Space Surveys</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">44</container>
- <unitdate type="inclusive" normal="1973/1993">1973-1993</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">44</container>
+ <unitdate normal="1973/1993" type="inclusive">1973-1993</unitdate>
         <unittitle>Film-Papers: Experimental (Chemistry)</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">45</container>
- <unitdate type="inclusive" normal="1983/1990">1983-1990</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">45</container>
+ <unitdate normal="1983/1990" type="inclusive">1983-1990</unitdate>
         <unittitle>Film-Papers: Classical (Chemistry)</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">46</container>
- <unitdate type="inclusive" normal="1974/1996">1974-1996</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">46</container>
+ <unitdate normal="1974/1996" type="inclusive">1974-1996</unitdate>
         <unittitle>Film-Papers: Quantum (Not Graphite)</unittitle>
        </did>
        <scopecontent><p>Note: See Ranch 1-800-643-8899</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">47</container>
- <unitdate type="inclusive" normal="1978/1994">1978-1994</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">47</container>
+ <unitdate normal="1978/1994" type="inclusive">1978-1994</unitdate>
         <unittitle>Film-Papers: Theory II</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">48</container>
- <unitdate type="inclusive" normal="1970/1994">1970-1994</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">48</container>
+ <unitdate normal="1970/1994" type="inclusive">1970-1994</unitdate>
         <unittitle>Film-Papers: Theory II</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">49</container>
- <unitdate type="inclusive" normal="1968/1990">1968-1990</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">49</container>
+ <unitdate normal="1968/1990" type="inclusive">1968-1990</unitdate>
         <unittitle>Vacancies-Solid-He^4 Theory Papers</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">50</container>
- <unitdate type="inclusive" normal="2000">2000</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">50</container>
+ <unitdate normal="2000" type="inclusive">2000</unitdate>
         <unittitle>2nd Layer ^4He Notes</unittitle>
        </did>
        <scopecontent><p>Sticky Note: 10/2D He^4 and exoluver of diffusion and LRO: BEC; and spatial coder (Illegible)</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">51</container>
- <unitdate type="inclusive" normal="1994/2000">1994-2000</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">51</container>
+ <unitdate normal="1994/2000" type="inclusive">1994-2000</unitdate>
         <unittitle>Draft 2nd Layer Papers</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">52</container>
- <unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">52</container>
+ <unitdate normal="1999/2000" type="inclusive">1999-2000</unitdate>
         <unittitle>Paula Paper, Final Copy</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
-        <container type="folder">53</container>
- <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>
+        <container label="unspecified" type="box">2</container>
+        <container label="unspecified" type="folder">53</container>
+ <unitdate normal="1998/1999" type="inclusive">1998-1999</unitdate>
         <unittitle>Emails and Notes</unittitle>
        </did>
        <scopecontent><p>Mass 3 System on Ipaphile Calcium effective 3rd layer potentials</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">1</container>
- <unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">1</container>
+ <unitdate normal="1998/1999" type="inclusive">1998-1999</unitdate>
         <unittitle>Emails and Notes</unittitle>
        </did>
        <scopecontent><p>Badri-Paula Latest Pots</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1997/1999" type="inclusive">1997-1999</unitdate>
         <unittitle>Emails and Papers</unittitle>
        </did>
        <scopecontent><p>Paula New Film Work. Note: Send papers to Manausatics, xstil emerges Frey, Paula est (Illegible)</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">3</container>
- <unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">3</container>
+ <unitdate normal="1997/1999" type="inclusive">1997-1999</unitdate>
         <unittitle>Emails and Notes</unittitle>
        </did>
        <scopecontent><p>2nd Layer; Pepeli Figures, Tables-Data Sticky Note: Have 40 lines mene level Haye ^32 (Illegible)</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">4</container>
- <unitdate type="inclusive" normal="1977/1991">1977-1991</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">4</container>
+ <unitdate normal="1977/1991" type="inclusive">1977-1991</unitdate>
         <unittitle>Papers</unittitle>
        </did>
        <scopecontent><p>^3He- 2D and Film Condensation Papers</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">5</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">5</container>
  <unitdate>Undated</unitdate>
         <unittitle>References</unittitle>
        </did>
@@ -899,8 +897,8 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">6</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">6</container>
  <unitdate>Undated</unitdate>
         <unittitle>Figures and Tables</unittitle>
        </did>
@@ -908,111 +906,111 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">7</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">7</container>
  <unitdate>Undated</unitdate>
         <unittitle>Notes- Film</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">8</container>
- <unitdate type="inclusive" normal="1999">1999</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1999" type="inclusive">1999</unitdate>
         <unittitle>Emails and Notes</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">9</container>
- <unitdate type="inclusive" normal="1995/1998">1995-1998</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1995/1998" type="inclusive">1995-1998</unitdate>
         <unittitle>Papers</unittitle>
        </did>
        <scopecontent><p>Refs. Granada</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">10</container>
- <unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">10</container>
+ <unitdate normal="1996/1998" type="inclusive">1996-1998</unitdate>
         <unittitle>Emails and Papers</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">11</container>
- <unitdate type="inclusive" normal="1996-10">1996-10</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">11</container>
+ <unitdate normal="1996-10" type="inclusive">1996-10</unitdate>
         <unittitle>Graphs</unittitle>
        </did>
        <scopecontent><p>Film Latest Version Oct 1996</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">12</container>
- <unitdate type="inclusive" normal="1990/1996"> </unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">12</container>
+ <unitdate normal="1990/1996" type="inclusive"> </unitdate>
         <unittitle>Emails and Papers (Surface-Pots)</unittitle>
        </did>
        <scopecontent><p>Films- Surface Potentials (See also AJIT. File) 2nd note: SenfvecSceence (Illegible) QD506 A1 597</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">13</container>
- <unitdate type="inclusive" normal="1995/1997">1995-1997</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">13</container>
+ <unitdate normal="1995/1997" type="inclusive">1995-1997</unitdate>
         <unittitle>Papers (Mike-PRL-Vortex)</unittitle>
        </did>
        <scopecontent><p>PRL Draft and Proofs</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">14</container>
- <unitdate type="inclusive" normal="1997">1997</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">14</container>
+ <unitdate normal="1997" type="inclusive">1997</unitdate>
         <unittitle>Papers (Prague)</unittitle>
        </did>
        <scopecontent><p>Prague- Vortex</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">15</container>
- <unitdate type="inclusive" normal="1994/1997">1994-1997</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">15</container>
+ <unitdate normal="1994/1997" type="inclusive">1994-1997</unitdate>
         <unittitle>Papers and Notes</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">16</container>
- <unitdate type="inclusive" normal="1986/1999">1986-1999</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">16</container>
+ <unitdate normal="1986/1999" type="inclusive">1986-1999</unitdate>
         <unittitle>Emails and Papers</unittitle>
        </did>
        <scopecontent><p>Mike PRL Revisions</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">17</container>
- <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">17</container>
+ <unitdate normal="1974/1976" type="inclusive">1974-1976</unitdate>
         <unittitle>Papers (^3He- Vortex)</unittitle>
        </did>
        <scopecontent><p>Vortex- ^3He Trapping Papers</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">18</container>
- <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">18</container>
+ <unitdate normal="1997/1998" type="inclusive">1997-1998</unitdate>
         <unittitle>Emails (from Krishnamachari Badrinarayan)</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">19</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">19</container>
  <unitdate>Undated</unitdate>
         <unittitle>Notes and Graphs</unittitle>
        </did>
@@ -1020,218 +1018,222 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">20</container>
- <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">20</container>
+ <unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
         <unittitle>Papers and Notes</unittitle>
        </did>
        <scopecontent><p>Vortex: Refs to Lattices</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">21</container>
- <unitdate type="inclusive" normal="1958/2000">1958-2000</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">21</container>
+ <unitdate normal="1958/2000" type="inclusive">1958-2000</unitdate>
         <unittitle>Papers on Vortex Theory</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">22</container>
- <unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">22</container>
+ <unitdate normal="1966/1970" type="inclusive">1966-1970</unitdate>
         <unittitle>Papers on Vortex Theory</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">23</container>
- <unitdate type="inclusive" normal="1968">1968</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">23</container>
+ <unitdate normal="1968" type="inclusive">1968</unitdate>
         <unittitle>Papers on Vortex Lattices</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">24</container>
- <unitdate type="inclusive" normal="1894">1894</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">24</container>
+ <unitdate normal="1894" type="inclusive">1894</unitdate>
         <unittitle>Papers on Spherical Vortex</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">25</container>
- <unitdate type="inclusive" normal="1960/1971">1960-1971</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">25</container>
+ <unitdate normal="1960/1971" type="inclusive">1960-1971</unitdate>
         <unittitle>Papers on Vortex Lines</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">26</container>
- <unitdate type="inclusive" normal="1984">1984</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">26</container>
+ <unitdate normal="1984" type="inclusive">1984</unitdate>
         <unittitle>Papers</unittitle>
        </did>
        <scopecontent><p>2D Papers Classical</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">27</container>
- <unitdate type="inclusive" normal="1987/1994">1987-1994</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">27</container>
+ <unitdate normal="1987/1994" type="inclusive">1987-1994</unitdate>
         <unittitle>Papers</unittitle>
        </did>
        <scopecontent><p>2D Melting elt.</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">28</container>
- <unitdate type="inclusive" normal="1969/1984">1969-1984</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">28</container>
+ <unitdate normal="1969/1984" type="inclusive">1969-1984</unitdate>
         <unittitle>Papers</unittitle>
        </did>
        <scopecontent><p>2D Melting elt.</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">29</container>
- <unitdate type="inclusive" normal="1983/1997">1983-1997</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">29</container>
+ <unitdate normal="1983/1997" type="inclusive">1983-1997</unitdate>
         <unittitle>Papers and Notes</unittitle>
        </did>
        <scopecontent><p>New Hard Disc and 2D-Melting</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">30</container>
- <unitdate type="inclusive" normal="1981/1988">1981-1988</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">30</container>
+ <unitdate normal="1981/1988" type="inclusive">1981-1988</unitdate>
         <unittitle>Papers (JZ- recent)</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">31</container>
- <unitdate type="inclusive" normal="1981/1993">1981-1993</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">31</container>
+ <unitdate normal="1981/1993" type="inclusive">1981-1993</unitdate>
         <unittitle>Papers and Notes</unittitle>
        </did>
        <scopecontent><p>3D- Drops. /Papers</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">32</container>
- <unitdate type="inclusive" normal="1985/1991">1985-1991</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">32</container>
+ <unitdate normal="1985/1991" type="inclusive">1985-1991</unitdate>
         <unittitle>Papers</unittitle>
        </did>
        <scopecontent><p>Classical- Interface</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">33</container>
- <unitdate type="inclusive" normal="1977/1982">1977-1982</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">33</container>
+ <unitdate normal="1977/1982" type="inclusive">1977-1982</unitdate>
         <unittitle>Papers and Notes</unittitle>
        </did>
        <scopecontent><p>Solid-Fluid Interface</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">34</container>
- <unitdate type="inclusive" normal="1966/1979">1966-1979</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">34</container>
+ <unitdate normal="1966/1979" type="inclusive">1966-1979</unitdate>
         <unittitle>Papers on Long Range Order</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">35</container>
- <unitdate type="inclusive" normal="1969/1997">1969-1997</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">35</container>
+ <unitdate normal="1969/1997" type="inclusive">1969-1997</unitdate>
         <unittitle>Papers</unittitle>
        </did>
        <scopecontent><p>Sticky Note: The reanalysis of select data</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">36</container>
- <unitdate type="inclusive" normal="1977/1997">1977-1997</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">36</container>
+ <unitdate normal="1977/1997" type="inclusive">1977-1997</unitdate>
         <unittitle>Papers</unittitle>
        </did>
        <scopecontent><p>Sticky Note: The reanalysis of select data</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">37</container>
- <unitdate type="inclusive" normal="1979/1989">1979-1989</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">37</container>
+ <unitdate normal="1979/1989" type="inclusive">1979-1989</unitdate>
         <unittitle>Papers on Voronoi Polyhedra</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">38</container>
- <unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">38</container>
+ <unitdate normal="1996/1997" type="inclusive">1996-1997</unitdate>
         <unittitle>Papers and Notes</unittitle>
        </did>
        <scopecontent><p>Francesco/ Vacancies</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">39</container>
- <unitdate type="inclusive" normal="1979/1992">1979-1992</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">39</container>
+ <unitdate normal="1979/1992" type="inclusive">1979-1992</unitdate>
         <unittitle>Papers</unittitle>
        </did>
        <scopecontent><p>Vacancies- Classical Refs.</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">40</container>
- <unitdate type="inclusive" normal="1996">1996</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">40</container>
+ <unitdate normal="1996" type="inclusive">1996</unitdate>
         <unittitle>Papers</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">41</container>
- <unitdate type="inclusive" normal="1993/1999">1993-1999</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">41</container>
+ <unitdate normal="1993/1999" type="inclusive">1993-1999</unitdate>
         <unittitle>Papers and Correspondence- Francesco</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">42</container>
- <unitdate type="inclusive" normal="1997">1997</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">42</container>
+ <unitdate normal="1997" type="inclusive">1997</unitdate>
         <unittitle>Papers and Graphs</unittitle>
        </did>
        <scopecontent><p>Basu- Vacancies</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">43</container>
- <unitdate type="inclusive" normal="1999">1999</unitdate>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">43</container>
+ <unitdate normal="1999" type="inclusive">1999</unitdate>
         <unittitle>Papers and Abstracts</unittitle>
        </did>
        <scopecontent><p>Modes in Solid Helium (Basu)</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">3</container>
-        <container type="folder">44</container>
+        <container label="unspecified" type="box">3</container>
+        <container label="unspecified" type="folder">44</container>
  <unitdate>Undated</unitdate>
         <unittitle>Graphs</unittitle>
        </did>
    </c01>
     </dsc>
-  </archdesc>
+  <prefercite>
+                          <head>Cite As:</head>
+                                   <p>Geoffrey Chester Papers, #14-22-4202. Division of Rare and Manuscript Collections, Cornell University Library.
+                                   </p>
+                  </prefercite></archdesc>
  </ead>

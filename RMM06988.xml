@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06988::Diacritics collection)//EN">RMM06988</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06988::Diacritics collection)//EN">RMM06988</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Diacritics collection, <date>[ca. 1971-2011]</date></titleproper>
@@ -22,19 +22,25 @@
     <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>September 2013</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Diacritics Collection,<lb/><date type="inclusive" encodinganalog="245$f">[ca. 1971-2011]</date></titleproper>
+      <titleproper>Guide to the Diacritics Collection,<date encodinganalog="245$f" type="inclusive">[ca. 1971-2011]</date></titleproper>
       <num>Collection Number: 6988</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-            Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607)
-              255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+            Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607)
+              255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
         </defitem>
         <defitem>
           <label>Compiled by:</label>
@@ -59,11 +65,10 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">Diacritics collection, <unitdate encodinganalog="MARC 245" type="inclusive">[ca. 1971-2011]</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">Diacritics collection, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1971-2011</unitdate>
       <unitid label="Collection Number:">6988</unitid>
       <origination label="Creator:"/>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>16 cubic feet.</extent></physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>16 cubic feet</extent></physdesc>
       <physdesc label="Forms of Material:">Correspondence, manuscripts, publications</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
         University Library</repository>
@@ -96,64 +101,53 @@
         <subject encodinganalog="MARC 650">Arts</subject>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <accessrestrict>
-        <head>Access Restrictions:</head>
-        <p>Restriced to permission of the editor of Diacritics.</p>
-      </accessrestrict>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>Diacritics Collection, #6988. Division of Rare and Manuscript Collections, Cornell
-          University Library.</p>
-      </prefercite>
-    </descgrp>
+    
     <arrangement>
       <head>SERIES LIST</head>
       <p>
         <emph render="bold">
-          <ref target="s1" show="replace" actuate="onrequest">Series I. Administrative files</ref>
+          <ref actuate="onrequest" show="replace" target="s1">Series I. Administrative files</ref>
         </emph>
-        <lb/>Boxes 1-2 </p>
+        Boxes 1-2 </p>
       <p><ref target="s1ss1">Editorial board</ref>
-        <lb/><ref target="s1ss2">Internal correspondence</ref>
-        <lb/><ref target="s1ss3">Correspondence with Johns Hopkins</ref>
-        <lb/><ref target="s1ss4">Other external correspondence</ref>
-        <lb/><ref target="s1ss5">Subscriptions and publicity</ref>
-        <lb/><ref target="s1ss6">Management and copyright issues</ref>
-        <lb/><ref target="s1ss7">Article inventories</ref>
-        <lb/><ref target="s1ss8">Editorial processes</ref>
+        <ref target="s1ss2">Internal correspondence</ref>
+        <ref target="s1ss3">Correspondence with Johns Hopkins</ref>
+        <ref target="s1ss4">Other external correspondence</ref>
+        <ref target="s1ss5">Subscriptions and publicity</ref>
+        <ref target="s1ss6">Management and copyright issues</ref>
+        <ref target="s1ss7">Article inventories</ref>
+        <ref target="s1ss8">Editorial processes</ref>
       </p>
 
       <p>
         <emph render="bold">
-          <ref target="s2" show="replace" actuate="onrequest">Series II. Production</ref>
+          <ref actuate="onrequest" show="replace" target="s2">Series II. Production</ref>
         </emph>
-        <lb/>Boxes 2-6 </p>
+        Boxes 2-6 </p>
       <p><ref target="s2ss1">Proofs and galleys</ref>
-        <lb/><ref target="s2ss2">Design and layout</ref>
-        <lb/><ref target="s2ss3">Art</ref>
-        <lb/><ref target="s2ss4">Planning for special issues</ref>
+        <ref target="s2ss2">Design and layout</ref>
+        <ref target="s2ss3">Art</ref>
+        <ref target="s2ss4">Planning for special issues</ref>
       </p>
       <p>
         <emph render="bold">
-          <ref target="s3" show="replace" actuate="onrequest">Series III. Submissions and
+          <ref actuate="onrequest" show="replace" target="s3">Series III. Submissions and
             Reviews</ref>
         </emph>
-        <lb/>Boxes 6-14</p>
+        Boxes 6-14</p>
       <p><ref target="s3ss1">Evaluation files of accepted articles</ref>
-        <lb/><ref target="s3ss2">Evaluation files of rejected articles</ref>
+        <ref target="s3ss2">Evaluation files of rejected articles</ref>
       </p>
 
       <p>
         <emph render="bold">
-          <ref target="s4" show="replace" actuate="onrequest">Series IV. Issues of Diacritics</ref>
+          <ref actuate="onrequest" show="replace" target="s4">Series IV. Issues of Diacritics</ref>
         </emph>
-        <lb/>Boxes 15-16</p>
+        Boxes 15-16</p>
 
       <p>
         <emph render="bold">
-          <ref target="s5" show="replace" actuate="onrequest">Series V. Interviews</ref>
+          <ref actuate="onrequest" show="replace" target="s5">Series V. Interviews</ref>
         </emph>
       </p>
     </arrangement>
@@ -175,8 +169,8 @@
 
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">1</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">1</container>
               <unitdate>1993-2000</unitdate>
               <unittitle>Board invitations and resignations</unittitle>
             </did>
@@ -186,16 +180,16 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">2</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">2</container>
               <unitdate>Various</unitdate>
               <unittitle>Minutes from board meetings</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">3</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">3</container>
               <unitdate>1994-1995</unitdate>
               <unittitle>Editorial board--internal correspondence</unittitle>
             </did>
@@ -212,8 +206,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">4-6</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">4-6</container>
               <unitdate>1987-1993</unitdate>
               <unittitle>Castillo internal correspondence</unittitle>
             </did>
@@ -225,8 +219,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">7</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">7</container>
               <unitdate>1998</unitdate>
               <unittitle>Richard Klein internal correspondence</unittitle>
             </did>
@@ -236,8 +230,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">8</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">8</container>
               <unitdate>Summer-Fall 1994</unitdate>
               <unittitle>Resina--Internal/editorial correspondence</unittitle>
             </did>
@@ -248,8 +242,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">9</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">9</container>
               <unitdate>1987</unitdate>
               <unittitle>Philip Lewis--Transition notes</unittitle>
             </did>
@@ -260,9 +254,9 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">9a</container>
-              <unitdate>ca. 2009</unitdate>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">9a</container>
+              <unitdate certainty="approximate">2009</unitdate>
               <unittitle>D. I. Grossvogel to unknown (Diacritics editor?) regarding metacriticism</unittitle>
             </did>
           </c03>
@@ -273,8 +267,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">10</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">10</container>
               <unitdate>1982-2001</unitdate>
               <unittitle>JHUP-Diacritics marketing</unittitle>
             </did>
@@ -286,8 +280,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">11</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">11</container>
               <unitdate>1979-1985</unitdate>
               <unittitle>JHUP-Financial correspondence</unittitle>
             </did>
@@ -298,8 +292,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">12</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">12</container>
               <unitdate>1979-2002</unitdate>
               <unittitle>JHUP-Other correspondence</unittitle>
             </did>
@@ -315,8 +309,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">13-17</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">13-17</container>
               <unitdate>1985-1991</unitdate>
               <unittitle>Debra Castillo--external correspondence</unittitle>
             </did>
@@ -328,8 +322,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">18</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">18</container>
               <unitdate>Summer-Fall 1994</unitdate>
               <unittitle>Bruno Bosteels--external correspondence</unittitle>
             </did>
@@ -339,8 +333,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">19</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">19</container>
               <unitdate>Summer-Fall 1994</unitdate>
               <unittitle>Joan Ramon Resina--external correspondence</unittitle>
             </did>
@@ -350,8 +344,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">20</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">20</container>
               <unitdate>1978-1993</unitdate>
               <unittitle>Paper proposals, 1978-1993</unittitle>
             </did>
@@ -362,8 +356,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">21</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">21</container>
               <unitdate>1998-2005</unitdate>
               <unittitle>Resina paper proposals</unittitle>
             </did>
@@ -374,8 +368,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">22</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">22</container>
               <unitdate>Summer-Fall 1994</unitdate>
               <unittitle>Philip Lewis--external correspondence</unittitle>
             </did>
@@ -385,8 +379,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">23</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">23</container>
               <unitdate>Summer-Fall 1994</unitdate>
               <unittitle>Philip Lewis--Editorial correspondence</unittitle>
             </did>
@@ -397,8 +391,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">24</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">24</container>
               <unitdate>Summer-Fall 1994</unitdate>
               <unittitle>Jonathan Culler--Editorial correspondence</unittitle>
             </did>
@@ -408,8 +402,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">25-28</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">25-28</container>
               <unitdate>1989-1991</unitdate>
               <unittitle>Article proposals to Debra Castillo</unittitle>
             </did>
@@ -426,8 +420,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">29</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">29</container>
               <unitdate>Various</unitdate>
               <unittitle>Programs for Diacritics conferences</unittitle>
             </did>
@@ -439,8 +433,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">1-2</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">1-2</container>
               <unitdate>1989-2009</unitdate>
               <unittitle>Financial records</unittitle>
             </did>
@@ -450,8 +444,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">3</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">3</container>
               <unitdate>1986-1996</unitdate>
               <unittitle>Editorial assistant position</unittitle>
             </did>
@@ -461,8 +455,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">4</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">4</container>
               <unitdate>1982-1997</unitdate>
               <unittitle>Permissions requests</unittitle>
             </did>
@@ -472,8 +466,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">5</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">5</container>
               <unitdate>1971-1974</unitdate>
               <unittitle>Legal documents</unittitle>
             </did>
@@ -489,8 +483,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">6-7</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">6-7</container>
               <unitdate>1987-2009</unitdate>
               <unittitle>Article inventories and indices</unittitle>
             </did>
@@ -505,8 +499,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">8</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">8</container>
               <unitdate>Undated</unitdate>
               <unittitle>Submission style notes</unittitle>
             </did>
@@ -529,8 +523,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">9</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">9</container>
               <unitdate>Summer 1993</unitdate>
               <unittitle>23.2</unittitle>
             </did>
@@ -538,8 +532,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">10-14</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">10-14</container>
               <unitdate>Summer-Fall 1994</unitdate>
               <unittitle>24.2-3</unittitle>
             </did>
@@ -549,8 +543,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">15-16</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">15-16</container>
               <unitdate>Winter 1995</unitdate>
               <unittitle>25.4</unittitle>
             </did>
@@ -559,32 +553,32 @@
 
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">17-18</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">17-18</container>
               <unitdate>Spring 1996</unitdate>
               <unittitle>26.1</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">1</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">1</container>
               <unitdate>Summer 1997</unitdate>
               <unittitle>27.2</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">2</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">2</container>
               <unitdate>Winter 1997</unitdate>
               <unittitle>27.4</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">3</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">3</container>
               <unitdate>Fall 1998</unitdate>
               <unittitle>28.3</unittitle>
             </did>
@@ -594,8 +588,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">4-5</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">4-5</container>
               <unitdate>Winter 1998</unitdate>
               <unittitle>28.4</unittitle>
             </did>
@@ -605,8 +599,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">6</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">6</container>
               <unitdate>Spring 1999</unitdate>
               <unittitle>29.1</unittitle>
             </did>
@@ -614,8 +608,8 @@
 
           <c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">7</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">7</container>
               <unitdate>Summer 1999</unitdate>
               <unittitle>29.2</unittitle>
             </did>
@@ -623,16 +617,16 @@
 
           <c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">8-9</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">8-9</container>
               <unitdate>Fall 1999</unitdate>
               <unittitle>29.3</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">10</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">10</container>
               <unitdate>Fall 1999</unitdate>
               <unittitle>29.3</unittitle>
             </did>
@@ -641,8 +635,8 @@
 
           <c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">11-14</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">11-14</container>
               <unitdate>Summer 1999</unitdate>
               <unittitle>29.2</unittitle>
             </did>
@@ -650,8 +644,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">15-19 </container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">15-19 </container>
               <unitdate>Winter 1999</unitdate>
               <unittitle>29.4</unittitle>
             </did>
@@ -661,8 +655,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">1-3</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">1-3</container>
               <unitdate>Spring 2000</unitdate>
               <unittitle> 30.1</unittitle>
             </did>
@@ -673,8 +667,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">4</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">4</container>
               <unitdate>Fall 2000</unitdate>
               <unittitle>30.3</unittitle>
             </did>
@@ -682,8 +676,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">5</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">5</container>
               <unitdate>Fall 2000</unitdate>
               <unittitle>30.3</unittitle>
             </did>
@@ -691,8 +685,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">6</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">6</container>
               <unitdate>Winter 2000</unitdate>
               <unittitle>30.4</unittitle>
             </did>
@@ -700,8 +694,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">7</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">7</container>
               <unitdate>Winter 2000</unitdate>
               <unittitle>30.4</unittitle>
             </did>
@@ -712,8 +706,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">8</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">8</container>
               <unitdate>Spring 2001</unitdate>
               <unittitle>31.1</unittitle>
             </did>
@@ -721,8 +715,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">9</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">9</container>
               <unitdate>Spring 2001</unitdate>
               <unittitle>31.1</unittitle>
             </did>
@@ -732,16 +726,16 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">10</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">10</container>
               <unitdate>Fall 2001</unitdate>
               <unittitle>31.3</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">11</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">11</container>
               <unitdate>Winter 2001</unitdate>
               <unittitle>31.4</unittitle>
             </did>
@@ -749,8 +743,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">12-13</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">12-13</container>
               <unitdate>Fall-Winter 2002</unitdate>
               <unittitle>32.3-4</unittitle>
             </did>
@@ -760,8 +754,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">13-14</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">13-14</container>
               <unitdate>Fall-Winter 2004</unitdate>
               <unittitle>34.3-4</unittitle>
 
@@ -772,8 +766,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">15-19</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">15-19</container>
               <unitdate>Spring 2005</unitdate>
               <unittitle>35.1</unittitle>
             </did>
@@ -783,8 +777,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">5</container>
-              <container type="folder">1-2</container>
+              <container label="unspecified" type="box">5</container>
+              <container label="unspecified" type="folder">1-2</container>
               <unitdate>Summer 2005</unitdate>
               <unittitle>35.2</unittitle>
             </did>
@@ -792,8 +786,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">5</container>
-              <container type="folder">3</container>
+              <container label="unspecified" type="box">5</container>
+              <container label="unspecified" type="folder">3</container>
               <unitdate>Summer 2005</unitdate>
               <unittitle>35.2</unittitle>
             </did>
@@ -803,8 +797,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">5</container>
-              <container type="folder">4-6</container>
+              <container label="unspecified" type="box">5</container>
+              <container label="unspecified" type="folder">4-6</container>
               <unitdate>Fall 2005</unitdate>
               <unittitle>35.3</unittitle>
             </did>
@@ -812,8 +806,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">5</container>
-              <container type="folder">7-11</container>
+              <container label="unspecified" type="box">5</container>
+              <container label="unspecified" type="folder">7-11</container>
               <unitdate>Winter 2005</unitdate>
               <unittitle>35.4</unittitle>
             </did>
@@ -824,16 +818,16 @@
 
           <c03 level="file">
             <did>
-              <container type="box">5</container>
-              <container type="folder">12-13</container>
+              <container label="unspecified" type="box">5</container>
+              <container label="unspecified" type="folder">12-13</container>
               <unitdate>Spring 2006</unitdate>
               <unittitle>36.1</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">5</container>
-              <container type="folder">14</container>
+              <container label="unspecified" type="box">5</container>
+              <container label="unspecified" type="folder">14</container>
               <unitdate>Spring 2006</unitdate>
               <unittitle>36.1 Final Proofs</unittitle>
             </did>
@@ -841,8 +835,8 @@
 
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">1-4</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">1-4</container>
               <unitdate>Summer 2006</unitdate>
               <unittitle>36.2</unittitle>
             </did>
@@ -852,8 +846,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">5</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">5</container>
               <unitdate>Summer/Fall 2007</unitdate>
               <unittitle>37.2-3</unittitle>
             </did>
@@ -863,8 +857,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">6-9</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">6-9</container>
               <unitdate>Spring/Summer 2008</unitdate>
               <unittitle>38.1-2</unittitle>
             </did>
@@ -875,8 +869,8 @@
 
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">10-11</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">10-11</container>
               <unitdate>Fall 2008</unitdate>
               <unittitle>38.3</unittitle>
             </did>
@@ -889,8 +883,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">12</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">12</container>
               <unitdate>1995</unitdate>
               <unittitle>25.1 Design Proofs</unittitle>
             </did>
@@ -905,8 +899,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">13</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">13</container>
               <unitdate>Undated</unitdate>
               <unittitle>The Case for Books</unittitle>
             </did>
@@ -916,8 +910,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">14</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">14</container>
               <unitdate>Undated</unitdate>
               <unittitle>Miscellaneous Art</unittitle>
             </did>
@@ -925,8 +919,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">15</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">15</container>
               <unitdate>Undated</unitdate>
               <unittitle>Diacritics--Graphics</unittitle>
             </did>
@@ -942,8 +936,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">16</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">16</container>
               <unitdate>Undated</unitdate>
               <unittitle>Special issue proposal guidelines</unittitle>
             </did>
@@ -953,8 +947,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">17</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">17</container>
               <unitdate>1983-1988</unitdate>
               <unittitle>Correspondence on various special issues</unittitle>
             </did>
@@ -962,8 +956,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">18</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">18</container>
               <unitdate>1986</unitdate>
               <unittitle>Special issue proposal: African-American Thought</unittitle>
             </did>
@@ -974,8 +968,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">19</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">19</container>
               <unitdate>1990</unitdate>
               <unittitle>Special issue proposal: Descartes</unittitle>
             </did>
@@ -986,8 +980,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">20</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">20</container>
               <unitdate>1989-1991</unitdate>
               <unittitle>Special issue proposal: Philippe Lacoue-Labarthe and Jean-Luc
                 Nancy</unittitle>
@@ -999,8 +993,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">21</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">21</container>
               <unitdate>1992</unitdate>
               <unittitle>Special issue proposal: Views of America</unittitle>
             </did>
@@ -1010,8 +1004,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">22</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">22</container>
               <unitdate>1993</unitdate>
               <unittitle>Special issue proposal: Latin American Literature</unittitle>
             </did>
@@ -1023,8 +1017,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">23</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">23</container>
               <unitdate>1995</unitdate>
               <unittitle>Diacritics 25th Anniversary Issue, 25.2</unittitle>
             </did>
@@ -1036,8 +1030,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">24</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">24</container>
               <unitdate>1989</unitdate>
               <unittitle>Richard Klein--Nuclear Criticism</unittitle>
             </did>
@@ -1049,8 +1043,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">25</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">25</container>
               <unitdate>1994</unitdate>
               <unittitle>Special issue proposal: Poetry Issue</unittitle>
             </did>
@@ -1061,8 +1055,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">26</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">26</container>
               <unitdate>1995</unitdate>
               <unittitle>Special issue proposal: Bataille</unittitle>
             </did>
@@ -1073,8 +1067,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">27</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">27</container>
               <unitdate>1997</unitdate>
               <unittitle>Special issue proposal: Irigaray Issue</unittitle>
             </did>
@@ -1085,8 +1079,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">28</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">28</container>
               <unitdate>1999</unitdate>
               <unittitle>Special issue proposal: Post-Mortem</unittitle>
             </did>
@@ -1097,8 +1091,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">29</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">29</container>
               <unitdate>1999</unitdate>
               <unittitle>Special issue proposal: Transgender Theory</unittitle>
             </did>
@@ -1109,8 +1103,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">30</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">30</container>
               <unitdate>1999</unitdate>
               <unittitle>Special issue proposal: Anderson Issue</unittitle>
             </did>
@@ -1121,8 +1115,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">31</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">31</container>
               <unitdate>1999</unitdate>
               <unittitle>Special issue proposal: Glas</unittitle>
             </did>
@@ -1132,8 +1126,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">32</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">32</container>
               <unitdate>2002</unitdate>
               <unittitle>Special issue proposal: Rethinking Beauty</unittitle>
             </did>
@@ -1144,8 +1138,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">33</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">33</container>
               <unitdate>2005</unitdate>
               <unittitle>Special issue proposal: Marriage</unittitle>
             </did>
@@ -1156,8 +1150,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">34</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">34</container>
               <unitdate>2005</unitdate>
               <unittitle>Special issue proposal: Medieval Iberia</unittitle>
             </did>
@@ -1168,8 +1162,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">35</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">35</container>
               <unitdate>2005</unitdate>
               <unittitle>Special issue proposal: Laruelle and Nonphilosophy</unittitle>
             </did>
@@ -1180,8 +1174,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">36</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">36</container>
               <unitdate>2005</unitdate>
               <unittitle>Special issue proposal: Said</unittitle>
             </did>
@@ -1192,8 +1186,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">37</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">37</container>
               <unitdate>2006</unitdate>
               <unittitle>Special issue proposal: Biopolitics and Roberto Esposito</unittitle>
             </did>
@@ -1205,8 +1199,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">38</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">38</container>
               <unitdate>2005</unitdate>
               <unittitle>Special issue proposal: Rancière</unittitle>
             </did>
@@ -1217,8 +1211,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">39</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">39</container>
               <unitdate>undated</unitdate>
               <unittitle>Special issue proposal: Science</unittitle>
             </did>
@@ -1243,8 +1237,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">40</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">40</container>
               <unitdate>Summer/Fall 1994</unitdate>
               <unittitle>Trevor Hope, "Sexual Indifference and the Homosexual Male
                 Imaginary"</unittitle>
@@ -1255,8 +1249,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">41</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">41</container>
               <unitdate>Summer/Fall 1994</unitdate>
               <unittitle>Elizabeth A. Povinelli, "Sexual Savages/Sexual Sovereignty: Australian
                 Colonial Texts and the Postcolonial Politics of Nationalism"</unittitle>
@@ -1267,8 +1261,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">42</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">42</container>
               <unitdate>Winter 1994</unitdate>
               <unittitle>James Slawney, "Hallucinogenic Literature: Avital Ronell's
                 Narcoanalysis"</unittitle>
@@ -1279,8 +1273,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">6</container>
-              <container type="folder">43</container>
+              <container label="unspecified" type="box">6</container>
+              <container label="unspecified" type="folder">43</container>
               <unitdate>1995</unitdate>
               <unittitle>Jacques Derrida, "Archive Fever: A Freudian Impression"</unittitle>
             </did>
@@ -1292,8 +1286,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">1</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">1</container>
               <unitdate>Fall 1995</unitdate>
               <unittitle>Gordon C.F. Bearn, "Derrida Dry: Iterating Iterability
                 Analytically"</unittitle>
@@ -1304,8 +1298,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">2</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">2</container>
               <unitdate>Winter 1995</unitdate>
               <unittitle>Jill Robbins, "Circumcising Confession: Derrida, Autobiography,
                 Judaism"</unittitle>
@@ -1316,8 +1310,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">3</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">3</container>
               <unitdate>Spring 1997</unitdate>
               <unittitle>Steven Bretzius, "Dr. Jacques L. and Martin Hide-a-Guerre: The Subject of
                 New Historicism"</unittitle>
@@ -1328,8 +1322,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">4</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">4</container>
               <unitdate>Winter 1997</unitdate>
               <unittitle>Jonathan Loesberg, "Materialism and Aesthetics: Paul de Man's 'Aesthetic
                 Ideology'"</unittitle>
@@ -1340,8 +1334,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">5</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">5</container>
               <unitdate>Autumn 1998</unitdate>
               <unittitle>Tom Conley, "Putting French Studies on the Map" </unittitle>
             </did>
@@ -1351,8 +1345,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">6</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">6</container>
               <unitdate>Autumn 1998</unitdate>
               <unittitle>Françoise Lionnet, "Reframing Baudelaire: Literary History, Biography,
                 Postcolonial Theory, and Vernacular Languages"</unittitle>
@@ -1363,8 +1357,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">7</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">7</container>
               <unitdate>Spring 1999</unitdate>
               <unittitle>David Herman, "Parables of Narrative Imagining"</unittitle>
             </did>
@@ -1374,8 +1368,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">8</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">8</container>
               <unitdate>Spring 1999</unitdate>
               <unittitle>Richard Burt and Jeffrey Wallen, "Knowing Better: Sex, Cultural Criticism,
                 and the Pedagogical Imperatives of the 1990s"</unittitle>
@@ -1386,8 +1380,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">9</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">9</container>
               <unitdate>Spring 1999</unitdate>
               <unittitle>Patrick Paul Garlinger, "Homo-ness and the Fear of Femininity"</unittitle>
             </did>
@@ -1397,8 +1391,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">10</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">10</container>
               <unitdate>Summer 1999</unitdate>
               <unittitle>Amanda Anderson, "Realism, Universalism, and the Science of the
                 Human"</unittitle>
@@ -1409,8 +1403,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">11</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">11</container>
               <unitdate>Summer 1999</unitdate>
               <unittitle>Carl Good, "Don Quijote and the Law of Literature"</unittitle>
             </did>
@@ -1420,8 +1414,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">12</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">12</container>
               <unitdate>Summer 1999</unitdate>
               <unittitle>E.C. Graf, "When an Arab Laughs in Toledo: Cervantes's Interpellation of
                 Early Modern Spanish Orientalism"</unittitle>
@@ -1432,8 +1426,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">13</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">13</container>
               <unitdate>Winter 1999</unitdate>
               <unittitle>Doris Sommer, "Be-Longing and Bi-Lingual States"</unittitle>
             </did>
@@ -1443,8 +1437,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">14</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">14</container>
               <unitdate>Fall/Winter 1996</unitdate>
               <unittitle>David Kellogg, "Perloff's Wittgenstein: W(h)ither Poetic
                 Theory?"</unittitle>
@@ -1456,8 +1450,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">15</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">15</container>
               <unitdate>July 1994</unitdate>
               <unittitle>Michael Warner, "Van Winkle Family Values"</unittitle>
             </did>
@@ -1467,8 +1461,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">16</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">16</container>
               <unitdate>Spring 2001</unitdate>
               <unittitle>Claudia Breger, "The Leader's Two Bodies: Slavoj Žižek's Postmodern
                 Political Theology"</unittitle>
@@ -1479,8 +1473,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">17</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">17</container>
               <unitdate>Winter 2001</unitdate>
               <unittitle>Mark Hansen, "Seeing with the Body: The Digital Image in
                 Postphotography"</unittitle>
@@ -1491,8 +1485,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">18</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">18</container>
               <unitdate>Summer 2002</unitdate>
               <unittitle>Esha Niyogi De, "Decolonizing Universality?"</unittitle>
             </did>
@@ -1502,8 +1496,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">19</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">19</container>
               <unitdate>Summer 2002</unitdate>
               <unittitle>Ming Dong Gu, "The Universal "One": Toward a Common Conceptual Basis for
                 Chinese and Western Studies"</unittitle>
@@ -1514,8 +1508,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">20</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">20</container>
               <unitdate>Summer 2003</unitdate>
               <unittitle>Stefano Franchi, "Hunters, Cooks, and Nooks: Two Interpretations of the
                 Tangled Relationship between Philosophy and Science"</unittitle>
@@ -1526,8 +1520,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">21</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">21</container>
               <unitdate>Spring 2004</unitdate>
               <unittitle>Simon Critchley and Tom McCarthy, "Universal Shylockery"</unittitle>
             </did>
@@ -1537,8 +1531,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">22</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">22</container>
               <unitdate>Summer 2003</unitdate>
               <unittitle>Leland de la Durantaye, "The Suspended Substantive: On Animals and Men in
                 Giorgio Agamben's The Open"</unittitle>
@@ -1549,8 +1543,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">23</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">23</container>
               <unitdate>Summer 2003</unitdate>
               <unittitle>Kenneth Reinhard and Julia Reinhard Lupton, "The Subject of Religion: Lacan
                 and the Ten Commandments"</unittitle>
@@ -1561,8 +1555,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">24</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">24</container>
               <unitdate>Summer 2003</unitdate>
               <unittitle>Ranjana Khanna, "Frames, Contexts, Community, Justice"</unittitle>
             </did>
@@ -1572,8 +1566,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">25</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">25</container>
               <unitdate>Summer 2003</unitdate>
               <unittitle>Anne-Lise François, "'O Happy Living Things': Frankenfoods and the Bounds
                 of Wordsworthian Natural Piety"</unittitle>
@@ -1584,8 +1578,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">26</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">26</container>
               <unitdate>Winter 2001</unitdate>
               <unittitle>Alexander E. Hooke, "Alphonso Lingis's We--A Collage, Not a
                 Collective"</unittitle>
@@ -1596,8 +1590,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">27</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">27</container>
               <unitdate>Summer 2002</unitdate>
               <unittitle>Malcolm K. Read, "Benítez Rojo and Las Casas's Plague of Ants: The
                 Libidinal Versus the Ideological Unconscious"</unittitle>
@@ -1608,8 +1602,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">28</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">28</container>
               <unitdate>Summer 2002</unitdate>
               <unittitle>James Penney, "(Queer) Theory and the Universal Alternative"</unittitle>
             </did>
@@ -1619,8 +1613,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">29</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">29</container>
               <unitdate>Summer 2002</unitdate>
               <unittitle>Tim Dean, "Art as Symptom: Žižek and the Ethics of Psychoanalytic
                 Criticism"</unittitle>
@@ -1631,8 +1625,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">30</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">30</container>
               <unitdate>Winter 2001</unitdate>
               <unittitle>Ernesto Laclau, "Can Immanence Explain Social Struggles?"</unittitle>
             </did>
@@ -1642,8 +1636,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">31</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">31</container>
               <unitdate>Winter 2001</unitdate>
               <unittitle>Denise Riley, "Bad Words"</unittitle>
             </did>
@@ -1653,8 +1647,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">31</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">31</container>
               <unitdate>Winter 2001</unitdate>
               <unittitle>Judith Butler, "Giving an Account of Oneself"</unittitle>
             </did>
@@ -1664,8 +1658,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">32</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">32</container>
               <unitdate>Summer 2005</unitdate>
               <unittitle>Brett Levinson, "Biopolitics and Duopolies"</unittitle>
             </did>
@@ -1675,8 +1669,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">33</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">33</container>
               <unitdate>Summer 2005</unitdate>
               <unittitle>Orrin Wang, "Against Theory Beside Romanticism: The Sensation of the
                 Signifier"</unittitle>
@@ -1687,8 +1681,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">34</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">34</container>
               <unitdate>Summer 2005</unitdate>
               <unittitle>Anjali Prabhu, "Interrogating Hybridity: Subaltern Agency and Totality in
                 Postcolonial Theory"</unittitle>
@@ -1699,8 +1693,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">35</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">35</container>
               <unitdate>Fall 2005</unitdate>
               <unittitle>Anthony Sampson, "Freud on the State, Violence, and War"</unittitle>
             </did>
@@ -1710,8 +1704,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">36</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">36</container>
               <unitdate>Summer 2005</unitdate>
               <unittitle>Kevin Lamb, "Foucault's Aestheticism"</unittitle>
             </did>
@@ -1721,8 +1715,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">37</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">37</container>
               <unitdate>Fall 2005</unitdate>
               <unittitle>Michèle H. Richman, "Spitting Images in Montaigne and Bataille: For a
                 Heterological Counterhistory of Sovereignty" </unittitle>
@@ -1733,8 +1727,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">38</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">38</container>
               <unitdate>Fall 2005</unitdate>
               <unittitle>Michael F. Bernard-Donals, "'Difficult Freedom': Levinas, Language, and
                 Politics"</unittitle>
@@ -1745,8 +1739,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">39</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">39</container>
               <unitdate>Fall 2005</unitdate>
               <unittitle>Oliver Marchart, "In the Name of the People: Populist Reason and the
                 Subject of the Political"</unittitle>
@@ -1757,8 +1751,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">40</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">40</container>
               <unitdate>Summer 2005</unitdate>
               <unittitle>Raphael Falco, "Arbitrary Cause"</unittitle>
             </did>
@@ -1768,8 +1762,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">41</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">41</container>
               <unitdate>Summer 2001</unitdate>
               <unittitle>Mikko Tuhkanen, "Of Blackface and Paranoid Knowledge: Richard Wright,
                 Jacques Lacan, and the Ambivalence of Black Minstrelsy"</unittitle>
@@ -1780,8 +1774,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">42</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">42</container>
               <unitdate>Winter 1997</unitdate>
               <unittitle>Charles Shepherdson, "A Pound of Flesh: Lacan's Reading of 'The Visible and
                 the Invisible'"</unittitle>
@@ -1792,8 +1786,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">43</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">43</container>
               <unitdate>Winter 1997</unitdate>
               <unittitle>Elizabeth Maddock Dillon, "Fear of Formalism: Kant, Twain, and Cultural
                 Studies in American Literature"</unittitle>
@@ -1804,8 +1798,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">44</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">44</container>
               <unitdate>Summer 2001</unitdate>
               <unittitle>Iain Morland, "Reading's Reason"</unittitle>
             </did>
@@ -1815,8 +1809,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">45</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">45</container>
               <unitdate>Summer 2001</unitdate>
               <unittitle>Ignacio Javier López, "Film, Freud, and Paranoia: Dali and the
                 Representation of Male Desire in 'An Andalusian Dog'"</unittitle>
@@ -1827,8 +1821,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">46</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">46</container>
               <unitdate>Summer 2001</unitdate>
               <unittitle>Amit Pinchevski, "Freedom from Speech (Or the Silent Demand)"</unittitle>
             </did>
@@ -1838,8 +1832,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">47</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">47</container>
               <unitdate>Summer 2001</unitdate>
               <unittitle>Joseph Suglia, "The Communication of the Impossible"</unittitle>
             </did>
@@ -1849,8 +1843,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">48</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">48</container>
               <unitdate>Fall 1999</unitdate>
               <unittitle>Brett Levinson, "Sex Without Sex, Queering the Market, the Collapse of the
                 Political, the Death of Difference, and Aids: Hailing Judith Butler"</unittitle>
@@ -1861,8 +1855,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">49</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">49</container>
               <unitdate>Fall 1999</unitdate>
               <unittitle>Mark Sanders, "Reading Lessons"</unittitle>
             </did>
@@ -1872,8 +1866,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">50</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">50</container>
               <unitdate>Fall 1999</unitdate>
               <unittitle>Bryan Reynolds and Joseph Fitzpatrick, "The Transversality of Michel de
                 Certeau: Foucault's Panoptic Discourse and the Cartographic Impulse"</unittitle>
@@ -1884,8 +1878,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">51</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">51</container>
               <unitdate>Fall 1999</unitdate>
               <unittitle>Daniel Heller-Roazen, "Language, or No Language"</unittitle>
             </did>
@@ -1896,8 +1890,8 @@
 
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">52</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">52</container>
               <unitdate>Fall 1999</unitdate>
               <unittitle>Charles Stewart, "Syncretism and Its Synonyms: Reflections on Cultural
                 Mixture"</unittitle>
@@ -1908,8 +1902,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">53</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">53</container>
               <unitdate>Winter 1997</unitdate>
               <unittitle>Neill Matheson, "Identifying (with) the Queerness of Melville's
                 'Pierre'"</unittitle>
@@ -1920,8 +1914,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">54</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">54</container>
               <unitdate>Spring 2004</unitdate>
               <unittitle>Barbara Johnson Papers</unittitle>
             </did>
@@ -1932,8 +1926,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">55</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">55</container>
               <unitdate>Spring 2006</unitdate>
               <unittitle>Stewart Martin, "Adorno's Conception of the Form of Philosophy"</unittitle>
             </did>
@@ -1943,8 +1937,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">56</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">56</container>
               <unitdate>Spring 2006</unitdate>
               <unittitle>Bruno Chaouat, "In the Image of Auschwitz"</unittitle>
             </did>
@@ -1954,8 +1948,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">57</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">57</container>
               <unitdate>Spring 2006</unitdate>
               <unittitle>Carrie Noland, "Red Front/Black Front: Aimé Césaire and the Affaire
                 Aragon"</unittitle>
@@ -1966,8 +1960,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">58</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">58</container>
               <unitdate>Spring 2006</unitdate>
               <unittitle>Kirk Wetters, "The Rule of the Norm and the Political Theology of 'Real
                 life' in Carl Schmitt and Giorgio Agamben"</unittitle>
@@ -1978,8 +1972,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">7</container>
-              <container type="folder">59</container>
+              <container label="unspecified" type="box">7</container>
+              <container label="unspecified" type="folder">59</container>
               <unitdate>Spring 2007</unitdate>
               <unittitle>L. Scott Lerner, "Mourning and Subjectivity: From Bersani to Proust, Klein,
                 and Freud"</unittitle>
@@ -1998,7 +1992,7 @@
           </scopecontent>
           <c03 level="file">
             <did>
-              <container type="box">8</container>
+              <container label="unspecified" type="box">8</container>
 
               <unitdate>1986 - October 1996</unitdate>
               <unittitle>Review files from rejected articles</unittitle>
@@ -2009,7 +2003,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">9</container>
+              <container label="unspecified" type="box">9</container>
               <unitdate>November 1996 - April 1999</unitdate>
               <unittitle>Review files from rejected articles</unittitle>
             </did>
@@ -2019,14 +2013,14 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">10</container>
+              <container label="unspecified" type="box">10</container>
               <unitdate>May 1999 - August 2000</unitdate>
               <unittitle>Review files from rejected articles</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">11</container>
+              <container label="unspecified" type="box">11</container>
               <unitdate>September 2000 - December 2002</unitdate>
               <unittitle>Review files from rejected articles</unittitle>
             </did>
@@ -2037,14 +2031,14 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">12</container>
+              <container label="unspecified" type="box">12</container>
               <unitdate>January 2003 - December 2004</unitdate>
               <unittitle>Review files from rejected articles</unittitle>
             </did>
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">13</container>
+              <container label="unspecified" type="box">13</container>
               <unitdate>January 2005 - December 2007</unitdate>
               <unittitle>Review files from rejected articles</unittitle>
             </did>
@@ -2054,7 +2048,7 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">14</container>
+              <container label="unspecified" type="box">14</container>
               <unitdate>January 2008 - April 2010</unitdate>
               <unittitle>Review files from rejected articles</unittitle>
             </did>
@@ -2071,7 +2065,7 @@
 
         <c02 level="file">
           <did>
-            <container type="box">15</container>
+            <container label="unspecified" type="box">15</container>
 
             <unitdate>Fall 1971-Winter 1991</unitdate>
             <unittitle>Issues of Diacritics 1.1-21.4</unittitle>
@@ -2079,7 +2073,7 @@
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">16</container>
+            <container label="unspecified" type="box">16</container>
 
             <unitdate>Spring 1992-Spring 2013</unitdate>
             <unittitle>Issues of Diacritics 22.1-41.1</unittitle>
@@ -2099,5 +2093,12 @@
         </c02>
       </c01>
     </dsc>
-  </archdesc>
+  <accessrestrict>
+        <head>Access Restrictions:</head>
+        <p>Restriced to permission of the editor of Diacritics.</p>
+      </accessrestrict><prefercite>
+        <head>Cite As:</head>
+        <p>Diacritics Collection, #6988. Division of Rare and Manuscript Collections, Cornell
+          University Library.</p>
+      </prefercite></archdesc>
 </ead>

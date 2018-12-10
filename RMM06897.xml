@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-	 <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06897::Guide to the National Extension Association of Family and Consumer Sciences (U.S.) records)//EN">RMM06897</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+	 <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06897::Guide to the National Extension Association of Family and Consumer Sciences (U.S.) records)//EN">RMM06897</eadid>
 	 
 	 <filedesc> 
 		<titlestmt> 
@@ -28,23 +28,29 @@
 		<creation>Finding aid encoded by RMC Staff, 
 		  <date>July 2010</date></creation> 
 	 </profiledesc> 
-  </eadheader> 
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader> 
   <frontmatter> 
 	 <titlepage> 
 		<titleproper>Guide to the National Extension Association Of Family And
-		  Consumer Sciences (U.S.) Records,<lb/> 
-		  <date type="inclusive" encodinganalog="245$f">1933-2009.</date></titleproper> 
+		  Consumer Sciences (U.S.) Records, 
+		  <date encodinganalog="245$f" type="inclusive">1933-2009.</date></titleproper> 
 		<num>Collection Number: 6897</num> 
-		<publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+		<publisher>Division of Rare and Manuscript Collections Cornell
 		  University Library</publisher> 
 		<list type="deflist"> 
 		  <defitem> 
 			 <label>Contact Information:</label> 
-			 <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-				Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-				255-3530<lb/> Fax: (607) 255-9524<lb/> 
-				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/> 
-				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+			 <item> Division of Rare and Manuscript Collections 2B Carl A.
+				Kroch Library Cornell University Ithaca, NY 14853 (607)
+				255-3530 Fax: (607) 255-9524 
+				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
+				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 			 
 		  </defitem> 
 		  <defitem> 
@@ -71,14 +77,16 @@
   <archdesc level="collection"> 
 	 <did> 
 		<head id="a1">DESCRIPTIVE SUMMARY</head> 
-		<unittitle label="Title:" encodinganalog="MARC 245">National Extension
+		<unittitle encodinganalog="MARC 245" label="Title:">National Extension
 		  Association of Family and Consumer Sciences (U.S.) records, 
-		  <unitdate encodinganalog="MARC 245" type="inclusive">1933-2009.</unitdate> </unittitle> 
+		  </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1933-2009.</unitdate> 
 		<unitid label="Collection Number:">6897</unitid> 
 		<origination label="Creator:"> 
 		  <corpname encodinganalog="MARC 110">National Extension Association of
 			 Family and Consumer Sciences (U.S.).</corpname></origination> 
-		<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>7.5 cubic
+		<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>7.5 cubic
 		  feet; 5 reels of microfilm.</extent></physdesc> 
 		<physdesc label="Forms of Material:">Printed Materials</physdesc> 
 		<repository label="Repository:">Division of Rare and Manuscript
@@ -90,7 +98,7 @@
 		
 	 </did> 
 	 <bioghist encodinganalog="MARC 545"> 
-		<head id="a2" altrender="organization">ORGANIZATIONAL HISTORY </head> 
+		<head altrender="organization" id="a2">ORGANIZATIONAL HISTORY </head> 
 		<p>The National Extension Association of Family and Consumer Sciences
 		  educates and recognizes extension professionals who improve the quality of life
 		  for individuals, families, and communities and provide education in food
@@ -124,34 +132,26 @@
 			 work--United States.</subject> 
 		</controlaccess> 
 	 </controlaccess> 
-	 <descgrp> 
-		<head id="a8">INFORMATION FOR USERS</head> 
-		<prefercite> 
-		  <head>Cite As:</head> 
-		  <p>National Extension Association of Family and Consumer Sciences
-			 (U.S.) records, #6897. Division of Rare and Manuscript Collections, Cornell
-			 University Library.</p> 
-		</prefercite> 
-	 </descgrp> 
+	  
 	 <dsc type="combined"> 
 		<head>CONTAINER LIST</head> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
+			 <container label="unspecified" type="box">1</container> 
 			 <unittitle>Annual Meeting Programs</unittitle> 
 			 <unitdate>1946-1984</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
+			 <container label="unspecified" type="box">1</container> 
 			 <unittitle>Recognitions and Awards Programs</unittitle> 
 			 <unitdate>1944-1984</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
+			 <container label="unspecified" type="box">1</container> 
 			 <unittitle>Publications Volume I: News From National; The Letter; The
 				News Letter; The HDA Reporter; EHE Reporter</unittitle> 
 			 <unitdate>1943-1977</unitdate> 
@@ -159,21 +159,21 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
+			 <container label="unspecified" type="box">1</container> 
 			 <unittitle>Publications Volume II: The Reporter</unittitle> 
 			 <unitdate>1978-1984</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
+			 <container label="unspecified" type="box">1</container> 
 			 <unittitle>Publications Volume III: The Reporter</unittitle> 
 			 <unitdate>1985-1990</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Volume I: Minutes of The National Home Demonstration
 				Agent's Association</unittitle> 
 			 <unitdate>1933-1950</unitdate> 
@@ -181,7 +181,7 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Volume II: Minutes of The National Association of
 				Extension Home Economists</unittitle> 
 			 <unitdate>1951-1964</unitdate> 
@@ -189,7 +189,7 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Volume III: Minutes of The National Association of
 				Extension Home Economists</unittitle> 
 			 <unitdate>1965-1972</unitdate> 
@@ -197,7 +197,7 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Volume IV: Minutes of The National Association of
 				Extension Home Economists</unittitle> 
 			 <unitdate>1973-1976</unitdate> 
@@ -205,7 +205,7 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Volume V: Minutes of The National Association of Extension
 				Home Economists</unittitle> 
 			 <unitdate>1977-1978</unitdate> 
@@ -213,7 +213,7 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Volume VI: Minutes of The National Association of
 				Extension Home Economists</unittitle> 
 			 <unitdate>1979-1980</unitdate> 
@@ -221,7 +221,7 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Volume VII: Minutes of The National Association of
 				Extension Home Economists</unittitle> 
 			 <unitdate>1981</unitdate> 
@@ -229,7 +229,7 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Volume VIII: Minutes of The National Association of
 				Extension Home Economists</unittitle> 
 			 <unitdate>1982-1973</unitdate> 
@@ -237,7 +237,7 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Volume IX: Minutes of The National Association of
 				Extension Home Economists</unittitle> 
 			 <unitdate>1984</unitdate> 
@@ -245,7 +245,7 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Volume X: Minutes of The National Association of Extension
 				Home Economists</unittitle> 
 			 <unitdate>1985-1987</unitdate> 
@@ -253,7 +253,7 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Volume XI: Minutes of The National Association of
 				Extension Home Economists</unittitle> 
 			 <unitdate>1988-1990</unitdate> 
@@ -261,21 +261,21 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>50th Anniversary Program - Awards</unittitle> 
 			 <unitdate>1984</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>50th Anniversary Program - Exhibits</unittitle> 
 			 <unitdate>1984</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">4</container> 
+			 <container label="unspecified" type="box">4</container> 
 			 <unittitle>Fellowships-Applications for Grace Frysinger
 				Fellowship</unittitle> 
 			 <unitdate>1951-1984</unitdate> 
@@ -283,21 +283,21 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>Volume I: Florence Hall Awards</unittitle> 
 			 <unitdate>1954-1970</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>Volume II: Florence Hall Awards</unittitle> 
 			 <unitdate>1971-1984</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>Volume IV: State Histories of the Extension Home
 				Economists Association-collected for 50th Anniversary</unittitle> 
 			 <unitdate>1984</unitdate> 
@@ -305,28 +305,28 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>Volume V: Fellowships and Awards</unittitle> 
 			 <unitdate>1951-1958</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>Volume V: JC Penny Awards</unittitle> 
 			 <unitdate>1965-1984</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>Volume V: NAEHE Awards</unittitle> 
 			 <unitdate>1964-1984</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>History of the National Negro Home Demonstration Agents
 				Association (NNHDA)</unittitle> 
 			 <unitdate>1957-1965</unitdate> 
@@ -334,7 +334,7 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>"Reflections of the Past"-series of newsletter articles
 				written for the Association's 75th Anniversary-Compiled by Cheryle
 				Syracuse</unittitle> 
@@ -343,7 +343,7 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">6</container> 
+			 <container label="unspecified" type="box">6</container> 
 			 <unittitle>Memos,conference booklets, publications, including issues of "The Reporter" and various other records of the 
 			 organization</unittitle> 
 			 <unitdate>1970-1991</unitdate> 
@@ -351,7 +351,7 @@
 		</c01> 
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">7</container> 
+	 			<container label="unspecified" type="box">7</container> 
 	 			<unittitle>Memos,conference booklets, publications, including issues of "The Reporter" and various other records of the 
 	 				organization</unittitle> 
 	 			<unitdate>1997-2001</unitdate> 
@@ -359,7 +359,7 @@
 	 	</c01>
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">8</container> 
+	 			<container label="unspecified" type="box">8</container> 
 	 			<unittitle>Memos,conference booklets, publications, including issues of "The Reporter" and various other records of the 
 	 				organization</unittitle> 
 	 			<unitdate>2002-2007</unitdate> 
@@ -367,19 +367,24 @@
 	 	</c01> 
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">8</container> 
+	 			<container label="unspecified" type="box">8</container> 
 	 			<unittitle>NEAFCS Books: "Ordinary Women Extraordinary Service" and "Living Well"</unittitle> 
 	 			<unitdate>2010</unitdate> 
 	 		</did> 
 	 	</c01> 
 	 	<c01 level="file"> 
 	 		<did> 
-	 			<container type="box">8</container> 
+	 			<container label="unspecified" type="box">8</container> 
 	 			<unittitle>Microfilm containing "Reporters" (1943/1977-1993); Minutes (1982/1983-1988/1990); Program Books and Exhibits (1946/1984-1994)
 	 			and Awards (1944/1984-1994)</unittitle> 
-	 			<unitdate/> 
+	 			 
 	 		</did> 
 	 	</c01> 
 	 	</dsc>
-  </archdesc> 
+  <prefercite> 
+		  <head>Cite As:</head> 
+		  <p>National Extension Association of Family and Consumer Sciences
+			 (U.S.) records, #6897. Division of Rare and Manuscript Collections, Cornell
+			 University Library.</p> 
+		</prefercite></archdesc> 
 </ead>

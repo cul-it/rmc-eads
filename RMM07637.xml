@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07637::Gay male pornographic movies)//EN">RMM07637</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07637::Gay male pornographic movies)//EN">RMM07637</eadid>
   <filedesc>
     <titlestmt>
       <titleproper>Guide to the Gay male pornographic movies, <date>circa 1970-1990</date></titleproper>
@@ -23,16 +23,22 @@
   <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>April 2008</date></creation>
   </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
            <titlepage>
-                   <titleproper>Guide to the Gay male pornographic movies,<lb/><date type="inclusive" encodinganalog="245$f">circa 1970-1990</date></titleproper>
+                   <titleproper>Guide to the Gay male pornographic movies,<date encodinganalog="245$f" type="inclusive">circa 1970-1990</date></titleproper>
            <num>Collection Number: 7637</num>
-           <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+           <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
            <list type="deflist">
                    <defitem>
                            <label>Contact Information:</label>
-                           <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+                           <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
                    </defitem>
                <defitem>
                    <label>Compiled by:</label>
@@ -57,13 +63,12 @@
   <archdesc level="collection">
     <did>
             <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245">Gay male pornographic movies,
-            <unitdate encodinganalog="MARC 245" type="inclusive">circa 1970-1990</unitdate>
-            </unittitle>
+            <unittitle encodinganalog="MARC 245" label="Title:">Gay male pornographic movies,
+            </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1970-1990</unitdate>
             <unitid label="Collection Number:">7637</unitid>
             <origination label="Creator:">
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>7 cubic feet.</extent></physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>7 cubic feet</extent></physdesc>
            
             <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
             <abstract label="Abstract:">Gay male pornographic 8mm films; packages depict and characterize the sale of such material.</abstract>
@@ -94,22 +99,7 @@
       <genreform encodinganalog="MARC 655" source="aat">Erotica.</genreform>
     </controlaccess>
   </controlaccess>
-    <descgrp>
-           <head id="a8">INFORMATION FOR USERS</head>
-                  <accessrestrict>
-                          <head>Access Restrictions:</head>
-                                   <p>Archival copies not to be played.</p>
-                  </accessrestrict>
-                  <userestrict>
-                          <head>Restrictions on Use:</head>
-                                   <p>Mold present inside video tapes in Box 9. May also be present in Boxes 4-8. Individuals with weak immune systems may need to take extra precautions.</p>
-                  </userestrict>
-                  <prefercite>
-                          <head>Cite As:</head>
-                                   <p>Gay male pornographic movies, #7637.  Division of Rare and Manuscript Collections, Cornell University Library.
-                                   </p>
-                  </prefercite>
-    </descgrp>
+    
              <odd type="notes">
                     <head id="a6">NOTES</head>
                             <p>Collecting Program:  Human Sexuality Collection.</p>
@@ -117,11 +107,11 @@
              <arrangement>
              <head>SERIES LIST</head>
              <p> <emph render="bold">
-             <ref target="s1" show="replace" actuate="onrequest">Series I. Reel to Reel Films</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s1">Series I. Reel to Reel Films</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s2" show="replace" actuate="onrequest">Series II. Videos</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s2">Series II. Videos</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s3" show="replace" actuate="onrequest">Series III. DVDs</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s3">Series III. DVDs</ref> </emph>  </p>
              </arrangement>
     <dsc type="combined">
       <head>CONTAINER LIST</head>
@@ -131,7 +121,7 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>TR-11558</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Call Boys #2: Making a Mistake</unittitle>
@@ -139,7 +129,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>TR-11559</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Call Boys #3: Callboys At Home</unittitle>
@@ -147,7 +137,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>TR-11560-11563</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Erotic Hands Part 2</unittitle>
@@ -156,7 +146,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>TR-16035</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>The Gay Blades #9: "Rick Cassidy: Playmate of the Year: Part I</unittitle>
@@ -164,7 +154,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>TR-11564</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Horse No. 807: "Shove More Up My Ass"</unittitle>
@@ -172,7 +162,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>TR-11565</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Horse No. 810: "Caught In the Air"</unittitle>
@@ -180,7 +170,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>TR-11566</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Horse No. 811: "Fuck Muscle"</unittitle>
@@ -188,7 +178,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>TR-11567</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>How the West Was One # 4: The Law Comes</unittitle>
@@ -196,7 +186,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>TR-11568</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>How the West Was One #3: Ranch Fever</unittitle>
@@ -204,7 +194,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>TR-11569</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Knights of the Night #1: The Crisco Kids</unittitle>
@@ -212,7 +202,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>TR-11570</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Knights of the Night #3: The Sling</unittitle>
@@ -220,7 +210,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>TR-11571</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Knights of the Night #4: Defiled Fascist</unittitle>
@@ -228,7 +218,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>TR-11572</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Knights of the Night #6: A Hard Lesson</unittitle>
@@ -236,7 +226,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1</container>
+        <container label="unspecified" type="box">1</container>
         <unitid>TR-16028</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Sextravagent #1: Suck</unittitle>
@@ -244,25 +234,25 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>TR-16036, TR-16037</unitid>
- <unitdate type="inclusive" normal="1979">1979</unitdate>
+ <unitdate normal="1979" type="inclusive">1979</unitdate>
         <unittitle>Colt Studio Film</unittitle>
        <origination label="Creator"><corpname>Cult Studio</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>TR-16038</unitid>
- <unitdate type="inclusive" normal="1983">1983</unitdate>
+ <unitdate normal="1983" type="inclusive">1983</unitdate>
         <unittitle>Brentwood Collectors' Edition #273: Bruno &amp;amp; Shane</unittitle>
        <origination label="Creator"><corpname>Brentwood Studios</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>TR-16039</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Dante's Inferno #1: The Hitch Hiker</unittitle>
@@ -270,7 +260,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>TR-16040</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Dante's Inferno #3: The Hawker</unittitle>
@@ -278,7 +268,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>TR-16045</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>The Gay Blades #4: "Magazine Love"</unittitle>
@@ -286,7 +276,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>TR-16046</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>The Gay Blades #10: "Rick Cassidy: Playmate of the Year" Part II</unittitle>
@@ -294,7 +284,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>TR-16047</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Hot Rods #3: Fuck Truck</unittitle>
@@ -302,7 +292,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>TR-16048</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Magnum  Griffin Collection: Cell Block - Part 2</unittitle>
@@ -310,7 +300,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>TR-16049</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Magnum Griffin Collection: Pumping Nine</unittitle>
@@ -318,7 +308,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>TR-16050</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Muscle #4: "Smell of Leather"</unittitle>
@@ -326,7 +316,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>TR-16051</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Rough Riders #4: Dreams</unittitle>
@@ -334,7 +324,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>TR-16052</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Super Gay #1</unittitle>
@@ -342,7 +332,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>TR-16053</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Stallions #905: Brandon &amp; Steve</unittitle>
@@ -350,7 +340,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>TR-16054</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Truck Stop</unittitle>
@@ -358,24 +348,24 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16055</unitid>
- <unitdate type="inclusive" normal="1972">1972</unitdate>
+ <unitdate normal="1972" type="inclusive">1972</unitdate>
         <unittitle>The NM Series</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16056</unitid>
- <unitdate type="inclusive" normal="1973">1973</unitdate>
+ <unitdate normal="1973" type="inclusive">1973</unitdate>
         <unittitle>Playmates #11: Wild Beauty</unittitle>
        <origination label="Creator"><corpname>Playmate Films</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16057</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Brentwood #701: Blue Streak</unittitle>
@@ -383,7 +373,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16058</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Brentwood Collectors' Edition #150: The Lifeguard</unittitle>
@@ -391,7 +381,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16059</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Call Boys #2: Making a Mistake</unittitle>
@@ -399,7 +389,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16060</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Centurions</unittitle>
@@ -407,7 +397,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16061</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Chaps #5001: Wild in the Woods</unittitle>
@@ -415,7 +405,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16062</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Chaps #5002: The Expert</unittitle>
@@ -423,7 +413,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16063</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Chaps #5004: Open Season Part. 2</unittitle>
@@ -431,7 +421,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16064</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Chaps #5006: We Deliver</unittitle>
@@ -439,7 +429,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16065</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Deep Treat</unittitle>
@@ -447,7 +437,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16066</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Dream Boy Films #5: Dreary Brothers</unittitle>
@@ -455,7 +445,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16067</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Gay Knight Classic #101</unittitle>
@@ -463,7 +453,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16068</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Gay Knight Classic #103</unittitle>
@@ -471,7 +461,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16069</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Gay Knight Classic #104</unittitle>
@@ -479,7 +469,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16070</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Horse #805: "shove that dick down his straight throat"</unittitle>
@@ -487,7 +477,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16071</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Horse #806: "cum'n' get it"</unittitle>
@@ -495,7 +485,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16072-16073</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Impulse Impulse Impulse #3: Sun</unittitle>
@@ -503,7 +493,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16074</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Impulse Impulse Impulse #4: Dinner</unittitle>
@@ -511,7 +501,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16075</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Impulse Impulse Impulse #5: Workout</unittitle>
@@ -519,7 +509,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16076</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Interludes #6: "Steve and Tony"</unittitle>
@@ -527,7 +517,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16077</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Love In Scandinavia: Teen Agers</unittitle>
@@ -536,7 +526,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16078</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Magnum Griffin Collection: Jim &amp; John</unittitle>
@@ -544,7 +534,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16079</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Magnum Griffin Collection: Michael &amp; Phillip - Part 1</unittitle>
@@ -559,7 +549,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16081</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Ram Rods #307: Jeff Noll Adventure Part 1 </unittitle>
@@ -567,7 +557,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16082-16083</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Scandia</unittitle>
@@ -575,7 +565,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16084</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Sextool Part 1: The Sailor</unittitle>
@@ -584,7 +574,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16085</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Sextool Part 4: The Boxer</unittitle>
@@ -593,7 +583,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16086</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Show Hards #3: I Found It At the Movies</unittitle>
@@ -601,7 +591,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>TR-16087</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Working Men #6: The Mechanics</unittitle>
@@ -614,9 +604,9 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10294</unitid>
- <unitdate type="inclusive" normal="1985">1985</unitdate>
+ <unitdate normal="1985" type="inclusive">1985</unitdate>
         <unittitle>Song of the Loom</unittitle>
        <origination label="Creator"><persname>Herbert, Andrew</persname></origination> 
        <origination label="Creator"><corpname>Sawyer Productions, Ltd.</corpname></origination> 
@@ -624,17 +614,17 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10295</unitid>
- <unitdate type="inclusive" normal="1987">1987</unitdate>
+ <unitdate normal="1987" type="inclusive">1987</unitdate>
         <unittitle>Black Attack</unittitle>
        <origination label="Creator"><corpname>Catalina Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
- <unitdate type="inclusive" normal="1989">1989</unitdate>
+        <container label="unspecified" type="box">4</container>
+ <unitdate normal="1989" type="inclusive">1989</unitdate>
         <unittitle>Sex Oasis</unittitle>
        <origination label="Creator"><persname>Cadinot, Jean-Daniel</persname></origination> 
        <origination label="Creator"><corpname>Paladin Productions</corpname></origination> 
@@ -642,9 +632,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10298</unitid>
- <unitdate type="inclusive" normal="1991">1991</unitdate>
+ <unitdate normal="1991" type="inclusive">1991</unitdate>
         <unittitle>Asian Force</unittitle>
        <origination label="Creator"><persname>Chan, Tony</persname></origination> 
        <origination label="Creator"><corpname>Asian Man Video </corpname></origination> 
@@ -653,54 +643,54 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10299</unitid>
- <unitdate type="inclusive" normal="1991">1991</unitdate>
+ <unitdate normal="1991" type="inclusive">1991</unitdate>
         <unittitle>Black Salsa</unittitle>
        <origination label="Creator"><corpname>Filmco Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10296</unitid>
- <unitdate type="inclusive" normal="1991">1991</unitdate>
+ <unitdate normal="1991" type="inclusive">1991</unitdate>
         <unittitle>Every Night in Thailand</unittitle>
        <origination label="Creator"><corpname>A Lotus Blossom Production</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10297</unitid>
- <unitdate type="inclusive" normal="1991">1991</unitdate>
+ <unitdate normal="1991" type="inclusive">1991</unitdate>
         <unittitle>Fantasy in Chiang Mai</unittitle>
        <origination label="Creator"><corpname>A Lotus Blossom Production</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10313</unitid>
- <unitdate type="inclusive" normal="1991">1991</unitdate>
+ <unitdate normal="1991" type="inclusive">1991</unitdate>
         <unittitle>Pattaya Pleasures</unittitle>
        <origination label="Creator"><corpname>A Lotus Blossom Production</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10303</unitid>
- <unitdate type="inclusive" normal="1992">1992</unitdate>
+ <unitdate normal="1992" type="inclusive">1992</unitdate>
         <unittitle>Black and Ready</unittitle>
        <origination label="Creator"><corpname>Filmco Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10300</unitid>
- <unitdate type="inclusive" normal="1992">1992</unitdate>
+ <unitdate normal="1992" type="inclusive">1992</unitdate>
         <unittitle>Black Trade</unittitle>
        <origination label="Creator"><corpname>A Studio XYZ Production </corpname></origination> 
        <origination label="Creator"><corpname> Black Nights Video</corpname></origination> 
@@ -708,35 +698,35 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10301</unitid>
- <unitdate type="inclusive" normal="1992">1992</unitdate>
+ <unitdate normal="1992" type="inclusive">1992</unitdate>
         <unittitle>Ghetto Guys</unittitle>
        <origination label="Creator"><corpname>Filmco Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10306</unitid>
- <unitdate type="inclusive" normal="1993">1993</unitdate>
+ <unitdate normal="1993" type="inclusive">1993</unitdate>
         <unittitle>Black Passion</unittitle>
        <origination label="Creator"><corpname>Black Star Productions</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10305</unitid>
- <unitdate type="inclusive" normal="1993">1993</unitdate>
+ <unitdate normal="1993" type="inclusive">1993</unitdate>
         <unittitle>Steam Heat</unittitle>
        <origination label="Creator"><corpname>Black Knights Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
- <unitdate type="inclusive" normal="1995">1995</unitdate>
+        <container label="unspecified" type="box">4</container>
+ <unitdate normal="1995" type="inclusive">1995</unitdate>
         <unittitle>Wet Thai Stories Series 3 Deja-Vu</unittitle>
        <origination label="Creator"><persname>Oggi</persname></origination> 
        <origination label="Creator"><corpname>Exotic Productions</corpname></origination> 
@@ -744,9 +734,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10308</unitid>
- <unitdate type="inclusive" normal="1996">1996</unitdate>
+ <unitdate normal="1996" type="inclusive">1996</unitdate>
         <unittitle>Beyond Paradise</unittitle>
        <origination label="Creator"><persname>Hayman, John</persname></origination> 
        <origination label="Creator"><corpname>Video 10 Distributors</corpname></origination> 
@@ -754,43 +744,43 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10307</unitid>
- <unitdate type="inclusive" normal="1996">1996</unitdate>
+ <unitdate normal="1996" type="inclusive">1996</unitdate>
         <unittitle>Black Jacks No. Two</unittitle>
        <origination label="Creator"><corpname>Leisure Time Entertainment</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
- <unitdate type="inclusive" normal="1996">1996</unitdate>
+        <container label="unspecified" type="box">4</container>
+ <unitdate normal="1996" type="inclusive">1996</unitdate>
         <unittitle>Rice Prince Vol. 2</unittitle>
        <origination label="Creator"><corpname>Birlynn Productions Asia</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10310</unitid>
- <unitdate type="inclusive" normal="1997">1997</unitdate>
+ <unitdate normal="1997" type="inclusive">1997</unitdate>
         <unittitle>Asian Dreams Vol. 3</unittitle>
        <origination label="Creator"><corpname>Birlynn Productions Asia</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10309</unitid>
- <unitdate type="inclusive" normal="1997">1997</unitdate>
+ <unitdate normal="1997" type="inclusive">1997</unitdate>
         <unittitle>Asian Studs Vol. 3</unittitle>
        <origination label="Creator"><corpname>Birlynn Productions Asia</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
- <unitdate type="inclusive" normal="1998">1998</unitdate>
+        <container label="unspecified" type="box">4</container>
+ <unitdate normal="1998" type="inclusive">1998</unitdate>
         <unittitle>Erogenous Zone</unittitle>
        <origination label="Creator"><persname>Oggi</persname></origination> 
        <origination label="Creator"><corpname>Exotic Productions</corpname></origination> 
@@ -798,33 +788,33 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10311</unitid>
- <unitdate type="inclusive" normal="1998">1998</unitdate>
+ <unitdate normal="1998" type="inclusive">1998</unitdate>
         <unittitle>Geisha Boys Volume #2</unittitle>
        <origination label="Creator"><corpname>Typhoon Pictures, Inc.</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
- <unitdate type="inclusive" normal="2000">2000</unitdate>
+        <container label="unspecified" type="box">4</container>
+ <unitdate normal="2000" type="inclusive">2000</unitdate>
         <unittitle>Black From Behind</unittitle>
        <origination label="Creator"><corpname>Video 10 Distributors</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10312</unitid>
- <unitdate type="inclusive" normal="1996-12">1996-12</unitdate>
+ <unitdate normal="1996-12" type="inclusive">1996-12</unitdate>
         <unittitle>Chocolate Dessert</unittitle>
        <origination label="Creator"><persname>Ford, Rick</persname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10315</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Asian Bodybuilders in Hot Core No. 2</unittitle>
@@ -833,7 +823,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
  <unitdate>Undated</unitdate>
         <unittitle>Black African Gold (Hardcore)</unittitle>
        <origination label="Creator"><corpname>The French Connection</corpname></origination> 
@@ -841,7 +831,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>V-10314</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Black Hombres 1 Black Western Ranch Sex</unittitle>
@@ -851,7 +841,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unittitle>The Worst  Boy in Town</unittitle>
        <origination label="Creator"><persname>Vadillo, Enrique Gomez</persname></origination> 
        <origination label="Creator"><corpname>99</corpname></origination> 
@@ -859,9 +849,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>V-10377</unitid>
- <unitdate type="inclusive" normal="1984">1984</unitdate>
+ <unitdate normal="1984" type="inclusive">1984</unitdate>
         <unittitle>Black Workout</unittitle>
        <origination label="Creator"><persname>Arden, Scott </persname></origination> 
        <origination label="Creator"><persname>Sterling, Loren</persname></origination> 
@@ -870,36 +860,36 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>V-10317</unitid>
- <unitdate type="inclusive" normal="1991">1991</unitdate>
+ <unitdate normal="1991" type="inclusive">1991</unitdate>
         <unittitle>The Best of Black Knights Video</unittitle>
        <origination label="Creator"><corpname>Black Knights Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>V-10318</unitid>
- <unitdate type="inclusive" normal="1991">1991</unitdate>
+ <unitdate normal="1991" type="inclusive">1991</unitdate>
         <unittitle>Blacks Working Hard</unittitle>
        <origination label="Creator"><corpname>Pleasure Productions</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>V-10319</unitid>
- <unitdate type="inclusive" normal="1992">1992</unitdate>
+ <unitdate normal="1992" type="inclusive">1992</unitdate>
         <unittitle>The Nasty Groove</unittitle>
        <origination label="Creator"><corpname>Top Man Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>V-10320</unitid>
- <unitdate type="inclusive" normal="1992">1992</unitdate>
+ <unitdate normal="1992" type="inclusive">1992</unitdate>
         <unittitle>Thai Erotica</unittitle>
        <origination label="Creator"><persname>Oggi</persname></origination> 
        <origination label="Creator"><corpname>Exotic Productions</corpname></origination> 
@@ -907,26 +897,26 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>V-10322</unitid>
- <unitdate type="inclusive" normal="1993">1993</unitdate>
+ <unitdate normal="1993" type="inclusive">1993</unitdate>
         <unittitle>Hot Shades</unittitle>
        <origination label="Creator"><corpname>Black Star</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>V-10323</unitid>
- <unitdate type="inclusive" normal="1993">1993</unitdate>
+ <unitdate normal="1993" type="inclusive">1993</unitdate>
         <unittitle>How Ya Like Me Now?</unittitle>
        <origination label="Creator"><corpname>Black Knights Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
- <unitdate type="inclusive" normal="1995">1995</unitdate>
+        <container label="unspecified" type="box">5</container>
+ <unitdate normal="1995" type="inclusive">1995</unitdate>
         <unittitle>Black Street Fever</unittitle>
        <origination label="Creator"><persname>Paris, T.J.</persname></origination> 
        <origination label="Creator"><corpname>All Worlds Video</corpname></origination> 
@@ -934,27 +924,27 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>V-10324</unitid>
- <unitdate type="inclusive" normal="1996">1996</unitdate>
+ <unitdate normal="1996" type="inclusive">1996</unitdate>
         <unittitle>Asian Giants Vol. 1</unittitle>
        <origination label="Creator"><corpname>Birlynn Productions / Asia</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>V-10325</unitid>
- <unitdate type="inclusive" normal="1996">1996</unitdate>
+ <unitdate normal="1996" type="inclusive">1996</unitdate>
         <unittitle>Rice Prince Vol. 1</unittitle>
        <origination label="Creator"><corpname>Birlynn Productions / Asia</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>V-10326</unitid>
- <unitdate type="inclusive" normal="1997">1997</unitdate>
+ <unitdate normal="1997" type="inclusive">1997</unitdate>
         <unittitle>Oriental Islanders</unittitle>
        <origination label="Creator"><persname>Bakal, Marco</persname></origination> 
        <origination label="Creator"><corpname>Bacchus</corpname></origination> 
@@ -962,18 +952,18 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>V-10327</unitid>
- <unitdate type="inclusive" normal="1998">1998</unitdate>
+ <unitdate normal="1998" type="inclusive">1998</unitdate>
         <unittitle>Geisha Boys Volume #1</unittitle>
        <origination label="Creator"><corpname>Typhoon Pictures, Inc.</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>V-10328</unitid>
- <unitdate type="inclusive" normal="2000">2000</unitdate>
+ <unitdate normal="2000" type="inclusive">2000</unitdate>
         <unittitle>Joy Toy</unittitle>
        <origination label="Creator"><persname>Hayman, John</persname></origination> 
        <origination label="Creator"><corpname>Island Caprice Studios</corpname></origination> 
@@ -981,8 +971,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
- <unitdate type="inclusive" normal="1999-2001">1999-2001</unitdate>
+        <container label="unspecified" type="box">5</container>
+ <unitdate normal="1999-2001" type="inclusive">1999-2001</unitdate>
         <unittitle>Act of Passion</unittitle>
        <origination label="Creator"><persname>Oggi</persname></origination> 
        <origination label="Creator"><corpname>Exotic Productions</corpname></origination> 
@@ -990,7 +980,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>V-10329</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Boys of Bangkok</unittitle>
@@ -1000,7 +990,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>V-10330</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Lady Boys</unittitle>
@@ -1008,7 +998,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
  <unitdate>Undated</unitdate>
         <unittitle>Made in the Shade Part II</unittitle>
        <origination label="Creator"><persname>Ross, Frank</persname></origination> 
@@ -1017,7 +1007,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
  <unitdate>Undated</unitdate>
         <unittitle>School Ties In Asian</unittitle>
        <origination label="Creator"><corpname>B.A. &amp; Asian Production</corpname></origination> 
@@ -1025,27 +1015,27 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>V-10333</unitid>
- <unitdate type="inclusive" normal="1987">1987</unitdate>
+ <unitdate normal="1987" type="inclusive">1987</unitdate>
         <unittitle>Sex Messengers</unittitle>
        <origination label="Creator"><corpname>Satellite Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>V-10335</unitid>
- <unitdate type="inclusive" normal="1993">1993</unitdate>
+ <unitdate normal="1993" type="inclusive">1993</unitdate>
         <unittitle>Deeper &amp; Deeper</unittitle>
        <origination label="Creator"><corpname>Black Knights Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>V-10337</unitid>
- <unitdate type="inclusive" normal="1994">1994</unitdate>
+ <unitdate normal="1994" type="inclusive">1994</unitdate>
         <unittitle>For a Lost Soldier</unittitle>
        <origination label="Creator"><persname>Kerbosch, Roeland</persname></origination> 
        <origination label="Creator"><corpname>Award Films International</corpname></origination> 
@@ -1053,34 +1043,34 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>V-10338</unitid>
- <unitdate type="inclusive" normal="2001">2001</unitdate>
+ <unitdate normal="2001" type="inclusive">2001</unitdate>
         <unittitle>Ricky's Revenge</unittitle>
        <origination label="Creator"><corpname>Black Box Productions</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>V-10339</unitid>
- <unitdate type="inclusive" normal="2003">2003</unitdate>
+ <unitdate normal="2003" type="inclusive">2003</unitdate>
         <unittitle>Capoeira #9</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>V-10340</unitid>
- <unitdate type="inclusive" normal="2003">2003</unitdate>
+ <unitdate normal="2003" type="inclusive">2003</unitdate>
         <unittitle>Capoeira #10</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>V-10341</unitid>
- <unitdate type="inclusive" normal="2003-04-03">2003-04-03</unitdate>
+ <unitdate normal="2003-04-03" type="inclusive">2003-04-03</unitdate>
         <unittitle>Charlie's Asians</unittitle>
        <origination label="Creator"><persname>Jackson, Richard</persname></origination> 
        <origination label="Creator"><corpname>asianguys.com videos</corpname></origination> 
@@ -1088,16 +1078,16 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>V-10343</unitid>
- <unitdate type="inclusive" normal="2004">2004</unitdate>
+ <unitdate normal="2004" type="inclusive">2004</unitdate>
         <unittitle>Mandingo Men #3</unittitle>
        <origination label="Creator"><corpname>Bacchus</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>V-10344</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Thai Boxer In Fighting &amp; In Loving</unittitle>
@@ -1106,9 +1096,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10345, V-10346</unitid>
- <unitdate type="inclusive" normal="1984">1984</unitdate>
+ <unitdate normal="1984" type="inclusive">1984</unitdate>
         <unittitle>Black Brothers</unittitle>
        <origination label="Creator"><corpname>Checker Board Video</corpname></origination> 
        </did>
@@ -1116,9 +1106,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10354</unitid>
- <unitdate type="inclusive" normal="1988">1988</unitdate>
+ <unitdate normal="1988" type="inclusive">1988</unitdate>
         <unittitle>Black Sex Party</unittitle>
        <origination label="Creator"><persname>Haggerty, Mike</persname></origination> 
        <origination label="Creator"><corpname>Filmco Video</corpname></origination> 
@@ -1126,80 +1116,80 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10347</unitid>
- <unitdate type="inclusive" normal="1998">1998</unitdate>
+ <unitdate normal="1998" type="inclusive">1998</unitdate>
         <unittitle>Geisha Boys Volume 2</unittitle>
        <origination label="Creator"><corpname>Typhoon Pictures Inc.</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10348</unitid>
- <unitdate type="inclusive" normal="1991">1991</unitdate>
+ <unitdate normal="1991" type="inclusive">1991</unitdate>
         <unittitle>The Best of Black Knights Video</unittitle>
        <origination label="Creator"><corpname>Black Knights Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10349</unitid>
- <unitdate type="inclusive" normal="1991">1991</unitdate>
+ <unitdate normal="1991" type="inclusive">1991</unitdate>
         <unittitle>Blacks Working Hard</unittitle>
        <origination label="Creator"><corpname>Pleasure Productions</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
- <unitdate type="inclusive" normal="1993">1993</unitdate>
+        <container label="unspecified" type="box">7</container>
+ <unitdate normal="1993" type="inclusive">1993</unitdate>
         <unittitle>Ghetto Guys Volume 2</unittitle>
        <origination label="Creator"><corpname>Filmco Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10350</unitid>
- <unitdate type="inclusive" normal="1993">1993</unitdate>
+ <unitdate normal="1993" type="inclusive">1993</unitdate>
         <unittitle>Ghetto Guys Volume 3</unittitle>
        <origination label="Creator"><corpname>Filmco Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10351</unitid>
- <unitdate type="inclusive" normal="1993">1993</unitdate>
+ <unitdate normal="1993" type="inclusive">1993</unitdate>
         <unittitle>Three Ways</unittitle>
        <origination label="Creator"><corpname>HIS Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10352</unitid>
- <unitdate type="inclusive" normal="1994">1994</unitdate>
+ <unitdate normal="1994" type="inclusive">1994</unitdate>
         <unittitle>Afro SleazyAct</unittitle>
        <origination label="Creator"><corpname>Black Star Productions</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10353</unitid>
- <unitdate type="inclusive" normal="1994">1994</unitdate>
+ <unitdate normal="1994" type="inclusive">1994</unitdate>
         <unittitle>Hot Rodd</unittitle>
        <origination label="Creator"><corpname>HIS Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10355</unitid>
- <unitdate type="inclusive" normal="1994">1994</unitdate>
+ <unitdate normal="1994" type="inclusive">1994</unitdate>
         <unittitle>Wet Thai Stories Volume 1 Room Service</unittitle>
        <origination label="Creator"><persname>Oggi</persname></origination> 
        <origination label="Creator"><corpname>Exotic Productions</corpname></origination> 
@@ -1207,9 +1197,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10356</unitid>
- <unitdate type="inclusive" normal="1995">1995</unitdate>
+ <unitdate normal="1995" type="inclusive">1995</unitdate>
         <unittitle>Dj Vu</unittitle>
        <origination label="Creator"><persname>Oggi</persname></origination> 
        <origination label="Creator"><corpname>Exotic Productions</corpname></origination> 
@@ -1217,26 +1207,26 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10357</unitid>
- <unitdate type="inclusive" normal="1997">1997</unitdate>
+ <unitdate normal="1997" type="inclusive">1997</unitdate>
         <unittitle>Asian Dreams #3</unittitle>
        <origination label="Creator"><corpname>Bacchus</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
- <unitdate type="inclusive" normal="1998">1998</unitdate>
+        <container label="unspecified" type="box">7</container>
+ <unitdate normal="1998" type="inclusive">1998</unitdate>
         <unittitle>Black &amp; Huge Size Does Matter #2</unittitle>
        <origination label="Creator"><corpname>Rebel Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10359, V-10360</unitid>
- <unitdate type="inclusive" normal="1998">1998</unitdate>
+ <unitdate normal="1998" type="inclusive">1998</unitdate>
         <unittitle>Handful of Joy</unittitle>
        <origination label="Creator"><persname>Hayman, John</persname></origination> 
        <origination label="Creator"><corpname>Island Caprice Studios</corpname></origination> 
@@ -1245,27 +1235,27 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10362</unitid>
- <unitdate type="inclusive" normal="1999">1999</unitdate>
+ <unitdate normal="1999" type="inclusive">1999</unitdate>
         <unittitle>Asian Giants #2</unittitle>
        <origination label="Creator"><corpname>Filmco Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10363</unitid>
- <unitdate type="inclusive" normal="1999">1999</unitdate>
+ <unitdate normal="1999" type="inclusive">1999</unitdate>
         <unittitle>Rice Prince #2</unittitle>
        <origination label="Creator"><corpname>Filmco Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10364</unitid>
- <unitdate type="inclusive" normal="2000">2000</unitdate>
+ <unitdate normal="2000" type="inclusive">2000</unitdate>
         <unittitle>Dream Chasers</unittitle>
        <origination label="Creator"><persname>Hayman, John</persname></origination> 
        <origination label="Creator"><corpname>Island Caprice Studios</corpname></origination> 
@@ -1273,9 +1263,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10365</unitid>
- <unitdate type="inclusive" normal="2001">2001</unitdate>
+ <unitdate normal="2001" type="inclusive">2001</unitdate>
         <unittitle>Act of Passion</unittitle>
        <origination label="Creator"><persname>Oggi</persname></origination> 
        <origination label="Creator"><corpname>Act of Passion</corpname></origination> 
@@ -1283,9 +1273,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10366</unitid>
- <unitdate type="inclusive" normal="2001">2001</unitdate>
+ <unitdate normal="2001" type="inclusive">2001</unitdate>
         <unittitle>Erogenous Zone</unittitle>
        <origination label="Creator"><persname>Oggi</persname></origination> 
        <origination label="Creator"><corpname>Exotic Productions</corpname></origination> 
@@ -1293,9 +1283,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10367</unitid>
- <unitdate type="inclusive" normal="2001">2001</unitdate>
+ <unitdate normal="2001" type="inclusive">2001</unitdate>
         <unittitle>Primal Passion</unittitle>
        <origination label="Creator"><persname>Hayman, John</persname></origination> 
        <origination label="Creator"><corpname>Island Caprice Studios</corpname></origination> 
@@ -1303,9 +1293,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10368</unitid>
- <unitdate type="inclusive" normal="2001">2001</unitdate>
+ <unitdate normal="2001" type="inclusive">2001</unitdate>
         <unittitle>Stirring Yearnings</unittitle>
        <origination label="Creator"><persname>Hayman, John</persname></origination> 
        <origination label="Creator"><corpname>Island Caprice Studios</corpname></origination> 
@@ -1313,7 +1303,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10369</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Asian Bodybuilders in Hot Core No. 1</unittitle>
@@ -1322,7 +1312,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10371</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Blackmale</unittitle>
@@ -1331,7 +1321,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10373</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Lady Boys #2</unittitle>
@@ -1339,7 +1329,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10374</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Jerry McGuire</unittitle>
@@ -1347,7 +1337,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10375</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Made in the Shade Part I</unittitle>
@@ -1355,7 +1345,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>V-10376</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Recruit Me!</unittitle>
@@ -1364,9 +1354,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10379</unitid>
- <unitdate type="inclusive" normal="1986">1986</unitdate>
+ <unitdate normal="1986" type="inclusive">1986</unitdate>
         <unittitle>Black Delivery</unittitle>
        <origination label="Creator"><persname>Ross, Frank</persname></origination> 
        <origination label="Creator"><corpname>Sattelite Video</corpname></origination> 
@@ -1374,41 +1364,41 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
- <unitdate type="inclusive" normal="1986">1986</unitdate>
+        <container label="unspecified" type="box">8</container>
+ <unitdate normal="1986" type="inclusive">1986</unitdate>
         <unittitle>Humungous</unittitle>
        <origination label="Creator"><corpname>Sattelite Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10381</unitid>
- <unitdate type="inclusive" normal="1990">1990</unitdate>
+ <unitdate normal="1990" type="inclusive">1990</unitdate>
         <unittitle>Black All-American</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
- <unitdate type="inclusive" normal="1991">1991</unitdate>
+        <container label="unspecified" type="box">8</container>
+ <unitdate normal="1991" type="inclusive">1991</unitdate>
         <unittitle>Afternoon Fun</unittitle>
        <origination label="Creator"><corpname>Lotus Blossom Productions</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10382</unitid>
- <unitdate type="inclusive" normal="1993">1993</unitdate>
+ <unitdate normal="1993" type="inclusive">1993</unitdate>
         <unittitle>Absolutely Sex</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10383</unitid>
- <unitdate type="inclusive" normal="1994">1994</unitdate>
+ <unitdate normal="1994" type="inclusive">1994</unitdate>
         <unittitle>Tenderly Thai</unittitle>
        <origination label="Creator"><persname>Hayman, John</persname></origination> 
        <origination label="Creator"><corpname>Island Caprice Studios</corpname></origination> 
@@ -1416,34 +1406,34 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10399</unitid>
- <unitdate type="inclusive" normal="1995">1995</unitdate>
+ <unitdate normal="1995" type="inclusive">1995</unitdate>
         <unittitle>Black Street Fever</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10384</unitid>
- <unitdate type="inclusive" normal="1995">1995</unitdate>
+ <unitdate normal="1995" type="inclusive">1995</unitdate>
         <unittitle>Butt-Stuffing Bears</unittitle>
        <origination label="Creator"><corpname>HIS Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10385</unitid>
- <unitdate type="inclusive" normal="1995">1995</unitdate>
+ <unitdate normal="1995" type="inclusive">1995</unitdate>
         <unittitle>Cops, Jocks, and Military Feet</unittitle>
        <origination label="Creator"><corpname>HIS Video</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
- <unitdate type="inclusive" normal="1998">1998</unitdate>
+        <container label="unspecified" type="box">8</container>
+ <unitdate normal="1998" type="inclusive">1998</unitdate>
         <unittitle>Soulful Food</unittitle>
        <origination label="Creator"><persname>Ford, Christopher</persname></origination> 
        <origination label="Creator"><corpname>All Worlds Video</corpname></origination> 
@@ -1451,9 +1441,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10387</unitid>
- <unitdate type="inclusive" normal="1998">1998</unitdate>
+ <unitdate normal="1998" type="inclusive">1998</unitdate>
         <unittitle>Touched By The Stars</unittitle>
        <origination label="Creator"><persname>Hayman, John</persname></origination> 
        <origination label="Creator"><corpname>Island Caprice Studios</corpname></origination> 
@@ -1461,9 +1451,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10388</unitid>
- <unitdate type="inclusive" normal="1999">1999</unitdate>
+ <unitdate normal="1999" type="inclusive">1999</unitdate>
         <unittitle>Edge of Enchantment</unittitle>
        <origination label="Creator"><persname>Hayman, John</persname></origination> 
        <origination label="Creator"><corpname>Island Caprice Studios</corpname></origination> 
@@ -1471,9 +1461,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10389</unitid>
- <unitdate type="inclusive" normal="1999">1999</unitdate>
+ <unitdate normal="1999" type="inclusive">1999</unitdate>
         <unittitle>Looks To Sigh For</unittitle>
        <origination label="Creator"><persname>Hayman, John</persname></origination> 
        <origination label="Creator"><corpname>Island Caprice Studios</corpname></origination> 
@@ -1481,9 +1471,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10396, V-10397</unitid>
- <unitdate type="inclusive" normal="1999">1999</unitdate>
+ <unitdate normal="1999" type="inclusive">1999</unitdate>
         <unittitle>More Joy </unittitle>
        <origination label="Creator"><corpname>Island Caprice Studios</corpname></origination> 
        </did>
@@ -1491,18 +1481,18 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10391</unitid>
- <unitdate type="inclusive" normal="2001">2001</unitdate>
+ <unitdate normal="2001" type="inclusive">2001</unitdate>
         <unittitle>Black African Gold - Hardcore</unittitle>
        <origination label="Creator"><corpname>Cream of the Crop Production</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10392</unitid>
- <unitdate type="inclusive" normal="2001">2001</unitdate>
+ <unitdate normal="2001" type="inclusive">2001</unitdate>
         <unittitle>The Desire Game</unittitle>
        <origination label="Creator"><persname>Hayman, John</persname></origination> 
        <origination label="Creator"><corpname>Island Caprice Studios</corpname></origination> 
@@ -1510,7 +1500,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10395</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Platino Boys</unittitle>
@@ -1519,7 +1509,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10398</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Previews Vol. 1</unittitle>
@@ -1528,7 +1518,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>V-10316</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Unmarked VHS tape</unittitle>
@@ -1536,9 +1526,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10378</unitid>
- <unitdate type="inclusive" normal="1985">1985</unitdate>
+ <unitdate normal="1985" type="inclusive">1985</unitdate>
         <unittitle>Black Orient Express</unittitle>
        <origination label="Creator"><corpname>Checker Board Video</corpname></origination> 
        </did>
@@ -1546,9 +1536,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10380</unitid>
- <unitdate type="inclusive" normal="1989">1989</unitdate>
+ <unitdate normal="1989" type="inclusive">1989</unitdate>
         <unittitle>Men of Vivid 4</unittitle>
        <origination label="Creator"><corpname>Vivid Man</corpname></origination> 
        </did>
@@ -1556,9 +1546,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10400</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1990">1990</unitdate>
+ <unitdate certainty="approximate" normal="1990" type="inclusive">1990</unitdate>
         <unittitle>Sex Oasis</unittitle>
        <origination label="Creator"><persname>Bjorn, Kristen</persname></origination> 
        </did>
@@ -1566,9 +1556,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10334</unitid>
- <unitdate type="inclusive" normal="1991">1991</unitdate>
+ <unitdate normal="1991" type="inclusive">1991</unitdate>
         <unittitle>Black Workout Part 3</unittitle>
        <origination label="Creator"><corpname>Filmco Video</corpname></origination> 
        </did>
@@ -1576,9 +1566,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10302</unitid>
- <unitdate type="inclusive" normal="1992">1992</unitdate>
+ <unitdate normal="1992" type="inclusive">1992</unitdate>
         <unittitle>Throbbing Black</unittitle>
        <origination label="Creator"><corpname>Top Man Video</corpname></origination> 
        </did>
@@ -1586,9 +1576,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10321</unitid>
- <unitdate type="inclusive" normal="1993">1993</unitdate>
+ <unitdate normal="1993" type="inclusive">1993</unitdate>
         <unittitle>Deeper &amp; Deeper</unittitle>
        <origination label="Creator"><corpname>Black Knights Video</corpname></origination> 
        </did>
@@ -1596,9 +1586,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10336</unitid>
- <unitdate type="inclusive" normal="1993">1993</unitdate>
+ <unitdate normal="1993" type="inclusive">1993</unitdate>
         <unittitle>Ghetto Guys #2</unittitle>
        <origination label="Creator"><corpname>Filmco Video</corpname></origination> 
        </did>
@@ -1607,9 +1597,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10304</unitid>
- <unitdate type="inclusive" normal="1993">1993</unitdate>
+ <unitdate normal="1993" type="inclusive">1993</unitdate>
         <unittitle>Sweaty Menz in the Shower</unittitle>
        <origination label="Creator"><corpname>Black Knights Video</corpname></origination> 
        </did>
@@ -1617,9 +1607,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10386</unitid>
- <unitdate type="inclusive" normal="1995">1995</unitdate>
+ <unitdate normal="1995" type="inclusive">1995</unitdate>
         <unittitle>Healing</unittitle>
        <origination label="Creator"><persname>Oggi</persname></origination> 
        <origination label="Creator"><corpname>Exotic Producitons</corpname></origination> 
@@ -1628,9 +1618,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10358</unitid>
- <unitdate type="inclusive" normal="1997">1997</unitdate>
+ <unitdate normal="1997" type="inclusive">1997</unitdate>
         <unittitle>Black + Huge</unittitle>
        <origination label="Creator"><corpname>Rebel Video</corpname></origination> 
        </did>
@@ -1638,9 +1628,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10361</unitid>
- <unitdate type="inclusive" normal="1998">1998</unitdate>
+ <unitdate normal="1998" type="inclusive">1998</unitdate>
         <unittitle>Soulful Food</unittitle>
        <origination label="Creator"><corpname>All Worlds Video</corpname></origination> 
        </did>
@@ -1648,9 +1638,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10446</unitid>
- <unitdate type="inclusive" normal="2000">2000</unitdate>
+ <unitdate normal="2000" type="inclusive">2000</unitdate>
         <unittitle>Black Hole</unittitle>
        <origination label="Creator"><persname>King, Alex</persname></origination> 
        <origination label="Creator"><corpname>Ebony Vid International</corpname></origination> 
@@ -1659,9 +1649,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10390</unitid>
- <unitdate type="inclusive" normal="2000">2000</unitdate>
+ <unitdate normal="2000" type="inclusive">2000</unitdate>
         <unittitle>Black Samuel</unittitle>
        <origination label="Creator"><persname>King, Alex</persname></origination> 
        <origination label="Creator"><corpname>Ebony Vid International</corpname></origination> 
@@ -1670,9 +1660,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10342</unitid>
- <unitdate type="inclusive" normal="2004">2004</unitdate>
+ <unitdate normal="2004" type="inclusive">2004</unitdate>
         <unittitle>La Grande Sduction</unittitle>
        <origination label="Creator"><persname>Pouliot, Jean-Franois</persname></origination> 
        <origination label="Creator"><corpname>Max Films</corpname></origination> 
@@ -1681,7 +1671,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10393</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Black &amp; Huge No. 3</unittitle>
@@ -1690,7 +1680,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10370</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Blacklode</unittitle>
@@ -1700,7 +1690,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10332</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>The Gay Team</unittitle>
@@ -1711,7 +1701,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10372</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Humungus</unittitle>
@@ -1720,7 +1710,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10394</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Made in the Shade Part II</unittitle>
@@ -1729,7 +1719,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10331</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Platino Boys Thai Boat-Trip</unittitle>
@@ -1740,7 +1730,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9</container>
+        <container label="unspecified" type="box">9</container>
         <unitid>V-10441, V-10443, V-10445</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Unmarked VHS Tapes</unittitle>
@@ -1753,9 +1743,9 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>DVD-2388</unitid>
- <unitdate type="inclusive" normal="2004">2004</unitdate>
+ <unitdate normal="2004" type="inclusive">2004</unitdate>
         <unittitle>Blissfully Yours</unittitle>
        <origination label="Creator"><persname>Weerasethakul,Apichatpong </persname></origination> 
        <origination label="Creator"><corpname>Anna Sanders Film</corpname></origination> 
@@ -1763,9 +1753,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>DVD-2389</unitid>
- <unitdate type="inclusive" normal="2004">2004</unitdate>
+ <unitdate normal="2004" type="inclusive">2004</unitdate>
         <unittitle>Mysterious Object at Noon</unittitle>
        <origination label="Creator"><persname>Weerasethakul,Apichatpong </persname></origination> 
        <origination label="Creator"><corpname>Anna Sanders Film</corpname></origination> 
@@ -1773,9 +1763,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>DVD-2390-2391</unitid>
- <unitdate type="inclusive" normal="2005">2005</unitdate>
+ <unitdate normal="2005" type="inclusive">2005</unitdate>
         <unittitle>Macho Dancer</unittitle>
        <origination label="Creator"><persname>Brocka, Lino</persname></origination> 
        <origination label="Creator"><corpname>Viva Platinum</corpname></origination> 
@@ -1783,9 +1773,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>DVD-2392</unitid>
- <unitdate type="inclusive" normal="2011">2011</unitdate>
+ <unitdate normal="2011" type="inclusive">2011</unitdate>
         <unittitle>My Last Round</unittitle>
        <origination label="Creator"><persname>Jorquera, Julio</persname></origination> 
        <origination label="Creator"><corpname>tla releasing</corpname></origination> 
@@ -1793,9 +1783,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>DVD-2393</unitid>
- <unitdate type="inclusive" normal="2011">2011</unitdate>
+ <unitdate normal="2011" type="inclusive">2011</unitdate>
         <unittitle>Undertow</unittitle>
        <origination label="Creator"><persname>Fuentes-Len, Javier</persname></origination> 
        <origination label="Creator"><corpname>Wolfe </corpname></origination> 
@@ -1803,9 +1793,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>DVD-2394</unitid>
- <unitdate type="inclusive" normal="2014">2014</unitdate>
+ <unitdate normal="2014" type="inclusive">2014</unitdate>
         <unittitle>Eroddity(s)</unittitle>
        <origination label="Creator"><persname>Vasquez, Steve</persname></origination> 
        <origination label="Creator"><corpname>tla releasing</corpname></origination> 
@@ -1813,9 +1803,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>DVD-2395</unitid>
- <unitdate type="inclusive" normal="2014">2014</unitdate>
+ <unitdate normal="2014" type="inclusive">2014</unitdate>
         <unittitle>Floating Skyscrapers</unittitle>
        <origination label="Creator"><persname>Wasilewski, Tomasz</persname></origination> 
        <origination label="Creator"><corpname>tla releasing, Canteen Outlaws</corpname></origination> 
@@ -1823,9 +1813,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>DVD-2396</unitid>
- <unitdate type="inclusive" normal="2014">2014</unitdate>
+ <unitdate normal="2014" type="inclusive">2014</unitdate>
         <unittitle>The Last Match</unittitle>
        <origination label="Creator"><persname>Hens, Antonio</persname></origination> 
        <origination label="Creator"><corpname>Canteen Outlaws</corpname></origination> 
@@ -1833,9 +1823,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5</container>
+        <container label="unspecified" type="box">5</container>
         <unitid>DVD-2397</unitid>
- <unitdate type="inclusive" normal="2014">2014</unitdate>
+ <unitdate normal="2014" type="inclusive">2014</unitdate>
         <unittitle>Man at Bath</unittitle>
        <origination label="Creator"><persname>Honroe, Christopher</persname></origination> 
        <origination label="Creator"><corpname>Canteeen Outlaws</corpname></origination> 
@@ -1843,9 +1833,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2398</unitid>
- <unitdate type="inclusive" normal="2000">2000</unitdate>
+ <unitdate normal="2000" type="inclusive">2000</unitdate>
         <unittitle>A Fighter's Blues</unittitle>
        <origination label="Creator"><persname>Lee, Daniel</persname></origination> 
        <origination label="Creator"><corpname>Teamwork Motion Pictures</corpname></origination> 
@@ -1853,17 +1843,17 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2399</unitid>
- <unitdate type="inclusive" normal="2003">2003</unitdate>
+ <unitdate normal="2003" type="inclusive">2003</unitdate>
         <unittitle>Capoeira 5</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2400</unitid>
- <unitdate type="inclusive" normal="2003">2003</unitdate>
+ <unitdate normal="2003" type="inclusive">2003</unitdate>
         <unittitle>Gone, But Not Forgotten</unittitle>
        <origination label="Creator"><persname>Akers, Michael D.</persname></origination> 
        <origination label="Creator"><corpname>United Gaynetwork</corpname></origination> 
@@ -1871,8 +1861,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
- <unitdate type="inclusive" normal="2003">2003</unitdate>
+        <container label="unspecified" type="box">6</container>
+ <unitdate normal="2003" type="inclusive">2003</unitdate>
         <unittitle>Lockdown</unittitle>
        <origination label="Creator"><persname>Luessenhop, John</persname></origination> 
        <origination label="Creator"><corpname>Pal Pictures</corpname></origination> 
@@ -1880,26 +1870,26 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2401</unitid>
- <unitdate type="inclusive" normal="2004">2004</unitdate>
+ <unitdate normal="2004" type="inclusive">2004</unitdate>
         <unittitle>Cherry Boy Asia</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2402</unitid>
- <unitdate type="inclusive" normal="2004">2004</unitdate>
+ <unitdate normal="2004" type="inclusive">2004</unitdate>
         <unittitle>Dream Boys #2</unittitle>
        <origination label="Creator"><corpname>Bacchus, Birlynn Production</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2403</unitid>
- <unitdate type="inclusive" normal="2004">2004</unitdate>
+ <unitdate normal="2004" type="inclusive">2004</unitdate>
         <unittitle>the hole</unittitle>
        <origination label="Creator"><persname>West, Wash</persname></origination> 
        <origination label="Creator"><corpname>tla releasing, Jet Set Productions</corpname></origination> 
@@ -1908,9 +1898,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2404</unitid>
- <unitdate type="inclusive" normal="2004">2004</unitdate>
+ <unitdate normal="2004" type="inclusive">2004</unitdate>
         <unittitle>Locked Up</unittitle>
        <origination label="Creator"><persname>Amndreas, Joerg</persname></origination> 
        <origination label="Creator"><corpname>tla releasing, Cazzo Films</corpname></origination> 
@@ -1919,27 +1909,27 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2405</unitid>
- <unitdate type="inclusive" normal="2004">2004</unitdate>
+ <unitdate normal="2004" type="inclusive">2004</unitdate>
         <unittitle>Mandingo Men 3</unittitle>
        <origination label="Creator"><corpname>Bacchus</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2406</unitid>
- <unitdate type="inclusive" normal="2005">2005</unitdate>
+ <unitdate normal="2005" type="inclusive">2005</unitdate>
         <unittitle>Brother to Brother</unittitle>
        <origination label="Creator"><corpname>Wolfe</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2407</unitid>
- <unitdate type="inclusive" normal="2005">2005</unitdate>
+ <unitdate normal="2005" type="inclusive">2005</unitdate>
         <unittitle>Bustin' Out</unittitle>
        <origination label="Creator"><persname>Decklin</persname></origination> 
        <origination label="Creator"><corpname>Jackrabbit Releasing</corpname></origination> 
@@ -1947,9 +1937,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2408</unitid>
- <unitdate type="inclusive" normal="2005">2005</unitdate>
+ <unitdate normal="2005" type="inclusive">2005</unitdate>
         <unittitle>Exposed The Making of a Legend</unittitle>
        <origination label="Creator"><persname>Mr. Pam</persname></origination> 
        <origination label="Creator"><corpname>Colt Studio Group</corpname></origination> 
@@ -1957,18 +1947,18 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2409</unitid>
- <unitdate type="inclusive" normal="2005">2005</unitdate>
+ <unitdate normal="2005" type="inclusive">2005</unitdate>
         <unittitle>Mandingo Men 5</unittitle>
        <origination label="Creator"><corpname>Bacchus</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2410</unitid>
- <unitdate type="inclusive" normal="2005">2005</unitdate>
+ <unitdate normal="2005" type="inclusive">2005</unitdate>
         <unittitle>Parallel Sons</unittitle>
        <origination label="Creator"><persname>Young, John G.</persname></origination> 
        <origination label="Creator"><corpname>Strand Releasing</corpname></origination> 
@@ -1976,9 +1966,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2411</unitid>
- <unitdate type="inclusive" normal="2005">2005</unitdate>
+ <unitdate normal="2005" type="inclusive">2005</unitdate>
         <unittitle>The Reception</unittitle>
        <origination label="Creator"><persname>Young, John G.</persname></origination> 
        <origination label="Creator"><corpname>Strand Releasing</corpname></origination> 
@@ -1986,9 +1976,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2412</unitid>
- <unitdate type="inclusive" normal="2006">2006</unitdate>
+ <unitdate normal="2006" type="inclusive">2006</unitdate>
         <unittitle>Boys Love</unittitle>
        <origination label="Creator"><persname>Terauchi, Kohtaro</persname></origination> 
        <origination label="Creator"><corpname>Picture This! Entertainment</corpname></origination> 
@@ -1996,18 +1986,18 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2413</unitid>
- <unitdate type="inclusive" normal="2006">2006</unitdate>
+ <unitdate normal="2006" type="inclusive">2006</unitdate>
         <unittitle>Jokion Boy</unittitle>
        <origination label="Creator"><corpname>GayAsianAmateurs.com</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2414</unitid>
- <unitdate type="inclusive" normal="2007">2007</unitdate>
+ <unitdate normal="2007" type="inclusive">2007</unitdate>
         <unittitle>Clandestinos</unittitle>
        <origination label="Creator"><persname>Hens, Antonio</persname></origination> 
        <origination label="Creator"><corpname>tla releasing, Malas Companias</corpname></origination> 
@@ -2015,9 +2005,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2415</unitid>
- <unitdate type="inclusive" normal="2007">2007</unitdate>
+ <unitdate normal="2007" type="inclusive">2007</unitdate>
         <unittitle>Rock Haven</unittitle>
        <origination label="Creator"><persname>Lewis, David</persname></origination> 
        <origination label="Creator"><corpname>tla releasing, Morning View Films</corpname></origination> 
@@ -2025,8 +2015,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
- <unitdate type="inclusive" normal="2008">2008</unitdate>
+        <container label="unspecified" type="box">6</container>
+ <unitdate normal="2008" type="inclusive">2008</unitdate>
         <unittitle>Just Say Love</unittitle>
        <origination label="Creator"><persname>Humphreys, Bill</persname></origination> 
        <origination label="Creator"><corpname>Here! Films</corpname></origination> 
@@ -2034,9 +2024,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2416</unitid>
- <unitdate type="inclusive" normal="2008">2008</unitdate>
+ <unitdate normal="2008" type="inclusive">2008</unitdate>
         <unittitle>Kambyo</unittitle>
        <origination label="Creator"><persname>Altarejos, Joselito</persname></origination> 
        <origination label="Creator"><corpname>Viva Video, Inc.</corpname></origination> 
@@ -2044,9 +2034,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2417</unitid>
- <unitdate type="inclusive" normal="2008">2008</unitdate>
+ <unitdate normal="2008" type="inclusive">2008</unitdate>
         <unittitle>Running Deep</unittitle>
        <origination label="Creator"><persname>Kokkoros, Mark</persname></origination> 
        <origination label="Creator"><corpname>Arztical Entertainment</corpname></origination> 
@@ -2054,18 +2044,18 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2418</unitid>
- <unitdate type="inclusive" normal="2009">2009</unitdate>
+ <unitdate normal="2009" type="inclusive">2009</unitdate>
         <unittitle>Asian Queer Shorts</unittitle>
        <origination label="Creator"><corpname>frameline</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2419</unitid>
- <unitdate type="inclusive" normal="2009">2009</unitdate>
+ <unitdate normal="2009" type="inclusive">2009</unitdate>
         <unittitle>Children of God</unittitle>
        <origination label="Creator"><persname>Mortimer, Kareem</persname></origination> 
        <origination label="Creator"><corpname>tla releasing, Mercury Rising Media</corpname></origination> 
@@ -2073,9 +2063,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2420</unitid>
- <unitdate type="inclusive" normal="2009">2009</unitdate>
+ <unitdate normal="2009" type="inclusive">2009</unitdate>
         <unittitle>Finding Me</unittitle>
        <origination label="Creator"><persname>Omeus Jr., Roger S.</persname></origination> 
        <origination label="Creator"><corpname>tla releasing, OmeProductions, LLC.</corpname></origination> 
@@ -2083,9 +2073,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2421</unitid>
- <unitdate type="inclusive" normal="2009">2009</unitdate>
+ <unitdate normal="2009" type="inclusive">2009</unitdate>
         <unittitle>From Beginning to End</unittitle>
        <origination label="Creator"><persname>Abranches, Aluzio</persname></origination> 
        <origination label="Creator"><corpname>tla releasing</corpname></origination> 
@@ -2093,9 +2083,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2422</unitid>
- <unitdate type="inclusive" normal="2009">2009</unitdate>
+ <unitdate normal="2009" type="inclusive">2009</unitdate>
         <unittitle>Little Boy Big Boy</unittitle>
        <origination label="Creator"><persname>Altarejos, Joselito</persname></origination> 
        <origination label="Creator"><corpname>Viva Video, Inc.</corpname></origination> 
@@ -2103,9 +2093,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2423</unitid>
- <unitdate type="inclusive" normal="2009">2009</unitdate>
+ <unitdate normal="2009" type="inclusive">2009</unitdate>
         <unittitle>Raging Sun, Raging Sky</unittitle>
        <origination label="Creator"><persname>Hernandez, Julio</persname></origination> 
        <origination label="Creator"><corpname>tla releasing</corpname></origination> 
@@ -2113,9 +2103,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2424</unitid>
- <unitdate type="inclusive" normal="2009">2009</unitdate>
+ <unitdate normal="2009" type="inclusive">2009</unitdate>
         <unittitle>Spring Fever</unittitle>
        <origination label="Creator"><persname>Ye, Lou</persname></origination> 
        <origination label="Creator"><corpname>Dream Factory, Rosem Films</corpname></origination> 
@@ -2123,9 +2113,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2425</unitid>
- <unitdate type="inclusive" normal="2012">2012</unitdate>
+ <unitdate normal="2012" type="inclusive">2012</unitdate>
         <unittitle>Mixed Kebab</unittitle>
        <origination label="Creator"><persname>Thys, Guy Lee </persname></origination> 
        <origination label="Creator"><corpname>tla releasing</corpname></origination> 
@@ -2133,16 +2123,16 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2426</unitid>
- <unitdate type="inclusive" normal="2012">2012</unitdate>
+ <unitdate normal="2012" type="inclusive">2012</unitdate>
         <unittitle>Untitled Electric Eel Film</unittitle>
        <origination label="Creator"><corpname>Electric Eel Films</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2440</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Ben &amp; Sam</unittitle>
@@ -2152,7 +2142,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2427</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Daybreak</unittitle>
@@ -2162,7 +2152,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6</container>
+        <container label="unspecified" type="box">6</container>
         <unitid>DVD-2428-2429</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Duda Doubt </unittitle>
@@ -2171,9 +2161,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>DVD-2430, DVD-2433</unitid>
- <unitdate type="inclusive" normal="1998">1998</unitdate>
+ <unitdate normal="1998" type="inclusive">1998</unitdate>
         <unittitle>Rendezvous at the Golden Gate Bed &amp; Breakfast</unittitle>
        <origination label="Creator"><corpname>Greenwood Cooper Homevideo</corpname></origination> 
        </did>
@@ -2181,9 +2171,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>DVD-2431</unitid>
- <unitdate type="inclusive" normal="2003">2003</unitdate>
+ <unitdate normal="2003" type="inclusive">2003</unitdate>
         <unittitle>The Map of Sex and Love</unittitle>
        <origination label="Creator"><persname>Chan, Evans</persname></origination> 
        <origination label="Creator"><corpname>Water Bearer Films</corpname></origination> 
@@ -2191,9 +2181,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>DVD-2432, DVD-2434</unitid>
- <unitdate type="inclusive" normal="2005">2005</unitdate>
+ <unitdate normal="2005" type="inclusive">2005</unitdate>
         <unittitle>Strange Fruit</unittitle>
        <origination label="Creator"><corpname>Kyle Shickner</corpname></origination> 
        </did>
@@ -2201,7 +2191,7 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">7</container>
+        <container label="unspecified" type="box">7</container>
         <unitid>DVD-2435</unitid>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Samurai Boys Stand By Me!</unittitle>
@@ -2211,18 +2201,18 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>DVD-2436</unitid>
- <unitdate type="inclusive" normal="2005">2005</unitdate>
+ <unitdate normal="2005" type="inclusive">2005</unitdate>
         <unittitle>F/Stop</unittitle>
        <origination label="Creator"><corpname>ARI Productions</corpname></origination> 
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>DVD-2437</unitid>
- <unitdate type="inclusive" normal="2007">2007</unitdate>
+ <unitdate normal="2007" type="inclusive">2007</unitdate>
         <unittitle>Bathhouse</unittitle>
        <origination label="Creator"><persname>Pablo, Crisaldo</persname></origination> 
        <origination label="Creator"><corpname>Water Bearer Films</corpname></origination> 
@@ -2230,9 +2220,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>DVD-2438</unitid>
- <unitdate type="inclusive" normal="2007">2007</unitdate>
+ <unitdate normal="2007" type="inclusive">2007</unitdate>
         <unittitle>Friends Forever</unittitle>
        <origination label="Creator"><persname>Henszelman, Stephen</persname></origination> 
        <origination label="Creator"><corpname>Water Bearer Films</corpname></origination> 
@@ -2240,9 +2230,9 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8</container>
+        <container label="unspecified" type="box">8</container>
         <unitid>DVD-2439</unitid>
- <unitdate type="inclusive" normal="2012">2012</unitdate>
+ <unitdate normal="2012" type="inclusive">2012</unitdate>
         <unittitle>Speechless</unittitle>
        <origination label="Creator"><persname>Chung, Simon</persname></origination> 
        <origination label="Creator"><corpname>QC Cinema</corpname></origination> 
@@ -2250,5 +2240,15 @@
        </c02>
    </c01>
     </dsc>
-  </archdesc>
+  <accessrestrict>
+                          <head>Access Restrictions:</head>
+                                   <p>Archival copies not to be played.</p>
+                  </accessrestrict><userestrict>
+                          <head>Restrictions on Use:</head>
+                                   <p>Mold present inside video tapes in Box 9. May also be present in Boxes 4-8. Individuals with weak immune systems may need to take extra precautions.</p>
+                  </userestrict><prefercite>
+                          <head>Cite As:</head>
+                                   <p>Gay male pornographic movies, #7637.  Division of Rare and Manuscript Collections, Cornell University Library.
+                                   </p>
+                  </prefercite></archdesc>
  </ead>

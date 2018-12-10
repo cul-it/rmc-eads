@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01892::Guide to the Harry Bitner papers)//EN">RMA01892</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01892::Guide to the Harry Bitner papers)//EN">RMA01892</eadid>
     
     <filedesc> 
       <titlestmt> 
@@ -26,22 +26,28 @@
       <creation>Finding aid encoded by RMC Staff, 
         <date>April 2009</date></creation> 
     </profiledesc> 
-  </eadheader> 
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader> 
   <frontmatter> 
     <titlepage> 
-      <titleproper>Guide to the Harry Bitner Papers,<lb/> 
-        <date type="inclusive" encodinganalog="245$f">1964-1975.</date></titleproper> 
+      <titleproper>Guide to the Harry Bitner Papers, 
+        <date encodinganalog="245$f" type="inclusive">1964-1975.</date></titleproper> 
       <num>Collection Number: 18-3-1892</num> 
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+      <publisher>Division of Rare and Manuscript Collections Cornell
         University Library</publisher> 
       <list type="deflist"> 
         <defitem> 
           <label>Contact Information:</label> 
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-            Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/> 
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/> 
-            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A.
+            Kroch Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524 
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
+            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
           
         </defitem> 
         <defitem> 
@@ -68,13 +74,15 @@
   <archdesc level="collection"> 
     <did> 
       <head id="a1">DESCRIPTIVE SUMMARY</head> 
-      <unittitle label="Title:" encodinganalog="MARC 245">Harry Bitner papers, 
-        <unitdate encodinganalog="MARC 245" type="inclusive">1964-1975.</unitdate> </unittitle> 
+      <unittitle encodinganalog="MARC 245" label="Title:">Harry Bitner papers, 
+        </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1964-1975.</unitdate> 
       <unitid label="Collection Number:">18-3-1892</unitid> 
       <origination label="Creator:"> 
         <persname encodinganalog="100" normal="Bitner, Harry, 1916-2001">Harry,
           Bitner 1916-2001</persname></origination> 
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1.3 cubic
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>1.3 cubic
         ft.</extent></physdesc> 
       <physdesc label="Forms of Material:">Manuscripts, Publications</physdesc>
       
@@ -89,7 +97,7 @@
       
     </did> 
     <bioghist encodinganalog="MARC 545"> 
-      <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head> 
+      <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head> 
       <p>Professor of law, Cornell University Law School.</p> 
     </bioghist> 
     <scopecontent encodinganalog="MARC 520"> 
@@ -116,300 +124,293 @@
           (State).</subject> 
       </controlaccess> 
     </controlaccess> 
-    <descgrp> 
-      <head id="a8">INFORMATION FOR USERS</head> 
-      <prefercite> 
-        <head>Cite As:</head> 
-        <p>Harry Bitner papers, #18-3-1892. Division of Rare and Manuscript
-          Collections, Cornell University Library.</p> 
-      </prefercite> 
-    </descgrp> 
+     
     <dsc type="combined"> 
       <head>CONTAINER LIST</head> 
      
      
       <c01 level="series">
         <did>
-          <unitdate type="inclusive" normal="1964/1975">1964-1975</unitdate>
+          <unitdate normal="1964/1975" type="inclusive">1964-1975</unitdate>
           <unittitle>Administrative Files</unittitle>
         </did>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">1</container>
-            <unitdate type="inclusive" normal="1974">1974</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">1</container>
+            <unitdate normal="1974" type="inclusive">1974</unitdate>
             <unittitle>F.A.U.L.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">2</container>
-            <unitdate type="bulk" normal="1965/1973">1965-1967, 1973</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">2</container>
+            <unitdate normal="1965/1973" type="bulk">1965-1967, 1973</unitdate>
             <unittitle>Computing Center</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">3</container>
-            <unitdate type="bulk" normal="1973/1974">1973, 1974</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">3</container>
+            <unitdate normal="1973/1974" type="bulk">1973, 1974</unitdate>
             <unittitle>Center for Improvement of Undergraduate Education</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">4</container>
-            <unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">4</container>
+            <unitdate normal="1972/1975" type="inclusive">1972-1975</unitdate>
             <unittitle>Adn. memos - Univ.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">5</container>
-            <unitdate type="bulk" normal="1972/1973">1972, 1973</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">5</container>
+            <unitdate normal="1972/1973" type="bulk">1972, 1973</unitdate>
             <unittitle>C.U. L. Planning</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">6</container>
-            <unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">6</container>
+            <unitdate normal="1971/1974" type="inclusive">1971-1974</unitdate>
             <unittitle>Committee on Economic Statues</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">7</container>
-            <unitdate type="bulk" normal="1970/1971">1970, 1971</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">7</container>
+            <unitdate normal="1970/1971" type="bulk">1970, 1971</unitdate>
             <unittitle>Committee on Ad Hoc Committees</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">8</container>
-            <unitdate type="inclusive" normal="1974">1974</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">8</container>
+            <unitdate normal="1974" type="inclusive">1974</unitdate>
             <unittitle>Continuing education</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">9</container>
-            <unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">9</container>
+            <unitdate normal="1969/1971" type="inclusive">1969-1971</unitdate>
             <unittitle>Academic staff, 1969-1971</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">10</container>
-            <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">10</container>
+            <unitdate normal="1969/1972" type="inclusive">1969-1972</unitdate>
             <unittitle>Administrative staff</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">11</container>
-            <unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">11</container>
+            <unitdate normal="1971/1974" type="inclusive">1971-1974</unitdate>
             <unittitle>Ex. staff - general, 1972/1973</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">12</container>
-            <unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">12</container>
+            <unitdate normal="1969/1972" type="inclusive">1969-1972</unitdate>
             <unittitle>Executive staff, 1969-1972</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">13</container>
-            <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">13</container>
+            <unitdate normal="1971/1973" type="inclusive">1971-1973</unitdate>
             <unittitle>Orientation programs - prof. and supp.</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">14</container>
-            <unitdate type="inclusive" normal="1965/1975">1965-1975</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">14</container>
+            <unitdate normal="1965/1975" type="inclusive">1965-1975</unitdate>
             <unittitle>Staff association</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">15</container>
-            <unitdate type="inclusive" normal="1972">1972</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">15</container>
+            <unitdate normal="1972" type="inclusive">1972</unitdate>
             <unittitle>University library grievance</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">16</container>
-            <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">16</container>
+            <unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
             <unittitle>Audio visual</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">17</container>
-            <unitdate type="inclusive" normal="1965/1974">1965-1974</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">17</container>
+            <unitdate normal="1965/1974" type="inclusive">1965-1974</unitdate>
             <unittitle>Center for Research Libraries</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">18</container>
-            <unitdate type="inclusive" normal="1973">1973</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">18</container>
+            <unitdate normal="1973" type="inclusive">1973</unitdate>
             <unittitle>Collection development</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">19</container>
-            <unitdate type="inclusive" normal="1965/1975">1965-1975</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">19</container>
+            <unitdate normal="1965/1975" type="inclusive">1965-1975</unitdate>
             <unittitle>Personnel - University library</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">20</container>
-            <unitdate type="inclusive" normal="1966/1975">1966-1975</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">20</container>
+            <unitdate normal="1966/1975" type="inclusive">1966-1975</unitdate>
             <unittitle>Public service</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">21</container>
-            <unitdate type="inclusive" normal="1969/1974">1969-1974</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">21</container>
+            <unitdate normal="1969/1974" type="inclusive">1969-1974</unitdate>
             <unittitle>Technical services - Univ. Library</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">22</container>
-            <unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">22</container>
+            <unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
             <unittitle>Technical services - Univ. Library - Acquisitions</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">23</container>
-            <unitdate type="inclusive" normal="1971">1971</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">23</container>
+            <unitdate normal="1971" type="inclusive">1971</unitdate>
             <unittitle>Affirmative Action</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">24</container>
-            <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">24</container>
+            <unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
             <unittitle>University Library management</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">25</container>
-            <unitdate type="bulk" normal="1970/1971">1970, 1971</unitdate>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">25</container>
+            <unitdate normal="1970/1971" type="bulk">1970, 1971</unitdate>
             <unittitle>University Library - Nieneka Report</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">1</container>
-            <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">1</container>
+            <unitdate normal="1970/1974" type="inclusive">1970-1974</unitdate>
             <unittitle>C.U. Libraries - academic assemblies, 1971-1974</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">2</container>
-            <unitdate type="inclusive" normal="1975">1975</unitdate>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">2</container>
+            <unitdate normal="1975" type="inclusive">1975</unitdate>
             <unittitle>[South Central Research 1975 Library Council]</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">3</container>
-            <unitdate type="bulk" normal="1974/1975">1974, 1975</unitdate>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">3</container>
+            <unitdate normal="1974/1975" type="bulk">1974, 1975</unitdate>
             <unittitle>S.C.R.L. Council, agenda - minutes</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">4</container>
-            <unitdate type="bulk" normal="1974/1975">1974, 1975</unitdate>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">4</container>
+            <unitdate normal="1974/1975" type="bulk">1974, 1975</unitdate>
             <unittitle>S.C.R.L. Council, Board of Trustees</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">5</container>
-            <unitdate type="inclusive" normal="1973">1973</unitdate>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">5</container>
+            <unitdate normal="1973" type="inclusive">1973</unitdate>
             <unittitle>S.C.R.L. Council, By-Laws</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">6</container>
-            <unitdate type="bulk" normal="1974/1975">1974, 1975</unitdate>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">6</container>
+            <unitdate normal="1974/1975" type="bulk">1974, 1975</unitdate>
             <unittitle>S.C.R.L. Council, Planning and Advisory Committee</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">7</container>
-            <unitdate type="inclusive" normal="1975">1975</unitdate>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">7</container>
+            <unitdate normal="1975" type="inclusive">1975</unitdate>
             <unittitle>S.C.R.L. Council, Personnel</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">8</container>
-            <unitdate type="inclusive" normal="1975">1975</unitdate>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">8</container>
+            <unitdate normal="1975" type="inclusive">1975</unitdate>
             <unittitle>[S.C.R.L. Council]</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">9</container>
-            <unitdate type="inclusive" normal="1975">1975</unitdate>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">9</container>
+            <unitdate normal="1975" type="inclusive">1975</unitdate>
             <unittitle>[S.C.R.L. Councils]</unittitle>
           </did>
         </c02>
         <c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">10</container>
-            <unitdate type="inclusive" normal="1969/1975">1969-1975</unitdate>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">10</container>
+            <unitdate normal="1969/1975" type="inclusive">1969-1975</unitdate>
             <unittitle>S.C.R.L. Council</unittitle>
           </did>
         </c02>
@@ -417,5 +418,9 @@
      
      
     </dsc> 
-  </archdesc> 
+  <prefercite> 
+        <head>Cite As:</head> 
+        <p>Harry Bitner papers, #18-3-1892. Division of Rare and Manuscript
+          Collections, Cornell University Library.</p> 
+      </prefercite></archdesc> 
 </ead>

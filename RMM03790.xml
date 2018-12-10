@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-	 <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM03790::John Tuttle and Arvilla Raplee Andrews papers)//EN">RMM03790</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+	 <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM03790::John Tuttle and Arvilla Raplee Andrews papers)//EN">RMM03790</eadid>
 	 
 	 <filedesc> 
 		<titlestmt> 
@@ -28,7 +27,13 @@
 		<creation>Finding aid encoded by Martin Heggestad 
 		  <date>February 2004</date> </creation> 
 	 </profiledesc> 
-	 <revisiondesc> 
+	 <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+ 
 		<change encodinganalog="583"> 
 		  <date normal="2007-05-29">2007-05-29</date> 
 		  <item>converted from EAD 1.0 to EAD 2002 </item> 
@@ -38,19 +43,19 @@
   <frontmatter> 
 	 <titlepage> 
 		<titleproper>Guide to the John Tuttle and Arvilla Raplee Andrews
-		  Papers,<lb/>1843-1982</titleproper> 
+		  Papers,1843-1982</titleproper> 
 		<num>Collection Number: 3790</num> 
-		<publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+		<publisher>Division of Rare and Manuscript Collections Cornell
 		  University Library</publisher> 
 		<list type="deflist"> 
 		  <defitem> 
 			 <label>Contact Information:</label> 
-			 <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-				Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-				255-3530<lb/> Fax: (607) 255-9524<lb/> 
-				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> <lb/> 
+			 <item>Division of Rare and Manuscript Collections 2B Carl A.
+				Kroch Library Cornell University Ithaca, NY 14853 (607)
+				255-3530 Fax: (607) 255-9524 
+				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>  
 				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-				<lb/></item> 
+				</item> 
 		  </defitem> 
 		  <defitem> 
 			 <label>Compiled by:</label> 
@@ -72,14 +77,16 @@
   <archdesc level="collection"> 
 	 <did> 
 		<head id="a1">DESCRIPTIVE SUMMARY</head> 
-		<unittitle label="Title:" encodinganalog="MARC 245">John Tuttle and
+		<unittitle encodinganalog="MARC 245" label="Title:">John Tuttle and
 		  Arvilla Raplee Andrews papers, 
-		  <unitdate type="inclusive" encodinganalog="MARC 245">1843-1982.</unitdate> </unittitle> 
+		  </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1843-1982.</unitdate> 
 		<unitid label="Collection Number:">3790</unitid> 
 		<origination label="Creator:"> 
 		  <persname encodinganalog="100" normal="Andrews, John Tuttle, 1842-1916.">John Tuttle Andrews,
 			 1842-1916.</persname> </origination> 
-		<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>2.1 cubic
+		<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>2.1 cubic
 		  ft.</extent></physdesc> 
 		<physdesc label="Forms of Material:">Correspondence, military records,
 		  genealogies, photographs, and diaries.</physdesc> 
@@ -93,7 +100,7 @@
 		  </langmaterial> 
 	 </did> 
 	 <bioghist encodinganalog="MARC 545"> 
-		<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head> 
+		<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head> 
 		<p>John T. Andrews was born on March 9, 1842 in Reading, New York. He
 		  attended Alfred University and Union College, from which he graduated in 1864.
 		  In August 1864 he enlisted in Company D of the 179th Regiment of the New York
@@ -196,352 +203,345 @@
 		</controlaccess> 
 		<controlaccess> 
 		  <head>Form and Genre Terms:</head> 
-		  <genreform source="aat" encodinganalog="MARC 655">Genealogies.</genreform> 
-		  <genreform source="aat" encodinganalog="MARC 655">Photographs.</genreform> 
-		  <genreform source="aat" encodinganalog="MARC 655">Speeches.</genreform>
+		  <genreform encodinganalog="MARC 655" source="aat">Genealogies.</genreform> 
+		  <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform> 
+		  <genreform encodinganalog="MARC 655" source="aat">Speeches.</genreform>
 		  
-		  <genreform source="aat" encodinganalog="MARC 655">Diaries.</genreform> 
+		  <genreform encodinganalog="MARC 655" source="aat">Diaries.</genreform> 
 		</controlaccess> 
 	 </controlaccess> 
-	 <descgrp type="admininfo"> 
-		<head id="a8">INFORMATION FOR USERS</head> 
-		<prefercite> 
-		  <head>Cite As:</head> 
-		  <p>John Tuttle and Arvilla Raplee Andrews papers, #3790. Division of
-			 Rare and Manuscript Collections, Cornell University Library.</p> 
-		</prefercite> 
-	 </descgrp> 
+	  
 	 <dsc type="combined"> 
 		<head>CONTAINER LIST</head> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">1</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">1</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>1856-1861</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">2</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">2</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>Jan.-Aug. 1862</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">3</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">3</container> 
 			 <unittitle>Correspondence</unittitle> 
-			 <unitdate>Sept.-Dec. 1862</unitdate> 
+			 <unitdate certainty="approximate">Sept.-Dec. 1862</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">4</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">4</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>Jan.-May 1863</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">5</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">5</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>June-Sept. 1863</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">6</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">6</container> 
 			 <unittitle>Correspondence</unittitle> 
-			 <unitdate>Oct.-Dec. 1863</unitdate> 
+			 <unitdate certainty="approximate">Oct.-Dec. 1863</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">7</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">7</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>Jan.-May 1864</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">8</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">8</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>June-Oct. 1864</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">9</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">9</container> 
 			 <unittitle>Correspondence</unittitle> 
-			 <unitdate>Nov.-Dec. 1864</unitdate> 
+			 <unitdate certainty="approximate">Nov.-Dec. 1864</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">10</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">10</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>Jan. 1865</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">11</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">11</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>Feb.-Apr. 1865</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">12</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">12</container> 
 			 <unittitle>Correspondence</unittitle> 
-			 <unitdate>May-Dec. 1865</unitdate> 
+			 <unitdate certainty="approximate">May-Dec. 1865</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">1</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">1</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>Jan.-Feb. 1866</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">2</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">2</container> 
 			 <unittitle>Correspondence</unittitle> 
-			 <unitdate>Mar.-Dec. 1866</unitdate> 
+			 <unitdate certainty="approximate">Mar.-Dec. 1866</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">3</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">3</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>1867-1868</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">4</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">4</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>Jan.-Apr. 1869</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">5</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">5</container> 
 			 <unittitle>Correspondence</unittitle> 
-			 <unitdate>May-Dec. 1869</unitdate> 
+			 <unitdate certainty="approximate">May-Dec. 1869</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">6</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">6</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>1870-1871</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">7</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">7</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>1874-1875</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">8</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">8</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>1899-1900</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">9</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">9</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>Jan.-Mar. 1901</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">10</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">10</container> 
 			 <unittitle>Correspondence</unittitle> 
-			 <unitdate>Apr.-Dec. 1901</unitdate> 
+			 <unitdate certainty="approximate">Apr.-Dec. 1901</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">11</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">11</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>1902</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">12</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">12</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>1903</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">13</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">13</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>1904</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">14</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">14</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>1908-1911</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
-			 <container type="folder">15</container> 
+			 <container label="unspecified" type="box">2</container> 
+			 <container label="unspecified" type="folder">15</container> 
 			 <unittitle>Correspondence</unittitle> 
 			 <unitdate>n.d.</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
-			 <container type="folder">1</container> 
+			 <container label="unspecified" type="box">3</container> 
+			 <container label="unspecified" type="folder">1</container> 
 			 <unittitle>Misc. correspondence</unittitle> 
 			 <unitdate>1865-1874</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
-			 <container type="folder">2</container> 
+			 <container label="unspecified" type="box">3</container> 
+			 <container label="unspecified" type="folder">2</container> 
 			 <unittitle>Military</unittitle> 
 			 <unitdate>1863, Jan.-Aug. 1864</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
-			 <container type="folder">3</container> 
+			 <container label="unspecified" type="box">3</container> 
+			 <container label="unspecified" type="folder">3</container> 
 			 <unittitle>Military</unittitle> 
 			 <unitdate>Sept. 1864</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
-			 <container type="folder">4</container> 
+			 <container label="unspecified" type="box">3</container> 
+			 <container label="unspecified" type="folder">4</container> 
 			 <unittitle>Military</unittitle> 
 			 <unitdate>Oct.-Nov. 1864</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
-			 <container type="folder">5</container> 
+			 <container label="unspecified" type="box">3</container> 
+			 <container label="unspecified" type="folder">5</container> 
 			 <unittitle>Military</unittitle> 
-			 <unitdate>Dec. 1864</unitdate> 
+			 <unitdate certainty="approximate">Dec. 1864</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
-			 <container type="folder">6</container> 
+			 <container label="unspecified" type="box">3</container> 
+			 <container label="unspecified" type="folder">6</container> 
 			 <unittitle>Military</unittitle> 
 			 <unitdate>Jan.-Feb. 1865</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
-			 <container type="folder">7</container> 
+			 <container label="unspecified" type="box">3</container> 
+			 <container label="unspecified" type="folder">7</container> 
 			 <unittitle>Military</unittitle> 
 			 <unitdate>Mar.-May 1865</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
-			 <container type="folder">8</container> 
+			 <container label="unspecified" type="box">3</container> 
+			 <container label="unspecified" type="folder">8</container> 
 			 <unittitle>Military</unittitle> 
-			 <unitdate>June-Dec. 1865</unitdate> 
+			 <unitdate certainty="approximate">June-Dec. 1865</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
-			 <container type="folder">9</container> 
+			 <container label="unspecified" type="box">3</container> 
+			 <container label="unspecified" type="folder">9</container> 
 			 <unittitle>Military</unittitle> 
 			 <unitdate>1864-1865</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
-			 <container type="folder">10</container> 
+			 <container label="unspecified" type="box">3</container> 
+			 <container label="unspecified" type="folder">10</container> 
 			 <unittitle>Oration</unittitle> 
 			 <unitdate>May 30, 1870</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
-			 <container type="folder">11</container> 
+			 <container label="unspecified" type="box">3</container> 
+			 <container label="unspecified" type="folder">11</container> 
 			 <unittitle>Mary E. Wager</unittitle> 
 			 <unitdate>1862</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
-			 <container type="folder">12</container> 
+			 <container label="unspecified" type="box">3</container> 
+			 <container label="unspecified" type="folder">12</container> 
 			 <unittitle>Photographs</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
-			 <container type="folder">13</container> 
+			 <container label="unspecified" type="box">3</container> 
+			 <container label="unspecified" type="folder">13</container> 
 			 <unittitle>Newspaper clippings</unittitle> 
-			 <unitdate>ca. 1860-1865</unitdate> 
+			 <unitdate certainty="approximate">1860-1865</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
-			 <container type="folder">14</container> 
+			 <container label="unspecified" type="box">3</container> 
+			 <container label="unspecified" type="folder">14</container> 
 			 <unittitle>Military insignia</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">4</container> 
+			 <container label="unspecified" type="box">4</container> 
 			 <unittitle>Unprocessed material: Walkerbilt Woodwork, Inc.: invoices;
 				muster rolls, 179th N.Y. Volunteers, Civil War; genealogy; real estate related
 				miscellany; family documents; Keuka Lake Shore Property Owners Association
@@ -550,52 +550,56 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>Muster Rolls: 179th N. Y. Volunteers, 1864-1865 </unittitle> 
 		  </did> 
 		</c01>   
 		<c01 level="file"> 
 		  <did>  
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>John T. Andrews: College expenses and journal, 1861-January, 1863</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did>  
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>John T. Andrews: Expenses and war journal, September 1864 </unittitle> 
 		  </did> 
 		</c01>   
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>John T. Andrews, A. B., 1st Lieut. Co. "D" 179th N. Y. V. 2nd Brigade, 2nd Division, 9th Army Corps., Army of the Potomac: war journal, November 1st, 1864 </unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did>  
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>John T. Andrews, ...: November 25, 1864 </unittitle> 
 		  </did> 
 		</c01>  
 		<c01 level="file"> 
 		  <did>  
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>John T. Andrews, ...: February 20, 1865 </unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>Union College Civil War Record, 1861-1865 </unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>Muster Rolls: 179th N. Y. Volunteers, 1864-1865 </unittitle> 
 		  </did> 
 		</c01>  
 	 </dsc> 
-  </archdesc>
+  <prefercite> 
+		  <head>Cite As:</head> 
+		  <p>John Tuttle and Arvilla Raplee Andrews papers, #3790. Division of
+			 Rare and Manuscript Collections, Cornell University Library.</p> 
+		</prefercite></archdesc>
 </ead>

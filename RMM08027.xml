@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-	 <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08027::Clara T. Evans bookplate collection)//EN">RMM08027</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+	 <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08027::Clara T. Evans bookplate collection)//EN">RMM08027</eadid>
 	 
 	 <filedesc> 
 		<titlestmt> 
@@ -29,24 +29,30 @@
 		<creation>Finding aid encoded by Evan Fay Earle, 
 		  <date>January 2009</date></creation> 
 	 </profiledesc> 
-  </eadheader> 
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader> 
   <frontmatter> 
 	 <titlepage> 
-		<titleproper>Guide to the Clara T. Evans Bookplate Collection,<lb/> 
-		  <date type="inclusive" encodinganalog="245$f">circa 1740-1960</date> 
-		  <date type="bulk" encodinganalog="245$g"> [bulk
+		<titleproper>Guide to the Clara T. Evans Bookplate Collection, 
+		  <date encodinganalog="245$f" type="inclusive">circa 1740-1960</date> 
+		  <date encodinganalog="245$g" type="bulk"> [bulk
 			 1890-1940.]</date></titleproper> 
 		<num>Collection Number: 8027</num> 
-		<publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+		<publisher>Division of Rare and Manuscript Collections Cornell
 		  University Library</publisher> 
 		<list type="deflist"> 
 		  <defitem> 
 			 <label>Contact Information:</label> 
-			 <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-				Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-				255-3530<lb/> Fax: (607) 255-9524<lb/> 
-				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/> 
-				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+			 <item> Division of Rare and Manuscript Collections 2B Carl A.
+				Kroch Library Cornell University Ithaca, NY 14853 (607)
+				255-3530 Fax: (607) 255-9524 
+				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
+				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 			 
 		  </defitem> 
 		  <defitem> 
@@ -69,17 +75,17 @@
   <archdesc level="collection"> 
 	 <did> 
 		<head id="a1">DESCRIPTIVE SUMMARY</head> 
-		<unittitle label="Title:" encodinganalog="MARC 245">Clara T. Evans
+		<unittitle encodinganalog="MARC 245" label="Title:">Clara T. Evans
 		  bookplate collection, 
-		  <unitdate encodinganalog="MARC 245" type="inclusive">circa
-			 1740-1960</unitdate> 
-		  <unitdate encodinganalog="MARC 245" type="bulk">(bulk
-			 1890-1940).</unitdate></unittitle> 
+		  </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1740-1960</unitdate><unitdate encodinganalog="MARC 245" type="bulk">(bulk
+			 1890-1940).</unitdate> 
 		<unitid label="Collection Number:">8027</unitid> 
 		<origination label="Creator:"> 
 		  <persname encodinganalog="100" normal="Evans, Clara Therese, ">Clara
 			 Therese, Evans </persname></origination> 
-		<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>33 volumes (circa
+		<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>33 volumes (circa
 		  3.5 linear feet) ;</extent></physdesc> 
 		<physdesc label="Forms of Material:">Correspondence, Newspapers, Printed
 		  Materials</physdesc> 
@@ -94,7 +100,7 @@
 		
 	 </did> 
 	 <bioghist encodinganalog="MARC 545"> 
-		<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head> 
+		<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head> 
 		<p>Clara Therese Evans (also known as Mrs. Hubert Evans) was evidently a
 		  staff member at Ware Memorial Library, Columbia University, who collected
 		  bookplates. She corresponded with numerous libraries, other collectors, and
@@ -199,81 +205,74 @@
 			 bookplates.</genreform> 
 		</controlaccess> 
 	 </controlaccess> 
-	 <descgrp> 
-		<head id="a8">INFORMATION FOR USERS</head> 
-		<prefercite> 
-		  <head>Cite As:</head> 
-		  <p>Clara T. Evans bookplate collection, #8027. Division of Rare and
-			 Manuscript Collections, Cornell University Library.</p> 
-		</prefercite> 
-	 </descgrp> 
+	  
 	 <dsc type="combined"> 
 		<head>CONTAINER LIST</head> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 1</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 1</container> 
 			 <unittitle>Miscellaneous unmounted or unsorted plates</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 2</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 2</container> 
 			 <unittitle>Lesser nobility, Jacobean, 1700-1745; Chippendale,
 				1753-1773</unittitle> 
-			 <unitdate>circa 1600-1800</unitdate> 
+			 <unitdate certainty="approximate">1600-1800</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 3</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 3</container> 
 			 <unittitle>Lesser nobility; also U.S. presidents (facsimiles),
 				Charles Dickens, and David Garrick</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 4</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 4</container> 
 			 <unittitle>English bookplates: armorial, crests, portraits, pictorial
 				(includes William Whewell)</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 5</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 5</container> 
 			 <unittitle>English pictorial plates, G-Y</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 6</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 6</container> 
 			 <unittitle>"Portrait plates" (actually mainly family crests); plates
 				by English engravers</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 7</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 7</container> 
 			 <unittitle>Bookplates of French, Irish, and Scottish
 				notables</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 8</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 8</container> 
 			 <unittitle>French, Bohemian, Belgian, German, and Italian
 				plates</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 9</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 9</container> 
 			 <unittitle>Bookplates from Argentina, Australia, Canada, Japan,
 				Norway, Russia, and Spain</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 10</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 10</container> 
 			 <unittitle>Bookplates of American statesmen, including facsimiles of
 				the plates of Alexander Hamilton and John Quincy Adams; also, plates of the
 				New-York [Historical?] Society</unittitle> 
@@ -281,193 +280,197 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 11</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 11</container> 
 			 <unittitle>Early American bookplates, A-C, including Columbia
 				College</unittitle> 
-			 <unitdate>circa 1700-1800</unitdate> 
+			 <unitdate certainty="approximate">1700-1800</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 12, pt. 1</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 12, pt. 1</container> 
 			 <unittitle>Early American bookplates, D-J, and Harvard College
 				bookplates, 1878-1901</unittitle> 
-			 <unitdate>circa 1700-1901</unitdate> 
+			 <unitdate certainty="approximate">1700-1901</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 12, pt. 2</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 12, pt. 2</container> 
 			 <unittitle>Early American bookplates, McBride-Roosevelt</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 13</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 13</container> 
 			 <unittitle>Early American bookplates, S-W</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 14, pt. 1</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 14, pt. 1</container> 
 			 <unittitle>Modern American bookplates, A-B, including that of
 				bookplate designer Elisha Brown Bird, and several other bookplates designed by
 				him</unittitle> 
-			 <unitdate>circa 1900-1930</unitdate> 
+			 <unitdate certainty="approximate">1900-1930</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 14, pt. 2</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 14, pt. 2</container> 
 			 <unittitle>Modern American bookplates, C-Z, including plates designed
 				by Oscar T. Blackburn and F.C. Blank</unittitle> 
-			 <unitdate>circa 1900-1930</unitdate> 
+			 <unitdate certainty="approximate">1900-1930</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 15</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 15</container> 
 			 <unittitle>Modern American bookplates, A-S (mainly B-C), including
 				the plate of James Branch Cabell</unittitle> 
-			 <unitdate/> 
+			  
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 16</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 16</container> 
 			 <unittitle>Bookplates with ribbon and wreath motif; plain armorial
 				plates</unittitle> 
-			 <unitdate>circa 1700s-1800s</unitdate> 
+			 <unitdate certainty="approximate">1700s-1800s</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 17</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 17</container> 
 			 <unittitle>Pictorial bookplates, including plates designed by John W.
 				Evans and also Otto W. Fuhrmann</unittitle> 
-			 <unitdate>circa 1890-1950</unitdate> 
+			 <unitdate certainty="approximate">1890-1950</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 18</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 18</container> 
 			 <unittitle>Modern American plates (mainly H), including plates
 				designed by W.F. Hopson</unittitle> 
-			 <unitdate>circa 1890-1950</unitdate> 
+			 <unitdate certainty="approximate">1890-1950</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 19</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 19</container> 
 			 <unittitle>Miscellaneous modern American plates (mainly pictorial),
 				including plates designed by Dan Burne Jones, F.C. Blank, William Jordan, and
 				J.W. Jameson</unittitle> 
-			 <unitdate>circa 1890-1950</unitdate> 
+			 <unitdate certainty="approximate">1890-1950</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 20</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 20</container> 
 			 <unittitle>Modern American bookplates, mainly A and L-M, including
 				the plate of Avery Architectural Library at Columbia University</unittitle> 
-			 <unitdate>circa 1890-1950</unitdate> 
+			 <unitdate certainty="approximate">1890-1950</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 21</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 21</container> 
 			 <unittitle>Bookplates designed by Arthur N. McDonald; modern American
 				plates, including those of the Metropolitan Museum of Art and the Ohio State
 				University Library</unittitle> 
-			 <unitdate>circa 1900-1930</unitdate> 
+			 <unitdate certainty="approximate">1900-1930</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 22</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 22</container> 
 			 <unittitle>Modern bookplates, M-P, including that of publisher Thomas
 				Bird Mosher</unittitle> 
-			 <unitdate>circa 1900-1930</unitdate> 
+			 <unitdate certainty="approximate">1900-1930</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 23</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 23</container> 
 			 <unittitle>Modern bookplates, P-S, including plates designed by
 				Howard Pyle</unittitle> 
-			 <unitdate>circa 1895-1930</unitdate> 
+			 <unitdate certainty="approximate">1895-1930</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 24</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 24</container> 
 			 <unittitle>Modern American bookplates, including plates designed by
 				Sidney L. Smith, Ismael Smith, and Leslie Victor Smith. Includes draft and
 				proofs of a plate by Sidney L. Smith; also, several plates for Bangor (Me.)
 				Public Library</unittitle> 
-			 <unitdate>circa 1890-1930</unitdate> 
+			 <unitdate certainty="approximate">1890-1930</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 25</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 25</container> 
 			 <unittitle>Modern plates, mainly H and S-W, including plates for
 				Harvard College Library; also, proofs of a plate designed by Daniel B.
 				Fearing</unittitle> 
-			 <unitdate>circa 1890-1930</unitdate> 
+			 <unitdate certainty="approximate">1890-1930</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 26</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 26</container> 
 			 <unittitle>Two manuscript lists describing bookplate collections;
 				modern American plates, A-H, including plates designed by J.W. Jameson and J.
 				Winfred Spenceley</unittitle> 
-			 <unitdate>circa 1890-1930</unitdate> 
+			 <unitdate certainty="approximate">1890-1930</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 27</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 27</container> 
 			 <unittitle>Modern American plates, S-T, including plates designed by
 				Wilbur Macey Stone </unittitle> 
-			 <unitdate>circa 1890-1930</unitdate> 
+			 <unitdate certainty="approximate">1890-1930</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 28</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 28</container> 
 			 <unittitle>Modern American plates, U-W, including plates designed by
 				Margaret Ely Webb; also, erotic bookplates</unittitle> 
-			 <unitdate>circa 1890-1940</unitdate> 
+			 <unitdate certainty="approximate">1890-1940</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 29</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 29</container> 
 			 <unittitle>Bookplates designed by Edwin Davis French, A-H, including
 				plates for the Grolier Club and Harvard University</unittitle> 
-			 <unitdate>circa 1890-1930</unitdate> 
+			 <unitdate certainty="approximate">1890-1930</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 30</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 30</container> 
 			 <unittitle>Bookplates designed by Edwin Davis French, M-W, including
 				plates for Princeton University Library and Winfred Porter
 				Truesdell</unittitle> 
-			 <unitdate>circa 1890-1930</unitdate> 
+			 <unitdate certainty="approximate">1890-1930</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="volume">Bd. Ms. 31</container> 
+			 <container label="unspecified" type="volume">Bd. Ms. 31</container> 
 			 <unittitle>Modern American bookplates, including the plate of book
 				collector George A. Plimpton, and plates designed by Edwin Davis
 				French</unittitle> 
-			 <unitdate>circa 1890-1930</unitdate> 
+			 <unitdate certainty="approximate">1890-1930</unitdate> 
 		  </did> 
 		</c01> 
 	 </dsc> 
-  </archdesc> 
+  <prefercite> 
+		  <head>Cite As:</head> 
+		  <p>Clara T. Evans bookplate collection, #8027. Division of Rare and
+			 Manuscript Collections, Cornell University Library.</p> 
+		</prefercite></archdesc> 
 </ead>

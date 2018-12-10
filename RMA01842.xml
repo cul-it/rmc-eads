@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::Copy_of_RMA01842::Cornell University Department of Psychology records)//EN">Copy_of_RMA01842</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::Copy_of_RMA01842::Cornell University Department of Psychology records)//EN">FMA01842</eadid>
   <filedesc>
     <titlestmt>
       <titleproper>Guide to the Cornell University Department of Psychology records, <date>[ca.1910-1970]</date></titleproper>
@@ -23,16 +23,22 @@
   <profiledesc>
     <creation>Finding aid encoded by RMC Staff, <date>April 2018</date></creation>
   </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
            <titlepage>
-                   <titleproper>Guide to the Cornell University Department of Psychology records, <lb/><date type="inclusive" encodinganalog="245$f">[ca.1910-1970]</date></titleproper>
+                   <titleproper>Guide to the Cornell University Department of Psychology records, <date encodinganalog="245$f" type="inclusive">[ca.1910-1970]</date></titleproper>
            <num>Collection Number: 14-23-1842</num>
-           <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+           <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
            <list type="deflist">
                    <defitem>
                            <label>Contact Information:</label>
-                           <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+                           <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
                    </defitem>
                    <defitem>
                            <label>Compiled by:</label>
@@ -57,14 +63,15 @@
   <archdesc level="collection">
     <did>
             <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245">Cornell University Department of Psychology records,
-            <unitdate encodinganalog="MARC 245" type="inclusive">[ca.1910-1970]</unitdate>
-            </unittitle>
+            <unittitle encodinganalog="MARC 245" label="Title:">Cornell University Department of Psychology records,
+            </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1910-1970</unitdate>
             <unitid label="Collection Number:">14-23-1842</unitid>
             <origination label="Creator:">
                     <corpname encodinganalog="110" normal="Cornell University. Department of Psychology. ">Cornell University. Department of Psychology. </corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1 v., 1.5 cubic ft.</extent></physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>1 v., 1.5 cubic ft.</extent></physdesc>
             <physdesc label="Forms of Material:">{**Comma Separated List Of Material Formats,End With Period**.}</physdesc>
             <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
             <abstract label="Abstract:">Album of photographs of well-known psychologists, prepared during the mid-1950s by Harry Jacobs, a psychology graduate student.  Also, photographs of various laboratories in the Psychology Dept. in Morrill Hall, ca. 1910-1940; photograph taken at James Gibson's retirement party; photograph of Professor Papez; photograph of K.M. Dallenbach; photograph of Madison Bentley; and photograph of Thomas A. Ryan and Jeff Bitterman.</abstract>
@@ -94,20 +101,13 @@
       <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
     </controlaccess>
   </controlaccess>
-    <descgrp>
-           <head id="a8">INFORMATION FOR USERS</head>
-                  <prefercite>
-                          <head>Cite As:</head>
-                                   <p>Cornell University Department of Psychology records, #14-23-1842. Division of Rare and Manuscript Collections, Cornell University Library.
-                                   </p>
-                  </prefercite>
-    </descgrp>
+    
             
     <dsc type="combined">
       <head>CONTAINER LIST</head>
       <c01 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>F-2115</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>"A" Wind Internegative - "Keep Us Awake"</unittitle>
@@ -115,7 +115,7 @@
        </c01>
       <c01 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>F-2116</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Techniques of Anthropometric Measurements in Young Children</unittitle>
@@ -123,7 +123,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>F-2117</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Unidentified Film</unittitle>
@@ -131,7 +131,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>F-2118</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>"Let's Build it Together" - Cornell University</unittitle>
@@ -139,15 +139,15 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>F-2119</unitid>
-         <unitdate type="inclusive" normal="1982-07-06">1982-07-06</unitdate>
+         <unitdate normal="1982-07-06" type="inclusive">1982-07-06</unitdate>
         <unittitle>National Anthropological Film Center - Simthsonian Institution - Maradol - "Guy Sleeping"</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>F-2120</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Erisman: "Warning in the Dark"</unittitle>
@@ -155,7 +155,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>F-2121</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Motion 2-D, Segments - Dr. Maas</unittitle>
@@ -163,7 +163,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>F-2122</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Anthropometric Methods</unittitle>
@@ -171,7 +171,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>F-2123</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Development of Locomotion</unittitle>
@@ -179,15 +179,15 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>F-2124</unitid>
- <unitdate type="inclusive" normal="1985-11">1985-11</unitdate>
+ <unitdate normal="1985-11" type="inclusive">1985-11</unitdate>
         <unittitle>W. E. Phillips - 16mm Commercials</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>F-2125</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>The Early Treatment of Mental Disorders</unittitle>
@@ -196,7 +196,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>F-2126</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Ogilvy and Mather - Smith-Barney Presentation Reel</unittitle>
@@ -204,7 +204,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>F-2127</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Brain Mapping</unittitle>
@@ -212,7 +212,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">4</container>
+        <container label="unspecified" type="box">4</container>
         <unitid>F-2128</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Fun Introduction for Dr. Dement</unittitle>
@@ -220,15 +220,15 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>F-2129</unitid>
- <unitdate type="inclusive" normal="1970">1970</unitdate>
+ <unitdate normal="1970" type="inclusive">1970</unitdate>
         <unittitle>How to Use the Harvard Trip Balance</unittitle>
        </did>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>F-2130</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Jouvet Preview - Dr. James B. Maas</unittitle>
@@ -236,7 +236,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>F-2131</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Cobblestone Historical</unittitle>
@@ -245,7 +245,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>F-2132</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Maas - Intelligence, S-Binet</unittitle>
@@ -254,7 +254,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>F-2133</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>D. Gluch - Cornell University</unittitle>
@@ -263,7 +263,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>F-2134</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>DogWatchTV - Tests obedience to televised commands</unittitle>
@@ -271,7 +271,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>F-2135</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Cornell University - "Pain of Shyness"</unittitle>
@@ -279,7 +279,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>F-2136</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Zimbardo Prison Experiment - Cut Version</unittitle>
@@ -287,16 +287,16 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>F-2137</unitid>
- <unitdate type="inclusive" certainty="Circa" normal="1969">1969</unitdate>
+ <unitdate certainty="approximate" normal="1969" type="inclusive">1969</unitdate>
         <unittitle>Optical Motions and Transformations as Stimuli for Visual Perception</unittitle>
        </did>
        <scopecontent><p>Includes an article: "The change from visible to invisible: A study of optical transitions" by James J. Gibson et al.</p></scopecontent>
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>F-2138</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Ads #3</unittitle>
@@ -304,7 +304,7 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>F-2139</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Maas, Morris, and Wheeler - Conformity</unittitle>
@@ -312,89 +312,93 @@
       </c01>
       <c01 level="file">
        <did>
-        <container type="box">2</container>
+        <container label="unspecified" type="box">2</container>
         <unitid>F-2140</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>When Nights are Longest </unittitle>
        </did>
       </c01> <c01 level="file">
         <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>F-2141</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Assorted Advertisements - Recent Ads: Fast talker, Wendy's, Carett, Mary Lou R.</unittitle>
        </did>
       </c01> <c01 level="file">
         <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>F-2142</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Advertisements: Auto Sound, Franks, Rat, Dial.</unittitle>
        </did>
       </c01> <c01 level="file">
         <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>F-2143</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Don't Walk - Boogie</unittitle>
        </did>
       </c01><c01 level="file">
         <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>F-2144</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>"Vassar" Commercial</unittitle>
        </did>
       </c01><c01 level="file">
         <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>F-2145</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>War of the Worlds  Advertisement</unittitle>
        </did>
       </c01><c01 level="file">
         <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>F-2146</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Teaberry Gum Advertisement</unittitle>
        </did>
       </c01><c01 level="file">
         <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>F-2147</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Leader Film - Wendy's Advertisement</unittitle>
        </did>
       </c01><c01 level="file">
         <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>F-2148</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Polaroid Advertisement</unittitle>
        </did>
       </c01><c01 level="file">
         <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>F-2149</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Advertisements: Lifesavers Candy Lifesaving</unittitle>
        </did>
       </c01><c01 level="file">
         <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>F-2150</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Olympic Year Advertisements: Wheaties, Bud Light</unittitle>
        </did>
       </c01><c01 level="file">
         <did>
-        <container type="box">3</container>
+        <container label="unspecified" type="box">3</container>
         <unitid>F-2151</unitid>
  <unitdate>Undated</unitdate>
         <unittitle>Milgram Shock Experiment</unittitle>
        </did>
    </c01>
     </dsc>
-  </archdesc>
+  <prefercite>
+                          <head>Cite As:</head>
+                                   <p>Cornell University Department of Psychology records, #14-23-1842. Division of Rare and Manuscript Collections, Cornell University Library.
+                                   </p>
+                  </prefercite></archdesc>
  </ead>

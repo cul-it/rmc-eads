@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
- 
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02578::Hu Shih papers at Cornell University)//EN">RMA02578</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02578::Hu Shih papers at Cornell University)//EN">RMA02578</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Collected reproductions of Hu Shih papers at Cornell University, 1910-1963.</titleproper>
@@ -27,6 +25,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -36,19 +40,19 @@
    <frontmatter>
       <titlepage>
          <titleproper>Guide to the Collected reproductions of Hu Shih Papers at Cornell
-            University,<lb/>1910-1963.</titleproper>
+            University,1910-1963.</titleproper>
          <num>Collection Number: 41-5-2578</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
@@ -63,11 +67,12 @@
       </titlepage>
    </frontmatter>
    <archdesc level="collection">
-      <did>
+      <did><physdesc><extent>1 collection</extent></physdesc>
+
+
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Collected reproductions of Hu Shih papers at Cornell University,
-               <unitdate type="inclusive" encodinganalog="MARC 245">1910-1963.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Collected reproductions of Hu Shih papers at Cornell University,
+               </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1910-1963.</unitdate>
          <unitid label="Collection Number:">41-5-2578</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Hu, Shi, 1891-1962.">Shih Hu,
@@ -83,7 +88,7 @@
             University Library.</abstract>
          <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language>
          </langmaterial>
-      </did>
+      <physdesc><extent>1 collection</extent></physdesc></did>
       <scopecontent encodinganalog="MARC 520">
          <head id="a3">COLLECTION DESCRIPTION</head>
          <p>This collection of materials was created to bring together and preserve the
@@ -117,17 +122,7 @@
             <corpname encodinganalog="MARC 610">Cosmopolitan Club (Cornell University).</corpname>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Collected reproductions of Hu Shih papers at Cornell University, #41-5-2578. Division of Rare and Manuscript
-               Collections, Cornell University Library.</p>
-         </prefercite>
-         <p>This microfilm has been digitized and is available online here <extref href="http://hdl.handle.net/1813/36425">http://hdl.handle.net/1813/36425.</extref>
-         </p>
-         <p>Additional material can be found online at the Hu Shih and Cornell University Library Website,  <extref href="http://rmc.library.cornell.edu/hushih">http://rmc.library.cornell.edu/hushih</extref></p>
-      </descgrp>
+      
       <relatedmaterial>
          <head id="a5">RELATED MATERIALS</head>
          <p>See also List of books presented to Cornell University Library by Chinese students,
@@ -138,53 +133,53 @@
          <head>CONTAINER LIST</head>
          <c01 level="item">
             <did>
-               <container type="reel">1</container>
+               <container label="unspecified" type="reel">1</container>
                <unittitle>Biographical material including photographs of Hu Shih and and
                   his wife, Tung-Sher Kiang (June 1913), 28 pieces.</unittitle>
             </did>
          </c01>
          <c01 level="item">
             <did>
-               <container type="reel">1</container>
+               <container label="unspecified" type="reel">1</container>
                <unittitle>Correspondence including a letter from his mother to Mrs.
                   Patterson, 20 pieces.</unittitle>
             </did>
          </c01>
          <c01 level="item">
             <did>
-               <container type="reel">1</container>
+               <container label="unspecified" type="reel">1</container>
                <unittitle>Manuscript poems by Hu Shih, in English, 3 pieces.</unittitle>
             </did>
          </c01>
          <c01 level="item">
             <did>
-               <container type="reel">1</container>
+               <container label="unspecified" type="reel">1</container>
                <unittitle>"Ezra Cornell" by Hu Shih, four editions in Chinese, 7
                   pieces.</unittitle>
             </did>
          </c01>
          <c01 level="item">
             <did>
-               <container type="reel">1</container>
+               <container label="unspecified" type="reel">1</container>
                <unittitle>Other writings by Hu Shih</unittitle>
             </did>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"A Republic for China"</unittitle>
                   <unitdate>Jan. 1912</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"The Ideal Missionary"</unittitle>
                   <unitdate>Feb. 1913</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>""Cornell Welcomes the Delegates to the Ninth Conference of the Eastern
                      Section"</unittitle>
                   <unitdate>June 10, 1913</unitdate>
@@ -192,21 +187,21 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"Marriage Customs in China"</unittitle>
                   <unitdate>June 1914</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"The Philosophy of Browning and Confucianism"</unittitle>
                   <unitdate>Jan. 19, 1915</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>Forward to The Tenth Anniversary Cornell Cosmopolitan Club
                      Calendar</unittitle>
                   <unitdate>1915</unitdate>
@@ -214,14 +209,14 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"Analysis of the Monarchical Restoration in China"</unittitle>
                   <unitdate>Jan. 14, 1916</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"Is There a Substitute for Force in International
                      Relations?"</unittitle>
                   <unitdate>June 1916</unitdate>
@@ -229,14 +224,14 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"Intellectual Preparedness"</unittitle>
                   <unitdate>June 10, 1940</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"The Place of the Alumni Organization in the History of
                      Universities"</unittitle>
                   <unitdate>Nov. 15, 1940</unitdate>
@@ -244,14 +239,14 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>Speech before the Economic Club of New York</unittitle>
                   <unitdate>Mar. 16, 1942</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>Broadcast of Friends in the United Nations</unittitle>
                   <unitdate>Mar. 22, 1942</unitdate>
                </did>
@@ -259,40 +254,40 @@
          </c01>
          <c01 level="item">
             <did>
-               <container type="reel">1</container>
+               <container label="unspecified" type="reel">1</container>
                <unittitle>Writings about Hu Shih</unittitle>
             </did>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"The New Literary Movement in China" (mss. copy)</unittitle>
                   <unitdate>Jan. 1917</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>Brief sketch for Cornell Alumni News</unittitle>
-                  <unitdate>Dec. 26, 1919</unitdate>
+                  <unitdate certainty="approximate">Dec. 26, 1919</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"A Scholar Pleads for China"</unittitle>
                   <unitdate>June 11, 1939</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>Copy of Citation</unittitle>
                   <unitdate>June 17, 1939</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"The Influence of the Canoe on the Chinese Literary
                      Revolution"</unittitle>
                   <unitdate>May 22, 1941</unitdate>
@@ -300,70 +295,70 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"Dr. Hu Shih to be Sixty-third Commencement Speaker"</unittitle>
                   <unitdate>June 1941</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"Ambassador Hu Shih"</unittitle>
-                  <unitdate>Dec. 15, 1941</unitdate>
+                  <unitdate certainty="approximate">Dec. 15, 1941</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"At the Chinese Embassy"</unittitle>
                   <unitdate>Aug. 1942</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"China's Gentleman and Scholar"</unittitle>
-                  <unitdate>Dec. 1942</unitdate>
+                  <unitdate certainty="approximate">Dec. 1942</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>Messenger Lectures Program</unittitle>
                   <unitdate>Mar. 1, 1946</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"Young Sage"</unittitle>
-                  <unitdate>Dec. 22, 1947</unitdate>
+                  <unitdate certainty="approximate">Dec. 22, 1947</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"Bright Feather"</unittitle>
                   <unitdate>Jan. 19, 1953</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"A Tribute to Dr. Hu Shih"</unittitle>
                   <unitdate>Mar.-Apr. 1962</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"Hu Shih, Incurable Optimist"</unittitle>
-                  <unitdate>ca. 1962</unitdate>
+                  <unitdate certainty="approximate">1962</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="reel">1</container>
+                  <container label="unspecified" type="reel">1</container>
                   <unittitle>"Biography of Dr. Hu Shih"</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
@@ -371,22 +366,27 @@
          </c01>
          <c01 level="item">
             <did>
-               <container type="reel">1</container>
+               <container label="unspecified" type="reel">1</container>
                <unittitle>Newspaper Clippings, 87 pieces.</unittitle>
             </did>
          </c01>
          <c01 level="item">
             <did>
-               <container type="reel">1</container>
+               <container label="unspecified" type="reel">1</container>
                <unittitle>The Hu Shih Memorial Scholarship Fund, 13 pieces.</unittitle>
             </did>
          </c01>
          <c01 level="item">
             <did>
-               <container type="reel">1</container>
+               <container label="unspecified" type="reel">1</container>
                <unittitle>Miscellany, 8 pieces.</unittitle>
             </did>
          </c01>
       </dsc>
-   </archdesc>
+   <odd><p>This microfilm has been digitized and is available online here <extref href="http://hdl.handle.net/1813/36425">http://hdl.handle.net/1813/36425.</extref>
+         </p></odd><odd><p>Additional material can be found online at the Hu Shih and Cornell University Library Website,  <extref href="http://rmc.library.cornell.edu/hushih">http://rmc.library.cornell.edu/hushih</extref></p></odd><prefercite>
+            <head>Cite As:</head>
+            <p>Collected reproductions of Hu Shih papers at Cornell University, #41-5-2578. Division of Rare and Manuscript
+               Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

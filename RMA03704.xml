@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-	 <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03704::Walter T. Federer papers)//EN">RMMA03704</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+	 <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03704::Walter T. Federer papers)//EN">RMA03704</eadid>
 	 
 	 <filedesc> 
 		<titlestmt> 
@@ -26,22 +26,28 @@
 		<creation>Finding aid encoded by Evan Fay Earle, 
 		  <date>December 2008</date></creation> 
 	 </profiledesc> 
-  </eadheader> 
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader> 
   <frontmatter> 
 	 <titlepage> 
-		<titleproper>Guide to the Walter T. Federer Papers,<lb/> 
-		  <date type="inclusive" encodinganalog="245$f">1948-2001.</date></titleproper> 
+		<titleproper>Guide to the Walter T. Federer Papers, 
+		  <date encodinganalog="245$f" type="inclusive">1948-2001.</date></titleproper> 
 		<num>Collection Number: 21-40-3704</num> 
-		<publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+		<publisher>Division of Rare and Manuscript Collections Cornell
 		  University Library</publisher> 
 		<list type="deflist"> 
 		  <defitem> 
 			 <label>Contact Information:</label> 
-			 <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-				Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-				255-3530<lb/> Fax: (607) 255-9524<lb/> 
-				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/> 
-				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+			 <item> Division of Rare and Manuscript Collections 2B Carl A.
+				Kroch Library Cornell University Ithaca, NY 14853 (607)
+				255-3530 Fax: (607) 255-9524 
+				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
+				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 			 
 		  </defitem> 
 		  <defitem> 
@@ -64,14 +70,16 @@
   <archdesc level="collection"> 
 	 <did> 
 		<head id="a1">DESCRIPTIVE SUMMARY</head> 
-		<unittitle label="Title:" encodinganalog="MARC 245">Walter T. Federer
+		<unittitle encodinganalog="MARC 245" label="Title:">Walter T. Federer
 		  papers, 
-		  <unitdate encodinganalog="MARC 245" type="inclusive">1948-2001.</unitdate> </unittitle> 
+		  </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1948-2001.</unitdate> 
 		<unitid label="Collection Number:">21-40-3704</unitid> 
 		<origination label="Creator:"> 
 		  <persname encodinganalog="100" normal="Federer, Walter T., 1918-2008.">Walter T., Federer
 			 1918-2008.</persname></origination> 
-		<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>7 cubic
+		<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>7 cubic
 		  feet.</extent></physdesc> 
 		<physdesc label="Forms of Material:">Correspondence, Printed Materials,
 		  Publications, Research Materials</physdesc> 
@@ -84,7 +92,7 @@
 		
 	 </did> 
 	 <bioghist encodinganalog="MARC 545"> 
-		<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head> 
+		<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head> 
 		<p>Professor Emeritus, Biological Statistics and Computational Biology.
 		  Prof. Federer founded the Biometrics Unit in the Department of Plant Breeding
 		  in the College of Agriculture and Life Sciences in 1948 soon after he joined
@@ -120,26 +128,19 @@
 			 (State).</subject> 
 		</controlaccess> 
 	 </controlaccess> 
-	 <descgrp> 
-		<head id="a8">INFORMATION FOR USERS</head> 
-		<prefercite> 
-		  <head>Cite As:</head> 
-		  <p>Walter T. Federer papers, #21-40-3704. Division of Rare and
-			 Manuscript Collections, Cornell University Library.</p> 
-		</prefercite> 
-	 </descgrp> 
+	  
 	 <dsc type="combined"> 
 		<head>CONTAINER LIST</head> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1-2</container> 
+			 <container label="unspecified" type="box">1-2</container> 
 			 <unitdate>1960-2006</unitdate> 
 			 <unittitle>Correspondence</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unitdate>1974-1975</unitdate> 
 			 <unittitle>Correspondence: Boehringer Study; Departmental
 				Information; Course Work; Class Lectures; Miscellaneous Papers </unittitle> 
@@ -147,29 +148,33 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">4</container> 
+			 <container label="unspecified" type="box">4</container> 
 			 <unittitle>Course Work; Class Lectures; Experiment
 				Designs</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">5</container> 
+			 <container label="unspecified" type="box">5</container> 
 			 <unittitle>Course Work; Class Lectures; Reprints</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">6</container> 
+			 <container label="unspecified" type="box">6</container> 
 			 <unittitle>Reprints; Publications</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">7</container> 
+			 <container label="unspecified" type="box">7</container> 
 			 <unittitle>Correspondence: Miscellaneous</unittitle> 
 		  </did> 
 		</c01> 
 	 </dsc> 
-  </archdesc> 
+  <prefercite> 
+		  <head>Cite As:</head> 
+		  <p>Walter T. Federer papers, #21-40-3704. Division of Rare and
+			 Manuscript Collections, Cornell University Library.</p> 
+		</prefercite></archdesc> 
 </ead>

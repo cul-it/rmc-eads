@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03768::Guide to the WVBR - live audio)//EN">RMMA0768</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03768::Guide to the WVBR - live audio)//EN">RMA03768</eadid>
 
     <filedesc>
       <titlestmt>
@@ -25,21 +25,27 @@
     <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>March 2010</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the WVBR - Live Audio,<lb/>
-        <date type="inclusive" encodinganalog="245$f">1956-1960.</date></titleproper>
+      <titleproper>Guide to the WVBR - Live Audio,
+        <date encodinganalog="245$f" type="inclusive">1956-1960.</date></titleproper>
       <num>Collection Number: 35-9-3768</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-            Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/>
-            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+            Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
+            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 
         </defitem>
         <defitem>
@@ -61,13 +67,12 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">WVBR - live audio, <unitdate encodinganalog="MARC 245" type="inclusive">1956-1960.</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">WVBR - live audio, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1956-1960.</unitdate>
       <unitid label="Collection Number:">35-9-3768</unitid>
       <origination label="Creator:">
         <persname encodinganalog="100" normal="Mayers, Robert A. ">Robert A. Mayers
         </persname></origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.5 cubic feet.</extent></physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.5 cubic feet</extent></physdesc>
       <physdesc label="Forms of Material:">Audio Recordings, Computer Media</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
         University Library</repository>
@@ -77,7 +82,7 @@
 
     </did>
     <bioghist encodinganalog="MARC 545">
-      <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+      <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
       <p>Bob Mayers '59 graduated from Cornell in 1961 with a B. Arch. degree. As a student, he was
         an announcer for WVBR, the Cornell radio station.</p>
     </bioghist>
@@ -107,16 +112,7 @@
         <subject encodinganalog="MARC 650">College radio stations.</subject>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <p>See also collection #37-7-m.1055 for audio and transcript of the 1952 student raid of WVBR;
-        Ted Osborn, WVBR Records, #35-9-3512.; and WVBR Records, #35-9-1739.</p>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>WVBR - live audio, #35-9-3768. Division of Rare and Manuscript Collections, Cornell
-          University Library.</p>
-      </prefercite>
-    </descgrp>
+    
     <dsc type="combined">
       <head>CONTAINER LIST</head>
       <c01 level="series">
@@ -127,5 +123,10 @@
         </did>
       </c01>
     </dsc>
-  </archdesc>
+  <odd><p>See also collection #37-7-m.1055 for audio and transcript of the 1952 student raid of WVBR;
+        Ted Osborn, WVBR Records, #35-9-3512.; and WVBR Records, #35-9-1739.</p></odd><prefercite>
+        <head>Cite As:</head>
+        <p>WVBR - live audio, #35-9-3768. Division of Rare and Manuscript Collections, Cornell
+          University Library.</p>
+      </prefercite></archdesc>
 </ead>

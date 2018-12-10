@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-	 <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM09168::Philipp Johann Josef Valentini papers)//EN">RMM09168</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+	 <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM09168::Philipp Johann Josef Valentini papers)//EN">RMM09168</eadid>
 	 
 	 <filedesc> 
 		<titlestmt> 
@@ -28,7 +27,13 @@
 		<creation>Finding aid encoded by Evan Fay Earle, 
 		  <date>February 2006</date> </creation> 
 	 </profiledesc> 
-	 <revisiondesc> 
+	 <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+ 
 		<change encodinganalog="583"> 
 		  <date normal="2007-05-29">2007-05-29</date> 
 		  <item>converted from EAD 1.0 to EAD 2002 </item> 
@@ -38,19 +43,19 @@
   <frontmatter> 
 	 <titlepage> 
 		<titleproper>Guide to the Philipp Johann Josef Valentini
-		  Papers,<lb/>1870-1899.</titleproper> 
+		  Papers,1870-1899.</titleproper> 
 		<num>Collection Number: 9168</num> 
-		<publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+		<publisher>Division of Rare and Manuscript Collections Cornell
 		  University Library</publisher> 
 		<list type="deflist"> 
 		  <defitem> 
 			 <label>Contact Information:</label> 
-			 <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-				Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-				255-3530<lb/> Fax: (607) 255-9524<lb/> 
-				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> <lb/> 
+			 <item>Division of Rare and Manuscript Collections 2B Carl A.
+				Kroch Library Cornell University Ithaca, NY 14853 (607)
+				255-3530 Fax: (607) 255-9524 
+				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>  
 				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-				<lb/></item> 
+				</item> 
 		  </defitem> 
 		  <defitem> 
 			 <label>Compiled by:</label> 
@@ -72,14 +77,16 @@
   <archdesc level="collection"> 
 	 <did> 
 		<head id="a1">DESCRIPTIVE SUMMARY</head> 
-		<unittitle label="Title:" encodinganalog="MARC 245">Philipp Johann Josef
+		<unittitle encodinganalog="MARC 245" label="Title:">Philipp Johann Josef
 		  Valentini papers, 
-		  <unitdate type="inclusive" encodinganalog="MARC 245">1870-1899.</unitdate> </unittitle> 
+		  </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1870-1899.</unitdate> 
 		<unitid label="Collection Number:">9168</unitid> 
 		<origination label="Creator:"> 
 		  <persname encodinganalog="100" normal="Valentini, Philipp Johann Josef, 1828-1899.">Philipp Johann Josef,
 			 Valentini 1828-1899.</persname> </origination> 
-		<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1.4 cubic
+		<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>1.4 cubic
 		  ft.</extent></physdesc> 
 		<physdesc label="Forms of Material:">Manuscripts, Diaries,
 		  Reports</physdesc> 
@@ -193,14 +200,7 @@
 		  <geogname encodinganalog="MARC 651">Washington (D.C.)</geogname> 
 		</controlaccess> 
 	 </controlaccess> 
-	 <descgrp type="admininfo"> 
-		<head id="a8">INFORMATION FOR USERS</head> 
-		<prefercite> 
-		  <head>Cite As:</head> 
-		  <p>Philipp Johann Josef Valentini papers, #9168. Division of Rare and
-			 Manuscript Collections, Cornell University Library.</p> 
-		</prefercite> 
-	 </descgrp> 
+	  
 	 <arrangement> 
 		<head>COLLECTION ARRANGEMENT</head> 
 		<p>Original Huntington Free Library box numbers have been retained.</p> 
@@ -209,38 +209,38 @@
 		<head>CONTAINER LIST</head> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">1</container> 
+			 <container label="unspecified" type="box">1</container> 
 			 <unittitle>"Die Inbrigca Leiden"</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box"> 1</container> 
+			 <container label="unspecified" type="box"> 1</container> 
 			 <unittitle>Palenquiana tracings</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box"> 1</container> 
+			 <container label="unspecified" type="box"> 1</container> 
 			 <unittitle>Palenque slabs</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box"> 1</container> 
+			 <container label="unspecified" type="box"> 1</container> 
 			 <unittitle>First copies of German Palenque Text, now rejected and
 				reformed into: The English </unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box"> 1</container> 
+			 <container label="unspecified" type="box"> 1</container> 
 			 <unittitle>"Palenque Text, Revised in September 1893"</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box"> 1</container> 
+			 <container label="unspecified" type="box"> 1</container> 
 			 <unittitle>"Deutsche Kladde Palenque Slab Temple of the
 				Tree"</unittitle> 
 			 <unitdate>August 7, 1892</unitdate> 
@@ -248,41 +248,41 @@
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">1</container> 
+			 <container label="unspecified" type="box">1</container> 
 			 <unittitle>"English and German texts for Memoir on the Two Palenque
 				Slabs Temple of the Sacred Tree"</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
+			 <container label="unspecified" type="box">1</container> 
 			 <unittitle>Palenque, notes, drawings, charts, photos from notebook
 				"Deciphering th Palenque Slabs Temple of the Tree"</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">1</container> 
+			 <container label="unspecified" type="box">1</container> 
 			 <unittitle>"Description of the Altar and of the figures engraved on
 				it."</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
+			 <container label="unspecified" type="box">1</container> 
 			 <unittitle>Untitled manuscript</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">1</container> 
+			 <container label="unspecified" type="box">1</container> 
 			 <unittitle>"SI Die Copan sculptur und orientalische Tracht der
 				abgebitdeter Personen."</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">1</container> 
+			 <container label="unspecified" type="box">1</container> 
 			 <unittitle>"The Home and Haunts of the Tulteka. The Tultecan Embassy,
 				an ethnical American study."</unittitle> 
 			 <unitdate>May 1897</unitdate> 
@@ -290,160 +290,160 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Notebooks regarding Christopher Columbus.</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Drawings, note, Washington D.C. items.</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Drawings</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Notes on goldmines - Estrella River</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Valentini and Vinikov letters</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>"Quaa Cavallon and Juan Ravago de Estrada"</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Misc. Notes.</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>"A review of the contents of the Codex
 				Ficenleal"</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>"Arms, Tools, utensils, as represented in the Maya
 				Codices"</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>"Portraits of Prehistoric Americans"</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Notebook on Jade</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>"Cipactl, Epagomena"</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Tiefsinniges Christopher Columbus / Nachlesch</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>"Cipactl, the prehistorical astronomer"</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>"Civa Hindustani Cipactli Nahutal" February
 				1898</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Montafaucon</unittitle> 
 		  </did> 
 		</c01> 
-		<c01> 
+		<c01 level="otherlevel" otherlevel="unspecified"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Palestine, Orontes, Mesoptamia</unittitle> 
 		  </did> 
 		  <scopecontent> 
 			 <p>Notebooks in small box</p> 
 		  </scopecontent> 
 		</c01> 
-		<c01> 
+		<c01 level="otherlevel" otherlevel="unspecified"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Hindostana, Las Orasiones,Sahagaw, Dutt</unittitle> 
 		  </did> 
 		  <scopecontent> 
 			 <p>Notebooks in small box</p> 
 		  </scopecontent> 
 		</c01> 
-		<c01> 
+		<c01 level="otherlevel" otherlevel="unspecified"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Culture Heroes, Quetzalcohuatl et al</unittitle> 
 		  </did> 
 		  <scopecontent> 
 			 <p>Notebooks in small box</p> 
 		  </scopecontent> 
 		</c01> 
-		<c01> 
+		<c01 level="otherlevel" otherlevel="unspecified"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Cipactl Astronomer, Oaxaca</unittitle> 
 		  </did> 
 		  <scopecontent> 
 			 <p>Notebooks in small box</p> 
 		  </scopecontent> 
 		</c01> 
-		<c01> 
+		<c01 level="otherlevel" otherlevel="unspecified"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Palenque</unittitle> 
 		  </did> 
 		  <scopecontent> 
 			 <p>Notebook in small box</p> 
 		  </scopecontent> 
 		</c01> 
-		<c01> 
+		<c01 level="otherlevel" otherlevel="unspecified"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Tzotzil, Capan</unittitle> 
 		  </did> 
 		  <scopecontent> 
 			 <p>Notebooks in small box</p> 
 		  </scopecontent> 
 		</c01> 
-		<c01> 
+		<c01 level="otherlevel" otherlevel="unspecified"> 
 		  <did> 
-			 <container type="box">2</container> 
+			 <container label="unspecified" type="box">2</container> 
 			 <unittitle>Bundled notes</unittitle> 
 		  </did> 
 		  <scopecontent> 
@@ -452,107 +452,111 @@
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Mexican chronology notebook</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>2 Summer studies notebook</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Palinque notebook</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Panama drawings notebook</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Cliff dwellers notebook</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Mantics notebook</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Costa Rica notebook</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Pinzon - Solis Reise notebook</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>15 softcover notebooks</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Maya Hieroglyphs notebook</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Armen Roman Chron notebook</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Ixtlilxochitl - relaciones notebook</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Chichimeca</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Mexican tribes notebook</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">3</container> 
+			 <container label="unspecified" type="box">3</container> 
 			 <unittitle>Nahoa Latin notebook</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="item"> 
 		  <did> 
-			 <container type="box">4</container> 
+			 <container label="unspecified" type="box">4</container> 
 			 <unittitle>"Manuscript cuts and charts, materials to the
 				memoir"</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">4</container> 
+			 <container label="unspecified" type="box">4</container> 
 			 <unittitle>Drawings on board and tissue.</unittitle> 
 		  </did> 
 		</c01> 
 	 </dsc> 
-  </archdesc>
+  <prefercite> 
+		  <head>Cite As:</head> 
+		  <p>Philipp Johann Josef Valentini papers, #9168. Division of Rare and
+			 Manuscript Collections, Cornell University Library.</p> 
+		</prefercite></archdesc>
 </ead>

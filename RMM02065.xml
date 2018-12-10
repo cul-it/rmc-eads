@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02065::Emil A. Kohm accounts)//EN">RMM02065</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02065::Emil A. Kohm accounts)//EN">RMM02065</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Emil A. Kohm accounts, 1908-1945.</titleproper>
@@ -32,6 +31,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -40,22 +45,22 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Emil A. Kohm Accounts,<lb/>1908-1945</titleproper>
+         <titleproper>Guide to the Emil A. Kohm Accounts,1908-1945</titleproper>
          <num>Collection Number: 2065</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+         <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/>
-2B Carl A. Kroch Library<lb/>
-Cornell University<lb/>
-Ithaca, NY 14853<lb/>
-(607) 255-3530<lb/>
-Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections
+2B Carl A. Kroch Library
+Cornell University
+Ithaca, NY 14853
+(607) 255-3530
+Fax: (607) 255-9524
 <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
 <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
@@ -72,12 +77,9 @@ Fax: (607) 255-9524<lb/>
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Emil A. Kohm accounts, 
+         <unittitle encodinganalog="MARC 245" label="Title:">Emil A. Kohm accounts, 
 
-		  <unitdate type="inclusive" encodinganalog="MARC 245">1908-1945.</unitdate>
-
-		
-         </unittitle>
+		  </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1908-1945.</unitdate>
          <unitid label="Collection Number:">2065</unitid>
          <origination label="Creator:"> 
 
@@ -86,7 +88,7 @@ Fax: (607) 255-9524<lb/>
 
 		
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.7 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.7 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Accounts, cashbooks, wage records, correspondence, and other records.</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
          <abstract label="Abstract:">Customers' accounts, cashbooks, and wage records (6 vols.); also, letters and accounts concerning the tailoring business, the settlement of the Kohm estate, and other matters.</abstract>
@@ -94,7 +96,7 @@ Fax: (607) 255-9524<lb/>
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>Emil A. Kohm was born in Germany and worked as a tailor in Ithaca, New York.</p>
       </bioghist>
       <scopecontent encodinganalog="MARC 520">
@@ -119,16 +121,10 @@ Fax: (607) 255-9524<lb/>
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Account books.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Account books.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Emil A. Kohm accounts, #2065. Division of Rare and Manuscript Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="series">
@@ -137,62 +133,62 @@ Fax: (607) 255-9524<lb/>
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unittitle>Customers' accounts, 
 
-				  <unitdate>1908, 1911-1929, 1938</unitdate>
+				  1908, 1911-1929, 1938
 
-				  . Include (pp. 510-512) personal expense accounts, 1921-1929, of G.L. Brunne, who was in partnership with Kohm in the 1920s. Poor condition - spine damaged. 772 pp.</unittitle>
+				  . Include (pp. 510-512) personal expense accounts, 1921-1929, of G.L. Brunne, who was in partnership with Kohm in the 1920s. Poor condition - spine damaged. 772 pp.</unittitle><unitdate>1908, 1911-1929, 1938</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
+                  <container label="unspecified" type="box">1</container>
                   <unittitle>Daily cash receipts, 
 
-				  <unitdate>1921-1929</unitdate>
+				  1921-1929
 
-				  . 445 pp.</unittitle>
+				  . 445 pp.</unittitle><unitdate>1921-1929</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Customers' accounts (large red ledger), 
 
-				  <unitdate>1929-1943</unitdate>
+				  1929-1943
 
-				  . Indexed. 294 pp. used.</unittitle>
+				  . Indexed. 294 pp. used.</unittitle><unitdate>1929-1943</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Customers' address book (slim red ledger). Possibly some personal or family addresses - German ones. 
 
-				  <unitdate>1937</unitdate>
+				  1937
 
-				  [?].</unittitle>
+				  [?].</unittitle><unitdate>1937</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unittitle>Record of weekly wages paid, 
 
-				  <unitdate>1937-Jan. 1, 1940</unitdate>
+				  1937-Jan. 1, 1940
 
-				  . Information on names and social security numbers of employees also included.</unittitle>
+				  . Information on names and social security numbers of employees also included.</unittitle><unitdate>1937-Jan. 1, 1940</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unittitle>Weekly cash book, 
 
-				  <unitdate>1941-1945</unitdate>
+				  1941-1945
 
-				  . Kohm Estate [?].</unittitle>
+				  . Kohm Estate [?].</unittitle><unitdate>1941-1945</unitdate>
                </did>
             </c02>
          </c01>
@@ -202,102 +198,99 @@ Fax: (607) 255-9524<lb/>
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Promissory note made in favor of Kohm &amp; Brunne - signature A.R. Cota (?) dated June 18, 
 
-				  <unitdate>1917</unitdate>
+				  1917
 
-				  at the Ithaca Trust Co.</unittitle>
+				  at the Ithaca Trust Co.</unittitle><unitdate>1917</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Promissory note made in favor of Kohm &amp; Brunne - signature C.E. Finney dated Oct. 4, 
 
-				  <unitdate>1923</unitdate>
+				  1923
 
-				  at Citizens Trust Co. of Summit, N.J.</unittitle>
+				  at Citizens Trust Co. of Summit, N.J.</unittitle><unitdate>1923</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>5 sheets of figures, 
 
-				  <unitdate>July 1, 1923-July 1, 1929</unitdate>
+				  July 1, 1923-July 1, 1929
 
-				  . These seem to be itemized lists of bills paid by the business for both Kohm and Brunne (includes cash drawn by each).</unittitle>
+				  . These seem to be itemized lists of bills paid by the business for both Kohm and Brunne (includes cash drawn by each).</unittitle><unitdate>July 1, 1923-July 1, 1929</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle> Common Stock Certificate #99 for 75 shares of capital stock of the Terrien Oil Co. dated Aug. 31, 
 
-				  <unitdate>1927</unitdate>
+				  1927
 
-				  issued to Kohm and Brunne.</unittitle>
+				  issued to Kohm and Brunne.</unittitle><unitdate>1927</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Bill to Bruce Simmons from E.A. Kohm dated Oct. 5, 
 
-				  <unitdate>1942</unitdate>
+				  1942
 
-				  .</unittitle>
+				  .</unittitle><unitdate>1942</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Sample of dunning letter (for outstanding accounts in Kohm's business) dated Aug. 10, 
 
-				  <unitdate>1942</unitdate>
+				  1942
 
-				  - handwritten note at bottom asks for approval of letter form.</unittitle>
+				  - handwritten note at bottom asks for approval of letter form.</unittitle><unitdate>1942</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle> Letter to Raymond Kohm from James W. Andrews dated Aug. 29, 
 
-				  <unitdate>1944</unitdate>
+				  1944
 
-				  re: accounting for settlement of judgment against Alva S. Ainsworth.</unittitle>
+				  re: accounting for settlement of judgment against Alva S. Ainsworth.</unittitle><unitdate>1944</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle> Financial statement - Emil A. Kohm estate, June 15, 
 
-				  <unitdate>1942-July 24, 1944</unitdate>
+				  1942-July 24, 1944
 
-				  .</unittitle>
+				  .</unittitle><unitdate>1942-July 24, 1944</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle> Lists of names and amounts (otherwise unidentified), 
 
-				  <unitdate>Jan. 12, 1945-Nov. 16, ?</unitdate>
-
-				
-                  </unittitle>
+				  </unittitle><unitdate>Jan. 12, 1945-Nov. 16, ?</unitdate>
                </did>
             </c02>
          </c01>
@@ -307,34 +300,37 @@ Fax: (607) 255-9524<lb/>
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle> Carbon typescript directive from J.H. Dawson, U.S. Army, relieving Joseph H. Kohm of his full-time duty in the Army, May 8, 
 
-				  <unitdate>1919</unitdate>
+				  1919
 
-				  .</unittitle>
+				  .</unittitle><unitdate>1919</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Telegram from Joseph Kohm to Emil Kohm re: his discharge, 
 
-				  <unitdate>May 10, 1919</unitdate>
+				  May 10, 1919
 
-				  .</unittitle>
+				  .</unittitle><unitdate>May 10, 1919</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Two snapshots of young girls: one girl alone; two girls together. </unittitle>
                </did>
             </c02>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Emil A. Kohm accounts, #2065. Division of Rare and Manuscript Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

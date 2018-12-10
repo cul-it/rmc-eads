@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06338::Guide to the Nellie Beatrice Osborn Allen papers)//EN">RMM06338</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06338::Guide to the Nellie Beatrice Osborn Allen papers)//EN">RMM06338</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Nellie Beatrice Osborn Allen papers,
@@ -23,19 +23,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>December 2014</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Nellie Beatrice Osborn Allen Papers,<lb/><date type="inclusive" encodinganalog="245$f">1916-1946.</date></titleproper>
+			<titleproper>Guide to the Nellie Beatrice Osborn Allen Papers,<date encodinganalog="245$f" type="inclusive">1916-1946.</date></titleproper>
 			<num>Collection Number: 6338</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -61,13 +67,14 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Nellie Beatrice Osborn Allen papers,
-					<unitdate encodinganalog="MARC 245" type="inclusive">1916-1946.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Nellie Beatrice Osborn Allen papers,
+					</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1916-1946.</unitdate>
 			<unitid label="Collection Number:">6338</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Allen, Nellie Beatrice Osborn,  1869-1961. ">Allen, Nellie Beatrice
 					Osborn, </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1.5 cubic feet, 6 Mapcase Folders.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>1.5 cubic feet, 6 Mapcase Folders.</extent></physdesc>
 			<physdesc label="Forms of Material:">Photographs and architectural plans.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -78,7 +85,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Born in Cameron, Missouri in 1869, little is known about Allen's early years, education, 
 				and marriage to Sidney P. Allen. She attended the Lowthorpe School of Landscape Architecture 
 				between 1916 and 1919 in Groton, Massachusetts, under the name Beatrice Osborn Allen. 
@@ -123,14 +130,7 @@
 				<genreform encodinganalog="MARC 655" source="aat">Architectural drawings.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Nellie Beatrice Osborn Allen Papers, #6338. Division of Rare and Manuscript
-					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="series">
@@ -139,168 +139,168 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle>Mrs. James B. Clemens, New York, NY</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle>Clifford McCall, East Hampton, NY</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3a-3j</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3a-3j</container>
 						<unittitle>"Dellwood" - J.H. Hammond, Mt. Kisco, NY</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4a-4g</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4a-4g</container>
 						<unittitle>Frank Bliss, New Rochelle, NY</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle>Edwin Cole, Westport Harbor, NY</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6a-6c</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6a-6c</container>
 						<unittitle>Judge J. Harry Covington, Washington D.C.</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7a-7b</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7a-7b</container>
 						<unittitle>"Otahnagon" Anne Morgan and Anne Vanderbilt, Mt. Kisco, NY</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8a-8f</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8a-8f</container>
 						<unittitle>"Three Waters" Edith Notman, Gloucester, MA</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle>Frank Bliss</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle>"Brookmeade" - Sloane</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle>Mrs. James B. Clemens</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle>Judge J. Harry Covington</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle>"Dellwood" - J.H. Hammond</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle>Lowthorpe</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle>Clifford McCall</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle>"Otahnagon" Anne Morgan and Anne Vanderbilt</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle>"Thorndale" N.B. Allen</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle>"Three Waters" Edith Notman</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle>Photograph of Nellie B. Allen</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle>English Lavender and Yew</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle>Buttress Yew Border at New Place</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle>Testaceum Lilies and Gypsophila</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle>Mrs. W.D. Miller</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1938</unitdate>
 						<unittitle>Photograph Album of English Gardens</unittitle>
 					</did>
@@ -313,16 +313,16 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">1</container>
+						
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>1917-1919</unitdate>
 						<unittitle>Lowthorpe School drawings (5)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">1</container>
+						
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>April 1919</unitdate>
 						<unittitle>Garden plan for Mrs. Charles A. Morss, Chestnut Hill, MA</unittitle>
 					</did>
@@ -330,8 +330,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">1</container>
+						
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>May 1919</unitdate>
 						<unittitle>Cedar Acres, Belmont MA</unittitle>
 					</did>
@@ -339,96 +339,100 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">1</container>
+						
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Mrs. Jecyll's Blue, Gold, Green, Grey, and Orange Garden plans</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">1</container>
+						
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Herb Garden (with list of plants)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">1</container>
+						
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Informal Knot Garden</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">1</container>
+						
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>May 23, 1929</unitdate>
 						<unittitle>Sketch for the Garden of Mr. J.M. Tate Jr., Sewickley, PA</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">1</container>
+						
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>November 23, 1945</unitdate>
 						<unittitle>Leon M. Gecker, Crafts NY</unittitle>
 					</did>
 					<scopecontent><p>Planting Plan with topographical survey
-						<lb/>Planting Plan for Perennial and Annual Flower Garden Terrace (blueprint and plan on tracing paper)</p></scopecontent>
+						Planting Plan for Perennial and Annual Flower Garden Terrace (blueprint and plan on tracing paper)</p></scopecontent>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">1</container>
+						
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>March 10, 1942</unitdate>
 						<unittitle>Border of Sweet-Leaved Geraniums</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">1</container>
+						
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Plan entitled "In Springtime the Sweet-Leaved Geraniums is planted with Choice May-Flowering Tulips"</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">1</container>
-						<unitdate/>
+						
+						<container label="unspecified" type="mapcase-folder">1</container>
+						
 						<unittitle>Plan entitled "Lupins Against a Strong Background"</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">2</container>
-						<unitdate/>
+						
+						<container label="unspecified" type="mapcase-folder">2</container>
+						
 						<unittitle>Wave Hill Rock Garden</unittitle>
 					</did>
 					<scopecontent><p>Mylar tracings of original blueprints (c. 1934) at Wave Hill</p></scopecontent>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">3-5</container>
-						<unitdate>c. 1931</unitdate>
+						
+						<container label="unspecified" type="mapcase-folder">3-5</container>
+						<unitdate certainty="approximate">1931</unitdate>
 						<unittitle>Morgan-Vanderbilt Estate, Mt. Kisco, NY</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case"/>
-						<container type="folder">6</container>
-						<unitdate>c. 1917</unitdate>
+						
+						<container label="unspecified" type="mapcase-folder">6</container>
+						<unitdate certainty="approximate">1917</unitdate>
 						<unittitle>Lowthrorpe School Exercises</unittitle>
 					</did>
 				</c02>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Nellie Beatrice Osborn Allen Papers, #6338. Division of Rare and Manuscript
+					Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

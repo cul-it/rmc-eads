@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM00399::Guide to the William Pierrepont White collection)//EN">RMM00399</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM00399::Guide to the William Pierrepont White collection)//EN">RMM00399</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the William Pierrepont White collection,
@@ -28,19 +27,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>March 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the William Pierrepont White Collection, <lb/><date type="inclusive" encodinganalog="245$f">1728-1939.</date></titleproper>
+			<titleproper>Guide to the William Pierrepont White Collection, <date encodinganalog="245$f" type="inclusive">1728-1939.</date></titleproper>
 			<num>Collection Number: 399</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -66,15 +71,14 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">William Pierrepont White collection,
-					<unitdate encodinganalog="MARC 245" type="inclusive">1728-1939.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">William Pierrepont White collection,
+					</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1728-1939.</unitdate>
 			<unitid label="Collection Number:">399</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="100" normal="White, William Pierrepont.   ">White, William
 					Pierrepont. </persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>63.6 cubic ft.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>63.6 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Correspondence, diaries, financial and legal documents.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -259,14 +263,7 @@
 				<genreform encodinganalog="MARC 655" source="aat">Local history</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>William Pierrepont White collection. Division of Rare and Manuscript Collections,
-					Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<odd type="notes">
 			<head id="a6">NOTES</head>
 			<p>Consists of collections #399, #565, #586, and #944.</p>
@@ -274,15 +271,15 @@
 		<arrangement>
              <head>SERIES LIST</head>
              <p> <emph render="bold">
-             <ref target="s1" show="replace" actuate="onrequest">Series I. Correspondence</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s1">Series I. Correspondence</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s2" show="replace" actuate="onrequest">Series II. Walcott Papers</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s2">Series II. Walcott Papers</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s3" show="replace" actuate="onrequest">Series III. Newspaper Clippings</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s3">Series III. Newspaper Clippings</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s4" show="replace" actuate="onrequest">Series IV. Assorted Materials</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s4">Series IV. Assorted Materials</ref> </emph>  </p>
              <p> <emph render="bold">
-             <ref target="s5" show="replace" actuate="onrequest">Series V. Unprocessed  Materials</ref> </emph> <lb/> </p>
+             <ref actuate="onrequest" show="replace" target="s5">Series V. Unprocessed  Materials</ref> </emph>  </p>
              </arrangement>
     <dsc type="combined">
       <head>CONTAINER LIST</head>
@@ -295,15 +292,15 @@
 
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1728/1827">1728-1827</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1728/1827" type="inclusive">1728-1827</unitdate>
         <unittitle>1728-1827 correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1820-02-05">1820-02-05</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1820-02-05" type="inclusive">1820-02-05</unitdate>
         <unittitle>Letter from E.D. and Charlotte Walcott to Hugh White</unittitle>
        <origination label="Creator"><persname>Walcott, E.D. </persname></origination>
        <origination label="Creator"><persname> Walcott, Charlotte</persname></origination>
@@ -315,8 +312,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1825-01-28">1825-01-28</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1825-01-28" type="inclusive">1825-01-28</unitdate>
         <unittitle>Letter from E.D. and Charlotte Walcott to Hugh White</unittitle>
        <origination label="Creator"><persname>Walcott, E.D. </persname></origination>
        <origination label="Creator"><persname> Walcott, Charlotte</persname></origination>
@@ -328,8 +325,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1826-02-28">1826-02-28</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1826-02-28" type="inclusive">1826-02-28</unitdate>
         <unittitle>Letter from E.D. Walcott to Hugh White</unittitle>
        <origination label="Creator"><persname>Walcott, E.D.</persname></origination>
        </did>
@@ -339,8 +336,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1829-12-22">1829-12-22</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1829-12-22" type="inclusive">1829-12-22</unitdate>
         <unittitle>Letter from E.D. Walcott to Hugh White</unittitle>
        <origination label="Creator"><persname>Walcott, E.D.</persname></origination>
        </did>
@@ -350,8 +347,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1827-08-07">1827-08-07</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1827-08-07" type="inclusive">1827-08-07</unitdate>
         <unittitle>Letter from E.D. Walcott to Hugh White</unittitle>
        <origination label="Creator"><persname>Walcott, E.D.</persname></origination>
        </did>
@@ -362,8 +359,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1827-09-11">1827-09-11</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1827-09-11" type="inclusive">1827-09-11</unitdate>
         <unittitle>Letter from E.D. Walcott to Hugh White</unittitle>
        <origination label="Creator"><persname>Walcott, E.D.</persname></origination>
        </did>
@@ -374,8 +371,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1827-10-30">1827-10-30</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1827-10-30" type="inclusive">1827-10-30</unitdate>
         <unittitle>Letter from E.D. Walcott to Hugh White</unittitle>
        <origination label="Creator"><persname>Walcott, E.D.</persname></origination>
        </did>
@@ -386,8 +383,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1827-11-28">1827-11-28</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1827-11-28" type="inclusive">1827-11-28</unitdate>
         <unittitle>Letter from E.D. Walcott to Hugh White</unittitle>
        <origination label="Creator"><persname>Walcott, E.D.</persname></origination>
        </did>
@@ -397,8 +394,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1825-01-24">1825-01-24</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1825-01-24" type="inclusive">1825-01-24</unitdate>
         <unittitle>Letter from Sofia Duston to Hugh White</unittitle>
        <origination label="Creator"><persname>Duston, Sofia</persname></origination>
        </did>
@@ -409,8 +406,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1827-08-24">1827-08-24</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1827-08-24" type="inclusive">1827-08-24</unitdate>
         <unittitle>Letter from John Duston to Canvass White</unittitle>
        <origination label="Creator"><persname>Duston, John</persname></origination>
        </did>
@@ -419,8 +416,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1827-08-25">1827-08-25</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1827-08-25" type="inclusive">1827-08-25</unitdate>
         <unittitle>Letter from John Duston to Hugh White and Susan Porter</unittitle>
        <origination label="Creator"><persname>Duston, John</persname></origination>
        </did>
@@ -432,8 +429,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1818-07-16">1818-07-16</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1818-07-16" type="inclusive">1818-07-16</unitdate>
         <unittitle>Letter from John Duston to Hugh White</unittitle>
        <origination label="Creator"><persname>Duston, John</persname></origination>
        </did>
@@ -445,8 +442,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1819-07-26">1819-07-26</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1819-07-26" type="inclusive">1819-07-26</unitdate>
         <unittitle>Letter from John Duston to Hugh White</unittitle>
        <origination label="Creator"><persname>Duston, John</persname></origination>
        </did>
@@ -457,8 +454,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1805-07">1805-07</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1805-07" type="inclusive">1805-07</unitdate>
         <unittitle>Two letters from Rufus Easton to Hugh White</unittitle>
        <origination label="Creator"><persname>Easton, Rufus</persname></origination>
        </did>
@@ -467,15 +464,15 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2 399</container>
- <unitdate type="inclusive" normal="1828/1869">1828-1869</unitdate>
+        <container label="unspecified" type="box">2 399</container>
+ <unitdate normal="1828/1869" type="inclusive">1828-1869</unitdate>
         <unittitle>1828-1869 correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2 399</container>
- <unitdate type="inclusive" normal="1829-09-04">1829-09-04</unitdate>
+        <container label="unspecified" type="box">2 399</container>
+ <unitdate normal="1829-09-04" type="inclusive">1829-09-04</unitdate>
         <unittitle>Letter from Robert White to Hugh White</unittitle>
        <origination label="Creator"><persname>White, Robert</persname></origination>
        </did>
@@ -486,8 +483,8 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2 399</container>
- <unitdate type="inclusive" normal="1830-06-20">1830-06-20</unitdate>
+        <container label="unspecified" type="box">2 399</container>
+ <unitdate normal="1830-06-20" type="inclusive">1830-06-20</unitdate>
         <unittitle>Letter from Robert White to Hugh White</unittitle>
        <origination label="Creator"><persname>White, Robert</persname></origination>
        </did>
@@ -497,15 +494,15 @@
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">65 399</container>
- <unitdate type="bulk" normal="1903/1928">1903, 1926-1928</unitdate>
+        <container label="unspecified" type="box">65 399</container>
+ <unitdate normal="1903/1928" type="bulk">1903, 1926-1928</unitdate>
         <unittitle>Good Roads correspondence</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">69 399</container>
- <unitdate type="bulk" normal="1910/1915">1910-1912, 1915</unitdate>
+        <container label="unspecified" type="box">69 399</container>
+ <unitdate normal="1910/1915" type="bulk">1910-1912, 1915</unitdate>
         <unittitle>Correspondence</unittitle>
        </did>
            </c02>
@@ -516,43 +513,43 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">3 399</container>
- <unitdate type="inclusive" normal="1896/1898">1896-1898</unitdate>
+        <container label="unspecified" type="box">3 399</container>
+ <unitdate normal="1896/1898" type="inclusive">1896-1898</unitdate>
         <unittitle>Walcott papers</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4 399</container>
- <unitdate type="inclusive" normal="1902/1903">1902-1903</unitdate>
+        <container label="unspecified" type="box">4 399</container>
+ <unitdate normal="1902/1903" type="inclusive">1902-1903</unitdate>
         <unittitle>Walcott papers</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5 399</container>
- <unitdate type="inclusive" normal="1899/1901">1899-1901</unitdate>
+        <container label="unspecified" type="box">5 399</container>
+ <unitdate normal="1899/1901" type="inclusive">1899-1901</unitdate>
         <unittitle>Walcott papers</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">6 399</container>
- <unitdate type="inclusive" normal="1904/1929">1904-1929</unitdate>
+        <container label="unspecified" type="box">6 399</container>
+ <unitdate normal="1904/1929" type="inclusive">1904-1929</unitdate>
         <unittitle>Walcott papers</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">66 399</container>
- <unitdate type="inclusive" normal="1892/1893-05">1892-1893-05</unitdate>
+        <container label="unspecified" type="box">66 399</container>
+ <unitdate normal="1892/1893-05" type="inclusive">1892-1893-05</unitdate>
         <unittitle>Walcott papers</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">67 399</container>
- <unitdate type="inclusive" normal="1894/1895-05">1894-1895-05</unitdate>
+        <container label="unspecified" type="box">67 399</container>
+ <unitdate normal="1894/1895-05" type="inclusive">1894-1895-05</unitdate>
         <unittitle>Walcott papers</unittitle>
        </did>
            </c02>
@@ -563,406 +560,406 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">7 399</container>
+        <container label="unspecified" type="box">7 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">8 399</container>
+        <container label="unspecified" type="box">8 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">9 399</container>
+        <container label="unspecified" type="box">9 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">10 399</container>
+        <container label="unspecified" type="box">10 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">11 399</container>
+        <container label="unspecified" type="box">11 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">12 399</container>
+        <container label="unspecified" type="box">12 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">13 399</container>
+        <container label="unspecified" type="box">13 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">14 399</container>
+        <container label="unspecified" type="box">14 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">15 399</container>
+        <container label="unspecified" type="box">15 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">16 399</container>
+        <container label="unspecified" type="box">16 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">17 399</container>
+        <container label="unspecified" type="box">17 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">18 399</container>
+        <container label="unspecified" type="box">18 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">19 399</container>
+        <container label="unspecified" type="box">19 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">20 399</container>
+        <container label="unspecified" type="box">20 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">21 399</container>
+        <container label="unspecified" type="box">21 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">22 399</container>
+        <container label="unspecified" type="box">22 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">23 399</container>
+        <container label="unspecified" type="box">23 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">24 399</container>
+        <container label="unspecified" type="box">24 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">25 399</container>
+        <container label="unspecified" type="box">25 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">26 399</container>
+        <container label="unspecified" type="box">26 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">27 399</container>
+        <container label="unspecified" type="box">27 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">28 399</container>
+        <container label="unspecified" type="box">28 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">29 399</container>
+        <container label="unspecified" type="box">29 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">30 399</container>
+        <container label="unspecified" type="box">30 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">31 399</container>
+        <container label="unspecified" type="box">31 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">32 399</container>
+        <container label="unspecified" type="box">32 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">33 399</container>
+        <container label="unspecified" type="box">33 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">34 399</container>
+        <container label="unspecified" type="box">34 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">35 399</container>
+        <container label="unspecified" type="box">35 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">36 399</container>
+        <container label="unspecified" type="box">36 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">37 399</container>
+        <container label="unspecified" type="box">37 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">38 399</container>
+        <container label="unspecified" type="box">38 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">39 399</container>
+        <container label="unspecified" type="box">39 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">40 399</container>
+        <container label="unspecified" type="box">40 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">41 399</container>
+        <container label="unspecified" type="box">41 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">42 399</container>
+        <container label="unspecified" type="box">42 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">43 399</container>
+        <container label="unspecified" type="box">43 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">44 399</container>
+        <container label="unspecified" type="box">44 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">45 399</container>
+        <container label="unspecified" type="box">45 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">46 399</container>
+        <container label="unspecified" type="box">46 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">47 399</container>
+        <container label="unspecified" type="box">47 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">48 399</container>
+        <container label="unspecified" type="box">48 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">49 399</container>
+        <container label="unspecified" type="box">49 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">50 399</container>
+        <container label="unspecified" type="box">50 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">51 399</container>
+        <container label="unspecified" type="box">51 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">52 399</container>
+        <container label="unspecified" type="box">52 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">53 399</container>
+        <container label="unspecified" type="box">53 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">54 399</container>
+        <container label="unspecified" type="box">54 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">55 399</container>
+        <container label="unspecified" type="box">55 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">56 399</container>
+        <container label="unspecified" type="box">56 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">57 399</container>
+        <container label="unspecified" type="box">57 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">58 399</container>
+        <container label="unspecified" type="box">58 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">59 399</container>
+        <container label="unspecified" type="box">59 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">60 399</container>
+        <container label="unspecified" type="box">60 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">61 399</container>
+        <container label="unspecified" type="box">61 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">62 399</container>
+        <container label="unspecified" type="box">62 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">63 399</container>
+        <container label="unspecified" type="box">63 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">64 399</container>
+        <container label="unspecified" type="box">64 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Mostly newspaper clippings</unittitle>
        </did>
@@ -974,321 +971,321 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">1 399</container>
- <unitdate type="inclusive" normal="1827-08-07">1827-08-07</unitdate>
+        <container label="unspecified" type="box">1 399</container>
+ <unitdate normal="1827-08-07" type="inclusive">1827-08-07</unitdate>
         <unittitle>Receipt for $1985 received by E.D. White</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">68 399</container>
- <unitdate type="inclusive" normal="1902">1902</unitdate>
+        <container label="unspecified" type="box">68 399</container>
+ <unitdate normal="1902" type="inclusive">1902</unitdate>
         <unittitle>1902</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">70 399</container>
- <unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate>
+        <container label="unspecified" type="box">70 399</container>
+ <unitdate normal="1913/1914" type="inclusive">1913-1914</unitdate>
         <unittitle>1913-1914</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">71 399</container>
- <unitdate type="inclusive" normal="1922/1923">1922-1923</unitdate>
+        <container label="unspecified" type="box">71 399</container>
+ <unitdate normal="1922/1923" type="inclusive">1922-1923</unitdate>
         <unittitle>1922-1923</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">72 399</container>
- <unitdate type="inclusive" normal="1928/1934">1928-1934</unitdate>
+        <container label="unspecified" type="box">72 399</container>
+ <unitdate normal="1928/1934" type="inclusive">1928-1934</unitdate>
         <unittitle>1928-1934</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">73 399</container>
- <unitdate type="inclusive" normal="1925">1925</unitdate>
+        <container label="unspecified" type="box">73 399</container>
+ <unitdate normal="1925" type="inclusive">1925</unitdate>
         <unittitle>1925</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">74 399</container>
- <unitdate type="inclusive" normal="1903/1915">1903-1915</unitdate>
+        <container label="unspecified" type="box">74 399</container>
+ <unitdate normal="1903/1915" type="inclusive">1903-1915</unitdate>
         <unittitle>Utica Tool</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">75 399</container>
- <unitdate type="inclusive" normal="1921/1927">1921-1927</unitdate>
+        <container label="unspecified" type="box">75 399</container>
+ <unitdate normal="1921/1927" type="inclusive">1921-1927</unitdate>
         <unittitle>Utica Tool</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">76 399</container>
- <unitdate type="inclusive" normal="1916/1920">1916-1920</unitdate>
+        <container label="unspecified" type="box">76 399</container>
+ <unitdate normal="1916/1920" type="inclusive">1916-1920</unitdate>
         <unittitle>Utica Tool</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">77 399</container>
- <unitdate type="inclusive" normal="1900/1913">1900-1913</unitdate>
+        <container label="unspecified" type="box">77 399</container>
+ <unitdate normal="1900/1913" type="inclusive">1900-1913</unitdate>
         <unittitle>Crow Holl</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">78 399</container>
+        <container label="unspecified" type="box">78 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Invitations</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">79 399</container>
- <unitdate type="bulk" normal="1914/1923">1914-1915, 1922-1923</unitdate>
+        <container label="unspecified" type="box">79 399</container>
+ <unitdate normal="1914/1923" type="bulk">1914-1915, 1922-1923</unitdate>
         <unittitle>Crow Holl</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">80 399</container>
- <unitdate type="inclusive" normal="1895/1968">1895-1968</unitdate>
+        <container label="unspecified" type="box">80 399</container>
+ <unitdate normal="1895/1968" type="inclusive">1895-1968</unitdate>
         <unittitle>Cash and Securities, C.A. Van Waganen</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">81 399</container>
+        <container label="unspecified" type="box">81 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Printed Matter</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">82 399</container>
+        <container label="unspecified" type="box">82 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>W.P. White's societies</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 944</container>
-        <container type="folder">1</container>
- <unitdate type="inclusive" normal="1815">1815</unitdate>
+        <container label="unspecified" type="box">1 944</container>
+        <container label="unspecified" type="folder">1</container>
+ <unitdate normal="1815" type="inclusive">1815</unitdate>
         <unittitle>Copy of 1792 Indenture No. 3</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 944</container>
-        <container type="folder">2</container>
- <unitdate type="inclusive" normal="1815">1815</unitdate>
+        <container label="unspecified" type="box">1 944</container>
+        <container label="unspecified" type="folder">2</container>
+ <unitdate normal="1815" type="inclusive">1815</unitdate>
         <unittitle>Copy of 1792 Indenture No. 4</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 944</container>
-        <container type="folder">3</container>
- <unitdate type="inclusive" normal="1815">1815</unitdate>
+        <container label="unspecified" type="box">1 944</container>
+        <container label="unspecified" type="folder">3</container>
+ <unitdate normal="1815" type="inclusive">1815</unitdate>
         <unittitle>Copy of 1794 Indenture No. 5</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 944</container>
-        <container type="folder">4</container>
- <unitdate type="inclusive" normal="1815">1815</unitdate>
+        <container label="unspecified" type="box">1 944</container>
+        <container label="unspecified" type="folder">4</container>
+ <unitdate normal="1815" type="inclusive">1815</unitdate>
         <unittitle>Copy of 1794 Indenture No. 6</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 944</container>
-        <container type="folder">5</container>
- <unitdate type="inclusive" normal="1815">1815</unitdate>
+        <container label="unspecified" type="box">1 944</container>
+        <container label="unspecified" type="folder">5</container>
+ <unitdate normal="1815" type="inclusive">1815</unitdate>
         <unittitle>Copy of 1794 Indenture No. 7</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 944</container>
-        <container type="folder">6</container>
- <unitdate type="inclusive" normal="1815">1815</unitdate>
+        <container label="unspecified" type="box">1 944</container>
+        <container label="unspecified" type="folder">6</container>
+ <unitdate normal="1815" type="inclusive">1815</unitdate>
         <unittitle>Copy of 1796 Indenture No. 8</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 944</container>
-        <container type="folder">7</container>
+        <container label="unspecified" type="box">1 944</container>
+        <container label="unspecified" type="folder">7</container>
  <unitdate>Undated</unitdate>
         <unittitle>Copies of 1795 Field Books</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 944</container>
-        <container type="folder">8</container>
- <unitdate type="bulk" normal="1801/1817">1801, 1807, 1817</unitdate>
+        <container label="unspecified" type="box">1 944</container>
+        <container label="unspecified" type="folder">8</container>
+ <unitdate normal="1801/1817" type="bulk">1801, 1807, 1817</unitdate>
         <unittitle>Woodhull and Scriba's Patents</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 944</container>
-        <container type="folder">9</container>
- <unitdate type="bulk" normal="1801/1818">1801, 1814, 1818</unitdate>
+        <container label="unspecified" type="box">1 944</container>
+        <container label="unspecified" type="folder">9</container>
+ <unitdate normal="1801/1818" type="bulk">1801, 1814, 1818</unitdate>
         <unittitle>Fonda's Patent</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">1 944</container>
-        <container type="folder">10</container>
+        <container label="unspecified" type="box">1 944</container>
+        <container label="unspecified" type="folder">10</container>
  <unitdate>Undated</unitdate>
         <unittitle>Surveys</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2 944</container>
- <unitdate type="inclusive" normal="1793/1831">1793-1831</unitdate>
+        <container label="unspecified" type="box">2 944</container>
+ <unitdate normal="1793/1831" type="inclusive">1793-1831</unitdate>
         <unittitle>Field Books (19 Envelopes)</unittitle>
        <physdesc>19 envelopes</physdesc>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2 944</container>
- <unitdate type="inclusive" certainty="Circa" normal="1819">1819</unitdate>
+        <container label="unspecified" type="box">2 944</container>
+ <unitdate certainty="approximate" normal="1819" type="inclusive">1819</unitdate>
         <unittitle>Miscellany (1 Envelope)</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">2 944</container>
- <unitdate type="inclusive" normal="1840">1840</unitdate>
+        <container label="unspecified" type="box">2 944</container>
+ <unitdate normal="1840" type="inclusive">1840</unitdate>
         <unittitle>Register of Notes and Due Bills belonging to William Constable Pierrepont (1 Volume)</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">3 944</container>
+        <container label="unspecified" type="box">3 944</container>
  <unitdate>Undated</unitdate>
         <unittitle>Surveys and Maps</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4 944</container>
- <unitdate type="inclusive" normal="1863">1863</unitdate>
+        <container label="unspecified" type="box">4 944</container>
+ <unitdate normal="1863" type="inclusive">1863</unitdate>
         <unittitle>Charles H. Cross' "D" Daily Journal</unittitle>
        <origination label="Creator"><persname>Cross, Charles H.</persname></origination>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4 944</container>
- <unitdate type="inclusive" normal="1863">1863</unitdate>
+        <container label="unspecified" type="box">4 944</container>
+ <unitdate normal="1863" type="inclusive">1863</unitdate>
         <unittitle>Alphabetical Index</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4 944</container>
- <unitdate type="inclusive" normal="1818">1818</unitdate>
+        <container label="unspecified" type="box">4 944</container>
+ <unitdate normal="1818" type="inclusive">1818</unitdate>
         <unittitle>Workbook "No. 7" Mr. Thompsons evening lessons</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4 944</container>
- <unitdate type="inclusive" normal="1819">1819</unitdate>
+        <container label="unspecified" type="box">4 944</container>
+ <unitdate normal="1819" type="inclusive">1819</unitdate>
         <unittitle>Workbook "No. 7"</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4 944</container>
+        <container label="unspecified" type="box">4 944</container>
  <unitdate>Undated</unitdate>
         <unittitle>Traverse Tables</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">4 944</container>
- <unitdate type="inclusive" normal="1821">1821</unitdate>
+        <container label="unspecified" type="box">4 944</container>
+ <unitdate normal="1821" type="inclusive">1821</unitdate>
         <unittitle>Traverse Tables (mss.)</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5 944</container>
- <unitdate type="inclusive" normal="1852">1852</unitdate>
+        <container label="unspecified" type="box">5 944</container>
+ <unitdate normal="1852" type="inclusive">1852</unitdate>
         <unittitle>Report of the Different Routes and Estimates of the Sacketts Harbor and Saratoga Railroad Co. Members</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5 944</container>
- <unitdate type="inclusive" normal="1815">1815</unitdate>
+        <container label="unspecified" type="box">5 944</container>
+ <unitdate normal="1815" type="inclusive">1815</unitdate>
         <unittitle>Benjamin Wright's original (?) book of Lorraine No. 1</unittitle>
        <origination label="Creator"><persname>Wright, Benjamin</persname></origination>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5 944</container>
- <unitdate type="inclusive" normal="1829">1829</unitdate>
+        <container label="unspecified" type="box">5 944</container>
+ <unitdate normal="1829" type="inclusive">1829</unitdate>
         <unittitle>Orwell No. 11</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5 944</container>
- <unitdate type="inclusive" certainty="Circa" normal="1805/1822">1805-1822</unitdate>
+        <container label="unspecified" type="box">5 944</container>
+ <unitdate certainty="approximate" normal="1805/1822" type="inclusive">1805-1822</unitdate>
         <unittitle>Township No. 10</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5 944</container>
- <unitdate type="inclusive" certainty="Circa" normal="1814/1819">1814-1819</unitdate>
+        <container label="unspecified" type="box">5 944</container>
+ <unitdate certainty="approximate" normal="1814/1819" type="inclusive">1814-1819</unitdate>
         <unittitle>Township No. 9</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5 944</container>
- <unitdate type="inclusive" normal="1797">1797</unitdate>
+        <container label="unspecified" type="box">5 944</container>
+ <unitdate normal="1797" type="inclusive">1797</unitdate>
         <unittitle>A Survey of Town No. 10 Boyleston Tract</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5 944</container>
+        <container label="unspecified" type="box">5 944</container>
  <unitdate>Undated</unitdate>
         <unittitle>Field Book of Resurvey of Lot Lines in Township No. 1 of Lorraine by Benjamin Hadley in 1832 and 1833</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">5 944</container>
- <unitdate type="inclusive" normal="1878/1887">1878-1887</unitdate>
+        <container label="unspecified" type="box">5 944</container>
+ <unitdate normal="1878/1887" type="inclusive">1878-1887</unitdate>
         <unittitle>Cash Book</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="map-case">1</container>
+        <container label="unspecified" type="map-case">1</container>
 
  <unitdate>Undated</unitdate>
         <unittitle>Various plans and maps</unittitle>
@@ -1301,105 +1298,105 @@
        </did>
       <c02 level="file">
        <did>
-        <container type="box">83 399</container>
+        <container label="unspecified" type="box">83 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">84 399</container>
+        <container label="unspecified" type="box">84 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">85 399</container>
+        <container label="unspecified" type="box">85 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">86 399</container>
+        <container label="unspecified" type="box">86 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">87 399</container>
+        <container label="unspecified" type="box">87 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">88 399</container>
+        <container label="unspecified" type="box">88 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">89 399</container>
+        <container label="unspecified" type="box">89 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">90 399</container>
+        <container label="unspecified" type="box">90 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">91 399</container>
+        <container label="unspecified" type="box">91 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">92 399</container>
+        <container label="unspecified" type="box">92 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">93 399</container>
+        <container label="unspecified" type="box">93 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">94 399</container>
+        <container label="unspecified" type="box">94 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">95 399</container>
+        <container label="unspecified" type="box">95 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">96 399</container>
+        <container label="unspecified" type="box">96 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
            </c02>
       <c02 level="file">
        <did>
-        <container type="box">97 399</container>
+        <container label="unspecified" type="box">97 399</container>
  <unitdate>Date Unknown</unitdate>
         <unittitle>Unprocessed  materials</unittitle>
        </did>
@@ -1407,5 +1404,9 @@
 
    </c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>William Pierrepont White collection. Division of Rare and Manuscript Collections,
+					Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

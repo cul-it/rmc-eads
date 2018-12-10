@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08404::Guide to the Harold K. Baumgardner menu collection)//EN">RMM08404</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08404::Guide to the Harold K. Baumgardner menu collection)//EN">RMM08404</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Harold K. Baumgardner menu collection,<date>[ca.
@@ -24,19 +24,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>January 2013</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Harold K. Baumgardner Menu Collection,<lb/><date type="inclusive" encodinganalog="245$f">[ca. 1949-1965].</date></titleproper>
+			<titleproper>Guide to the Harold K. Baumgardner Menu Collection,<date encodinganalog="245$f" type="inclusive">[ca. 1949-1965].</date></titleproper>
 			<num>Collection Number: 8404</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -62,14 +68,12 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Harold K. Baumgardner menu
-				collection, <unitdate encodinganalog="MARC 245" type="inclusive">[ca.
-					1949-1965].</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Harold K. Baumgardner menu
+				collection, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1949-1965.</unitdate>
 			<unitid label="Collection Number:">8404</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Baumgardner, Harold K.,   ">Baumgardner, Harold K.,
 				</persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.8 cubic feet.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.8 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Printed material</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -107,14 +111,7 @@
 				<genreform encodinganalog="MARC 655" source="aat">Menus.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Harold K. Baumgardner menu collection, #8404. Division of Rare and Manuscript
-					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="series">
@@ -125,16 +122,16 @@
 				</did>      
 			<c02 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unitdate>May 28, 1951-November 13, 1954</unitdate>
 					<unittitle>US East: Maine, Massachusetts, New Hampshire, New Jersey</unittitle>
 				</did>
 			</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>March 8, 1950-October 28, 1957
 						</unitdate>
 						<unittitle>US East: New York 
@@ -146,8 +143,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>October 22, 1050-August 24, 1954
 						</unitdate>
 						<unittitle>US East: Pennsylvania, Vermont
@@ -156,8 +153,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>February 27, 1951-March 6, 1955
 						</unitdate>
 						<unittitle>US South: Alabama, Florida, Georgia, Kentucky
@@ -166,8 +163,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>March 3, 1952-November 28, 1954
 						</unitdate>
 						<unittitle>US South:  Louisiana, Mississippi
@@ -176,8 +173,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>October 21, 1950-August 7, 1965
 						</unitdate>
 						<unittitle>US South:  North Carolina, South Carolina, Virginia and West Virginia
@@ -193,8 +190,8 @@
 					</did>     
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>July 1949-April 4, 1956
 						</unitdate>
 						<unittitle>US West: Arizona, California, Hawaii, New Mexico and Texas.  
@@ -207,8 +204,8 @@
 				</c02>
 					<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>August 6, 1949-July 15, 1964
 						</unitdate>
 						<unittitle>US Midwest: Illinois, Indiana, Michigan, Missouri
@@ -219,8 +216,8 @@
 					</scopecontent>
 				</c02><c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>August 6, 1949-March 18, 1959
 						</unitdate>
 						<unittitle>US Midwest: Ohio, Oklahoma
@@ -236,8 +233,8 @@
 				</did>     
 					<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>March 5, 1951-March 14, 1955
 						</unitdate>
 						<unittitle>International: Bahamas, Canada, Germany, Haiti, Jamaica, Mexico, Puerto Rico, Virgin Islands
@@ -246,8 +243,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>April 18, 1950-October 1957
 						</unitdate>
 						<unittitle>Unknown Locations
@@ -259,5 +256,9 @@
 				</c02>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Harold K. Baumgardner menu collection, #8404. Division of Rare and Manuscript
+					Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

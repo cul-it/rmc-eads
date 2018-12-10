@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead>
-        <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-                <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04323::Sheila Danko papers)//EN">RMA04323</eadid>
+        <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+                <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04323::Sheila Danko papers)//EN">RMA04323</eadid>
                 <filedesc>
                         <titlestmt>
                                 <titleproper>Guide to the Sheila Danko papers,
@@ -27,20 +27,26 @@
                         <creation>Finding aid encoded by RMC Staff, <date>August
                                 2018</date></creation>
                 </profiledesc>
-        </eadheader>
+        <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
         <frontmatter>
                 <titlepage>
-                        <titleproper>Guide to the Sheila Danko papers,<lb/><date type="inclusive" encodinganalog="245$f">1989-2014</date></titleproper>
+                        <titleproper>Guide to the Sheila Danko papers,<date encodinganalog="245$f" type="inclusive">1989-2014</date></titleproper>
                         <num>Collection Number: 23-16-4323 </num>
-                        <publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+                        <publisher>Division of Rare and Manuscript Collections Cornell
                                 University Library</publisher>
                         <list type="deflist">
                                 <defitem>
                                         <label>Contact Information:</label>
-                                        <item> Division of Rare and Manuscript Collections<lb/> 2B
-                                                Carl A. Kroch Library<lb/> Cornell University<lb/>
-                                                Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607)
-                                                  255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+                                        <item> Division of Rare and Manuscript Collections 2B
+                                                Carl A. Kroch Library Cornell University
+                                                Ithaca, NY 14853 (607) 255-3530 Fax: (607)
+                                                  255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
                                 </defitem>
                                 <defitem>
                                         <label>Compiled by:</label>
@@ -66,16 +72,17 @@
         <archdesc level="collection">
                 <did>
                         <head id="a1">DESCRIPTIVE SUMMARY</head>
-                        <unittitle label="Title:" encodinganalog="MARC 245">Sheila Danko papers,
-                                        <unitdate encodinganalog="MARC 245" type="inclusive">1989-2014</unitdate>
-                        </unittitle>
+                        <unittitle encodinganalog="MARC 245" label="Title:">Sheila Danko papers,
+                                        </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1989-2014</unitdate>
                         <unitid label="Collection Number:">23-16-4323 </unitid>
                         <origination label="Creator:">
                                 <persname encodinganalog="100" normal="Danko, Sheila "> Sheila Danko
                                 </persname>
                         </origination>
-                        <physdesc label="Quantity:" encodinganalog="MARC 300">
-                                <extent>5. 8 cubic feet.</extent>
+                        <physdesc encodinganalog="MARC 300" label="Quantity:">
+                                <extent>1 collection</extent>
+
+<extent>5. 8 cubic feet.</extent>
                         </physdesc>
                         <physdesc label="Forms of Material:">Artwork, course material, and
                                 biographical records.</physdesc>
@@ -88,7 +95,7 @@
                         </langmaterial>
                 </did>
                 <bioghist encodinganalog="MARC 545">
-                        <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+                        <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
                         <p>Professor emeritus in the Dept. of Design and Environmental Analysis,
                                 Cornell University.</p>
                 </bioghist>
@@ -128,36 +135,29 @@
                                         (photographs).</genreform>
                         </controlaccess>
                 </controlaccess>
-                <descgrp>
-                        <head id="a8">INFORMATION FOR USERS</head>
-                        <prefercite>
-                                <head>Cite As:</head>
-                                <p>Sheila Danko Papers, #23-16-4323 . Division of Rare and
-                                        Manuscript Collections, Cornell University Library. </p>
-                        </prefercite>
-                </descgrp>
+                
                 <arrangement>
                         <head>SERIES LIST</head>
                         <p>
                                 <emph render="bold">
-                                        <ref target="s1" show="replace" actuate="onrequest">Series
+                                        <ref actuate="onrequest" show="replace" target="s1">Series
                                                 I. Biographical </ref>
                                 </emph>
-                                <lb/>
+                                
                         </p>
                         <p>
                                 <emph render="bold">
-                                        <ref target="s2" show="replace" actuate="onrequest">Series
+                                        <ref actuate="onrequest" show="replace" target="s2">Series
                                                 II. Course material</ref>
                                 </emph>
-                                <lb/>
+                                
                         </p>
                         <p>
                                 <emph render="bold">
-                                        <ref target="s3" show="replace" actuate="onrequest">Series
+                                        <ref actuate="onrequest" show="replace" target="s3">Series
                                                 III. Awards</ref>
                                 </emph>
-                                <lb/>
+                                
                         </p>
                 </arrangement>
                 <dsc type="combined">
@@ -168,9 +168,9 @@
                                 </did>
                                 <c02 level="file">
                                         <did>
-                                                <container type="box">1</container>
-                                                <container type="folder">1-2</container>
-                                                <unitdate type="inclusive" normal="2007">2007</unitdate>
+                                                <container label="unspecified" type="box">1</container>
+                                                <container label="unspecified" type="folder">1-2</container>
+                                                <unitdate normal="2007" type="inclusive">2007</unitdate>
                                                 <unittitle>Danko's dossier</unittitle>
                                         </did>
                                 </c02>
@@ -185,98 +185,98 @@
                                         </did>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">1</container>
-                                                  <container type="folder">3-4</container>
-                                                  <unitdate type="inclusive" normal="2007">2007</unitdate>
+                                                  <container label="unspecified" type="box">1</container>
+                                                  <container label="unspecified" type="folder">3-4</container>
+                                                  <unitdate normal="2007" type="inclusive">2007</unitdate>
                                                   <unittitle>Domini Social Investments</unittitle>
                                                 </did>
                                         </c03>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">1</container>
-                                                  <container type="folder">5-7</container>
-                                                  <unitdate type="inclusive" normal="2009">2009</unitdate>
+                                                  <container label="unspecified" type="box">1</container>
+                                                  <container label="unspecified" type="folder">5-7</container>
+                                                  <unitdate normal="2009" type="inclusive">2009</unitdate>
                                                   <unittitle>Honest Tea</unittitle>
                                                 </did>
                                         </c03>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">1</container>
-                                                  <container type="folder">8-9</container>
-                                                  <unitdate type="inclusive" normal="2009">2009</unitdate>
+                                                  <container label="unspecified" type="box">1</container>
+                                                  <container label="unspecified" type="folder">8-9</container>
+                                                  <unitdate normal="2009" type="inclusive">2009</unitdate>
                                                   <unittitle>Girls Explore</unittitle>
                                                 </did>
                                         </c03>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">1</container>
-                                                  <container type="folder">10</container>
-                                                  <unitdate type="inclusive" normal="2009">2009</unitdate>
+                                                  <container label="unspecified" type="box">1</container>
+                                                  <container label="unspecified" type="folder">10</container>
+                                                  <unitdate normal="2009" type="inclusive">2009</unitdate>
                                                   <unittitle>Sunlight Electric</unittitle>
                                                 </did>
                                         </c03>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">1</container>
-                                                  <container type="folder">11-12</container>
-                                                  <unitdate type="inclusive" normal="2009">2009</unitdate>
+                                                  <container label="unspecified" type="box">1</container>
+                                                  <container label="unspecified" type="folder">11-12</container>
+                                                  <unitdate normal="2009" type="inclusive">2009</unitdate>
                                                   <unittitle>DucDuc NYC</unittitle>
                                                 </did>
                                         </c03>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">1</container>
-                                                  <container type="folder">13-14</container>
-                                                  <unitdate type="inclusive" normal="2009">2009</unitdate>
+                                                  <container label="unspecified" type="box">1</container>
+                                                  <container label="unspecified" type="folder">13-14</container>
+                                                  <unitdate normal="2009" type="inclusive">2009</unitdate>
                                                   <unittitle>Share our Strength</unittitle>
                                                 </did>
                                         </c03>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">1</container>
-                                                  <container type="folder">15-16</container>
-                                                  <unitdate type="inclusive" normal="2009">2009</unitdate>
+                                                  <container label="unspecified" type="box">1</container>
+                                                  <container label="unspecified" type="folder">15-16</container>
+                                                  <unitdate normal="2009" type="inclusive">2009</unitdate>
                                                   <unittitle>Dancing Deer Barking
                                                   Company</unittitle>
                                                 </did>
                                         </c03>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">1</container>
-                                                  <container type="folder">17-18</container>
-                                                  <unitdate type="inclusive" normal="2009">2009</unitdate>
+                                                  <container label="unspecified" type="box">1</container>
+                                                  <container label="unspecified" type="folder">17-18</container>
+                                                  <unitdate normal="2009" type="inclusive">2009</unitdate>
                                                   <unittitle>Pure Vida</unittitle>
                                                 </did>
                                         </c03>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">2</container>
-                                                  <container type="folder">1</container>
-                                                  <unitdate type="inclusive" normal="2009">2009</unitdate>
+                                                  <container label="unspecified" type="box">2</container>
+                                                  <container label="unspecified" type="folder">1</container>
+                                                  <unitdate normal="2009" type="inclusive">2009</unitdate>
                                                   <unittitle>Three Twins Ice Cream</unittitle>
                                                 </did>
                                         </c03>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">2</container>
-                                                  <container type="folder">2</container>
-                                                  <unitdate type="inclusive" normal="2009">2009</unitdate>
+                                                  <container label="unspecified" type="box">2</container>
+                                                  <container label="unspecified" type="folder">2</container>
+                                                  <unitdate normal="2009" type="inclusive">2009</unitdate>
                                                   <unittitle>Pret a Manager</unittitle>
                                                 </did>
                                         </c03>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">2</container>
-                                                  <container type="folder">3-4</container>
-                                                  <unitdate type="inclusive" normal="2009">2009</unitdate>
+                                                  <container label="unspecified" type="box">2</container>
+                                                  <container label="unspecified" type="folder">3-4</container>
+                                                  <unitdate normal="2009" type="inclusive">2009</unitdate>
                                                   <unittitle>Maggie's Organic Clothing</unittitle>
                                                 </did>
                                         </c03>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">2</container>
-                                                  <container type="folder">5-6</container>
-                                                  <unitdate type="inclusive" normal="2009">2009</unitdate>
+                                                  <container label="unspecified" type="box">2</container>
+                                                  <container label="unspecified" type="folder">5-6</container>
+                                                  <unitdate normal="2009" type="inclusive">2009</unitdate>
                                                   <unittitle>Immaculate Baking Company</unittitle>
                                                 </did>
                                         </c03>
@@ -287,17 +287,17 @@
                                         </did>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">2</container>
-                                                  <container type="folder">7-8</container>
-                                                  <unitdate type="inclusive" normal="2014">2014</unitdate>
+                                                  <container label="unspecified" type="box">2</container>
+                                                  <container label="unspecified" type="folder">7-8</container>
+                                                  <unitdate normal="2014" type="inclusive">2014</unitdate>
                                                   <unittitle>Making a difference by
                                                   design</unittitle>
                                                 </did>
                                         </c03>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">2</container>
-                                                  <container type="folder">9</container>
+                                                  <container label="unspecified" type="box">2</container>
+                                                  <container label="unspecified" type="folder">9</container>
                                                   <unitdate>Undated</unitdate>
                                                   <unittitle>Teaching assistant manual</unittitle>
                                                 </did>
@@ -309,9 +309,9 @@
                                         </did>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">2</container>
-                                                  <container type="folder">10</container>
-                                                  <unitdate type="inclusive" normal="1989">1989</unitdate>
+                                                  <container label="unspecified" type="box">2</container>
+                                                  <container label="unspecified" type="folder">10</container>
+                                                  <unitdate normal="1989" type="inclusive">1989</unitdate>
                                                   <unittitle>Five profiles prepared for the
                                                   Foundation for Interior Design Education and
                                                   Research</unittitle>
@@ -327,8 +327,8 @@
                                         </did>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">2</container>
-                                                  <unitdate type="inclusive" normal="2002/2009">2002-2009</unitdate>
+                                                  <container label="unspecified" type="box">2</container>
+                                                  <unitdate normal="2002/2009" type="inclusive">2002-2009</unitdate>
                                                   <unittitle>Examples of senior studio
                                                   projects</unittitle>
                                                 </did>
@@ -340,16 +340,16 @@
                                         </did>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">3</container>
-                                                  <unitdate type="inclusive" normal="2003/2005">2003-2005</unitdate>
+                                                  <container label="unspecified" type="box">3</container>
+                                                  <unitdate normal="2003/2005" type="inclusive">2003-2005</unitdate>
                                                   <unittitle>Examples of creative thinking
                                                   toys</unittitle>
                                                 </did>
                                         </c03>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">3</container>
-                                                  <unitdate type="inclusive" normal="1982/1990">1982-1990</unitdate>
+                                                  <container label="unspecified" type="box">3</container>
+                                                  <unitdate normal="1982/1990" type="inclusive">1982-1990</unitdate>
                                                   <unittitle>Slides of class projects for DEA 101;
                                                   102; 115; 301; 302; 499 and 645</unittitle>
                                                 </did>
@@ -370,8 +370,8 @@
                                         </did>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">4</container>
-                                                  <unitdate type="inclusive" normal="1995">1995</unitdate>
+                                                  <container label="unspecified" type="box">4</container>
+                                                  <unitdate normal="1995" type="inclusive">1995</unitdate>
                                                   <unittitle> Bronze prize entry </unittitle>
                                                   <origination label="Creator">
                                                   <persname>Dnako, Sheila</persname>
@@ -385,8 +385,8 @@
                                         </c03>
                                         <c03 level="file">
                                                 <did>
-                                                  <container type="box">5</container>
-                                                  <unitdate type="inclusive" normal="1995">1995</unitdate>
+                                                  <container label="unspecified" type="box">5</container>
+                                                  <unitdate normal="1995" type="inclusive">1995</unitdate>
                                                   <unittitle> Bronze prize entry </unittitle>
                                                   <origination label="Creator">
                                                   <persname>Dnako, Sheila</persname>
@@ -401,5 +401,9 @@
                                 </c02>
                         </c01>
                 </dsc>
-        </archdesc>
+        <prefercite>
+                                <head>Cite As:</head>
+                                <p>Sheila Danko Papers, #23-16-4323 . Division of Rare and
+                                        Manuscript Collections, Cornell University Library. </p>
+                        </prefercite></archdesc>
 </ead>

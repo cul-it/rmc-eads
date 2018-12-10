@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01130::Cornell University Women's Judiciary Board records)//EN">RMA01130</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01130::Cornell University Women's Judiciary Board records)//EN">RMA01130</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Cornell University Women's Judiciary Board records, 1923-1962.</titleproper>
@@ -30,6 +29,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -38,22 +43,22 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Cornell University Women's Judiciary Board Records,<lb/>1923-1962</titleproper>
+         <titleproper>Guide to the Cornell University Women's Judiciary Board Records,1923-1962</titleproper>
          <num>Collection Number: 34-10-1130</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+         <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/>
-2B Carl A. Kroch Library<lb/>
-Cornell University<lb/>
-Ithaca, NY 14853<lb/>
-(607) 255-3530<lb/>
-Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections
+2B Carl A. Kroch Library
+Cornell University
+Ithaca, NY 14853
+(607) 255-3530
+Fax: (607) 255-9524
 <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
 <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -74,12 +79,9 @@ Fax: (607) 255-9524<lb/>
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Cornell University Women's Judiciary Board records, 
+         <unittitle encodinganalog="MARC 245" label="Title:">Cornell University Women's Judiciary Board records, 
 
-		  <unitdate type="inclusive" encodinganalog="MARC 245">1923-1962.</unitdate>
-
-		
-         </unittitle>
+		  </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1923-1962.</unitdate>
          <unitid label="Collection Number:">34-10-1130</unitid>
          <origination label="Creator:"> 
 
@@ -88,7 +90,7 @@ Fax: (607) 255-9524<lb/>
 
 		
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Reports, minutes, historical material, case files, and records.</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University Library</repository>
          <abstract label="Abstract:">Collection includes reports, minutes of board and committee meetings, historical material, case files, and other records of the Cornell University Women's Judiciary Board.</abstract>
@@ -113,21 +115,10 @@ Fax: (607) 255-9524<lb/>
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Case files.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Case files.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <accessrestrict>
-            <head>Access Restrictions:</head>
-            <p>Restricted to permission of office of origin.</p>
-            <p>Individual case files: restricted to permission of student for 80 years after the creation of the record.</p>
-         </accessrestrict>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Cornell University Women's Judiciary Board records, #34-10-1130. Division of Rare and Manuscript Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="series">
@@ -136,340 +127,184 @@ Fax: (607) 255-9524<lb/>
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">1</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1923-1945</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">1</container>
+                  <unitdate>1923-1945</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">2</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1937-1944</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">2</container>
+                  <unitdate>1937-1944</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">3</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1945</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">3</container>
+                  <unitdate>1945</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">4</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1946-1948</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">4</container>
+                  <unitdate>1946-1948</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">5</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1946</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">5</container>
+                  <unitdate>1946</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1947</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
+                  <unitdate>1947</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">7</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1948</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">7</container>
+                  <unitdate>1948</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">8</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1949</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">8</container>
+                  <unitdate>1949</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">9</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1950-1951</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">9</container>
+                  <unitdate>1950-1951</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">10</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1950</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">10</container>
+                  <unitdate>1950</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">11</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1951</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">11</container>
+                  <unitdate>1951</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">12</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1951-1952</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">12</container>
+                  <unitdate>1951-1952</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">13</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1952</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">13</container>
+                  <unitdate>1952</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">14</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1952-1953</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">14</container>
+                  <unitdate>1952-1953</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">15</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1953</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">15</container>
+                  <unitdate>1953</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">16</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1953-1954</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">16</container>
+                  <unitdate>1953-1954</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">17</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1954</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">17</container>
+                  <unitdate>1954</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">18</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1954-1955</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">18</container>
+                  <unitdate>1954-1955</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">19</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1955</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">19</container>
+                  <unitdate>1955</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">20</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1955-1956</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">20</container>
+                  <unitdate>1955-1956</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">21</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1955-1956</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">21</container>
+                  <unitdate>1955-1956</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">22</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1956-1957</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">22</container>
+                  <unitdate>1956-1957</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">23</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1957-1958</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">23</container>
+                  <unitdate>1957-1958</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1957-1958</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
+                  <unitdate>1957-1958</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">25</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1958-1959</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">25</container>
+                  <unitdate>1958-1959</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">26</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1959-1960</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">26</container>
+                  <unitdate>1959-1960</unitdate>
                </did>
             </c02>
          </c01>
@@ -479,53 +314,32 @@ Fax: (607) 255-9524<lb/>
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">27</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1947-1959</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">27</container>
+                  <unitdate>1947-1959</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">28</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1958</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">28</container>
+                  <unitdate>1958</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">29</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">29</container>
                   <unittitle>Comstock "B" (Sage) 
 
-				  <unitdate>1957-1958</unitdate>
-
-				
-                  </unittitle>
+				  </unittitle><unitdate>1957-1958</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">30</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1958-1959</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">30</container>
+                  <unitdate>1958-1959</unitdate>
                </did>
             </c02>
          </c01>
@@ -535,15 +349,9 @@ Fax: (607) 255-9524<lb/>
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">31</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1954-1955</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">31</container>
+                  <unitdate>1954-1955</unitdate>
                </did>
             </c02>
          </c01>
@@ -553,28 +361,16 @@ Fax: (607) 255-9524<lb/>
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">32</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1917-1962</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">32</container>
+                  <unitdate>1917-1962</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">33</container>
-                  <unittitle>
-
-				  
-                     <unitdate>no date</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">33</container>
+                  <unitdate>no date</unitdate>
                </did>
             </c02>
          </c01>
@@ -584,15 +380,9 @@ Fax: (607) 255-9524<lb/>
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">34</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1953-1960</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">34</container>
+                  <unitdate>1953-1960</unitdate>
                </did>
             </c02>
          </c01>
@@ -602,15 +392,9 @@ Fax: (607) 255-9524<lb/>
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">35</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1957-1960</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">35</container>
+                  <unitdate>1957-1960</unitdate>
                </did>
             </c02>
          </c01>
@@ -620,18 +404,19 @@ Fax: (607) 255-9524<lb/>
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">36</container>
-                  <unittitle>
-
-				  
-                     <unitdate>1953-1955</unitdate>
-
-				
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">36</container>
+                  <unitdate>1953-1955</unitdate>
                </did>
             </c02>
          </c01>
       </dsc>
-   </archdesc>
+   <accessrestrict>
+            <head>Access Restrictions:</head>
+            <p>Restricted to permission of office of origin.</p>
+            <p>Individual case files: restricted to permission of student for 80 years after the creation of the record.</p>
+         </accessrestrict><prefercite>
+            <head>Cite As:</head>
+            <p>Cornell University Women's Judiciary Board records, #34-10-1130. Division of Rare and Manuscript Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

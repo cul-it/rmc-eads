@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00796::Gustavus Watts Cunningham letters)//EN">RMA00796</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00796::Gustavus Watts Cunningham letters)//EN">RMA00796</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Gustavus Watts Cunningham letters, 1911-1944.</titleproper>
@@ -28,6 +27,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -36,28 +41,25 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Gustavus Watts Cunningham Letters,<lb/>1911-1944</titleproper>
+         <titleproper>Guide to the Gustavus Watts Cunningham Letters,1911-1944</titleproper>
          <num>Collection Number: 14-21-796</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
                <item>RMC Staff</item>
             </defitem>
-            <defitem>
-               <label>Date completed:</label>
-               <item> </item>
-            </defitem>
+            
             <defitem>
                <label>EAD encoding:</label>
                <item>RMC Staff, 2008</item>
@@ -73,15 +75,14 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Gustavus Watts Cunningham letters,
-               <unitdate type="inclusive" encodinganalog="MARC 245">1911-1944.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Gustavus Watts Cunningham letters,
+               </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1911-1944.</unitdate>
          <unitid label="Collection Number:">14-21-796</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Cunningham, Gustavus Watts, 1881-">Gustavus
                Watts, Cunningham 1881-</persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>67 items.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>67 items</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
             University Library </repository>
@@ -95,7 +96,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>Professor of Philosophy, Middlebury College, 1908-1917, and the University of Texas,
             1917-1927; chairman of the Sage School of Philosophy and Susan Linn Sage Professor of
             Philosophy at Cornell, 1927-1949.</p>
@@ -163,14 +164,7 @@
             <subject encodinganalog="MARC 656">Philosophers.</subject>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Gustavus Watts Cunningham letters, #14-21-796. Division of Rare and Manuscript
-               Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="series">
@@ -185,5 +179,9 @@
             </scopecontent>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Gustavus Watts Cunningham letters, #14-21-796. Division of Rare and Manuscript
+               Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-	 <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01403::Paul Wallace Gates papers)//EN">RMA01403</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+	 <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01403::Paul Wallace Gates papers)//EN">RMA01403</eadid>
 	 
 	 <filedesc> 
 		<titlestmt> 
@@ -31,7 +30,13 @@
 		<creation>Finding aid encoded by RMC Staff 
 		  <date>December 2008</date> </creation> 
 	 </profiledesc> 
-	 <revisiondesc> 
+	 <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+ 
 		<change encodinganalog="583"> 
 		  <date normal="2007-05-29">2007-05-29</date> 
 		  <item>converted from EAD 1.0 to EAD 2002 </item> 
@@ -40,19 +45,19 @@
   </eadheader> 
   <frontmatter> 
 	 <titlepage> 
-		<titleproper>Guide to the Paul Wallace Gates Papers,<lb/> </titleproper> 
+		<titleproper>Guide to the Paul Wallace Gates Papers, </titleproper> 
 		<num>Collection Number: 14-17-1403</num> 
-		<publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+		<publisher>Division of Rare and Manuscript Collections Cornell
 		  University Library</publisher> 
 		<list type="deflist"> 
 		  <defitem> 
 			 <label>Contact Information:</label> 
-			 <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-				Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-				255-3530<lb/> Fax: (607) 255-9524<lb/> 
-				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> <lb/> 
+			 <item>Division of Rare and Manuscript Collections 2B Carl A.
+				Kroch Library Cornell University Ithaca, NY 14853 (607)
+				255-3530 Fax: (607) 255-9524 
+				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>  
 				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-				<lb/></item> 
+				</item> 
 		  </defitem> 
 		  <defitem> 
 			 <label>Compiled by:</label> 
@@ -74,16 +79,17 @@
   <archdesc level="collection"> 
 	 <did> 
 		<head id="a1">DESCRIPTIVE SUMMARY</head> 
-		<unittitle label="Title:" encodinganalog="MARC 245">Paul Wallace Gates
+		<unittitle encodinganalog="MARC 245" label="Title:">Paul Wallace Gates
 		  papers, 
-		  <unitdate type="inclusive" encodinganalog="MARC 245">1873-1996,</unitdate> 
-		  <unitdate type="bulk" encodinganalog="MARC 245">1934-1982
-			 (bulk)</unitdate> </unittitle> 
+		  </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1873-1996,</unitdate><unitdate encodinganalog="MARC 245" type="bulk">1934-1982
+			 (bulk)</unitdate> 
 		<unitid label="Collection Number:">14-17-1403</unitid> 
 		<origination label="Creator:"> 
 		  <persname encodinganalog="100" normal="Gates, Paul Wallace, 1901-">Paul
 			 Wallace, Gates 1901-</persname> </origination> 
-		<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>34.6 cubic
+		<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>34.6 cubic
 		  ft.</extent></physdesc> 
 		<physdesc label="Forms of Material:">Correspondence, Publications,
 		  Scrapbooks</physdesc> 
@@ -98,7 +104,7 @@
 		  </langmaterial> 
 	 </did> 
 	 <bioghist encodinganalog="MARC 545"> 
-		<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head> 
+		<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head> 
 		<p>Professor of History, Cornell University. Paul W. Gates was born in
 		  Nashua, New Hampshire on December 4, 1901.</p> 
 		<p>He taught at Harvard and Bucknell from 1929-1936 and worked for the
@@ -213,19 +219,12 @@
 		</controlaccess> 
 		<controlaccess> 
 		  <head>Form and Genre Terms:</head> 
-		  <genreform source="aat" encodinganalog="MARC 655">Broadsides.</genreform> 
-		  <genreform source="aat" encodinganalog="MARC 655">Maps.</genreform> 
-		  <genreform source="aat" encodinganalog="MARC 655">Scrapbooks.</genreform> 
+		  <genreform encodinganalog="MARC 655" source="aat">Broadsides.</genreform> 
+		  <genreform encodinganalog="MARC 655" source="aat">Maps.</genreform> 
+		  <genreform encodinganalog="MARC 655" source="aat">Scrapbooks.</genreform> 
 		</controlaccess> 
 	 </controlaccess> 
-	 <descgrp type="admininfo"> 
-		<head id="a8">INFORMATION FOR USERS</head> 
-		<prefercite> 
-		  <head>Cite As:</head> 
-		  <p>Paul Wallace Gates papers, #14-17-1403. Division of Rare and
-			 Manuscript Collections, Cornell University Library.</p> 
-		</prefercite> 
-	 </descgrp> 
+	  
 	 <dsc type="combined"> 
 		<head>CONTAINER LIST</head> 
 		<c01 level="series"> 
@@ -236,5 +235,9 @@
 		  </did> 
 		</c01> 
 	 </dsc> 
-  </archdesc>
+  <prefercite> 
+		  <head>Cite As:</head> 
+		  <p>Paul Wallace Gates papers, #14-17-1403. Division of Rare and
+			 Manuscript Collections, Cornell University Library.</p> 
+		</prefercite></archdesc>
 </ead>

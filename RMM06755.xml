@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM0::)//EN">RMM06755</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM0::)//EN">RMM06755</eadid>
     
     <filedesc> 
       <titlestmt> 
@@ -27,22 +27,28 @@
       <creation>Finding aid encoded by Evan Fay Earle, 
         <date>April 2009</date></creation> 
     </profiledesc> 
-  </eadheader> 
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader> 
   <frontmatter> 
     <titlepage> 
-      <titleproper>Guide to the Center For Policy Analysis Records,<lb/> 
-        <date type="inclusive" encodinganalog="245$f">1987-2006.</date></titleproper> 
+      <titleproper>Guide to the Center For Policy Analysis Records, 
+        <date encodinganalog="245$f" type="inclusive">1987-2006.</date></titleproper> 
       <num>Collection Number: 6755</num> 
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+      <publisher>Division of Rare and Manuscript Collections Cornell
         University Library</publisher> 
       <list type="deflist"> 
         <defitem> 
           <label>Contact Information:</label> 
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-            Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/> 
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/> 
-            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A.
+            Kroch Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524 
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
+            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
           
         </defitem> 
         <defitem> 
@@ -69,14 +75,16 @@
   <archdesc level="collection"> 
     <did> 
       <head id="a1">DESCRIPTIVE SUMMARY</head> 
-      <unittitle label="Title:" encodinganalog="MARC 245">Center for Policy
+      <unittitle encodinganalog="MARC 245" label="Title:">Center for Policy
         Analysis records, 
-        <unitdate encodinganalog="MARC 245" type="inclusive">1987-2006.</unitdate> </unittitle> 
+        </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1987-2006.</unitdate> 
       <unitid label="Collection Number:">6755</unitid> 
       <origination label="Creator:"> 
         <corpname encodinganalog="MARC 110">Center for Policy Analysis,
           Washington, D.C.</corpname></origination> 
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>7 cubic
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>7 cubic
         ft.</extent></physdesc> 
       <physdesc label="Forms of Material:">Printed Materials, Publications,
         Reports, Research Materials</physdesc> 
@@ -105,14 +113,7 @@
         <subject encodinganalog="MARC 650">City planning.</subject> 
       </controlaccess> 
     </controlaccess> 
-    <descgrp> 
-      <head id="a8">INFORMATION FOR USERS</head> 
-      <prefercite> 
-        <head>Cite As:</head> 
-        <p>Center for Policy Analysis records, #6755. Division of Rare and
-          Manuscript Collections, Cornell University Library.</p> 
-      </prefercite> 
-    </descgrp> 
+     
     <odd type="notes"> 
       <head id="a5">NOTES</head> 
       <p>Forms part of Progressive Cities and Neighborhood Planning
@@ -122,8 +123,8 @@
       <head>CONTAINER LIST</head> 
       <c01 level="item">
         <did>
-          <container type="box">1</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>November 28, 2006</unitdate>
           <unittitle>NYS Data Center Annual Report- Flemming Leadership
             Institute: Washington D.C.: Center for Policy Alternatives, 2006.</unittitle>
@@ -137,8 +138,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">1</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate> 1993-1997</unitdate>
           <unittitle>Alternatives- Newsletter of the Center for Policy
             Alternatives, 1993-1997.</unittitle>
@@ -152,8 +153,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">1</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>June 29, 2001</unitdate>
           <unittitle>Midwest Summit, June 29-30, 2001, Detroit, Michigan:
             Progressive Solutions for the Midwest- Connecting legislators with advocates
@@ -170,8 +171,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">1</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate> 1982-1993</unitdate>
           <unittitle>Ways &amp; Means Newsletter. Washington D.C.: Center for
             Policy Alternatives, 1982-1993.</unittitle>
@@ -184,8 +185,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">1</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate> 1998-2001</unitdate>
           <unittitle>Alternatives- Newsletter of the Center for Policy
             Alternatives. Washington D.C., 1998-2001.</unittitle>
@@ -199,8 +200,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">1</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>August 5, 2001</unitdate>
           <unittitle>Western Training and Forum- Inside Strategies: Serving
             Effectively in Office. Portland, Oregon: Center for Policy Alternatives, 2001.
@@ -216,8 +217,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">1</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>January 2002</unitdate>
           <unittitle>The Flemming Fellows Leadership Institute. Washington
             D.C.: The Center for Policy Alternatives, 2002.</unittitle>
@@ -231,8 +232,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">1</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>July 12, 2002</unitdate>
           <unittitle>Southwest Regional Conference- A Forum for Progressive
             Action. San Antonio, Texas: Center for Policy Alternatives, 2002.</unittitle>
@@ -247,8 +248,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">1</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>August 16, 2002</unitdate>
           <unittitle>Midwest Regional Conference- A Forum for Progressive
             Action. Milwaukee, Wisconsin: Center for Policy Alternatives, 2002.</unittitle>
@@ -263,8 +264,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">2</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>June 27, 2002</unitdate>
           <unittitle>Northeast Regional Conference - A Forum for Progressive
             Action. June 27-28. Sturbridge, Massachusetts: Center for Policy Alternatives,
@@ -280,8 +281,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">2</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>August 2, 2002</unitdate>
           <unittitle>Southeast Regional Conference - A Forum for Progressive
             Action. August 2-3. Tunica, Mississippi: Center for Policy Alternatives, 2002.
@@ -296,8 +297,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">2</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>May 30, 2003</unitdate>
           <unittitle>Eleanor Roosevelt Global Leadership Institute - Domestic
             Retreat. May 30 - June 2. Washington D.C.: Center for Policy Alternatives,
@@ -313,8 +314,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">2</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>June 6 2003</unitdate>
           <unittitle>Women's Leadership Retreat 2003. June 6- 8. Philadelphia,
             Pennsylvania: Center for Policy Alternatives, 2003.</unittitle>
@@ -329,8 +330,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">2</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>September 14, 2001</unitdate>
           <unittitle>Northeast Regional Policy Leaders Forum - Progressive
             Policy Solutions for the Northeast. September 14-15. Braintree, Massachusetts:
@@ -346,8 +347,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">2</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>July 27, 2001</unitdate>
           <unittitle>Southwest Regional Policy Leaders Forum - Progressive
             Policy Solutions for the Southwest. July 27-28. Albuquerque, New Mexico: Center
@@ -363,8 +364,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">2</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>July 20, 2001</unitdate>
           <unittitle>Southeast Regional Policy Leaders Forum - Progressive
             Policy Solutions for the New South. July 20- 21. Atlanta, Georgia: Center for
@@ -380,8 +381,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">2</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>June 6, 2002</unitdate>
           <unittitle>Grassroots Women Leadership Retreat. June 6-9. Lake Tahoe,
             Nevada: Center for Policy Alternatives, Nevada Women's Agenda &amp; Nevada's
@@ -396,8 +397,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">2</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>October 5, 2000</unitdate>
           <unittitle>Work &amp; Family in the New Economy: Innovations in the
             States. October 5-6. San Francisco, CA: Center for Policy Alternatives, 2000.
@@ -413,8 +414,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">2</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>April 20, 2001</unitdate>
           <unittitle>Eleanor Roosevelt Global Leadership Institute - Domestic
             Retreat. April 20-23. The Pocantico Conference Center of the Rockefeller
@@ -430,8 +431,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">2</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>July 19, 2002</unitdate>
           <unittitle>Eleanor Roosevelt Global Leadership Institute - Domestic
             Retreat. Washington D.C.: The Pocantico Conference Center of the Rockefeller
@@ -448,8 +449,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>January 8, 1987, August 1987</unitdate>
           <unittitle>
             <persname>Various Authors. </persname>Federal Tax Reform and
@@ -467,8 +468,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>June 16, 1988</unitdate>
           <unittitle>A Citizen's Handbook on Jobs. Washington D.C.: Center for
             Policy Alternatives, National Committee for Full Employment, 1988.</unittitle>
@@ -482,8 +483,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>May 1, 1987</unitdate>
           <unittitle>Business Climate Yields to Growth Climate: The Midwest
             Pioneers the New Age- A Report for the Midwest Leadership Network of the
@@ -498,8 +499,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>October 11, 1987</unitdate>
           <unittitle>
             <persname>Hamrin, Robert D.. </persname>Beyond Business Climate:
@@ -515,8 +516,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>January 9, 1989</unitdate>
           <unittitle>
             <persname>Tarr-Whelan, Linda . </persname>Progressive Federalism: A
@@ -531,8 +532,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>December 1989, July 1991</unitdate>
           <unittitle>
             <persname>Various Authors. </persname>Economic Initiatives- State
@@ -551,8 +552,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>February 1990</unitdate>
           <unittitle>Midwest Brief: Voter Registration Laws &amp; Voter
             Turnout--Innovative Ideas for America's State &amp; Local Government.
@@ -567,8 +568,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>Various</unitdate>
           <unittitle>
             <persname>Various Authors. </persname>Policy Reports. Washington
@@ -588,8 +589,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>December 4, 14-16, 1990</unitdate>
           <unittitle>Progressive Federalism: The States Lead, Washington
             Follows--National Progressive Policy Conference. Georgetown University Law
@@ -607,8 +608,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">17</container>
           <unitdate>January, March 5, May 2, July 1991</unitdate>
           <unittitle>
             <persname>Various Authors. </persname>Policy Reports &amp;
@@ -630,8 +631,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>May, November 23, &amp; December 1992</unitdate>
           <unittitle>
             <persname>Various Authors. </persname>Policy Report &amp;
@@ -650,8 +651,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">19</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">19</container>
           <unitdate>January 1993</unitdate>
           <unittitle>
             <persname>Sementilli-Dann, Lisa, Solomon, Deborah, &amp; Tso, Kim.
@@ -668,8 +669,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">20</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">20</container>
           <unitdate>January 1993</unitdate>
           <unittitle>
             <persname>Ryan, William &amp; Schrader, Richard. </persname>An
@@ -688,8 +689,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">21</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">21</container>
           <unitdate>February 17, April 13, May 19, 1993</unitdate>
           <unittitle>
             <persname>Various Authors. </persname>Policy Reports &amp;
@@ -714,8 +715,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">22</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">22</container>
           <unitdate>April 26, 1993</unitdate>
           <unittitle>
             <persname>Cook, Scott. </persname>Economic Conversion Policy
@@ -734,8 +735,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">23</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">23</container>
           <unitdate>May 1993</unitdate>
           <unittitle>
             <persname>Canegata, Gizette L. &amp; Stumberg, Bob.
@@ -749,8 +750,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">24</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">24</container>
           <unitdate>May 1993</unitdate>
           <unittitle>
             <persname>Stumberg, Robert w/ Fowler, Lisa, Calvert, Lawrence,
@@ -767,8 +768,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">25</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">25</container>
           <unitdate>June 7, December 15, 1993</unitdate>
           <unittitle>
             <persname>Various Authors. </persname>Health Care Legislative
@@ -788,8 +789,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">26</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">26</container>
           <unitdate>September 1993</unitdate>
           <unittitle>
             <persname>Ferlauto, Richard &amp; Clabourn, Jeffrey.
@@ -806,8 +807,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">27</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">27</container>
           <unitdate>May, July, October 1993</unitdate>
           <unittitle>Seminar Reports, Agenda, Strategies, &amp; Media Documents
             on the Radical Right. Washington D.C.: Center for Policy Alternatives,
@@ -828,8 +829,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">28</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">28</container>
           <unitdate>October 13, 1993</unitdate>
           <unittitle>
             <persname>Cunningham, William Michael, Ferlauto, Richard, Gaddy,
@@ -848,8 +849,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">29</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">29</container>
           <unitdate>February 9-11, 17, 1994</unitdate>
           <unittitle>Economically Targeted Investments: Rebuilding America's
             Communities &amp; Health Care Proposal. Washington D.C.: Center for Policy
@@ -868,8 +869,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">30</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">30</container>
           <unitdate>June 24-25, 1994</unitdate>
           <unittitle>
             <persname>Various Authors. </persname> Alternative Options for
@@ -890,8 +891,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">31</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">31</container>
           <unitdate>May 1984</unitdate>
           <unittitle>
             <persname>Liu, Kenneth &amp; Park, Angela. </persname>Feebates: An
@@ -908,8 +909,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">32</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">32</container>
           <unitdate>July 1994</unitdate>
           <unittitle>
             <persname>Tryens, Jeffrey. </persname>Unfunded Mandates: Clarifying
@@ -924,8 +925,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">33</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">33</container>
           <unitdate>July 1994</unitdate>
           <unittitle>
             <persname>Smith, Burck, Kennedy, John &amp; Ewing, Rebecca.
@@ -941,8 +942,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">34</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">34</container>
           <unitdate>May 5, 1995</unitdate>
           <unittitle>Community Capital Builders - A Leadership Brief on Rural
             Intermediaries. Washington D.C.: Center for Policy Alternatives, 1993.
@@ -958,8 +959,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">35</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">35</container>
           <unitdate>October 14-17, 1995</unitdate>
           <unittitle>
             <persname>Graham, Andrew. </persname>International Progressive
@@ -974,8 +975,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">36</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">36</container>
           <unitdate>November 1995</unitdate>
           <unittitle>
             <persname>Wong, Arlene K. &amp; Highfill, Clinton A..
@@ -991,8 +992,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">37</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">37</container>
           <unitdate>August 5-11, 1996</unitdate>
           <unittitle>Women's Voices - Banners From A National Survey of 800
             Women and 302 Men. Washington D.C.: Lake Research, 1996.</unittitle>
@@ -1005,8 +1006,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">38</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">38</container>
           <unitdate>August 1996</unitdate>
           <unittitle>
             <persname>Ferlauto, Richard, Barbour Arvin, &amp; Shabecoff, Alice.
@@ -1023,8 +1024,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">39</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">39</container>
           <unitdate>1996</unitdate>
           <unittitle>
             <persname>Kennedy, John. </persname>Technology and the Schools -
@@ -1040,8 +1041,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">40</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">40</container>
           <unitdate>Various</unitdate>
           <unittitle>Health Care Reports &amp; Seminar Brief. Washington D.C.:
             Center for Policy Alternatives, 1996, 97.</unittitle>
@@ -1057,8 +1058,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">41</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">41</container>
           <unitdate>1998</unitdate>
           <unittitle>Community-Based Organizations and Telecommunications
             Industry. Volume 2 - Selected Federal and Private Programs for Technology
@@ -1073,8 +1074,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">42</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">42</container>
           <unitdate>January 9, 1998, December 1998</unitdate>
           <unittitle>Policy Memo &amp; Summit Review. Washington D.C.: Center
             for Policy Alternatives, 1998.</unittitle>
@@ -1090,8 +1091,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">43</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">43</container>
           <unitdate>June 11-13, 1999</unitdate>
           <unittitle>Western Policy Leaders Forum, Seattle - Family and Work:
             An Investment Strategy for Communities. Washington D.C.: Center for Policy
@@ -1105,8 +1106,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">44</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">44</container>
           <unitdate>September 2000</unitdate>
           <unittitle>Women's Voices - Presentation of Findings From a Colorado
             Statewide Survey. Washington D.C.: Center for Policy Alternatives and Lifetime
@@ -1120,8 +1121,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">45</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">45</container>
           <unitdate>Summer 2001</unitdate>
           <unittitle>Women's Retreat Info. Washington D.C.: Center for Policy
             Alternatives, 2001.</unittitle>
@@ -1134,8 +1135,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">46</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">46</container>
           <unitdate> 1992, 1995, 1996, 1999 &amp; 2000</unitdate>
           <unittitle>Women's Voices. Washington D.C.: Center for Policy
             Alternatives, 1992, 1995, 1996, 1999 &amp; 2000.</unittitle>
@@ -1158,8 +1159,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">3</container>
-          <container type="folder">47</container>
+          <container label="unspecified" type="box">3</container>
+          <container label="unspecified" type="folder">47</container>
           <unitdate>1987-1990</unitdate>
           <unittitle>Financial Statements with Accompanying Information.
             Washington D.C.: Center for Policy Alternatives, 1987-1990.</unittitle>
@@ -1173,8 +1174,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>January, March 1990</unitdate>
           <unittitle>
             <persname>Steinschneider, Janice. </persname>Policy Alternatives on
@@ -1189,8 +1190,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>January 1992</unitdate>
           <unittitle>
             <persname>Steinschneider, Janice &amp; Kim, Nancy.
@@ -1207,8 +1208,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>November 1992</unitdate>
           <unittitle>
             <persname>Various Authors. </persname>Where Are The Progressive
@@ -1223,8 +1224,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1993 - 1994</unitdate>
           <unittitle>Women's Resource Directory. Statewide Women's Organizing
             Projects &amp; National Resources. Washington D.C.: Center for Policy
@@ -1239,8 +1240,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>January 28-29, July 14, 1995</unitdate>
           <unittitle>Women's Voices. Informational Packets &amp; Policy Report.
             Washington D.C.: Center for Policy Alternatives, 1995.</unittitle>
@@ -1256,8 +1257,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>March 1997</unitdate>
           <unittitle>
             <persname>Pomeranz, John. </persname>Health Care Briefing Book:
@@ -1273,8 +1274,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1999</unitdate>
           <unittitle>
             <persname>Huyser-Honig, Joan. </persname>Cooperation Instead of
@@ -1289,8 +1290,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>2000</unitdate>
           <unittitle>Women's Voices 2000. The Most Comprehensive Polling and
             Research Project on Women's Values and Policy Priorities for the Economy.
@@ -1304,8 +1305,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>December 8-9, 2001</unitdate>
           <unittitle>A Progressive Response To The National Crisis. Summit on
             the States. Washington D.C.: Center for Policy Alternatives, 2001.</unittitle>
@@ -1317,8 +1318,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>2001</unitdate>
           <unittitle>Local Leaders Mapping Global Issues. Eleanor Roosevelt
             Global Leadership Institute. Washington D.C.: Center for Policy Alternatives,
@@ -1331,8 +1332,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>Unknown</unitdate>
           <unittitle>Corporate Leaders Council. Washington D.C.: Center for
             Policy Alternatives, [no date provided].</unittitle>
@@ -1344,8 +1345,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>June 9, 2003</unitdate>
           <unittitle>
             <persname>Various Authors. </persname>Taking It To The States. New
@@ -1358,8 +1359,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>2004, 2006</unitdate>
           <unittitle>Progress In The States: A Report on Proactive, Progressive
             Victories. Washington D.C.: Center for Policy Alternatives, 2004 &amp;
@@ -1372,8 +1373,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">17</container>
           <unitdate>2001, 2003, 2005</unitdate>
           <unittitle>Center for Policy Alternatives Annual Report. Washington
             D.C.: Center for Policy Alternatives, 1989, 1991/92, 1993/94, 1995/96, 2001.
@@ -1387,8 +1388,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>2001, 2003, 2005</unitdate>
           <unittitle>Center for Policy Alternatives Awards Dinner. Washington
             D.C., 2001, 2004, &amp; 2005. </unittitle>
@@ -1403,8 +1404,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">19</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">19</container>
           <unitdate>2000</unitdate>
           <unittitle>
             <persname>Horn, Bernie (Ed.). </persname>Progressive Agenda: Summit
@@ -1419,8 +1420,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">20</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">20</container>
           <unitdate>2002</unitdate>
           <unittitle>
             <persname>Horn, Bernie &amp; Lindquist, Kirstein (Ed.).
@@ -1435,8 +1436,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">21</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">21</container>
           <unitdate>2003</unitdate>
           <unittitle>
             <persname>Cattaneo, Liz &amp; Horn, Bernie &amp; Lindquist,
@@ -1451,8 +1452,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">22</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">22</container>
           <unitdate>2004</unitdate>
           <unittitle>
             <persname>Horn, Bernie (Ed.). </persname>2004 Progressive Agenda
@@ -1467,8 +1468,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">23</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">23</container>
           <unitdate>2005</unitdate>
           <unittitle>
             <persname>Horn, Bernie (Ed.). </persname>2005 Progressive Agenda
@@ -1483,8 +1484,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">24</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">24</container>
           <unitdate>2006</unitdate>
           <unittitle>
             <persname>Horn, Bernie &amp; Balick, Rachel (Ed.). </persname>2006
@@ -1501,8 +1502,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">25</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">25</container>
           <unitdate>October 1987-January 1995</unitdate>
           <unittitle>
             <persname>Various Authors. </persname>Series of State Reports.
@@ -1523,8 +1524,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">26</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">26</container>
           <unitdate>1989-1998</unitdate>
           <unittitle>NPA In The News. Washington D.C.: Center for Policy
             Alternatives, 1989-1998.</unittitle>
@@ -1540,8 +1541,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">27</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">27</container>
           <unitdate>2002, 2002</unitdate>
           <unittitle>Policy Brief - Moving Ideas to Action. Washington D.C.:
             Center for Policy Alternatives, 2000 &amp; 2002.</unittitle>
@@ -1559,8 +1560,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">28</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">28</container>
           <unitdate>1999, 2000</unitdate>
           <unittitle>
             <persname>Various Authors. </persname>Policy Paper - Community
@@ -1576,8 +1577,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">29</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">29</container>
           <unitdate>1994, 2002</unitdate>
           <unittitle>Alternatives - Newsletter of the Center for Policy
             Alternatives. Washington D.C.: Center for Policy Alternatives,
@@ -1591,8 +1592,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">30</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">30</container>
           <unitdate>Unknown</unitdate>
           <unittitle>Issue Forum. Washington D.C.: Center for Policy
             Alternatives, [no date provided}.</unittitle>
@@ -1605,8 +1606,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">31</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">31</container>
           <unitdate>1981-1992</unitdate>
           <unittitle>Ways &amp; Means: Reporting on Innovative Approaches to
             State &amp; Local Government. Washington D.C.: Center for Policy Alternatives,
@@ -1621,8 +1622,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">4</container>
-          <container type="folder">32</container>
+          <container label="unspecified" type="box">4</container>
+          <container label="unspecified" type="folder">32</container>
           <unitdate>1988-1991</unitdate>
           <unittitle>Women and Health - A WEJC Leadership Brief. Washington
             D.C.: Women's Economic Justice Center, National Center for Policy Alternatives,
@@ -1637,8 +1638,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>May 1987</unitdate>
           <unittitle>Business Climate Yields to Growth Climate: The Midwest
             Pioneers The New Age (DRAFT). Washington D.C.: Center for Policy Alternatives
@@ -1654,8 +1655,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>1989</unitdate>
           <unittitle>
             <persname>Stumberg, Robert &amp; Steinschneider, Janice &amp;
@@ -1672,8 +1673,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>1990-1992</unitdate>
           <unittitle>State Issues Forum. Resource Directory. Washington D.C.:
             Center for Policy Alternatives, 1990, 1991, 1992. </unittitle>
@@ -1686,8 +1687,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">17</container>
           <unitdate>June 1990</unitdate>
           <unittitle>
             <persname>Rathbun, Pete. </persname>Just Say No: The Role of
@@ -1703,8 +1704,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>September 1990</unitdate>
           <unittitle>
             <persname>Totten, Michael. </persname>Energywise Options for State
@@ -1720,8 +1721,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">19</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">19</container>
           <unitdate>November 1990</unitdate>
           <unittitle>
             <persname>Hoskins, Anne E.. </persname>Reinvesting in Child Care:
@@ -1738,8 +1739,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">20</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">20</container>
           <unitdate>January 1991</unitdate>
           <unittitle>
             <persname>Schrader, Richard. </persname>Creating Markets: The Next
@@ -1755,8 +1756,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">21</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">21</container>
           <unitdate>January 1991</unitdate>
           <unittitle>
             <persname>Ryan, William. </persname>An Ounce of Toxic Pollution
@@ -1774,8 +1775,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">22</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">22</container>
           <unitdate>May 1991</unitdate>
           <unittitle>
             <persname>Mangum, Kim &amp; Cooper, Jamie &amp; Stumberg, Robert.
@@ -1791,8 +1792,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">23</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">23</container>
           <unitdate>May, October 1991</unitdate>
           <unittitle>
             <persname>Cooper, Jamie &amp; others. </persname>Policy
@@ -1808,8 +1809,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">24</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">24</container>
           <unitdate>July 1991</unitdate>
           <unittitle>
             <persname>Various authors. </persname>Reinvesting in Communities:
@@ -1825,8 +1826,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">25</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">25</container>
           <unitdate>July 1991</unitdate>
           <unittitle>
             <persname>Hoskins, Anne E.. </persname>Reinvesting in Child Care.
@@ -1842,8 +1843,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">26</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">26</container>
           <unitdate>October 1991</unitdate>
           <unittitle>
             <persname>Settina, Nita &amp; Orum, Paul. </persname>Making the
@@ -1857,8 +1858,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">27</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">27</container>
           <unitdate>November 1991</unitdate>
           <unittitle>
             <persname>Cooper, Jamie &amp; Christe, Ian &amp; Nagai, David.
@@ -1875,8 +1876,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">28</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">28</container>
           <unitdate>December 1991</unitdate>
           <unittitle>
             <persname>Talbert, Donna (Ed.). </persname>The Proceedings of the
@@ -1893,8 +1894,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">29</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">29</container>
           <unitdate>July 1992</unitdate>
           <unittitle>
             <persname>Herndon, Heather. </persname>Ballot Access: Options and
@@ -1909,8 +1910,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">30</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">30</container>
           <unitdate>August 1992</unitdate>
           <unittitle>
             <persname>Cooper, Jamie &amp; Smith, Burck (Ed.). </persname>Agenda
@@ -1928,8 +1929,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">31</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">31</container>
           <unitdate>September 1992</unitdate>
           <unittitle>
             <persname>Eichman, Carole &amp; Ferlauto, Richard &amp; Flood,
@@ -1946,8 +1947,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">32</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">32</container>
           <unitdate>January 16, April 6, 7, 1993</unitdate>
           <unittitle>
             <persname>Various authors. </persname>Model Legislation Series.
@@ -1965,8 +1966,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">33</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">33</container>
           <unitdate>March 29, 1994</unitdate>
           <unittitle>
             <persname>Smith, Burck &amp; Williams, Shelley. </persname>Model
@@ -1982,8 +1983,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">34</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">34</container>
           <unitdate>Unknown</unitdate>
           <unittitle>Telecommunications &amp; Entrepreneurship in Colorado:
             Report &amp; Recommendations. Washington D.C.: Center for Policy Alternatives
@@ -1997,8 +1998,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">35</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">35</container>
           <unitdate>1993-1994</unitdate>
           <unittitle>
             <persname>Smith, Burck &amp; Wagner, Jason. </persname>The
@@ -2014,8 +2015,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">36</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">36</container>
           <unitdate>1997-1999</unitdate>
           <unittitle>"Women's Voices" project materials. Washington D.C.:
             Center for Policy Alternatives, 1997-99.</unittitle>
@@ -2035,8 +2036,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">37</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">37</container>
           <unitdate>November 1, 1998</unitdate>
           <unittitle>Community Health Workers: A Leadership Brief on Preventive
             Health Programs. Washington D.C.: Center for Policy Alternatives,
@@ -2051,8 +2052,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">38</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">38</container>
           <unitdate>1998</unitdate>
           <unittitle>98 Policy Briefing Book: Working to create whole and
             health families and communities. An Economic Agenda for America: Women's Voice
@@ -2068,8 +2069,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">39</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">39</container>
           <unitdate>1999</unitdate>
           <unittitle>The Conservative Agenda in the States: As outlined at the
             1999 Annual Meeting of the American Legislative Exchange Council (ALEC).
@@ -2083,8 +2084,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">5</container>
-          <container type="folder">40</container>
+          <container label="unspecified" type="box">5</container>
+          <container label="unspecified" type="folder">40</container>
           <unitdate>December 9-11, 2000</unitdate>
           <unittitle>Leaders Moving Ideas to Action - Summit on the States.
             Washington, D.C. Center for Policy Alternatives, 2000. </unittitle>
@@ -2098,8 +2099,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>1986</unitdate>
           <unittitle>
             <persname>Siegel, Beth &amp; Kwass, Peter &amp; Reamer, Andrew.
@@ -2116,8 +2117,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">19</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">19</container>
           <unitdate>1988</unitdate>
           <unittitle>
             <persname>Rosen, David Paul. </persname>Public Capital. Washington
@@ -2132,8 +2133,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">20</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">20</container>
           <unitdate>1988</unitdate>
           <unittitle>
             <persname>Ward, Roxnne L.. </persname>1988 Midwest Leadership
@@ -2148,8 +2149,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">21</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">21</container>
           <unitdate>1988</unitdate>
           <unittitle>
             <persname>Adams, Toni &amp; Tryens, Jeffrey (Ed.). </persname>The
@@ -2165,8 +2166,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">22</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">22</container>
           <unitdate>1988</unitdate>
           <unittitle>
             <persname>Peters, Farley &amp; Stumberg, Robert &amp; Ward, Roxanne
@@ -2182,8 +2183,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">23</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">23</container>
           <unitdate>1989</unitdate>
           <unittitle>
             <persname>Cohen, Rick. </persname>Housing Trust Funds in New
@@ -2199,8 +2200,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">24</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">24</container>
           <unitdate>September 1992</unitdate>
           <unittitle>A Policy Guide - Women's Voice's: A Joint Project.
             Washington D.C.: Ms. Foundation for Women and Center for Policy Alternatives,
@@ -2214,8 +2215,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">25</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">25</container>
           <unitdate>January 1993</unitdate>
           <unittitle>
             <persname>Totten, Michael &amp; Settina, Nita.
@@ -2234,8 +2235,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">26</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">26</container>
           <unitdate>June, August, November 19, 1993</unitdate>
           <unittitle>
             <persname>Various authors. </persname>Focus Papers - Child Care,
@@ -2254,8 +2255,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">27</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">27</container>
           <unitdate>Summer, September 1993</unitdate>
           <unittitle>
             <persname>Various authors. </persname>Policy Reports. Washington
@@ -2273,8 +2274,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">28</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">28</container>
           <unitdate>September 1993</unitdate>
           <unittitle>Toward A Healthier Nation: A Reproductive Health Care
             Agenda. The Collaborative Project On State Reproductive Health Policy.
@@ -2291,8 +2292,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">29</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">29</container>
           <unitdate>June, September 24, 1994</unitdate>
           <unittitle>Policy Reports. Washington D.C.: Center for Policy
             Alternatives, 1994.</unittitle>
@@ -2309,8 +2310,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">30</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">30</container>
           <unitdate>November 1994</unitdate>
           <unittitle>
             <persname>Ferlauto, Richard C.. </persname>Community capital: jobs
@@ -2324,8 +2325,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">31</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">31</container>
           <unitdate>1995</unitdate>
           <unittitle>Women's Voices '96. Washington D.C.: Center for Policy
             Alternatives, 1995.</unittitle>
@@ -2338,8 +2339,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">32</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">32</container>
           <unitdate>1995</unitdate>
           <unittitle>
             <persname>Chamberlin, Whitney. </persname>Telecommunications &amp;
@@ -2355,8 +2356,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">33</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">33</container>
           <unitdate>March 7, 1995</unitdate>
           <unittitle>The Marketplace of Ideas: The States and a Progressive
             Future - A Consultation with Foundation Executives. Briefing Materials.
@@ -2371,8 +2372,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">34</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">34</container>
           <unitdate>June, November, December 1995</unitdate>
           <unittitle>
             <persname>Various authors. </persname>Center for Policy
@@ -2389,8 +2390,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">35</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">35</container>
           <unitdate>1996</unitdate>
           <unittitle>
             <persname>Various authors. </persname>Center for Policy
@@ -2406,8 +2407,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">36</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">36</container>
           <unitdate>1996</unitdate>
           <unittitle>Directory of Progressive Organizations in the States.
             Washington D.C.: Center for Policy Alternatives, 1996.</unittitle>
@@ -2420,8 +2421,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">37</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">37</container>
           <unitdate>May, June 1997</unitdate>
           <unittitle>
             <persname>Various authors. </persname>Center for Policy
@@ -2438,8 +2439,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">38</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">38</container>
           <unitdate>May 1998</unitdate>
           <unittitle>
             <persname>Render, Meredith. </persname>Supporting Self-Employment.
@@ -2455,8 +2456,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">39</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">39</container>
           <unitdate>1996</unitdate>
           <unittitle>
             <persname>Tarr-Whelean, Linda (Ed.). </persname>A Matter of Simple
@@ -2471,8 +2472,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">40</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">40</container>
           <unitdate>2000?</unitdate>
           <unittitle>
             <persname>Tarr-Whelean, Linda &amp; Mosle, Anne (Ed.).
@@ -2487,8 +2488,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">41</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">41</container>
           <unitdate>1998</unitdate>
           <unittitle>
             <persname>Mosle, Anne (Ed.). </persname>Investing in Grassroots
@@ -2504,8 +2505,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">42</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">42</container>
           <unitdate>2000?</unitdate>
           <unittitle>Women's Voices 2000: Focus Group Briefing Book. Washington
             D.C.: Center for Policy Alternatives and Lifetime Television, 2000.</unittitle>
@@ -2520,8 +2521,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">43</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">43</container>
           <unitdate>April 2000-January 2001</unitdate>
           <unittitle>Women's Voices 2000: Impacting the Debate. Press Clips,
             April 2000- January 2001. Washington D.C.: Center for Policy Alternatives,
@@ -2535,8 +2536,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">6</container>
-          <container type="folder">44</container>
+          <container label="unspecified" type="box">6</container>
+          <container label="unspecified" type="folder">44</container>
           <unitdate>December 5, 2001</unitdate>
           <unittitle>Who's Talking? An Analysis of Sunday Morning Talk Shows.
             Washington D.C.: The White House Project, 2001.</unittitle>
@@ -2550,8 +2551,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>May 1, 1987</unitdate>
           <unittitle>
             <persname>[no author provided] </persname>Business Climate Yields
@@ -2565,8 +2566,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1987</unitdate>
           <unittitle>
             <persname>Isensee, Lynne; Tarr-Whelan, Linda. </persname>The
@@ -2581,8 +2582,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1988</unitdate>
           <unittitle>
             <persname>Rosen, David Paul. </persname>Public Capital. Washington
@@ -2596,8 +2597,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>April 1988</unitdate>
           <unittitle>
             <persname>[no author provided] </persname>Barriers to Registration
@@ -2611,9 +2612,9 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">5</container>
-          <unitdate>ca. 1989</unitdate>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">5</container>
+          <unitdate certainty="approximate">1989</unitdate>
           <unittitle>
             <persname>[no author provided] </persname>CPA Annual
             Report</unittitle>
@@ -2629,8 +2630,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1989</unitdate>
           <unittitle>
             <persname>[no author provided] </persname>Family and Work/Women's
@@ -2644,9 +2645,9 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">7</container>
-          <unitdate>ca. 1990</unitdate>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">7</container>
+          <unitdate certainty="approximate">1990</unitdate>
           <unittitle>
             <persname>Various Authors. </persname>City Report. Washington D.C.:
             Center for Policy Alternatives, ca. 1990.</unittitle>
@@ -2659,8 +2660,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1992</unitdate>
           <unittitle>
             <persname>Various authors. </persname>Policy Briefs, Articles,
@@ -2677,8 +2678,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>Januar 1993</unitdate>
           <unittitle>
             <persname>Gold, Jack. </persname>Model Legislation Series: Recycled
@@ -2693,8 +2694,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>December/January 1993</unitdate>
           <unittitle>
             <persname>Tammaro, Katherine; Tryens, Jeffrey. </persname>GATT and
@@ -2708,8 +2709,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1994</unitdate>
           <unittitle>
             <persname>Ferlauto, Richard. </persname>Economically Targeted
@@ -2723,9 +2724,9 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">12</container>
-          <unitdate>ca. 1998</unitdate>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">12</container>
+          <unitdate certainty="approximate">1998</unitdate>
           <unittitle>
             <persname>Various authors. </persname>Blueprint for Action - An
             Executive Summary of America's Economic Agenda: Women's Voices for Solutions.
@@ -2739,9 +2740,9 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">13</container>
-          <unitdate>ca. 1998</unitdate>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">13</container>
+          <unitdate certainty="approximate">1998</unitdate>
           <unittitle>
             <persname>Various authors. </persname>State of the States - Women
             and Entrepreneurship. Washington D.C.: Center for Policy Alternatives, ca.
@@ -2755,8 +2756,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>2000</unitdate>
           <unittitle>
             <persname>[no author provided] </persname>All Publications in
@@ -2770,8 +2771,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>[no date provided]</unitdate>
           <unittitle>
             <persname>[no author provided] </persname>Bringing Capital to
@@ -2786,8 +2787,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>[no date provided]</unitdate>
           <unittitle>
             <persname>Freedburg, Michael; Slavet, Julie. </persname>Residential
@@ -2802,8 +2803,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">17</container>
           <unitdate>[no date provided]</unitdate>
           <unittitle>
             <persname>[no author provided] </persname>Ways and Means Index.
@@ -2817,8 +2818,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>December 3, 1986</unitdate>
           <unittitle>
             <persname>Various Authors. </persname>Issue Briefing - Maintaining
@@ -2834,8 +2835,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">19</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">19</container>
           <unitdate>1990-1991</unitdate>
           <unittitle>
             <persname>[no author provided] </persname>Executive Summary -
@@ -2849,8 +2850,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">20</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">20</container>
           <unitdate>May 1992</unitdate>
           <unittitle>
             <persname>Peters, Farley. </persname>Resource Guide for Policy
@@ -2864,8 +2865,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">21</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">21</container>
           <unitdate>May 1987</unitdate>
           <unittitle>
             <persname>Zenk, Mary Jo. </persname>The Tax Reform Act of 1986: Its
@@ -2879,8 +2880,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">22</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">22</container>
           <unitdate>[no date provided]</unitdate>
           <unittitle>
             <persname>[no author provided] </persname>Various NCPA
@@ -2894,8 +2895,8 @@
       </c01> 
       <c01 level="item">
         <did>
-          <container type="box">7</container>
-          <container type="folder">23</container>
+          <container label="unspecified" type="box">7</container>
+          <container label="unspecified" type="folder">23</container>
           <unitdate>January 1990</unitdate>
           <unittitle>
             <persname>Larkin, Richard. </persname>Annual Reports Are "Winning"
@@ -2908,5 +2909,9 @@
         </scopecontent>
       </c01> 
     </dsc> 
-  </archdesc> 
+  <prefercite> 
+        <head>Cite As:</head> 
+        <p>Center for Policy Analysis records, #6755. Division of Rare and
+          Manuscript Collections, Cornell University Library.</p> 
+      </prefercite></archdesc> 
 </ead>

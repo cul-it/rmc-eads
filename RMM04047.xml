@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04047::Guide to the Olin Sewall Pettingill, Jr. Papers)//EN">RMM04047</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04047::Guide to the Olin Sewall Pettingill, Jr. Papers)//EN">RMM04047</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Olin Sewall Pettingill, Jr. papers,<date>[ca.
@@ -23,19 +23,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>May 2013</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Olin Sewall Pettingill, Jr. Papers,<lb/><date type="inclusive" encodinganalog="245$f">[ca. 1895-1990].</date></titleproper>
+			<titleproper>Guide to the Olin Sewall Pettingill, Jr. Papers,<date encodinganalog="245$f" type="inclusive">[ca. 1895-1990].</date></titleproper>
 			<num>Collection Number: 4047</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -61,13 +67,12 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Olin Sewall Pettingill, Jr. papers,
-					<unitdate encodinganalog="MARC 245" type="inclusive">[ca. 1895-1990].</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Olin Sewall Pettingill, Jr. papers,
+					</unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1895-1990.</unitdate>
 			<unitid label="Collection Number:">4047</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Pettingill, Olin Sewall, Jr.,  1907- ">Pettingill, Olin Sewall, Jr.,
 				</persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>13.4 cubic ft.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>13.4 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Correspondence, photographs, research material.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -76,7 +81,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Olin Sewall Pettingill was born in Maine on October 30, 1907. He received a Ph.D.
 				from Cornell University in 1933. He was a college instructor of biology and
 				ornithology and in 1960 was appointed Director of the Laboratory of Ornithology at
@@ -141,14 +146,7 @@
 				<genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Olin Sewall Pettingill, Jr. papers, #4047. Division of Rare and Manuscript
-					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="series">
@@ -163,61 +161,61 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">1</container>
 							<unitdate>1949-1962</unitdate>
 							<unittitle>Alabama</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">2</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">2</container>
+							
 							<unittitle>Alaska</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">3</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">3</container>
 							<unitdate>1947-1980</unitdate>
 							<unittitle>Arizona(1)</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">4</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">4</container>
+							
 							<unittitle>Arizona(2) - Manuscript</unittitle>
 						</did> 
 						<scopecontent><p>Proofs for book</p></scopecontent>
 					</c03><c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">5</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">5</container>
 							<unitdate>1947-1981</unitdate>
 							<unittitle>Arkansas</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">6</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">6</container>
+							
 							<unittitle>Arkansas(2) - Manuscript</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">7</container>
 							<unitdate>1947-1979</unitdate>
 							<unittitle>California</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">8</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">8</container>
+							
 							<unittitle>California(2) - Manuscript</unittitle>
 						</did> 
 						<scopecontent><p>Proofs for book</p></scopecontent>
@@ -225,69 +223,69 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">9</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">9</container>
 							<unitdate>1947-1978</unitdate>
 							<unittitle>Colorado</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">10</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">10</container>
+							
 							<unittitle>Colorado(2) - Manuscript</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">11</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">11</container>
 							<unitdate>1947-1973</unitdate>
 							<unittitle>Connecticut</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">12</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">12</container>
 							<unitdate>1947-1977</unitdate>
 							<unittitle>Deleware</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">13</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">13</container>
 							<unitdate>1947-1977</unitdate>
 							<unittitle>Florida</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">14</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">14</container>
 							<unitdate>1947-1975</unitdate>
 							<unittitle>Georgia</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">15</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">15</container>
 							<unitdate>1955-1972</unitdate>
 							<unittitle>Hawaii</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">16</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">16</container>
 							<unitdate>1947-1979</unitdate>
 							<unittitle>Idaho</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">17</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">17</container>
+							
 							<unittitle>Idaho(2) - Manuscript</unittitle>
 						</did> 
 						<scopecontent><p>Proofs for book</p></scopecontent>
@@ -295,8 +293,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">18</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">18</container>
 							<unitdate>1947-1975</unitdate>
 							<unittitle>Illinois</unittitle>
 						</did>      
@@ -308,150 +306,150 @@
 					</did>		
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">1</container>
 							<unitdate>1947-1975</unitdate>
 							<unittitle>Indiana</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">2</container>
 							<unitdate>1947-1981</unitdate>
 							<unittitle>Iowa</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">3</container>
-							<unitdate/>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">3</container>
+							
 							<unittitle>Iowa(2) - Manuscript</unittitle>
 						</did> 
 						<scopecontent><p>Proofs for book</p></scopecontent>
 						<scopecontent><p>Includes a 1976-1977 Iowa roadmap and maps for De Soto National Wildlife Refuge</p></scopecontent>
 					</c03><c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">4</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">4</container>
 							<unitdate>1947-1981</unitdate>
 							<unittitle>Kansas</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">5</container>
-							<unitdate/>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">5</container>
+							
 							<unittitle>Kansas(2)-Manuscript</unittitle>
 						</did> 
 						<scopecontent><p>Proofs for book</p></scopecontent>
 						<scopecontent><p>Includes a 1969-1970 Flint Hills National Wildlife Refuge brochure</p></scopecontent>
 					</c03><c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">6</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">6</container>
 							<unitdate>1946-1976</unitdate>
 							<unittitle>Kentucky</unittitle>
 						</did> 
 					
 					</c03><c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">7</container>
 							<unitdate>1947-1979</unitdate>
 							<unittitle>Louisiana</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">8</container>
-							<unitdate/>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">8</container>
+							
 							<unittitle>Louisiana(2) - Manuscript</unittitle>
 						</did> 
 						<scopecontent><p>Proofs for book</p></scopecontent>
 						<scopecontent><p>Includes a 1979-1980 Louisiana road map</p></scopecontent>
 					</c03><c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">9</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">9</container>
 							<unitdate>1947-1981</unitdate>
 							<unittitle>Maine</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">10</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">10</container>
 							<unitdate>1947-1976</unitdate>
 							<unittitle>Maryland</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">11</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">11</container>
 							<unitdate>1947-1975</unitdate>
 							<unittitle>Massachusetts</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">12</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">12</container>
 							<unitdate>1947-1976</unitdate>
 							<unittitle>Michigan</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">13</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">13</container>
 							<unitdate>1947-1979</unitdate>
 							<unittitle>Minnesota</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">14</container>
-							<unitdate/>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">14</container>
+							
 							<unittitle>Minnesota(2) - Manuscript</unittitle>
 						</did> 
 						<scopecontent><p>Proofs for book</p></scopecontent>
 						<scopecontent><p>Includes 1976 and 1977-1978 Minnesota road maps, Hennepin map and Camping in Minnesota brochure</p></scopecontent>
 					</c03><c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">15</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">15</container>
 							<unitdate>1947-1975</unitdate>
 							<unittitle>Mississippi</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">16</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">16</container>
 							<unitdate>1947-1977</unitdate>
 							<unittitle>Missouri</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">17</container>
-							<unitdate/>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">17</container>
+							
 							<unittitle>Missouri(2) - Manuscript</unittitle>
 						</did> 
 						<scopecontent><p>Proofs for book</p></scopecontent>
 					</c03><c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">18</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">18</container>
 							<unitdate>1947-1978</unitdate>
 							<unittitle>Montana</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">19</container>
-							<unitdate/>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">19</container>
+							
 							<unittitle>Montana(2) - Manuscript</unittitle>
 						</did>  
 						<scopecontent><p>Proofs for book</p></scopecontent>
@@ -464,148 +462,148 @@
 						</did>	
 						<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">1</container>
 							<unitdate>1947-1978</unitdate>
 							<unittitle>Nebraska</unittitle>
 						</did>      
 					</c03>
 						<c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">2</container>
-								<unitdate/>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">2</container>
+								
 								<unittitle>Nebraska(2) - Manuscript</unittitle>
 							</did>  
 							<scopecontent><p>Proofs for book</p></scopecontent>
 							<scopecontent><p>Includes a 1976 Nebraska road map</p></scopecontent>
 						</c03><c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">3</container>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">3</container>
 								<unitdate>1947-1980</unitdate>
 								<unittitle>Nevada</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">4</container>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">4</container>
 								<unitdate>1980</unitdate>
 								<unittitle>Nevada(2) - Manuscript</unittitle>
 							</did>   
 							<scopecontent><p>Proofs for book</p></scopecontent>
 						</c03><c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">5</container>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">5</container>
 								<unitdate>1947-1973</unitdate>
 								<unittitle>New Hampshire</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">6</container>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">6</container>
 								<unitdate>1947-1975</unitdate>
 								<unittitle>New Jersey</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">7</container>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">7</container>
 								<unitdate>1947-1980</unitdate>
 								<unittitle>New Mexico</unittitle>
 							</did>      
 						</c03>
 						<c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">8</container>
-								<unitdate/>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">8</container>
+								
 								<unittitle>New Mexico(2) - Manuscript</unittitle>
 							</did>
 							<scopecontent><p>Proofs for book</p></scopecontent>
 							<scopecontent><p>Includes a New Mexico road map</p></scopecontent>
 						</c03><c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">9</container>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">9</container>
 								<unitdate>1947-1970</unitdate>
 								<unittitle>New York</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">10</container>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">10</container>
 								<unitdate>1956-1976</unitdate>
 								<unittitle>New York City Area</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">11</container>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">11</container>
 								<unitdate>1947-1975</unitdate>
 								<unittitle>North Carolina</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">12</container>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">12</container>
 								<unitdate>1947-1978</unitdate>
 								<unittitle>North Dakota</unittitle>
 							</did>      
 						</c03>
 						<c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">13</container>
-								<unitdate/>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">13</container>
+								
 								<unittitle>North Dakota(2) - Manuscript</unittitle>
 							</did>
 							<scopecontent><p>Proofs for book</p></scopecontent>
 							<scopecontent><p>Includes a 1975 North Dakota road map</p></scopecontent>
 						</c03><c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">14</container>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">14</container>
 								<unitdate>1947-1975</unitdate>
 								<unittitle>Ohio</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">15</container>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">15</container>
 								<unitdate>1947-1979</unitdate>
 								<unittitle>Oklahoma</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">16</container>
-								<unitdate/>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">16</container>
+								
 								<unittitle>Okalahoma(2) - Manuscript</unittitle>
 							</did> 
 							<scopecontent><p>Proofs for book</p></scopecontent>
 							<scopecontent><p>Includes a 1967, 1977 and an undated (with notations) Oklahoma City Street Map and a 1977 Oklahoma road map </p></scopecontent>
 						</c03><c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">17</container>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">17</container>
 								<unitdate>1947-1979</unitdate>
 								<unittitle>Oregon</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">18</container>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">18</container>
 								<unitdate>1966-1968</unitdate>
 								<unittitle>Oregon(2)- For column in Audubon Magazine</unittitle>
 							</did>      
 						</c03>
 						<c03 level="file">
 							<did>
-								<container type="box">3</container>
-								<container type="folder">19</container>
-								<unitdate/>
+								<container label="unspecified" type="box">3</container>
+								<container label="unspecified" type="folder">19</container>
+								
 								<unittitle>Oregon(3)- Manuscript</unittitle>
 							</did>
 							<scopecontent><p>Proofs for book</p></scopecontent>
@@ -618,93 +616,93 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">1</container>
 							<unitdate>1946-1975</unitdate>
 							<unittitle>Pennsylvania</unittitle>
 						</did> 
 					</c03>	
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">2</container>
 							<unitdate>1946-1980</unitdate>
 							<unittitle>Rhode Island</unittitle>
 						</did> 
 					</c03>		<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">3</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">3</container>
 							<unitdate>1947-1976</unitdate>
 							<unittitle>South Carolina</unittitle>
 						</did> 
 					</c03>		<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">4</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">4</container>
 							<unitdate>1947-1977</unitdate>
 							<unittitle>South Dakota</unittitle>
 						</did> 
 					</c03>		<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">5</container>
-							<unitdate/>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">5</container>
+							
 							<unittitle>South Dakota(2) - Manuscript</unittitle>
 						</did>
 						<scopecontent><p>Proofs for book</p></scopecontent>
 						<scopecontent><p>Includes a 1977-1978 South Dakota road map</p></scopecontent>
 					</c03>		<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">6</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">6</container>
 							<unitdate>1947-1977</unitdate>
 							<unittitle>Tennessee</unittitle>
 						</did> 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">7</container>
 							<unitdate>1947-1968</unitdate>
 							<unittitle>Texas</unittitle>
 						</did> 
 					</c03>		<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">8</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">8</container>
 							<unitdate>1962-1979</unitdate>
 							<unittitle>Texas(2) Second Edition</unittitle>
 						</did> 
 					</c03>		<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">9</container>
-							<unitdate/>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">9</container>
+							
 							<unittitle>Texas(3) - Manuscript</unittitle>
 						</did>
 						<scopecontent><p>Proofs for book</p></scopecontent>
 						<scopecontent><p>Includes a 1977-1978 Oklahoma Texas road map and a 1973 Texas road map</p></scopecontent>
 					</c03>		<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">10</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">10</container>
 							<unitdate>1949-1980</unitdate>
 							<unittitle>Utah</unittitle>
 						</did> 
 					</c03>	
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">11</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">11</container>
 							<unitdate>1966-1967</unitdate>
 							<unittitle>Utah(2) - Zion National Park</unittitle>
 						</did> 
 					</c03>	
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">12</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">12</container>
 							<unitdate>1980</unitdate>
 							<unittitle>Utah(3) - Manuscript</unittitle>
 						</did> 
@@ -712,30 +710,30 @@
 						<scopecontent><p>Includes a 1979 Utah road map</p></scopecontent>
 					</c03>	<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">13</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">13</container>
 							<unitdate>1947-1966</unitdate>
 							<unittitle>Vermont</unittitle>
 						</did> 
 					</c03>	<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">14</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">14</container>
 							<unitdate>1947-1975</unitdate>
 							<unittitle>Virginia</unittitle>
 						</did> 
 					</c03>	<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">15</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">15</container>
 							<unitdate>1947-1980</unitdate>
 							<unittitle>Washington</unittitle>
 						</did> 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">16</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">16</container>
 							<unitdate>1980</unitdate>
 							<unittitle>Washington(2) - Manuscript</unittitle>
 						</did>      
@@ -748,41 +746,41 @@
 					</did>		
 					<c03 level="file">
 						<did>
-							<container type="box">5</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">5</container>
+							<container label="unspecified" type="folder">1</container>
 							<unitdate>1947-1973</unitdate>
 							<unittitle>West Viginia</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">5</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">5</container>
+							<container label="unspecified" type="folder">2</container>
 							<unitdate>1947-1976</unitdate>
 							<unittitle>Wisconsin</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">5</container>
-							<container type="folder">3</container>
+							<container label="unspecified" type="box">5</container>
+							<container label="unspecified" type="folder">3</container>
 							<unitdate>1949-1952</unitdate>
 							<unittitle>Wyoming(1)</unittitle>
 						</did>      					
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">5</container>
-							<container type="folder">4</container>
+							<container label="unspecified" type="box">5</container>
+							<container label="unspecified" type="folder">4</container>
 							<unitdate>1952-1978</unitdate>
 							<unittitle>Wyoming(2)</unittitle>
 						</did>      
-						<scopecontent><p/></scopecontent>
+						
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">5</container>
-							<container type="folder">5</container>
-							<unitdate>c.1978-1979</unitdate>
+							<container label="unspecified" type="box">5</container>
+							<container label="unspecified" type="folder">5</container>
+							<unitdate certainty="approximate">1978-1979</unitdate>
 							<unittitle>Wyoming(3) - Manuscript</unittitle>
 						</did>      
 						<scopecontent><p>Proofs for Book and Wyoming road maps</p></scopecontent>
@@ -800,141 +798,141 @@
 					
 					<c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">1</container>
 							<unitdate>1949-1984</unitdate>
 							<unittitle>A - Correspondence</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">2</container>
 							<unitdate>1964-1969</unitdate>
 							<unittitle>Argentine Field Trip</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">3</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">3</container>
 							<unitdate>1931-1961</unitdate>
 							<unittitle>B - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">4</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">4</container>
 							<unitdate>1962-1986</unitdate>
 							<unittitle>B - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">5</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">5</container>
 							<unitdate>1947-1984</unitdate>
 							<unittitle>Breckenridge</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">6</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">6</container>
 							<unitdate>1947-1966</unitdate>
 							<unittitle>Brooks</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">7</container>
 							<unitdate>1928-1984</unitdate>
 							<unittitle>Burgess, Thornton, W.</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">8</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">8</container>
 							<unitdate>1930-1973</unitdate>
 							<unittitle>C - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">9</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">9</container>
 							<unitdate>1974-1986</unitdate>
 							<unittitle>C - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">10</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">10</container>
 							<unitdate>1931-1987</unitdate>
 							<unittitle>D - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">11</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">11</container>
 							<unitdate>1964-1975</unitdate>
 							<unittitle>Dick, John Henry</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">12</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">12</container>
 							<unitdate>1932-1985</unitdate>
 							<unittitle>E - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">13</container>
-							<unitdate/>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">13</container>
+							
 							<unittitle>F - Correspondence</unittitle>
 						</did>      
 					</c03>
 				<c03 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1964-1982</unitdate>
 						<unittitle>Fisher, Harvey I.</unittitle>
 					</did>      
 				</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">15</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">15</container>
 							<unitdate>1934-1974</unitdate>
 							<unittitle>G- Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">16</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">16</container>
 							<unitdate>1975-1988</unitdate>
 							<unittitle>G - Correspondence</unittitle>
 						</did>      
 					</c03>
 				<c03 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">17</container>
 						<unitdate>1976</unitdate>
 						<unittitle>Gallapagos Islands</unittitle>
 					</did>      
 				</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">18</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">18</container>
 							<unitdate>1932-1936</unitdate>
 							<unittitle>Grand Manan</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">8</container>
-							<container type="folder">19</container>
+							<container label="unspecified" type="box">8</container>
+							<container label="unspecified" type="folder">19</container>
 							<unitdate>1928-1971</unitdate>
 							<unittitle>Gross</unittitle>
 						</did>      
@@ -947,130 +945,130 @@
 					
 					<c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">1</container>
 							<unitdate>1931-1968</unitdate>
 							<unittitle>H - Correspondence</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">2</container>
 							<unitdate>1970-1985</unitdate>
 							<unittitle>H - Correpondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">3</container>
-							<unitdate/>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">3</container>
+							
 							<unittitle>Hall, George</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">4</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">4</container>
 							<unitdate>1936-1988</unitdate>
 							<unittitle>J - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">5</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">5</container>
 							<unitdate>1928-1986</unitdate>
 							<unittitle>K - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">6</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">6</container>
 							<unitdate>1932-1949</unitdate>
 							<unittitle>L - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">7</container>
 							<unitdate>1950-1986</unitdate>
 							<unittitle>L - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">8</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">8</container>
 							<unitdate>1930-1949</unitdate>
 							<unittitle>M - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">9</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">9</container>
 							<unitdate>1950-1988</unitdate>
 							<unittitle>M - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">10</container>
-							<unitdate/>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">10</container>
+							
 							<unittitle>Mc - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">11</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">11</container>
 							<unitdate>1940-1941</unitdate>
 							<unittitle>Mexican Expedition</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">12</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">12</container>
 							<unitdate>1930-1981</unitdate>
 							<unittitle>N - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">13</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">13</container>
 							<unitdate>1938-1967</unitdate>
 							<unittitle>Nice, Margaret</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">14</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">14</container>
 							<unitdate>1936-1983</unitdate>
 							<unittitle>O - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">15</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">15</container>
 							<unitdate>1931-1964</unitdate>
 							<unittitle>P - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">16</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">16</container>
 							<unitdate>1965-1988</unitdate>
 							<unittitle>P - Correspondence</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">17</container>
-							<unitdate/>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">17</container>
+							
 							<unittitle>Peterson, Roger Tory</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">9</container>
-							<container type="folder">18</container>
+							<container label="unspecified" type="box">9</container>
+							<container label="unspecified" type="folder">18</container>
 							<unitdate>1953-1958</unitdate>
 							<unittitle>Q - Correspondence</unittitle>
 						</did>      
@@ -1082,113 +1080,113 @@
 					</did>
 					<c03 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1931-1958</unitdate>
 						<unittitle>R - Correspondence</unittitle>
 					</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">10</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">10</container>
+							<container label="unspecified" type="folder">2</container>
 							<unitdate>1960-1985</unitdate>
 							<unittitle>R - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">10</container>
-							<container type="folder">3</container>
+							<container label="unspecified" type="box">10</container>
+							<container label="unspecified" type="folder">3</container>
 							<unitdate>1974-1984</unitdate>
 							<unittitle>Rumball, Maurice</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">10</container>
-							<container type="folder">4</container>
+							<container label="unspecified" type="box">10</container>
+							<container label="unspecified" type="folder">4</container>
 							<unitdate>1931-1959</unitdate>
 							<unittitle>S - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">10</container>
-							<container type="folder">5</container>
+							<container label="unspecified" type="box">10</container>
+							<container label="unspecified" type="folder">5</container>
 							<unitdate>1960-1985</unitdate>
 							<unittitle>S - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">10</container>
-							<container type="folder">6</container>
+							<container label="unspecified" type="box">10</container>
+							<container label="unspecified" type="folder">6</container>
 							<unitdate>1983-1986</unitdate>
 							<unittitle>Sutton, George</unittitle>
 						</did>    
 						<scopecontent><p>Relating to Sutton's memorial and Pettingill's forward to Sutton's last book, "Birds Worth Knowing"</p></scopecontent>
 					</c03><c03 level="file">
 						<did>
-							<container type="box">10</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">10</container>
+							<container label="unspecified" type="folder">7</container>
 							<unitdate>1937-1986</unitdate>
 							<unittitle>Swanson, Gustav</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">10</container>
-							<container type="folder">8</container>
-							<unitdate/>
+							<container label="unspecified" type="box">10</container>
+							<container label="unspecified" type="folder">8</container>
+							
 							<unittitle>T - Correspondence</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">10</container>
-							<container type="folder">9</container>
+							<container label="unspecified" type="box">10</container>
+							<container label="unspecified" type="folder">9</container>
 							<unitdate>1942-1983</unitdate>
 							<unittitle>U - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">10</container>
-							<container type="folder">10</container>
+							<container label="unspecified" type="box">10</container>
+							<container label="unspecified" type="folder">10</container>
 							<unitdate>1933-1972</unitdate>
 							<unittitle>V - Correspondence</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">10</container>
-							<container type="folder">11</container>
+							<container label="unspecified" type="box">10</container>
+							<container label="unspecified" type="folder">11</container>
 							<unitdate>1933-1985</unitdate>
 							<unittitle>W - Correspondence</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">10</container>
-							<container type="folder">12</container>
+							<container label="unspecified" type="box">10</container>
+							<container label="unspecified" type="folder">12</container>
 							<unitdate>1945-1979</unitdate>
 							<unittitle>Whooping Crane</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">1</container>
 							<unitdate>1938-1993</unitdate>
 							<unittitle>Wilson Ornithological Club</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">10</container>
-							<container type="folder">13</container>
+							<container label="unspecified" type="box">10</container>
+							<container label="unspecified" type="folder">13</container>
 							<unitdate>1944-1984</unitdate>
 							<unittitle>X,Y,Z - Correspondence</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">10</container>
-							<container type="folder">14</container>
+							<container label="unspecified" type="box">10</container>
+							<container label="unspecified" type="folder">14</container>
 							<unitdate>1972-1974</unitdate>
 							<unittitle>Zimmerman, William</unittitle>
 						</did>      
@@ -1201,15 +1199,15 @@
 				</did>
 					<c02 level="file">
 						<did>
-							<container type="box">10</container>
-							<container type="folder">15</container>
+							<container label="unspecified" type="box">10</container>
+							<container label="unspecified" type="folder">15</container>
 							<unitdate>1988-1990</unitdate>
 							<unittitle>Bibliography, Biography and Memorials</unittitle>
 						</did>      
 					</c02>
 					<c02 level="file">
 						<did>
-							<container type="box">13</container>
+							<container label="unspecified" type="box">13</container>
 							<unitdate>1897-1974</unitdate>
 							<unittitle>School diplomas, degrees and other certificates</unittitle>
 						</did>  
@@ -1217,16 +1215,16 @@
 					</c02>				
 					<c02 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">2</container>
 							<unitdate>1937</unitdate>
 							<unittitle>Olin Sewall Pettingill, MD - American College of Physicians - Fellow Certificate</unittitle>
 						</did>      
 					</c02>
 					<c02 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">2</container>
+							
+							<container label="unspecified" type="mapcase-folder">2</container>
 							<unitdate>1895-1940</unitdate>
 							<unittitle>School diplomas, degrees and other certificates</unittitle>
 						</did>  
@@ -1234,17 +1232,17 @@
 					</c02>				
 					<c02 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">1</container>
-							<unitdate/>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">1</container>
+							
 							<unittitle>Pettingill Christmas Card Drawings</unittitle>
 						</did>  
 					</c02>
 					<c02 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">3</container>
-							<unitdate>c.1901-1909</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">3</container>
+							<unitdate certainty="approximate">1901-1909</unitdate>
 							<unittitle>Sewall Pettingill - Stationery</unittitle>
 						</did>      
 					</c02>		
@@ -1260,7 +1258,7 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">6-1</container>
+							<container label="unspecified" type="box">6-1</container>
 							<unitdate>1929-1940</unitdate>
 							<unittitle>Negatives #100-1411</unittitle>
 						</did>  
@@ -1269,7 +1267,7 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">6-2</container>
+							<container label="unspecified" type="box">6-2</container>
 							<unitdate>1931-1945</unitdate>
 							<unittitle>Negatives #1500-4312</unittitle>
 						</did>  
@@ -1278,7 +1276,7 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">7-1</container>
+							<container label="unspecified" type="box">7-1</container>
 							<unitdate>1930-1942</unitdate>
 							<unittitle>Negatives #4400-5115</unittitle>
 						</did>  
@@ -1287,7 +1285,7 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">7-2</container>
+							<container label="unspecified" type="box">7-2</container>
 							<unitdate>1931-1936</unitdate>
 							<unittitle>Negatives #5201-6345</unittitle>
 						</did>  
@@ -1296,7 +1294,7 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15-1</container>
+							<container label="unspecified" type="box">15-1</container>
 							<unitdate>1933-1941</unitdate>
 							<unittitle>Negatives #6400-8311</unittitle>
 						</did>  
@@ -1305,7 +1303,7 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15-2</container>
+							<container label="unspecified" type="box">15-2</container>
 							<unitdate>1929-1948</unitdate>
 							<unittitle>Negatives #8400-10218</unittitle>
 						</did>  
@@ -1314,7 +1312,7 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">16-1</container>
+							<container label="unspecified" type="box">16-1</container>
 							<unitdate>-1944</unitdate>
 							<unittitle>Negatives #10300-14519</unittitle>
 						</did>  
@@ -1323,8 +1321,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">16-2</container>
-							<unitdate>c.1929-1949</unitdate>
+							<container label="unspecified" type="box">16-2</container>
+							<unitdate certainty="approximate">1929-1949</unitdate>
 							<unittitle>Negatives #14520-16308. Also includes #3-112, misc bird photos and photos of mammals not included in index</unittitle>
 						</did>  
 						<scopecontent><p>Negatives of birds in individual envelopes.  Bird name, geographic location and date given.  Some include printed photographs.</p><p>
@@ -1338,102 +1336,102 @@
 						</did>
 						<c03 level="file">
 							<did>
-								<container type="box">11</container>
-								<unitdate/>
+								<container label="unspecified" type="box">11</container>
+								
 								<unittitle>22 16"x20" matted photographs for exhibition</unittitle>
 							</did>  
 							<scopecontent><p>Includes bird names</p></scopecontent>
 						</c03><c03 level="file">
 							<did>
-								<container type="box">11</container>
-								<unitdate/>
+								<container label="unspecified" type="box">11</container>
+								
 								<unittitle>2 14"x15" matted photographs</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">11</container>
-								<unitdate/>
+								<container label="unspecified" type="box">11</container>
+								
 								<unittitle>1 13"x16" matted photograph</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">11</container>
-								<container type="folder">1</container>
-								<unitdate/>
+								<container label="unspecified" type="box">11</container>
+								<container label="unspecified" type="folder">1</container>
+								
 								<unittitle>Loose Photographs</unittitle>
 							</did>      
 						</c03>
 						<c03 level="file">
 							<did>
-								<container type="box">11</container>
-								<container type="folder">2</container>
-								<unitdate/>
+								<container label="unspecified" type="box">11</container>
+								<container label="unspecified" type="folder">2</container>
+								
 								<unittitle>Information on Olin S. Pettingill for Exhibition</unittitle>
 							</did>      
 						</c03>
 						<c03 level="file">
 							<did>
-								<container type="box">13</container>
-								<unitdate/>
+								<container label="unspecified" type="box">13</container>
+								
 								<unittitle>5 13.5"x18" hand colored black and white prints</unittitle>
 							</did>      
 						</c03>
 						<c03 level="file">
 							<did>
-								<container type="box">14</container>
-								<container type="folder">15</container>
-								<unitdate/>
+								<container label="unspecified" type="box">14</container>
+								<container label="unspecified" type="folder">15</container>
+								
 								<unittitle>Penguins and Seagull</unittitle>
 							</did>      
 						</c03>
 						<c03 level="file">
 							<did>
-								<container type="box">14</container>
-								<container type="folder">16</container>
-								<unitdate/>
+								<container label="unspecified" type="box">14</container>
+								<container label="unspecified" type="folder">16</container>
+								
 								<unittitle>Hoary Redpoll on Nest</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">14</container>
-								<container type="folder">17</container>
-								<unitdate/>
+								<container label="unspecified" type="box">14</container>
+								<container label="unspecified" type="folder">17</container>
+								
 								<unittitle>American Woodcock - Ithaca, NY</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">14</container>
-								<container type="folder">18</container>
-								<unitdate/>
+								<container label="unspecified" type="box">14</container>
+								<container label="unspecified" type="folder">18</container>
+								
 								<unittitle>Bonaparte's Gull Chick</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">14</container>
-								<container type="folder">19</container>
-								<unitdate/>
+								<container label="unspecified" type="box">14</container>
+								<container label="unspecified" type="folder">19</container>
+								
 								<unittitle>Bonaparte's Gull - Hudson Bay </unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">14</container>
-								<container type="folder">20</container>
-								<unitdate/>
+								<container label="unspecified" type="box">14</container>
+								<container label="unspecified" type="folder">20</container>
+								
 								<unittitle>Stilt Sandpiper</unittitle>
 							</did>      
 						</c03><c03 level="file">
 							<did>
-								<container type="box">14</container>
-								<container type="folder">21</container>
-								<unitdate/>
+								<container label="unspecified" type="box">14</container>
+								<container label="unspecified" type="folder">21</container>
+								
 								<unittitle>Willow Ptarmigan, Strutting</unittitle>
 							</did>      
 						</c03>
 						<c03 level="file">
 							<did>
-								<container type="box">14</container>
-								<container type="folder">22</container>
-								<unitdate/>
+								<container label="unspecified" type="box">14</container>
+								<container label="unspecified" type="folder">22</container>
+								
 								<unittitle>King Penguin - Falklands</unittitle>
 							</did>      
 						</c03>
@@ -1444,8 +1442,8 @@
 						</did>
 						<c03 level="file">
 							<did>
-								<container type="box">11</container>
-								<unitdate/>
+								<container label="unspecified" type="box">11</container>
+								
 								<unittitle>Eagle by Fred Kent Truslow</unittitle>
 							</did>  
 							<scopecontent><p>Signed by photographer</p></scopecontent>
@@ -1458,38 +1456,38 @@
 					
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">4</container>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">4</container>
 							<unitdate>1909</unitdate>
 							<unittitle>Great Lakes Ornithological Club</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">5</container>
-							<unitdate/>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">5</container>
+							
 							<unittitle>Allen, Arthur A.</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">6</container>
-							<unitdate>c.1930</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">6</container>
+							<unitdate certainty="approximate">1930</unitdate>
 							<unittitle>Breckenridge, Walter J.</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">7</container>
 							<unitdate>1939</unitdate>
 							<unittitle>Chapman, Fran</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">8</container>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">8</container>
 							<unitdate>1940</unitdate>
 							<unittitle>Gross, Alfred</unittitle>
 						</did> 
@@ -1497,91 +1495,91 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">9</container>
-							<unitdate/>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">9</container>
+							
 							<unittitle>Peterson, P.T.</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">10</container>
-							<unitdate/>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">10</container>
+							
 							<unittitle>Pettingills, Mr. and Mrs.</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">11</container>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">11</container>
 							<unitdate>1939</unitdate>
 							<unittitle>Roberts, Thomas S.</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">12</container>
-							<unitdate/>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">12</container>
+							
 							<unittitle>Sutton, George Miksch</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">13</container>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">13</container>
 							<unitdate>1947</unitdate>
 							<unittitle>Swanson, Gustav</unittitle>
 						</did>      
 					</c03><c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">14</container>
-							<unitdate/>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">14</container>
+							
 							<unittitle>Van Tyne, Josselyn and Gould, Lawrence McKinley</unittitle>
 						</did>      
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">1</container>
+							
+							<container label="unspecified" type="mapcase-folder">1</container>
 							<unitdate>October 1970</unitdate>
 							<unittitle>Allen Award Dinner</unittitle>
 						</did>   
 						<scopecontent><p>Wentmore, Alexander and Treman, Margo</p></scopecontent>
 					</c03><c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">2</container>
+							
+							<container label="unspecified" type="mapcase-folder">2</container>
 							<unitdate>1928</unitdate>
 							<unittitle>University of Michigan Biological Station</unittitle>
 						</did>  
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">2</container>
+							
+							<container label="unspecified" type="mapcase-folder">2</container>
 							<unitdate>1929</unitdate>
 							<unittitle>University of Michigan Biological Station</unittitle>
 						</did>  
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">2</container>
+							
+							<container label="unspecified" type="mapcase-folder">2</container>
 							<unitdate>1929</unitdate>
 							<unittitle>3 photographs of the 96th Convention of Psi Upsilon Frat</unittitle>
 						</did>  
 					</c03><c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">2</container>
+							
+							<container label="unspecified" type="mapcase-folder">2</container>
 							<unitdate>1940, 1941, 1954, 1957</unitdate>
 							<unittitle>American Ornithologist Union</unittitle>
 						</did>  
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">2</container>
-							<unitdate/>
+							
+							<container label="unspecified" type="mapcase-folder">2</container>
+							
 							<unittitle>Joint Meeting of the American Trudeau Society - Tuberculosis Sanitoring Conference</unittitle>
 						</did>  
 					</c03>
@@ -1600,17 +1598,17 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">12</container>
-							<container type="folder">1</container>
-							<unitdate/>
+							<container label="unspecified" type="box">12</container>
+							<container label="unspecified" type="folder">1</container>
+							
 							<unittitle>Bird and Wildlife Illustrations - Series and Pamphlets</unittitle>
 						</did>
-						<scopecontent><p/></scopecontent>
+						
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">2</container>
 							<unitdate>1935-1987</unitdate>
 							<unittitle>Magazines</unittitle>
 						</did>
@@ -1618,18 +1616,18 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">4</container>
-							<unitdate>c.1949-1952</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">4</container>
+							<unitdate certainty="approximate">1949-1952</unitdate>
 							<unittitle>Bird and Outdoor Illustrations - Series and Pamphlets</unittitle>
 						</did>
 						<scopecontent><p>Includes a series of reproductions of "Exoctic Birds" by John Gould</p></scopecontent>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">23</container>
-							<unitdate/>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">23</container>
+							
 							<unittitle>Pamphlets and booklets relating to birding and other wildlife</unittitle>
 						</did>
 						<scopecontent><p>Includes a booklet entitled "History of Birds: For the Use of Children" from 1843</p></scopecontent>
@@ -1641,8 +1639,8 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">12</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">12</container>
+							<container label="unspecified" type="folder">2</container>
 							<unitdate>1965-1966</unitdate>
 							<unittitle>Bird Illustrations - Prints from the Riegel Portfolio of Carolina Birds</unittitle>
 						</did>
@@ -1650,48 +1648,48 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">12</container>
-							<container type="folder">3</container>
+							<container label="unspecified" type="box">12</container>
+							<container label="unspecified" type="folder">3</container>
 							<unitdate>1936-1984</unitdate>
 							<unittitle>Bird Illustrations</unittitle>
 						</did>				
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">12</container>
-							<container type="folder">4</container>
-							<unitdate/>
+							<container label="unspecified" type="box">12</container>
+							<container label="unspecified" type="folder">4</container>
+							
 							<unittitle>Bird Illustrations - Oversize</unittitle>
 						</did>				
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">12</container>
-							<container type="folder">5</container>
-							<unitdate/>
+							<container label="unspecified" type="box">12</container>
+							<container label="unspecified" type="folder">5</container>
+							
 							<unittitle>Posters</unittitle>
 						</did>	
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">3</container>
-							<unitdate/>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">3</container>
+							
 							<unittitle>Bird Illustrations</unittitle>
 						</did>	
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">24</container>
-							<unitdate/>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">24</container>
+							
 							<unittitle>Monographs, Clippings and Postcards of Birds</unittitle>
 						</did>					
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">1</container>
+							
+							<container label="unspecified" type="mapcase-folder">1</container>
 							<unitdate>1948</unitdate>
 							<unittitle>Article about Olin Pettingill</unittitle>
 						</did>   
@@ -1699,9 +1697,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="map-case"/>
-							<container type="folder">2</container>
-							<unitdate/>
+							
+							<container label="unspecified" type="mapcase-folder">2</container>
+							
 							<unittitle>Posters</unittitle>
 						</did>   
 						<scopecontent><p>Uruguay and Walt Disney's "Water Birds"</p></scopecontent>
@@ -1714,14 +1712,18 @@
 				</did>
 					<c02 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">5</container>
-							<unitdate/>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">5</container>
+							
 							<unittitle>Lecture Flyers and Sheet Music</unittitle>
 						</did>      
 					</c02>
 			</c01>
 			
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Olin Sewall Pettingill, Jr. papers, #4047. Division of Rare and Manuscript
+					Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

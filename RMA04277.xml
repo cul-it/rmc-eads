@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1"
-        scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us"
-            publicid="-//Cornell University: : Cornell University Library: : Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04277::Guide to the Bound for Glory records)//EN"
-            >RMMA04277</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University: : Cornell University Library: : Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04277::Guide to the Bound for Glory records)//EN">RMA04277</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Bound for Glory records,
@@ -32,24 +28,26 @@
         <profiledesc>
             <creation>Finding aid encoded by Evan Earle, <date>September 2017</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the Bound For Glory Records <lb/><date type="inclusive"
-                    encodinganalog="245$f">1969-2015.</date></titleproper>
+            <titleproper>Guide to the Bound For Glory Records <date encodinganalog="245$f" type="inclusive">1969-2015.</date></titleproper>
             <num>Collection Number: 35-9-4277</num>
-            <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+            <publisher>Division of Rare and Manuscript Collections Cornell University
                 Library</publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information: </label>
-                    <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-                        Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-                        255-3530<lb/> Fax: (607) 255-9524<lb/><extref
-                            href="mailto: rareref@cornell.edu"
-                            >rareref@cornell.edu</extref><lb/><extref
-                            href="http: //rmc.library.cornell.edu">http:
-                            //rmc.library.cornell.edu</extref><lb/></item>
+                    <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+                        Library Cornell University Ithaca, NY 14853 (607)
+                        255-3530 Fax: (607) 255-9524<extref href="mailto: rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http: //rmc.library.cornell.edu">http:
+                            //rmc.library.cornell.edu</extref></item>
                 </defitem>
                 <defitem>
                     <label>Compiled by: </label>
@@ -75,19 +73,19 @@
     <archdesc level="collection">
         <did>
             <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title: " encodinganalog="MARC 245">Bound for Glory records <unitdate
-                    encodinganalog="MARC 245" type="inclusive">1969-2015.</unitdate>
-            </unittitle>
+            <unittitle encodinganalog="MARC 245" label="Title: ">Bound for Glory records </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1969-2015.</unitdate>
             <unitid label="Collection Number: ">35-9-4277</unitid>
             <origination label="Creator: ">
                 <persname encodinganalog="100" normal="Shapiro, Phillip Donald   ">Shapiro, Phillip
                     Donald </persname>
             </origination>
-            <physdesc label="Quantity: " encodinganalog="MARC 300">
-                <extent>20</extent>
+            <physdesc encodinganalog="MARC 300" label="Quantity: ">
+                <extent>1 collection</extent>
+
+<extent>20</extent>
             </physdesc>
             <physdesc label="Forms of Material: ">Audioreels</physdesc>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">
+            <physdesc encodinganalog="MARC 300" label="Quantity:">
                 <extent>125</extent>
             </physdesc>
             <physdesc label="Forms of Material: ">gigabytes</physdesc>
@@ -99,11 +97,10 @@
                 spelling errors and song titles may have been generated from how the song sounded
                 not the actual title. Some notes also include markings to indicate songs that were
                 particularly notable.</abstract>
-            <langmaterial label="Language: ">Collection material in <language encodinganalog="041"
-                    langcode="eng">English</language></langmaterial>
+            <langmaterial label="Language: ">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
         </did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+            <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
             <p>Bound for Glory is North America's longest running live folk concert radio broadcast.
                 The show is broadcast live on WVBR 93.5 FM from Anabel Taylor Hall on the Cornell
                 University campus Sunday nights. While the name of the room where the show is
@@ -145,41 +142,11 @@
                 <genreform encodinganalog="MARC 655" source="aat">tape reels</genreform>
             </controlaccess>
         </controlaccess>
-        <descgrp>
-            <head id="a8">INFORMATION FOR USERS</head>
-
-            <userestrict>
-                <p>Audio reels TR-15957 through TR-15976 have been digitized as well as the track
-                    listing inserts in each of these reel cases.</p>
-            </userestrict>
-            <userestrict>
-                <p>Due to the fragility and potential degradation of moving image and sound
-                    recordings, viewing and listening is limited to items that have been digitized.
-                    If an item is in another media format, you may request to have the item
-                    digitized for access. Information on ordering access copies may be found on the
-                    Division of Rare and Manuscript Collections webpage.</p>
-            </userestrict>
-            <p>A portion of these recordings come from the collection of Doug Steinfeld. These tapes
-                were digitized by Steinfeld who remains in possession of the physical tapes. Some of
-                these recordings have a break from the initial recording when the tape was flipped
-                over during set two of the performance. The Steinfeld collection also contains a set
-                of Encore tapes. These tapes contain encores for shows that were not necessarily
-                included on the on air broadcast or on the show tape. </p>
-            <prefercite>
-                <head>Cite As: </head>
-                <p>Bound for Glory records, #35-9-4277. Division of Rare and Manuscript Collections,
-                    Cornell University Library.</p>
-            </prefercite>
-        </descgrp>
+        
         <relatedmaterial>
             <head id="a5">RELATED MATERIALS</head>
-            <p> See also WVBR records, #35-9-1739. <extref
-                    href="http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMA01739"
-                    show="new"
-                    >http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMA01739</extref>.</p>
-            <p>The Bound for Glory Documentary is available online here: <extref show="new"
-                    href="https://www.youtube.com/watch?v=iF3N2xA5RB8"
-                    >https://www.youtube.com/watch?v=iF3N2xA5RB8</extref></p>
+            <p> See also WVBR records, #35-9-1739. <extref href="http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMA01739" show="new">http://resolver.library.cornell.edu/cgi-bin/EADresolver?id=RMA01739</extref>.</p>
+            <p>The Bound for Glory Documentary is available online here: <extref href="https://www.youtube.com/watch?v=iF3N2xA5RB8" show="new">https://www.youtube.com/watch?v=iF3N2xA5RB8</extref></p>
         </relatedmaterial>
         <dsc type="combined">
             <head>CONTAINER LIST</head>
@@ -208,14 +175,14 @@
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15957</unitid>
                     <unitdate>September 28, 1969</unitdate>
                     <unittitle>Clint Swank</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 14<lb/>Bound for Glory Tape #: 8<lb/>Track: Side 1
-                        Track 1<lb/>Track list: Arrival; I Don't Amount to Much Without You; Mary,
+                    <p>Bound for Glory Show #: 14Bound for Glory Tape #: 8Track: Side 1
+                        Track 1Track list: Arrival; I Don't Amount to Much Without You; Mary,
                         Martha and John; August Circumstances; Empty Space; While the Getting is
                         Good; Volcanos; Twelve Turns to Midnight; Black; Here I Am Again; Peggy
                         [unreadable]; Halfway Up the Stairs</p>
@@ -223,285 +190,285 @@
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15957</unitid>
                     <unitdate>October 5, 1969</unitdate>
                     <unittitle>Tony Barnard and John Roberts</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 15<lb/>Bound for Glory Tape #: 8<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 15Bound for Glory Tape #: 8Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15957</unitid>
                     <unitdate>October 12, 1969</unitdate>
                     <unittitle>Howie Bursen and Bret Littlehales</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 16<lb/>Bound for Glory Tape #: 8<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 16Bound for Glory Tape #: 8Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15957</unitid>
                     <unitdate>October 19, 1969</unitdate>
                     <unittitle>Jon Sabin</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 17<lb/>Bound for Glory Tape #: 8<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 17Bound for Glory Tape #: 8Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15958</unitid>
                     <unitdate>October 26, 1969</unitdate>
                     <unittitle>Bill Destler and Doug Wright</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 18<lb/>Bound for Glory Tape #: 9<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 18Bound for Glory Tape #: 9Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15958</unitid>
                     <unitdate>November 2, 1969</unitdate>
                     <unittitle>Ken Perlman</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 19<lb/>Bound for Glory Tape #: 9<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 19Bound for Glory Tape #: 9Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15958</unitid>
                     <unitdate>November 9, 1969</unitdate>
                     <unittitle>Chris Bigelow</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 20<lb/>Bound for Glory Tape #: 9<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 20Bound for Glory Tape #: 9Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15958</unitid>
                     <unitdate>November 16, 1969</unitdate>
                     <unittitle>Gary Weiner, Pat Slaney, Walt Koken with Eddy Tuleja, Hugh Cregg and
                         Marty Lebenson</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 21<lb/>Bound for Glory Tape #: 9<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 21Bound for Glory Tape #: 9Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15959</unitid>
                     <unitdate>November 23, 1969</unitdate>
                     <unittitle>John Gréven, David Levine and Larry Eaton</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 22<lb/>Bound for Glory Tape #: 10<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 22Bound for Glory Tape #: 10Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15959</unitid>
                     <unitdate>December 7, 1969</unitdate>
                     <unittitle>Phil Shapiro</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 23<lb/>Bound for Glory Tape #: 10<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 23Bound for Glory Tape #: 10Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15959</unitid>
                     <unitdate>December 14, 1969</unitdate>
                     <unittitle>Meg Garvey and John Simson with Dennis Wesler</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 24<lb/>Bound for Glory Tape #: 10<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 24Bound for Glory Tape #: 10Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15959</unitid>
                     <unitdate>February 1, 1970</unitdate>
                     <unittitle>John Hostetter, Alan Sorvall, Dave Turner</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 25<lb/>Bound for Glory Tape #: 10<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 25Bound for Glory Tape #: 10Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15960</unitid>
                     <unitdate>February 8, 1970</unitdate>
                     <unittitle>Jon Sabin</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 26<lb/>Bound for Glory Tape #: 11<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 26Bound for Glory Tape #: 11Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15960</unitid>
                     <unitdate>February 15, 1970</unitdate>
                     <unittitle>Eric Mintz and Bill Destler</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 27<lb/>Bound for Glory Tape #: 11<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 27Bound for Glory Tape #: 11Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15960</unitid>
                     <unitdate>February 22, 1970</unitdate>
                     <unittitle>Charisse duBorgel</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 28<lb/>Bound for Glory Tape #: 11<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 28Bound for Glory Tape #: 11Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15960</unitid>
                     <unitdate>March 1, 1970</unitdate>
                     <unittitle>Russ Barenberg, Bret Littlehales, John Ellis and Howie
                         Bursen</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 29<lb/>Bound for Glory Tape #: 11<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 29Bound for Glory Tape #: 11Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15961</unitid>
                     <unitdate>March 8, 1970</unitdate>
                     <unittitle>Jeff Comaner</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 30<lb/>Bound for Glory Tape #: 12<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 30Bound for Glory Tape #: 12Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15961</unitid>
                     <unitdate>March 15, 1970</unitdate>
                     <unittitle>Clint Swank</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 31<lb/>Bound for Glory Tape #: 12<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 31Bound for Glory Tape #: 12Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15961</unitid>
                     <unitdate>March 22, 1970</unitdate>
                     <unittitle>Paul Geremia</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 32<lb/>Bound for Glory Tape #: 12<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 32Bound for Glory Tape #: 12Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15961</unitid>
                     <unitdate>April 12, 1970</unitdate>
                     <unittitle>Chris Bigelow</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 33<lb/>Bound for Glory Tape #: 12<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 33Bound for Glory Tape #: 12Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15962</unitid>
                     <unitdate>April 19, 1970</unitdate>
                     <unittitle>Ken Perlman</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 34<lb/>Bound for Glory Tape #: 13<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 34Bound for Glory Tape #: 13Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15962</unitid>
                     <unitdate>April 26, 1970</unitdate>
                     <unittitle>Dana Prisant, Harry Gordon, Dave Kent</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 35<lb/>Bound for Glory Tape #: 13<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 35Bound for Glory Tape #: 13Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15962</unitid>
                     <unitdate>May 3, 1970</unitdate>
                     <unittitle>Atley and Lydia</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 36<lb/>Bound for Glory Tape #: 13<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 36Bound for Glory Tape #: 13Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15962</unitid>
                     <unitdate>May 10, 1970</unitdate>
                     <unittitle>Charlie Starr</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 36<lb/>Bound for Glory Tape #: 13<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 36Bound for Glory Tape #: 13Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15963</unitid>
                     <unitdate>May 17, 1970</unitdate>
                     <unittitle>Folk Festival with John Roberts and Tony Barrand, Helen Schneyer,
@@ -510,13 +477,13 @@
                         Margaret MacArthur</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 37<lb/>Bound for Glory Tape #: 14<lb/>Track: Side 1
-                        and Side 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 37Bound for Glory Tape #: 14Track: Side 1
+                        and Side 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15964</unitid>
                     <unitdate>May 17, 1970</unitdate>
                     <unittitle>Folk Festival with John Roberts and Tony Barrand, Helen Schneyer,
@@ -525,499 +492,499 @@
                         Margaret MacArthur</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 38<lb/>Bound for Glory Tape #: 15<lb/>Track: Side
-                        1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 38Bound for Glory Tape #: 15Track: Side
+                        1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15965</unitid>
                     <unitdate>May 24, 1970</unitdate>
                     <unittitle>Howie Bursen</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 39<lb/>Bound for Glory Tape #: 16<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 39Bound for Glory Tape #: 16Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15965</unitid>
                     <unitdate>June 28, 1970</unitdate>
                     <unittitle>John Gréven</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 40<lb/>Bound for Glory Tape #: 16<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 40Bound for Glory Tape #: 16Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15965</unitid>
                     <unitdate>July 5, 1970</unitdate>
                     <unittitle>Charisse duBorgel</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 41<lb/>Bound for Glory Tape #: 16<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 41Bound for Glory Tape #: 16Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15965</unitid>
                     <unitdate>July 12, 1970</unitdate>
                     <unittitle>Bill Destler</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 41<lb/>Bound for Glory Tape #: 16<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 41Bound for Glory Tape #: 16Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15966</unitid>
                     <unitdate>July 19, 1970</unitdate>
                     <unittitle>John Roberts and Tony Barrand with Colett Curry and Ricki
                         Schneyer</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 42<lb/>Bound for Glory Tape #: 17<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 42Bound for Glory Tape #: 17Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15966</unitid>
                     <unitdate>July 19, 1970</unitdate>
                     <unittitle>John Roberts and Tony Barrand with Colett Curry and Ricki
                         Schneyer</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 43<lb/>Bound for Glory Tape #: 17<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 43Bound for Glory Tape #: 17Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15966</unitid>
                     <unitdate>July 26, 1970</unitdate>
                     <unittitle>Allen Sorval, Russ Barenberg, Gary Scheufler with Deena Zalkind and
                         Susan Longacre</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 44<lb/>Bound for Glory Tape #: 17<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 44Bound for Glory Tape #: 17Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15966</unitid>
                     <unitdate>August 2, 1970</unitdate>
                     <unittitle>Bill Vanaver</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 45<lb/>Bound for Glory Tape #: 17<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 45Bound for Glory Tape #: 17Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15966</unitid>
                     <unitdate>August 9, 1970</unitdate>
                     <unittitle>Contraband Countryband (Peter Wernick, Joan Nondi Leonard, Russ
                         Barenberg)</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 46<lb/>Bound for Glory Tape #: 17<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 46Bound for Glory Tape #: 17Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15967</unitid>
                     <unitdate>September 13, 1970</unitdate>
                     <unittitle>Clint Swank</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 47<lb/>Bound for Glory Tape #: 18<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 47Bound for Glory Tape #: 18Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15967</unitid>
                     <unitdate>September 20, 1970</unitdate>
                     <unittitle>John Roberts</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 48<lb/>Bound for Glory Tape #: 18<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 48Bound for Glory Tape #: 18Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15967</unitid>
                     <unitdate>September 27, 1970</unitdate>
                     <unittitle>Charisse duBorgel with Michele duBorgel</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 49<lb/>Bound for Glory Tape #: 18<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 49Bound for Glory Tape #: 18Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15967</unitid>
                     <unitdate>October 4, 1970</unitdate>
                     <unittitle>Dave Kent</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 50<lb/>Bound for Glory Tape #: 18<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 50Bound for Glory Tape #: 18Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15968</unitid>
                     <unitdate>October 11, 1970</unitdate>
                     <unittitle>John Miller</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 51<lb/>Bound for Glory Tape #: 19<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 51Bound for Glory Tape #: 19Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15968</unitid>
                     <unitdate>October 18, 1970</unitdate>
                     <unittitle>Howie Bursen</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 52<lb/>Bound for Glory Tape #: 19<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 52Bound for Glory Tape #: 19Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15968</unitid>
                     <unitdate>October 25, 1970</unitdate>
                     <unittitle>Bret Littlehales</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 53<lb/>Bound for Glory Tape #: 19<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 53Bound for Glory Tape #: 19Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15968</unitid>
                     <unitdate>November 1, 1970</unitdate>
                     <unittitle>Meg Garvey</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 54<lb/>Bound for Glory Tape #: 19<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 54Bound for Glory Tape #: 19Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15969</unitid>
                     <unitdate>November 8, 1970</unitdate>
                     <unittitle>John Roberts and Tony Barrand</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 55<lb/>Bound for Glory Tape #: 20<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 55Bound for Glory Tape #: 20Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15969</unitid>
                     <unitdate>November 15, 1970</unitdate>
                     <unittitle>Barbara Carns</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 56<lb/>Bound for Glory Tape #: 20<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 56Bound for Glory Tape #: 20Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15969</unitid>
                     <unitdate>November 22, 1970</unitdate>
                     <unittitle>Charlie Starr</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 57<lb/>Bound for Glory Tape #: 20<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 57Bound for Glory Tape #: 20Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15969</unitid>
                     <unitdate>November 29, 1970</unitdate>
                     <unittitle>Ted Wurmbrand</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 57<lb/>Bound for Glory Tape #: 20<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 57Bound for Glory Tape #: 20Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15970</unitid>
                     <unitdate>December 6, 1970</unitdate>
                     <unittitle>Bill Destler and Paul Geremia with Jack McGann</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 58<lb/>Bound for Glory Tape #: 21<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 58Bound for Glory Tape #: 21Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15970</unitid>
                     <unitdate>December 6, 1970</unitdate>
                     <unittitle>Bill Destler and Paul Geremia with Jack McGann</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 59<lb/>Bound for Glory Tape #: 21<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 59Bound for Glory Tape #: 21Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15970</unitid>
                     <unitdate>December 13, 1970</unitdate>
                     <unittitle>Chris Bigelow</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 60<lb/>Bound for Glory Tape #: 21<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 60Bound for Glory Tape #: 21Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15970</unitid>
                     <unitdate>January 10, 1971</unitdate>
                     <unittitle>Bill Destler</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 61<lb/>Bound for Glory Tape #: 21<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 61Bound for Glory Tape #: 21Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15970</unitid>
                     <unitdate>January 17, 1971</unitdate>
                     <unittitle>Gayle Barr</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 62<lb/>Bound for Glory Tape #: 21<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 62Bound for Glory Tape #: 21Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15971</unitid>
                     <unitdate>January 31, 1971</unitdate>
                     <unittitle>Clint Swank</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 63<lb/>Bound for Glory Tape #: 22<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 63Bound for Glory Tape #: 22Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15971</unitid>
                     <unitdate>February 7, 1971</unitdate>
                     <unittitle>Russ Barenberg, John Miller and Susan Longacre</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 64<lb/>Bound for Glory Tape #: 22<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 64Bound for Glory Tape #: 22Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15964</unitid>
                     <unitdate>February 14, 1971</unitdate>
                     <unittitle>Marathon with John Roberts and Tony Barrand, Grant Rogers, Dan Smith,
                         Howie Bursen, Estelle Wade, Jerry Epstein </unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 65<lb/>Bound for Glory Tape #: 15<lb/>Track: Side 1
-                        and Side 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 65Bound for Glory Tape #: 15Track: Side 1
+                        and Side 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15971</unitid>
                     <unitdate>February 21, 1971</unitdate>
                     <unittitle>Charisse duBorgel</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 66<lb/>Bound for Glory Tape #: 22<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 66Bound for Glory Tape #: 22Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15971</unitid>
                     <unitdate>February 28, 1971</unitdate>
                     <unittitle>Doug Wright</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 67<lb/>Bound for Glory Tape #: 22<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 67Bound for Glory Tape #: 22Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15972</unitid>
                     <unitdate>March 7, 1971</unitdate>
                     <unittitle>Ken Perlman</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 68<lb/>Bound for Glory Tape #: 23<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 68Bound for Glory Tape #: 23Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15972</unitid>
                     <unitdate>March 14, 1971</unitdate>
                     <unittitle>Bill Vanaver</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 69<lb/>Bound for Glory Tape #: 23<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 69Bound for Glory Tape #: 23Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15972</unitid>
                     <unitdate>March 21, 1971</unitdate>
                     <unittitle>Country Cookin' (Peter Wernick, Joan Nondi Leonard, Russ Barenberg,
                         John Miller)</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 70<lb/>Bound for Glory Tape #: 23<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 70Bound for Glory Tape #: 23Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15972</unitid>
                     <unitdate>April 11, 1971</unitdate>
                     <unittitle>Old Salt</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 71<lb/>Bound for Glory Tape #: 23<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 71Bound for Glory Tape #: 23Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15973</unitid>
                     <unitdate>April 18, 1971</unitdate>
                     <unittitle>John Miller</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 72<lb/>Bound for Glory Tape #: 24<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 72Bound for Glory Tape #: 24Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15973</unitid>
                     <unitdate>April 25, 1971</unitdate>
                     <unittitle>Howie Bursen</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 73<lb/>Bound for Glory Tape #: 24<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 73Bound for Glory Tape #: 24Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15973</unitid>
                     <unitdate>May 2, 1971</unitdate>
                     <unittitle>Dave Kent</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 74<lb/>Bound for Glory Tape #: 24<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 74Bound for Glory Tape #: 24Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15973</unitid>
                     <unitdate>May 9, 1971</unitdate>
                     <unittitle>John Simson</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 75<lb/>Bound for Glory Tape #: 24<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 75Bound for Glory Tape #: 24Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15974</unitid>
                     <unitdate>May 16, 1971</unitdate>
                     <unittitle>John Roberts and Tony Barrand</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 76<lb/>Bound for Glory Tape #: 25<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 76Bound for Glory Tape #: 25Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15975</unitid>
                     <unitdate>May 23, 1971</unitdate>
                     <unittitle>Folk Festival with John Roberts and Tony Barrand, Nick Krukovsky, Bob
@@ -1025,92 +992,92 @@
                         Ricki Schneyer, Janet Kelley, Peter Johnson</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 77<lb/>Bound for Glory Tape #: 26<lb/>Track: Side 1
-                        and Side 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 77Bound for Glory Tape #: 26Track: Side 1
+                        and Side 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15974</unitid>
                     <unitdate>June 27, 1971</unitdate>
                     <unittitle>Charlie Starr</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 78<lb/>Bound for Glory Tape #: 25<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 78Bound for Glory Tape #: 25Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15974</unitid>
                     <unitdate>July 4, 1971</unitdate>
                     <unittitle>Bill Destler</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 79<lb/>Bound for Glory Tape #: 25<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 79Bound for Glory Tape #: 25Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15974</unitid>
                     <unitdate>July 11, 1971</unitdate>
                     <unittitle>Gayle Barr</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 80<lb/>Bound for Glory Tape #: 25<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 80Bound for Glory Tape #: 25Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15976</unitid>
                     <unitdate>July 18, 1971</unitdate>
                     <unittitle>Ann Redfoot</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 81<lb/>Bound for Glory Tape #: 27<lb/>Track: Side 1
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 81Bound for Glory Tape #: 27Track: Side 1
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15976</unitid>
                     <unitdate>July 25, 1971</unitdate>
                     <unittitle>Andy Cohen and Rat</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 82<lb/>Bound for Glory Tape #: 27<lb/>Track: Side 2
-                        Track 1<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 82Bound for Glory Tape #: 27Track: Side 2
+                        Track 1Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15976</unitid>
                     <unitdate>August 1, 1971</unitdate>
                     <unittitle>John Roberts and Tony Barrand</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 83<lb/>Bound for Glory Tape #: 27<lb/>Track: Side 1
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 83Bound for Glory Tape #: 27Track: Side 1
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-15976</unitid>
                     <unitdate>September 5, 1971</unitdate>
                     <unittitle>Charlie Starr</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 84<lb/>Bound for Glory Tape #: 27<lb/>Track: Side 2
-                        Track 2<lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 84Bound for Glory Tape #: 27Track: Side 2
+                        Track 2Track list: </p>
                 </scopecontent>
             </c01>
 
@@ -1121,7 +1088,7 @@
                     <unittitle>Peggy Haine</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 261<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 261Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1131,7 +1098,7 @@
                     <unittitle>Peggy Haine</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 279<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 279Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1141,7 +1108,7 @@
                     <unittitle>Bill Staines</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 308<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 308Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1151,7 +1118,7 @@
                     <unittitle>Robin and Linda Williams</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 310<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 310Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1161,7 +1128,7 @@
                     <unittitle>Nick Seeger</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 336<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 336Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1171,7 +1138,7 @@
                     <unittitle>Bill Steele</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 337<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 337Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1181,7 +1148,7 @@
                     <unittitle>Stan Rogers</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 341<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 341Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1191,7 +1158,7 @@
                     <unittitle>Mark Rust</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 342<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 342Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1201,7 +1168,7 @@
                     <unittitle>Racquette River Rounders</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 343<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 343Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1211,7 +1178,7 @@
                     <unittitle>Robin and Linda Williams w/Peter Ostrushko</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 344<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 344Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1221,7 +1188,7 @@
                     <unittitle>Free Hollow</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 346<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 346Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1231,7 +1198,7 @@
                     <unittitle>Joyful Noise String Band w/Bob Wey</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 348<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 348Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1241,7 +1208,7 @@
                     <unittitle>Pierce Campbell and Dane Marion</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 349<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 349Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1251,7 +1218,7 @@
                     <unittitle>Bill Destler and Roger Sherman and Friends</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 350<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 350Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1261,7 +1228,7 @@
                     <unittitle>Alex Campbell</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 351?<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 351?Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1271,7 +1238,7 @@
                     <unittitle>Bill Steele</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 352<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 352Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1281,7 +1248,7 @@
                     <unittitle>Howie Bursen with T.L. Osborne, Doug Knowles, John Bailey</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 353<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 353Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1291,7 +1258,7 @@
                     <unittitle>Knock Na Sheen</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 354<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 354Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1301,7 +1268,7 @@
                     <unittitle>Gary Meixner</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 355<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 355Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1311,7 +1278,7 @@
                     <unittitle>Jane Voss and Hoyle Osborn</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 356<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 356Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1321,7 +1288,7 @@
                     <unittitle>The Backwoods Band</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 357<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 357Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1331,7 +1298,7 @@
                     <unittitle>Cayuga Bluegrass Works</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 358<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 358Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1341,7 +1308,7 @@
                     <unittitle>Fiction Brothers</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 359<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 359Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1351,7 +1318,7 @@
                     <unittitle>Mark Rust</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 360<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 360Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1361,7 +1328,7 @@
                     <unittitle>Carolyn Odell</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 361<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 361Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1371,7 +1338,7 @@
                     <unittitle>Diamond Back Rattlers</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 362<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 362Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1381,7 +1348,7 @@
                     <unittitle>Mose Scarlet and Jim McLean</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 363<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 363Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1391,7 +1358,7 @@
                     <unittitle>Bill Steele</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 364<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 364Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1401,7 +1368,7 @@
                     <unittitle>Cranberry Lake</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 365<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 365Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1411,7 +1378,7 @@
                     <unittitle>Peggy Haine, Dane Marion, Brian Earle, Johnny Russo</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 366<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 366Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1421,7 +1388,7 @@
                     <unittitle>Nick Seeger</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 367<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 367Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1431,7 +1398,7 @@
                     <unittitle>Gary Meixner</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 368<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 368Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1441,7 +1408,7 @@
                     <unittitle>Henrie Family</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 370<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 370Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1451,7 +1418,7 @@
                     <unittitle>Howie Bursen and Friends</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 371<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 371Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1461,7 +1428,7 @@
                     <unittitle>Roger Sherman</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 373<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 373Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1471,7 +1438,7 @@
                     <unittitle>Papa John Kolstad</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 374<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 374Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1481,7 +1448,7 @@
                     <unittitle>Robin and Linda Williams</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 375<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 375Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1491,7 +1458,7 @@
                     <unittitle>Mark Rust</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 376<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 376Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1501,7 +1468,7 @@
                     <unittitle>Rustical Quality String Band</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 377<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 377Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1511,7 +1478,7 @@
                     <unittitle>Backwoods Band</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 378<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 378Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1521,7 +1488,7 @@
                     <unittitle>Bob White and Kevin Maul</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 379<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 379Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1531,7 +1498,7 @@
                     <unittitle>Paul Geremia (with Roy Bookbinder)</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 379A?<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 379A?Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1541,7 +1508,7 @@
                     <unittitle>Press on Regardless Stringband</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 380<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 380Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1551,7 +1518,7 @@
                     <unittitle>Mitzi Collins and Skip Evans</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 381<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 381Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1561,7 +1528,7 @@
                     <unittitle>Bill Destler</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 382<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 382Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1571,7 +1538,7 @@
                     <unittitle>Joyful Noise String Band</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 383<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 383Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1581,7 +1548,7 @@
                     <unittitle>John McCutcheon</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 384<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 384Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1591,7 +1558,7 @@
                     <unittitle>Bill Staines</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 385<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 385Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1601,7 +1568,7 @@
                     <unittitle>Peggy Haine and the Lowdown Alligator Jass Band</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 387<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 387Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1611,7 +1578,7 @@
                     <unittitle>Bill Steele</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 388<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 388Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1621,7 +1588,7 @@
                     <unittitle>Desperado</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 389<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 389Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1631,7 +1598,7 @@
                     <unittitle>Gemini (Sandor and Lazlo Slomovits)</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 390<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 390Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1641,7 +1608,7 @@
                     <unittitle>Papa John Kolstad</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 391?<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 391?Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1651,7 +1618,7 @@
                     <unittitle>Scott Alarik</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 392<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 392Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1661,7 +1628,7 @@
                     <unittitle>Sally Rogers</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 393<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 393Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1671,7 +1638,7 @@
                     <unittitle>Cranberry Lake</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 394<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 394Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1681,7 +1648,7 @@
                     <unittitle>Wendy Grossman</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 395<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 395Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1691,7 +1658,7 @@
                     <unittitle>Priscilla Herdman</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 396<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 396Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1701,7 +1668,7 @@
                     <unittitle>Mark Rust</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 397<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 397Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1711,7 +1678,7 @@
                     <unittitle>Diamond Back Rattlers</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 398<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 398Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1721,7 +1688,7 @@
                     <unittitle>Lisa Null and Bill Shute</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 404<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 404Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1731,7 +1698,7 @@
                     <unittitle>Racquette River Rounders</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 405<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 405Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1741,7 +1708,7 @@
                     <unittitle>Robin and Linda Williams w/Jay Ungar and Lyndon Hardy</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 406<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 406Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1751,7 +1718,7 @@
                     <unittitle>Michael Green w/Cheryl Hurwitz</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 409<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 409Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1761,7 +1728,7 @@
                     <unittitle>Eric Thompson and Suzie Rothfield</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 410<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 410Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1771,7 +1738,7 @@
                     <unittitle>Polecat Bar Band w/Peter Bennett</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 412<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 412Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1781,7 +1748,7 @@
                     <unittitle>Bill Destler</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 413<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 413Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1791,7 +1758,7 @@
                     <unittitle>Joyful Noise String Band w/Bob Wey</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 414<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 414Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1801,7 +1768,7 @@
                     <unittitle>Wendy Grossman</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 415<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 415Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1811,7 +1778,7 @@
                     <unittitle>Claudio Buchwald and the Razor Lickers</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 416<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 416Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1821,7 +1788,7 @@
                     <unittitle>Carolyn O'Dell</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 418<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 418Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1831,7 +1798,7 @@
                     <unittitle>Spiritwood</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 419<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 419Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1841,7 +1808,7 @@
                     <unittitle>Scott Alarik</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 420<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 420Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1852,7 +1819,7 @@
                         Maul)</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 421<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 421Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1862,7 +1829,7 @@
                     <unittitle>Geoff Bartley</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 422<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 422Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1872,7 +1839,7 @@
                     <unittitle>Papa John Kolstad</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 423<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 423Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1882,7 +1849,7 @@
                     <unittitle>Caryl P. Weiss</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 424<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 424Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1892,7 +1859,7 @@
                     <unittitle>Bristol Mountain Bluegrass</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 425<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 425Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1902,7 +1869,7 @@
                     <unittitle>Cranberry Lake</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 426<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 426Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1913,7 +1880,7 @@
                         Krukovsky</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 428<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 428Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1923,7 +1890,7 @@
                     <unittitle>Peggy Haine and the Lowdown Alligator Jass Band</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 429<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 429Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1933,7 +1900,7 @@
                     <unittitle>Andy Wallace and Friends</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 456<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 456Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1943,7 +1910,7 @@
                     <unittitle>Bristol Mountain Bluegrass</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 457<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 457Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1953,7 +1920,7 @@
                     <unittitle>Peggy Haine and the Lowdown Alligator Jass Band</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 458?<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 458?Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1963,18 +1930,18 @@
                     <unittitle>Scott Alarik</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 459<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 459Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17858</unitid>
                     <unitdate>November 7, 1982</unitdate>
                     <unittitle>Scott Alarik</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 459<lb/>Marie McRae collection</p>
+                    <p>Bound for Glory Show #: 459Marie McRae collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1984,7 +1951,7 @@
                     <unittitle>Gary Meixner</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 460<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 460Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -1994,7 +1961,7 @@
                     <unittitle>Sally Rogers</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 461<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 461Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -2004,7 +1971,7 @@
                     <unittitle>Polecat Bar Band</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 469<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 469Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -2014,7 +1981,7 @@
                     <unittitle>Michael Jerling w/Bob Warren</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 471<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 471Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -2024,7 +1991,7 @@
                     <unittitle>Robin and Linda Williams</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 476<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 476Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -2034,18 +2001,18 @@
                     <unittitle>Dady Brothers and Phil Shapiro</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 483<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 483Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17861</unitid>
                     <unitdate>October 21, 1984</unitdate>
                     <unittitle>Sally Rogers and Howie Bursen</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 524<lb/>Marie McRae collection</p>
+                    <p>Bound for Glory Show #: 524Marie McRae collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
@@ -2055,490 +2022,490 @@
                     <unittitle>Rosalie Sorrels</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 576<lb/>Doug Steinfeld collection</p>
+                    <p>Bound for Glory Show #: 576Doug Steinfeld collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17863</unitid>
                     <unitdate>May 4, 1986</unitdate>
                     <unittitle>Rosalie Sorrels</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 576<lb/>Marie McRae collection</p>
+                    <p>Bound for Glory Show #: 576Marie McRae collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17864</unitid>
                     <unitdate>November 9, 1986</unitdate>
                     <unittitle>Fred Small</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 592<lb/>Marie McRae collection</p>
+                    <p>Bound for Glory Show #: 592Marie McRae collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17865</unitid>
                     <unitdate>April 10, 1988</unitdate>
                     <unittitle>Bill Staines</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 638<lb/>Marie McRae collection</p>
+                    <p>Bound for Glory Show #: 638Marie McRae collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17871</unitid>
                     <unitdate>September 2, 1990</unitdate>
                     <unittitle>Stout</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 715<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 715Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17912</unitid>
                     <unitdate>September 2, 1990</unitdate>
                     <unittitle>Stout</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 715<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 715Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17872</unitid>
                     <unitdate>September 9, 1990</unitdate>
                     <unittitle>Bob Franke</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 716<lb/>Jerry Barrett collection<lb/>Date on label is
+                    <p>Bound for Glory Show #: 716Jerry Barrett collectionDate on label is
                         September 8, 1990</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17873</unitid>
                     <unitdate>September 9, 1990</unitdate>
                     <unittitle>Bob Franke</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 716<lb/>Jerry Barrett collection<lb/>Date on label is
+                    <p>Bound for Glory Show #: 716Jerry Barrett collectionDate on label is
                         September 8, 1990</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17874</unitid>
                     <unitdate>September 30, 1990</unitdate>
                     <unittitle>Tim Keller</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 719<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 719Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17875</unitid>
                     <unitdate>October 14, 1990</unitdate>
                     <unittitle>Kristina Olsen</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 720<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 720Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17876</unitid>
                     <unitdate>November 18, 1990</unitdate>
                     <unittitle>Peter Ostroushko and Dean McGraw</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 725<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 725Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17914</unitid>
                     <unitdate>November 18, 1990</unitdate>
                     <unittitle>Peter Ostroushko and Dean McGraw</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 725<lb/>Jerry Barrett collection<lb/>Also labeled
+                    <p>Bound for Glory Show #: 725Jerry Barrett collectionAlso labeled
                         with dates March 21, 1999, April 3, 1999, and October 24, 1999</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17881</unitid>
                     <unitdate>October 6, 1991</unitdate>
                     <unittitle>Douglas and Willa Porter</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 753<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 753Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17883</unitid>
                     <unitdate>October 6, 1991</unitdate>
                     <unittitle>Douglas and Willa Porter</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 753<lb/>Jerry Barrett collection<lb/>Also labeled
+                    <p>Bound for Glory Show #: 753Jerry Barrett collectionAlso labeled
                         with dates May 22, 1999 and August 8, 1999</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17886</unitid>
                     <unitdate>October 20, 1991</unitdate>
                     <unittitle>Dady Brothers</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 754<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 754Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17887</unitid>
                     <unitdate>October 20, 1991</unitdate>
                     <unittitle>Dady Brothers</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 754<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 754Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17889</unitid>
                     <unitdate>January 19, 1992</unitdate>
                     <unittitle>Chuck Pyle</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 761<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 761Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17890</unitid>
                     <unitdate>April 12, 1992</unitdate>
                     <unittitle>Lou and Peter Berryman</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 771<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 771Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17891</unitid>
                     <unitdate>April 12, 1992</unitdate>
                     <unittitle>Lou and Peter Berryman</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 771<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 771Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17892</unitid>
                     <unitdate>April 26, 1992</unitdate>
                     <unittitle>Woods Tea Company</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 773<lb/>Jerry Barrett collection<lb/>Date on label is
+                    <p>Bound for Glory Show #: 773Jerry Barrett collectionDate on label is
                         April 25, 1992</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17893</unitid>
                     <unitdate>April 26, 1992</unitdate>
                     <unittitle>Woods Tea Company</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 773<lb/>Jerry Barrett collection<lb/>Date on label is
+                    <p>Bound for Glory Show #: 773Jerry Barrett collectionDate on label is
                         April 25, 1992</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17894</unitid>
                     <unitdate>May 3, 1992</unitdate>
                     <unittitle>Catie Curtis</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 774<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 774Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17895</unitid>
                     <unitdate>June 21, 1992</unitdate>
                     <unittitle>Dan Berggren and the Newton Street Irregulars</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 775<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 775Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17896</unitid>
                     <unitdate>July 5, 1992</unitdate>
                     <unittitle>McDonnell/Tane</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 777<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 777Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17897</unitid>
                     <unitdate>July 5, 1992</unitdate>
                     <unittitle>McDonnell/Tane</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 777<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 777Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17900</unitid>
                     <unitdate>September 26, 1993</unitdate>
                     <unittitle>Mark Rust</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 818<lb/>Jerry Barrett collection<lb/>Date on label is
+                    <p>Bound for Glory Show #: 818Jerry Barrett collectionDate on label is
                         September 30, 1993</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17901</unitid>
                     <unitdate>September 26, 1993</unitdate>
                     <unittitle>Mark Rust</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 818<lb/>Jerry Barrett collection<lb/>Date on label is
+                    <p>Bound for Glory Show #: 818Jerry Barrett collectionDate on label is
                         September 30, 1993</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17903</unitid>
                     <unitdate>September 3, 1995</unitdate>
                     <unittitle>Mark Rust</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 874<lb/>Jerry Barrett collection<lb/>Date on label is
+                    <p>Bound for Glory Show #: 874Jerry Barrett collectionDate on label is
                         September 4, 1995</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17904</unitid>
                     <unitdate>September 3, 1995</unitdate>
                     <unittitle>Mark Rust</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 874<lb/>Jerry Barrett collection<lb/>Date on label is
+                    <p>Bound for Glory Show #: 874Jerry Barrett collectionDate on label is
                         September 4, 1995</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17905</unitid>
                     <unitdate>October 29, 1995</unitdate>
                     <unittitle>Chris Shaw</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 881<lb/>Jerry Barrett collection<lb/>Date on label is
+                    <p>Bound for Glory Show #: 881Jerry Barrett collectionDate on label is
                         October 28, 1995</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17906</unitid>
                     <unitdate>October 29, 1995</unitdate>
                     <unittitle>Chris Shaw</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 881<lb/>Jerry Barrett collection<lb/>Date on label is
+                    <p>Bound for Glory Show #: 881Jerry Barrett collectionDate on label is
                         October 28, 1995</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17907</unitid>
                     <unitdate>December 3, 1995</unitdate>
                     <unittitle>Amy Gallatin</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 885<lb/>Jerry Barrett collection<lb/>Date on label is
+                    <p>Bound for Glory Show #: 885Jerry Barrett collectionDate on label is
                         December 2, 1995. Also listed on label: Country Sampler; E Town Judy
                         Collins</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17909</unitid>
                     <unitdate>January 19, 1997</unitdate>
                     <unittitle>John Kirk and Trish Miller</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 917<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 917Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17908</unitid>
                     <unitdate>April 20, 1997</unitdate>
                     <unittitle>Bill Staines</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 928<lb/>Jerry Barrett collection<lb/>Also labeled
+                    <p>Bound for Glory Show #: 928Jerry Barrett collectionAlso labeled
                         with date October 24, 1999</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17910</unitid>
                     <unitdate>April 20, 1997</unitdate>
                     <unittitle>Bill Staines</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 928<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 928Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17911</unitid>
                     <unitdate>May 3, 1998</unitdate>
                     <unittitle>Garnet Rogers</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 964<lb/>Jerry Barrett collection<lb/>Also labeled
+                    <p>Bound for Glory Show #: 964Jerry Barrett collectionAlso labeled
                         with date October 28, 1990</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-17143</unitid>
                     <unitdate>June 28, 1998</unitdate>
                     <unittitle>Simple Gifts</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 965<lb/>Bound for Glory Tape #: <lb/>Track:
-                        <lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 965Bound for Glory Tape #: Track:
+                        Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-17144</unitid>
                     <unitdate>July 5, 1998</unitdate>
                     <unittitle>Ned Lucas with Joel T. Johnson</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 966<lb/>Bound for Glory Tape #: <lb/>Track:
-                        <lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 966Bound for Glory Tape #: Track:
+                        Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid>tr-17145</unitid>
                     <unitdate>July 12, 1998</unitdate>
                     <unittitle>Maria Sangiolo</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 967<lb/>Bound for Glory Tape #: <lb/>Track:
-                        <lb/>Track list: </p>
+                    <p>Bound for Glory Show #: 967Bound for Glory Tape #: Track:
+                        Track list: </p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17913</unitid>
                     <unitdate>February 21, 1999</unitdate>
                     <unittitle>Mac Benford, Walt Koken, Bob Potts</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 989<lb/>Jerry Barrett collection<lb/>Also listed on
+                    <p>Bound for Glory Show #: 989Jerry Barrett collectionAlso listed on
                         label: 50s folk singer women</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17915</unitid>
                     <unitdate>March 4, 2001</unitdate>
                     <unittitle>Mark Rust</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 1058<lb/>Jerry Barrett collection<lb/>Also labeled
+                    <p>Bound for Glory Show #: 1058Jerry Barrett collectionAlso labeled
                         with date April 24, 2000</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17916</unitid>
                     <unitdate>April 8, 2001</unitdate>
                     <unittitle>Bill Staines</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 1061<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 1061Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
             <c01 level="item">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid>tr-17917</unitid>
                     <unitdate>April 8, 2001</unitdate>
                     <unittitle>Bill Staines</unittitle>
                 </did>
                 <scopecontent>
-                    <p>Bound for Glory Show #: 1061<lb/>Jerry Barrett collection</p>
+                    <p>Bound for Glory Show #: 1061Jerry Barrett collection</p>
                 </scopecontent>
             </c01>
 
@@ -2553,7 +2520,7 @@
                         <unittitle>Bound For Glory - Encores I</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: 375 - 394<lb/>Doug Steinfeld collection</p>
+                        <p>Bound for Glory Show #: 375 - 394Doug Steinfeld collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
@@ -2562,7 +2529,7 @@
                         <unittitle>Bound For Glory - Encores II</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: 393 - 416<lb/>Doug Steinfeld collection</p>
+                        <p>Bound for Glory Show #: 393 - 416Doug Steinfeld collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
@@ -2571,7 +2538,7 @@
                         <unittitle>Encores Fall '80</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: 375 - 394<lb/>Doug Steinfeld collection</p>
+                        <p>Bound for Glory Show #: 375 - 394Doug Steinfeld collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
@@ -2581,7 +2548,7 @@
                             09-Aug-1981)</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: 393 - 416<lb/>Doug Steinfeld collection</p>
+                        <p>Bound for Glory Show #: 393 - 416Doug Steinfeld collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
@@ -2591,7 +2558,7 @@
                             thru #425 08-Nov-1981)</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: 418 - 425<lb/>Doug Steinfeld collection</p>
+                        <p>Bound for Glory Show #: 418 - 425Doug Steinfeld collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
@@ -2601,7 +2568,7 @@
                             #483 07-Aug-1983)</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: 428 - 483<lb/>Doug Steinfeld collection</p>
+                        <p>Bound for Glory Show #: 428 - 483Doug Steinfeld collection</p>
                     </scopecontent>
                 </c02>
             </c01>
@@ -2611,235 +2578,253 @@
                 </did>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17859</unitid>
                         <unitdate>December 25, 1983</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Marie McRae collection</p>
+                        <p>Bound for Glory Show #: unknownMarie McRae collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17860</unitid>
                         <unitdate>December 25, 1983</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Marie McRae collection</p>
+                        <p>Bound for Glory Show #: unknownMarie McRae collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17862</unitid>
                         <unitdate>May 19, 1985</unitdate>
                         <unittitle>Bill Staines</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Marie McRae collection</p>
+                        <p>Bound for Glory Show #: unknownMarie McRae collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17869</unitid>
                         <unitdate>August 26, 1990</unitdate>
                         <unittitle>Pete Seger</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Jerry Barrett collection</p>
+                        <p>Bound for Glory Show #: unknownJerry Barrett collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17870</unitid>
                         <unitdate>August 26, 1990</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Jerry Barrett collection<lb/>On
+                        <p>Bound for Glory Show #: unknownJerry Barrett collectionOn
                             label: Queen</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17877</unitid>
                         <unitdate>December 16, 1990</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Jerry Barrett collection</p>
+                        <p>Bound for Glory Show #: unknownJerry Barrett collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17878</unitid>
                         <unitdate>January 6, 1991</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Jerry Barrett collection</p>
+                        <p>Bound for Glory Show #: unknownJerry Barrett collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17879</unitid>
                         <unitdate>January 6, 1991</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Jerry Barrett collection<lb/>Also
+                        <p>Bound for Glory Show #: unknownJerry Barrett collectionAlso
                             labeled with date March 4, 2001 and performer Mark Rust</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17880</unitid>
                         <unitdate>January 13, 1991</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Jerry Barrett collection<lb/>On
+                        <p>Bound for Glory Show #: unknownJerry Barrett collectionOn
                             label: "None Such" and "Wizard of Oz, Billy Wizard, Blackbird Song Side
                             A"</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17884</unitid>
                         <unitdate>October 13, 1991</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Jerry Barrett collection</p>
+                        <p>Bound for Glory Show #: unknownJerry Barrett collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17885</unitid>
                         <unitdate>October 13, 1991</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Jerry Barrett collection<lb/>Also
+                        <p>Bound for Glory Show #: unknownJerry Barrett collectionAlso
                             labeled with dates October 14, 1990 and September 15, 1991</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17888</unitid>
                         <unitdate>December 15, 1991</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Jerry Barrett collection</p>
+                        <p>Bound for Glory Show #: unknownJerry Barrett collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17898</unitid>
                         <unitdate>January 17, 1993</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Jerry Barrett collection</p>
+                        <p>Bound for Glory Show #: unknownJerry Barrett collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17899</unitid>
                         <unitdate>August 15, 1993</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Jerry Barrett collection<lb/>Date on
+                        <p>Bound for Glory Show #: unknownJerry Barrett collectionDate on
                             label is August 14, 1993; label also lists "Country Sampler and
                             Town"</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17918</unitid>
                         <unitdate>August 15, 1993</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Jerry Barrett collection</p>
+                        <p>Bound for Glory Show #: unknownJerry Barrett collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17902</unitid>
                         <unitdate>March 13, 1994</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Jerry Barrett collection<lb/>Date on
+                        <p>Bound for Glory Show #: unknownJerry Barrett collectionDate on
                             label is March 12, 1994</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17882</unitid>
                         <unitdate>March 17, 1996</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Jerry Barrett collection</p>
+                        <p>Bound for Glory Show #: unknownJerry Barrett collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17866</unitid>
                         <unitdate>Date unknown</unitdate>
                         <unittitle>Performer unknown</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Marie McRae collection</p>
+                        <p>Bound for Glory Show #: unknownMarie McRae collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17867</unitid>
                         <unitdate>Date unknown</unitdate>
                         <unittitle>Wicky Sears</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Marie McRae collection</p>
+                        <p>Bound for Glory Show #: unknownMarie McRae collection</p>
                     </scopecontent>
                 </c02>
                 <c02 level="item">
                     <did>
-                        <container type="box">2</container>
+                        <container label="unspecified" type="box">2</container>
                         <unitid>tr-17868</unitid>
                         <unitdate>Date unknown</unitdate>
                         <unittitle>Dady Brothers</unittitle>
                     </did>
                     <scopecontent>
-                        <p>Bound for Glory Show #: unknown<lb/>Marie McRae collection</p>
+                        <p>Bound for Glory Show #: unknownMarie McRae collection</p>
                     </scopecontent>
                 </c02>
 
 
             </c01>
         </dsc>
-    </archdesc>
+    <odd><p>A portion of these recordings come from the collection of Doug Steinfeld. These tapes
+                were digitized by Steinfeld who remains in possession of the physical tapes. Some of
+                these recordings have a break from the initial recording when the tape was flipped
+                over during set two of the performance. The Steinfeld collection also contains a set
+                of Encore tapes. These tapes contain encores for shows that were not necessarily
+                included on the on air broadcast or on the show tape. </p></odd><userestrict>
+                <p>Audio reels TR-15957 through TR-15976 have been digitized as well as the track
+                    listing inserts in each of these reel cases.</p>
+            </userestrict><userestrict>
+                <p>Due to the fragility and potential degradation of moving image and sound
+                    recordings, viewing and listening is limited to items that have been digitized.
+                    If an item is in another media format, you may request to have the item
+                    digitized for access. Information on ordering access copies may be found on the
+                    Division of Rare and Manuscript Collections webpage.</p>
+            </userestrict><prefercite>
+                <head>Cite As: </head>
+                <p>Bound for Glory records, #35-9-4277. Division of Rare and Manuscript Collections,
+                    Cornell University Library.</p>
+            </prefercite></archdesc>
 </ead>

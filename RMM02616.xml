@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02616::Barry Goldwater papers)//EN">RMM02616</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02616::Barry Goldwater papers)//EN">RMM02616</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Barry Goldwater papers, 1964-1965.</titleproper>
@@ -27,6 +26,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -35,19 +40,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Barry Goldwater Papers,<lb/>1964-1965</titleproper>
+         <titleproper>Guide to the Barry Goldwater Papers,1964-1965</titleproper>
          <num>Collection Number: 2616</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -72,14 +77,15 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Barry Goldwater papers, <unitdate type="inclusive" encodinganalog="MARC 245">1964-1965.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Barry Goldwater papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1964-1965.</unitdate>
          <unitid label="Collection Number:">2616</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Goldwater, Barry(Barry Morris), 1909-">Barry
                Goldwater, 1909-</persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>8 reels positive, 8 reels negative
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>8 reels positive, 8 reels negative
             microfilm.</extent></physdesc>
          <physdesc label="Forms of Material:">Campaign letters, newspaper clippings, pamphlets, and
             other materials.</physdesc>
@@ -94,7 +100,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>Barry M. Goldwater, an Arizona senator, was a United States presidential candidate in
             1964.</p>
       </bioghist>
@@ -128,19 +134,12 @@
             <geogname encodinganalog="MARC 651">United States--Politics and government.</geogname>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Barry Goldwater papers, #2616. Division of Rare and Manuscript Collections, Cornell
-               University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="file">
             <did>
-               <container type="reel">1</container>
+               <container label="unspecified" type="reel">1</container>
                <unitdate>Oct. 22, 1964-Jan. 12, 1965</unitdate>
                <unittitle>Incoming correspondence, newspaper clippings, pamphlets, and materials
                   related to the campaign from Republican National Committeemen, state and U.S.
@@ -151,7 +150,7 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="reel">2</container>
+               <container label="unspecified" type="reel">2</container>
                <unitdate>Jan. 13-Feb. 6, 1965</unitdate>
                <unittitle>Incoming correspondence including enclosures of newspaper articles,
                   pamphlets, leaflets (mostly conservative), poetry and periodicals relating to the
@@ -166,7 +165,7 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="reel">3</container>
+               <container label="unspecified" type="reel">3</container>
                <unitdate>Feb. 7-Mar. 11, 1965</unitdate>
                <unittitle>Incoming correspondence including the types of enclosures to be found in
                   Reel 2. Primarily expressions of regret at Mr. Goldwater's defeat.</unittitle>
@@ -174,14 +173,14 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="reel">4</container>
+               <container label="unspecified" type="reel">4</container>
                <unitdate>Mar. 12-Apr. 15, 1965</unitdate>
                <unittitle>Ibid.</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="reel">5</container>
+               <container label="unspecified" type="reel">5</container>
                <unitdate>Apr. 16-June 6, 1965</unitdate>
                <unittitle>Largely incoming letters concerning Goldwater's defeat, the Republican
                   Party, Senator Thomas Dodd's Gun Control Bill #1592, civil rights, conservative
@@ -190,7 +189,7 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="reel">6</container>
+               <container label="unspecified" type="reel">6</container>
                <unitdate>June 7-July 20, 1965</unitdate>
                <unittitle>Incoming correspondence with enclosures concerning the movement of
                   Goldwater voters toward a conservative third party in view of what these voters
@@ -200,7 +199,7 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="reel">7</container>
+               <container label="unspecified" type="reel">7</container>
                <unitdate>July 21-Nov. 7, 1965</unitdate>
                <unittitle>Correspondence re: Mr. Goldwater's back operation, Bliss' leadership of
                   the Republican National Committee, and Mr. Goldwater's statement denouncing Robert
@@ -210,12 +209,16 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="reel">8</container>
+               <container label="unspecified" type="reel">8</container>
                <unitdate>Nov. 8-Jan. 27, 1965, n.d.</unitdate>
                <unittitle>Incoming correspondence largely related to the John Birch
                   Society.</unittitle>
             </did>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Barry Goldwater papers, #2616. Division of Rare and Manuscript Collections, Cornell
+               University Library.</p>
+         </prefercite></archdesc>
 </ead>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06964::Guide to the Jack and Inger Gilbert papers)//EN">RMM06964</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06964::Guide to the Jack and Inger Gilbert papers)//EN">RMM06964</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Jack and Inger Gilbert
@@ -23,19 +23,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>October 2011</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Jack And Inger Gilbert Papers,<lb/><date type="inclusive" encodinganalog="245$f">1963-2009.</date></titleproper>
+			<titleproper>Guide to the Jack And Inger Gilbert Papers,<date encodinganalog="245$f" type="inclusive">1963-2009.</date></titleproper>
 			<num>Collection Number: 6964</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -61,12 +67,11 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Jack and Inger Gilbert papers,
-					<unitdate encodinganalog="MARC 245" type="inclusive">1963-2009.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Jack and Inger Gilbert papers,
+					</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1963-2009.</unitdate>
 			<unitid label="Collection Number:">6964</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Gilbert, John J., ">John J. Gilbert </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>8 cubic feet.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>8 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">{**Comma Separated List Of Material Formats, Use
 				Menu in XMetaL; End With Period**.}</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -76,7 +81,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Jack Gilbert graduated from Cornell with a degree in Civil Engineering in 1949. Inger
 				Molmen Gilbert graduated in 1949 with a degree in Home Economics.</p>
 		</bioghist>
@@ -119,19 +124,12 @@
 					travel.</geogname>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Jack and Inger Gilbert papers, #6964. Division of Rare and Manuscript
-					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Scrapbook ">1</unitid>
 					<unitdate>June 28, 1963 - June 27 1975</unitdate>
 					<unittitle>Travels to Norway and Great Britain; Visits with family </unittitle>
@@ -152,7 +150,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Scrapbook ">2</unitid>
 					<unitdate>June 11, 1976 - June 8 1982</unitdate>
 					<unittitle>Trips to Norway</unittitle>
@@ -163,7 +161,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Scrapbook ">3</unitid>
 					<unitdate>August 4, 1983 - June 6, 1986</unitdate>
 					<unittitle>Trips to Norway, Scotland, Ireland</unittitle>
@@ -174,7 +172,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Scrapbook ">4</unitid>
 					<unitdate>May 15, 1988 - November 19, 1989</unitdate>
 					<unittitle>Trips to Norway and Alaska</unittitle>
@@ -185,7 +183,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Scrapbook ">5</unitid>
 					<unitdate>Summer 1990</unitdate>
 					<unittitle>Trip to family reunion in Norway</unittitle>
@@ -196,7 +194,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Scrapbook ">6</unitid>
 					<unitdate>September 1, 1990 - October 4, 1990</unitdate>
 					<unittitle>Trips to New York, Halifax, Outer Banks</unittitle>
@@ -207,7 +205,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Scrapbook ">7</unitid>
 					<unitdate>February 22, 1991 - June 18, 1991</unitdate>
 					<unittitle>Trips to Flordia, Maryland, Europe</unittitle>
@@ -218,7 +216,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Scrapbook ">8</unitid>
 					<unitdate>May 3, 1991 - June 28, 1991</unitdate>
 					<unittitle>Trip to Europe</unittitle>
@@ -229,7 +227,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Scrapbook ">9</unitid>
 					<unitdate>October 11, 1991 - November 1992</unitdate>
 					<unittitle>Cornell Adult University Trips</unittitle>
@@ -240,7 +238,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Scrapbook ">10</unitid>
 					<unitdate>January 16, 1992 - June 1992</unitdate>
 					<unittitle>Trips to Norway and Delmar Beach</unittitle>
@@ -251,7 +249,7 @@
 			</c01>
 				<c01 level="item">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Scrapbook ">11</unitid>
 					<unitdate>July 10, 1993 - July 25, 1993</unitdate>
 					<unittitle>Trip to New York City</unittitle>
@@ -262,7 +260,7 @@
 				</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Scrapbook ">12</unitid>
 					<unitdate>January 16, 1994 - April 3, 1995</unitdate>
 					<unittitle>Trip to New Smyrna Beach, Flordia</unittitle>
@@ -273,7 +271,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Scrapbook ">13</unitid>
 					<unitdate>August 5, 1996 - September 7, 1996</unitdate>
 					<unittitle>Cornell Adult University Trip</unittitle>
@@ -284,7 +282,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Scrapbook ">14</unitid>
 					<unitdate>January, 1997 - August 11, 1997</unitdate>
 					<unittitle>Trip to New York City and Belize</unittitle>
@@ -295,7 +293,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Scrapbook ">15</unitid>
 					<unitdate>December 29, 1997 - April 24, 1999</unitdate>
 					<unittitle>Trips to New Smyrna Beach, Florida, Rochester, New York and New York City, New York</unittitle>
@@ -306,7 +304,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Scrapbook ">16</unitid>
 					<unitdate>January 27, 2000 - March 20, 2000</unitdate>
 					<unittitle>South Africa Trip and Charleston, South Carolina</unittitle>
@@ -317,7 +315,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Scrapbook ">17</unitid>
 					<unitdate>September 1, 2000- September 28, 2000</unitdate>
 					<unittitle>Trip from Ithaca, New York to St Anthony, Newfoundland</unittitle>
@@ -329,7 +327,7 @@
 			
 			<c01 level="item">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Scrapbook ">18</unitid>
 					<unitdate>September 1, 2000- September 28, 2000</unitdate>
 					<unittitle>Continuation of trip from Ithaca, New York to St Anthony, Newfoundland</unittitle>
@@ -340,7 +338,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Scrapbook ">19</unitid>
 					<unitdate>January 4, 2000 - May 6, 2000</unitdate>
 					<unittitle>Trip to North Carolina, New Jersey, Virginia and Maryland</unittitle>
@@ -351,7 +349,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Scrapbook ">20</unitid>
 					<unitdate>August 12, 2001 - September 9, 2001</unitdate>
 					<unittitle>Trip to the British Isles, Cornell Adult University Trip</unittitle>
@@ -362,7 +360,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Scrapbook ">21</unitid>
 					<unitdate>August 24, 2001 - September 9, 2001</unitdate>
 					<unittitle>Visit to Scotland</unittitle>
@@ -373,7 +371,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Scrapbook ">22</unitid>
 					<unitdate>December 8, 2001 - July 5, 2001</unitdate>
 					<unittitle>Trip to New York and New England Cruise</unittitle>
@@ -384,7 +382,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Scrapbook ">23</unitid>
 					<unitdate>March 3, 2002 - April 5, 2002</unitdate>
 					<unittitle>Trip to Caribbean</unittitle>
@@ -395,7 +393,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Scrapbook ">24</unitid>
 					<unitdate>April 9, 2003 - August 23, 2003</unitdate>
 					<unittitle>Trip to Montreal and England</unittitle>
@@ -406,7 +404,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Scrapbook ">25</unitid>
 					<unitdate>August 23, 2003 - December 23, 2003</unitdate>
 					<unittitle>Trip to Channel Islands and New Orleans</unittitle>
@@ -417,7 +415,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Scrapbook ">26</unitid>
 					<unitdate>June 30, 2004 - March 2, 2005</unitdate>
 					<unittitle>Cruise and trip to New York</unittitle>
@@ -428,7 +426,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Scrapbook ">27</unitid>
 					<unitdate>April 21, 2005 - June 9, 2005</unitdate>
 					<unittitle>Trip to South Hampton</unittitle>
@@ -439,7 +437,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Scrapbook ">28</unitid>
 					<unitdate>April 21, 2005 - June 9, 2005</unitdate>
 					<unittitle>Continuation of South Hampton trip from scrapbook 27</unittitle>
@@ -451,7 +449,7 @@
 			
 			<c01 level="item">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Scrapbook ">29</unitid>
 					<unitdate>February 13, 2006 - May 27, 2006</unitdate>
 					<unittitle>Elderhostels in Philadelphia and Canada</unittitle>
@@ -462,7 +460,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Scrapbook ">30</unitid>
 					<unitdate>April 22 2007 - May 11, 2007</unitdate>
 					<unittitle>Trips to Elderhostels in Georgia and Maryland</unittitle>
@@ -473,7 +471,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Scrapbook ">31</unitid>
 					<unitdate>July 7, 2007 - August 11, 2007</unitdate>
 					<unittitle>"Viking's Voyage" Trip to Iceland</unittitle>
@@ -484,7 +482,7 @@
 			</c01>		
 			<c01 level="item">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Scrapbook ">32</unitid>
 					<unitdate>July 17, 2007 - August 31, 2007</unitdate>
 					<unittitle>Continuation of a "Viking's Voyage" Trip to Iceland</unittitle>
@@ -495,7 +493,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Scrapbook ">33</unitid>
 					<unitdate>November 2, 2007 - February 8, 2009</unitdate>
 					<unittitle>Trip to Montreal, New York City and Philadelphia</unittitle>
@@ -506,7 +504,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Scrapbook ">34</unitid>
 					<unitdate>September 18, 2009 - October 23, 2009</unitdate>
 					<unittitle>Trips to Montreal, Victoria, British Columbia, Victoria, Sand Diego, Hawaii, Los Angeles, Chicago and Syracuse</unittitle>
@@ -517,7 +515,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Scrapbook ">35</unitid>
 					<unitdate>November 8, 2009 - October 29, 2010</unitdate>
 					<unittitle>Trip to Elderhostel in Philadelphia, Hawaii and canceled trip to New York City</unittitle>
@@ -528,7 +526,7 @@
 			</c01>
 			<c01 level="item">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitdate>1949, 1969, 1974</unitdate>
 					<unittitle>Cornell reunion memorabilia</unittitle>
 				</did>
@@ -538,5 +536,9 @@
 			</c01>
 		
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Jack and Inger Gilbert papers, #6964. Division of Rare and Manuscript
+					Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

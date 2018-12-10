@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM09237::Papers of the Women's National Indian Association)//EN">RMM09237</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM09237::Papers of the Women's National Indian Association)//EN">RMM09237</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Papers of the Women's National Indian Association,
@@ -29,6 +28,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -38,19 +43,19 @@
    <frontmatter>
       <titlepage>
          <titleproper>Guide to the Papers Of The Women's National Indian
-            Association<lb/>1880-1951.</titleproper>
+            Association1880-1951.</titleproper>
          <num>Collection Number: 9237</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -75,15 +80,14 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Papers of the Women's National Indian
-            Association <unitdate type="inclusive" encodinganalog="MARC 245">1880-1951.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Papers of the Women's National Indian
+            Association </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1880-1951.</unitdate>
          <unitid label="Collection Number:">9237</unitid>
          <origination label="Creator:">
             <corpname encodinganalog="MARC 110">Women's National Indian Association
                (U.S.)</corpname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1.2 cubic ft</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1.2 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, Financial Records, Legal Documents,
             Manuscripts, Photographs, Printed Materials</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -94,7 +98,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="organization">ORGANIZATIONAL HISTORY </head>
+         <head altrender="organization" id="a2">ORGANIZATIONAL HISTORY </head>
          <p>Organization founded by Mary Lucinda Bonney and Amelia Stone Quinton in 1879. Initially
             named the Central Indian Committee, and then the Indian Treaty-Keeping and Protective
             Association (1881-1882), it worked to prevent white settlers from encroaching on
@@ -147,14 +151,7 @@
             <subject encodinganalog="MARC 650">Women missionaries.</subject>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Papers of the Women's National Indian Association #9237. Division of Rare and
-               Manuscript Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <relatedmaterial>
          <head id="a5">RELATED MATERIALS</head>
          <p>Forms part of the Native American Collection. (NAC)</p>
@@ -163,27 +160,27 @@
          <head>SERIES LIST</head>
          <p>
             <emph render="bold">
-               <ref target="s1" show="replace" actuate="onrequest">Series I. Meeting minutes and correspondence</ref>
+               <ref actuate="onrequest" show="replace" target="s1">Series I. Meeting minutes and correspondence</ref>
             </emph>
          </p>
          <p>
             <emph render="bold">
-               <ref target="s2" show="replace" actuate="onrequest">Series II. Report of Missions</ref>
+               <ref actuate="onrequest" show="replace" target="s2">Series II. Report of Missions</ref>
             </emph>
          </p>
          <p>
             <emph render="bold">
-               <ref target="s3" show="replace" actuate="onrequest">Series III. Other publications</ref>
+               <ref actuate="onrequest" show="replace" target="s3">Series III. Other publications</ref>
             </emph>
          </p>
          <p>
             <emph render="bold">
-               <ref target="s4" show="replace" actuate="onrequest">Series IV. Photographs</ref>
+               <ref actuate="onrequest" show="replace" target="s4">Series IV. Photographs</ref>
             </emph>
          </p>
          <p>
             <emph render="bold">
-               <ref target="s5" show="replace" actuate="onrequest">Series V. Other items</ref>
+               <ref actuate="onrequest" show="replace" target="s5">Series V. Other items</ref>
             </emph>
          </p>
          
@@ -196,15 +193,15 @@
             </did>
             <c02 level="item">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unittitle>2 handwritten minute books</unittitle>
                   <unitdate>1880-1886</unitdate>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Minutes of the Indian Treaty Keeping and Protective
                      Association</unittitle>
                   <unitdate>December 11, 1880-October 18, 1883</unitdate>
@@ -217,8 +214,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Minutes of the Trustees of the Women's National Indian
                      Association</unittitle>
                   <unitdate>March 11, 1887-November 22, 1893</unitdate>
@@ -231,8 +228,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Minutes of the Executive Board and Annual Meetings of the Women's
                      National Indian Association</unittitle>
                   <unitdate>February 26, 1987-February 11, 1909</unitdate>
@@ -245,8 +242,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Minutes of the Executive Board and Annual Meetings of the Women's
                      National Indian Association</unittitle>
                   <unitdate>November 20, 1890-October 27, 1913</unitdate>
@@ -259,8 +256,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Executive Board and Annual Meetings</unittitle>
                   <unitdate> December 4, 1913-Deecmber 8, 1916</unitdate>
                </did>
@@ -272,8 +269,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Executive Board and Annual Meetings</unittitle>
                   <unitdate>May 26, 1917-December 4, 1919</unitdate>
                </did>
@@ -285,8 +282,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Executive Board and Annual Meetings</unittitle>
                   <unitdate>April 15, 1920-December 4, 1924</unitdate>
                </did>
@@ -298,8 +295,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Executive Board and Annual Meetings</unittitle>
                   <unitdate>May 6, 1925-December 5, 1927</unitdate>
                </did>
@@ -311,8 +308,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Executive Board and Annual Meetings</unittitle>
                   <unitdate>March 27, 1928-December 7, 1929</unitdate>
                </did>
@@ -324,8 +321,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Executive Board and Annual Meetings</unittitle>
                   <unitdate>February 20, 1930-December 4, 1931</unitdate>
                </did>
@@ -337,8 +334,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Executive Board and Annual Meetings</unittitle>
                   <unitdate>May 3, 1932-December 3, 1934</unitdate>
                </did>
@@ -350,8 +347,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>Executive Board and Annual Meetings</unittitle>
                   <unitdate>Januar 3, 1935-December 4, 1936</unitdate>
                </did>
@@ -363,8 +360,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Executive Board and Annual Meetings</unittitle>
                   <unitdate>January 27, 1937-December 5, 1938</unitdate>
                </did>
@@ -376,8 +373,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Executive Board and Annual Meetings</unittitle>
                   <unitdate>May 7, 1939-December 4, 1942</unitdate>
                </did>
@@ -389,8 +386,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">15</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">15</container>
                   <unittitle>Executive Board and Annual Meetings</unittitle>
                   <unitdate>January 11, 1943-December 4, 1947</unitdate>
                </did>
@@ -402,8 +399,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">16</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">16</container>
                   <unittitle>Executive Board and Annual Meetings, papers of dissolution April 18,
                      1951; final issue of The Indian's Friend, vol. 53, no. 2, June
                      1951.</unittitle>
@@ -417,8 +414,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">17</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">17</container>
                   <unittitle>Executive Board and Annual Meetings holographic copies.</unittitle>
                   <unitdate>1895-1913</unitdate>
                </did>
@@ -430,8 +427,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">18</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">18</container>
                   <unittitle>Legal documents, A. Charter and Certificate of Incorporation. B. Typed
                      copies of Charter. C. Constitution of National Indian Association. </unittitle>
                </did>
@@ -443,8 +440,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">19</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">19</container>
                   <unittitle> Deed papers, Turtle Mountain Mission, ND</unittitle>
                </did>
                <scopecontent>
@@ -455,8 +452,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">20</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">20</container>
                   <unittitle>Correspondence</unittitle>
                   <unitdate>1907-1920</unitdate>
                </did>
@@ -468,10 +465,10 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">21</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">21</container>
                   <unittitle>Correspondence, Publications Committee</unittitle>
-                  <unitdate/>
+                  
                </did>
                <scopecontent>
                   <p>
@@ -481,8 +478,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">23</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">23</container>
                   <unittitle>
                      <emph render="italic">Missionary Work of the Women's National Indian
                         Association and Letters of Missionaries</emph>
@@ -507,8 +504,8 @@
             </scopecontent>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">22</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">22</container>
                   <unittitle>
                      <emph render="italic">Missions, A. Mission Report, n.d. B. A Chronology, and
                         Data of Our Missions and Their Transfers. </emph>
@@ -522,8 +519,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Report of Missionary Work</emph>
                   </unittitle>
@@ -537,8 +534,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Christian Civilization and Missionary Work</emph>
                   </unittitle>
@@ -552,8 +549,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Report on Missionary Work</emph>
                   </unittitle>
@@ -567,8 +564,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Report of Missionary Department</emph>
                   </unittitle>
@@ -582,8 +579,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Report of the Missionary Department</emph>
                   </unittitle>
@@ -597,8 +594,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Our Missions for the year 1895</emph>
                   </unittitle>
@@ -612,8 +609,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Our Missionary Report for 1896</emph>
                   </unittitle>
@@ -627,8 +624,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Our Missionary Report for 1897</emph>
                   </unittitle>
@@ -642,8 +639,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">The Report of Missions for 1900</emph>
                   </unittitle>
@@ -657,8 +654,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Report of Missions for 1900-1901</emph>
                   </unittitle>
@@ -672,8 +669,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Missionary Report for 1903</emph>
                   </unittitle>
@@ -687,8 +684,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Missions of 1904</emph>
                   </unittitle>
@@ -702,8 +699,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Missions of 1905</emph>
                   </unittitle>
@@ -717,8 +714,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Report of Missions, 1906</emph>
                   </unittitle>
@@ -732,8 +729,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Report of Missions, 1907</emph>
                   </unittitle>
@@ -747,8 +744,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Report of Missions, 1908</emph>
                   </unittitle>
@@ -762,8 +759,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Report of Missions, 1909</emph>
                   </unittitle>
@@ -777,8 +774,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Report of Missions, 1910</emph>
                   </unittitle>
@@ -792,8 +789,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Report of Missions, 1911</emph>
                   </unittitle>
@@ -807,8 +804,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Report of Missions, 1912</emph>
                   </unittitle>
@@ -822,8 +819,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>
                      <emph render="italic">Report of Missions, 1913</emph>
                   </unittitle>
@@ -847,8 +844,8 @@
             </scopecontent>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>
                      <emph render="italic">Annual Meetings of the National Indian Association (3
                         items)</emph>
@@ -858,8 +855,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>
                      <emph render="italic"> National Indian Association </emph>untitled appeals (3
                      items) </unittitle>
@@ -867,8 +864,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>
                      <emph render="italic">A Glimpse of Our Missions</emph>
                   </unittitle>
@@ -877,8 +874,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>
                      <emph render="italic">Our Industrial Work </emph>by Mrs. N. DeG. Doubleday </unittitle>
                   <unitdate>1903</unitdate>
@@ -886,8 +883,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>
                      <emph render="italic">Meeting the Needs</emph>
                   </unittitle>
@@ -896,8 +893,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>
                      <emph render="italic">Problems of Indian Citizenship </emph>by Emily S.
                      Cook</unittitle>
@@ -906,8 +903,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>
                      <emph render="italic">The Indian's Appeal: Rocky Boy Mission</emph>
                   </unittitle>
@@ -915,8 +912,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>
                      <emph render="italic">The Story of Pah-ah-wut</emph>
                   </unittitle>
@@ -925,8 +922,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>
                      <emph render="italic">A Timely Reminder</emph>
                   </unittitle>
@@ -934,8 +931,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>
                      <emph render="italic">Two Ways to Help the Indians </emph> by Mrs. F.N.
                      Doubleday</unittitle>
@@ -944,8 +941,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>
                      <emph render="italic">The Work to Which the Association is Pledged</emph>
                   </unittitle>
@@ -958,80 +955,80 @@
             </did>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">33</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">33</container>
                   <unittitle>National Indian Association Executive Board</unittitle>
                   <unitdate>1932</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">33</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">33</container>
                   <unittitle>New Mexico home</unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">33</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">33</container>
                   <unittitle>En Route to Yerington, Nevada</unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">33</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">33</container>
                   <unittitle>Oklahoma Photographs</unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">34</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">34</container>
                   <unittitle>Natchie Town Bible School</unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">34</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">34</container>
                   <unittitle>Evening Shade</unittitle>
                   <unitdate>1949</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">34</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">34</container>
                   <unittitle>Sycamore Bible School</unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">34</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">34</container>
                   <unittitle>Red Bird; organ</unittitle>
                   <unitdate>1949</unitdate>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">34</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">34</container>
                   <unittitle>Saturday Afternoon in Vian</unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">34</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">34</container>
                   <unittitle>West View</unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="mapcase-folder">1</container>
+                  <container label="unspecified" type="mapcase-folder">1</container>
                   <unittitle>Group portrait of the WNIA convention in Washington, D.C. - in a
                      separate, single Folder</unittitle>
                   <unitdate>December 5-7, 1893</unitdate>
@@ -1044,15 +1041,15 @@
             </did>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">35</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">35</container>
                   <unittitle>Duplicate items</unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">25</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">25</container>
                   <unittitle>
                      <emph render="italic">Haskell Institute YMCA Bulletin</emph>, vol. 15, no.
                      5</unittitle>
@@ -1066,8 +1063,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">26</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">26</container>
                   <unittitle>
                      <emph render="italic">The Indian's Friend</emph>
                   </unittitle>
@@ -1081,8 +1078,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">27</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">27</container>
                   <unittitle>Addresses of the President of the Women's National Indian Association
                      (3 items)</unittitle>
                   <unitdate>1885, 1886, 1894</unitdate>
@@ -1095,8 +1092,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">28</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">28</container>
                   <unittitle>
                      <emph render="italic">Annual Meeting and Report</emph>
                   </unittitle>
@@ -1110,8 +1107,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">29</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">29</container>
                   <unittitle>Reports on Indian Home Building (6 items)</unittitle>
                   <unitdate>1888-1902</unitdate>
                </did>
@@ -1123,8 +1120,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">30</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">30</container>
                   <unittitle>New York City Indian Association, constitution, by-laws, reports (3
                      items)</unittitle>
                   <unitdate>1912-1913</unitdate>
@@ -1137,8 +1134,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">31</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">31</container>
                   <unittitle>
                      <emph render="italic">Sketch of the Washington Auxiliary of the National Indian
                         Association, 1882-1903</emph>
@@ -1161,5 +1158,9 @@
             <item>Rand, McNally &amp; Co. <title>The World's Congress of Representative Women</title>, Volume I and II (belonged to Amelia Stone Quinton)</item>
          </list>
       </separatedmaterial>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Papers of the Women's National Indian Association #9237. Division of Rare and
+               Manuscript Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

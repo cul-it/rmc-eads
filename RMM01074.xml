@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM01074::Ithaca and Tompkins County (N.Y.) printed material)//EN">RMM01074</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM01074::Ithaca and Tompkins County (N.Y.) printed material)//EN">RMM01074</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Ithaca and Tompkins County (N.Y.) printed material,
@@ -29,6 +28,12 @@
                2005</date>,</creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -38,19 +43,19 @@
    <frontmatter>
       <titlepage>
          <titleproper>Guide to the Ithaca And Tompkins County (N.Y.) Printed
-            Material,<lb/>1858-1992.</titleproper>
+            Material,1858-1992.</titleproper>
          <num>Collection Number: 1074</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -62,7 +67,7 @@
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
-               <item>Sarah E. Keating, May 2004<lb/>Peter Martinez, June 2004</item>
+               <item>Sarah E. Keating, May 2004Peter Martinez, June 2004</item>
             </defitem>
             <defitem>
                <label>Date Modified:</label>
@@ -75,11 +80,10 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Ithaca and Tompkins County (N.Y.)
-            printed material, <unitdate type="inclusive" encodinganalog="MARC 245">1858-1992.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Ithaca and Tompkins County (N.Y.)
+            printed material, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1858-1992.</unitdate>
          <unitid label="Collection Number:">1074</unitid>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1.4 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1.4 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Photographs, maps, brochures, booklets, programs,
             broadsides, invitations</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -145,20 +149,13 @@
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Maps.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Broadsides.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Photographs.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Pamphlets.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Maps.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Broadsides.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Pamphlets.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Ithaca and Tompkins County (N.Y.) Printed Material, #1074. Division of Rare and
-               Manuscript Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <relatedmaterial>
          <head id="a5">RELATED MATERIALS</head>
          <p>Includes collections #1074, #1158, 1214, 1219, 1861, 1864, 1872, 1897, 1915, and
@@ -182,8 +179,8 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>The Anti-Saloon League of New York</unittitle>
                   <unitdate> 1913-1914</unitdate>
 
@@ -191,8 +188,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Constitution, By-laws...</unittitle>
                   <unitdate> Feb. 14, 1883</unitdate>
 
@@ -200,8 +197,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Rules and Regulations of the Board of Public Works of the City of
                      Ithaca</unittitle>
                   <unitdate> 1913</unitdate>
@@ -210,8 +207,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Sanitary Code</unittitle>
                   <unitdate> 1910</unitdate>
 
@@ -219,8 +216,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Plumbing Code</unittitle>
                   <unitdate> June 13, 1911</unitdate>
 
@@ -228,8 +225,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Building Code</unittitle>
                   <unitdate> 1913</unitdate>
 
@@ -237,8 +234,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Rules, Regulations and Schedule of Water Rates</unittitle>
                   <unitdate> May 1, 1905</unitdate>
 
@@ -246,8 +243,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>City of Ithaca</unittitle>
                   <unitdate> 1924</unitdate>
 
@@ -255,8 +252,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Know Your City Government</unittitle>
                   <unitdate> July, 1948</unitdate>
 
@@ -264,8 +261,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Charter City of Ithaca</unittitle>
                   <unitdate> 1968</unitdate>
 
@@ -273,8 +270,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>How Can Ithaca Be Made a Better City</unittitle>
                   <unitdate> n.d.</unitdate>
 
@@ -282,8 +279,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Ithaca 1990 A General Plan Summary</unittitle>
                   <unitdate> 1968</unitdate>
 
@@ -291,8 +288,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Arthur P. Miller, Democratic nominee, Should be First Slaried Sheriff, </unittitle>
                   <unitdate> n.d.</unitdate>
 
@@ -300,8 +297,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Before You Vote Read This</unittitle>
                   <unitdate> June 14, 1901</unitdate>
 
@@ -309,8 +306,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Annual Kickoff Dinner</unittitle>
                   <unitdate> May 7, 1967</unitdate>
 
@@ -318,8 +315,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>letter from Aaron Girard Minz</unittitle>
                   <unitdate> Oct. 28, 1915</unitdate>
 
@@ -327,8 +324,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>letter from B.F. Lent</unittitle>
                   <unitdate> Oct. 28, 1915</unitdate>
 
@@ -336,8 +333,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">17</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">17</container>
                   <unittitle>The Tompkins County Handbook for 1931, Tompkins County Government, </unittitle>
                   <unitdate> Sept. 1960</unitdate>
 
@@ -345,8 +342,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">17</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">17</container>
                   <unittitle>Tompkins County Government</unittitle>
                   <unitdate> Mar. 1971</unitdate>
 
@@ -354,8 +351,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">21</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">21</container>
                   <unittitle>What the Ithaca Board of Commerce Had Done or Has Under Way, </unittitle>
                   <unitdate> Sept. 1, 1916</unitdate>
 
@@ -363,8 +360,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">21</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">21</container>
                   <unittitle>Community Service</unittitle>
                   <unitdate> Nov. 1917</unitdate>
 
@@ -372,8 +369,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">21</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">21</container>
                   <unittitle>Ithaca Board of Commerce correspondence</unittitle>
                   <unitdate> Sept. 9, 1922</unitdate>
 
@@ -381,8 +378,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">26</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">26</container>
                   <unittitle>Ithaca Chamber of Commerce Annual Report, </unittitle>
                   <unitdate> 1926-1927</unitdate>
 
@@ -390,8 +387,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">26</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">26</container>
                   <unittitle>Directory Ithaca Board of Commerce</unittitle>
                   <unitdate> 1923</unitdate>
 
@@ -399,8 +396,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">26</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">26</container>
                   <unittitle>Who's Who in the Ithaca Chamber of Commerce</unittitle>
                   <unitdate> 1947, 1948, 1950</unitdate>
 
@@ -408,8 +405,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">42</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">42</container>
                   <unittitle>Correspondence from Charles Blood</unittitle>
                   <unitdate> Oct. 31, 1903</unitdate>
 
@@ -417,8 +414,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">42</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">42</container>
                   <unittitle>Correspondence from Arthur P. Miller</unittitle>
                   <unitdate> Nov. 2, 1911</unitdate>
 
@@ -426,8 +423,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">42</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">42</container>
                   <unittitle>Ithaca's Wlecome, Correspondence from John W. Baker</unittitle>
                   <unitdate> April 21, 1919</unitdate>
 
@@ -435,8 +432,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">42</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">42</container>
                   <unittitle>Ithaca Newsletter</unittitle>
                   <unitdate> June 1940</unitdate>
 
@@ -444,15 +441,15 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">42</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">42</container>
                   <unittitle>1968 Political Calendar</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">43</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">43</container>
                   <unittitle>Correspondence from Monroe M. Sweetland</unittitle>
                   <unitdate> Nov. 4, 1904</unitdate>
 
@@ -460,8 +457,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">43</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">43</container>
                   <unittitle>Correspondence from Fred Clark</unittitle>
                   <unitdate> Nov. 5, 1904</unitdate>
 
@@ -469,8 +466,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">43</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">43</container>
                   <unittitle>Live-Wire Items No. 1</unittitle>
                   <unitdate> Sept. 1911</unitdate>
 
@@ -478,8 +475,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">43</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">43</container>
                   <unittitle>Ithaca Socialist News</unittitle>
                   <unitdate> Oct. 1911</unitdate>
 
@@ -487,15 +484,15 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">43</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">43</container>
                   <unittitle>What is the Young Socialist League?</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">56</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">56</container>
                   <unittitle>Summary Digest of Proposed Tompkins County Charter and Code, </unittitle>
                   <unitdate> Aug. 26, 1968</unitdate>
 
@@ -503,8 +500,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">56</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">56</container>
                   <unittitle>Annual Report of the Commissioners of Election, </unittitle>
                   <unitdate> 1913</unitdate>
 
@@ -512,8 +509,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">57</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">57</container>
                   <unittitle>Board of Supervisors: Tompkins County</unittitle>
                   <unitdate> 1969</unitdate>
 
@@ -521,8 +518,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">58</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">58</container>
                   <unittitle>Proceeings of the Board of Supervisors of the County of Tompkins, </unittitle>
                   <unitdate> 1858</unitdate>
 
@@ -530,8 +527,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">58</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">58</container>
                   <unittitle>An Abstract of the Fees of County and Town Officers, </unittitle>
                   <unitdate> 1876</unitdate>
 
@@ -539,29 +536,29 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>The Ferris-Blavelt Bill for Direct Primaries </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Primary Enrollment for year 1911 </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Official Ballot for Election District No. 2. </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Town of Ithaca</unittitle>
                   <unitdate> Nov. 7, 1911</unitdate>
 
@@ -569,15 +566,15 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Information Booklet Concerning May 2, 1967 </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>School Referendum, To the People of Ithaca</unittitle>
                   <unitdate> 1964</unitdate>
 
@@ -585,8 +582,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Urban Area Report</unittitle>
                   <unitdate> 1949</unitdate>
 
@@ -594,7 +591,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Draft Environmental Impact Statement Prepared for the Strand Theatre, </unittitle>
                   <unitdate> Sept. 1992</unitdate>
 
@@ -602,15 +599,15 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Final Environmental Impact Statement Prepared for the Strand Theatre, </unittitle>
-                  <unitdate> Dec. 1992</unitdate>
+                  <unitdate certainty="approximate">Dec. 1992</unitdate>
 
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>The Plan for Downtown Ithaca</unittitle>
                   <unitdate> 1962</unitdate>
 
@@ -618,8 +615,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>Reports of the Common Council of the City of Ithaca, </unittitle>
                   <unitdate> 1899-1904</unitdate>
 
@@ -627,8 +624,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">27</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">27</container>
                   <unittitle>Charter of the City of Ithaca</unittitle>
                   <unitdate> 1887</unitdate>
 
@@ -636,8 +633,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">28</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">28</container>
                   <unittitle>Charter of the City of Ithaca</unittitle>
                   <unitdate> June, 1888</unitdate>
 
@@ -645,8 +642,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">29</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">29</container>
                   <unittitle>Ordinances of the Village of Ithaca</unittitle>
                   <unitdate> 1885</unitdate>
 
@@ -654,8 +651,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">31</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">31</container>
                   <unittitle>Report on Plans for Sewering and Draining the City of Ithaca, NY, </unittitle>
                   <unitdate> 1894</unitdate>
 
@@ -663,8 +660,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>The American Worker: National Organ of the Industrial Democratic Party, </unittitle>
                   <unitdate> June 1930</unitdate>
 
@@ -672,8 +669,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">34</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">34</container>
                   <unittitle>Laws of New York-By Authority</unittitle>
                   <unitdate> Apr. 1906 and May 1908</unitdate>
 
@@ -681,7 +678,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Enrollment of Voters: Tompkins County</unittitle>
                   <unitdate> 1929-1930</unitdate>
 
@@ -689,7 +686,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Enrollment of Voters: Tompkins County</unittitle>
                   <unitdate> 1936-1937</unitdate>
 
@@ -697,7 +694,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Enrollment of Voters: Tompkins County</unittitle>
                   <unitdate> 1937-1938</unitdate>
 
@@ -705,7 +702,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Enrollment of Voters: Tompkins County</unittitle>
                   <unitdate> 1938-1939</unitdate>
 
@@ -713,7 +710,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Enrollment of Voters: Tompkins County</unittitle>
                   <unitdate> 1940-1941</unitdate>
 
@@ -721,7 +718,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Enrollment of Voters: Tompkins County</unittitle>
                   <unitdate> 1941-1942</unitdate>
 
@@ -729,7 +726,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Enrollment of Voters: Tompkins County</unittitle>
                   <unitdate> 1943-1944</unitdate>
 
@@ -737,7 +734,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Enrollment of Voters: Tompkins County</unittitle>
                   <unitdate> 1944-1945</unitdate>
 
@@ -745,7 +742,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Enrollment of Voters: Tompkins County</unittitle>
                   <unitdate> 1946-1947</unitdate>
 
@@ -753,7 +750,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Enrollment of Voters: Tompkins County</unittitle>
                   <unitdate> 1948</unitdate>
 
@@ -761,8 +758,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">31</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">31</container>
                   <unittitle>Enrollment of Voters: Tompkins County</unittitle>
                   <unitdate> 1951-1952</unitdate>
 
@@ -770,7 +767,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Enrollment of Voters: Tompkins County</unittitle>
                   <unitdate> 1952-1953</unitdate>
 
@@ -784,8 +781,8 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Handbook No. 1 Ithaca Public Schools</unittitle>
                   <unitdate> September 1919</unitdate>
 
@@ -793,8 +790,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Amendment to Regulations. .</unittitle>
                   <unitdate> June 1908</unitdate>
 
@@ -802,8 +799,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Ithaca Public Schools Evening Division</unittitle>
                   <unitdate> 1916-17</unitdate>
 
@@ -811,8 +808,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Facts About the Ithaca Public Schools</unittitle>
                   <unitdate> 1942-1943</unitdate>
 
@@ -820,8 +817,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Frank David Boynton Junior High School Dedication Exercises, </unittitle>
                   <unitdate> Oct. 25, 1932</unitdate>
 
@@ -829,8 +826,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Commencement Frank David Boynton Junior High School</unittitle>
                   <unitdate> Jan. 25, 1935</unitdate>
 
@@ -838,8 +835,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Annual Report of the Cayuga Preventorium</unittitle>
                   <unitdate> 1916</unitdate>
 
@@ -847,16 +844,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Advantages of Lady Students at Cornell University Questions Regarding
                      the Admission of Young Ladies to Cornell University</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>The Country Club of Ithaca, New York</unittitle>
                   <unitdate> 1908</unitdate>
 
@@ -864,8 +861,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>The Country Club of Ithaca, New York</unittitle>
                   <unitdate> 1923</unitdate>
 
@@ -873,8 +870,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>The Country Club</unittitle>
                   <unitdate> n.d.</unitdate>
 
@@ -882,8 +879,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>The Country Club</unittitle>
                   <unitdate> 1912</unitdate>
 
@@ -891,8 +888,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>First Semi-Annual Commencement of the Empire State School of Printing, </unittitle>
                   <unitdate> March 1, 1923</unitdate>
 
@@ -900,8 +897,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Third Semi-Annual Commencement</unittitle>
                   <unitdate> Feb. 22, 1924</unitdate>
 
@@ -909,8 +906,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Third-Semi Annual Commencement invitation, Circular Information, </unittitle>
                   <unitdate> 1924-1925</unitdate>
 
@@ -918,8 +915,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Fifth Semi-Annual Commencement</unittitle>
                   <unitdate> Feb. 20, 1925</unitdate>
 
@@ -927,8 +924,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Fifth-Semi Annual Commencement invitation, Sixth-Semi Annual
                      Commencement Invitation, Independence at Fifty, Your Opportunity, </unittitle>
                   <unitdate> 1923-1925</unitdate>
@@ -937,8 +934,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">22</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">22</container>
                   <unittitle>Song Recital</unittitle>
                   <unitdate> Apr. 13, 1907</unitdate>
 
@@ -946,8 +943,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">22</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">22</container>
                   <unittitle>16th Annual Commencement Exercises</unittitle>
                   <unitdate> June 8, 1908</unitdate>
 
@@ -955,8 +952,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">22</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">22</container>
                   <unittitle>17th Annual Commencement Exercises</unittitle>
                   <unitdate> June 7, 1909</unitdate>
 
@@ -964,8 +961,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">22</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">22</container>
                   <unittitle>Commencement 1913</unittitle>
                   <unitdate> June 9, 1913</unitdate>
 
@@ -973,8 +970,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">22</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">22</container>
                   <unittitle>Music Festival</unittitle>
                   <unitdate> 1907-1924</unitdate>
 
@@ -982,8 +979,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">29</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">29</container>
                   <unittitle>Tambu: A Murder Mystery</unittitle>
                   <unitdate> June 3-8, 1952</unitdate>
 
@@ -991,8 +988,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">29</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">29</container>
                   <unittitle>After Sixty Years A Campus, Community Asset, Twenty-four Pages Complete
                      the Story</unittitle>
                   <unitdate> 1952</unitdate>
@@ -1001,8 +998,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">30</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">30</container>
                   <unittitle>The Ithaca High School</unittitle>
                   <unitdate> 1901</unitdate>
 
@@ -1010,8 +1007,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">30</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">30</container>
                   <unittitle>Ithaca High School Twentieth Annual Concert</unittitle>
                   <unitdate> Apr. 9, 1915</unitdate>
 
@@ -1019,17 +1016,17 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">30</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">30</container>
                   <unittitle>The Tattler</unittitle>
-                  <unitdate> Dec. 1916</unitdate>
+                  <unitdate certainty="approximate">Dec. 1916</unitdate>
 
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">30</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">30</container>
                   <unittitle>The Tattlerette</unittitle>
                   <unitdate> Jan. 1917</unitdate>
 
@@ -1037,8 +1034,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">30</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">30</container>
                   <unittitle>Ithaca High School, Eighty-eighth Annual Commencement</unittitle>
                   <unitdate> June 24, 1963</unitdate>
 
@@ -1046,17 +1043,17 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">30</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">30</container>
                   <unittitle>Class of 1981 announcement, Christmas Concert</unittitle>
-                  <unitdate> Dec. 18, 1968</unitdate>
+                  <unitdate certainty="approximate">Dec. 18, 1968</unitdate>
 
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">33</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">33</container>
                   <unittitle>The Preparatory Schools of Ithaca, The University Preparatory School, </unittitle>
                   <unitdate> 1902</unitdate>
 
@@ -1064,8 +1061,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">33</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">33</container>
                   <unittitle>Horticultural School for Girls, Investing in Their Future, </unittitle>
                   <unitdate> 1902</unitdate>
 
@@ -1073,8 +1070,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">54</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">54</container>
                   <unittitle>The Sturgis School Tutoring Department</unittitle>
                   <unitdate> 1912-1913</unitdate>
 
@@ -1082,8 +1079,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Ithaca Public Schools Brochures</unittitle>
                   <unitdate> 1908-1913</unitdate>
 
@@ -1091,8 +1088,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Ithaca High School Dept. of Music Concert Program, </unittitle>
                   <unitdate> 1930</unitdate>
 
@@ -1100,8 +1097,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Ithaca Public Schools, Superintendent's Office Bulletins, </unittitle>
                   <unitdate> 1928-1931</unitdate>
 
@@ -1109,8 +1106,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Ithaca Public Schools, Our Point of View-Financial Statements, </unittitle>
                   <unitdate> 1924, 1926</unitdate>
 
@@ -1118,8 +1115,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Education Digest</unittitle>
                   <unitdate> 1930-1961</unitdate>
 
@@ -1127,8 +1124,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Ithaca Evening School Brochures </unittitle>
                   <unitdate> 1926-1927</unitdate>
 
@@ -1136,8 +1133,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Ithaca Evening School Pamphlet</unittitle>
                   <unitdate> 1930</unitdate>
 
@@ -1145,8 +1142,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>"Our Public Schools" Pamphlet </unittitle>
                   <unitdate> 1911-1913</unitdate>
 
@@ -1154,8 +1151,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Ithaca Public Schools Courses of Study</unittitle>
                   <unitdate> 1922-1926</unitdate>
 
@@ -1163,8 +1160,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Ithaca Public Schools: Manual of the Board of Education, </unittitle>
                   <unitdate> 1924</unitdate>
 
@@ -1172,8 +1169,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Ithaca Public Schools, Our Point of View-Courses of Study and Handbook
                      for Junior and Senior High School</unittitle>
                   <unitdate> June, 1924</unitdate>
@@ -1182,8 +1179,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Ithaca Public Schools, Our Point of View (Historical Sketch), </unittitle>
                   <unitdate> 1919</unitdate>
 
@@ -1191,8 +1188,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Ithaca Public Schools, Our Point of View, </unittitle>
                   <unitdate> 1924-1926</unitdate>
 
@@ -1200,8 +1197,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Ithaca Public Schools, Our Point of View, </unittitle>
                   <unitdate> 1927-1930</unitdate>
 
@@ -1209,8 +1206,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>Ithaca Public Schools, Superintendent's Office, </unittitle>
                   <unitdate> 1927-1930</unitdate>
 
@@ -1218,8 +1215,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Junior High School Manual Arts Courses</unittitle>
                   <unitdate> 1924-1925</unitdate>
 
@@ -1227,8 +1224,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>New York State Teachers Association</unittitle>
                   <unitdate> 1930</unitdate>
 
@@ -1236,8 +1233,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">15</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">15</container>
                   <unittitle>Our Proposed New School: Proposed High School Building for Ithaca, NY, </unittitle>
                   <unitdate> March-April, 1930</unitdate>
 
@@ -1245,15 +1242,15 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">25</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">25</container>
                   <unittitle>One Postcard showing Ithaca High School</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">26</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">26</container>
                   <unittitle>Three Ithaca Public Schools, Handbooks</unittitle>
                   <unitdate> 1926, 1928-1929</unitdate>
 
@@ -1266,22 +1263,22 @@
             </did>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Cayuga Lake Cement Company</unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>A Review of the Business and Industry of Tompkins County </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">25</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">25</container>
                   <unittitle>Third Annual Dinner of the Medical Society of Tompkins County, </unittitle>
                   <unitdate> Feb. 11, 1908</unitdate>
 
@@ -1289,8 +1286,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">25</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">25</container>
                   <unittitle>Ithaca Memorial Hospital</unittitle>
                   <unitdate> 1927</unitdate>
 
@@ -1298,8 +1295,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">25</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">25</container>
                   <unittitle>Ithaca Memorial Hospital By-Laws</unittitle>
                   <unitdate> Jan. 21, 1929</unitdate>
 
@@ -1307,8 +1304,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">25</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">25</container>
                   <unittitle>Health Ass'n of Tompkins County Annual Report, </unittitle>
                   <unitdate> 1956-57</unitdate>
 
@@ -1316,8 +1313,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">25</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">25</container>
                   <unittitle>Through the Years with Red Cross in Tompkins County</unittitle>
                   <unitdate> Mar. 1958</unitdate>
 
@@ -1325,8 +1322,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">25</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">25</container>
                   <unittitle>Our Hospital</unittitle>
                   <unitdate> n.d.</unitdate>
 
@@ -1334,8 +1331,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">31</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">31</container>
                   <unittitle>Some Suggestions About Ithaca and Its Business Resources, Self portrait
                      of a Community</unittitle>
                   <unitdate> Feb. 20-26, 1949</unitdate>
@@ -1344,8 +1341,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">31</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">31</container>
                   <unittitle>Twelve inches of information relating to the city and vicinity, </unittitle>
                   <unitdate> not dated</unitdate>
 
@@ -1353,8 +1350,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">31</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">31</container>
                   <unittitle>How The Ithaca Daily News Has Grown</unittitle>
                   <unitdate> not dated</unitdate>
 
@@ -1362,8 +1359,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">31</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">31</container>
                   <unittitle>Colonial Antique Shop</unittitle>
                   <unitdate> not dated</unitdate>
 
@@ -1371,8 +1368,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>Ithaca Hotel, Glenwood Hotel</unittitle>
                   <unitdate> 1908</unitdate>
 
@@ -1380,8 +1377,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">35</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">35</container>
                   <unittitle>Ithaca Savings and Loan Association</unittitle>
                   <unitdate> Jan. 1, 1928</unitdate>
 
@@ -1389,8 +1386,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">35</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">35</container>
                   <unittitle>By-Laws of the Ithaca Savings and Loan Association, Two Forms of
                      Investment, Every Day Almanac</unittitle>
                   <unitdate> 1910</unitdate>
@@ -1399,8 +1396,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">35</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">35</container>
                   <unittitle>86 Years of Banking Experience</unittitle>
                   <unitdate> 1954</unitdate>
 
@@ -1408,8 +1405,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">36</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">36</container>
                   <unittitle>J.W. Tibbets and Co. Forest City</unittitle>
                   <unitdate> 1901-1904</unitdate>
 
@@ -1417,29 +1414,29 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">36</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">36</container>
                   <unittitle>By-Laws of the Lake View Cemetary Co. </unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">36</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">36</container>
                   <unittitle>Artesian Well Water </unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">36</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">36</container>
                   <unittitle>Wall Son College Shoes of college Me-who know </unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">36</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">36</container>
                   <unittitle>Local Union No. 93 of Ithaca</unittitle>
                   <unitdate> Feb. 1901</unitdate>
 
@@ -1447,51 +1444,51 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">36</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">36</container>
                   <unittitle>Kat-a-log of High Grade Shoes As Worn by the College Man </unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">36</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">36</container>
                   <unittitle>Highland Park Association </unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">36</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">36</container>
                   <unittitle>The Plaza is the Place </unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">36</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">36</container>
                   <unittitle>Tompkins County Farms Listed and for Sale by the Keeber and Barber
                      Agency </unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">36</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">36</container>
                   <unittitle>Morse Automatic Fuel-Saver </unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">36</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">36</container>
                   <unittitle>Templux Automatic Stokers </unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">36</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">36</container>
                   <unittitle>Michelson and Wheaton Correspondence </unittitle>
                   <unitdate> February 9, 1904</unitdate>
 
@@ -1499,8 +1496,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">44</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">44</container>
                   <unittitle>The Ithaca Telephone Co.</unittitle>
                   <unitdate> March 26, 1902</unitdate>
 
@@ -1508,23 +1505,23 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">44</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">44</container>
                   <unittitle>Instructions to Inspectors, $75,000 Ithaca Electric Light &amp; Power
                      Company </unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">44</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">44</container>
                   <unittitle>Remarkable Achievement of the Ithaca Telephone Company </unittitle>
                </did>
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">44</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">44</container>
                   <unittitle>Correspondence from the New York Telephone Company</unittitle>
                   <unitdate> Nov. 23, 1911</unitdate>
 
@@ -1532,8 +1529,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Restaurant Menu on a Brown Paper Bag, "Uncle Abe's Brown Back Lunch," </unittitle>
                   <unitdate> 1980</unitdate>
 
@@ -1546,8 +1543,8 @@
             </did>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>Primary Dept. of the First Congressional Sunday School, </unittitle>
                   <unitdate> 1906</unitdate>
 
@@ -1555,8 +1552,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>Financial Statement</unittitle>
                   <unitdate> 1916</unitdate>
 
@@ -1564,8 +1561,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Weekly Announcements First Methodist Episcopal Church</unittitle>
                   <unitdate> Nov. 11, 1906 &amp; April 25, 1909</unitdate>
 
@@ -1573,8 +1570,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Dedication Week Banquet</unittitle>
                   <unitdate> 1909</unitdate>
 
@@ -1582,8 +1579,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Roll and Directory of the First Presbyterian Church</unittitle>
                   <unitdate> Apr. 1885, 1887, 1906</unitdate>
 
@@ -1591,8 +1588,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Library of the Infant Dept.</unittitle>
                   <unitdate> n.d.</unitdate>
 
@@ -1600,8 +1597,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Service of Dedication</unittitle>
                   <unitdate> Apr. 13, 1911</unitdate>
 
@@ -1609,8 +1606,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Catalogue of the Church Library</unittitle>
                   <unitdate> March 1905</unitdate>
 
@@ -1618,17 +1615,17 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Bulletins</unittitle>
-                  <unitdate> March 21, 1912, Dec. 15, 1912, Apr. 2, 1961</unitdate>
+                  <unitdate certainty="approximate">March 21, 1912, Dec. 15, 1912, Apr. 2, 1961</unitdate>
 
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">15</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">15</container>
                   <unittitle>Service Installation of the First Unitarian Society, </unittitle>
                   <unitdate> 1925</unitdate>
 
@@ -1636,8 +1633,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">48</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">48</container>
                   <unittitle>St. John's Episcopal Church</unittitle>
                   <unitdate> 1922</unitdate>
 
@@ -1645,8 +1642,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">48</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">48</container>
                   <unittitle>An Early Fifteenth Century Liturgical Easter Mass</unittitle>
                   <unitdate> Apr. 20, 1975</unitdate>
 
@@ -1654,8 +1651,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">16</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">16</container>
                   <unittitle>Early Sketch of the First Methodist Episcopal Church, </unittitle>
                   <unitdate> 1907</unitdate>
 
@@ -1663,8 +1660,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">19</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">19</container>
                   <unittitle>History of the First Baptist Church of Groton, NY, </unittitle>
                   <unitdate> 1956</unitdate>
 
@@ -1677,8 +1674,8 @@
             </did>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">27</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">27</container>
                   <unittitle>Ithaca Civic Association</unittitle>
                   <unitdate> 1913</unitdate>
 
@@ -1686,8 +1683,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">28</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">28</container>
                   <unittitle>Time to Give: Seventeen Reasons Sixth Annual Appeal</unittitle>
                   <unitdate> Nov. 15-22, 1926</unitdate>
 
@@ -1695,8 +1692,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">37</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">37</container>
                   <unittitle>The Savage Club By-Laws</unittitle>
                   <unitdate> May, 1901</unitdate>
 
@@ -1704,8 +1701,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">37</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">37</container>
                   <unittitle>Rogues Harbor Community Club</unittitle>
                   <unitdate> 1909</unitdate>
 
@@ -1713,8 +1710,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">37</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">37</container>
                   <unittitle>Annual Convention 11th District Pythian Sisters</unittitle>
                   <unitdate> May 14, 1932</unitdate>
 
@@ -1722,8 +1719,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">37</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">37</container>
                   <unittitle>Club Essence presents Sophistication</unittitle>
                   <unitdate> June 4, 1977</unitdate>
 
@@ -1731,17 +1728,17 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>Grand Charity Reception</unittitle>
-                  <unitdate> Dec. 8, 1882</unitdate>
+                  <unitdate certainty="approximate">Dec. 8, 1882</unitdate>
 
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>Annual Report of the Associated Charities of Ithaca, NY, </unittitle>
                   <unitdate> 1913-1914</unitdate>
 
@@ -1749,8 +1746,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>A Paper Prepared by Robert H. Treman</unittitle>
                   <unitdate> Oct. 12, 1905</unitdate>
 
@@ -1758,8 +1755,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>The Cayuga Indian Feast</unittitle>
                   <unitdate> May 27, 1914</unitdate>
 
@@ -1767,8 +1764,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>Dedication of the Abner Treman Memorial Tablet</unittitle>
                   <unitdate> July 4, 1929</unitdate>
 
@@ -1776,8 +1773,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>Trumbulls Corners Old Home Day</unittitle>
                   <unitdate> Aug. 26, 1933</unitdate>
 
@@ -1785,8 +1782,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>The History of the American Legion</unittitle>
                   <unitdate> Aug. 11, 1939</unitdate>
 
@@ -1794,8 +1791,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>Silver Tea for Special Children's Center</unittitle>
                   <unitdate> June 11, 1972</unitdate>
 
@@ -1803,8 +1800,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>T. Merrell Shipherd Testimonial Dinner</unittitle>
                   <unitdate> June 24, 1975</unitdate>
 
@@ -1812,8 +1809,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>Hangar Theatre's Guys and Dolls</unittitle>
                   <unitdate> July 3-20, 1985</unitdate>
 
@@ -1821,8 +1818,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>1986 Finger Lakes On-The-Water Boat Show</unittitle>
                   <unitdate> May 2-3, 1986</unitdate>
 
@@ -1830,8 +1827,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>Bal-Masque</unittitle>
                   <unitdate> Mar. 25, 1881</unitdate>
 
@@ -1839,8 +1836,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>50th Anniversary of Powered Flight</unittitle>
                   <unitdate> 1903-1953</unitdate>
 
@@ -1848,8 +1845,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>Community to Present, Aug. 13 and 14 Historical Pageant of Trumansburg,
                      Ithaca Development</unittitle>
                   <unitdate> 1917</unitdate>
@@ -1858,16 +1855,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>Month by month in 1958: Happenings in Ithaca and Tompkins County
                      Reviewed, United Way is more than just a fund drive</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">41</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">41</container>
                   <unittitle>Band Vocal and Instrumental Concert at Wilgus Hall</unittitle>
                   <unitdate> Oct. 21, 1971</unitdate>
 
@@ -1875,8 +1872,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">41</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">41</container>
                   <unittitle>Ithaca Quartet Second Concert</unittitle>
                   <unitdate> June 11, 1886</unitdate>
 
@@ -1884,8 +1881,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">41</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">41</container>
                   <unittitle>Pirates of Penzance by the Choral Club of Ithaca</unittitle>
                   <unitdate> May 18-20, 1893</unitdate>
 
@@ -1893,8 +1890,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">41</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">41</container>
                   <unittitle>Ye Choral Clubbe, Benefit Entertainment for Sufferes in the Flood of
                      1905</unittitle>
                   <unitdate> July 12, 1905</unitdate>
@@ -1903,8 +1900,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">41</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">41</container>
                   <unittitle>Concert given under the auspices of the Cascadilla Glee and Mandolin
                      Clubs</unittitle>
                   <unitdate> Feb. 5, 1908</unitdate>
@@ -1913,8 +1910,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">41</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">41</container>
                   <unittitle>Dedication Week Choir The Mountain Ash Male Choir at the First
                      Methodist Episcopal Church</unittitle>
                   <unitdate> Jan. 20, 1909</unitdate>
@@ -1923,8 +1920,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">41</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">41</container>
                   <unittitle>H.M.S. Pinfore presented by the Ithaca Community Service Council, </unittitle>
                   <unitdate> March 28-29, 1947</unitdate>
 
@@ -1932,8 +1929,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">41</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">41</container>
                   <unittitle>Ithaca Opera Association Incorporated presents La Traviata, </unittitle>
                   <unitdate> March 1-2, 1968</unitdate>
 
@@ -1941,8 +1938,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">41</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">41</container>
                   <unittitle>New York State Craft Fair</unittitle>
                   <unitdate> Aug. 4-9, 1969</unitdate>
 
@@ -1950,8 +1947,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">41</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">41</container>
                   <unittitle>Barber of Seville by the Ithaca Opera Association, The Ithaca Journal
                      proudly presents the United States Air Force Band of the East</unittitle>
                   <unitdate> Apr. 20, 1985</unitdate>
@@ -1960,8 +1957,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">46</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">46</container>
                   <unittitle>Report of Half-Century Club of Tompkins County, </unittitle>
                   <unitdate> 1881</unitdate>
 
@@ -1969,8 +1966,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">47</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">47</container>
                   <unittitle>Voters Again Deprived of Right to Hear Truth, The Republican Party in
                      Tompkins County</unittitle>
                   <unitdate> 1960</unitdate>
@@ -1979,8 +1976,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">47</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">47</container>
                   <unittitle>The Republican Party Reference Manual</unittitle>
                   <unitdate> 1961</unitdate>
 
@@ -1988,8 +1985,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">49</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">49</container>
                   <unittitle>The Civil Service of the City of Ithaca</unittitle>
                   <unitdate> 1898</unitdate>
 
@@ -1997,16 +1994,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">49</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">49</container>
                   <unittitle>One Hundredth Anniversary Cayuga Hose Co. No. 1 (May 10,
                      1928)</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">50</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">50</container>
                   <unittitle>Report of the Social Service League of Ithaca</unittitle>
                   <unitdate> Oct. 1907</unitdate>
 
@@ -2014,8 +2011,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">50</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">50</container>
                   <unittitle>The Ladies Union Benevolent Society and the Home</unittitle>
                   <unitdate> March 12, 1924</unitdate>
 
@@ -2023,29 +2020,29 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">50</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">50</container>
                   <unittitle>The Social Service League of Ithaca </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">50</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">50</container>
                   <unittitle>Federation of Women's Organizations of the City of Ithaca </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">50</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">50</container>
                   <unittitle>Members of the Ithaca Community Chest, </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">50</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">50</container>
                   <unittitle>Ithaca Can Be the Nation's Greatest City, Will You Choose Ithaca: When
                      You Are a Senior Citizen?, Give It All You've Got</unittitle>
                   <unitdate> 1986</unitdate>
@@ -2054,8 +2051,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">51</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">51</container>
                   <unittitle>Catalogue of the Loan Exhibition of the Ithaca Branch of the New York
                      Society of the Decorative Arts, Old-Fashioned Country Dance</unittitle>
                   <unitdate> Jan. 23, 1905</unitdate>
@@ -2064,8 +2061,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">51</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">51</container>
                   <unittitle>The Garden Club of Ithaca</unittitle>
                   <unitdate> 1922-23</unitdate>
 
@@ -2073,17 +2070,17 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">51</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">51</container>
                   <unittitle>Archaeological Institute of America</unittitle>
-                  <unitdate> Dec. 26-29, 1905</unitdate>
+                  <unitdate certainty="approximate">Dec. 26-29, 1905</unitdate>
 
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">51</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">51</container>
                   <unittitle>The Cornell Art Association list, Garden Club of Ithaca Home and Garden
                      Show </unittitle>
                   <unitdate> Sept. 16, 1964</unitdate>
@@ -2092,8 +2089,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">52</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">52</container>
                   <unittitle>The Boulevard Circular</unittitle>
                   <unitdate> June 1878</unitdate>
 
@@ -2101,23 +2098,23 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">52</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">52</container>
                   <unittitle>To Be Tied, Tompkins County Reform League</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">55</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">55</container>
                   <unittitle>Charles Frohman presents the Fifteenth Century Morality Play
                      "Everyman," The Choral Club at the Lyceum (June 12, 1895)</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">59</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">59</container>
                   <unittitle>Tornado Hook and Ladder Co. No. 3</unittitle>
                   <unitdate> 1916, 1931</unitdate>
 
@@ -2125,16 +2122,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">60</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">60</container>
                   <unittitle>The Cayuga Heights Park Association, Hampton Terrace, Proposal to
                      Enlarge the Village of Cayuga Heights, N.Y.</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">61</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">61</container>
                   <unittitle>First Preliminary Contest in Declamation</unittitle>
                   <unitdate> Feb. 18, 1903</unitdate>
 
@@ -2142,8 +2139,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">61</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">61</container>
                   <unittitle>Troop 4 Boy Scouts of America</unittitle>
                   <unitdate> 1926</unitdate>
 
@@ -2151,8 +2148,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">61</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">61</container>
                   <unittitle>The Lakeside Monthly</unittitle>
                   <unitdate> Apr. 1873</unitdate>
 
@@ -2160,8 +2157,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">61</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">61</container>
                   <unittitle>A Report on the Camp Fire Organization, The Voice of Empire Youth, </unittitle>
                   <unitdate> 1947</unitdate>
 
@@ -2169,8 +2166,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">61</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">61</container>
                   <unittitle>Our Ithaca Y.M.C.A., Golden Jubilee Recognition Dinner</unittitle>
                   <unitdate> May 3, 1960</unitdate>
 
@@ -2178,15 +2175,15 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>The Town and Gown Club Broadside</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">18</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">18</container>
                   <unittitle>1st Annual Tompkins County Fireman's Convention</unittitle>
                   <unitdate> Aug. 2-4, 1956</unitdate>
 
@@ -2194,8 +2191,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">18</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">18</container>
                   <unittitle>3rd Annual Fireman's Convention</unittitle>
                   <unitdate> June 12-14, 1958</unitdate>
 
@@ -2203,8 +2200,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">18</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">18</container>
                   <unittitle>The Postmaster's Advocate</unittitle>
                   <unitdate> May, 1955</unitdate>
 
@@ -2212,15 +2209,15 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">18</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">18</container>
                   <unittitle>Tri-County Postmaters Association </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">20</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">20</container>
                   <unittitle>Knights of Pythias Banquet Pamphlets</unittitle>
                   <unitdate> 1924-1945</unitdate>
 
@@ -2228,8 +2225,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">21</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">21</container>
                   <unittitle>Varna Volunteer Fire Co., pamphlets</unittitle>
                   <unitdate> 1954-1965</unitdate>
 
@@ -2237,8 +2234,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">23</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">23</container>
                   <unittitle>Constitution and By-Laws and List of Members of the Business Men's
                      Association</unittitle>
                   <unitdate> 1900-1904</unitdate>
@@ -2247,8 +2244,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">30</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">30</container>
                   <unittitle>Eighth Annual Report of the Commissioners of the Ithaca Fire
                      Department</unittitle>
                   <unitdate> 1902</unitdate>
@@ -2257,8 +2254,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">33</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">33</container>
                   <unittitle>Vanguard: A Libertarian Communist Journal</unittitle>
                   <unitdate> July-August, 1935</unitdate>
 
@@ -2271,8 +2268,8 @@
             </did>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">18</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">18</container>
                   <unittitle>HELP Where to Turn in Tompkins County</unittitle>
                   <unitdate> 1959</unitdate>
 
@@ -2280,8 +2277,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">18</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">18</container>
                   <unittitle>HELP Where to Turn in Tompkins County</unittitle>
                   <unitdate> 1961-1962</unitdate>
 
@@ -2289,8 +2286,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">18</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">18</container>
                   <unittitle>HELP Where to Turn in Tompkins County</unittitle>
                   <unitdate> 1962-1963</unitdate>
 
@@ -2298,8 +2295,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">19</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">19</container>
                   <unittitle>HELP Where to Turn in Tompkins County</unittitle>
                   <unitdate> 1963-1964</unitdate>
 
@@ -2307,8 +2304,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">19</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">19</container>
                   <unittitle>HELP Where to Turn in Tompkins County</unittitle>
                   <unitdate> 1966-1967</unitdate>
 
@@ -2316,8 +2313,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">19</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">19</container>
                   <unittitle>HELP Where to Turn in Tompkins County</unittitle>
                   <unitdate> 1972-1973</unitdate>
 
@@ -2325,8 +2322,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">23</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">23</container>
                   <unittitle>Your Ithaca</unittitle>
                   <unitdate> 1945</unitdate>
 
@@ -2334,8 +2331,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">23</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">23</container>
                   <unittitle>Automobile Guide Ithaca and Vicinity in the Heart of the Beautiful
                      Finger Lakes Region</unittitle>
                   <unitdate> n.d.</unitdate>
@@ -2344,15 +2341,15 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">23</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">23</container>
                   <unittitle>Ithaca: In the Heart of the Finger Lakes Region</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">23</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">23</container>
                   <unittitle>Ithaca, NY in Tompkins County: Heart of the Finger Lakes Region, </unittitle>
                   <unitdate> n.d.</unitdate>
 
@@ -2360,37 +2357,37 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">23</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">23</container>
                   <unittitle>Ithaca in the Finger Lakes Region the Home of Cornell University
                   </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">23</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">23</container>
                   <unittitle>Glorious Ithaca Tompkins County N.Y. </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">23</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">23</container>
                   <unittitle>Buttermilk Falls State Park </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">23</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">23</container>
                   <unittitle>Automobile Guide </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">23</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">23</container>
                   <unittitle>Trip Through Taughannock Falls State Park</unittitle>
                   <unitdate> 1930</unitdate>
 
@@ -2398,8 +2395,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>Ithaca and Its Resources</unittitle>
                   <unitdate> 1883</unitdate>
 
@@ -2407,8 +2404,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">34</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">34</container>
                   <unittitle>Initial Ithacans by Thomas W. Burns</unittitle>
                   <unitdate> 1934</unitdate>
 
@@ -2416,8 +2413,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">38</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">38</container>
                   <unittitle>Ithaca, N.Y. Illustrated</unittitle>
                   <unitdate> 1891</unitdate>
 
@@ -2425,8 +2422,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">38</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">38</container>
                   <unittitle>Some Facts About Ithaca</unittitle>
                   <unitdate> 1891</unitdate>
 
@@ -2434,8 +2431,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">38</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">38</container>
                   <unittitle>Ithaca Its Scenery and Advantages</unittitle>
                   <unitdate> 1891</unitdate>
 
@@ -2443,8 +2440,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">38</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">38</container>
                   <unittitle>George S. Tarbell correspondence</unittitle>
                   <unitdate> 1891</unitdate>
 
@@ -2452,8 +2449,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">38</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">38</container>
                   <unittitle>A.S. Fiske letter</unittitle>
                   <unitdate> 1891</unitdate>
 
@@ -2461,8 +2458,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">38</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">38</container>
                   <unittitle>Cayuga Heights Notes</unittitle>
                   <unitdate> 1891</unitdate>
 
@@ -2470,8 +2467,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">38</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">38</container>
                   <unittitle>The Finger Lakes of Central New York</unittitle>
                   <unitdate> 1891</unitdate>
 
@@ -2479,8 +2476,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">38</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">38</container>
                   <unittitle>The Beautiful Finger Lakes Call You</unittitle>
                   <unitdate> 1891</unitdate>
 
@@ -2488,8 +2485,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">38</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">38</container>
                   <unittitle>The Clinton Houses' Dinner Menu</unittitle>
                   <unitdate> 1891</unitdate>
 
@@ -2497,15 +2494,15 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">45</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">45</container>
                   <unittitle>Directory of Rooming and Boarding Houses, </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">45</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">45</container>
                   <unittitle>Correspondence from Charles E. Cornell</unittitle>
                   <unitdate> Apr. 12, 1899</unitdate>
 
@@ -2513,8 +2510,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">45</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">45</container>
                   <unittitle>Chas. B. Stanion, Description of Properties</unittitle>
                   <unitdate> 1899</unitdate>
 
@@ -2522,7 +2519,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
+                  <container label="unspecified" type="box">1</container>
                   <unittitle>Ithaca Chronological Historical Events</unittitle>
                   <unitdate> 1939</unitdate>
 
@@ -2530,8 +2527,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>The Bellringer: A Publication of the Tompkins County Mental Health
                      Association</unittitle>
                   <unitdate> 1963-1968</unitdate>
@@ -2540,8 +2537,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Transportation Miscellany</unittitle>
                   <unitdate> 1876-1932</unitdate>
 
@@ -2554,8 +2551,8 @@
             </did>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">16</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">16</container>
                   <unittitle>Identification of Erosion Surfaces in South-Central New York, </unittitle>
                   <unitdate> Feb.-March, 1929</unitdate>
 
@@ -2563,8 +2560,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">16</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">16</container>
                   <unittitle>New Peridotite Dikes of Ithaca</unittitle>
                   <unitdate> 1939</unitdate>
 
@@ -2572,8 +2569,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">16</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">16</container>
                   <unittitle>The Pan-American Geologist</unittitle>
                   <unitdate> 1940</unitdate>
 
@@ -2581,8 +2578,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">16</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">16</container>
                   <unittitle>Dikes as Possible Barriers to Migration of Natural Gas, </unittitle>
                   <unitdate> 1940</unitdate>
 
@@ -2590,8 +2587,8 @@
             </c02>
             <c02 level="item">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">16</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">16</container>
                   <unittitle>Artesian Well Sections at Ithaca, NY</unittitle>
                   <unitdate> Feb.-March, 1904</unitdate>
 
@@ -2599,15 +2596,15 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">20</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">20</container>
                   <unittitle>Historic Ithaca and Tompkins County,</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">39</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">39</container>
                   <unittitle>Blank checks of the First National Bank of Ithaca, </unittitle>
                   <unitdate> 1908</unitdate>
 
@@ -2615,8 +2612,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">39</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">39</container>
                   <unittitle>Constitution and By-Laws of the Ithaca Baseball Club, </unittitle>
                   <unitdate> 1908</unitdate>
 
@@ -2624,8 +2621,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">39</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">39</container>
                   <unittitle>The Barn Dance</unittitle>
                   <unitdate> 1908</unitdate>
 
@@ -2633,8 +2630,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">39</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">39</container>
                   <unittitle>What is the Hinckley Foundation?</unittitle>
                   <unitdate> 1972</unitdate>
 
@@ -2642,8 +2639,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">39</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">39</container>
                   <unittitle>Bus Time Table, Tempting Tear-Outs</unittitle>
                   <unitdate> 1983-1984</unitdate>
 
@@ -2651,16 +2648,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">39</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">39</container>
                   <unittitle>Art: U.S.A. The Johnson Collection of Contemporary American
                      Painting</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">39</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">39</container>
                   <unittitle>"The Neighborhood News," </unittitle>
                   <unitdate> Nov. 4, 1940</unitdate>
 
@@ -2668,8 +2665,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">53</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">53</container>
                   <unittitle>Summer-Ithaca</unittitle>
                   <unitdate> 1961-1965</unitdate>
 
@@ -2677,7 +2674,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
+                  <container label="unspecified" type="box">1</container>
                   <unittitle>Ithaca, New York: A General Plan</unittitle>
                   <unitdate> 1971</unitdate>
 
@@ -2685,8 +2682,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">62</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">62</container>
                   <unittitle>Reminiscing Through Four Generations</unittitle>
                   <unitdate> 1841</unitdate>
 
@@ -2694,8 +2691,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">62</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">62</container>
                   <unittitle>By-Laws of the Ithaca Savings Bank</unittitle>
                   <unitdate> 1841</unitdate>
 
@@ -2703,8 +2700,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">62</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">62</container>
                   <unittitle>The Church Gazette</unittitle>
                   <unitdate> May 1, 1874</unitdate>
 
@@ -2712,8 +2709,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <container type="folder">63</container>
+                  <container label="unspecified" type="box">1</container>
+                  <container label="unspecified" type="folder">63</container>
                   <unittitle>Views of Ithaca</unittitle>
                   <unitdate> 1906</unitdate>
 
@@ -2721,15 +2718,15 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Freeville Artesian Water Supply</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>"Ithaca Paints," an article in Life Magazine</unittitle>
                   <unitdate> Apr. 4, 1949</unitdate>
 
@@ -2737,8 +2734,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Who's Who? (A Discussion About Anarchism)</unittitle>
                   <unitdate> 1901</unitdate>
 
@@ -2746,8 +2743,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">2</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>Surroundings: Ithaca, NY-A Manual for Peripheral Streets Improvements, </unittitle>
                   <unitdate> March 1978</unitdate>
 
@@ -2755,7 +2752,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Stewart Park 1987 Preservation Goals and Guidelines, </unittitle>
                   <unitdate> 1987</unitdate>
 
@@ -2763,7 +2760,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>A History of the Railroads in Tompkins County, </unittitle>
                   <unitdate> 1947</unitdate>
 
@@ -2771,8 +2768,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">17</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">17</container>
                   <unittitle>"Dryden" by W. Franklin Moore</unittitle>
                   <unitdate> 1911</unitdate>
 
@@ -2780,8 +2777,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">22</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">22</container>
                   <unittitle>New and Living Styles and House Forms</unittitle>
                   <unitdate> May 13, 1972</unitdate>
 
@@ -2789,8 +2786,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">22</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">22</container>
                   <unittitle>Community Renewal Program</unittitle>
                   <unitdate> June, 1973</unitdate>
 
@@ -2798,21 +2795,21 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">22</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">22</container>
                   <unittitle>McGraw House </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Ithaca Epidemic of 1903</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">35</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">35</container>
                   <unittitle>Miscellaneous notes and correspondence from Mr. M. VanCleef, </unittitle>
                   <unitdate> 1906</unitdate>
 
@@ -2820,8 +2817,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">36</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">36</container>
                   <unittitle>The Rise of Paris by Robert Ballanger</unittitle>
                   <unitdate> Jan. 21, 1945</unitdate>
 
@@ -2829,8 +2826,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">37</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">37</container>
                   <unittitle>The Flood of '72</unittitle>
                   <unitdate> Aug. 1972 </unitdate>
 
@@ -2838,8 +2835,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">38</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">38</container>
                   <unittitle>17th Annual United Way Report</unittitle>
                   <unitdate> 1973</unitdate>
 
@@ -2847,15 +2844,15 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">39</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">39</container>
                   <unittitle>Hiring the Handicapped: Facts and Myths</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">40</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">40</container>
                   <unittitle>Homes: Warren Real Estate</unittitle>
                   <unitdate> 1991</unitdate>
 
@@ -2863,8 +2860,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">41</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">41</container>
                   <unittitle>Town of Enfield directory</unittitle>
                   <unitdate> [1961]</unitdate>
 
@@ -2872,8 +2869,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <container type="folder">42</container>
+                  <container label="unspecified" type="box">3</container>
+                  <container label="unspecified" type="folder">42</container>
                   <unittitle>Free Hollow/Forest Home </unittitle>
                   <unitdate> 1973</unitdate>
 
@@ -2881,7 +2878,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unittitle>Enrollment of Voters, Tompkins County, First Assembly District [16
                      volumes]</unittitle>
                   <unitdate> 1929-1953</unitdate>
@@ -2890,20 +2887,20 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case">Folder 1</container>
+                  <container label="unspecified" type="map-case">Folder 1</container>
                   <unittitle>Ithaca Sign Company banner </unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case">Folder 2</container>
+                  <container label="unspecified" type="map-case">Folder 2</container>
                   <unitdate> 1974</unitdate>
                   <unittitle>Calendar</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="map-case">Folder 2</container>
+                  <container label="unspecified" type="map-case">Folder 2</container>
                   <unittitle>Poster relating to Wharton Studios and the 75th anniversary of movie
                      making in Ithaca, produced by Terry Harbin, </unittitle>
                   <unitdate> 1990</unitdate>
@@ -2912,5 +2909,9 @@
             </c02>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Ithaca and Tompkins County (N.Y.) Printed Material, #1074. Division of Rare and
+               Manuscript Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

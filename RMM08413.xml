@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08413::Guide to the William Mangin papers)//EN">RMM08413</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08413::Guide to the William Mangin papers)//EN">RMM08413</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the William Mangin papers,
@@ -25,19 +25,25 @@
     <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>September 2013</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the William Mangin Papers,<lb/><date type="inclusive" encodinganalog="245$f">1951-1990.</date></titleproper>
+      <titleproper>Guide to the William Mangin Papers,<date encodinganalog="245$f" type="inclusive">1951-1990.</date></titleproper>
       <num>Collection Number: 8413</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-            Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+            Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
         </defitem>
         <defitem>
           <label>Compiled by:</label>
@@ -63,14 +69,13 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">William Mangin papers, <unitdate encodinganalog="MARC 245" type="inclusive">1951-1990.</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">William Mangin papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1951-1990.</unitdate>
       <unitid label="Collection Number:">8413</unitid>
       <origination label="Creator:">
         <persname encodinganalog="100" normal="Mangin, William">Mangin, William
         </persname>
       </origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>7 cubic feet.</extent></physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>7 cubic feet</extent></physdesc>
       <physdesc label="Forms of Material:">Photographs, research material</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
         University Library</repository>
@@ -79,7 +84,7 @@
       <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">
-      <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+      <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
       <p>William Mangin acted as Field Director of the Vicos experimental station from
         1952-1953. He also was involved in the Barriadas in Lima and the Peace Corps in Peru
         and served as professor of anthropology at Syracuse University. His research
@@ -116,38 +121,31 @@
         <genreform encodinganalog="MARC 655" source="aat">Slides (photographs).</genreform>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>William Mangin Papers, #8413. Division of Rare and Manuscript Collections,
-          Cornell University Library.</p>
-      </prefercite>
-    </descgrp>
+    
    
     
     <arrangement>
       <head>SERIES LIST</head>
       <p>
         <emph render="bold">
-          <ref target="s1" show="replace" actuate="onrequest">Series I. Miscellaneous Files and Documents</ref>
+          <ref actuate="onrequest" show="replace" target="s1">Series I. Miscellaneous Files and Documents</ref>
         </emph>
       </p><p>
         <emph render="bold">
-          <ref target="s2" show="replace" actuate="onrequest">Series II. Mental Health Documents</ref>
+          <ref actuate="onrequest" show="replace" target="s2">Series II. Mental Health Documents</ref>
         </emph>
       </p>
       <p>
         <emph render="bold">
-          <ref target="s3" show="replace" actuate="onrequest">Series III. Photographs</ref>
+          <ref actuate="onrequest" show="replace" target="s3">Series III. Photographs</ref>
         </emph>
       </p><p>
         <emph render="bold">
-          <ref target="s4" show="replace" actuate="onrequest">Series IV. Slides</ref>
+          <ref actuate="onrequest" show="replace" target="s4">Series IV. Slides</ref>
         </emph>
       </p><p>
         <emph render="bold">
-          <ref target="s5" show="replace" actuate="onrequest">Series V. Audio</ref>
+          <ref actuate="onrequest" show="replace" target="s5">Series V. Audio</ref>
         </emph>
       </p>
       
@@ -160,225 +158,225 @@
         <did><unittitle id="s1">Series I. Miscellaneous Files and Documents</unittitle></did>
         <c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">1</container>
             <unitdate>1991</unitdate>
             <unittitle>"Long-Term Field Research in Social Anthropology" typed chapter</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">2</container>
             <unitdate>1956-1974</unitdate>
             <unittitle>Clippings and publications</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">3</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">3</container>
+            
             <unittitle>Vicos: Sogo Ewn</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">4</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">4</container>
+            
             <unittitle>Typed paper</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">5-7</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">5-7</container>
             <unitdate>1951-1975</unitdate>
             <unittitle>William Mangin notes and publications</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">8</container>
             <unitdate>1960</unitdate>
             <unittitle>Vicos notes</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">9</container>
             <unitdate>1990s</unitdate>
             <unittitle>Vicos publications</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">10</container>
             <unitdate>2006</unitdate>
             <unittitle>Vicos</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">11</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">11</container>
+            
             <unittitle>Vicos miscellaneous notes</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">12</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">12</container>
+            
             <unittitle>Mangin Vicos letters</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">13</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">13</container>
             <unitdate>1952-1962</unitdate>
             <unittitle>Vicos Method</unittitle>
             
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">14</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">14</container>
             <unitdate>2008</unitdate>
             <unittitle>Revised Vicos paper</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">15</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">15</container>
+            
             <unittitle>Vicos, Dobyns</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">16</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">16</container>
+            
             <unittitle>Vicos, Stowe</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">17-18</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">17-18</container>
+            
             <unittitle>Miscellaneous papers and publications</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">19</container>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">19</container>
             <unitdate>1950s, 2006</unitdate>
             <unittitle>Vicos Cornell paper</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">20</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">20</container>
+            
             <unittitle>Vicos Peace Corps</unittitle>
             
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">21</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">21</container>
+            
             <unittitle>Notes, AAA</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">22</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">22</container>
+            
             <unittitle>"Human Organization", notes</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">23</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">23</container>
+            
             <unittitle>Vazquez papers</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">24-26</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">24-26</container>
+            
             <unittitle>Vicos miscellaneous</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">1</container>
-            <container type="folder">27</container>
-            <unitdate/>
+            <container label="unspecified" type="box">1</container>
+            <container label="unspecified" type="folder">27</container>
+            
             <unittitle>Paper on the Good and the Bad Patron</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">1-2</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">1-2</container>
             <unitdate>1966-1975</unitdate>
             <unittitle>William Stein papers</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">3</container>
-            <unitdate/>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">3</container>
+            
             <unittitle>Barriadas</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">4</container>
-            <unitdate/>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">4</container>
+            
             <unittitle>Mendocita</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">5</container>
-            <unitdate/>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">5</container>
+            
             <unittitle>Notes</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">6</container>
-            <unitdate/>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">6</container>
+            
             <unittitle>Goldschmidt, Aldine book</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">2</container>
-            <container type="folder">7-14</container>
+            <container label="unspecified" type="box">2</container>
+            <container label="unspecified" type="folder">7-14</container>
             <unitdate>1950-1990</unitdate>
             <unittitle>Miscellaneous clippings, publications and papers</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">10</container>
             <unitdate>1950s-1960s</unitdate>
             <unittitle>Publications and clippings</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">6</container>
+            <container label="unspecified" type="box">6</container>
            
             <unitdate>1950s-1960s</unitdate>
             <unittitle>Publications</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">7</container>
+            <container label="unspecified" type="box">7</container>
             <unitdate>1950s-1960s</unitdate>
             <unittitle>Notebooks</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">8-10</container>
+            <container label="unspecified" type="box">8-10</container>
             
             <unitdate>1950s-1960s</unitdate>
             <unittitle>Note cards</unittitle>
@@ -390,65 +388,65 @@
         <did><unittitle id="s2">Series II. Mental Health Documents</unittitle></did>
         <c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">1</container>
-            <unitdate/>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">1</container>
+            
             <unittitle>Woolman self inst. materials, Alcoholism. NIMH grant, Barriada</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">2</container>
             <unitdate>1959</unitdate>
             <unittitle>Mariscal Castilla</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">3</container>
-            <unitdate/>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">3</container>
+            
             <unittitle>Mendocita</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">4</container>
-            <unitdate/>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">4</container>
+            
             <unittitle>Miscellaneous mental health materials</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">5-6</container>
-            <unitdate/>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">5-6</container>
+            
             <unittitle>Barriada Mariscal Castilla census</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">7</container>
             <unitdate>1959</unitdate>
             <unittitle>Lima Peru case studies</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">8</container>
             <unitdate>1960</unitdate>
             <unittitle>Research grant application</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">9</container>
             <unitdate>1959</unitdate>
             <unittitle>Census and surveys, Mariscal Castilla</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">3</container>
+            <container label="unspecified" type="box">3</container>
            
-            <unitdate/>
+            
             <unittitle>Notecards</unittitle>
           </did>
         </c02>
@@ -457,77 +455,77 @@
         <did><unittitle id="s3">Series III. Photographs</unittitle></did>
         <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">1-5</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">1-5</container>
             <unitdate>1950s</unitdate>
             <unittitle>Vicos</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">6-8</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">6-8</container>
             <unitdate>1950s-1960s</unitdate>
             <unittitle>Vicos</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">9</container>
             <unitdate>1950s-1960s</unitdate>
             <unittitle>Huarez, Ancash, Carhuaz</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">10</container>
             <unitdate>1950s-1960s</unitdate>
             <unittitle>Cuzco</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">11</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">11</container>
             <unitdate>1950s-1960s</unitdate>
             <unittitle>Barriada</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">12-14</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">12-14</container>
             <unitdate>1950s-1960s</unitdate>
             <unittitle>Mariscol Castilla</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">15</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">15</container>
             <unitdate>1950s-1960s</unitdate>
             <unittitle>Mendocita</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">16-19</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">16-19</container>
             <unitdate>1950s-1960s</unitdate>
             <unittitle>Lima</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">20</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">20</container>
             <unitdate>1950s-1960s</unitdate>
             <unittitle>Negatives</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">1-9</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">1-9</container>
             <unitdate>1950s-1960s</unitdate>
             <unittitle>Unknown</unittitle>
           </did>
         </c02><c02 level="file">
           <did>
-            <container type="box">6</container>
+            <container label="unspecified" type="box">6</container>
             
             <unitdate>1950s-1960s</unitdate>
             <unittitle>Unknown</unittitle>
@@ -537,7 +535,7 @@
        <did><unittitle id="s4">Series IV. Slides</unittitle></did>
      <c02 level="file">
         <did>
-          <container type="box">11</container>
+          <container label="unspecified" type="box">11</container>
        
           <unitdate>1950s-1980s</unitdate>
           <unittitle>Barriadas, Vicos, Marcara, Squatters around the world, and miscellaneous</unittitle>
@@ -546,7 +544,7 @@
        <did><unittitle id="s5">Series V. Audio</unittitle></did>
        <c02 level="file">
          <did>
-           <container type="box">11</container>
+           <container label="unspecified" type="box">11</container>
            <unitid label="SR-">1967</unitid>
            <unitdate>1958</unitdate>
            <unittitle>Vicos</unittitle>
@@ -554,5 +552,9 @@
        </c02></c01> 
        </dsc> 
    
-  </archdesc> 
+  <prefercite>
+        <head>Cite As:</head>
+        <p>William Mangin Papers, #8413. Division of Rare and Manuscript Collections,
+          Cornell University Library.</p>
+      </prefercite></archdesc> 
 </ead>

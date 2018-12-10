@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
 <ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-	 <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03191::Edward Devereux papers)//EN">RMA03191</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+	 <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03191::Edward Devereux papers)//EN">RMA03191</eadid>
 	 
 	 <filedesc> 
 		<titlestmt> 
@@ -26,7 +25,13 @@
 		<creation>Finding aid encoded by Damon Clark 
 		  <date>June 18, 2002</date> </creation> 
 	 </profiledesc> 
-	 <revisiondesc> 
+	 <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+ 
 		<change encodinganalog="583"> 
 		  <date normal="2007-05-29">2007-05-29</date> 
 		  <item>converted from EAD 1.0 to EAD 2002 </item> 
@@ -35,20 +40,20 @@
   </eadheader> 
   <frontmatter> 
 	 <titlepage> 
-		<titleproper>Guide to the Edward Devereux Papers, <lb/>ca.
+		<titleproper>Guide to the Edward Devereux Papers, ca.
 		  1936-1978</titleproper> 
 		<num>Collection Number: 23-13-3191</num> 
-		<publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+		<publisher>Division of Rare and Manuscript Collections Cornell
 		  University Library</publisher> 
 		<list type="deflist"> 
 		  <defitem> 
 			 <label>Contact Information:</label> 
-			 <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-				Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-				255-3530<lb/> Fax: (607) 255-9524<lb/> 
-				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> <lb/> 
+			 <item>Division of Rare and Manuscript Collections 2B Carl A.
+				Kroch Library Cornell University Ithaca, NY 14853 (607)
+				255-3530 Fax: (607) 255-9524 
+				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>  
 				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-				<lb/></item> 
+				</item> 
 		  </defitem> 
 		  <defitem> 
 			 <label>Compiled by:</label> 
@@ -74,13 +79,15 @@
   <archdesc level="collection"> 
 	 <did> 
 		<head id="a1">DESCRIPTIVE SUMMARY</head> 
-		<unittitle label="Title:" encodinganalog="MARC 245">Edward Devereux
+		<unittitle encodinganalog="MARC 245" label="Title:">Edward Devereux
 		  papers, 
-		  <unitdate type="inclusive" encodinganalog="MARC 245">ca.1936-1978</unitdate> </unittitle> 
+		  </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1936-1978</unitdate> 
 		<unitid label="Collection Number:">23-13-3191</unitid> 
 		<origination label="Creator:"> 
 		  <persname encodinganalog="100" normal="Edward Clifton Devereux." role="creator">Edward Clifton Devereux.</persname> </origination> 
-		<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>3.4 cubic
+		<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>3.4 cubic
 		  feet.</extent></physdesc> 
 		<physdesc label="Forms of Material:">Correspondence, publications, course
 		  material, subject files. </physdesc> 
@@ -98,7 +105,7 @@
 		  </langmaterial> 
 	 </did> 
 	 <bioghist encodinganalog="MARC 545"> 
-		<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head> 
+		<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head> 
 		<p>Edward Devereux was Professor of Human Development and Human Studies
 		at Cornell University from 1950-1978.</p> 
 	 	<p> Edward Devereux was born in Long Island, New York in 1912.  He received his A.B. and 
@@ -162,18 +169,7 @@
 		  <geogname encodinganalog="MARC 651">Candor (N.Y.)</geogname> 
 		</controlaccess> 
 	 </controlaccess> 
-	 <descgrp type="admininfo"> 
-		<head id="a8">INFORMATION FOR USERS</head> 
-		<accessrestrict> 
-		  <head>Access Restrictions:</head> 
-			<p>Box 1, folders 20-22 are restricted until 2026, folder 51 is restricted until 2046 at which time the restrictions will be reevaluated.</p> 
-		</accessrestrict> 
-		<prefercite> 
-		  <head>Cite As:</head> 
-		  <p> Edward Devereux Papers #23-13-3191. Division of Rare and Manuscript
-			 Collections, Cornell University Library.</p> 
-		</prefercite> 
-	 </descgrp> 
+	  
   	<relatedmaterial> 
   		<head>RELATED MATERIAL</head> 
   		<p>A DVD of the two copies of the film "Two Ball Games" can be found in collection #21-36-2566, box 24</p> 
@@ -181,48 +177,48 @@
 	 <arrangement> 
 		<head> SERIES LIST</head> 
 		<p> <emph render="bold"> 
-		  <ref target="s1" show="replace" actuate="onrequest">Series I. AT &amp;
-			 T Company </ref> </emph> <lb/>Box 1, Folders 1-5</p> 
+		  <ref actuate="onrequest" show="replace" target="s1">Series I. AT &amp;
+			 T Company </ref> </emph> Box 1, Folders 1-5</p> 
 		<p> <emph render="bold"> 
-		  <ref target="s2" show="replace" actuate="onrequest">Series II.
-			 Springdale - Community Study </ref> </emph> <lb/>Box 1, Folders 6-25</p> 
+		  <ref actuate="onrequest" show="replace" target="s2">Series II.
+			 Springdale - Community Study </ref> </emph> Box 1, Folders 6-25</p> 
 		<p> <emph render="bold"> 
-		  <ref target="s3" show="replace" actuate="onrequest">Series III. Germany
-			 - Study</ref> </emph> <lb/>Box 1, Folders 26-30</p> 
+		  <ref actuate="onrequest" show="replace" target="s3">Series III. Germany
+			 - Study</ref> </emph> Box 1, Folders 26-30</p> 
 		<p> <emph render="bold"> 
-		  <ref target="s4" show="replace" actuate="onrequest">Series IV. Series
-			 IV. Israel - Study </ref> </emph> <lb/>Box 1, Folders 31-41</p> 
+		  <ref actuate="onrequest" show="replace" target="s4">Series IV. Series
+			 IV. Israel - Study </ref> </emph> Box 1, Folders 31-41</p> 
 		<p> <emph render="bold"> 
-		  <ref target="s5" show="replace" actuate="onrequest">Series V. Hawaii -
-			 Study</ref> </emph> <lb/>Box 1, Folders 42-44</p> 
+		  <ref actuate="onrequest" show="replace" target="s5">Series V. Hawaii -
+			 Study</ref> </emph> Box 1, Folders 42-44</p> 
 		<p> <emph render="bold"> 
-		  <ref target="s6" show="replace" actuate="onrequest">Series VI. Japan -
-			 Study</ref> </emph> <lb/>Box 1, Folders 45-54</p> 
+		  <ref actuate="onrequest" show="replace" target="s6">Series VI. Japan -
+			 Study</ref> </emph> Box 1, Folders 45-54</p> 
 		<p> <emph render="bold"> 
-		  <ref target="s7" show="replace" actuate="onrequest">Series VII. Course
-			 Material</ref> </emph> <lb/>Box 2, Folders 1-29</p> 
+		  <ref actuate="onrequest" show="replace" target="s7">Series VII. Course
+			 Material</ref> </emph> Box 2, Folders 1-29</p> 
 		<p> <emph render="bold"> 
-		  <ref target="s8" show="replace" actuate="onrequest">Series VIII.
-			 Seminars/Conferences </ref> </emph> <lb/>Box 2, Folders 30-42</p> 
+		  <ref actuate="onrequest" show="replace" target="s8">Series VIII.
+			 Seminars/Conferences </ref> </emph> Box 2, Folders 30-42</p> 
 		<p> <emph render="bold"> 
-		  <ref target="s9" show="replace" actuate="onrequest">Series IX.
-			 Publications </ref> </emph> <lb/>Box 3, Folders 1-57A</p> 
+		  <ref actuate="onrequest" show="replace" target="s9">Series IX.
+			 Publications </ref> </emph> Box 3, Folders 1-57A</p> 
 		<p> <emph render="bold"> 
-		  <ref target="s10" show="replace" actuate="onrequest">Series X. Subject
-			 Files: Children's Play </ref> </emph> <lb/>Box 3, Folders 58-67</p> 
+		  <ref actuate="onrequest" show="replace" target="s10">Series X. Subject
+			 Files: Children's Play </ref> </emph> Box 3, Folders 58-67</p> 
 		<p> <emph render="bold"> 
-		  <ref target="s11" show="replace" actuate="onrequest">Series XI. Subject
-			 Files: Gambling </ref> </emph> <lb/>Box 4, Folders 1-12</p> 
+		  <ref actuate="onrequest" show="replace" target="s11">Series XI. Subject
+			 Files: Gambling </ref> </emph> Box 4, Folders 1-12</p> 
 		<p> <emph render="bold"> 
-		  <ref target="s12" show="replace" actuate="onrequest">Series XII.
-			 Projects</ref> </emph> <lb/>Box 4, Folders 13-15</p> 
+		  <ref actuate="onrequest" show="replace" target="s12">Series XII.
+			 Projects</ref> </emph> Box 4, Folders 13-15</p> 
 		<p> <emph render="bold"> 
-		  <ref target="s13" show="replace" actuate="onrequest">Series XIII.
-			 Biographical material and Correspondence</ref> </emph> <lb/>Box 4, Folders
+		  <ref actuate="onrequest" show="replace" target="s13">Series XIII.
+			 Biographical material and Correspondence</ref> </emph> Box 4, Folders
 		  16-20</p> 
 		<p> <emph render="bold"> 
-		  <ref target="s14" show="replace" actuate="onrequest">Series XIV. Talks
-			 and Sound Recordings </ref> </emph> <lb/>Box 4, Folders 21-22</p> 
+		  <ref actuate="onrequest" show="replace" target="s14">Series XIV. Talks
+			 and Sound Recordings </ref> </emph> Box 4, Folders 21-22</p> 
 	 </arrangement> 
 	 <dsc type="in-depth"> 
 		<head>CONTAINER LIST</head> 
@@ -232,38 +228,38 @@
 		  </did> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">1</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">1</container> 
 				<unittitle>Drafts of various chapters for publication </unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">2</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">2</container> 
 				<unittitle>The Invisible Competitors of Social Research-drafts</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">3</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">3</container> 
 			 	<unittitle>Interviews with AT and T employees</unittitle>  
 				  <unitdate>1949</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">4</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">4</container> 
 			 	<unittitle>Applied Social Sciences Research - Vol. 1</unittitle>  
 				  <unitdate>1949</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">5</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">5</container> 
 				<unittitle>Applied Social Sciences Research - Vol. 1- research and
 					comments</unittitle> 
 				  <unitdate>1949</unitdate> 
@@ -277,138 +273,138 @@
 		  </did> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">6</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">6</container> 
 				<unittitle>Code book, various cards</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">7</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">7</container> 
 			 	<unittitle>Social sensitivity</unittitle>  
 				  <unitdate>1953</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">8</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">8</container> 
 			 	<unittitle>Neighborhood Participation Deviance</unittitle> 
 				  <unitdate>1953</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">9</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">9</container> 
 				<unittitle>Chapter 10-forms of community involvement and
 				  participation</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">10</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">10</container> 
 			 	<unittitle>Community survey pre-test items</unittitle>  
 				  <unitdate>1953</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">11</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">11</container> 
 				<unittitle>Variables in survey</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">12</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">12</container> 
 				<unittitle>Community problems analysis</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">13</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">13</container> 
 				<unittitle>Neighborhood classifications, coding key</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">14</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">14</container> 
 				<unittitle>Chapter 4- The People of Springdale: Background
 				  Characteristics</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">15</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">15</container> 
 				<unittitle>Ecological material and chapter on Civic Awareness</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">16</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">16</container> 
 			 	<unittitle>Organizations, summary of data</unittitle>  
 				  <unitdate>1952-1953</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">17</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">17</container> 
 				<unittitle>Cornell community survey</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">18</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">18</container> 
 			 	<unittitle>Sample background data</unittitle>  
 				  <unitdate>1955</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">19</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">19</container> 
 			 	<unittitle>Cornell Research Program in Candor</unittitle> 
 				  <unitdate>1952-1953</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">20</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">20</container> 
 			 	<unittitle>Field Notes</unittitle> 
 				  <unitdate>1951</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">21</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">21</container> 
 			 	<unittitle>Field Notes</unittitle>  
 				  <unitdate>1951</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">22</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">22</container> 
 			 	<unittitle>Field Notes</unittitle> 
 				  <unitdate>1951</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">23</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">23</container> 
 				<unittitle>Staff document files- A long-range program of research
 					on the detriments of constructive social behavior</unittitle> 
 				  <unitdate>1952</unitdate> 
@@ -416,8 +412,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">24</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">24</container> 
 				<unittitle>Staff document files - A long-range program of research
 					on the detriments of constructive social behavior</unittitle>  
 				  <unitdate>1952</unitdate> 
@@ -425,8 +421,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">25</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">25</container> 
 				<unittitle>Papers by Carlfred Broderick - Nature and Role of
 				  Informal Family Groups, Social Integration in Springdale and Urban Conjugal
 				  Family and the Social Mechanisms which Support and Stabilize It</unittitle>  
@@ -440,16 +436,16 @@
 		  </did> 
 		  <c02 level="item"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">26</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">26</container> 
 			 	<unittitle>Correspondence</unittitle>  
 				  <unitdate>1958-1962</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="item"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">27</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">27</container> 
 				<unittitle>Family Authority Structure and Child Behavior-key and
 					remarks</unittitle>  
 				  <unitdate>1960</unitdate>
@@ -457,23 +453,23 @@
 		  </c02> 
 		  <c02 level="item"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">28</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">28</container> 
 				<unittitle>Questionnaires</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">29</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">29</container> 
 			 	<unittitle>Correspondence - Frankfurt</unittitle>  
 				  <unitdate>1955-1957</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">30</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">30</container> 
 				<unittitle> "Parental Behavior and Family Structure in West
 					Germany" -results of analyses of variance for nine parent behavior factors</unittitle> 
 				  <unitdate>1962</unitdate> 
@@ -486,32 +482,32 @@
 		  </did> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">31</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">31</container> 
 			 	<unittitle>Parent Behavior Instruments</unittitle>  
 				  <unitdate>1970-1979</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">32</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">32</container> 
 			 	<unittitle>Correspondence</unittitle>  
 				  <unitdate>1971-1976</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">33</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">33</container> 
 			 	<unittitle>Research proposal - Studies of Group Upbringing</unittitle> 
 				  <unitdate>1969</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">34</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">34</container> 
 				<unittitle>Research proposal - Cross-Cultural Studies of Child
 					Rearing</unittitle>  
 				  <unitdate>1967-1969</unitdate> 
@@ -519,16 +515,16 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">35</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">35</container> 
 			 	<unittitle>Cross-Cultural Studies</unittitle> 
 				  <unitdate>1971</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">36</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">36</container> 
 				<unittitle>Research proposal - Family Structure and Personality
 					Development</unittitle> 
 				  <unitdate>1958, 1962, 1963</unitdate> 
@@ -536,8 +532,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">37</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">37</container> 
 				<unittitle>Research proposal - Cross-Cultural Studies of
 					Socialization</unittitle>  
 				  <unitdate>1962</unitdate> 
@@ -545,8 +541,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">38</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">38</container> 
 				<unittitle>Research proposal - Cross-Cultural Studies of Family
 					Behavior</unittitle>  
 				  <unitdate>1959</unitdate>
@@ -554,16 +550,16 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">39</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">39</container> 
 			 	<unittitle>Research Project - Sociological Studies of the Family</unittitle>  
 				  <unitdate>1958</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">40</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">40</container> 
 				<unittitle>Research Project - Changing Structure of the Rural
 					Community with Implications for Rural Programming</unittitle>  
 				  <unitdate>1955-1956</unitdate> 
@@ -571,8 +567,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">41</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">41</container> 
 			 	<unittitle>Occupational Roles and Parent-Child Relationships</unittitle>  
 				  <unitdate>1958-1961</unitdate> 
 			 </did> 
@@ -584,23 +580,23 @@
 		  </did> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">42</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">42</container> 
 			 	<unittitle>Honolulu - pilot study</unittitle>  
 				  <unitdate>1971</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">43</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">43</container> 
 				<unittitle>Honolulu-Semantic Differential</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">44</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">44</container> 
 				<unittitle>Hawaii - pre-test forms</unittitle> 
 			 </did> 
 		  </c02> 
@@ -611,8 +607,8 @@
 		  </did> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">45</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">45</container> 
 				<unittitle>Family Structure, Socialization Settings and Child
 					Behavior Outcomes in Japan - code book</unittitle> 
 				  <unitdate>1976</unitdate> 
@@ -620,69 +616,69 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">46</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">46</container> 
 			 	<unittitle>Report and correspondence</unittitle> 				 
 			 	<unitdate>1972-1974</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">47</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">47</container> 
 			 	<unittitle>Correspondence</unittitle> 
 				  <unitdate>1960-1971</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">48</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">48</container> 
 			 	<unittitle>Correspondence</unittitle> 
 				  <unitdate>1971</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">49</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">49</container> 
 			 	<unittitle>Correspondence concerning travel arrangements</unittitle> 
 				  <unitdate>1967-1971</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">50</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">50</container> 
 			 	<unittitle>Expenses</unittitle> 
 				  <unitdate>1972</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">51</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">51</container> 
 				<unittitle>Pre-test and parent interviews</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">52</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">52</container> 
 				<unittitle>Questionnaires </unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">53</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">53</container> 
 				<unittitle>Long form</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">1</container> 
-				<container type="folder">54</container> 
+				<container label="unspecified" type="box">1</container> 
+				<container label="unspecified" type="folder">54</container> 
 				<unittitle>Student paper - A Trend of Parent Behavior and Family
 					Authority Structure in Three Cultures - by Edward Gubman</unittitle>  
 				  <unitdate>1974</unitdate>
@@ -695,16 +691,16 @@
 		  </did> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">1</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">1</container> 
 			 	<unittitle>Various course material</unittitle> 
 				  <unitdate>1960-1979</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">2</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">2</container> 
 				<unittitle>"Research Methods in Child Development and Family
 					Relations" CDFR)</unittitle>  
 				  <unitdate>1950-1970</unitdate>
@@ -712,62 +708,62 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">3</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">3</container> 
 			 	<unittitle>"Child Development and Family Relations" 501-502</unittitle> 
 				  <unitdate>1968</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">4</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">4</container> 
 			 	<unittitle>"DFR and Human Development and Family Studies"(HDFS)</unittitle>  
 				  <unitdate>1955-1977</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">5</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">5</container> 
 			 	<unittitle>"Family and Society"</unittitle> 
 				  <unitdate>1958, 1960-1979</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">6</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">6</container> 
 			 	<unittitle>"The Family in Cross-Cultural Perspective"</unittitle> 
 				  <unitdate>1970-1979</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">7</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">7</container> 
 				<unittitle>"Family, Kinship and Society" - 543 and 564</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">8</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">8</container> 
 				<unittitle>"Family Relationships and the Social Structure"</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">9</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">9</container> 
 			 	<unittitle>"American Family"- talks, article, course material</unittitle>  
 				  <unitdate>1960-1979</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">10</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">10</container> 
 				<unittitle>American Family-CDFR 406 and sample student paper,
 					bibliography</unittitle> 
 				  <unitdate>1959</unitdate> 
@@ -775,8 +771,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">11</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">11</container> 
 				<unittitle>Family Life in the United States - some area studies in
 					the role of the father in the family</unittitle> 
 				  <unitdate>1965</unitdate>  
@@ -784,110 +780,110 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">12</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">12</container> 
 			 	<unittitle>Experimental Methods - lectures</unittitle> 
 				  <unitdate>1950-1959</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">13</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">13</container> 
 			 	<unittitle>Jewish Family - Israeli Family</unittitle>  
 				  <unitdate>1950</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">14</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">14</container> 
 			 	<unittitle>Homan's theory</unittitle> 
 				  <unitdate>1960-1969</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">15</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">15</container> 
 			 	<unittitle> "Technology and the Social Values of Industrialism"</unittitle> 
 				  <unitdate>1970</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">16</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">16</container> 
 			 	<unittitle>Studies of Marital Success</unittitle>  
 				  <unitdate>1950-1969</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">17</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">17</container> 
 			 	<unittitle>Psychopathology</unittitle> 
 				  <unitdate>1964-1973</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">18</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">18</container> 
 				<unittitle>Old age retirement</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">19</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">19</container> 
 			 	<unittitle>Dating and Courtship</unittitle> 
 				  <unitdate>1950-1969</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">20</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">20</container> 
 			 	<unittitle>Assortative Mating and Intermarriage</unittitle>  
 				  <unitdate>1950-1969</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">21</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">21</container> 
 			 	<unittitle>China - family systems</unittitle> 
 				  <unitdate>1972</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">22</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">22</container> 
 			 	<unittitle>Kinship systems - Ireland, French Canadian</unittitle> 
 				  <unitdate>1942-1972</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">23</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">23</container> 
 			 	<unittitle>Ecology project - with Bronfenbrenner and Cochran</unittitle>  
 				  <unitdate>1977</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">24</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">24</container> 
 				<unittitle>Course outline - Social Disorganization</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">25</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">25</container> 
 				<unittitle>Class papers by Devereux Study of Harvard-Radcliffe
 					students</unittitle>  
 				  <unitdate>1938-1939, 1955</unitdate> 
@@ -895,32 +891,32 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">26</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">26</container> 
 			 	<unittitle>Sociology - Harvard-handwritten notes</unittitle>  
 				  <unitdate>1940</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">27</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">27</container> 
 				<unittitle>Sociology - participant observation guides</unittitle>
 				
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">28</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">28</container> 
 			 	<unittitle>Case studies in delinquency and crime- Douglas</unittitle> 
 				  <unitdate>1941</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">29</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">29</container> 
 				<unittitle>Znaniecki-method of sociology- notes</unittitle> 
 			 </did> 
 		  </c02> 
@@ -931,32 +927,32 @@
 		  </did> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">30</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">30</container> 
 			 	<unittitle>Conferences participated in by Devereux</unittitle> 
 				  <unitdate>1965, 1967, 1972</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">31</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">31</container> 
 			 	<unittitle>Seminar on Talcott Parsons</unittitle>  
 				  <unitdate>1957-1959</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">32</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">32</container> 
 			 	<unittitle>Seminar on Talcott Parsons</unittitle>  
 				  <unitdate>1957-1959</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">33</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">33</container> 
 				<unittitle>"Talcott Parsons' Group" Minutes Correspondence with
 					Norb Wiley</unittitle>  
 				  <unitdate>1936-1937, 1975</unitdate>
@@ -964,16 +960,16 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">34</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">34</container> 
 			 	<unittitle>American Civilization - conference at Princeton</unittitle> 
 				  <unitdate>1947-1948</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">35</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">35</container> 
 				<unittitle>The Role of the "Elite" in American Civilization-
 					conference at Princeton</unittitle>  
 				  <unitdate>1950-1951</unitdate> 
@@ -981,16 +977,16 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">36</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">36</container> 
 			 	<unittitle>Development of Moral Sense in Children - symposium</unittitle> 
 				  <unitdate>1972</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">37</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">37</container> 
 				<unittitle>Research Perspectives in the Ecology of Human
 					Development - conference at Cornell</unittitle>  
 				  <unitdate>1977</unitdate>  
@@ -998,40 +994,40 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">38</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">38</container> 
 			 	<unittitle>Papers presented at above Human Development conference</unittitle>  
 				  <unitdate>1977</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">39</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">39</container> 
 			 	<unittitle>Papers presented at Human Development conference</unittitle>  
 				  <unitdate>1977</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">40</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">40</container> 
 			 	<unittitle>Papers presented at Human Development conference</unittitle>  
 				  <unitdate>1977</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">41</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">41</container> 
 			 	<unittitle>Papers presented at Human Development conference</unittitle>  
 				  <unitdate>1977</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">2</container> 
-				<container type="folder">42</container> 
+				<container label="unspecified" type="box">2</container> 
+				<container label="unspecified" type="folder">42</container> 
 			 	<unittitle>Papers presented at Human Development conference</unittitle> 
 				  <unitdate>1977</unitdate> 
 			 </did> 
@@ -1043,8 +1039,8 @@
 		  </did> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">1</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">1</container> 
 				<unittitle>Child Development - editorial, correspondence,
 					revisions</unittitle> 
 				  <unitdate>1968-1970</unitdate>  
@@ -1052,8 +1048,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">2</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">2</container> 
 				<unittitle>Psychological Ecology: A Critical Analysis and Appraisal
 					- correspondence</unittitle>  
 				  <unitdate>1977-1978</unitdate> 
@@ -1061,8 +1057,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">3</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">3</container> 
 				<unittitle>On Children's Games: Adult Organized vs. Child-Organized
 					- a guide to accompany Two Ball Games</unittitle> 
 				  <unitdate>1977</unitdate> 
@@ -1070,8 +1066,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">4</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">4</container> 
 				<unittitle>Backyard versus Little League Baseball: The
 					Impoverishment of Children's Games</unittitle>  
 				  <unitdate>1976</unitdate> 
@@ -1079,8 +1075,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">5</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">5</container> 
 				<unittitle>Socialization Practices of Parents, Teachers and Peers
 				  in Israel Children of Immigrants from Eastern and Western Nations - by Devereux
 				  and others</unittitle> 
@@ -1089,8 +1085,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">6</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">6</container> 
 				<unittitle>Socialization Practices of Parents, Teachers, and Peers
 					in Israel: The Kibbutz versus the City- by Devereux and others</unittitle>  
 				  <unitdate>1974</unitdate>  
@@ -1098,16 +1094,16 @@
 		  </c02> 
 		  <c02 level="file"> 
 		  	<did>  
-				<container type="box">3</container> 
-				<container type="folder">7</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">7</container> 
 		  		<unittitle>A Protocol for Structural-Functional Analysis</unittitle> 
 				  <unitdate>1974</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">8</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">8</container> 
 				<unittitle>Models for Man, Value Systems and Intervention
 					Strategies: A Sociological Critique of Wolpe and Jourand</unittitle>  
 				  <unitdate>1974</unitdate> 
@@ -1115,8 +1111,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">9</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">9</container> 
 				<unittitle>Adolescent Male Initiation Ceremonies: A
 					Structured-Functional Analysis</unittitle> 
 				  <unitdate>1973</unitdate>
@@ -1124,8 +1120,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">10</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">10</container> 
 				<unittitle>Structural-Functional Analysis: A Protocol Based on
 					Works of Parsons, Merton, Kingsley, Davis, Malinowski and others</unittitle> 
 				  <unitdate>1972</unitdate>  
@@ -1133,8 +1129,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">11</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">11</container> 
 				<unittitle>Some Observations on the Changing Family and the Role
 					of Education in the People's Republic of China</unittitle> 
 				  <unitdate>1972</unitdate>  
@@ -1142,8 +1138,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">12</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">12</container> 
 				<unittitle>Some Antecedents and Correlates of Differential Patterns
 					of Response to pressures from Peers and Adults Among Israeli Kibbutz Children</unittitle>  
 				  <unitdate>1972</unitdate> 
@@ -1151,8 +1147,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">13</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">13</container> 
 				<unittitle>Social Contexts, Family Relationships and the Moral
 					Development of Children</unittitle>  
 				  <unitdate>1972</unitdate> 
@@ -1160,8 +1156,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">14</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">14</container> 
 				<unittitle>The Physiology and Psychology of Sport - Eastern
 					Association for Physical Education of College Women Conference</unittitle>  
 				  <unitdate>1972</unitdate> 
@@ -1169,16 +1165,16 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">15</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">15</container> 
 			 	<unittitle>How I Learned to Use a Lever</unittitle>  
 				  <unitdate>1972</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">16</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">16</container> 
 				<unittitle>Authority and Moral Development Among German and
 					American Children: A Cross-National Pilot Experiment</unittitle> 
 				  <unitdate>1972</unitdate> 
@@ -1186,16 +1182,16 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">17</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">17</container> 
 			 	<unittitle>Some Reflections on Research Reporting in Psychology</unittitle>  
 				  <unitdate>1971</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">18</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">18</container> 
 				<unittitle>Backyard versus Little League Baseball: The
 					Impoverishment of Children's Games</unittitle> 
 				  <unitdate>1971</unitdate>  
@@ -1203,24 +1199,24 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">19</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">19</container> 
 			 	<unittitle>Soziologie der Familie</unittitle>  
 				  <unitdate>1970</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">20</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">20</container> 
 			 	<unittitle>The Role of Peer-Group Experience in Moral Development</unittitle> 
 				  <unitdate>1970</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">21</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">21</container> 
 				<unittitle>Child-Rearing in England and the U.S.- A Cross-National
 					Comparison -by Devereux and others</unittitle>  
 				  <unitdate>1969</unitdate> 
@@ -1228,8 +1224,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">22</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">22</container> 
 				<unittitle>Standards of Social Behavior Among School Children in
 					Four Cultures</unittitle>  
 				  <unitdate>1968</unitdate> 
@@ -1237,8 +1233,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">23</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">23</container> 
 				<unittitle>Authority, Guilt and Conformity to Adult Standards
 					Among German Children: A Pilot Experimental Study</unittitle> 
 				  <unitdate>1966</unitdate>
@@ -1246,8 +1242,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">24</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">24</container> 
 				<unittitle>Socialization in Cross-Cultural Perspective: A
 					Comparative Study of England, Germany and the U.S.</unittitle> 
 				  <unitdate>1965</unitdate> 
@@ -1255,8 +1251,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">25</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">25</container> 
 				<unittitle>Family Relationships and the Formation of the Ability
 				  to Build Up Human and Social Relationships and The Role of the Family in Youth
 				  Education-UNESCO talk</unittitle>  
@@ -1265,16 +1261,16 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">26</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">26</container> 
 			 	<unittitle>Families in East and East</unittitle>  
 				  <unitdate>1965</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">27</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">27</container> 
 				<unittitle>Adults and Peers as Sources of Conformity and Autonomy-
 					by Devereux and others</unittitle>
 				  <unitdate>1965</unitdate> 
@@ -1282,32 +1278,32 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">28</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">28</container> 
 			 	<unittitle>The Tompkins County Youth Court</unittitle> 
 				  <unitdate>1964</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">29</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">29</container> 
 			 	<unittitle>Pre-Adolescents- Why Is Each One Different?</unittitle> 
 				  <unitdate>1964</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">30</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">30</container> 
 			 	<unittitle>A Brief Survey of the Family in Contemporary America</unittitle> 
 				  <unitdate>1964</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">31</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">31</container> 
 				<unittitle>Patterns of Parent Behavior in the U.S. and the Federal
 					Republic of Germany: A Cross-National Comparison-by Devereux and others</unittitle> 
 				  <unitdate>1963</unitdate> 
@@ -1315,16 +1311,16 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">32</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">32</container> 
 			 	<unittitle>Mercurio- L'allevamento die figli in Germania e negli</unittitle> 
 				  <unitdate>1963</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">33</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">33</container> 
 				<unittitle>Family Authority and Child Behavior in West Germany and
 					the U.S. -Some Problems and Strategies in a Cross-National Validation Study</unittitle>
 				  <unitdate>1962</unitdate> 
@@ -1332,16 +1328,16 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">34</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">34</container> 
 			 	<unittitle>Children of Democracy</unittitle> 
 				  <unitdate>1962</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">35</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">35</container> 
 				<unittitle>Child Rearing in America and Germany- A Cross-National
 					Comparison</unittitle>
 				  <unitdate>1962</unitdate>  
@@ -1349,16 +1345,16 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">36</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">36</container> 
 			 	<unittitle>Family Authority Structure and Adolescent Behavior</unittitle> 
 				  <unitdate>1961</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">37</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">37</container> 
 				<unittitle> Adolescents and Family Structure -address given at
 					Leadership Training Conference</unittitle>
 				  <unitdate>1961</unitdate>  
@@ -1366,8 +1362,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">38</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">38</container> 
 				<unittitle>Forms of Community Involvement and Participation -
 					Springdale - Chapter 10</unittitle> 
 				  <unitdate>1956</unitdate> 
@@ -1375,8 +1371,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">39</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">39</container> 
 				<unittitle>Neighborhood and Community Participation - A study of
 					the Social Ecology of a Rural Community - Springdale</unittitle> 
 				  <unitdate>1956</unitdate> 
@@ -1384,16 +1380,16 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">40</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">40</container> 
 			 	<unittitle>The World of the Adolescent</unittitle> 
 				  <unitdate>1955</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">41</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">41</container> 
 				<unittitle>Interdisciplinary Planning for Team Research on
 				  Constructive Community Behavior - the Springdale Project - Devereux and
 				  Bronfenbrenner</unittitle> 
@@ -1402,8 +1398,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">42</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">42</container> 
 				<unittitle>Some Formal Characteristics of Rational and Non-rational
 					Action</unittitle> 
 				  <unitdate>1949</unitdate>  
@@ -1411,8 +1407,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">43</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">43</container> 
 				<unittitle>Sociology and Labour Relations - lecture given at University
 					of Toronto</unittitle>  
 				  <unitdate>1942</unitdate> 
@@ -1420,8 +1416,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">44</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">44</container> 
 				<unittitle>The Place of Human Ecology in the Science of
 					Criminology</unittitle>  
 				  <unitdate>1940</unitdate>
@@ -1429,8 +1425,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">45</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">45</container> 
 				<unittitle>Some Reflections on the Methods and Theories of John
 					Dollard's Caste and Class in a Southern Town</unittitle> 
 				  <unitdate>1939</unitdate> 
@@ -1438,8 +1434,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">46</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">46</container> 
 				<unittitle>Standards of Social Behavior Among School Children in
 				  Four Cultures - by Devereux Technical Report on a Measure of Anxiety and
 				  Self-Esteem; Changes in Parental Behavior Reported by Children in W. Germany
@@ -1449,40 +1445,40 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">47</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">47</container> 
 				<unittitle>The Sociological Theory of Talcott Parsons: An
 				  Introductory Overview</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">48</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">48</container> 
 				<unittitle>The Individual Delinquent of William Healy as a Study
 				  in Causal Analysis</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">49</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">49</container> 
 				<unittitle>Occupational Roles and Parent-Child Relationships -
 				  research proposal - Bronfenbrenner and Devereux</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">50</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">50</container> 
 			 	<unittitle>Research Proposals and correspondence</unittitle>  
 				  <unitdate>1964-1978</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">51</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">51</container> 
 				<unittitle>Book Reviews - Influences on Parent Behavior; The
 					Japanese Factory: Aspects of its Social Organization; The Kibbutz Experience</unittitle>  
 				  <unitdate>1967, 1958, 1976</unitdate> 
@@ -1490,16 +1486,16 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">52</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">52</container> 
 			 	<unittitle>Articles</unittitle>  
 				  <unitdate>1963-1965</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">53</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">53</container> 
 				<unittitle>Speech given to Home Economics Council-"Cross-Cultural
 					Research on Family Structure and Personality Development"</unittitle> 
 				  <unitdate>1963</unitdate> 
@@ -1507,46 +1503,46 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">54</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">54</container> 
 			 	<unittitle>Reviews</unittitle> 
 				  <unitdate>1960-1969</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">55</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">55</container> 
 				<unittitle>Poem</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">56</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">56</container> 
 			 	<unittitle>Harold Feldman-publications</unittitle> 
 				  <unitdate>1970-1979</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">57</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">57</container> 
 			 	<unittitle>Newspaper clippings on spanking/discipline</unittitle>  
 				  <unitdate>1960-1979</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">57A</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">57A</container> 
 				<unittitle>Gilbertsville Manuscript</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">23-24</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">23-24</container> 
 				  <unittitle>The Last Resort - newsletter of the Committee to End
 				  	Violence Against the Next Generation - Berkeley, CA.</unittitle> 
 					 <unitdate>1981-1994</unitdate> 
@@ -1560,24 +1556,24 @@
 		  </did> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">58</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">58</container> 
 			 	<unittitle>Little League Studies</unittitle>  
 				  <unitdate>1970-1979</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">59</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">59</container> 
 			 	<unittitle>Devereux papers on this topic</unittitle> 
 				  <unitdate>1971</unitdate> 
 			 </did> 
 		  </c02> 
 		<c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">60</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">60</container> 
 				<unittitle>A response to "Two Ball Games" - by Stephen Mosher from
 				  SUNY Brockport and Play, Games and Sport in Human Development by Douglas
 				  Kleiber from Cornell</unittitle> 
@@ -1586,8 +1582,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">61</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">61</container> 
 				<unittitle>"Two Ball Games" - film project - proposal -how the
 					project developed</unittitle>  
 				  <unitdate>1974, 1975</unitdate> 
@@ -1595,8 +1591,8 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">62</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">62</container> 
 				<unittitle>"Two Ball Games" - background material, press releases,
 					articles, correspondence</unittitle>  
 				  <unitdate>1976, 1977</unitdate> 
@@ -1604,40 +1600,40 @@
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">63</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">63</container> 
 			 	<unittitle>"Two Ball Games" - correspondence</unittitle>  
 				  <unitdate>1971-1972</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">64</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">64</container> 
 			 	<unittitle>"Two Ball Games" - correspondence</unittitle>  
 				  <unitdate>1973-1975</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">65</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">65</container> 
 			 	<unittitle>"Two Ball Games" - correspondence</unittitle>  
 				  <unitdate>1976</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">66</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">66</container> 
 			 	<unittitle>"Two Ball Games" - correspondence</unittitle> 
 				  <unitdate>1977-1978</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">3</container> 
-				<container type="folder">67</container> 
+				<container label="unspecified" type="box">3</container> 
+				<container label="unspecified" type="folder">67</container> 
 			 	<unittitle>Children's Play Conference</unittitle>  
 				  <unitdate>1975</unitdate> 
 			 </did> 
@@ -1649,92 +1645,92 @@
 		  </did> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">1</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">1</container> 
 				<unittitle>Publications</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">2</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">2</container> 
 				<unittitle>Racing-Gambling - catalogs and advertisements</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">3</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">3</container> 
 				<unittitle>Draft of chapter on number players - comments by RK
 				  Merton</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">4</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">4</container> 
 				<unittitle>Economic and Non-Economic Elements in Gambling: An
 				  Essay in the Field of Psychological and Institutional Economics</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">5</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">5</container> 
 				<unittitle>The Ethical Status of Gambling in American Society</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">6</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">6</container> 
 			 	<unittitle>Sample of field notes - interviews</unittitle> 
 				  <unitdate>1939</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">7</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">7</container> 
 			 	<unittitle>Papers presented at 2nd annual Conference on Gambling</unittitle>  
 				  <unitdate>1975</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">8</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">8</container> 
 			 	<unittitle>Gambling in Psychological and Sociological Perspective</unittitle> 
 				 <unitdate>1966</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">9</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">9</container> 
 			 	<unittitle>World Book Encyclopedia entry on Gambling</unittitle>  
 				  <unitdate>1967</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">10</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">10</container> 
 			 	<unittitle>Gambling and the Social Structure - Table of Contents, Abstract</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">11</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">11</container> 
 			 	<unittitle>Correspondence concerning thesis</unittitle>
 				  <unitdate>1948-1949</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">12</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">12</container> 
 			 	<unittitle>Encyclopedia of Social Sciences entry on Gambling</unittitle>
 				  <unitdate>1968</unitdate> 
 			 </did> 
@@ -1746,24 +1742,24 @@
 		  </did> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">13</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">13</container> 
 			 	<unittitle>Grant Project - Tompkins County Demonstration Project</unittitle> 
 				  <unitdate>1964-1965</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">14</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">14</container> 
 			 	<unittitle>Articles concerning project done in Windsor, CT.</unittitle> 
 				  <unitdate>1937</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">15</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">15</container> 
 			 	<unittitle>Article about project done in Surrey</unittitle>  
 				  <unitdate>1964</unitdate>  
 			 </did> 
@@ -1776,40 +1772,40 @@
 		  </did> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">16</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">16</container> 
 			 	<unittitle> Vita, Correspondence, Articles</unittitle>  
 				  <unitdate>1967-1978</unitdate>
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">17</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">17</container> 
 			 	<unittitle>Correspondence</unittitle>
 				  <unitdate>1970-1979</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">18</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">18</container> 
 			 	<unittitle>Correspondence</unittitle>
 				  <unitdate>1950-1969</unitdate> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">19</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">19</container> 
 				<unittitle> Reflections on the draft, the energy crisis, and family
 				  life</unittitle> 
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">20</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">20</container> 
 			 	<unittitle>Vietnam War - packet and letters</unittitle> 
 				  <unitdate>1972</unitdate> 
 			 </did> 
@@ -1822,16 +1818,16 @@
 		  </did> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">21</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">21</container> 
 			 	<unittitle>Gilbertsville Radio Talk</unittitle> 
 				  <unitdate>1936</unitdate>  
 			 </did> 
 		  </c02> 
 		  <c02 level="file"> 
 			 <did> 
-				<container type="box">4</container> 
-				<container type="folder">22</container> 
+				<container label="unspecified" type="box">4</container> 
+				<container label="unspecified" type="folder">22</container> 
 			 	<unittitle>Criminology- radio talk, notes, course outlines</unittitle>
 				  <unitdate>1936-1948</unitdate> 
 			 </did> 
@@ -1846,5 +1842,12 @@
 		  </c02> 
 		</c01> 
 	 </dsc> 
-  </archdesc>
+  <accessrestrict> 
+		  <head>Access Restrictions:</head> 
+			<p>Box 1, folders 20-22 are restricted until 2026, folder 51 is restricted until 2046 at which time the restrictions will be reevaluated.</p> 
+		</accessrestrict><prefercite> 
+		  <head>Cite As:</head> 
+		  <p> Edward Devereux Papers #23-13-3191. Division of Rare and Manuscript
+			 Collections, Cornell University Library.</p> 
+		</prefercite></archdesc>
 </ead>

@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM03352::Breckenridge-Bates family papers)//EN">RMM03352</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM03352::Breckenridge-Bates family papers)//EN">RMM03352</eadid>
     
     <filedesc> 
       <titlestmt> 
@@ -28,7 +27,13 @@
       <creation>Finding aid encoded by Ann Hubert, 
         <date>March 2004</date> </creation> 
     </profiledesc> 
-    <revisiondesc> 
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+ 
       <change encodinganalog="583"> 
         <date normal="2007-05-29">2007-05-29</date> 
         <item>converted from EAD 1.0 to EAD 2002 </item> 
@@ -38,19 +43,19 @@
   <frontmatter> 
     <titlepage> 
       <titleproper>Guide to the Breckenridge-Bates Family
-        Papers,<lb/>1861-1902.</titleproper> 
+        Papers,1861-1902.</titleproper> 
       <num>Collection Number: 3352</num> 
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+      <publisher>Division of Rare and Manuscript Collections Cornell
         University Library</publisher> 
       <list type="deflist"> 
         <defitem> 
           <label>Contact Information:</label> 
-          <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-            Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/>
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> <lb/>
+          <item>Division of Rare and Manuscript Collections 2B Carl A.
+            Kroch Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
             <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-            <lb/></item> 
+            </item> 
         </defitem> 
         <defitem> 
           <label>Compiled by:</label> 
@@ -72,14 +77,16 @@
   <archdesc level="collection"> 
     <did> 
       <head id="a1">DESCRIPTIVE SUMMARY</head> 
-      <unittitle label="Title:" encodinganalog="MARC 245">Breckenridge-Bates
+      <unittitle encodinganalog="MARC 245" label="Title:">Breckenridge-Bates
         family papers, 
-        <unitdate type="inclusive" encodinganalog="MARC 245">1861-1902.</unitdate> </unittitle> 
+        </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1861-1902.</unitdate> 
       <unitid label="Collection Number:">3352</unitid> 
       <origination label="Creator:"> 
         <persname encodinganalog="100" normal="Breckenridge-Bates family. ">
           Fred Bates, Juanita Breckenridge.</persname> </origination> 
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1.2 cubic
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>1.2 cubic
         ft.</extent></physdesc> 
       <physdesc label="Forms of Material:">Correspondence, financial records,
         business records, accounts, photographs.</physdesc> 
@@ -112,17 +119,10 @@
       </controlaccess> 
       <controlaccess> 
         <head>Form and Genre Terms:</head> 
-        <genreform source="aat" encodinganalog="MARC 655">Photographs.</genreform> 
+        <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform> 
       </controlaccess> 
     </controlaccess> 
-    <descgrp type="admininfo"> 
-      <head id="a8">INFORMATION FOR USERS</head> 
-      <prefercite> 
-        <head>Cite As:</head> 
-        <p>Breckenridge-Bates family papers, #3352. Division of Rare and
-          Manuscript Collections, Cornell University Library.</p> 
-      </prefercite> 
-    </descgrp> 
+     
     <dsc type="combined"> 
       <head>CONTAINER LIST</head> 
       <c01 level="series"> 
@@ -131,48 +131,48 @@
         </did> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">1</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">1</container> 
             <unittitle>Papers</unittitle> 
             <unitdate>1861-1872</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">2</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">2</container> 
             <unittitle>Papers</unittitle> 
             <unitdate>1873-1874</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">3</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">3</container> 
             <unittitle>Papers</unittitle> 
             <unitdate>1875</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">4</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">4</container> 
             <unittitle>Papers</unittitle> 
             <unitdate>1876</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">5</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">5</container> 
             <unittitle>Papers</unittitle> 
             <unitdate>1877</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">6</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">6</container> 
             <unittitle>Papers</unittitle> 
             <unitdate>18882-1884, </unitdate> 
             <unitdate>1891</unitdate> 
@@ -180,16 +180,16 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">7</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">7</container> 
             <unittitle>G.A.R. David Ireland Post #158</unittitle> 
             <unitdate>n.d.</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">8</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">8</container> 
             <unittitle>Horse Hay-Rake</unittitle> 
             <unitdate>1875, </unitdate> 
             <unitdate>1884</unitdate> 
@@ -197,8 +197,8 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">9</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">9</container> 
             <unittitle>Accounts</unittitle> 
             <unitdate>1877, </unitdate> 
             <unitdate>1878, </unitdate> 
@@ -212,128 +212,128 @@
         </did> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">10</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">10</container> 
             <unittitle>Correspondence</unittitle> 
             <unitdate>1872-1880</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">11</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">11</container> 
             <unittitle>Correspondence</unittitle> 
             <unitdate>1881-1883</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">12</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">12</container> 
             <unittitle>Correspondence</unittitle> 
             <unitdate>1884</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">13</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">13</container> 
             <unittitle>Correspondence</unittitle> 
             <unitdate>1885</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1</container> 
-            <container type="folder">14</container> 
+            <container label="unspecified" type="box">1</container> 
+            <container label="unspecified" type="folder">14</container> 
             <unittitle>Correspondence</unittitle> 
             <unitdate>1886</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container> 
-            <container type="folder">1</container> 
+            <container label="unspecified" type="box">2</container> 
+            <container label="unspecified" type="folder">1</container> 
             <unittitle>Correspondence</unittitle> 
             <unitdate>Jan. 1887-June 1887</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container> 
-            <container type="folder">2</container> 
+            <container label="unspecified" type="box">2</container> 
+            <container label="unspecified" type="folder">2</container> 
             <unittitle>Correspondence</unittitle> 
-            <unitdate>July 1887-Dec. 1887</unitdate> 
+            <unitdate certainty="approximate">July 1887-Dec. 1887</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container> 
-            <container type="folder">3</container> 
+            <container label="unspecified" type="box">2</container> 
+            <container label="unspecified" type="folder">3</container> 
             <unittitle>Correspondence</unittitle> 
             <unitdate>Jan. 188-July 1888</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container> 
-            <container type="folder">4</container> 
+            <container label="unspecified" type="box">2</container> 
+            <container label="unspecified" type="folder">4</container> 
             <unittitle>Correspondence</unittitle> 
-            <unitdate>Aug. 1888-Dec. 1888</unitdate> 
+            <unitdate certainty="approximate">Aug. 1888-Dec. 1888</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container> 
-            <container type="folder">5</container> 
+            <container label="unspecified" type="box">2</container> 
+            <container label="unspecified" type="folder">5</container> 
             <unittitle>Correspondence</unittitle> 
             <unitdate>1889</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container> 
-            <container type="folder">6</container> 
+            <container label="unspecified" type="box">2</container> 
+            <container label="unspecified" type="folder">6</container> 
             <unittitle>Correspondence</unittitle> 
             <unitdate>1890</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container> 
-            <container type="folder">7</container> 
+            <container label="unspecified" type="box">2</container> 
+            <container label="unspecified" type="folder">7</container> 
             <unittitle>Correspondence</unittitle> 
             <unitdate>1891</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container> 
-            <container type="folder">8</container> 
+            <container label="unspecified" type="box">2</container> 
+            <container label="unspecified" type="folder">8</container> 
             <unittitle>Correspondence</unittitle> 
             <unitdate>Jan. 1892-Aug. 1892</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container> 
-            <container type="folder">9</container> 
+            <container label="unspecified" type="box">2</container> 
+            <container label="unspecified" type="folder">9</container> 
             <unittitle>Correspondence</unittitle> 
-            <unitdate>Sept. 1892-Dec. 1892</unitdate> 
+            <unitdate certainty="approximate">Sept. 1892-Dec. 1892</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container> 
-            <container type="folder">10</container> 
+            <container label="unspecified" type="box">2</container> 
+            <container label="unspecified" type="folder">10</container> 
             <unittitle>Correspondence</unittitle> 
             <unitdate>1893</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container> 
-            <container type="folder">11</container> 
+            <container label="unspecified" type="box">2</container> 
+            <container label="unspecified" type="folder">11</container> 
             <unittitle>Correspondence</unittitle> 
             <unitdate>1894-1902, </unitdate> 
             <unitdate>n.d.</unitdate> 
@@ -346,8 +346,8 @@
         </did> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container> 
-            <container type="folder">12</container> 
+            <container label="unspecified" type="box">2</container> 
+            <container label="unspecified" type="folder">12</container> 
             <unittitle>Miscellaneous and Memorabilia</unittitle> 
             <unitdate>1876, </unitdate> 
             <unitdate>1882, </unitdate> 
@@ -358,43 +358,47 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">2</container> 
-            <container type="folder">13</container> 
+            <container label="unspecified" type="box">2</container> 
+            <container label="unspecified" type="folder">13</container> 
             <unittitle>Viola Enterprise</unittitle> 
             <unitdate>March 16, 1894</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">3</container> 
-            <container type="folder">1</container> 
+            <container label="unspecified" type="box">3</container> 
+            <container label="unspecified" type="folder">1</container> 
             <unittitle>Financial Documents</unittitle> 
             <unitdate>1872-1894</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">3</container> 
-            <container type="folder">2</container> 
+            <container label="unspecified" type="box">3</container> 
+            <container label="unspecified" type="folder">2</container> 
             <unittitle>Insurance Policies</unittitle> 
             <unitdate>1874-1897</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">3</container> 
+            <container label="unspecified" type="box">3</container> 
             <unittitle>Packages (4) Drafts</unittitle> 
-            <unitdate>c. 1872-1897</unitdate> 
+            <unitdate certainty="approximate">1872-1897</unitdate> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">3</container> 
+            <container label="unspecified" type="box">3</container> 
             <unittitle>Volumes Checkbooks</unittitle> 
-            <unitdate>c. 1872-1897</unitdate> 
+            <unitdate certainty="approximate">1872-1897</unitdate> 
           </did> 
         </c02> 
       </c01> 
     </dsc> 
-  </archdesc>
+  <prefercite> 
+        <head>Cite As:</head> 
+        <p>Breckenridge-Bates family papers, #3352. Division of Rare and
+          Manuscript Collections, Cornell University Library.</p> 
+      </prefercite></archdesc>
 </ead>

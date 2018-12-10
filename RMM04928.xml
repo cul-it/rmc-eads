@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04928::Johnson Family Papers)//EN">RMM04928</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04928::Johnson Family Papers)//EN">RMM04928</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Johnson family papers, 1776-1937</titleproper>
@@ -31,6 +30,12 @@
          </langusage>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -39,19 +44,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Johnson Family Papers, <lb/>1776-1937</titleproper>
+         <titleproper>Guide to the Johnson Family Papers, 1776-1937</titleproper>
          <num>Collection Number: 4928</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -76,13 +81,12 @@
    <archdesc level="collection">
       <did>
          <head>DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:">Johnson family papers, <unitdate type="inclusive">1776-1937</unitdate>
-         </unittitle>
+         <unittitle label="Title:">Johnson family papers, </unittitle><unitdate type="inclusive">1776-1937</unitdate>
          <unitid label="Collection Number:">4928</unitid>
          <origination label="Creator:">
             <persname normal="Johnson family">Johnson family.</persname>
          </origination>
-         <physdesc label="Quantity:"><extent>1.9 cubic feet.</extent></physdesc>
+         <physdesc label="Quantity:"><extent>1.9 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, wills, diplomas, a field book, an
             examination, obituaries, marriage certificates, photographs, a book of autographs, pay
             rolls, land grant certificates, military documents, genealogical notes, family histories
@@ -230,38 +234,24 @@
          </controlaccess>
          <controlaccess>
             <head>Subjects:</head>
-            <subject source="lcsh" encodinganalog="MARC 650">Family - New York (State) -
+            <subject encodinganalog="MARC 650" source="lcsh">Family - New York (State) -
                Utica.</subject>
-            <subject source="lcsh" encodinganalog="MARC 650">Family - Massachusetts -
+            <subject encodinganalog="MARC 650" source="lcsh">Family - Massachusetts -
                Quincy.</subject>
          </controlaccess>
          <controlaccess>
             <head>Places:</head>
-            <geogname source="lcsh" encodinganalog="MARC 651">Utica, New York - Social life and
+            <geogname encodinganalog="MARC 651" source="lcsh">Utica, New York - Social life and
                customs.</geogname>
-            <geogname source="lcsh" encodinganalog="MARC 651">Massachusetts - Quincy - Social life
+            <geogname encodinganalog="MARC 651" source="lcsh">Massachusetts - Quincy - Social life
                and customs</geogname>
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Photographs.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head>INFORMATION FOR USERS</head>
-         <userestrict>
-            <head>Restrictions on use:</head>
-            <p>Researchers may view one folder at a time.</p>
-         </userestrict>
-         <p>Letters in this collection have been digitized. Links to the digital images can be seen
-            in <ref target="s4">Series IV.</ref></p>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Johnson family papers, 1776-1937. Division of Rare and Manuscript Collections,
-               Cornell University Library.</p>
-         </prefercite>
-
-      </descgrp>
+      
       <arrangement>
          <head>SERIES LIST</head>
          <list type="deflist">
@@ -398,10 +388,7 @@
                   </list>
                </item>
             </defitem>
-            <defitem>
-               <label><ref target="s4">Series IV. Digital Images</ref></label>
-               <item/>
-            </defitem>
+            
 
          </list>
       </arrangement>
@@ -421,8 +408,8 @@
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">1</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle>Abigail Adams to her daughter-in-law Sarah Adams</unittitle>
                         <abstract>4 letters: February 23, 1806; January 20, 1808; July 3, 1814;
                            December 20, 1814</abstract>
@@ -430,16 +417,16 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">1</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle>Abigail Adams to Sarah Adams</unittitle>
                         <abstract>3 letters: April 24, 1816; May 20, 1816; July 28, 1816</abstract>
                      </did>
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">1</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle>Abigail Adams to Sarah Adams</unittitle>
                         <abstract>5 letters: March 20, 1817; April 12, 1817; May 5, 1817; May 28,
                            1817; August 3, 1817</abstract>
@@ -447,15 +434,15 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">1</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle>A letter from Sarah Adams to Abigail Adams</unittitle>
                      </did>
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle>Abigail Adams to her granddaughter Abigail Louisa Smith
                            Johnson</unittitle>
                         <abstract>5 letters: July 23, 1811; March 5, 1812; September 9, 1813;
@@ -469,16 +456,16 @@
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">1</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle>John Adams to his daughter-in-law Sarah Adams</unittitle>
                         <abstract>2 letters: October 26, 1814; October 2, 1820</abstract>
                      </did>
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">1</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle>A letter from John Adams to his granddaughter's husband Alexander
                            B. Johnson</unittitle>
                         <abstract>December 17, 1820</abstract>
@@ -491,8 +478,8 @@
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">1</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle>Miscellaneous letters to and from John Quincy Adams</unittitle>
                         <abstract>3 letters - to Samuel Shaw: September 27, 1824; to and from his
                            niece Abigail Louisa Smith Johnson: February 22, 1825</abstract>
@@ -505,8 +492,8 @@
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">1</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle>Charles Adams to his brother Thomas B. Adams</unittitle>
                         <abstract>5 letters: May 23, 1790; May 29, 1790; November 21, 1790; August
                            30, 1791; September 18, 1791</abstract>
@@ -519,16 +506,16 @@
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">1</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle>Susan B. Adams to her mother Sarah Adams </unittitle>
-                        <abstract/>
+                        
                      </did>
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">1</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle>Susan B. Adams to Sarah Adams</unittitle>
                         <abstract>5 letters: July 31, 1816; September 14, 1816; October 3, 1816;
                            March 11, 1817; April 8, 1817</abstract>
@@ -536,16 +523,16 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">1</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle>Charles Thomas Clark to his mother-in-law Sarah Adams</unittitle>
                         <abstract>2 letters: May 20, 1816; March 23, 1818</abstract>
                      </did>
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">1</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle>Susan B. Clark to her mother Sarah Adams</unittitle>
                         <abstract>7 letters: July 12, 1826; August 14, 1826; March 10, 1827; March
                            23, 1827; April 5, 1827; April 30, 1827; May 21, 1827</abstract>
@@ -553,8 +540,8 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">1</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle>A letter from Susan M. Clark to her grandmother Sarah
                            Adams</unittitle>
                         <abstract>August 13, 1827</abstract>
@@ -562,8 +549,8 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">2</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle>Abigail Louisa Smith Johnson to her mother Sarah
                            Adams</unittitle>
                         <abstract>3 letters: October 10, 1823; October 22, 1826; October 23,
@@ -572,8 +559,8 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">2</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle>Belinda Clarkson to her sister Sarah Adams</unittitle>
                         <abstract>7 letters: May 14, 1815; April 1, 1818; May 12, 1818; April 28,
                            1819; February 24, 1820; September 28, n.y.; November 14,
@@ -582,8 +569,8 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">2</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle>Margaret de St. Hilaire to her sister Sarah Adams</unittitle>
                         <abstract>4 letters: August 5, 1815; October 3, 1815; November 16, 1815;
                            February 15, 1822</abstract>
@@ -591,8 +578,8 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">2</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle>Miscellaneous letters to Sarah Adams</unittitle>
                         <abstract>4 letters - from G. Le Ray de Chaumont: August 15, 1808; Peter
                            Whitney: June 5, 1813; her niece Mary Ann Smith: September 4, 1826; her
@@ -601,8 +588,8 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">2</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle>Miscellaneous letters from Sarah Adams</unittitle>
                         <abstract>4 letters - to her daughter Susan B. Adams: May 10, 1812; her
                            sister Margaret de St. Hilaire: August 19, 1815; her sister Nancy: June
@@ -611,24 +598,24 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">5</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle>Ann Masters to her sister Sarah Adams</unittitle>
                         <abstract>2 letters: October 13, 1817; December 22, 1819</abstract>
                      </did>
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">5</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle>Margaret Smith to her sister Sarah Adams</unittitle>
                         <abstract>2 letters: n.d.</abstract>
                      </did>
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">5</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle>A letter from James Smith to his aunt Sarah Adams</unittitle>
                         <abstract>January 16, 1827</abstract>
                      </did>
@@ -645,8 +632,8 @@
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">2</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle>Belinda Clarkson to her niece Abigail Louisa Smith
                            Johnson</unittitle>
                         <abstract>4 letters: December 14, 1818; 1820; August 21, 1828; December 13,
@@ -655,8 +642,8 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">2</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle>Miscellaneous letters to Abigail Louisa Smith Johnson</unittitle>
                         <abstract>4 letters - from her mother Sarah Adams: July 14, 1811; Elizabeth
                            Peabody: January 20, 1815; her aunt Ann Herrod Adams: September 6, 1815;
@@ -665,8 +652,8 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">2</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle>Miscellaneous letters to Abigail Louisa Smith Johnson</unittitle>
                         <abstract>4 letters - from Louisa: March 2, 1819; her cousin James Smith:
                            January, 1821; Eliza Thompson: October 12, 1821; her aunt Ann Masters:
@@ -675,8 +662,8 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">5</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle>A letter from Alexander Smith Johnson to his mother Abigail
                            Louisa Smith Johnson</unittitle>
                         <abstract>July 26, 1831</abstract>
@@ -689,8 +676,8 @@
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">2</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle>Miscellaneous letters to and from Alexander B.
                            Johnson</unittitle>
                         <abstract>6 letters - from Sarah Adams: September 27, 1825; to Ann Masters:
@@ -705,8 +692,8 @@
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">2</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle>Miscellaneous letters to William Clarkson Johnson </unittitle>
                         <abstract>4 letters - from his great aunt Louisa C. Adams: February 22,
                            1844; Chief Justice Samuel Nelson: March 4, 1844; Attorney General Caleb
@@ -720,8 +707,8 @@
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">2</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle>Miscellaneous letters to Arthur B. Johnson including an enclosed
                            letter from the Duke of Wellington to Mrs. Robinson</unittitle>
                         <abstract>2 letters - from Alexander B. Johnson: December 1, 1852; Charles
@@ -740,8 +727,8 @@
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">3</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle>Correspondence between John Savage and A. Burr</unittitle>
                         <abstract>7 letters: May 12, 1820; June 13, 1820; September 9, 1825; October
                            16, 1825; January 2, 1827; April 6, 1828; September 28, 1832</abstract>
@@ -749,8 +736,8 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">3</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle>Dewitt Clinton to John Savage</unittitle>
                         <abstract>3 letters: July 10, 1816; February 26, 1818; December 31,
                            1821</abstract>
@@ -758,8 +745,8 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">3</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle>Miscellaneous letters to John Savage</unittitle>
                         <abstract>4 letters - from Governor Daniel D. Tompkins: February 21, 1814;
                            Nat. Cutting: March 24, 1817; J. Montefiore: March 13, 1820; A. Haring:
@@ -768,8 +755,8 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">3</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle>Miscellaneous letters to John Savage</unittitle>
                         <abstract>5 letters - from Harry White: December 14, 1820; John A. Graham:
                            November 26, 1827; Governor Nath. C. Picher: April 17, 1828; H. Clay:
@@ -778,8 +765,8 @@
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">3</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle>Miscellaneous letters to John Savage</unittitle>
                         <abstract>5 letters - from his father Edward Savage: April 6, 1829; Governor
                            E. T. Throop: July 4, 1829; Governor W.C. Marcy: December 31, 1832; John
@@ -793,7 +780,7 @@
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">12</container>
+                        <container label="unspecified" type="box">12</container>
                         <unittitle>Photocopies of miscellaneous letters</unittitle>
                      </did>
                   </c04>
@@ -810,8 +797,8 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">5</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">5</container>
                      <unittitle>Edward Savage Records: Pay Rolls of Captain Joshua Conckey's Company
                         of Rangers (1776-1777)</unittitle>
                      <abstract>4 documents</abstract>
@@ -819,31 +806,31 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">6</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">6</container>
                      <unittitle>Edward Savage Records (1776-1786)</unittitle>
                      <abstract>7 documents</abstract>
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">11</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle>. . . the Secretary's Office, Feb. 16 1784</unittitle>
                      </did>
                   </c04>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">7</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">7</container>
                      <unittitle>Edward Savage Records (1787-1832)</unittitle>
                      <abstract>7 documents</abstract>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">1</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">1</container>
                      <unittitle>Edward Savage Records: Pay Roll of Captain Joshua Conckey's Company
                         of Rangers (1776)</unittitle>
                      <abstract>1 document</abstract>
@@ -851,15 +838,15 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">2</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">2</container>
                      <unittitle>Edward Savage Records: Appointments (1783-1813)</unittitle>
                      <abstract>2 documents</abstract>
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">11</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle>Edward Savage appointment as surrogate, 1783</unittitle>
                      </did>
                   </c04>
@@ -871,45 +858,45 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">7</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">7</container>
                      <unittitle>Records of John Savage: Union College (1799)</unittitle>
                      <abstract>2 documents</abstract>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">8</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">8</container>
                      <unittitle>Records of John Savage: Oration (1803)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">9</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">9</container>
                      <unittitle>Records of John Savage (1802-1888)</unittitle>
                      <abstract>7 documents</abstract>
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">11</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle>Admission as Counselor at Law, Supreme Court (1806)</unittitle>
                      </did>
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">11</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle>Admission as Solicitor and Councilor at Law, Court of Chancery
                            (1820)</unittitle>
                      </did>
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">11</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle>"I do here authorize and license him . . ." fourth line down
                            (n.d.)</unittitle>
                      </did>
@@ -917,15 +904,15 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">8</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">8</container>
                      <unittitle>Records of John Savage (1804-1863)</unittitle>
                      <abstract>6 documents</abstract>
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">11</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle>Commission for the honorable J. Savage as Chief Justice Jan. 29,
                            1823</unittitle>
                      </did>
@@ -933,17 +920,17 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">3</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">3</container>
                      <unittitle>Records of John Savage (1802-1823)</unittitle>
                      <abstract>9 documents</abstract>
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">11</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle>Diploma from Union College: J. Savage 1802</unittitle>
-                        <abstract/>
+                        
                      </did>
                   </c04>
                </c03>
@@ -954,31 +941,31 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">10</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">10</container>
                      <unittitle>Savage Records: Insurance Deeds (1863-1865)</unittitle>
                      <abstract>4 documents</abstract>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">11</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">11</container>
                      <unittitle>Savage Records: Financial (1815-1865)</unittitle>
                      <abstract>5 documents</abstract>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">12</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">12</container>
                      <unittitle>Last Will and Testament of John Savage (1863)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">13</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">13</container>
                      <unittitle>Obituaries of John and Ruth Wheeler Savage (1863-1884)</unittitle>
                      <abstract>2 documents</abstract>
                   </did>
@@ -990,22 +977,22 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">2</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">2</container>
                      <unittitle>Poem by Robert Burns to Sally (Sarah) Adams (n.d.)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">3</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">3</container>
                      <unittitle>Examination taken by Abigail Louisa Smith Adams (1814)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">4</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">4</container>
                      <unittitle>Obituary Notices of Abigail Adams (1818)</unittitle>
                      <abstract>2 documents</abstract>
                   </did>
@@ -1017,62 +1004,62 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">1</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">1</container>
                      <unittitle>Field Book by George Webster of John Johnson's property
                         (1796)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">5</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">5</container>
                      <unittitle>Proxy signed by Bryan Johnson, father of Alexander B. Johnson
                         (1818)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">6</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">6</container>
                      <unittitle>Extract from the Autobiography of Alexander B. Johnson: Lafayette
                         (n.d.)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">7</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">7</container>
                      <unittitle>Obituary Notices of Abigail Louisa Smith Johnson (1836)</unittitle>
                      <abstract>2 documents</abstract>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">8</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">8</container>
                      <unittitle>Marriage Certificate of Arthur B. Johnson and Eliza S. Hunt
                         (1859)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">9</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">9</container>
                      <unittitle>Last Will and Testament of Alexander B. Johnson (1867)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">10</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">10</container>
                      <unittitle>Obituary Notices of Alexander B. Johnson (1868)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">11</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">11</container>
                      <unittitle>Handwritten obituary notice for Mary Ann Savage Hunt who died in
                         1846. Believed to be written by Montgomery Hunt Johnson Sr.
                         (n.d.)</unittitle>
@@ -1080,16 +1067,16 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">12</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">12</container>
                      <unittitle>Obituary Notice of Lieutenant John S. Hunt who died in 1864
                         (n.d.)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">13</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">13</container>
                      <unittitle>Notices from the Colonial Dames to Eliza S. Johnson
                         (1905-1906)</unittitle>
                      <abstract>2 documents</abstract>
@@ -1097,8 +1084,8 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">14</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">14</container>
                      <unittitle>Three stock certificates belonging to Montgomery Hunt Johnson for
                         shares in Utica Plantations, Inc. and Sconondoa Inn, Inc.
                         (1915-1920)</unittitle>
@@ -1106,24 +1093,24 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">9</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">9</container>
                      <unittitle>Johnson Records (1805-1830)</unittitle>
                      <abstract>4 documents</abstract>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">10</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">10</container>
                      <unittitle>Will and settlements of the estate of Maria T. Hunt, second wife of
                         Ward Hunt (1883-1913)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">11</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">11</container>
                      <unittitle>Wills and settlements of the estate of Eliza S. Johnson
                         (1897-1906)</unittitle>
                      <abstract>3 documents</abstract>
@@ -1131,8 +1118,8 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">12</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">12</container>
                      <unittitle>Documents regarding Ward Hunt Johnson and his trustees Mary S.
                         Johnson and Montgomery H. Johnson (1909-1937)</unittitle>
                      <abstract>2 documents</abstract>
@@ -1140,8 +1127,8 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">4</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">4</container>
                      <unittitle>Johnson Records: Arthur B. Johnson's commission as Commissioner of
                         Railroads signed by President Chester A. Arthur (1882)</unittitle>
                   </did>
@@ -1158,38 +1145,38 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">21</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">21</container>
                      <unittitle>"Semitic Notes": Johnson Family History (n.d.)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">16</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">16</container>
                      <unittitle>Genealogy of the Johnson, Adams, Smith, Bosch, Het, Quincy, Fowle,
                         Boylston, Shepard, Norton, and Bass Families (n.d.)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">17</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">17</container>
                      <unittitle>Handwritten Family Record of the Savage, Wheeler, and Hunt Families
                         (n.d.)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">18</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">18</container>
                      <unittitle>Ancestral Tablets (n.d.)(photocopy)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">7</container>
-                     <container type="folder">3</container>
+                     <container label="unspecified" type="box">7</container>
+                     <container label="unspecified" type="folder">3</container>
                      <unittitle>Lyman Family and Wheeler Family Record (n.d.)</unittitle>
                   </did>
                </c03>
@@ -1200,15 +1187,15 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">17</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">17</container>
                      <unittitle>Photograph of the Savage House in Salem, N.Y. (n.d.)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">19</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">19</container>
                      <unittitle>Photographs of the Garden at the Old Johnson House at 235 Genesee
                         St., Utica, N.Y. (n.d.)</unittitle>
                      <abstract>4 pictures</abstract>
@@ -1216,8 +1203,8 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">20</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">20</container>
                      <unittitle>Photograph of Ward Hunt (n.d.)</unittitle>
                   </did>
                </c03>
@@ -1228,45 +1215,45 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">16</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">16</container>
                      <unittitle>Lock of John Adams' hair (n.d.)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">15</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">15</container>
                      <unittitle>Report from the President and Directors of the Ontario Bank.
                         Believed to be written by Alexander B. Johnson (n.d.)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">7</container>
-                     <container type="folder">1</container>
+                     <container label="unspecified" type="box">7</container>
+                     <container label="unspecified" type="folder">1</container>
                      <unittitle>Edward Savage's <title>New York Pocket Almanac</title>
                         (1790)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">7</container>
-                     <container type="folder">2</container>
+                     <container label="unspecified" type="box">7</container>
+                     <container label="unspecified" type="folder">2</container>
                      <unittitle>John Savage's "Horse Back Journey" (1817)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">7</container>
-                     <container type="folder">4</container>
+                     <container label="unspecified" type="box">7</container>
+                     <container label="unspecified" type="folder">4</container>
                      <unittitle>Music Book Belonging to John Savage (n.d.)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">7</container>
-                     <container type="folder">5</container>
+                     <container label="unspecified" type="box">7</container>
+                     <container label="unspecified" type="folder">5</container>
                      <unittitle>Autograph Album Belonging to Ward Hunt Johnson</unittitle>
                      <abstract>Includes signatures from R. B. Hayes, Hamilton Fish, M. R. Waite
                         (Chief Justice-U.S. Supreme Court), Nathan Clifford (Assoc. Justice-U.S.
@@ -1291,40 +1278,40 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">8</container>
-                     <container type="folder">1</container>
+                     <container label="unspecified" type="box">8</container>
+                     <container label="unspecified" type="folder">1</container>
                      <unittitle>Scrapbook containing charcoal and color drawings, some of which are
                         signed by Laura Savage (1838-1856)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">8</container>
-                     <container type="folder">2</container>
+                     <container label="unspecified" type="box">8</container>
+                     <container label="unspecified" type="folder">2</container>
                      <unittitle>Journal with accounts and essays, possibly belonging to Alexander B.
                         Johnson (1806)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">9</container>
+                     <container label="unspecified" type="box">9</container>
                      <unittitle>Alexander Bryan Johnson Autobiography, transcribed by Eliza
                         Stringham Morton (1930)</unittitle>
-                     <abstract>Volume I: 1786-1814<lb/>Volume II: 1814-1828</abstract>
+                     <abstract>Volume I: 1786-1814Volume II: 1814-1828</abstract>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">10</container>
+                     <container label="unspecified" type="box">10</container>
                      <unittitle>Alexander Bryan Johnson Autobiography, transcribed by Eliza
                         Stringham Morton (1930)</unittitle>
-                     <abstract/>
-                     <abstract>Volume III: 1828-1839<lb/>Volume IV: 1839-1867</abstract>
+                     
+                     <abstract>Volume III: 1828-1839Volume IV: 1839-1867</abstract>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">12</container>
+                     <container label="unspecified" type="box">12</container>
                      <unittitle>Newspaper clippings (1996)</unittitle>
                   </did>
                </c03>
@@ -1336,8 +1323,8 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">6</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">6</container>
                      <unittitle>Miscellaneous letters (1796-1852)</unittitle>
                      <abstract>7 letters - from Montgomery Hunt to his sister Lydia Wheeler: May 12,
                         1796; Ann Smith to Julia Rush: May 30, 1809; R. W. [Crawmshield] to Dr. J.
@@ -1353,70 +1340,70 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">13</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">13</container>
                      <unittitle>Discharge of Abraham McKillip signed by President George Washington
                         (1783)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">14</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">14</container>
                      <unittitle>Land Grant Certificates signed by President James Monroe
                         (1817-1818)</unittitle>
                      <abstract>Grant to Daniel Harrington</abstract>
                   </did>
                   <c04 level="file">
                      <did>
-                        <container type="box">11</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle>Warrant #4120 to Sylvester Rowley Dec. 19, 1817
                            (Military)</unittitle>
                      </did>
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">11</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle>Warrant [121] to Eliphalet Peabody Nov. 29, 1817
                            (Military)</unittitle>
                      </did>
                   </c04>
                   <c04 level="file">
                      <did>
-                        <container type="box">11</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle>Warrant #3079 to Benjamin Bailey April 3, 1818</unittitle>
                      </did>
                   </c04>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">15</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">15</container>
                      <unittitle>Autographs of John Quincy Adams (n.d.)</unittitle>
                      <abstract>5 envelopes</abstract>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">18</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">18</container>
                      <unittitle>Autographed engraving of Ulysses S. Grant (n.d.)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">4</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">4</container>
                      <unittitle>Johnson Records: Arthur B. Johnson's commission as Commissioner of
                         Railroads signed by President Chester A. Arthur (1882)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container>Map Case II-9</container>
+                     <container label="unspecified" type="unspecified">Map Case II-9</container>
                      <unittitle>Linen copy of the Declaration of Independence</unittitle>
                   </did>
                </c03>
@@ -1426,39 +1413,39 @@
             <did>
                <unittitle id="s4">Series IV. Digital Images</unittitle>
             </did>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <unittitle><extref show="new" audience="external" href="http://historical.library.cornell.edu/cgi-bin/johnson/docviewer?did=box01">Digital Images of the Contents of Box 1</extref></unittitle>
+                  <unittitle><extref audience="external" href="http://historical.library.cornell.edu/cgi-bin/johnson/docviewer?did=box01" show="new">Digital Images of the Contents of Box 1</extref></unittitle>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <unittitle><extref show="new" audience="external" href="http://historical.library.cornell.edu/cgi-bin/johnson/docviewer?did=box02">Digital Images of the Contents of Box 2</extref></unittitle>
+                  <unittitle><extref audience="external" href="http://historical.library.cornell.edu/cgi-bin/johnson/docviewer?did=box02" show="new">Digital Images of the Contents of Box 2</extref></unittitle>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <unittitle><extref show="new" audience="external" href="http://historical.library.cornell.edu/cgi-bin/johnson/docviewer?did=box03">Digital Images of the Contents of Box 3</extref></unittitle>
+                  <unittitle><extref audience="external" href="http://historical.library.cornell.edu/cgi-bin/johnson/docviewer?did=box03" show="new">Digital Images of the Contents of Box 3</extref></unittitle>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <unittitle><extref show="new" audience="external" href="http://historical.library.cornell.edu/cgi-bin/johnson/docviewer?did=box04">Digital Images of the Contents of Box 4</extref></unittitle>
+                  <unittitle><extref audience="external" href="http://historical.library.cornell.edu/cgi-bin/johnson/docviewer?did=box04" show="new">Digital Images of the Contents of Box 4</extref></unittitle>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <unittitle><extref show="new" audience="external" href="http://historical.library.cornell.edu/cgi-bin/johnson/docviewer?did=box05">Digital Images of the Contents of Box 5</extref></unittitle>
+                  <unittitle><extref audience="external" href="http://historical.library.cornell.edu/cgi-bin/johnson/docviewer?did=box05" show="new">Digital Images of the Contents of Box 5</extref></unittitle>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <unittitle><extref show="new" audience="external" href="http://historical.library.cornell.edu/cgi-bin/johnson/docviewer?did=box06">Digital Images of the Contents of Box 6</extref></unittitle>
+                  <unittitle><extref audience="external" href="http://historical.library.cornell.edu/cgi-bin/johnson/docviewer?did=box06" show="new">Digital Images of the Contents of Box 6</extref></unittitle>
                </did>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <unittitle><extref show="new" audience="external" href="http://historical.library.cornell.edu/cgi-bin/johnson/docviewer?did=box07">Digital Images of the Contents of Box 7</extref></unittitle>
+                  <unittitle><extref audience="external" href="http://historical.library.cornell.edu/cgi-bin/johnson/docviewer?did=box07" show="new">Digital Images of the Contents of Box 7</extref></unittitle>
                </did>
             </c02>
          </c01>
@@ -1488,5 +1475,13 @@
                   of America</title>. Monroe, Michigan: Walter Lewis Zorn, 1954.</item>
          </list>
       </odd>
-   </archdesc>
+   <odd><p>Letters in this collection have been digitized. Links to the digital images can be seen
+            in <ref target="s4">Series IV.</ref></p></odd><userestrict>
+            <head>Restrictions on use:</head>
+            <p>Researchers may view one folder at a time.</p>
+         </userestrict><prefercite>
+            <head>Cite As:</head>
+            <p>Johnson family papers, 1776-1937. Division of Rare and Manuscript Collections,
+               Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

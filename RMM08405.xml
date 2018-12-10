@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08405::Guide to the Helmer Hansen menu collection)//EN">RMM08405</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08405::Guide to the Helmer Hansen menu collection)//EN">RMM08405</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Helmer Hansen menu collection,<date>[ca.
@@ -24,19 +24,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>January 2013</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Helmer Hansen Menu Collection,<lb/><date type="inclusive" encodinganalog="245$f">[ca. 1948-1970]</date></titleproper>
+			<titleproper>Guide to the Helmer Hansen Menu Collection,<date encodinganalog="245$f" type="inclusive">[ca. 1948-1970]</date></titleproper>
 			<num>Collection Number: 8405</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -62,12 +68,11 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Helmer Hansen menu collection,
-					<unitdate encodinganalog="MARC 245" type="inclusive">[ca. 1948-1970]</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Helmer Hansen menu collection,
+					</unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1948-1970</unitdate>
 			<unitid label="Collection Number:">8405</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Hansen, Helmer,   ">Hansen, Helmer, </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.4 cubic feet.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.4 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Printed material</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -117,50 +122,47 @@
 				<genreform encodinganalog="MARC 655" source="aat">Menus.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Helmer Hansen menu collection, #8405. Division of Rare and Manuscript
-					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
+					
 					<unittitle>United States: Arizona, California, Delaware, Florida and Georgia</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
+					
 					<unittitle>United States: Illinois, Indiana and Iowa</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
+					
 					<unittitle>United States: Michigan, Minnesota, Missouri, Massachusetts, New York and Wisconsin</unittitle>
 				</did>
 				<scopecontent><p>Includes articles about the restaurants.</p><p>Also includes menus with unknown locations.</p></scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
+					
 					<unittitle>International</unittitle>
 				</did>
 				<scopecontent><p>Bahamas, Curacao, Denmark, England, France, Germany, Guadalupe, Ireland, Italy, Martinique, Mexico, Puerto Rico, Sweden, Switzerland</p></scopecontent>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Helmer Hansen menu collection, #8405. Division of Rare and Manuscript
+					Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

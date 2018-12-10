@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06916::Guide to the Miriam Seidman Blaukopf nee Blasenstein collection)//EN">RMM06916</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06916::Guide to the Miriam Seidman Blaukopf nee Blasenstein collection)//EN">RMM06916</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Miriam Seidman Blaukopf nee Blasenstein
@@ -23,19 +23,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>September 2011</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Miriam Seidman Blaukopf Nee Blasenstein Collection,<lb/><date type="inclusive" encodinganalog="245$f">1914-1978.</date></titleproper>
+			<titleproper>Guide to the Miriam Seidman Blaukopf Nee Blasenstein Collection,<date encodinganalog="245$f" type="inclusive">1914-1978.</date></titleproper>
 			<num>Collection Number: 6916</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -61,12 +67,11 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Miriam Seidman Blaukopf nee
-				Blasenstein collection, <unitdate encodinganalog="MARC 245" type="inclusive">1914-1978.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Miriam Seidman Blaukopf nee
+				Blasenstein collection, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1914-1978.</unitdate>
 			<unitid label="Collection Number:">6916</unitid>
 			<origination label="Creator:"/>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1 box.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 boxes</extent></physdesc>
 			<physdesc label="Forms of Material:">Correspondence, photographs, tape recordings.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -119,64 +124,53 @@
 				<subject encodinganalog="MARC 650">Emigration and immigration.</subject>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<userestrict>
-				<head>Restrictions on Use:</head>
-				<p>Copyright retained by donor and her heirs and assigns.</p>
-			</userestrict>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Miriam Seidman Blaukopf nee Blasenstein collection, #6916. Division of Rare and
-					Manuscript Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Biographical information, family tree, timeline, reel-to-reel tape/CD guide</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unitdate>1954 - 1965</unitdate>
 					<unittitle>Leo and Miriam Blaukopf correspondence and reparations</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unitdate>1966 - 1972</unitdate>
 					<unittitle>Leo and Miriam Blaukopf correspondence and reparations</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unitdate>1965 - 1972</unitdate>
 					<unittitle>Miriam Blaukopf pensions</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unitdate>1957 - 1968</unitdate>
 					<unittitle>Miriam Blaukopf correspondence</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unitdate>1945 - 1962</unitdate>
 					<unittitle>Kurt and Hilde Blaukopf correspondence</unittitle>
 				</did>
@@ -184,16 +178,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unitdate>1937 - 1962</unitdate>
 					<unittitle>Correspondence from friends and family</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unitdate>1914 - 1930</unitdate>
 					<unittitle>Correspondence from Isaac(IJ) Miller to Miriam Blaukopf</unittitle>
 				</did>
@@ -201,16 +195,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Necha (Nina) Peterson, notes and maps</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unitdate>1945 - 1946</unitdate>
 					<unittitle>Correspondence from Miriam Blaukopf to America</unittitle>
 				</did>
@@ -218,8 +212,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Correspondence, notes and translations</unittitle>
 				</did>
@@ -227,16 +221,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unitdate>1887 - 1951</unitdate>
 					<unittitle>Leo Blaukopf passports, identification transit papers, birth record</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unitdate>1907 - 1959</unitdate>
 					<unittitle>Newspaper articles, booklet</unittitle>
 				</did>
@@ -244,8 +238,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unitdate>1936 - 1978</unitdate>
 					<unittitle>Immigration papers, marriage certificate</unittitle>
 				</did>
@@ -253,8 +247,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Manuscripts, handwritten in Yiddish by Miriam Blaukopf</unittitle>
 				</did>
@@ -262,165 +256,172 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unitdate>1941</unitdate>
 					<unittitle><emph render="italic">Ferramonti</emph>[di Tarsi] by Nina Wekeler</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
-					<unitdate>ca. 1906 - 1946</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
+					<unitdate certainty="approximate">1906 - 1946</unitdate>
 					<unittitle>Photographs</unittitle>
 				</did>
 				<scopecontent><p>Some originals, some photocopies. Includes master list and approximate dates.</p></scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>tr-9915</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Reel-to-reel tape - Necha(Nina) Peterson interviews with Mariam Blaukopf in Yiddish. Interview 1 - childhood Kolanki, Interview 12 - Bindergasse, 18-20 years.</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>tr-9916</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Reel-to-reel tape - Necha(Nina) Peterson interviews with Mariam Blaukopf in Yiddish. Interview 2 - Horodenka, marriage, family, Kotikovka, pre-WWI. Interview 11 - Tlusty, Bindergasse, Horodenka.</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>tr-9917</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Reel-to-reel tape - Necha(Nina) Peterson interviews with Mariam Blaukopf in Yiddish. Interview 3 - WWI, Vienna, school. Interview 10 - German translation, Avrom hospital, Beile, Horodenka, Kommandante, 1939 - 1940, Gestapo, December 4, 1940.</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>tr-9918</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Reel-to-reel tape - Necha(Nina) Peterson interviews with Mariam Blaukopf in Yiddish. Interview 4 - Vienna, Anschloss, 18 years Wohlmutstrasse, 28 years Adoplh comes to Horodenka. Interview 9 - German translation, Horodenka, Beile.</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>tr-9919</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Reel-to-reel tape - Necha(Nina) Peterson interviews with Mariam Blaukopf in Yiddish. Interview 5 - Return to Poland from Vienna, Berlin, Beuten, 						
 						Katowicz, Tandelmarktgasse, Austria, Horodenka, November 1938. Interview 8 - German Translation, Nazi invasion of Horodenka 1939.</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>tr-9920</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Reel-to-reel tape - Necha(Nina) Peterson interviews with Mariam Blaukopf in Yiddish. Interview 6 - Vienna 1938, Bindergasse, Horodenka. Interview 7 - Vienna, German translation.</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>tr-9921</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Reel-to-reel tape - Necha(Nina) Peterson interviews with Mariam Blaukopf in Yiddish. Interview 13 - Father in hospital, Horodenka, Kolanki, Dr. Karpf. Interview 14 - Kolanki, end of story, America.</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>tr-9922</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Reel-to-reel tape - Necha(Nina) Peterson interviews with Mariam Blaukopf in Yiddish. Interview 15 - Tluste, Czortkov, back to Horodenka, Dniester river, Feige's children, Bucharest. Interview 16 - Horodenka, Chernovitz, Bucharest,Hungary, Mamarocz-Szigeth, Graz.  </unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>CD-2012</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle>CD of tape interviews 1,2,3,4,5.</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>CD-2013</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle>CD of tape interviews 6, 13 15.</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>CD-2014</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle>CD of tape interviews 7,8,9,10,11.</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>CD-2015</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle>CD of tape interviews 12, 14,16.</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>CD-2016</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle>CD of three tape interviews - 4,6,12. Filtered by a recording technician.</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 		</dsc>
-	</archdesc>
+	<userestrict>
+				<head>Restrictions on Use:</head>
+				<p>Copyright retained by donor and her heirs and assigns.</p>
+			</userestrict><prefercite>
+				<head>Cite As:</head>
+				<p>Miriam Seidman Blaukopf nee Blasenstein collection, #6916. Division of Rare and
+					Manuscript Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

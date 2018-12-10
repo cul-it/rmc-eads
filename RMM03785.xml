@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM03785::Mitchell and Barnes families papers)//EN">RMM03785</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM03785::Mitchell and Barnes families papers)//EN">RMM03785</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Mitchell and Barnes families papers, 1791-1999</titleproper>
@@ -28,6 +27,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -36,19 +41,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Mitchell and Barnes Families Papers,<lb/>1791-1999</titleproper>
+         <titleproper>Guide to the Mitchell and Barnes Families Papers,1791-1999</titleproper>
          <num>Collection Number: 3785</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -60,8 +65,8 @@
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
-               <item>Martin Heggestad, February 2004<lb/> Julia Parker, October 2008<lb/> RMC Staff,
-                  April 2011<lb/></item>
+               <item>Martin Heggestad, February 2004 Julia Parker, October 2008 RMC Staff,
+                  April 2011</item>
             </defitem>
             <defitem>
                <label>Date modified:</label>
@@ -74,14 +79,13 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Mitchell and Barnes families papers,
-               <unitdate type="inclusive" encodinganalog="MARC 245">1791-1999.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Mitchell and Barnes families papers,
+               </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1791-1999.</unitdate>
          <unitid label="Collection Number:">3785</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Mitchell family. ">Mitchell family. </persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>3.8 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>3.8 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, land and other legal documents,
             daybooks, photographs, an autograph book, and clippings</physdesc>
          <repository label="Repository:"> Division of Rare and Manuscript Collections, Cornell
@@ -208,239 +212,232 @@
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Daybooks.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Diaries.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Photographs.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Daybooks.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Diaries.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Mitchell and Barnes families papers, #3785. Division of Rare and Manuscript
-               Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">1</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">1</container>
                <unittitle> 1791-1819 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">2</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">2</container>
                <unittitle> 1820-1836 , n.d.</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">3</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">3</container>
                <unittitle> 1830-1842 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">4</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">4</container>
                <unittitle> 1843-1845 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">5</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">5</container>
                <unittitle> 1846-1849 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">6</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">6</container>
                <unittitle> 1852, 1855-1856 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">7</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">7</container>
                <unittitle> 1857-1859 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">8</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">8</container>
                <unittitle> 1860-1864 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">9</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">9</container>
                <unittitle> 1865-1869 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">10</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">10</container>
                <unittitle> 1870-1879 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">11</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">11</container>
                <unittitle> 1882-1883 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">12</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">12</container>
                <unittitle> 1884 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">13</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">13</container>
                <unittitle> 1885-1889 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">14</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">14</container>
                <unittitle> n.d. </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">15</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">15</container>
                <unittitle> Miscellaneous </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">16</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">16</container>
                <unittitle>Newsclipping</unittitle>
                <unitdate>1876</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Daybooks of Benjamin F. and Silas Hutchinson, ca. </unittitle>
                <unitdate>1803-1835</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Diary of Minnie Mitchell </unittitle>
                <unitdate>1869</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
-               <container type="folder">1</container>
+               <container label="unspecified" type="box">2</container>
+               <container label="unspecified" type="folder">1</container>
                <unittitle>Herbarium sheets </unittitle>
                <unitdate>1905</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
-               <container type="folder">2-10</container>
+               <container label="unspecified" type="box">2</container>
+               <container label="unspecified" type="folder">2-10</container>
                <unittitle>Home Economics: laboratory instructions, class notes, examinations, </unittitle>
                <unitdate>1910-1911</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
-               <container type="folder">1</container>
+               <container label="unspecified" type="box">3</container>
+               <container label="unspecified" type="folder">1</container>
                <unittitle>2 Mitchell Family Reunion Registers (helpful with genealogy) </unittitle>
                <unitdate>1914-1952</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
-               <container type="folder">2</container>
+               <container label="unspecified" type="box">3</container>
+               <container label="unspecified" type="folder">2</container>
                <unittitle>Manuscript book of poetry </unittitle>
                <unitdate>1871-1872</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
-               <container type="folder">3</container>
+               <container label="unspecified" type="box">3</container>
+               <container label="unspecified" type="folder">3</container>
                <unittitle>Mitchell family reunions </unittitle>
                <unitdate>1916-1933</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
-               <container type="folder">4</container>
+               <container label="unspecified" type="box">3</container>
+               <container label="unspecified" type="folder">4</container>
                <unittitle>Cornell University miscellany </unittitle>
                <unitdate>1888-1900</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
-               <container type="folder">5</container>
+               <container label="unspecified" type="box">3</container>
+               <container label="unspecified" type="folder">5</container>
                <unittitle>Valentine to Minnie Mitchell </unittitle>
                <unitdate>[1912?]</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
-               <container type="folder">6</container>
+               <container label="unspecified" type="box">3</container>
+               <container label="unspecified" type="folder">6</container>
                <unittitle> Hattie Barnes correspondence </unittitle>
                <unitdate>1916-1934</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
-               <container type="folder">7</container>
+               <container label="unspecified" type="box">3</container>
+               <container label="unspecified" type="folder">7</container>
                <unittitle>Genealogy cards </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">1</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">1</container>
                <unittitle>Letters: Howard D. Weeks </unittitle>
                <unitdate>1872-1881</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">2</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">2</container>
                <unittitle>Letters to Minnie Mitchell </unittitle>
                <unitdate>1878, 1882-1883 </unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">3</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">3</container>
                <unittitle>Letters: to Mr. &amp; Mrs. Samuel B. Barnes, Kensico, N.Y., Westchester
                   County; some from W. S. Mitchell </unittitle>
                <unitdate>1880's, 1899</unitdate>
@@ -448,114 +445,114 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">4</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">4</container>
                <unittitle>Wedding invitations </unittitle>
                <unitdate>1882-1908</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">5</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">5</container>
                <unittitle>Wedding invitations </unittitle>
                <unitdate>1909-1915</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">6</container>
-               <unittitle>S. William Barnes misce <unitdate/>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">6</container>
+               <unittitle>S. William Barnes misce 
                </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">7</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">7</container>
                <unittitle>Mitchell family history </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">8</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">8</container>
                <unittitle>Miscellany from Ithaca Academy </unittitle>
                <unitdate>1863-1965</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">9</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">9</container>
                <unittitle>Photos: Barnes, Mitchell, and Hegeman family members </unittitle>
-               <unitdate>ca. 1914</unitdate>
+               <unitdate certainty="approximate">1914</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">10</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">10</container>
                <unittitle>Other families: Molan, Avery, Hildebrandt, Nichols, Chase, Burtis,
                   Gardiner, Farling, Crawford, Demorest </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">11</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">11</container>
                <unittitle>Unidentified people </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">12</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">12</container>
                <unittitle>Mitchell family home and farm </unittitle>
-               <unitdate>ca. 1800-1965</unitdate>
+               <unitdate certainty="approximate">1800-1965</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">13</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">13</container>
                <unittitle>Unidentified people and homes </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">14</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">14</container>
                <unittitle>Pictures for Don Barnes I: members of Mitchell, Barnes (most images not
                   identified) </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">15</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">15</container>
                <unittitle>Pictures for Don Barnes II: none identified </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <container type="folder">16</container>
+               <container label="unspecified" type="box">4</container>
+               <container label="unspecified" type="folder">16</container>
                <unittitle>Pictures for Don Barnes III: members of Barnes, Chase, and Stewart
                   families (most images not identified); miscellaneous colored prints </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
+               <container label="unspecified" type="box">5</container>
                <unittitle>Photo album: members of Barnes, Mitchell, Preswick, Mandiville, Hutchison,
                   Farling, Morse, Hegeman, Smith, McKinney, and Spencer families </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
+               <container label="unspecified" type="box">5</container>
                <unittitle>Photo album: members of Tyler, Barnes, Preswick, Mitchell, Hegeman,
                   Eelston, Benchley, Spencer, Augell, Hutchison, Williams, and Eaton families
                </unittitle>
@@ -563,7 +560,7 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
+               <container label="unspecified" type="box">5</container>
                <unittitle>Photo album: members of Mitchell, Wood, Cornell, Hegeman, Preswick,
                   Anderson, Johnston, Cowdrey, Coddington, Ostrander, Tichenor, Titchenor, Howell,
                   Smith, Brauner, Cunningham, Shaver, Snyder, Chase, Mead, Voke, Halliday, Bryant,
@@ -572,8 +569,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="folder">1</container>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="folder">1</container>
                <unittitle>Loose photographs: members of Hutchinson, Diltz, Boakley, Steenberg,
                   Steinberg, Bowman, Edwards, Bryant, Mitchell, Berry, and Face families; calendar
                   for 1908; negatives </unittitle>
@@ -581,148 +578,147 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="folder">2</container>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="folder">2</container>
                <unittitle>Barnes and Mitchell families: legal documents </unittitle>
                <unitdate>1833-1942</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="folder">3</container>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="folder">3</container>
                <unittitle>Legal documents and relating correspondence, etc. </unittitle>
                <unitdate>1850-1967</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="folder">4</container>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="folder">4</container>
                <unittitle>Barnes family legal documents </unittitle>
                <unitdate>1965-1974</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <container type="folder">5</container>
+               <container label="unspecified" type="box">5</container>
+               <container label="unspecified" type="folder">5</container>
                <unittitle>Mitchell/Barnes families: legal documents [many photocopies] </unittitle>
                <unitdate>1932-1968</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">6</container>
+               <container label="unspecified" type="box">6</container>
                <unittitle>Family Bible (includes clippings in both covers </unittitle>
                <unitdate>1873</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">6</container>
+               <container label="unspecified" type="box">6</container>
                <unittitle>History of Tioga, Chemung, Tompkins, &amp; Schuyler Counties, New York
-                  with Illustrations <unitdate>1879</unitdate>
-               </unittitle>
+                  with Illustrations </unittitle><unitdate>1879</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">6</container>
-               <container type="folder">1</container>
+               <container label="unspecified" type="box">6</container>
+               <container label="unspecified" type="folder">1</container>
                <unittitle>Mitchell family: wills [many photocopies] </unittitle>
                <unitdate>1886-1947</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">6</container>
-               <container type="folder">2</container>
+               <container label="unspecified" type="box">6</container>
+               <container label="unspecified" type="folder">2</container>
                <unittitle>Deed transferring land to Cornell University </unittitle>
                <unitdate>1936</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">6</container>
-               <container type="folder">3</container>
+               <container label="unspecified" type="box">6</container>
+               <container label="unspecified" type="folder">3</container>
                <unittitle>James Mitchell and his descendants genealogy and poem </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">6</container>
-               <container type="folder">4</container>
+               <container label="unspecified" type="box">6</container>
+               <container label="unspecified" type="folder">4</container>
                <unittitle>Published items: friendship album of Emily Ann Steenbergh </unittitle>
                <unitdate>1840's</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">6</container>
-               <container type="folder">4</container>
+               <container label="unspecified" type="box">6</container>
+               <container label="unspecified" type="folder">4</container>
                <unittitle>29 Views of Salem [Massachusetts] </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">6</container>
-               <container type="folder">5</container>
+               <container label="unspecified" type="box">6</container>
+               <container label="unspecified" type="folder">5</container>
                <unittitle>Trim from garment </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">7</container>
-               <container type="folder">3</container>
+               <container label="unspecified" type="box">7</container>
+               <container label="unspecified" type="folder">3</container>
                <unittitle>Oversize items: clippings re Burger King at East Hill Plaza </unittitle>
                <unitdate>1999</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">8</container>
+               <container label="unspecified" type="box">8</container>
                <unittitle>Oversize family photographs </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">8</container>
+               <container label="unspecified" type="box">8</container>
                <unittitle>Family photographs: CD-354 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>Sampler </unittitle>
                <unitdate>1815</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>Sampler </unittitle>
                <unitdate>1834</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">10</container>
+               <container label="unspecified" type="box">10</container>
                <unittitle>Oversize items: 3 maps of New York State/Tompkins County</unittitle>
                <unitdate>1853-1855</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="mapcase-folder">1</container>
+               <container label="unspecified" type="mapcase-folder">1</container>
                <unittitle>Oversize items: zone map of Town of Ithaca </unittitle>
                <unitdate>1954</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="map-case"/>
-               <container type="folder">1</container>
+               
+               <container label="unspecified" type="mapcase-folder">1</container>
                <unittitle>Oversize items: composite photograph of members of the Winter Course Rice
                   Poultry Club </unittitle>
                <unitdate>1913-1914</unitdate>
@@ -730,18 +726,22 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="map-case"/>
-               <container type="folder">1</container>
+               
+               <container label="unspecified" type="mapcase-folder">1</container>
                <unittitle>Dressmaking patterns</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="map-case"/>
-               <container type="folder">2</container>
+               
+               <container label="unspecified" type="mapcase-folder">2</container>
                <unittitle>Botanical specimens</unittitle>
             </did>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Mitchell and Barnes families papers, #3785. Division of Rare and Manuscript
+               Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

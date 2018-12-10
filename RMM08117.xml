@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08117::Diego Cortez Mudd Club Collection)//EN">RMM08117</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08117::Diego Cortez Mudd Club Collection)//EN">RMM08117</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Diego Cortez Mudd Club Collection, <date>circa
@@ -23,19 +23,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>September 2017</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Diego Cortez Mudd Club Collection,<lb/><date type="inclusive" encodinganalog="245$f">circa 1977-1979.</date></titleproper>
+			<titleproper>Guide to the Diego Cortez Mudd Club Collection,<date encodinganalog="245$f" type="inclusive">circa 1977-1979.</date></titleproper>
 			<num>Collection Number: 8117</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -57,12 +63,13 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Diego Cortez Mudd Club Collection,
-					<unitdate encodinganalog="MARC 245" type="inclusive">circa 1977-1979.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Diego Cortez Mudd Club Collection,
+					</unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1977-1979.</unitdate>
 			<unitid label="Collection Number:">8117</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Cortez, Diego,   ">Cortez, Diego</persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.1</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>.1</extent></physdesc>
 			<physdesc label="Forms of Material:">Printed materials, photographs, newspapers, audio
 				recordings.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -80,7 +87,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Born James Allen Curtis in Geneva, Illinois in 1946, Curtis moved to New York City in
 				1973 and assumed the name Diego Cortez. He became well-known as an artist, club
 				manager, promoter, and independent curator, co-founding the influential NYC
@@ -121,90 +128,85 @@
 				<subject encodinganalog="MARC 650">Punk rock music.</subject>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<accessrestrict>
+		
+		<dsc type="combined">
+			<head>CONTAINER LIST</head>
+			<c01 level="series"><did><unittitle id="s1">Series I. Photographs</unittitle></did>
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate normal="1978" type="inclusive">1978</unitdate><unittitle>Digne Meller Marcovicz photographs</unittitle><origination label="Creator"><persname>Marcovicz, Digne Meller </persname></origination></did><scopecontent><p>Taken around filming of "Grutzi Elvis" in Munich and Darmstadt, Germany</p></scopecontent></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1970" type="inclusive">1970's</unitdate><unittitle>Jack Smith, film maker</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did></c02>
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate normal="1979" type="inclusive">1979</unitdate><unittitle>Diego Cortez</unittitle><origination label="Creator"><persname>Resnick, Marcia </persname></origination></did><scopecontent><p>After an incident outside of a Tribeca night club where Cortez was punched and had his nose bloodied</p></scopecontent></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1977/1979" type="inclusive">1977-1979</unitdate><unittitle>Diego Cortez</unittitle></did><scopecontent><p>Still from "Grutzi Elvis"</p></scopecontent></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1977/1979" type="inclusive">1977-1979</unitdate><unittitle>Diego Cortez and Anya Phillips</unittitle></did><scopecontent><p>Publicity still from "Grutzi Elvis"</p></scopecontent></c02>
+				<c02 level="subseries"><did><unittitle id="s1ss1">Jimmy de Sana photographs</unittitle></did>
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>David Byrne</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>Backstage at The Bottom Line, NYC </p></scopecontent></c03> 
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>Debbie Harry and Diego Cortez</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did></c03>
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>Richard Hell and Anya Phillips</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>At Micky Ruskin's Lower Manhattan Ocean Club</p></scopecontent></c03> 
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>James Nares and Diego Cortez</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>Chinatown, NYC</p></scopecontent></c03> 
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>Patti Smith</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>On stage with guitar </p></scopecontent></c03> 
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>Patti Smith</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>In performance, hands on stomach</p></scopecontent></c03> 
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>Richard Hell</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>Smoking backstage</p></scopecontent></c03> 
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>Julia Heyward</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>At home</p></scopecontent></c03> 
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>Seth Tillett </unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did></c03>
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>David Byrne</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>Headshot, singing, microphone </p></scopecontent></c03> 
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>David Byrne</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>At Jimmy de Sana's loft.</p></scopecontent></c03></c02>
+				<c02 level="subseries"><did><unittitle id="s1ss2">Diego Cortez polaroids</unittitle></did>
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>Glenn Mercer (4)</unittitle><origination label="Creator"><persname>Cortez, Diego</persname></origination></did><scopecontent><p>Lead vocalist and guitarist of The Feelies </p></scopecontent></c03> 
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>Anna Sui </unittitle><origination label="Creator"><persname>Cortez, Diego</persname></origination></did><scopecontent><p>At CBGB's</p></scopecontent></c03> 
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>Michael Cooper, Jimmy DeSana and Ray Johnson</unittitle><origination label="Creator"><persname>Cortez, Diego</persname></origination></did></c03>
+					<c03 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate certainty="approximate" normal="1978/1979" type="inclusive">1978-1979</unitdate><unittitle>Unidentified (2)</unittitle><origination label="Creator"><persname>Cortez, Diego</persname></origination></did></c03>
+				</c02>
+			</c01>
+			<c01 level="series"><did><unittitle id="s2">Series II. Notebooks</unittitle></did>
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">2</container><unitdate normal="1979-03-11" type="inclusive">1979-03-11</unitdate><unittitle>Boris Policeband notebook  I</unittitle><origination label="Creator"><persname>Cortez, Diego</persname></origination></did><scopecontent><p>Outlining performance at The Mudd Club, annotations in Cortez's hand</p></scopecontent></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">2</container><unitdate certainty="approximate" type="inclusive">1979-30-1979-05</unitdate><unittitle>Boris Policeband notebook  II</unittitle><origination label="Creator"><persname>Cortez, Diego</persname></origination></did><scopecontent><p>New York performances and others,  annotations in Cortez's hand</p></scopecontent></c02>
+			</c01>
+			<c01 level="series"><did><unittitle id="s3">Series III. Flyers/Posters/Zines</unittitle></did>
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">3</container><unitdate normal="1979-01-06/1979-01-13" type="inclusive">1979-01-06, 1979-01-13</unitdate><unittitle>Postcard announcing "The Batman Show"</unittitle></did></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">3</container><unitdate>Undated</unitdate><unittitle>Zerox &amp; Blood</unittitle></did><scopecontent><p>Exhibition at The Whitney Museum Art Resources Center</p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">3</container><unitdate certainty="approximate" normal="1979" type="inclusive">1979</unitdate><unittitle>DNA (2)</unittitle></did><scopecontent><p>Live at Max's Kansas City </p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">3</container><unitdate>Undated</unitdate><unittitle>DNA</unittitle></did><scopecontent><p>Live at CBGB </p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">3</container><unitdate>Undated</unitdate><unittitle>MARS/DNA</unittitle></did><scopecontent><p>Live at Max's Kansas City </p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">3</container><unitdate>Undated</unitdate><unittitle>James Chance and The Contortions</unittitle></did><scopecontent><p>Live at Max's Kansas City, includes annotations by Diego Cortez</p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">3</container><unitdate certainty="approximate" normal="1979-03-11" type="inclusive">1979-03-11</unitdate><unittitle>Policeband</unittitle></did><scopecontent><p>At the Mudd Club with opening act Suzuki Class</p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">3</container><unitdate normal="1977-09-20" type="inclusive">1977-09-20</unitdate><unittitle>Tuesday Night</unittitle></did><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">3</container><unitdate normal="1977-09-27" type="inclusive">1977-09-27</unitdate><unittitle>Tuesday Night #5</unittitle></did><scopecontent><p>Includes reviews of shows</p></scopecontent><controlaccess><genreform>Xerox zine</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">3</container><unitdate normal="1977-10-04" type="inclusive">1977-10-04</unitdate><unittitle>Tuesday Night</unittitle></did><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">4</container><unitdate>Undated</unitdate><unittitle>Teenage Jesus and The Jerks (2)</unittitle></did><scopecontent><p>At CBGB's</p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">4</container><unitdate>Undated</unitdate><unittitle>Flyer announcing reading of "Blood and Guts in High School" by Kathy Acker, with Diego Cortez</unittitle></did><scopecontent><p>At The Kitchen</p></scopecontent></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">4</container><unitdate normal="1977" type="inclusive">1977Summer 1977</unitdate><unittitle>Flyer announcing various events</unittitle></did><scopecontent><p>At The Kitchen; stapled with additional list on yellow paper</p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">4</container><unitdate normal="1977-01-25/1977-01-31" type="inclusive">1977-01-25-1977-01-31</unitdate><unittitle>Paste-up of flyer announcing various Diego Cortez events</unittitle></did><scopecontent><p>At Anthology Film Archives, NYC</p></scopecontent></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">4</container><unitdate>Undated</unitdate><unittitle>Flyer, "Medical Records"</unittitle></did><scopecontent><p>Original text scribbled over with pen</p></scopecontent></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">4</container><unitdate>Undated</unitdate><unittitle>Flyer, "Studies for Grutzi Elvis" </unittitle></did><scopecontent><p>Original mockup </p></scopecontent></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">4</container><unitdate>Undated</unitdate><unittitle>Flyer, "Studies for Grutzi Elvis" </unittitle></did><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">4</container><unitdate normal="1978-06" type="inclusive">1978-06</unitdate><unittitle>Flyer, Richard Lloyd Jam/video/Diego Cortez</unittitle></did><scopecontent><p>Max's</p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">4</container><unitdate>Undated</unitdate><unittitle>Image of Hans Magnus Enzensberger</unittitle></did></c02> 
+				<c02 level="file"><did><container label="unspecified" type="folder">1</container><unitdate normal="1979-05-17" type="inclusive">1979-05-17</unitdate><unittitle>An Evening Commemorating Zanu's</unittitle></did><scopecontent><p>Flyer advertising performance by Policeband and Beirut Slump at the Mudd Club</p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="folder">1</container><unitdate normal="1978" type="inclusive">1978Spring 1978</unitdate><unittitle>Yellow flyer, "No New York"</unittitle></did></c02> 
+				<c02 level="file"><did><container label="unspecified" type="folder">1</container><unitdate>Undated</unitdate><unittitle>Mockup of soundtrack album cover </unittitle></did></c02> 
+				<c02 level="file"><did><container label="unspecified" type="folder">1</container><unitdate>Undated</unitdate><unittitle>Flyer, "Television Talking Heads"</unittitle></did><scopecontent><p>At CBGB's</p></scopecontent></c02> 
+				<c02 level="file"><did><container label="unspecified" type="folder">1</container><unitdate>Undated</unitdate><unittitle>Poster announcing "Bands at Artists Space"</unittitle></did></c02> 
+				<c02 level="file"><did><container label="unspecified" type="folder">1</container><unitdate>Undated</unitdate><unittitle>X Magazine</unittitle></did><scopecontent><p>Volume 2, issue 4-6</p></scopecontent></c02> 
+			</c01>
+			<c01 level="series"><did><unittitle id="s4">Series IV. Records</unittitle></did>
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">5</container><unitid>SR-20357</unitid><unitdate normal="1978" type="inclusive">1978</unitdate><unittitle>"Orphans b/w Less of Me"</unittitle><origination label="Creator"><corpname>Teenage Jesus &amp; The Jerks</corpname></origination></did><userestrict><p>Must use digitized AV instead of original.</p></userestrict><controlaccess><genreform>45 rpm</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">5</container><unitid>SR-20358</unitid><unitdate normal="1978" type="inclusive">1978</unitdate><unittitle>"You &amp; You blw Little Ants"</unittitle><origination label="Creator"><corpname>DNA</corpname></origination></did><userestrict><p>Must use digitized AV instead of original.</p></userestrict><scopecontent><p>Back cover photo by Diego Cortez </p></scopecontent><controlaccess><genreform>45 rpm</genreform></controlaccess></c02> 
+				<c02 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">5</container><unitid>SR-20359</unitid><unitdate normal="1979" type="inclusive">1979</unitdate><unittitle>"Stereo/Mono"</unittitle><origination label="Creator"><corpname>Policeband</corpname></origination></did><userestrict><p>Must use digitized AV instead of original.</p></userestrict><scopecontent><p>Accompanied Boris Policeband notebook I; inscribed on front and back cover by Diego Cortez</p></scopecontent><controlaccess><genreform>45 rpm</genreform></controlaccess></c02> 
+			</c01>
+			
+		</dsc>
+	<accessrestrict>
 				<head>Access Restrictions:</head>
 				<p>Due to the fragility and potential degradation of moving image and sound
 					recordings, viewing and listening is limited to items that have been digitized.
 					If an item is in another media format, you may request to have the item
 					digitized for access. Information on ordering access copies may be found on our
 					Reproductions and Permissions page.</p>
-			</accessrestrict>
-			<userestrict>
+			</accessrestrict><userestrict>
 				<head>Restrictions on Use:</head>
 				<p>Sound recordings may be viewed but not played.</p>
-			</userestrict>
-			<prefercite>
+			</userestrict><prefercite>
 				<head>Cite As:</head>
 				<p>Diego Cortez Mudd Club Collection, #8117. Division of Rare and Manuscript
 					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
-		<dsc type="combined">
-			<head>CONTAINER LIST</head>
-			<c01 level="series"><did><unittitle id="s1">Series I. Photographs</unittitle></did>
-				<c02 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" normal="1978">1978</unitdate><unittitle>Digne Meller Marcovicz photographs</unittitle><origination label="Creator"><persname>Marcovicz, Digne Meller </persname></origination></did><scopecontent><p>Taken around filming of "Grutzi Elvis" in Munich and Darmstadt, Germany</p></scopecontent></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1970">1970's</unitdate><unittitle>Jack Smith, film maker</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did></c02>
-				<c02 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" normal="1979">1979</unitdate><unittitle>Diego Cortez</unittitle><origination label="Creator"><persname>Resnick, Marcia </persname></origination></did><scopecontent><p>After an incident outside of a Tribeca night club where Cortez was punched and had his nose bloodied</p></scopecontent></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1977/1979">1977-1979</unitdate><unittitle>Diego Cortez</unittitle></did><scopecontent><p>Still from "Grutzi Elvis"</p></scopecontent></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1977/1979">1977-1979</unitdate><unittitle>Diego Cortez and Anya Phillips</unittitle></did><scopecontent><p>Publicity still from "Grutzi Elvis"</p></scopecontent></c02>
-				<c02 level="subseries"><did><unittitle id="s1ss1">Jimmy de Sana photographs</unittitle></did>
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>David Byrne</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>Backstage at The Bottom Line, NYC </p></scopecontent></c03> 
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>Debbie Harry and Diego Cortez</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did></c03>
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>Richard Hell and Anya Phillips</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>At Micky Ruskin's Lower Manhattan Ocean Club</p></scopecontent></c03> 
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>James Nares and Diego Cortez</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>Chinatown, NYC</p></scopecontent></c03> 
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>Patti Smith</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>On stage with guitar </p></scopecontent></c03> 
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>Patti Smith</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>In performance, hands on stomach</p></scopecontent></c03> 
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>Richard Hell</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>Smoking backstage</p></scopecontent></c03> 
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>Julia Heyward</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>At home</p></scopecontent></c03> 
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>Seth Tillett </unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did></c03>
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>David Byrne</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>Headshot, singing, microphone </p></scopecontent></c03> 
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>David Byrne</unittitle><origination label="Creator"><persname>de Sana, Jimmy </persname></origination></did><scopecontent><p>At Jimmy de Sana's loft.</p></scopecontent></c03></c02>
-				<c02 level="subseries"><did><unittitle id="s1ss2">Diego Cortez polaroids</unittitle></did>
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>Glenn Mercer (4)</unittitle><origination label="Creator"><persname>Cortez, Diego</persname></origination></did><scopecontent><p>Lead vocalist and guitarist of The Feelies </p></scopecontent></c03> 
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>Anna Sui </unittitle><origination label="Creator"><persname>Cortez, Diego</persname></origination></did><scopecontent><p>At CBGB's</p></scopecontent></c03> 
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>Michael Cooper, Jimmy DeSana and Ray Johnson</unittitle><origination label="Creator"><persname>Cortez, Diego</persname></origination></did></c03>
-					<c03 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" certainty="Circa" normal="1978/1979">1978-1979</unitdate><unittitle>Unidentified (2)</unittitle><origination label="Creator"><persname>Cortez, Diego</persname></origination></did></c03>
-				</c02>
-			</c01>
-			<c01 level="series"><did><unittitle id="s2">Series II. Notebooks</unittitle></did>
-				<c02 level="file"><did><container type="box">1</container><container type="folder">2</container><unitdate type="inclusive" normal="1979-03-11">1979-03-11</unitdate><unittitle>Boris Policeband notebook  I</unittitle><origination label="Creator"><persname>Cortez, Diego</persname></origination></did><scopecontent><p>Outlining performance at The Mudd Club, annotations in Cortez's hand</p></scopecontent></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">2</container><unitdate type="inclusive" certainty="Circa" normal="1979-30/1979-05">1979-30-1979-05</unitdate><unittitle>Boris Policeband notebook  II</unittitle><origination label="Creator"><persname>Cortez, Diego</persname></origination></did><scopecontent><p>New York performances and others,  annotations in Cortez's hand</p></scopecontent></c02>
-			</c01>
-			<c01 level="series"><did><unittitle id="s3">Series III. Flyers/Posters/Zines</unittitle></did>
-				<c02 level="file"><did><container type="box">1</container><container type="folder">3</container><unitdate type="inclusive" normal="1979-01-06/1979-01-13">1979-01-06, 1979-01-13</unitdate><unittitle>Postcard announcing "The Batman Show"</unittitle></did></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">3</container><unitdate>Undated</unitdate><unittitle>Zerox &amp; Blood</unittitle></did><scopecontent><p>Exhibition at The Whitney Museum Art Resources Center</p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">3</container><unitdate type="inclusive" certainty="Circa" normal="1979">1979</unitdate><unittitle>DNA (2)</unittitle></did><scopecontent><p>Live at Max's Kansas City </p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">3</container><unitdate>Undated</unitdate><unittitle>DNA</unittitle></did><scopecontent><p>Live at CBGB </p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">3</container><unitdate>Undated</unitdate><unittitle>MARS/DNA</unittitle></did><scopecontent><p>Live at Max's Kansas City </p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">3</container><unitdate>Undated</unitdate><unittitle>James Chance and The Contortions</unittitle></did><scopecontent><p>Live at Max's Kansas City, includes annotations by Diego Cortez</p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">3</container><unitdate type="inclusive" certainty="Circa" normal="1979-03-11">1979-03-11</unitdate><unittitle>Policeband</unittitle></did><scopecontent><p>At the Mudd Club with opening act Suzuki Class</p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">3</container><unitdate type="inclusive" normal="1977-09-20">1977-09-20</unitdate><unittitle>Tuesday Night</unittitle></did><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">3</container><unitdate type="inclusive" normal="1977-09-27">1977-09-27</unitdate><unittitle>Tuesday Night #5</unittitle></did><scopecontent><p>Includes reviews of shows</p></scopecontent><controlaccess><genreform>Xerox zine</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">3</container><unitdate type="inclusive" normal="1977-10-04">1977-10-04</unitdate><unittitle>Tuesday Night</unittitle></did><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">4</container><unitdate>Undated</unitdate><unittitle>Teenage Jesus and The Jerks (2)</unittitle></did><scopecontent><p>At CBGB's</p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">4</container><unitdate>Undated</unitdate><unittitle>Flyer announcing reading of "Blood and Guts in High School" by Kathy Acker, with Diego Cortez</unittitle></did><scopecontent><p>At The Kitchen</p></scopecontent></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">4</container><unitdate type="inclusive" normal="1977">1977Summer 1977</unitdate><unittitle>Flyer announcing various events</unittitle></did><scopecontent><p>At The Kitchen; stapled with additional list on yellow paper</p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">4</container><unitdate type="inclusive" normal="1977-01-25/1977-01-31">1977-01-25-1977-01-31</unitdate><unittitle>Paste-up of flyer announcing various Diego Cortez events</unittitle></did><scopecontent><p>At Anthology Film Archives, NYC</p></scopecontent></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">4</container><unitdate>Undated</unitdate><unittitle>Flyer, "Medical Records"</unittitle></did><scopecontent><p>Original text scribbled over with pen</p></scopecontent></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">4</container><unitdate>Undated</unitdate><unittitle>Flyer, "Studies for Grutzi Elvis" </unittitle></did><scopecontent><p>Original mockup </p></scopecontent></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">4</container><unitdate>Undated</unitdate><unittitle>Flyer, "Studies for Grutzi Elvis" </unittitle></did><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">4</container><unitdate type="inclusive" normal="1978-06">1978-06</unitdate><unittitle>Flyer, Richard Lloyd Jam/video/Diego Cortez</unittitle></did><scopecontent><p>Max's</p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">4</container><unitdate>Undated</unitdate><unittitle>Image of Hans Magnus Enzensberger</unittitle></did></c02> 
-				<c02 level="file"><did><container type="folder">1</container><unitdate type="inclusive" normal="1979-05-17">1979-05-17</unitdate><unittitle>An Evening Commemorating Zanu's</unittitle></did><scopecontent><p>Flyer advertising performance by Policeband and Beirut Slump at the Mudd Club</p></scopecontent><controlaccess><genreform>Xerox flyer</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="folder">1</container><unitdate type="inclusive" normal="1978">1978Spring 1978</unitdate><unittitle>Yellow flyer, "No New York"</unittitle></did></c02> 
-				<c02 level="file"><did><container type="folder">1</container><unitdate>Undated</unitdate><unittitle>Mockup of soundtrack album cover </unittitle></did></c02> 
-				<c02 level="file"><did><container type="folder">1</container><unitdate>Undated</unitdate><unittitle>Flyer, "Television Talking Heads"</unittitle></did><scopecontent><p>At CBGB's</p></scopecontent></c02> 
-				<c02 level="file"><did><container type="folder">1</container><unitdate>Undated</unitdate><unittitle>Poster announcing "Bands at Artists Space"</unittitle></did></c02> 
-				<c02 level="file"><did><container type="folder">1</container><unitdate>Undated</unitdate><unittitle>X Magazine</unittitle></did><scopecontent><p>Volume 2, issue 4-6</p></scopecontent></c02> 
-			</c01>
-			<c01 level="series"><did><unittitle id="s4">Series IV. Records</unittitle></did>
-				<c02 level="file"><did><container type="box">1</container><container type="folder">5</container><unitid>SR-20357</unitid><unitdate type="inclusive" normal="1978">1978</unitdate><unittitle>"Orphans b/w Less of Me"</unittitle><origination label="Creator"><corpname>Teenage Jesus &amp; The Jerks</corpname></origination></did><userestrict><p>Must use digitized AV instead of original.</p></userestrict><controlaccess><genreform>45 rpm</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">5</container><unitid>SR-20358</unitid><unitdate type="inclusive" normal="1978">1978</unitdate><unittitle>"You &amp; You blw Little Ants"</unittitle><origination label="Creator"><corpname>DNA</corpname></origination></did><userestrict><p>Must use digitized AV instead of original.</p></userestrict><scopecontent><p>Back cover photo by Diego Cortez </p></scopecontent><controlaccess><genreform>45 rpm</genreform></controlaccess></c02> 
-				<c02 level="file"><did><container type="box">1</container><container type="folder">5</container><unitid>SR-20359</unitid><unitdate type="inclusive" normal="1979">1979</unitdate><unittitle>"Stereo/Mono"</unittitle><origination label="Creator"><corpname>Policeband</corpname></origination></did><userestrict><p>Must use digitized AV instead of original.</p></userestrict><scopecontent><p>Accompanied Boris Policeband notebook I; inscribed on front and back cover by Diego Cortez</p></scopecontent><controlaccess><genreform>45 rpm</genreform></controlaccess></c02> 
-			</c01>
-			
-		</dsc>
-	</archdesc>
+			</prefercite></archdesc>
 </ead>

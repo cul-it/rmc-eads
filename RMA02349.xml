@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02349::Guide to the Anna Clegg Stryke papers)//EN">RMA02349</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02349::Guide to the Anna Clegg Stryke papers)//EN">RMA02349</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Anna Clegg Stryke papers,
@@ -26,19 +26,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>March 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Anna Clegg Stryke Papers,<lb/><date type="inclusive" encodinganalog="245$f">1906-1913.</date></titleproper>
+			<titleproper>Guide to the Anna Clegg Stryke Papers,<date encodinganalog="245$f" type="inclusive">1906-1913.</date></titleproper>
 			<num>Collection Number: 21-23-2349</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -64,14 +70,13 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Anna Clegg Stryke papers, <unitdate encodinganalog="MARC 245" type="inclusive">1906-1913.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Anna Clegg Stryke papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1906-1913.</unitdate>
 			<unitid label="Collection Number:">21-23-2349</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="100" normal="Stryke, Anna Clegg,  1844-1973. ">Stryke,
 					Anna Clegg, </persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.1 cubic ft.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.1 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Photographs, memorabilia, and architectural plans.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -81,7 +86,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Cornell University Class of 1908, Stryke was an instructor in Entomology at Cornell
 				after her graduation.</p>
 		</bioghist>
@@ -118,32 +123,29 @@
 				<genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Anna Clegg Stryke papers, #21-23-2349. Division of Rare and Manuscript
-					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unittitle>Two photograph albums, loose photographs, </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="map-case">Folder 1</container>
+					<container label="unspecified" type="map-case">Folder 1</container>
 					<unittitle>Diplomas, Sigma Xi certificate, and house plan by Gibb and
 						Waltz</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Anna Clegg Stryke papers, #21-23-2349. Division of Rare and Manuscript
+					Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-	 <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01915::John Ivan Miller papers)//EN">RMA01915</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+	 <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA01915::John Ivan Miller papers)//EN">RMA01915</eadid>
 	 
 	 <filedesc> 
 		<titlestmt> 
@@ -28,7 +27,13 @@
 		<creation>Finding aid encoded by Martin Heggestad
 		  <date>June 2003</date> </creation> 
 	 </profiledesc> 
-	 <revisiondesc> 
+	 <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+ 
 		<change encodinganalog="583"> 
 		  <date normal="2007-05-29">2007-05-29</date> 
 		  <item>converted from EAD 1.0 to EAD 2002 </item> 
@@ -38,19 +43,19 @@
   <frontmatter> 
 	 <titlepage> 
 		<titleproper>Guide to the John Ivan Miller
-		  Papers,<lb/>1918-1977</titleproper> 
+		  Papers,1918-1977</titleproper> 
 		<num>Collection Number: 21-14-1915</num> 
-		<publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+		<publisher>Division of Rare and Manuscript Collections Cornell
 		  University Library</publisher> 
 		<list type="deflist"> 
 		  <defitem> 
 			 <label>Contact Information:</label> 
-			 <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-				Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-				255-3530<lb/> Fax: (607) 255-9524<lb/>
-				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> <lb/>
+			 <item>Division of Rare and Manuscript Collections 2B Carl A.
+				Kroch Library Cornell University Ithaca, NY 14853 (607)
+				255-3530 Fax: (607) 255-9524
+				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
 				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-				<lb/></item> 
+				</item> 
 		  </defitem> 
 		  <defitem> 
 			 <label>EAD encoding:</label> 
@@ -68,14 +73,16 @@
   <archdesc level="collection"> 
 	 <did> 
 		<head id="a1">DESCRIPTIVE SUMMARY</head> 
-		<unittitle label="Title:" encodinganalog="MARC 245">John Ivan Miller
+		<unittitle encodinganalog="MARC 245" label="Title:">John Ivan Miller
 		  papers, 
-		  <unitdate type="inclusive" encodinganalog="MARC 245">1918-1977.</unitdate> </unittitle> 
+		  </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1918-1977.</unitdate> 
 		<unitid label="Collection Number:">21-14-1915</unitid> 
 		<origination label="Creator:"> 
 		  <persname encodinganalog="100" normal="Miller, John Ivan, 1911-1980.">John Ivan Miller, 1911-1980.</persname>
 		  </origination> 
-		<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.1 cubic
+		<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>.1 cubic
 		  ft.</extent></physdesc> 
 		<physdesc label="Forms of Material:">Pamphlets, printed matter, and
 		  photographs.</physdesc> 
@@ -89,7 +96,7 @@
 		  </langmaterial> 
 	 </did> 
 	 <bioghist encodinganalog="MARC 545"> 
-		<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head> 
+		<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head> 
 		<p>Professor of animal science, New York State College of Agriculture and
 		  Life Sciences, Cornell University.</p> 
 	 </bioghist> 
@@ -119,31 +126,24 @@
 		</controlaccess> 
 		<controlaccess> 
 		  <head>Form and Genre Terms:</head> 
-		  <genreform source="aat" encodinganalog="MARC 655">Photographs.</genreform> 
+		  <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform> 
 		</controlaccess> 
 	 </controlaccess> 
-	 <descgrp type="admininfo"> 
-		<head id="a8">INFORMATION FOR USERS</head> 
-		<prefercite> 
-		  <head>Cite As:</head> 
-		  <p>John Ivan Miller papers, #21-14-1915. Division of Rare and
-			 Manuscript Collections, Cornell University Library.</p> 
-		</prefercite> 
-	 </descgrp> 
+	  
 	 <dsc type="combined"> 
 		<head>CONTAINER LIST</head> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container>1</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="unspecified">1</container> 
 			 <unittitle>Reports on protein efficiency for lambs ( 
-				<unitdate>1937-1944</unitdate> ).</unittitle> 
+				1937-1944 ).</unittitle><unitdate>1937-1944</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container>2</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="unspecified">2</container> 
 			 <unittitle>Feeding trial reports with beef cattle involving the
 				relative feeding values of numerous feeds. Also, some notes on the development
 				of the beef herds at Cornell starting in 1930</unittitle> 
@@ -151,66 +151,70 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container>3</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="unspecified">3</container> 
 			 <unittitle>Reports of a few meats projects.</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container>4</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="unspecified">4</container> 
 			 <unittitle>Summary of activities of the Cornell Livestock Judging
 				Team  
-				<unitdate>1936-1963</unitdate> ).</unittitle> 
+				1936-1963 ).</unittitle><unitdate>1936-1963</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container>5</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="unspecified">5</container> 
 			 <unittitle>Some unpublished information on salt intakes and the use
 				of medicated salt for cattle.</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container>6</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="unspecified">6</container> 
 			 <unittitle>Pelleted forages for beef cattle.</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container>7</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="unspecified">7</container> 
 			 <unittitle>History and development of Herd Classification Program in
 				New York and for the American Angus Association.</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container>8</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="unspecified">8</container> 
 			 <unittitle>Acid preservation of high-moisture corn for feeding beef
 				cattle (first work in U.S. done at Cornell).</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container>9</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="unspecified">9</container> 
 			 <unittitle>A few photographs involving beef cattle which may have
 				historical interest.</unittitle> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container>10</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="unspecified">10</container> 
 			 <unittitle>Complete biographical information.</unittitle> 
 		  </did> 
 		</c01> 
 	 </dsc> 
-  </archdesc>
+  <prefercite> 
+		  <head>Cite As:</head> 
+		  <p>John Ivan Miller papers, #21-14-1915. Division of Rare and
+			 Manuscript Collections, Cornell University Library.</p> 
+		</prefercite></archdesc>
 </ead>

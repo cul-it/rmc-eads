@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00479::James G. Needham Papers)//EN">RMA00479</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00479::James G. Needham Papers)//EN">RMA00479</eadid>
 
 		<filedesc>
 			<titlestmt>
@@ -34,6 +33,12 @@
 			</langusage>
 		</profiledesc>
 		<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
 			<change encodinganalog="583">
 				<date normal="2007-05-29">2007-05-29</date>
 				<item>converted from EAD 1.0 to EAD 2002 </item>
@@ -42,20 +47,20 @@
 	</eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the James G. Needham papers,<lb/>1884-1957</titleproper>
+			<titleproper>Guide to the James G. Needham papers,1884-1957</titleproper>
 			<num>Collection Number: 21-23-479</num>
-			<publisher>Division of Rare and Manuscript Collections<lb/>Cornell University
+			<publisher>Division of Rare and Manuscript CollectionsCornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/>
+					<item>Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524
 						<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-						<lb/>
+						
 						<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-						<lb/></item>
+						</item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -81,14 +86,13 @@
 	<archdesc level="collection">
 		<did>
 			<head>DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:">James G. Needham papers, <unitdate type="inclusive">1884-1957</unitdate>
-			</unittitle>
+			<unittitle label="Title:">James G. Needham papers, </unittitle><unitdate type="inclusive">1884-1957</unitdate>
 			<unitid label="Collection Number:">21-23-479</unitid>
 			<origination label="Creator:">
 				<persname normal="Needham, James G.(James George), 1868-1956">James G. Needham,
 					1868-1956</persname>
 			</origination>
-			<physdesc label="Quantity:"><extent>6 cubic ft.</extent></physdesc>
+			<physdesc label="Quantity:"><extent>6 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Letters, legal documents, diaries, scrapbooks,
 				photographs, course materials</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -203,44 +207,31 @@
 			</controlaccess>
 			<controlaccess>
 				<head>Form and Genre Terms:</head>
-				<genreform source="aat" encodinganalog="MARC 655">Photographs.</genreform>
-				<genreform source="aat" encodinganalog="MARC 655">Diaries.</genreform>
-				<genreform source="aat" encodinganalog="MARC 655">Scrapbooks.</genreform>
-				<genreform source="aat" encodinganalog="MARC 655">Drawings.</genreform>
+				<genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
+				<genreform encodinganalog="MARC 655" source="aat">Diaries.</genreform>
+				<genreform encodinganalog="MARC 655" source="aat">Scrapbooks.</genreform>
+				<genreform encodinganalog="MARC 655" source="aat">Drawings.</genreform>
 
-				<genreform source="aat" encodinganalog="MARC 655">Negatives.</genreform>
+				<genreform encodinganalog="MARC 655" source="aat">Negatives.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp type="admininfo">
-			<head>INFORMATION FOR USERS</head>
-			<altformavail>
-				<head>Available Copies:</head>
-				<p>Letters from James Needham to Hortense Butler Heywood are photocopies. Original
-					letters to Heywood are located in <extref href="http://www.lib.iastate.edu/spcl/index.html">Special
-						Collections/Archives, Parks Library, Iowa State University</extref>.</p>
-			</altformavail>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>James G. Needham papers, #21-23-479. Division of Rare and Manuscript Collections,
-					Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<arrangement>
 			<head>SERIES LIST</head>
 			<p>
 				<emph render="bold">
-					<ref target="s1" show="replace" actuate="onrequest">Series I. Correspondence</ref>
-				</emph> <lb/>Boxes 1-3, 8
+					<ref actuate="onrequest" show="replace" target="s1">Series I. Correspondence</ref>
+				</emph> Boxes 1-3, 8
 			</p>
 			<p>
 				<emph render="bold">
-					<ref target="s2" show="replace" actuate="onrequest">Series II. Miscellaneous</ref>
-				</emph> <lb/>Boxes 3-4, 7-10, mapcase
+					<ref actuate="onrequest" show="replace" target="s2">Series II. Miscellaneous</ref>
+				</emph> Boxes 3-4, 7-10, mapcase
 			</p>
 			<p>
 				<emph render="bold">
-					<ref target="s3" show="replace" actuate="onrequest">Series III. Photographs</ref>
-				</emph> <lb/>Boxes 5-6
+					<ref actuate="onrequest" show="replace" target="s3">Series III. Photographs</ref>
+				</emph> Boxes 5-6
 			</p>
 		</arrangement>
 		<dsc type="in-depth">
@@ -251,1079 +242,1079 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1888-1890</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1891</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>1892-1894</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>1895-1896</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>1897</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>1898</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>1899</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>1900</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>1901</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>1901</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unitdate>1902</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>1902</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>1903</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1904</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">15</container>
 						<unitdate>1904</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">16</container>
 						<unitdate>1905</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">17</container>
 						<unitdate>1905</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">18</container>
 						<unitdate>1906</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">19</container>
 						<unitdate>1906</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">20</container>
 						<unitdate>1907</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">21</container>
 						<unitdate>1907</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">22</container>
 						<unitdate>1908</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">23</container>
 						<unitdate>1908</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">24</container>
 						<unitdate>1909</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">25</container>
 						<unitdate>1909</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">26</container>
 						<unitdate>1909</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">27</container>
 						<unitdate>1910</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">28</container>
 						<unitdate>1910</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">29</container>
 						<unitdate>1911</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">30</container>
 						<unitdate>1912</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">31</container>
 						<unitdate>1913</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">32</container>
 						<unitdate>1914</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">33</container>
 						<unitdate>1915</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">34</container>
 						<unitdate>1916</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">35</container>
 						<unitdate>1917</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">36</container>
 						<unitdate>1917</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">37</container>
 						<unitdate>1918</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">38</container>
 						<unitdate>1919</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">39</container>
 						<unitdate>1920-1921</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">40</container>
 						<unitdate>1922</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">41</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">41</container>
 						<unitdate>1923-1925</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">42</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">42</container>
 						<unitdate>1926</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">43</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">43</container>
 						<unitdate>1927</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">44</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">44</container>
 						<unitdate>1927</unitdate>
 						<unittitle>Log of China Trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">45</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">45</container>
 						<unitdate>1927</unitdate>
 						<unittitle>Log of China Trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">46</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">46</container>
 						<unitdate>1927-1928</unitdate>
 						<unittitle>Log of China Trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">47</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">47</container>
 						<unitdate>1928</unitdate>
 						<unittitle>Log of China Trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">48</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">48</container>
 						<unitdate>1928</unitdate>
 						<unittitle>Log of China Trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">49</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">49</container>
 						<unitdate>1928</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">50</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">50</container>
 						<unitdate>1928</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">51</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">51</container>
 						<unitdate>1929</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1930</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1930</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>1931</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>1932</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>1932</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>1932</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>1933</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>1934</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>1935</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>1935</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">11</container>
 						<unitdate>1935</unitdate>
 						<unittitle>Letters of Condolence A.B.T Needham</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>1936</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>1937</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1937</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unitdate>1937</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unitdate>1938</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">17</container>
 						<unitdate>1938</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">18</container>
 						<unitdate>1938</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">19</container>
 						<unitdate>1938</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">20</container>
 						<unitdate>1939</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">21</container>
 						<unitdate>1939</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">22</container>
 						<unitdate>1939</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">23</container>
 						<unitdate>1939</unitdate>
 						<unittitle>Correspondence re: Lectures</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">24</container>
 						<unitdate>1939</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">25</container>
 						<unitdate>1940</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">26</container>
 						<unitdate>1940</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">27</container>
 						<unitdate>1941</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">28</container>
 						<unitdate>1941</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">29</container>
 						<unitdate>1942</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">30</container>
 						<unitdate>1942</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">31</container>
 						<unitdate>1943</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">32</container>
 						<unitdate>1943</unitdate>
 						<unittitle>Letters to Annabel</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">33</container>
 						<unitdate>1944</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">34</container>
 						<unitdate>1944</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">35</container>
 						<unitdate>1940-1945</unitdate>
 						<unittitle>Letters to Annabel</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">36</container>
 						<unitdate>1945</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">37</container>
 						<unitdate>1945</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">38</container>
 						<unitdate>1945</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">39</container>
 						<unitdate>1946</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">40</container>
 						<unitdate>1946</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">41</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">41</container>
 						<unitdate>1946</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">42</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">42</container>
 						<unitdate>1946</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">43</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">43</container>
 						<unitdate>1947</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1947</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1947</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>1948</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>1948</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>1949</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>1949</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>1950</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>1950</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>1951</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>1951</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">11</container>
 						<unitdate>1952</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>1952</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>1952-1953</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1953</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">15</container>
 						<unitdate>1954</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">16</container>
 						<unitdate>1954</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">17</container>
 						<unitdate>1954</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">18</container>
 						<unitdate>1954-1955</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">19</container>
 						<unitdate>1955</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">20</container>
 						<unitdate>1956</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">21</container>
 						<unitdate>1956</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">22</container>
 						<unitdate>1957</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">23</container>
 						<unitdate>1956-1957</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">24</container>
 						<unitdate>1957-1958</unitdate>
 						<unittitle>Condolence Letters</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">25</container>
 						<unitdate>1959</unitdate>
 						<unittitle>Condolence Cards</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">26</container>
-						<unitdate/>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">26</container>
+						
 						<unittitle>Undated Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">27</container>
-						<unitdate/>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">27</container>
+						
 						<unittitle>Undated Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="folder">in Ms. Box 16</container>
+						<container label="unspecified" type="folder">in Ms. Box 16</container>
 						<unitdate>No date</unitdate>
 						<unittitle>Charles Darwin Letter</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">29</container>
-						<unitdate/>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">29</container>
+						
 						<unittitle>Greeting Cards</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">30</container>
-						<unitdate/>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">30</container>
+						
 						<unittitle>Greeting Cards</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">31</container>
-						<unitdate/>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">31</container>
+						
 						<unittitle>Greeting Cards</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">32</container>
-						<unitdate/>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">32</container>
+						
 						<unittitle>Greeting Cards</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle>To Anna Taylor</unittitle>
 						<unitdate>1890</unitdate>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle>To Anna Taylor</unittitle>
 						<unitdate>1891</unitdate>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle>To Anna Taylor</unittitle>
 						<unitdate>1892</unitdate>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle>To Anna Taylor</unittitle>
 						<unitdate>1893</unitdate>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle>To Anna Taylor</unittitle>
 						<unitdate>1894</unitdate>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle>To Anna Taylor, incomplete</unittitle>
 						<unitdate>n.d.</unitdate>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle>To John Needham, from father and mother</unittitle>
-						<unitdate>ca. 1931</unitdate>
+						<unitdate certainty="approximate">1931</unitdate>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle>T. D. A. Cockerell's correspondence</unittitle>
 						<unitdate>1899-1912</unitdate>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle>Additional misc. correspondence</unittitle>
 						<unitdate>1905-1919</unitdate>
 					</did>
@@ -1335,557 +1326,557 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">33</container>
 						<unitdate>1913-1955</unitdate>
 						<unittitle>Honors</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">34</container>
-						<unitdate/>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">34</container>
+						
 						<unittitle>China Miscellany</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">35</container>
-						<unitdate/>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">35</container>
+						
 						<unittitle>China Miscellany</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">36</container>
-						<unitdate/>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">36</container>
+						
 						<unittitle>China Miscellany</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">37</container>
 						<unitdate>1908-1953</unitdate>
 						<unittitle>Taxes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">38</container>
 						<unitdate>1908-1958</unitdate>
 						<unittitle>Taxes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">39</container>
-						<unitdate/>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">39</container>
+						
 						<unittitle>Financial</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">1</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">1</container>
+						
 						<unittitle>Natural History of the Farm</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1953</unitdate>
 						<unittitle>West Virginia - Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>1936</unitdate>
 						<unittitle>Mexico Trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>1914</unitdate>
 						<unittitle>Cayuga Indian Festival</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>1930</unitdate>
 						<unittitle>West Virginia Biological Notes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>1936</unitdate>
 						<unittitle>Mexico and California trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>1930-1935</unitdate>
 						<unittitle>University of Puerto Rico</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>1927</unitdate>
 						<unittitle>Apalachicola </unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>1922-1923</unitdate>
 						<unittitle>Laguna</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>1937</unitdate>
 						<unittitle>Stanford University and Texas trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">11</container>
 						<unitdate>1923-1924</unitdate>
 						<unittitle>San Clemente</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>1922</unitdate>
 						<unittitle>California Limnology-Elsinore</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>1936-1937</unitdate>
 						<unittitle>Stanford Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1930</unitdate>
 						<unittitle>West Indian trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">15</container>
 						<unitdate>1938</unitdate>
 						<unittitle>North Carolina-Kentucky trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">16</container>
 						<unitdate>1939</unitdate>
 						<unittitle>Florida</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">17</container>
 						<unitdate>1930</unitdate>
 						<unittitle>Flying Trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">18</container>
 						<unitdate>1942-1958</unitdate>
 						<unittitle>Olympic Mountain trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">19</container>
 						<unitdate>1934</unitdate>
 						<unittitle>Cape Fear River trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">20</container>
 						<unitdate>1929-1935</unitdate>
 						<unittitle>North Carolina Collectin trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">21</container>
 						<unitdate>No date</unitdate>
 						<unittitle>"Jingle of the Jungle"</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">22</container>
 						<unitdate>1942</unitdate>
 						<unittitle>California Limnology-Elsinore</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">23</container>
 						<unitdate>1930-1947</unitdate>
 						<unittitle>Santo Domingo</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">24</container>
 						<unitdate>1936-1939</unitdate>
 						<unittitle>Cuba</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">25</container>
 						<unitdate>1926</unitdate>
 						<unittitle>Utah</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">26</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">26</container>
+						
 						<unittitle>Okefenokee Swamp</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">27</container>
 						<unitdate>1942</unitdate>
 						<unittitle>My 75th Birthday</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">28</container>
 						<unitdate>1917-1918</unitdate>
 						<unittitle>Manuscripts</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">29</container>
 						<unitdate>1953</unitdate>
 						<unittitle>Ontario Manuscripts</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">30</container>
 						<unitdate>1953</unitdate>
 						<unittitle>Ontario</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">31</container>
 						<unitdate>1954-1955</unitdate>
 						<unittitle>Ontario</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">32</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">32</container>
+						
 						<unittitle>Undated Manuscripts</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">33</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">33</container>
+						
 						<unittitle>Undated Manuscripts and Notes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">34</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">34</container>
+						
 						<unittitle>Undated Manuscripts and Notes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">35</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">35</container>
+						
 						<unittitle>Undated Poetry Manuscripts</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">36</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">36</container>
+						
 						<unittitle>Undated Manuscripts</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">37</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">37</container>
+						
 						<unittitle>Undated Manuscripts</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">38</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">38</container>
+						
 						<unittitle>Undated Miscellany</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">39</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">39</container>
+						
 						<unittitle>Undated Notes and Coreespondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">40</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">40</container>
+						
 						<unittitle>Undated Miscellany</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">41</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">41</container>
+						
 						<unittitle>Undated Miscellany</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">42</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">42</container>
+						
 						<unittitle>Undated Miscellany and notes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">43</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">43</container>
+						
 						<unittitle>Miscellaneous Fragments Undated</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">44</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">44</container>
+						
 						<unittitle>Writings by others</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">45</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">45</container>
+						
 						<unittitle>Overpopulation</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">46</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">46</container>
+						
 						<unittitle>Clippings about Needham</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">47</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">47</container>
+						
 						<unittitle>Clippings about Needham</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">48</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">48</container>
+						
 						<unittitle>Clippings about Needham</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">49</container>
-						<unitdate>1989-ca. 1947</unitdate>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">49</container>
+						<unitdate certainty="approximate">1989- 1947</unitdate>
 						<unittitle>Clippings</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">50</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">50</container>
+						
 						<unittitle>Miscellany</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">51</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">51</container>
+						
 						<unittitle>Needham Publications and Advertisements</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">52</container>
-						<unitdate/>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">52</container>
+						
 						<unittitle>Programs and Reviews</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
+						<container label="unspecified" type="box">7</container>
 						<unittitle>Address books</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
+						<container label="unspecified" type="box">7</container>
 						<unittitle>Diaries</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
+						<container label="unspecified" type="box">7</container>
 						<unittitle>Book of place-cards, Jugatae Banquet</unittitle>
 						<unitdate>1931</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
+						<container label="unspecified" type="box">7</container>
 						<unittitle>Certificates</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
+						<container label="unspecified" type="box">7</container>
 						<unittitle>Passport</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
+						<container label="unspecified" type="box">7</container>
 						<unittitle>88th Birthday book</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
+						<container label="unspecified" type="box">7</container>
 						<unittitle>Photo-scrapbook album, W. Virginia</unittitle>
 						<unitdate>1930</unitdate>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle>Indian Museum work</unittitle>
 						<unitdate>1909-1910</unitdate>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle>Peking Society of National History, King Senior medal
 							certificate</unittitle>
 						<unitdate>1930</unitdate>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle>"Check-list of Odonata of Oceania", by Erich Schmidt</unittitle>
-						<unitdate/>
+						
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle>Dragonflies Manuscript</unittitle>
 						<unitdate>1895</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle>Accounts</unittitle>
 						<unitdate>1886-1892</unitdate>
 					</did>
@@ -1896,125 +1887,125 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
+						<container label="unspecified" type="box">9</container>
 						<unittitle>Miscellany</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
+						<container label="unspecified" type="box">10</container>
 						<unittitle>Maps</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">1</container>
-						<unitdate> </unitdate>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">1</container>
+						
 						<unittitle>Key to autograph New York State maps showing watercourses and
 							wetlands</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle>Finger Lakes Region</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle>Genesee Valley </unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle>#129, top of #153</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle>#16, 17</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle>#27-29, 39-43, 50</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle>#51-56, 58-59, 62-66</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle>#79, 80 (2 parts), 81-83, 85-89</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle>#101-108, 112-113, 124-125</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle>126-129, 130 (2 parts), 131-134, 145-150</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle>#151, 153, 155-159, 166, 171, 175</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle>#176-181, 193</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle>#206-207</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case">Folder 2</container>
+						<container label="unspecified" type="map-case">Folder 2</container>
 						<unittitle>#35,100-101; 122; Adirondacks</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case">Folder 2</container>
+						<container label="unspecified" type="map-case">Folder 2</container>
 						<unitdate> 1935</unitdate>
 						<unittitle>Pinar del Rio [Cuba]</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case">Folder 1</container>
+						<container label="unspecified" type="map-case">Folder 1</container>
 						<unittitle>High School diploma of James G. Needham, Virginia,
 							Illinois</unittitle>
 						<unitdate>June 15, 1884</unitdate>
@@ -2022,7 +2013,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case">Folder 1</container>
+						<container label="unspecified" type="map-case">Folder 1</container>
 						<unittitle>J.G.N.'s Bachelor of Science degree from Knox College, Galesburg,
 							Illinois</unittitle>
 						<unitdate>June 11, 1891</unitdate>
@@ -2030,14 +2021,14 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case">Folder 1</container>
+						<container label="unspecified" type="map-case">Folder 1</container>
 						<unittitle>J.G.N.'s Master of Science degree from Knox College</unittitle>
 						<unitdate>June 15, 1894</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case">Folder 1</container>
+						<container label="unspecified" type="map-case">Folder 1</container>
 						<unittitle>J.G.N.'s Doctor of Philosophy degree from Cornell
 							University</unittitle>
 						<unitdate>June 16, 1898</unitdate>
@@ -2045,7 +2036,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case">Folder 1</container>
+						<container label="unspecified" type="map-case">Folder 1</container>
 						<unittitle>J.G.N.'s Certificate as Phi Beta Kappa alumnus member by action
 							of Delta Chapter of Illinois</unittitle>
 						<unitdate>May 11, 1917</unitdate>
@@ -2053,7 +2044,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case">Folder 1</container>
+						<container label="unspecified" type="map-case">Folder 1</container>
 						<unittitle>J.G.N.'s Honorary Doctor of Letters degree from Knox
 							College</unittitle>
 						<unitdate>July 18, 1921</unitdate>
@@ -2061,15 +2052,15 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="map-case">Folder 1</container>
+						<container label="unspecified" type="map-case">Folder 1</container>
 						<unittitle>Anna B. Taylor's Bachelor of Letters degree from Knox
 							College</unittitle>
-						<unitdate/>
+						
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
+						<container label="unspecified" type="box">11</container>
 
 						<unittitle>Illustrated plates used in Needham's books</unittitle>
 					</did>
@@ -2081,428 +2072,437 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle>Alabama</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle>Archbold Biological Field Station</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle>Bass Biological Laboratory; Buildings at Englewood; Bethany
 							Beach</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle>"Beaufort Harbor Biological Lab."</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle>Biological Field Station</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle>Branch, Hazel E. : Photo portfolio of "Limnology class, Spring of
 							1919"; 4 loose pictures of specimens</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle>British Guiana [Surinam]</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle>China</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle>China</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle>China scenes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle>China scenes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle>Chinese students</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle>Chinese students and families</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle>Chinese students and families</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle>Chinese students and Staff, with Needham, Peking</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle>Chinese students with Needham family, Shanghai</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle>Colleagues and friends</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle>Colleagues and friends</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle>Classes [?] unidentified</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle>Comstock, Anna</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle>Comstock, John Henry</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle>Comstock Hall</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle>Dynamite</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle>Family photo</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle>Family photos</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle>Family photos</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle>Family photos</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle>Family photos</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle>Family photos</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle>Family photos</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle>Field Trips</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle>Field Trips &amp; Classes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle>Friends &amp; Colleagues</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">34</container>
 						<unittitle>Hilliard, Annabel, 1956. Constableville, NY. (sic) Thanksgiving
 							1956</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">35</container>
 						<unittitle>Indian Pageant on Beebe Lake c. 1914</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">36</container>
 						<unittitle>Knox College</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">37</container>
 						<unittitle>Lake Laboratory at Juanita Island, Lake George</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">38</container>
 						<unittitle>Limnology classes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">39</container>
 						<unittitle>Minnesota</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">40</container>
 						<unittitle>Miscellaneous people</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">41</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">41</container>
 						<unittitle>Miscellaneous photos, scenes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">42</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">42</container>
 						<unittitle>Miscellaneous photos (some identified)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">43</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">43</container>
 						<unittitle>J.G. Needham</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">44</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">44</container>
 						<unittitle>J.G. Needham</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">45</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">45</container>
 						<unittitle>J.G. Needham &amp; students</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">46</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">46</container>
 						<unittitle>J.G. Needham &amp; former classmates</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">47</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">47</container>
 						<unittitle>"Pamp"</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">48</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">48</container>
 						<unittitle>Photographs, Miss Swanson [M. Eurdloch?]</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">49</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">49</container>
 						<unittitle>"Photoprints of entomologists from Dr. Matheson [?] 28
 							v.'45"</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">50</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">50</container>
 						<unittitle>Plants, shells, etc.</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">51</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">51</container>
 						<unittitle>Postcards</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">52</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">52</container>
 						<unittitle>Postcards, China</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">53</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">53</container>
 						<unittitle>Postcards, China, etc.</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">54</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">54</container>
 						<unittitle>Postcards, Malaya</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">55</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">55</container>
 						<unittitle>Postcards, Singapore &amp; Penang</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">56</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">56</container>
 						<unittitle>Scenes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">57</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">57</container>
 						<unittitle>West Virginia</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">58</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">58</container>
 						<unittitle>"Wild Flower Reserve &amp; Ringwood"</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">59</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">59</container>
 						<unittitle>Willard Culver's photos. Englewood, Fla. June 1944</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
+						<container label="unspecified" type="box">6</container>
 						<unittitle>Glass Negatives</unittitle>
 					</did>
 				</c02>
 			</c01>
 		</dsc>
-	</archdesc>
+	<altformavail>
+				<head>Available Copies:</head>
+				<p>Letters from James Needham to Hortense Butler Heywood are photocopies. Original
+					letters to Heywood are located in <extref href="http://www.lib.iastate.edu/spcl/index.html">Special
+						Collections/Archives, Parks Library, Iowa State University</extref>.</p>
+			</altformavail><prefercite>
+				<head>Cite As:</head>
+				<p>James G. Needham papers, #21-23-479. Division of Rare and Manuscript Collections,
+					Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

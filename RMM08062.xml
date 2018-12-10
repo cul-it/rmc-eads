@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08062::Guide to the Janet Hamill archive)//EN">RMM08062</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08062::Guide to the Janet Hamill archive)//EN">RMM08062</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Janet Hamill archive, <date>1967-2010.</date></titleproper>
@@ -29,19 +28,25 @@
     <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>March 2013</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Janet Hamill Archive, <lb/><date type="inclusive" encodinganalog="245$f">1967-2010.</date></titleproper>
+      <titleproper>Guide to the Janet Hamill Archive, <date encodinganalog="245$f" type="inclusive">1967-2010.</date></titleproper>
       <num>Collection Number: 8062</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-            Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+            Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
         </defitem>
         <defitem>
           <label>Compiled by:</label>
@@ -67,13 +72,12 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">Janet Hamill archive, <unitdate encodinganalog="MARC 245" type="inclusive">1967-2010.</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">Janet Hamill archive, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1967-2010.</unitdate>
       <unitid label="Collection Number:">8062</unitid>
       <origination label="Creator:">
         <persname encodinganalog="100" normal="Hamill, Janet.   ">Hamill, Janet. </persname>
       </origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>12 cubic feet.</extent></physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>12 cubic feet</extent></physdesc>
       <physdesc label="Forms of Material:">Correspondence, photographs, publications</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
         University Library</repository>
@@ -82,7 +86,7 @@
       <langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
     </did>
     <bioghist encodinganalog="MARC 545">
-      <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+      <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
       <p>Poet, performer and artist.</p>
     </bioghist>
     <scopecontent encodinganalog="MARC 520">
@@ -120,14 +124,7 @@
         <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>Janet Hamill archive, #8062. Division of Rare and Manuscript Collections, Cornell
-          University Library.</p>
-      </prefercite>
-    </descgrp>
+    
    
      
     <arrangement>
@@ -135,67 +132,67 @@
      
       <p>
         <emph render="bold">
-          <ref target="s1" show="replace" actuate="onrequest">Series I: Correspondence</ref>
+          <ref actuate="onrequest" show="replace" target="s1">Series I: Correspondence</ref>
         </emph>
         </p>
     
       <p><ref target="s1ss1">Subseries Ia: General Correspondence </ref>
       
-        <lb/><ref target="s1ss2">Subseries Ib: Publishing Correspondence </ref>
-      <lb/><ref target="s1ss3">Subseries Ic: Miscellaneous Correspondence </ref>
+        <ref target="s1ss2">Subseries Ib: Publishing Correspondence </ref>
+      <ref target="s1ss3">Subseries Ic: Miscellaneous Correspondence </ref>
       </p>      
       
      
       <p>
         <emph render="bold">
-          <ref target="s2" show="replace" actuate="onrequest">Series II: Writings by Janet Hamill</ref>
+          <ref actuate="onrequest" show="replace" target="s2">Series II: Writings by Janet Hamill</ref>
         </emph>
       </p>      <p>
         <emph render="bold">
-          <ref target="s3" show="replace" actuate="onrequest">Series III: Announcements for Performances/Readings and Related Material</ref>
+          <ref actuate="onrequest" show="replace" target="s3">Series III: Announcements for Performances/Readings and Related Material</ref>
         </emph>
       </p>      <p>
         <emph render="bold">
-          <ref target="s4" show="replace" actuate="onrequest">Series IV: Photographs </ref>
+          <ref actuate="onrequest" show="replace" target="s4">Series IV: Photographs </ref>
         </emph>
       </p>      <p>
         <emph render="bold">
-          <ref target="s5" show="replace" actuate="onrequest">Series V: Audio and Visual Items</ref>
+          <ref actuate="onrequest" show="replace" target="s5">Series V: Audio and Visual Items</ref>
         </emph>
       </p>      <p>
         <emph render="bold">
-          <ref target="s6" show="replace" actuate="onrequest">Series VI: Journals, Diaries and Notebooks</ref>
+          <ref actuate="onrequest" show="replace" target="s6">Series VI: Journals, Diaries and Notebooks</ref>
         </emph>
       </p>   
    
       <p>
         <emph render="bold">
-          <ref target="s7" show="replace" actuate="onrequest">Series VII: Moving Star</ref>
+          <ref actuate="onrequest" show="replace" target="s7">Series VII: Moving Star</ref>
         </emph>
       </p>   <p>
         <emph render="bold">
-          <ref target="s8" show="replace" actuate="onrequest">Series VIII: Personal Effects and Miscellaneous Items</ref>
+          <ref actuate="onrequest" show="replace" target="s8">Series VIII: Personal Effects and Miscellaneous Items</ref>
         </emph>
       </p>   <p>
         <emph render="bold">
-          <ref target="s9" show="replace" actuate="onrequest">Series IX: Artwork by Others</ref>
+          <ref actuate="onrequest" show="replace" target="s9">Series IX: Artwork by Others</ref>
         </emph>
       </p>   <p>
         <emph render="bold">
-          <ref target="s10" show="replace" actuate="onrequest">Series X: Patti Smith</ref>
+          <ref actuate="onrequest" show="replace" target="s10">Series X: Patti Smith</ref>
         </emph>
       </p>   <p><ref target="s10ss1">Subseries Xa: Correspondence with Janet Hamill </ref>
         
-        <lb/><ref target="s10ss2">Subseries Xb: Photographs of Patti Smith  </ref>
-        <lb/><ref target="s10ss3">Subseries Xc: Artwork by Patti Smith </ref>
+        <ref target="s10ss2">Subseries Xb: Photographs of Patti Smith  </ref>
+        <ref target="s10ss3">Subseries Xc: Artwork by Patti Smith </ref>
         <ref target="s10ss4">Subseries Xd: <title>Just Kids</title> Manuscripts and Notes</ref>
         
-        <lb/><ref target="s10ss5">Subseries Xe: Assorted Materials </ref>
-        <lb/><ref target="s10ss6">Subseries Xf: Robert Mapplethorpe </ref>
+        <ref target="s10ss5">Subseries Xe: Assorted Materials </ref>
+        <ref target="s10ss6">Subseries Xf: Robert Mapplethorpe </ref>
         <ref target="s10ss7">Subseries  Xg: Performances and Events with Patti Smith and Janet Hamill</ref>
         
-        <lb/><ref target="s10ss8">Subseries Xh: Audio Materials </ref>
-        <lb/><ref target="s10ss9">Subseries Xi: Posters and Broadsides</ref>
+        <ref target="s10ss8">Subseries Xh: Audio Materials </ref>
+        <ref target="s10ss9">Subseries Xi: Posters and Broadsides</ref>
       </p>    
     </arrangement>
     <dsc type="combined"> 
@@ -213,8 +210,8 @@
           
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">1</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">1</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>A (miscellaneous)</unittitle>
               <physdesc>3 TL</physdesc>
@@ -224,8 +221,8 @@
           </c03>
           <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">2</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">2</container>
               <unitdate>November 2, 2002-October 5, 2006</unitdate>
               <unittitle>Amram, David</unittitle>
               <physdesc>4 EM, 2 Newspaper</physdesc>
@@ -236,8 +233,8 @@
               Daisy.</p></scopecontent>
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">3</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">3</container>
               <unitdate>March 8, 1986-March 19, 2002</unitdate>
               <unittitle>Anderson, Craig</unittitle>
               <physdesc>7 ACS, 6 APCS, 1 TL </physdesc>
@@ -246,8 +243,8 @@
               American playwright Maxwell Anderson</p></scopecontent>
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">4</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">4</container>
               <unitdate>March 16, 1987-September 8, 1990</unitdate>
               <unittitle>Auster, Paul</unittitle>
               <physdesc>2 ALS</physdesc>
@@ -256,8 +253,8 @@
               translations of French writers.</p></scopecontent>
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">5</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">5</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>B (miscellaneous)</unittitle>
               <physdesc>3 ALS, 1 EM</physdesc>
@@ -265,8 +262,8 @@
            
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">6</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">6</container>
               <unitdate>October 24, 1982-May 2, 1991</unitdate>
               <unittitle>Baron, Richard</unittitle>
               <physdesc>1 ALS, 2 APCS, 3 TLS</physdesc>
@@ -274,8 +271,8 @@
             <scopecontent><p>Baron is a photographer and collaborated on a book with Janet Hamill.</p></scopecontent>
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">7</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">7</container>
               <unitdate>July 15, 1992-April 5, 1995</unitdate>
               <unittitle>Benedict, Dorothy</unittitle>
               <physdesc>1 ALS, 2 APCS</physdesc>
@@ -283,8 +280,8 @@
            
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">8</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">8</container>
               <unitdate>September 26, 1998-December 17, 2000</unitdate>
               <unittitle>Bertei, Adele</unittitle>
               <physdesc>5 ACS, 1 APCS, 4 EM, 1 TL, 2 TLS</physdesc>
@@ -296,8 +293,8 @@
               performed together in the past</p></scopecontent>
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">9</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">9</container>
               <unitdate>January 9, 1979-April 5, 1990</unitdate>
               <unittitle>Blagg, Max</unittitle>
               <physdesc>2 Events, 1 TLS</physdesc>
@@ -305,8 +302,8 @@
             <scopecontent><p>Poet and performer, he and Janet had numerous readings together </p></scopecontent>
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">10</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">10</container>
               <unitdate>January 31, 1986-May 1, 1991  </unitdate>
               <unittitle>BOMB Magazine</unittitle>
               <physdesc>1 AL, 3 ALS, 2 TLS</physdesc>
@@ -314,8 +311,8 @@
            
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">11</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">11</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>C (miscellaneous)</unittitle>
               <physdesc>1 ACS, 1 ALS, 1 APCS, 3 TLS</physdesc>
@@ -323,8 +320,8 @@
             
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">12</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">12</container>
               <unitdate>September 28, 1993-November 16, 1995</unitdate>
               <unittitle>Cafe Review, The</unittitle>
               <physdesc>2 ALS, 1 TLS</physdesc>
@@ -332,8 +329,8 @@
             
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">13</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">13</container>
               <unitdate>October 27, 2005</unitdate>
               <unittitle>Carb, Nathan</unittitle>
               <physdesc>1 ACS, 1 ALS</physdesc>
@@ -342,8 +339,8 @@
               University.</p></scopecontent>
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">14</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">14</container>
               <unitdate>February 29, 1988</unitdate>
               <unittitle>Carter, Charlotte</unittitle>
               <physdesc>1 APCS</physdesc>
@@ -351,8 +348,8 @@
            
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">15</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">15</container>
               <unitdate>March 4, 1993-March 3, 1995</unitdate>
               <unittitle>Caruso, Joseph</unittitle>
               <physdesc>2 ALS</physdesc>
@@ -360,8 +357,8 @@
            
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">16</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">16</container>
               <unitdate>December 15, 1988-November 20, 1989</unitdate>
               <unittitle>Chalifoux, Kristine</unittitle>
               <physdesc>1 ALS, 1 APSC</physdesc>
@@ -369,8 +366,8 @@
            
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">17</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">17</container>
               <unitdate>May 25, 1995-August 18, 2000</unitdate>
               <unittitle>Cherry, Amy</unittitle>
               <physdesc>1 EM, 2 TLS</physdesc>
@@ -379,8 +376,8 @@
               between Janet and Paula Smith</p></scopecontent>
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">18</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">18</container>
               <unitdate>April 30, 1987-December 2, 1991</unitdate>
               <unittitle>Chester, Laura</unittitle>
               <physdesc>10 TLS</physdesc>
@@ -388,8 +385,8 @@
             <scopecontent><p>Writer, editor, poet.</p></scopecontent>
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">19</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">19</container>
               <unitdate>March 13, 1988-November 3, 2005</unitdate>
               <unittitle>City Lights Booksellers and Publishers</unittitle>
               <physdesc>5 TLS</physdesc>
@@ -397,8 +394,8 @@
            
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">20</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">20</container>
               <unitdate>March 19, 1987</unitdate>
               <unittitle>Codrescu, Andrei</unittitle>
               <physdesc>1 TLS</physdesc>
@@ -406,8 +403,8 @@
            
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">21</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">21</container>
               <unitdate>June 28-July 10, 1996</unitdate>
               <unittitle>Colon, Frank</unittitle>
               <physdesc>2 ACS</physdesc>
@@ -415,8 +412,8 @@
            
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">22</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">22</container>
               <unitdate>October 4-24, 1990</unitdate>
               <unittitle>Colorado North Review</unittitle>
               <physdesc>1 ALS, 1 TLS</physdesc>
@@ -424,8 +421,8 @@
            
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">23</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">23</container>
               <unitdate>September 7, 1981-July 29, 1982</unitdate>
               <unittitle>Contact II</unittitle>
               <physdesc>3 TLS</physdesc>
@@ -433,8 +430,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">24</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">24</container>
               <unitdate>January 8, 1985-May 10, 1995</unitdate>
               <unittitle>Cuyler, Susanna</unittitle>
               <physdesc>2 APCS, 2 ALS, 9 TLS, 1 TPCS</physdesc>
@@ -442,8 +439,8 @@
            
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">25-27</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">25-27</container>
               <unitdate>January 25, 1980-March 4, 2006</unitdate>
               <unittitle>Cress, Cathy</unittitle>
               <physdesc>10 ACS, 2 APCS, 9 ALS, 38 TLS</physdesc>
@@ -452,8 +449,8 @@
               college newspaper. She has an MSW in aging and is an expert on geriatric care.</p></scopecontent>
           </c03>  <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">28</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">28</container>
               <unitdate>January 15, 1981-August 6, 2004</unitdate>
               <unittitle>Csida, Joe and June Bundy</unittitle>
               <physdesc>8 ACS, 14 TLS</physdesc>
@@ -461,8 +458,8 @@
            
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">29</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">29</container>
               <unitdate>1984-1987</unitdate>
               <unittitle>Csida, Joe</unittitle>
               <physdesc>11 ACS</physdesc>
@@ -470,8 +467,8 @@
            
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">30-32</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">30-32</container>
               <unitdate>September 2, 1977-January 30, 1999</unitdate>
               <unittitle>DeRugeris, CK</unittitle>
               <physdesc>3 ACS, 18 ALS, 5 MS, 39 TLS</physdesc>
@@ -480,8 +477,8 @@
               speculative fiction</p></scopecontent>
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">33</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">33</container>
               <unitdate>August 27, 1980-May 10, 1986</unitdate>
               <unittitle>Dun and Bradstreet</unittitle>
               <physdesc>1 TLS</physdesc>
@@ -489,8 +486,8 @@
             <scopecontent><p>Includes photocopy of article by Janet's father</p></scopecontent>
           </c03> <c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">34</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">34</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>E (miscellaneous)</unittitle>
               <physdesc>1 TLS</physdesc>
@@ -498,8 +495,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">35</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">35</container>
               <unitdate>December 4, 2002-March 5, 2003</unitdate>
               <unittitle>Educational Alliance, The</unittitle>
               <physdesc>8 Event, 1 TLS</physdesc>
@@ -508,8 +505,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">36</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">36</container>
               <unitdate>July 7, 1982-June 24, 1987</unitdate>
               <unittitle>Ehrman, Sally</unittitle>
               <physdesc>1 ACS, 1 ALS, 1 APCS</physdesc>
@@ -517,8 +514,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">37</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">37</container>
               <unitdate>August 29, 1980-April 27, 1990</unitdate>
               <unittitle>Equator Books</unittitle>
               <physdesc>4 Events</physdesc>
@@ -526,8 +523,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">38</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">38</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>F (miscellaneous)</unittitle>
               <physdesc>1 ALS, 1 APSC</physdesc>
@@ -535,8 +532,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">39</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">39</container>
               <unitdate>April 28, 1993</unitdate>
               <unittitle>Foye, Raymond</unittitle>
               <physdesc>1 APCS</physdesc>
@@ -544,8 +541,8 @@
             <scopecontent><p>Hanuman Books publisher.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">40</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">40</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>G (miscellaneous)</unittitle>
               <physdesc>1 TLS, 2 ACS, 1 APCS</physdesc>
@@ -553,8 +550,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">41</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">41</container>
               <unitdate>June 16, 1980</unitdate>
               <unittitle>Grad, Wendy</unittitle>
               <physdesc>1 Event, 1 TLS</physdesc>
@@ -562,8 +559,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">42</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">42</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>H (miscellaneous)</unittitle>
               <physdesc>1 TLS</physdesc>
@@ -571,8 +568,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">43</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">43</container>
               <unitdate>February 14, 2006</unitdate>
               <unittitle>Hamill, Bryan</unittitle>
               <physdesc>1 ALS, 1 EM</physdesc>
@@ -580,8 +577,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">44</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">44</container>
               <unitdate>February 14, 1987-September 1, 2004</unitdate>
               <unittitle>Hamill, Janet</unittitle>
               <physdesc>9 ACS, 1 EM, 1 TLS</physdesc>
@@ -589,8 +586,8 @@
             <scopecontent><p>Janet's sister-in-law.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">45</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">45</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>Hamill, Judy</unittitle>
               <physdesc>2 ACS</physdesc>
@@ -598,8 +595,8 @@
             <scopecontent><p>Janet's sister.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">46</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">46</container>
               <unitdate>October 29, 1988</unitdate>
               <unittitle>Hamill, Trid</unittitle>
               <physdesc>7 ACS, 1 ALS, 1 TLS</physdesc>
@@ -607,8 +604,8 @@
             <scopecontent><p>Janet's sister.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">47</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">47</container>
               <unitdate>July 4, 1982-February 18, 2003</unitdate>
               <unittitle>Holman, Bob</unittitle>
               <physdesc>3 ALS, 5 APCS, 6 EM, 1 event, 1 MS, 2 TLS</physdesc>
@@ -617,8 +614,8 @@
               Nuyorican Poets Café and founded the Bowery Poetry Club.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">48</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">48</container>
               <unitdate>April 28, 1996</unitdate>
               <unittitle>Howe, Fanny</unittitle>
               <physdesc>1 APCS</physdesc>
@@ -626,8 +623,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">49</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">49</container>
               <unitdate>August 30, 1995-December 9, 2005</unitdate>
               <unittitle>Hudson, Patti</unittitle>
               <physdesc>4 ALS, 1 EM, 2 event</physdesc>
@@ -635,8 +632,8 @@
             <scopecontent><p>Photographer and artist. Hudson is a longtime friend of both Patti Smith and Janet.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">50</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">50</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>I (miscellaneous)</unittitle>
               <physdesc>8 event, 1 TLS</physdesc>
@@ -644,8 +641,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">51</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">51</container>
               <unitdate>September 24, 1993</unitdate>
               <unittitle>Indiana, Gary</unittitle>
               <physdesc>1 ACS</physdesc>
@@ -653,8 +650,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">52</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">52</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>J (miscellaneous)</unittitle>
               <physdesc>1 ALS, 1 TL</physdesc>
@@ -662,8 +659,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">53</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">53</container>
               <unitdate>November 2, 2004-February 13, 2006</unitdate>
               <unittitle>Junes, P.</unittitle>
               <physdesc>2 ACS</physdesc>
@@ -671,8 +668,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">54</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">54</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>K (miscellaneous)</unittitle>
               <physdesc>1 TLS</physdesc>
@@ -680,8 +677,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">55</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">55</container>
               <unitdate>October 1, 2004-February 7, 2005</unitdate>
               <unittitle>Kozik, Adam</unittitle>
               <physdesc>2 ACS</physdesc>
@@ -689,8 +686,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">56</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">56</container>
               <unitdate>March 27, 1980-February 17, 1983</unitdate>
               <unittitle>Konglomerati Press</unittitle>
               <physdesc>7 TLS</physdesc>
@@ -698,8 +695,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">57</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">57</container>
               <unitdate>May 25, 1987-July 19, 1998</unitdate>
               <unittitle>Kraman, Cynthia</unittitle>
               <physdesc>3 ACS, 8 ALS, 14 APCS, 2 MS, 2 TLS, 1 Photo</physdesc>
@@ -707,8 +704,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">58</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">58</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>Kruger, Barbara</unittitle>
               <physdesc>1 Event</physdesc>
@@ -717,8 +714,8 @@
               throughout the 70’s. They were introduced to each other by Ken Tisa.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">59</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">59</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>L (miscellaneous)</unittitle>
               <physdesc>1 Newsletter, 1 TLS</physdesc>
@@ -726,8 +723,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">60</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">60</container>
               <unitdate>March 20, 1989-July 17, 1993</unitdate>
               <unittitle>Lance, Jeanne</unittitle>
               <physdesc>3 ALS, 3 APCS</physdesc>
@@ -735,8 +732,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">61</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">61</container>
               <unitdate>2002</unitdate>
               <unittitle>Lewis, Sandy and Joel</unittitle>
               <physdesc>1 ACS</physdesc>
@@ -744,8 +741,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">62</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">62</container>
               <unitdate>December 5, 1975</unitdate>
               <unittitle>Library of Congress</unittitle>
               <physdesc>1 TLS</physdesc>
@@ -753,8 +750,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">63</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">63</container>
               <unitdate>October 10, 1987-November 30, 1993</unitdate>
               <unittitle>Linn, Judy</unittitle>
               <physdesc>3 Event</physdesc>
@@ -762,8 +759,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">64</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">64</container>
               <unitdate>July 15, 1998-August 9, 1998</unitdate>
               <unittitle>Long Shot Productions</unittitle>
               <physdesc>1 TLS, 1 ALS</physdesc>
@@ -771,8 +768,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">65</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">65</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>M (miscellaneous)</unittitle>
               <physdesc>1 ACS, 1 ALS, 2 TLS</physdesc>
@@ -780,8 +777,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">66</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">66</container>
               <unitdate>July 7, 1988-January 18, 1989</unitdate>
               <unittitle>Mechem, James</unittitle>
               <physdesc>3 APCS</physdesc>
@@ -789,8 +786,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">67</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">67</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>Morrissey, Mike</unittitle>
               <physdesc>4 ACS, 1 ALS</physdesc>
@@ -798,8 +795,8 @@
             <scopecontent><p>Including cards.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">68</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">68</container>
               <unitdate>November 11, 1985-March 3, 1986</unitdate>
               <unittitle>Muraskiewicz, Gregory</unittitle>
               <physdesc>1 ACS, 2 APCS</physdesc>
@@ -807,8 +804,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">69</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">69</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>N (miscellaneous)</unittitle>
               <physdesc>1 ACS, 1 Card, 3 TLS, MS</physdesc>
@@ -816,8 +813,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">70</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">70</container>
               <unitdate>December 18, 2000</unitdate>
               <unittitle>National Endowment for the Arts</unittitle>
               <physdesc>2 TLS</physdesc>
@@ -825,8 +822,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">1</container>
-              <container type="folder">71</container>
+              <container label="unspecified" type="box">1</container>
+              <container label="unspecified" type="folder">71</container>
               <unitdate>August 13, 1980-August 12, 1981</unitdate>
               <unittitle>New Wilderness Foundation Inc., The</unittitle>
               <physdesc>2 ALS, 1 MS, 1 Pamphlet, 1 Pen, 3 TLS</physdesc>
@@ -834,8 +831,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">1</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">1</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>O (miscellaneous)</unittitle>
               <physdesc>2 ACS, 1 Event, 2 Invoices</physdesc>
@@ -843,8 +840,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">2</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">2</container>
               <unitdate>January 15, 1990-August 24, 1993</unitdate>
               <unittitle>Okulski, Gloryia</unittitle>
              
@@ -853,8 +850,8 @@
               school. Janet considers her responsible for her being a poet</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">3</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">3</container>
               <unitdate>May 31, 1991-August 10, 1999</unitdate>
               <unittitle>Orange County Community College</unittitle>
               <physdesc>2 ALS, 3 TLS, 1 transcript, 1 EM</physdesc>
@@ -862,8 +859,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">4</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">4</container>
               <unitdate>August 26, 1985-December 26, 1992</unitdate>
               <unittitle>Orr, Denie</unittitle>
               <physdesc>1 ACS, 1 ALS, 2 APCS, 2 TCS, 2 TLS</physdesc>
@@ -871,8 +868,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">5</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">5</container>
               <unitdate>November 13, 1979-September 22, 2004</unitdate>
               <unittitle>Owen, Maureen</unittitle>
               <physdesc>4 ACS, 12 APCS, 1 EM, 4 ALS, 1 fax, 8 TLS</physdesc>
@@ -882,8 +879,8 @@
               published two of JH’s books.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">6</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">6</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>P (miscellaneous)</unittitle>
               <physdesc>2 ACS, 2 ALS, 2 TLS</physdesc>
@@ -891,8 +888,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">7</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">7</container>
               <unitdate>March 12-July 8, 1987</unitdate>
               <unittitle>Padgett, Ron</unittitle>
               <physdesc>1 APCS, 1 TLS</physdesc>
@@ -900,8 +897,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">8</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">8</container>
               <unitdate>February 4, 1998-June 30, 2004</unitdate>
               <unittitle>Peabody, Richard</unittitle>
               <physdesc>1 APCS, 1 ALS, 3 TLS, MS, Event</physdesc>
@@ -909,8 +906,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">9</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">9</container>
               <unitdate>May 16-23, 1974</unitdate>
               <unittitle>Perlman, John</unittitle>
               <physdesc>2 ALS</physdesc>
@@ -918,8 +915,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">10</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">10</container>
               <unitdate>November 13, 1978-January 25, 2005</unitdate>
               <unittitle>Poetry Project, The</unittitle>
               <physdesc>5 ALS, 2 Event, 13 TLS, MS, 3 Newsletters</physdesc>
@@ -927,8 +924,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">11</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">11</container>
               <unitdate>December 13, 1989-April 2, 1901</unitdate>
               <unittitle>Poets and Writers, Inc.</unittitle>
               <physdesc>1 ACS, 1 Event, 1 TL, 1 TLS</physdesc>
@@ -936,8 +933,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">12</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">12</container>
               <unitdate>February 4, 1988-September 7, 1993</unitdate>
               <unittitle>Poets House</unittitle>
               <physdesc>1 TLS, 3 papers</physdesc>
@@ -945,8 +942,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">13</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">13</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>R (miscellaneous)</unittitle>
               <physdesc>2 ALS, 1 event</physdesc>
@@ -954,8 +951,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">14</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">14</container>
               <unitdate>August 16, 1979-March 27, 1990</unitdate>
               <unittitle>Rothenberg, Jerome</unittitle>
               <physdesc>2 APCS</physdesc>
@@ -963,8 +960,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">15</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">15</container>
               <unitdate>April 14, 2001-April 8, 2006</unitdate>
               <unittitle>Rowan University</unittitle>
               <physdesc>15 EM, 2 TLS</physdesc>
@@ -972,8 +969,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">16</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">16</container>
               <unitdate>January 1, 1982-April 20, 1983</unitdate>
               <unittitle>Rowoholt</unittitle>
               <physdesc>1 Event, 2 ALS, 1 ALS, 1 Contract, 1 Invoice</physdesc>
@@ -981,8 +978,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">17</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">17</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>S (miscellaneous)</unittitle>
               <physdesc>3 ACS, 2 EM, 1 TLS</physdesc>
@@ -990,8 +987,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">18</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">18</container>
               <unitdate>December 18, 1995</unitdate>
               <unittitle>Schneider, Gail</unittitle>
               <physdesc>1 ACS, 1 APCS</physdesc>
@@ -999,8 +996,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">19</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">19</container>
               <unitdate>January 10, 1986-January 7, 1989</unitdate>
               <unittitle>Singh, Ravi</unittitle>
               <physdesc>1 Event, 1 MS, 1 printout</physdesc>
@@ -1008,8 +1005,8 @@
             <scopecontent><p>Includes "The New Romantics--A Manifesto."</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">20</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">20</container>
               <unitdate>May 19, 1999-June 25, 1999</unitdate>
               <unittitle>Stablein, Marilyn</unittitle>
               <physdesc>1 ACS, 1 TLS</physdesc>
@@ -1017,8 +1014,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">21</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">21</container>
               <unitdate>August 8, 1990-May 8, 1991</unitdate>
               <unittitle>Tart, Indrek</unittitle>
               <physdesc>1 ACS, 3 TLS, MS, Postcards</physdesc>
@@ -1026,8 +1023,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">22</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">22</container>
               <unitdate>1980</unitdate>
               <unittitle>Tisa, Ken</unittitle>
               <physdesc>1 APCS</physdesc>
@@ -1036,8 +1033,8 @@
               Max Blagg and Kenward Elmslie.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">23</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">23</container>
               <unitdate>March 6, 2002-November 17, 2004</unitdate>
               <unittitle>Torsello, Bob</unittitle>
               <physdesc>1 ACS, 1 EM, MS</physdesc>
@@ -1045,8 +1042,8 @@
             <scopecontent><p>Played bass in Janet's band.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">24</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">24</container>
               <unitdate>February 23-August 18, 2004</unitdate>
               <unittitle>Traester, Mary C.</unittitle>
               <physdesc>1 EM, 1 TL, 2 TLS</physdesc>
@@ -1054,8 +1051,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">24A</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">24A</container>
               <unitdate>January 6, 2004</unitdate>
               <unittitle>UR Vox</unittitle>
               <physdesc>1 ACS, 1 ALS</physdesc>
@@ -1063,8 +1060,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">25</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">25</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>W (miscellaneous)</unittitle>
               <physdesc>1 Event</physdesc>
@@ -1072,8 +1069,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">25A</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">25A</container>
               <unitdate>February 28, 2006</unitdate>
               <unittitle>Waldman, Anne</unittitle>
               <physdesc>1 ACS</physdesc>
@@ -1081,8 +1078,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">26</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">26</container>
               <unitdate>July 29, 1985-December 29, 1992</unitdate>
               <unittitle>Weiss, Joanne</unittitle>
               <physdesc>3 ACS, 3 APCS, 1 TCS, 1 TL, 6 TLS</physdesc>
@@ -1090,8 +1087,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">27</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">27</container>
               <unitdate>March 8, 1980-March 3, 1981</unitdate>
               <unittitle>Weissner, Carl</unittitle>
               <physdesc>1 ALS, 4 TLS</physdesc>
@@ -1099,8 +1096,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">28</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">28</container>
               <unitdate>April 9, 1973-March 20, 2005</unitdate>
               <unittitle>Winokur, Neil and Anne Umland</unittitle>
               <physdesc>3 ACS, 2 APCS, 1 ALS, 9 Events, 2 TLS, 6 photographs</physdesc>
@@ -1108,8 +1105,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">29</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">29</container>
               <unitdate>March 8, 2004-March 13, 2006</unitdate>
               <unittitle>Wolfe, Edward</unittitle>
               <physdesc>2 TLS</physdesc>
@@ -1124,8 +1121,8 @@
             <physdesc>13 ALS, 25 TLS, assorted material</physdesc> </did>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">30</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">30</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>A-G</unittitle>
              
@@ -1133,8 +1130,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">31</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">31</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>H-Z</unittitle>
              
@@ -1149,8 +1146,8 @@
           </did>
           <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">32</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">32</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>Miscellaneous</unittitle>
               <physdesc>8 ACS, 2 ALS, 8 APCS, 1 EM, 4 Events, MS, 11 Misc.</physdesc>
@@ -1168,8 +1165,8 @@
             <unittitle id="s2ss1">Subseries IIa: Books</unittitle></did>
          <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">33</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">33</container>
               <unitdate>2008</unitdate>
               <unittitle><title>Body of Water</title></unittitle>
              
@@ -1177,8 +1174,8 @@
             <scopecontent><p>Proofs with corrections</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">34</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">34</container>
               <unitdate>2008</unitdate>
               <unittitle><title>Body of Water</title></unittitle>
              
@@ -1186,8 +1183,8 @@
             <scopecontent><p>Bowery Books, related correspondence, publishing information, photographs, promotional material, guest book</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">35</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">35</container>
               <unitdate>1980</unitdate>
               <unittitle><title>The Enigma of Buster Keaton</title></unittitle>
              
@@ -1195,8 +1192,8 @@
             <scopecontent><p>Self-published chapbook</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">36</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">36</container>
               <unitdate>1996</unitdate>
               <unittitle><title>Lost Ceilings</title></unittitle>
              
@@ -1204,8 +1201,8 @@
             <scopecontent><p>Two copies of the manuscript</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">37</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">37</container>
               <unitdate>1999</unitdate>
               <unittitle><title>Lost Ceilings</title></unittitle>
              
@@ -1213,8 +1210,8 @@
             <scopecontent><p>Emails, notebooks, photographs </p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">38</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">38</container>
               <unitdate>1999</unitdate>
               <unittitle><title>Lost Ceilings</title></unittitle>
              
@@ -1222,8 +1219,8 @@
             <scopecontent><p>Composition notebook, small journal</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">1-3</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">1-3</container>
               <unitdate>1992</unitdate>
               <unittitle><title>Nostaligia of the Infinite</title></unittitle>
              
@@ -1231,8 +1228,8 @@
             <scopecontent><p>Correspondence, including Ocean View Books</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">4, 12</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">4, 12</container>
               <unitdate>1992</unitdate>
               <unittitle><title>Nostaligia of the Infinite</title></unittitle>
              
@@ -1240,8 +1237,8 @@
             <scopecontent><p>Art boards</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">5</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">5</container>
               <unitdate>1992</unitdate>
               <unittitle><title>Nostaligia of the Infinite</title></unittitle>
              
@@ -1249,8 +1246,8 @@
             <scopecontent><p>Final proof</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">6</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">6</container>
               <unitdate>1992</unitdate>
               <unittitle><title>Nostaligia of the Infinite</title></unittitle>
              
@@ -1258,8 +1255,8 @@
             <scopecontent><p>MS drafts</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">7-10</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">7-10</container>
               <unitdate>1992</unitdate>
               <unittitle><title>Nostaligia of the Infinite</title></unittitle>
              
@@ -1267,8 +1264,8 @@
             <scopecontent><p>Notes and notebooks</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">11</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">11</container>
               <unitdate>1992</unitdate>
               <unittitle><title>Nostaligia of the Infinite</title></unittitle>
              
@@ -1276,8 +1273,8 @@
             <scopecontent><p>Book copies</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">39</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">39</container>
               <unitdate>1972</unitdate>
               <unittitle><title>Pleiades</title></unittitle>
              
@@ -1285,8 +1282,8 @@
             <scopecontent><p>Self-published chapbook and front layout and artwork</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">40-42</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">40-42</container>
               <unitdate>1980</unitdate>
               <unittitle><title>The Temple</title></unittitle>
              
@@ -1294,8 +1291,8 @@
             <scopecontent><p>Telephone books, transcripts, manuscript pages, copies of manuscript, book mock-up, photographs, certificate of copyright registration</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">43</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">43</container>
               <unitdate>1975</unitdate>
               <unittitle><title>Troublante</title>, written under Juan Hamill</unittitle>
              
@@ -1307,8 +1304,8 @@
             <did><unittitle id="s2ss2">Subseries IIb: Broadsides</unittitle></did>
             <c03 level="file">
             <did>
-              <container type="box">2</container>
-              <container type="folder">44</container>
+              <container label="unspecified" type="box">2</container>
+              <container label="unspecified" type="folder">44</container>
               <unitdate>1975</unitdate>
               <unittitle>"The Big Sleep", written under Juan Hamill</unittitle>
              
@@ -1318,8 +1315,8 @@
                 broadside.</p></scopecontent>
           </c03><c03 level="file">
               <did>
-                <container type="box">2</container>
-                <container type="folder">45</container>
+                <container label="unspecified" type="box">2</container>
+                <container label="unspecified" type="folder">45</container>
                 <unitdate>2005</unitdate>
                 <unittitle>"Byron's Time Sheet"</unittitle>
                
@@ -1328,8 +1325,8 @@
             </c03>
             <c03 level="file">
               <did>
-                <container type="box">2</container>
-                <container type="folder">46</container>
+                <container label="unspecified" type="box">2</container>
+                <container label="unspecified" type="folder">46</container>
                 <unitdate>Date unknown</unitdate>
                 <unittitle>The Departure of the Argonauts</unittitle>
                
@@ -1337,8 +1334,8 @@
               <scopecontent><p>Broadside and layout.</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">2</container>
-                <container type="folder">47</container>
+                <container label="unspecified" type="box">2</container>
+                <container label="unspecified" type="folder">47</container>
                 <unitdate>1974</unitdate>
                 <unittitle>"From 'The Book of Marvels'", written under Juan Hamill</unittitle>
                
@@ -1346,8 +1343,8 @@
               <scopecontent><p>No. 47. Also included is the layout, with original artwork, for the broadside.</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">2</container>
-                <container type="folder">48</container>
+                <container label="unspecified" type="box">2</container>
+                <container label="unspecified" type="folder">48</container>
                 <unitdate>1974</unitdate>
                 <unittitle>"Madame Bogart's Arts of Animal Ecstasy", written under Juan Hamill</unittitle>
                
@@ -1355,8 +1352,8 @@
               <scopecontent><p>Signed, no. 99. Also included is the layout for the broadside.</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">4</container>
-                <container type="folder">3</container>
+                <container label="unspecified" type="box">4</container>
+                <container label="unspecified" type="folder">3</container>
                 <unitdate>1974</unitdate>
                 <unittitle>"Mme. Bogart", written under Juan Hamill</unittitle>
                
@@ -1364,8 +1361,8 @@
               <scopecontent><p>Also included is the layout, with original artwork, for the broadside.</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">4</container>
-                <container type="folder">2</container>
+                <container label="unspecified" type="box">4</container>
+                <container label="unspecified" type="folder">2</container>
                 <unitdate>2001</unitdate>
                 <unittitle>"Requiem"</unittitle>
                
@@ -1373,8 +1370,8 @@
               <scopecontent><p>No. 84</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">3</container>
-                <container type="folder">13</container>
+                <container label="unspecified" type="box">3</container>
+                <container label="unspecified" type="folder">13</container>
                 <unitdate>1976</unitdate>
                 <unittitle>"Subterraneous" </unittitle>
                
@@ -1382,8 +1379,8 @@
               <scopecontent><p>No. 102</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">3</container>
-                <container type="folder">14</container>
+                <container label="unspecified" type="box">3</container>
+                <container label="unspecified" type="folder">14</container>
                 <unitdate>1977</unitdate>
                 <unittitle>"The Water Tower"</unittitle>
                
@@ -1394,8 +1391,8 @@
             <did><unittitle id="s2ss3">Subseries IIc: Avant</unittitle></did>
             <c03 level="file">
               <did>
-                <container type="box">3</container>
-                <container type="folder">15</container>
+                <container label="unspecified" type="box">3</container>
+                <container label="unspecified" type="folder">15</container>
                 <unitdate>1964-1967</unitdate>
                 <unittitle><title>Avant</title></unittitle>
                
@@ -1410,8 +1407,8 @@
             <did><unittitle id="s2ss4">Subseries IId: Other Material</unittitle></did>
             <c03 level="file">
               <did>
-                <container type="box">3</container>
-                <container type="folder">16-17</container>
+                <container label="unspecified" type="box">3</container>
+                <container label="unspecified" type="folder">16-17</container>
                 <unitdate>Date unknown</unitdate>
                 <unittitle>Other material</unittitle>
                
@@ -1419,8 +1416,8 @@
               <scopecontent><p>Assorted poetry manuscripts, "Delouz Entago", drafts, "A Poem for All Seasons", handwritten lists.</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">4</container>
-                <container type="folder">1</container>
+                <container label="unspecified" type="box">4</container>
+                <container label="unspecified" type="folder">1</container>
                 <unitdate>Date unknown</unitdate>
                 <unittitle>Other material</unittitle>
                
@@ -1431,8 +1428,8 @@
             <did><unittitle id="s2ss5">Subseries IIe: Other Publications</unittitle></did>
             <c03 level="file">
               <did>
-                <container type="box">3</container>
-                <container type="folder">18</container>
+                <container label="unspecified" type="box">3</container>
+                <container label="unspecified" type="folder">18</container>
                 <unitdate>Date unknown</unitdate>
                 <unittitle>Publications</unittitle>
                
@@ -1447,8 +1444,8 @@
               <did><unittitle id="s2ss6">Subseries IIf: Other Material on Janet Hamill</unittitle></did>
           <c03 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">19</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">19</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>Materials</unittitle>
              
@@ -1460,8 +1457,8 @@
         <did><unittitle id="s3">Series III: Announcements for Performances/Readings and Related Material</unittitle>
         </did> <c02 level="file">
             <did>
-              <container type="box">3</container>
-              <container type="folder">20-22</container>
+              <container label="unspecified" type="box">3</container>
+              <container label="unspecified" type="folder">20-22</container>
               <unitdate>2007</unitdate>
               <unittitle>United Kingdom Trip</unittitle>
              
@@ -1472,8 +1469,8 @@
             participate in the Latitude Festival.</p></scopecontent>
         </c02><c02 level="file">
           <did>
-            <container type="box">3</container>
-            <container type="folder">23</container>
+            <container label="unspecified" type="box">3</container>
+            <container label="unspecified" type="folder">23</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Rubber Stamps</unittitle>
            
@@ -1482,8 +1479,8 @@
             The Poetry Project 1978? and a reading with Max Blagg at the Ear Inn.</p></scopecontent>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">4</container>
             <unitdate>July 14</unitdate>
             <unittitle>Subject to Fits Reading</unittitle>
            
@@ -1493,8 +1490,8 @@
             original artwork by Kenneth Tisa.</p></scopecontent>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">5</container>
             <unitdate>February 22, 1976</unitdate>
             <unittitle>Today's Radio reading</unittitle>
            
@@ -1504,8 +1501,8 @@
             original artwork by Kenneth Tisa.</p></scopecontent>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">6</container>
             <unitdate>October 4</unitdate>
             <unittitle>Ear Inn reading with Ravi Singh</unittitle>
            
@@ -1513,8 +1510,8 @@
           <scopecontent><p>Postcard, source material and layout for the postcard.</p></scopecontent>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">7</container>
             <unitdate>June 15, 1978</unitdate>
             <unittitle>Short Pieces: Electric Music, Performance, Film</unittitle>
            
@@ -1524,8 +1521,8 @@
             Jeffrey Lohn, and others.</p></scopecontent>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">8</container>
             <unitdate>January 9, 1977</unitdate>
             <unittitle>Eggs over Dresden reading</unittitle>
            
@@ -1535,8 +1532,8 @@
             corrections, of JH poem “The Two Yellow Pills.”</p></scopecontent>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">9</container>
             <unitdate>November 7</unitdate>
             <unittitle>The Arousing Word</unittitle>
            
@@ -1545,8 +1542,8 @@
             A.I.R. Gallery. Also included is the layout with original artwork for the flyer.</p></scopecontent>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">10</container>
             <unitdate>Mar 1</unitdate>
             <unittitle>After 1980!</unittitle>
            
@@ -1555,8 +1552,8 @@
               the Mud[d Club].</p></scopecontent>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">11</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">11</container>
             <unitdate>August 13, 2005</unitdate>
             <unittitle>Hudson Valley Poets Fest</unittitle>
            
@@ -1565,8 +1562,8 @@
             concerning a possible JH reading at the Strand Bookstore.</p></scopecontent>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">12</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">12</container>
             <unitdate>April 18, 1999</unitdate>
             <unittitle>Walt Whitman Cultural Arts Center</unittitle>
            
@@ -1576,8 +1573,8 @@
             correspondence concerning the event.</p></scopecontent>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">13</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">13</container>
             <unitdate>April 1, 2001</unitdate>
             <unittitle>People's Poetry Gathering</unittitle>
            
@@ -1587,8 +1584,8 @@
             Kunitz, John Ashbery, Brenda Hillman, Galway Kinnell, and many others.</p></scopecontent>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">14-15</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">14-15</container>
             <unitdate>December 6, 2008</unitdate>
             <unittitle>Oh My God! Festival</unittitle>
            
@@ -1599,8 +1596,8 @@
             Samantha Jones, and Jayne Cortez.</p></scopecontent>
         </c02><c02 level="file">
             <did>
-              <container type="box">4</container>
-              <container type="folder">16</container>
+              <container label="unspecified" type="box">4</container>
+              <container label="unspecified" type="folder">16</container>
               <unitdate>June 8, 2002</unitdate>
               <unittitle>Word: The Jay Liveson Memorial Poetry and Music Festival</unittitle>
              
@@ -1611,8 +1608,8 @@
             many, Billy Collins, Jim Carroll, Richard Hell, Edwin Torres, and Big Youth.</p></scopecontent>
         </c02><c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">17</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">17</container>
             <unitdate>November 5-December 10, 1992</unitdate>
             <unittitle>A Poet Paints: A One Woman Show</unittitle>
            
@@ -1621,8 +1618,8 @@
             of JH solo exhibition of her paintings.</p></scopecontent>
         </c02>  <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">18</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">18</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Cards and small items.</unittitle>
            
@@ -1636,8 +1633,8 @@
             The Poetry Project’s Annual New Year’s Day Marathon Reading.</p></scopecontent>
         </c02>  <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">19</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">19</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>8 ½ x 11 inch items</unittitle>
            
@@ -1653,8 +1650,8 @@
            </p></scopecontent>
         </c02>  <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">20</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">20</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>8 ½ x 14 inch posters</unittitle>
            
@@ -1664,8 +1661,8 @@
             Memorial Reading, 1983, and “Poems at the 9th Precinct Gallery”.</p></scopecontent>
         </c02>  <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">21</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">21</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Larger posters and programs</unittitle>
            
@@ -1677,7 +1674,7 @@
             Theater, New York.</p></scopecontent>
         </c02> <c02 level="file">
           <did>
-            <container type="mapcase-folder">1</container>
+            <container label="unspecified" type="mapcase-folder">1</container>
             
             <unitdate>Date unknown</unitdate>
             <unittitle>The Poets Theatre and Kerouac posters</unittitle>
@@ -1692,8 +1689,8 @@
           <unittitle id="s4">Series IV: Photographs </unittitle>
         </did> <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">22</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">22</container>
             <unitdate>1973</unitdate>
             <unittitle>Morocco polaroids</unittitle>
            
@@ -1702,8 +1699,8 @@
             Moroccan trip.</p></scopecontent>
         </c02>  <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">23</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">23</container>
             <unitdate>1973</unitdate>
             <unittitle>Morocco photographs taken by Neil Winokur</unittitle>
            
@@ -1713,8 +1710,8 @@
             contact sheet of the negatives.</p></scopecontent>
         </c02>  <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">24</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">24</container>
             <unitdate>1978</unitdate>
             <unittitle>Brion Gysin and Adele Bertei at the Nova Convention</unittitle>
            
@@ -1722,8 +1719,8 @@
           <scopecontent><p>8 x 10 inch black and white photograph by Marcia Resnick.</p></scopecontent>
         </c02>  <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">25</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">25</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Sun Dance Pledgers–Cheyenne,</unittitle>
            
@@ -1731,8 +1728,8 @@
           <scopecontent><p>8 x 10 inch copy photograph from the Museum of Natural History.</p></scopecontent>
         </c02>  <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">26</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">26</container>
             <unitdate>1971</unitdate>
             <unittitle>Death Valley Landscapes</unittitle>
            
@@ -1740,8 +1737,8 @@
           <scopecontent><p>3 8 x 10 inch black and white photographs by Neil Winokur.</p></scopecontent>
         </c02>        <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">27</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">27</container>
             <unitdate>1970s</unitdate>
             <unittitle>Road trip</unittitle>
            
@@ -1749,8 +1746,8 @@
           <scopecontent><p>38 2 ¾ x 3 ½ inch photographs of JH and friends on a road trip.</p></scopecontent>
         </c02> <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">28-30</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">28-30</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Assorted snapshots</unittitle>
            
@@ -1759,8 +1756,8 @@
             travel shots of JH and friends, 72 color snapshots including many photos of JH artwork, 44 black and white snapshots, largely of JH’s home studio, Approx. 10 photographs of various sizes, including publicity photos.  </p></scopecontent>
         </c02>  <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">31</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">31</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Curtained object</unittitle>
            
@@ -1768,8 +1765,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">11</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">11</container>
+            <container label="unspecified" type="folder">1</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Portrait of Janet Hamill</unittitle>
            
@@ -1784,8 +1781,8 @@
           <unittitle id="s5">Series V: Audio and Visual items</unittitle>
         </did>  <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">32</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">32</container>
             <unitdate>Date unknown</unitdate>
             <unitid>CD-1820</unitid>
             <unittitle>Flying Nowhere</unittitle>
@@ -1794,8 +1791,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">32</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">32</container>
             <unitid>CD-1821</unitid>
             <unitdate>Date unknown</unitdate>
             <unittitle>Genie of the Alphabet</unittitle>
@@ -1804,8 +1801,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">32</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">32</container>
             <unitdate>April 2, 2010</unitdate>
             <unitid>CD-1822</unitid>
             <unittitle>Janet Hamill CAPS audio CD</unittitle>
@@ -1814,8 +1811,8 @@
          
         </c02>     <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">32</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">32</container>
             <unitdate>Date unknown</unitdate>
             <unitid>CD-1823</unitid>
             <unittitle>Bryan's Genie of the Alphabet visuals</unittitle>
@@ -1824,8 +1821,8 @@
          
         </c02>      <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">8</container>
             <unitdate>2005</unitdate>
             <unitid>CD-1824</unitid>
             <unittitle>Moving Star</unittitle>
@@ -1834,8 +1831,8 @@
          
         </c02>    <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">8</container>
             <unitdate>2000</unitdate>
             <unitid>CD-1825</unitid>
             <unittitle>Flying Nowhere</unittitle>
@@ -1844,8 +1841,8 @@
          
         </c02>   <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">8</container>
             <unitdate>April 1, 2001</unitdate>
             <unitid>CD-1826-1827</unitid>
             <unittitle>Spoken Words live, Patti Smith group live, Moving Star live</unittitle>
@@ -1854,8 +1851,8 @@
          
         </c02>   <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">9</container>
             <unitdate>2001</unitdate>
             <unitid>CD-1828-1829</unitid>
             <unittitle>Democracy Now! live, The Poetry Project live, the Poetry Project's 28th Annual New Year's Day Reading, Moving Star</unittitle>
@@ -1864,8 +1861,8 @@
          
         </c02>   <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">9</container>
             <unitdate>2005</unitdate>
             <unitid>CD-1830-1832</unitid>
             <unittitle>Janet music, Moving Star</unittitle>
@@ -1874,8 +1871,8 @@
          
         </c02>   <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">10</container>
             <unitdate>2001, 2005</unitdate>
             <unitid>CD-1833-1838</unitid>
             <unittitle>Moving Star, mixes, Spellbound</unittitle>
@@ -1884,8 +1881,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">33</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">33</container>
             <unitdate>1975</unitdate>
             <unitid>F-473</unitid>
             <unittitle>JH reading at Stockton State College, shot by Joel Sternfeld, ½ inch
@@ -1895,7 +1892,7 @@
          
         </c02>   <c02 level="file">
           <did>
-            <container type="box">6</container>
+            <container label="unspecified" type="box">6</container>
             <unitdate>November 5, 1992</unitdate>
             <unitid>V-6262</unitid>
             <unittitle>Cable 6 News OCCC</unittitle>
@@ -1904,7 +1901,7 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">6</container>
+            <container label="unspecified" type="box">6</container>
             <unitdate>1997</unitdate>
             <unitid>V-6263</unitid>
             <unittitle>Cyber Forest, Janet Hamill with Shrubs</unittitle>
@@ -1912,7 +1909,7 @@
           </did>      
          
         </c02>  <c02 level="file">
-          <did><container type="box">6</container>
+          <did><container label="unspecified" type="box">6</container>
             <unitdate>2003</unitdate>
             <unitid>V-6264</unitid>
             <unittitle>Resist to be with the living</unittitle>
@@ -1921,7 +1918,7 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">6</container>
+            <container label="unspecified" type="box">6</container>
             
             <unitdate>2001</unitdate>
             <unitid>V-6265</unitid>
@@ -1931,7 +1928,7 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">6</container>
+            <container label="unspecified" type="box">6</container>
             
             <unitdate>Date unknown</unitdate>
             <unitid>V-6266</unitid>
@@ -1941,8 +1938,8 @@
          
         </c02>   <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">34</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">34</container>
             <unitid>TR-9338-9339</unitid>
             <unitdate>December 1928</unitdate>
             <unittitle>2 cassette tapes of JH reading, one marked St. Marks.</unittitle>
@@ -1951,8 +1948,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">1</container>
             <unitid>TR-9340</unitid>
             <unitdate>February 14, 1998</unitdate>
             <unittitle>Janet Hamill, Moving Star</unittitle>
@@ -1961,8 +1958,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">1</container>
             <unitid>TR-9341</unitid>
             <unitdate>August 1997</unitdate>
             <unittitle>Janet Hamill with Bob Torsello and Jay LoRubbio</unittitle>
@@ -1971,8 +1968,8 @@
          
         </c02>     <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">1</container>
             <unitid>TR-9342</unitid>
             <unitdate>December 12, 1997</unitdate>
             <unittitle>The Poetry Project live</unittitle>
@@ -1981,8 +1978,8 @@
          
         </c02>     <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">2</container>
             <unitid>TR-9343-9344</unitid>
             <unitdate>Date unknown</unitdate>
             <unittitle>Janet Hamill, Moving Star</unittitle>
@@ -1991,8 +1988,8 @@
          
         </c02>     <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">2</container>
             <unitid>TR-9345-9346</unitid>
             <unitdate>1997</unitdate>
             <unittitle>Janet Hamill with Shrubs</unittitle>
@@ -2001,8 +1998,8 @@
          
         </c02>     <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">3</container>
             <unitid>TR-9347</unitid>
             <unitdate>Date unknown</unitdate>
             <unittitle>Moving Star</unittitle>
@@ -2011,8 +2008,8 @@
          
         </c02>     <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">3</container>
             <unitid>TR-9348</unitid>
             <unitdate>June 29, 1997</unitdate>
             <unittitle>Moving Star demo</unittitle>
@@ -2021,8 +2018,8 @@
          
         </c02>     <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">3</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">3</container>
             <unitid>TR-9349</unitid>
             <unitdate>Date unknown</unitdate>
             <unittitle>Rube- Time Passages</unittitle>
@@ -2031,8 +2028,8 @@
          
         </c02>     <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">4</container>
             <unitid>TR-9350-9351</unitid>
             <unitdate>Date unknown</unitdate>
             <unittitle>Janet Hamill mix tapes</unittitle>
@@ -2041,8 +2038,8 @@
          
         </c02>     <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">4</container>
             <unitid>TR-9352-9353</unitid>
             <unitdate>Date unknown</unitdate>
             <unittitle>Janet Hamill and Moving Star</unittitle>
@@ -2051,8 +2048,8 @@
          
         </c02>     <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">5</container>
             <unitid>TR-9354-9355</unitid>
             <unitdate>1995</unitdate>
             <unittitle>Janet Hamill, Moving Star, Patti Smith rough mixes</unittitle>
@@ -2061,8 +2058,8 @@
          
         </c02>     <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">5</container>
             <unitid>TR-9356</unitid>
             <unitdate>Date unknown</unitdate>
             <unittitle>Moving Star pre-production</unittitle>
@@ -2071,8 +2068,8 @@
          
         </c02>     <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">6</container>
             <unitid>TR-9357-9359</unitid>
             <unitdate>1997-1998</unitdate>
             <unittitle>Janet Hamill and Moving Star</unittitle>
@@ -2087,8 +2084,8 @@
           <unittitle id="s6">Series VI: Journals, Diaries and Notebooks</unittitle>
         </did>  <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">35</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">35</container>
             <unitdate>1976</unitdate>
             <unittitle>Notebook: Temple of Destruction, Mme. Bogart</unittitle>
            
@@ -2096,8 +2093,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">4</container>
-            <container type="folder">36</container>
+            <container label="unspecified" type="box">4</container>
+            <container label="unspecified" type="folder">36</container>
             <unitdate>1979-1980</unitdate>
             <unittitle>Two composition notebooks</unittitle>
            
@@ -2105,8 +2102,8 @@
          
         </c02><c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">1</container>
             <unitdate>1981</unitdate>
             <unittitle>Composition notebook, Csida</unittitle>
            
@@ -2114,8 +2111,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">2-5</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">2-5</container>
             <unitdate>1980-1985, 1999-2000</unitdate>
             <unittitle>Seven diaries</unittitle>
            
@@ -2123,8 +2120,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">6</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">6</container>
             <unitdate>1971</unitdate>
             <unittitle>Trip book</unittitle>
            
@@ -2132,8 +2129,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">7</container>
             <unitdate>1974</unitdate>
             <unittitle>Histoire notebook</unittitle>
            
@@ -2141,8 +2138,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">8-9</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">8-9</container>
             <unitdate>2003, 2007</unitdate>
             <unittitle>Three notebooks</unittitle>
            
@@ -2150,8 +2147,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">10</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Notebook and correspondence</unittitle>
            
@@ -2159,8 +2156,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">11-12</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">11-12</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Five notebooks</unittitle>
            
@@ -2168,8 +2165,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">13</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">13</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Notebook with sketches from Ken Tisa</unittitle>
            
@@ -2177,8 +2174,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">14</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">14</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Eight notebooks</unittitle>
            
@@ -2186,8 +2183,8 @@
           <scopecontent><p>Includes notes on Subterraneous, Trans Atlantic and the Other Side, Seven Veils, Spell Bound, Flying Nowhere and Millennium</p></scopecontent>
         </c02> <c02 level="file">
           <did>
-            <container type="box">5</container>
-            <container type="folder">15-17</container>
+            <container label="unspecified" type="box">5</container>
+            <container label="unspecified" type="folder">15-17</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Nine Notebooks</unittitle>
            
@@ -2195,7 +2192,7 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">6</container>
+            <container label="unspecified" type="box">6</container>
             
             <unitdate>Date unknown</unitdate>
             <unittitle>Notebook with correspondence, photographs, and clippings</unittitle>
@@ -2204,8 +2201,8 @@
          
         </c02>   <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">1</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Aerial services notebook</unittitle>
            
@@ -2213,8 +2210,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">2-3</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">2-3</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Three notebooks</unittitle>
            
@@ -2228,8 +2225,8 @@
           <unittitle id="s7">Series VII: Moving Star</unittitle>
         </did>  <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">4</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">4</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Newspapers</unittitle>
            
@@ -2237,8 +2234,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">5</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">5</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Two T-shirts</unittitle>
            
@@ -2246,8 +2243,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">6</container>
-            <container type="folder">6-7</container>
+            <container label="unspecified" type="box">6</container>
+            <container label="unspecified" type="folder">6-7</container>
             <unitdate>1997-2005</unitdate>
             <unittitle>Photographs</unittitle>
            
@@ -2255,8 +2252,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">7</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">7</container>
             <unitdate>December 27</unitdate>
             <unittitle>Janet Hamill and Moving Star flyers</unittitle>
            
@@ -2264,8 +2261,8 @@
          
         </c02>    <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">8</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">8</container>
             <unitdate>2001</unitdate>
             <unittitle>CD materials</unittitle>
            
@@ -2273,8 +2270,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">9</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Bio</unittitle>
            
@@ -2282,8 +2279,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">10</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">10</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Tape artwork</unittitle>
            
@@ -2291,8 +2288,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">11</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">11</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Set lists</unittitle>
            
@@ -2300,8 +2297,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">12</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">12</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Flyers</unittitle>
            
@@ -2309,8 +2306,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">13</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">13</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Press</unittitle>
            
@@ -2318,8 +2315,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">14</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">14</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Photographs</unittitle>
            
@@ -2327,8 +2324,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">15</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">15</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Notebook, name tag</unittitle>
            
@@ -2342,8 +2339,8 @@
           <unittitle id="s8">Series VIII: Personal Effects and Miscellaneous Items</unittitle>
         </did>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">16</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">16</container>
             <unitdate>1998</unitdate>
             <unittitle>Mercury Records contract and correspondence</unittitle>
            
@@ -2351,8 +2348,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">17</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">17</container>
             <unitdate>1998</unitdate>
             <unittitle>BMI correspondence and records</unittitle>
            
@@ -2360,8 +2357,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">18</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">18</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Bug Music</unittitle>
            
@@ -2369,8 +2366,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">19</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">19</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>ASCAP materials</unittitle>
            
@@ -2378,8 +2375,8 @@
          
         </c02>   <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">20</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">20</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Record budget</unittitle>
            
@@ -2387,8 +2384,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">21</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">21</container>
             <unitdate>1999</unitdate>
             <unittitle>AFTRA membership</unittitle>
            
@@ -2396,8 +2393,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">22</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">22</container>
             <unitdate>1980s</unitdate>
             <unittitle>Goshen Public Library materials</unittitle>
             
@@ -2406,8 +2403,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">23</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">23</container>
             <unitdate>1986</unitdate>
             <unittitle>Application</unittitle>
            
@@ -2415,8 +2412,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">24-27</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">24-27</container>
             <unitdate>1997-2000</unitdate>
             <unittitle>Independent Republican newspapers</unittitle>
            
@@ -2424,8 +2421,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">28</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">28</container>
             <unitdate>1998-2000</unitdate>
             <unittitle>Goshen Public Library Poetry materials, including photographs</unittitle>
            
@@ -2433,8 +2430,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">7</container>
-            <container type="folder">29</container>
+            <container label="unspecified" type="box">7</container>
+            <container label="unspecified" type="folder">29</container>
             <unitdate>2000 </unitdate>
             <unittitle>Visiting Poetry Project</unittitle>
            
@@ -2442,8 +2439,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">8</container>
-            <container type="folder">1</container>
+            <container label="unspecified" type="box">8</container>
+            <container label="unspecified" type="folder">1</container>
             <unitdate>1980</unitdate>
             <unittitle>Wedding cards</unittitle>
            
@@ -2451,8 +2448,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">8</container>
-            <container type="folder">2-5</container>
+            <container label="unspecified" type="box">8</container>
+            <container label="unspecified" type="folder">2-5</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Miscellaneous, including stamp</unittitle>
            
@@ -2460,8 +2457,8 @@
          
         </c02>  <c02 level="file">
           <did>
-            <container type="box">8</container>
-            <container type="folder">6-8</container>
+            <container label="unspecified" type="box">8</container>
+            <container label="unspecified" type="folder">6-8</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Newsletters and papers</unittitle>
            
@@ -2475,8 +2472,8 @@
          <unittitle id="s9">Series IX: Artwork by others</unittitle>
         </did>   <c02 level="file">
           <did>
-            <container type="box">8</container>
-            <container type="folder">9</container>
+            <container label="unspecified" type="box">8</container>
+            <container label="unspecified" type="folder">9</container>
             <unitdate>1973</unitdate>
             <unittitle>Benowitz print</unittitle>
            
@@ -2484,8 +2481,8 @@
          
         </c02> <c02 level="file">
           <did>
-            <container type="box">11</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">11</container>
+            <container label="unspecified" type="folder">2</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Ken Tisa</unittitle>
            
@@ -2498,8 +2495,8 @@
             11 inches</p></scopecontent>
         </c02><c02 level="file">
           <did>
-            <container type="box">12</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">12</container>
+            <container label="unspecified" type="folder">2</container>
             <unitdate>1976-1977</unitdate>
             <unittitle>Joel Sternfeld "Bar/Man in Hat/Young Girl's Hair"</unittitle>
            
@@ -2509,8 +2506,8 @@
             photo and mat are soiled. Signed by the artist.</p></scopecontent>
         </c02>  <c02 level="file">
           <did>
-            <container type="box">12</container>
-            <container type="folder">2</container>
+            <container label="unspecified" type="box">12</container>
+            <container label="unspecified" type="folder">2</container>
             <unitdate>Date unknown</unitdate>
             <unittitle>Maureen Owen</unittitle>
            
@@ -2528,8 +2525,8 @@
           <did><unittitle id="s10ss1">Subseries Xa: Correspondence with Janet Hamill</unittitle></did>
           <c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">10</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">10</container>
               <unitdate>1970s</unitdate>
               <unittitle>Miscellaneous correspondence and photographs</unittitle>
              
@@ -2537,8 +2534,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">11</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">11</container>
               <unitdate>1970</unitdate>
               <unittitle>Manuscript Music book</unittitle>
              
@@ -2552,8 +2549,8 @@
               newsprint.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">12</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">12</container>
               <unitdate>1970</unitdate>
               <unittitle>Correspondence</unittitle>
               <physdesc>3 TLS, 6 ALS</physdesc>
@@ -2561,8 +2558,8 @@
             <scopecontent><p>Includes photographs, poems, and a lock of Janet's brother's hair.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">13</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">13</container>
               <unitdate>February 10, 1971</unitdate>
               <unittitle>Flyer for Gerard Malanga and Smith reading</unittitle>
              
@@ -2570,8 +2567,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">13</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">13</container>
               <unitdate>February 23, 1971</unitdate>
               <unittitle>Letter on stationary from the White House, London</unittitle>
               <physdesc>ALS</physdesc>
@@ -2579,8 +2576,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">13</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">13</container>
               <unitdate>April 9, 1971</unitdate>
               <unittitle>Piece of cloth with "Chelsea" written on it with envelope</unittitle>
              
@@ -2588,8 +2585,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">13</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">13</container>
               <unitdate>May 16, 1971</unitdate>
               <unittitle>Clipping from <title>The Herald</title> on Female Super 8</unittitle>
              
@@ -2597,8 +2594,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">13</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">13</container>
               <unitdate>1971</unitdate>
               <unittitle>Letter</unittitle>
               <physdesc>ALS</physdesc>
@@ -2606,8 +2603,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">14</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">14</container>
               <unitdate>March 31, April 7, 1972</unitdate>
               <unittitle>Letter</unittitle>
               <physdesc>2 ALS</physdesc>
@@ -2616,8 +2613,8 @@
               with some handwriting also on it. The envelope has a sticker of a duck.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">15</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">15</container>
               <unitdate>June 5, 1973</unitdate>
               <unittitle>Letters</unittitle>
               <physdesc>2 ALS</physdesc>
@@ -2627,8 +2624,8 @@
               writing on the photocopy.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">16</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">16</container>
               <unitdate>February 11, 1974</unitdate>
               <unittitle>Letter</unittitle>
               <physdesc>ALS</physdesc>
@@ -2636,8 +2633,8 @@
             <scopecontent><p>Written on “Correograma” stationery and sent from Mexico.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">17</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">17</container>
               <unitdate>August 26, December 5, 1975</unitdate>
               <unittitle>Letters</unittitle>
               <physdesc>2 ALS, TLS, MS</physdesc>
@@ -2645,8 +2642,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">18</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">18</container>
               <unitdate>1980</unitdate>
               <unittitle>Letters</unittitle>
               <physdesc>5 ALS, ACS, APCS </physdesc>
@@ -2654,8 +2651,8 @@
             <scopecontent><p>Includes a Polaroid photograph of Janet</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">19</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">19</container>
               <unitdate>1971</unitdate>
               <unittitle>Letters</unittitle>
               <physdesc>ALS, APCS</physdesc>
@@ -2663,8 +2660,8 @@
             <scopecontent><p>With photograph of "Smith Kitchen"</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">20</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">20</container>
               <unitdate>1989</unitdate>
               <unittitle>Letters and Christmas Card</unittitle>
               <physdesc>4 ALS</physdesc>
@@ -2672,8 +2669,8 @@
             <scopecontent><p>With photograph of Smith children.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">21-22</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">21-22</container>
               <unitdate>1990</unitdate>
               <unittitle>Letters</unittitle>
               <physdesc>21 ALS</physdesc>
@@ -2681,8 +2678,8 @@
             <scopecontent><p>Many include children's scribbles.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">23-24</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">23-24</container>
               <unitdate>1991</unitdate>
               <unittitle>Letters</unittitle>
               <physdesc>14 ALS, APCS, MS</physdesc>
@@ -2690,8 +2687,8 @@
             <scopecontent><p>"Gale" manuscript, clippings from papers.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">25</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">25</container>
               <unitdate>1992</unitdate>
               <unittitle>Letters</unittitle>
               <physdesc>9 ALS, 3 APCS</physdesc>
@@ -2699,8 +2696,8 @@
             <scopecontent><p>With manuscript of "February Snow". </p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">26</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">26</container>
               <unitdate>1993</unitdate>
               <unittitle>Letters</unittitle>
               <physdesc>8 ALS, ACS </physdesc>
@@ -2708,8 +2705,8 @@
             <scopecontent><p>With manuscript of "The Coral Sea" and "The Writer's Song"</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">27</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">27</container>
               <unitdate>1994</unitdate>
               <unittitle>Letters</unittitle>
               <physdesc>5 ALS</physdesc>
@@ -2718,8 +2715,8 @@
               Service program. Includes some photographs. </p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">28</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">28</container>
               <unitdate>1995</unitdate>
               <unittitle>Letter</unittitle>
               <physdesc>ALS</physdesc>
@@ -2727,8 +2724,8 @@
             <scopecontent><p>With memorial cards.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">29</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">29</container>
               <unitdate>1997</unitdate>
               <unittitle>Napkin with note to Joe Csida</unittitle>
              
@@ -2736,8 +2733,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">30</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">30</container>
               <unitdate>1998</unitdate>
               <unittitle>Letters</unittitle>
               <physdesc>2 ALS</physdesc>
@@ -2745,8 +2742,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">31</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">31</container>
               <unitdate>1999</unitdate>
               <unittitle>Letter</unittitle>
               <physdesc>APCS, card</physdesc>
@@ -2754,8 +2751,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">32</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">32</container>
               <unitdate>1990s</unitdate>
               <unittitle>Woolgathering</unittitle>
               <physdesc>3 MS</physdesc>
@@ -2763,8 +2760,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">33</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">33</container>
               <unitdate>2002</unitdate>
               <unittitle>Letters</unittitle>
               <physdesc>APCS, ACS</physdesc>
@@ -2773,8 +2770,8 @@
               black ribbon; and folded memorial card.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">34</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">34</container>
               <unitdate>2004-2005</unitdate>
               <unittitle>Correspondence</unittitle>
               <physdesc>4 EM, 1 ALS, MS</physdesc>
@@ -2783,8 +2780,8 @@
               corrections, in the hand of JH, throughout.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">35</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">35</container>
               <unitdate>Date unknown</unitdate>
               <unittitle>Miscellaneous</unittitle>
              
@@ -2795,8 +2792,8 @@
           <did><unittitle id="s10ss2">Subseries Xb: Photographs of Patti Smith</unittitle></did>
             <c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">36</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">36</container>
               <unitdate>1969-1995</unitdate>
               <unittitle>Photographs</unittitle>
              
@@ -2804,8 +2801,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">37</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">37</container>
               <unitdate>2005-2008, undated</unitdate>
               <unittitle>Photographs</unittitle>
              
@@ -2816,8 +2813,8 @@
           <did><unittitle id="s10ss3">Subseries Xc: Artwork by Patti Smith</unittitle></did>
          <c03 level="file">
             <did>
-              <container type="box">8</container>
-              <container type="folder">38</container>
+              <container label="unspecified" type="box">8</container>
+              <container label="unspecified" type="folder">38</container>
               <unitdate>2005-2006</unitdate>
               <unittitle>Photographs, some for Body of Water</unittitle>
              
@@ -2832,7 +2829,7 @@
              and a slip of paper with “Octubre 2007” printed on it.</p></scopecontent>
           </c03> <c03 level="file">
             <did>
-              <container type="box">8</container>
+              <container label="unspecified" type="box">8</container>
               
               <unitdate>2007</unitdate>
               <unittitle>"Lorca Box"</unittitle>
@@ -2844,9 +2841,9 @@
           <did><unittitle id="s10ss4">Subseries Xd: <title>Just Kids</title> Manuscripts and Notes</unittitle></did>
        <c03 level="file">
               <did>
-                <container type="box">9</container>
-                <container type="folder">1</container>
-                <unitdate>ca. 1994</unitdate>
+                <container label="unspecified" type="box">9</container>
+                <container label="unspecified" type="folder">1</container>
+                <unitdate certainty="approximate">1994</unitdate>
                 <unittitle>Early handwritten notes</unittitle>
                
               </did>      
@@ -2857,8 +2854,8 @@
            Angeles Times article about Robert Mapplethorpe’s artwork.</p></scopecontent>
        </c03>  <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">2</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">2</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>Handwritten notes on graph paper</unittitle>
           
@@ -2866,8 +2863,8 @@
          <scopecontent><p>Including chronologies, journal entries, letters (never sent), dreams and poems.</p></scopecontent>
        </c03> <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">3</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">3</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>Notes for <title>Monday's Children</title></unittitle>
           
@@ -2875,8 +2872,8 @@
         
        </c03> <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">4</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">4</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>Outline Monday's Children</unittitle>
           
@@ -2884,8 +2881,8 @@
         
        </c03> <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">5</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">5</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>Original manuscript with handwritten notes</unittitle>
           
@@ -2893,8 +2890,8 @@
         
        </c03> <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">6</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">6</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>Monday's Children notes</unittitle>
           
@@ -2905,8 +2902,8 @@
            have been done to the manuscript.</p></scopecontent>
        </c03> <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">7-8</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">7-8</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>Manuscript copies</unittitle>
           
@@ -2914,8 +2911,8 @@
         
        </c03> <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">9</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">9</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>Outline Monday's Children</unittitle>
           
@@ -2923,8 +2920,8 @@
         
        </c03> <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">10</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">10</container>
            <unitdate>May 2004</unitdate>
            <unittitle>Bound manuscript</unittitle>
           
@@ -2932,8 +2929,8 @@
         
        </c03> <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">11</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">11</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>Emails and manuscripts</unittitle>
           
@@ -2941,8 +2938,8 @@
         
        </c03> <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">12</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">12</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>Notes and drafts</unittitle>
           
@@ -2950,8 +2947,8 @@
         
        </c03><c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">13-14</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">13-14</container>
            <unitdate>Date unknown</unitdate>
            <unittitle><title>Picturing Robert</title> manuscripts with notes</unittitle>
           
@@ -2959,8 +2956,8 @@
         
        </c03>   <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">15</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">15</container>
            <unitdate>1998</unitdate>
            <unittitle>Letters to Betsy Lerner</unittitle>
           
@@ -2968,8 +2965,8 @@
         
        </c03>  <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">16</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">16</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>"Monday's Children" notes</unittitle>
           
@@ -2977,8 +2974,8 @@
         
        </c03>  <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">17</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">17</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>Notes</unittitle>
           
@@ -2986,8 +2983,8 @@
         
        </c03>  <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">18</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">18</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>"Just Kids" notes</unittitle>
           
@@ -2995,8 +2992,8 @@
         
        </c03>  <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">19</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">19</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>Hotel Chelsea folder with typed manuscript pages</unittitle>
           
@@ -3004,8 +3001,8 @@
         
        </c03>  <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">20</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">20</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>"Separate Ways Together" with notes and writings</unittitle>
           
@@ -3013,8 +3010,8 @@
         
        </c03>  <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">21</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">21</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>Typed manuscripts</unittitle>
           
@@ -3022,8 +3019,8 @@
         
        </c03>  <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">22</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">22</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>Floppy disk of stories</unittitle>
           
@@ -3034,8 +3031,8 @@
           <did>
             <unittitle id="s10ss5">Subseries Xe: Assorted Materials</unittitle></did><c03 level="file">
               <did>
-                <container type="box">9</container>
-                <container type="folder">23</container>
+                <container label="unspecified" type="box">9</container>
+                <container label="unspecified" type="folder">23</container>
                 <unitdate>October 1974</unitdate>
                 <unittitle>"East Side Sutra: View from a Window", <title>The Press</title></unittitle>
                
@@ -3045,8 +3042,8 @@
                 Smith contributed article.</p></scopecontent>
             </c03>   <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">24</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">24</container>
            <unitdate>1995</unitdate>
            <unittitle>"Return of Patti Smith", <title>The Press</title></unittitle>
           
@@ -3054,8 +3051,8 @@
          <scopecontent><p>With an issue of Vanity Fair</p></scopecontent>
             </c03>   <c03 level="file">
               <did>
-                <container type="box">11</container>
-                <container type="folder">3</container>
+                <container label="unspecified" type="box">11</container>
+                <container label="unspecified" type="folder">3</container>
                 <unitdate>1995</unitdate>
                 <unittitle>"Return of Patti Smith", <title>The Village Voice</title></unittitle>
                
@@ -3063,8 +3060,8 @@
              
             </c03><c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">25</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">25</container>
            <unitdate>2000</unitdate>
            <unittitle>Clarinet reed</unittitle>
           
@@ -3072,8 +3069,8 @@
          <scopecontent><p>Smith's reed from when she played with JH and Moving Star</p></scopecontent>
        </c03>  <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">26</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">26</container>
            <unitdate>2006-2007</unitdate>
            <unittitle>"A Pythagorean Traveler" exhibition</unittitle>
           
@@ -3084,8 +3081,8 @@
            the arti</p></scopecontent>
        </c03>  <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">27</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">27</container>
            <unitdate>2010</unitdate>
            <unittitle><title>Just Kids</title> excerpt in <title>Rolling Stone</title></unittitle>
           
@@ -3093,8 +3090,8 @@
         
        </c03>  <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">28</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">28</container>
            <unitdate>Date unknown</unitdate>
            <unittitle>Forward to <title>Nostalgia of the Infinite</title></unittitle>
           
@@ -3103,8 +3100,8 @@
        </c03>
           <c03 level="file">
             <did>
-              <container type="box">10</container>
-              <container type="folder">9</container>
+              <container label="unspecified" type="box">10</container>
+              <container label="unspecified" type="folder">9</container>
               <unitdate>1973</unitdate>
               <unittitle>Postcard of Jean-Paul Belmondo sent to Janet Hamill</unittitle>
              
@@ -3112,8 +3109,8 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">10</container>
-              <container type="folder">9</container>
+              <container label="unspecified" type="box">10</container>
+              <container label="unspecified" type="folder">9</container>
               <unitdate>1977</unitdate>
               <unittitle>Photograph of Hamill and Smith taken at the Village Gate</unittitle>
              
@@ -3121,7 +3118,7 @@
            
           </c03><c03 level="file">
             <did>
-              <container type="box">12</container>
+              <container label="unspecified" type="box">12</container>
               
               <unitdate>1966</unitdate>
               <unittitle>Framed self-portrait of Smith and Hamill</unittitle>
@@ -3135,8 +3132,8 @@
             <unittitle id="s10ss6">Subseries Xf: Robert Mapplethorpe</unittitle></did>
          <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">29</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">29</container>
            <unitdate>January 1, 1973</unitdate>
            <unittitle>Invitation to gallery opening <title>Untitled</title></unittitle>
           
@@ -3144,8 +3141,8 @@
         
        </c03>  <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">29</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">29</container>
            <unitdate>1989</unitdate>
            <unittitle>Memorial card with Patti Smith poem</unittitle>
           
@@ -3153,8 +3150,8 @@
         
        </c03>  <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">29</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">29</container>
            <unitdate>May 22, 1989</unitdate>
            <unittitle>List of speakers at Mapplethorpe memorial</unittitle>
           
@@ -3162,8 +3159,8 @@
         
        </c03>  <c03 level="file">
          <did>
-           <container type="box">9</container>
-           <container type="folder">29</container>
+           <container label="unspecified" type="box">9</container>
+           <container label="unspecified" type="folder">29</container>
            <unitdate>June 12, 1995</unitdate>
            <unittitle>Invitation to a ceremony commemorating the anniversary of Mapplethorpe's cancelled exhibit</unittitle>
           
@@ -3175,8 +3172,8 @@
             <unittitle id="s10ss7">Subseries Xg: Performances and Events with Patti Smith and Janet Hamill</unittitle></did> 
          <c03 level="file">
            <did>
-             <container type="box">9</container>
-             <container type="folder">30</container>
+             <container label="unspecified" type="box">9</container>
+             <container label="unspecified" type="folder">30</container>
              <unitdate>February 4, 1974</unitdate>
              <unittitle>Cutty Sark Hart Crane handbill</unittitle>
             
@@ -3186,8 +3183,8 @@
              for the handbill.</p></scopecontent>
          </c03>     <c03 level="file">
            <did>
-             <container type="box">9</container>
-             <container type="folder">31</container>
+             <container label="unspecified" type="box">9</container>
+             <container label="unspecified" type="folder">31</container>
              <unitdate>July 25, 1995</unitdate>
              <unittitle>Summerstage</unittitle>
             
@@ -3198,8 +3195,8 @@
              notes that JH read.</p></scopecontent>
          </c03>  <c03 level="file">
            <did>
-             <container type="box">9</container>
-             <container type="folder">32-34</container>
+             <container label="unspecified" type="box">9</container>
+             <container label="unspecified" type="folder">32-34</container>
              <unitdate>October 8-November 5, 1995</unitdate>
              <unittitle>Art Show and Poetry Reading</unittitle>
             
@@ -3211,8 +3208,8 @@
              around the events, some correspondence and a t-shirt made for the event.</p></scopecontent>
          </c03>  <c03 level="file">
            <did>
-             <container type="box">9</container>
-             <container type="folder">35-40</container>
+             <container label="unspecified" type="box">9</container>
+             <container label="unspecified" type="folder">35-40</container>
              <unitdate>September 1997</unitdate>
              <unittitle>Liss Ard Festival, Co. Cork, Ireland</unittitle>
             
@@ -3224,7 +3221,7 @@
              “The Gardens Voice: Liss Ard 97”, and press folder.</p></scopecontent>
          </c03> <c03 level="file">
            <did>
-             <container type="mapcase-folder">1</container>
+             <container label="unspecified" type="mapcase-folder">1</container>
             
              <unitdate>1997</unitdate>
              <unittitle>Liss Ard poster</unittitle>
@@ -3233,8 +3230,8 @@
           
          </c03>  <c03 level="file">
            <did>
-             <container type="box">10</container>
-             <container type="folder">  1</container>
+             <container label="unspecified" type="box">10</container>
+             <container label="unspecified" type="folder">  1</container>
              <unitdate>April 1, 2001</unitdate>
              <unittitle>People's Poetry Gathering</unittitle>
             
@@ -3244,8 +3241,8 @@
              for the event.</p></scopecontent>
          </c03>  <c03 level="file">
            <did>
-             <container type="box">10</container>
-             <container type="folder">2</container>
+             <container label="unspecified" type="box">10</container>
+             <container label="unspecified" type="folder">2</container>
              <unitdate>September 2002</unitdate>
              <unittitle>Strange Messenger, opening party and reading</unittitle>
             
@@ -3253,8 +3250,8 @@
           
          </c03>  <c03 level="file">
            <did>
-             <container type="box">10</container>
-             <container type="folder">3</container>
+             <container label="unspecified" type="box">10</container>
+             <container label="unspecified" type="folder">3</container>
              <unitdate>Oct 18, 2002</unitdate>
              <unittitle>Warhol Museum Performance</unittitle>
             
@@ -3265,8 +3262,8 @@
              correspondence and other items.</p></scopecontent>
          </c03>  <c03 level="file">
            <did>
-             <container type="box">10</container>
-             <container type="folder">4</container>
+             <container label="unspecified" type="box">10</container>
+             <container label="unspecified" type="folder">4</container>
              <unitdate>June 2005</unitdate>
              <unittitle>Meltdown festival</unittitle>
             
@@ -3281,8 +3278,8 @@
              manuscripts in JH’s hand.</p></scopecontent>
          </c03>  <c03 level="file">
            <did>
-             <container type="box">10</container>
-             <container type="folder">5</container>
+             <container label="unspecified" type="box">10</container>
+             <container label="unspecified" type="folder">5</container>
              <unitdate>2005</unitdate>
              <unittitle>Summerstage</unittitle>
             
@@ -3292,8 +3289,8 @@
              and 34 snapshots of the event.</p></scopecontent>
          </c03>  <c03 level="file">
            <did>
-             <container type="box">10</container>
-             <container type="folder">6</container>
+             <container label="unspecified" type="box">10</container>
+             <container label="unspecified" type="folder">6</container>
              <unitdate>2006</unitdate>
              <unittitle>Latitude Festival</unittitle>
             
@@ -3303,8 +3300,8 @@
              performer wristbands.</p></scopecontent>
          </c03>   <c03 level="file">
            <did>
-             <container type="box">10</container>
-             <container type="folder">7</container>
+             <container label="unspecified" type="box">10</container>
+             <container label="unspecified" type="folder">7</container>
              <unitdate>March 2, 2008</unitdate>
              <unittitle>An Intimate Evening with Patti Smith and Janet Hamill</unittitle>
             
@@ -3318,8 +3315,8 @@
           <did>
             <unittitle id="s10ss8">Subseries Xh: Audio Material</unittitle></did><c03 level="file">
               <did>
-                <container type="box">11</container>
-                <container type="folder">4</container>
+                <container label="unspecified" type="box">11</container>
+                <container label="unspecified" type="folder">4</container>
                 <unitdate>Date unknown</unitdate>
                 <unittitle>"Horses" vinyl record</unittitle>
               
@@ -3328,8 +3325,8 @@
               <scopecontent><p>Arista Records, Test Pressing, Demonstration Copy, Not for Sale. From the Wartoke Concern, Inc</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">11</container>
-                <container type="folder">5</container>
+                <container label="unspecified" type="box">11</container>
+                <container label="unspecified" type="folder">5</container>
                 <unitdate>Date unknown</unitdate>
                 <unittitle>"Horses" vinyl record</unittitle>
                
@@ -3337,8 +3334,8 @@
               <scopecontent><p>Arista Records; initial release without sleeve. From the Wartoke Concern, Inc</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">11</container>
-                <container type="folder">6</container>
+                <container label="unspecified" type="box">11</container>
+                <container label="unspecified" type="folder">6</container>
                 <unitdate>Date unknown</unitdate>
                 <unittitle>"Radio Ethiopia" vinyl record</unittitle>
                
@@ -3346,8 +3343,8 @@
               <scopecontent><p>Arista Records, Promotional Copy, Not for Sale. From the Wartoke Concern, Inc</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">11</container>
-                <container type="folder">7</container>
+                <container label="unspecified" type="box">11</container>
+                <container label="unspecified" type="folder">7</container>
                 <unitdate>Date unknown</unitdate>
                 <unittitle>Test pressing for Velvet Underground album "The Velvet Underground and Nico"</unittitle>
                
@@ -3355,8 +3352,8 @@
               <scopecontent><p>From the Wartoke Concern, Inc</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">11</container>
-                <container type="folder">8</container>
+                <container label="unspecified" type="box">11</container>
+                <container label="unspecified" type="folder">8</container>
                 <unitdate>September 18, 1976</unitdate>
                 <unittitle>"Radio Ethiopia" vinyl record</unittitle>
                
@@ -3364,8 +3361,8 @@
               <scopecontent><p>Arista Records, Demonstration Copy, Not for Sale; in original sleeve; cover photo by Judy Linn. Liner notes signed and dated by Patti Smith.</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">11</container>
-                <container type="folder">9</container>
+                <container label="unspecified" type="box">11</container>
+                <container label="unspecified" type="folder">9</container>
                 <unitdate>Date unknown</unitdate>
                 <unittitle>"Easter" vinyl record</unittitle>
                
@@ -3373,8 +3370,8 @@
               <scopecontent><p>Arista Records, original release in original sleeve; not inscribed; cover photo by Lynn Goldsmith. Liner notes signed by PS and also with the mark of a cross in her hand.</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">11</container>
-                <container type="folder">10</container>
+                <container label="unspecified" type="box">11</container>
+                <container label="unspecified" type="folder">10</container>
                 <unitdate>Date unknown</unitdate>
                 <unittitle>"People Have the Power" vinyl record</unittitle>
                
@@ -3382,8 +3379,8 @@
               <scopecontent><p>Arista Records, loaned for promotion only, not for sale; in original sleeve; not inscribed; cover photo by Robert Mapplethorpe.</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">11</container>
-                <container type="folder">11</container>
+                <container label="unspecified" type="box">11</container>
+                <container label="unspecified" type="folder">11</container>
                 <unitdate>Date unknown</unitdate>
                 <unittitle>"Dream of Life" vinyl record</unittitle>
                
@@ -3391,8 +3388,8 @@
               <scopecontent><p>Arista Records; original release in original sleeve; not inscribed; cover photo by Robert Mapplethorpe.</p></scopecontent>
             </c03><c03 level="file">
               <did>
-                <container type="box">10</container>
-                <container type="folder">8</container>
+                <container label="unspecified" type="box">10</container>
+                <container label="unspecified" type="folder">8</container>
                 <unitdate>Date unknown</unitdate>
                 <unittitle>"Hey Joe/Piss Factory" 45</unittitle>
                
@@ -3405,8 +3402,8 @@
             <unittitle id="s10ss9">Subseries Xi: Posters and Broadsides</unittitle></did>
           <c03 level="file">
               <did>
-                <container type="box">12</container>
-                <container type="folder">1</container>
+                <container label="unspecified" type="box">12</container>
+                <container label="unspecified" type="folder">1</container>
                 <unitdate>July 27, 1995</unitdate>
                 <unittitle>Patti Smith "Poetry and Music"</unittitle>
                
@@ -3416,8 +3413,8 @@
               performers, 14 x 22 inches.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">12</container>
-              <container type="folder">1</container>
+              <container label="unspecified" type="box">12</container>
+              <container label="unspecified" type="folder">1</container>
               <unitdate>1997</unitdate>
               <unittitle>Poster</unittitle>
              
@@ -3427,8 +3424,8 @@
               33 x 23 ½ inches.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">12</container>
-              <container type="folder">1</container>
+              <container label="unspecified" type="box">12</container>
+              <container label="unspecified" type="folder">1</container>
               <unitdate>1995</unitdate>
               <unittitle>"Ps/alm revisited for William Burroughs"</unittitle>
              
@@ -3437,8 +3434,8 @@
               Miller at The Grenfell Press for Hanuman Books, 12 ½ x 15 inches.</p></scopecontent>
           </c03><c03 level="file">
             <did>
-              <container type="box">12</container>
-              <container type="folder">1</container>
+              <container label="unspecified" type="box">12</container>
+              <container label="unspecified" type="folder">1</container>
               <unitdate>1995</unitdate>
               <unittitle>"A Small Entreaty"</unittitle>
              
@@ -3461,5 +3458,9 @@
       </list>
     </separatedmaterial>
 
-  </archdesc> 
+  <prefercite>
+        <head>Cite As:</head>
+        <p>Janet Hamill archive, #8062. Division of Rare and Manuscript Collections, Cornell
+          University Library.</p>
+      </prefercite></archdesc> 
 </ead>

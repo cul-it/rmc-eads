@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08432::Guide to the Bonnie Leslie Indonesian slide collection)//EN">RMM08432</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08432::Guide to the Bonnie Leslie Indonesian slide collection)//EN">RMM08432</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Bonnie Leslie Indonesian slide collection,
@@ -24,19 +24,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff,<date>January 2014</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Bonnie Leslie Indonesian Slide Collection,<lb/><date type="inclusive" encodinganalog="245$f">1975-1978.</date></titleproper>
+			<titleproper>Guide to the Bonnie Leslie Indonesian Slide Collection,<date encodinganalog="245$f" type="inclusive">1975-1978.</date></titleproper>
 			<num>Collection Number: 8432</num>
-			<publisher>Division of Rare and Manuscript Collections<lb/>Cornell University
+			<publisher>Division of Rare and Manuscript CollectionsCornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Division of Rare and Manuscript Collections<lb/>2B Carl A. Kroch
-						Library<lb/>Cornell University<lb/>Ithaca, NY 14853<lb/>(607)
-						255-3530<lb/>Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item>Division of Rare and Manuscript Collections2B Carl A. Kroch
+						LibraryCornell UniversityIthaca, NY 14853(607)
+						255-3530Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -62,12 +68,11 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Bonnie Leslie Indonesian slide
-				collection,<unitdate encodinganalog="MARC 245" type="inclusive">1975-1978.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Bonnie Leslie Indonesian slide
+				collection,</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1975-1978.</unitdate>
 			<unitid label="Collection Number:">8432</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Leslie, Bonnie.   ">Leslie, Bonnie.</persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.4 cubic foot.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.4 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Slides</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -101,20 +106,13 @@
 				<geogname encodinganalog="MARC 651">Indonesia -- Social life and customs.</geogname>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Bonnie Leslie Indonesian slide collection, #8432. Division of Rare and Manuscript
-					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unitdate>June 1975-April 1977</unitdate>
 					<unittitle>Siantar</unittitle>
 				</did>
@@ -124,8 +122,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unitdate>June 1975-December 1977</unitdate>
 					<unittitle>Parapat Pasar scenes</unittitle>
 				</did>
@@ -135,80 +133,80 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unitdate>July 1975-January 1978</unitdate>
 					<unittitle>Various sites including Pearata and Lake Toba</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unitdate>August 1975-August 1976</unitdate>
 					<unittitle>Hari Kemerdekaan</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unitdate>August 1975-December 1977</unitdate>
 					<unittitle>Various images of agriculture and churches</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unitdate>September 1975</unitdate>
 					<unittitle>Karo Batak Village</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unitdate>October 1975-April 1976</unitdate>
 					<unittitle>Sipipak and Marbun Pollung</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unitdate>October-November 1975</unitdate>
 					<unittitle>Two funerals</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unitdate>December 1975</unitdate>
 					<unittitle>Asahan</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unitdate>December 1975</unitdate>
 					<unittitle>Siantar Pasar</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unitdate>April 1976</unitdate>
 					<unittitle>Simalungan villagers church</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unitdate>April 1976</unitdate>
 					<unittitle>Trip to Sipirok for teaching seminar</unittitle>
 				</did>
@@ -219,24 +217,24 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unitdate>April-May 1976</unitdate>
 					<unittitle>Simalungan Village trip</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unitdate>May 1976</unitdate>
 					<unittitle>Rubber plantation Goodyear</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unitdate>June 1976</unitdate>
 					<unittitle>Kuala Lampur</unittitle>
 				</did>
@@ -246,56 +244,56 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unitdate>June-July 1976</unitdate>
 					<unittitle>Penang</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unitdate>July 1976-March 1977</unitdate>
 					<unittitle>Christian and Muslim weddings</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">18</container>
 					<unitdate>August 1976</unitdate>
 					<unittitle>Trip to Nainggolan, Samosir with students</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">19</container>
 					<unitdate>September 1976</unitdate>
 					<unittitle>Toba village</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">20</container>
 					<unitdate>September-November 1976</unitdate>
 					<unittitle>Various sites including Bagan Harbor and Tarutung</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">21</container>
 					<unitdate>October 1976</unitdate>
 					<unittitle>Toba and Samosir</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">22</container>
 					<unitdate>October-November 1976</unitdate>
 					<unittitle>Bonnie's trip to Aceh</unittitle>
 				</did>
@@ -305,24 +303,24 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
 					<unitdate>November 1976</unitdate>
 					<unittitle>Seribudolok</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">24</container>
 					<unitdate>March 1977</unitdate>
 					<unittitle>Seribudolok water project</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unitdate>April 1977</unitdate>
 					<unittitle>Bukit Tinggi</unittitle>
 				</did>
@@ -333,16 +331,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unitdate>April 1977</unitdate>
 					<unittitle>Tanjung Balai and Medan</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unitdate>April-May 1977</unitdate>
 					<unittitle>Bukit Tinggi</unittitle>
 				</did>
@@ -353,48 +351,48 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unitdate>May 1977</unitdate>
 					<unittitle>Jakarta</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unitdate>May 1977</unitdate>
 					<unittitle>Jakarta Bogor</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unitdate>May 1977</unitdate>
 					<unittitle>Jakarta flight market</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unitdate>May 1977</unitdate>
 					<unittitle>Jakarta Prambanan</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unitdate>May 1977</unitdate>
 					<unittitle>Prambanan</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
 					<unitdate>October 1977</unitdate>
 					<unittitle>Seribudolok</unittitle>
 				</did>
@@ -404,29 +402,33 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
 					<unitdate>October 1977</unitdate>
 					<unittitle>Si Langit retreat, Indonesia</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
 					<unitdate>1977</unitdate>
 					<unittitle>Jogjakarta paintings</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
 					<unitdate>January 1978</unitdate>
 					<unittitle>Sumatra farewell</unittitle>
 				</did>
 			</c01>
 
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Bonnie Leslie Indonesian slide collection, #8432. Division of Rare and Manuscript
+					Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

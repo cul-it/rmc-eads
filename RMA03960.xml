@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03960::Guide to the Robert D. Miller papers)//EN">RMA03960</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA03960::Guide to the Robert D. Miller papers)//EN">RMA03960</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Robert D. Miller papers,<date>[ca.
@@ -25,19 +24,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>March 2012</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Robert D. Miller Papers,<lb/><date type="inclusive" encodinganalog="245$f">[ca. 1933-1998]</date></titleproper>
+			<titleproper>Guide to the Robert D. Miller Papers,<date encodinganalog="245$f" type="inclusive">[ca. 1933-1998]</date></titleproper>
 			<num>Collection Number: 21-13-3960</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -63,12 +68,11 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Robert D. Miller papers, <unitdate encodinganalog="MARC 245" type="inclusive">[ca. 1933-1998]</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Robert D. Miller papers, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1933-1998</unitdate>
 			<unitid label="Collection Number:">21-13-3960</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Miller, R. D.(Robert Demorest), 1919-">(Robert Demorest), Miller
 					1919-</persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>6.3 cubic feet.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>6.3 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Correspondence, course materials,
 				research.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -78,7 +82,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Professor of Soil Science. Robert Demorest Miller grew up in Columbia, Mo., earned a
 				B.S. from the University of Missouri in 1940, an M.S. from the University of
 				Nebraska in 1941, and a Ph.D. from Cornell University in 1948. During 1944-1945, he
@@ -143,18 +147,7 @@
 					1945-1952.</geogname>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<userestrict>
-				<head>Restrictions on Use:</head>
-				<p>Oral history may be restricted in part.</p>
-			</userestrict>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Robert D. Miller papers, #21-13-3960. Division of Rare and Manuscript
-					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<relatedmaterial>
 			<head id="a5">RELATED MATERIALS</head>
 			<p>See also the Robert D. Miller. Oral Histories, #13-6-1285 and Merritt Miller papers,
@@ -164,75 +157,75 @@
 			<head>SERIES LIST</head>
 			<p>
 				<emph render="bold">
-					<ref target="s1" show="replace" actuate="onrequest">Series I. Cornell University
+					<ref actuate="onrequest" show="replace" target="s1">Series I. Cornell University
 						Material and Correspondence</ref>
 				</emph>
-				<lb/>Boxes 1, 6 <lb/><ref target="s1ss1">Material and Correspondence on Cornell
+				Boxes 1, 6 <ref target="s1ss1">Material and Correspondence on Cornell
 					'69</ref>
-				<lb/><ref target="s1ss2">James Perkins</ref>
-				<lb/>
+				<ref target="s1ss2">James Perkins</ref>
+				
 			</p>
 			<p>
 				<emph render="bold">
-					<ref target="s2" show="replace" actuate="onrequest">Series II. Correspondence
+					<ref actuate="onrequest" show="replace" target="s2">Series II. Correspondence
 						(Academic, Scientific, and Personal)</ref>
 				</emph>
-				<lb/>Box 1, 2, 6</p>
+				Box 1, 2, 6</p>
 			<p>
 				<emph render="bold">
-					<ref target="s3" show="replace" actuate="onrequest">Series III. Reprints</ref>
+					<ref actuate="onrequest" show="replace" target="s3">Series III. Reprints</ref>
 				</emph>
-				<lb/>Box 3</p>
+				Box 3</p>
 			<p>
 				<emph render="bold">
-					<ref target="s4" show="replace" actuate="onrequest">Series IV. Courses</ref>
+					<ref actuate="onrequest" show="replace" target="s4">Series IV. Courses</ref>
 				</emph>
-				<lb/>Box 3 <lb/><ref target="s4ss1">Agronomy Course 607 R.D. Miller-Overheads-Soil
+				Box 3 <ref target="s4ss1">Agronomy Course 607 R.D. Miller-Overheads-Soil
 					Physics Part 1 Statics </ref>
-				<lb/><ref target="s4ss2">Agronomy Course 607 R.D. Miller-Overheads-Soil Physics Part
+				<ref target="s4ss2">Agronomy Course 607 R.D. Miller-Overheads-Soil Physics Part
 					2 Dynamics</ref>
-				<lb/><ref target="s4ss3">Agronomy Course 607 R.D. Miller, Course Materials</ref>
-				<lb/>
+				<ref target="s4ss3">Agronomy Course 607 R.D. Miller, Course Materials</ref>
+				
 			</p>
 			<p>
 				<emph render="bold">
-					<ref target="s5" show="replace" actuate="onrequest">Series V. Manuscripts and
+					<ref actuate="onrequest" show="replace" target="s5">Series V. Manuscripts and
 						Lectures</ref>
 				</emph>
-				<lb/>Box 3, 6</p>
+				Box 3, 6</p>
 			<p>
 				<emph render="bold">
-					<ref target="s6" show="replace" actuate="onrequest">Series VI. Slides and
+					<ref actuate="onrequest" show="replace" target="s6">Series VI. Slides and
 						Photos</ref>
 				</emph>
-				<lb/>Box 3, 6 <lb/><ref target="s6ss1">Yakutsk, Ice, Students</ref>
-				<lb/><ref target="s6ss2">Doctoral Students' Slides, Work, Scaling, RDM's
+				Box 3, 6 <ref target="s6ss1">Yakutsk, Ice, Students</ref>
+				<ref target="s6ss2">Doctoral Students' Slides, Work, Scaling, RDM's
 					Slides</ref>
-				<lb/><ref target="s6ss3">Other Slides</ref>
-				<lb/>
+				<ref target="s6ss3">Other Slides</ref>
+				
 			</p>
 			<p>
 				<emph render="bold">
-					<ref target="s7" show="replace" actuate="onrequest">Series VII. Trips </ref>
+					<ref actuate="onrequest" show="replace" target="s7">Series VII. Trips </ref>
 				</emph>
-				<lb/>Box 3, 4, 6, 7 </p>
+				Box 3, 4, 6, 7 </p>
 			<p>
 				<emph render="bold">
-					<ref target="s8" show="replace" actuate="onrequest">Series VIII. Awards</ref>
+					<ref actuate="onrequest" show="replace" target="s8">Series VIII. Awards</ref>
 				</emph>
-				<lb/> Box 5, 6 </p>
+				 Box 5, 6 </p>
 			<p>
 				<emph render="bold">
-					<ref target="s9" show="replace" actuate="onrequest">Series IX. Personal and
+					<ref actuate="onrequest" show="replace" target="s9">Series IX. Personal and
 						Family Materials</ref>
 				</emph>
-				<lb/>Box 4-7 </p>
+				Box 4-7 </p>
 			<p>
 				<emph render="bold">
-					<ref target="s10" show="replace" actuate="onrequest">Series X. World War II
+					<ref actuate="onrequest" show="replace" target="s10">Series X. World War II
 						Materials</ref>
 				</emph>
-				<lb/>Boxes 5, 6 </p>
+				Boxes 5, 6 </p>
 
 		</arrangement>
 		<dsc type="combined">
@@ -250,9 +243,9 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">1</container>
-							<unitdate/>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">1</container>
+							
 							<unittitle>Events of 1969 at Cornell</unittitle>
 						</did>
 						<scopecontent>
@@ -261,8 +254,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">2</container>
 							<unittitle>Cornell Post '69 Materials 1</unittitle>
 						</did>
 						<scopecontent>
@@ -274,8 +267,8 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">3</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">3</container>
 							<unittitle>Cornell Post '69 Materials 2</unittitle>
 						</did>
 						<scopecontent>
@@ -286,8 +279,8 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">4</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">4</container>
 							<unittitle>Cornell Post '69 Materials 3</unittitle>
 						</did>
 						<scopecontent>
@@ -298,8 +291,8 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">5</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">5</container>
 							<unitdate>1971-1995</unitdate>
 							<unittitle>Cornell Post '69 Materials 4</unittitle>
 						</did>
@@ -310,8 +303,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">6</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">6</container>
 							<unitdate>1991-1995</unitdate>
 							<unittitle>Cornell Post '69 Materials 5</unittitle>
 						</did>
@@ -324,8 +317,8 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">7</container>
 							<unittitle>Cornell Post '69 Materials 6</unittitle>
 						</did>
 						<scopecontent>
@@ -338,8 +331,8 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">8</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">8</container>
 							<unitdate>1969-1971</unitdate>
 							<unittitle>Cornell '69 Post-event</unittitle>
 						</did>
@@ -347,8 +340,8 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">9</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">9</container>
 							<unitdate>1989-1999</unitdate>
 							<unittitle>Cornell '69 More Post-event Materials: Downs, Rossiter,
 								others</unittitle>
@@ -356,8 +349,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">10</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">10</container>
 							<unitdate>1989</unitdate>
 							<unittitle>Collection of Newspaper on the 20th Anniversary of the
 								Willard Straight Hall Takeover and Speech Draft</unittitle>
@@ -366,8 +359,8 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">11</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">11</container>
 							<unitdate>1969</unitdate>
 							<unittitle>WSH 1989, 1, WSH Aftermath</unittitle>
 						</did>
@@ -375,16 +368,16 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">12</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">12</container>
 							<unittitle>WSH 1989, 2</unittitle>
 						</did>
 					</c03>
 
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">13</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">13</container>
 							<unitdate>1968-1969</unitdate>
 							<unittitle>WSH 1989, 3</unittitle>
 						</did>
@@ -394,8 +387,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">14</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">14</container>
 							<unitdate>1967-1972</unitdate>
 							<unittitle>General Legislation of the University Faculty and Extracts
 								from Its Records</unittitle>
@@ -403,8 +396,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">6</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">6</container>
+							<container label="unspecified" type="folder">7</container>
 							<unitdate>1969</unitdate>
 							<unittitle>Materials Relating to Cornell in 1969</unittitle>
 						</did>
@@ -416,8 +409,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">6</container>
-							<container type="folder">8</container>
+							<container label="unspecified" type="box">6</container>
+							<container label="unspecified" type="folder">8</container>
 							<unitdate>1969</unitdate>
 							<unittitle>Oral history</unittitle>
 						</did>
@@ -430,8 +423,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">6</container>
-							<container type="folder">9</container>
+							<container label="unspecified" type="box">6</container>
+							<container label="unspecified" type="folder">9</container>
 							<unitdate>1990s</unitdate>
 							<unittitle>Cornell 1969 legacy materials</unittitle>
 						</did>
@@ -455,8 +448,8 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">15</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">15</container>
 							<unitdate>1970-1998</unitdate>
 							<unittitle>Copy of Correspondence of James A. Perkins and Robert D.
 								Miller</unittitle>
@@ -464,8 +457,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">16</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">16</container>
 							<unitdate>1970-2003</unitdate>
 							<unittitle>Correspondence with James A. Perkins</unittitle>
 						</did>
@@ -473,8 +466,8 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">17</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">17</container>
 							<unitdate>1974</unitdate>
 							<unittitle>Correspondence between James A. Perkins and John R. Silber
 								(President of Boston University), and Newspaper Clippings about
@@ -485,8 +478,8 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">18</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">18</container>
 							<unitdate>1992-2006</unitdate>
 							<unittitle>Invitations, Photos, and Pamphlets for James A. Perkins Prize
 								for Interracial Understanding and Harmony</unittitle>
@@ -503,8 +496,8 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">19</container>
 						<unitdate>1956-1966</unitdate>
 						<unittitle>Correspondence with Cornell University and Some Other
 							Institutions</unittitle>
@@ -513,24 +506,24 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">20</container>
 						<unitdate>1967-Spring 1971</unitdate>
 						<unittitle>Scientific Correspondence with Dean of Faculty</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">21</container>
 						<unitdate>Fall 1971</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">22</container>
 						<unitdate>Spring 1972</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
@@ -538,16 +531,16 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">23</container>
 						<unitdate>Spring 1973</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">24</container>
 						<unitdate>Fall 1973</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
@@ -555,16 +548,16 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">25</container>
 						<unitdate>Spring 1974</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">26</container>
 						<unitdate>Fall 1974</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
@@ -572,8 +565,8 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>Spring 1975</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
@@ -581,48 +574,48 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>Fall 1975</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>Spring 1976</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>Fall 1976</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>Spring 1977</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>Fall 1977</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>Spring 1978</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
@@ -632,8 +625,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>Fall 1978</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
@@ -643,48 +636,48 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>Spring 1979</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>Fall 1979</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">11</container>
 						<unitdate>Spring 1980</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>Fall 1980</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>1980-1981</unitdate>
 						<unittitle>Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1965-1977</unitdate>
 						<unittitle>Dean of the Faculty Correspondence (Not Related to Cornell '69)
 							1</unittitle>
@@ -695,8 +688,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unitdate>1967-1971</unitdate>
 						<unittitle>Dean of the Faculty Correspondence (Not Related to Cornell '69)
 							2</unittitle>
@@ -705,16 +698,16 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unitdate>1985-1989</unitdate>
 						<unittitle>Scientific Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">17</container>
 						<unitdate>1988-2009</unitdate>
 						<unittitle>Scientific Correspondence</unittitle>
 					</did>
@@ -723,24 +716,24 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">18</container>
 						<unitdate>1974</unitdate>
 						<unittitle>John A. Crowl</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">19</container>
 						<unitdate>1994</unitdate>
 						<unittitle>Thomas W. Jones</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">20</container>
 						<unitdate>1992</unitdate>
 						<unittitle>Frank H. T. Rhodes</unittitle>
 					</did>
@@ -748,22 +741,22 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle>Personal Correspondence and Photos</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1940-1952</unitdate>
 						<unittitle>Business Correspondence</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>1962, 1972</unitdate>
 						<unittitle>Morris Bishop Correspondence</unittitle>
 					</did>
@@ -777,8 +770,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>1991</unitdate>
 						<unittitle>50th Anniversary Correspondence</unittitle>
 					</did>
@@ -790,8 +783,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>1967, 1969, 1987</unitdate>
 						<unittitle>Dean of Faculty</unittitle>
 					</did>
@@ -805,8 +798,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>Various</unitdate>
 						<unittitle>Presidential Correspondence</unittitle>
 					</did>
@@ -819,8 +812,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">11</container>
 						<unitdate>Various</unitdate>
 						<unittitle>Family Correspondence</unittitle>
 					</did>
@@ -830,8 +823,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>1973</unitdate>
 						<unittitle>Correspondence to wife Beulah "Buty" from Russia</unittitle>
 					</did>
@@ -841,8 +834,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>Various</unitdate>
 						<unittitle>Scientific Correspondence</unittitle>
 					</did>
@@ -853,8 +846,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1970s-1980s</unitdate>
 						<unittitle>Edward Ershov Correspondence</unittitle>
 					</did>
@@ -866,8 +859,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">16</container>
 						<unitdate>Various</unitdate>
 						<unittitle>Edward Miller Correspondence</unittitle>
 					</did>
@@ -884,8 +877,8 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">22</container>
 						<unitdate>1949-1971</unitdate>
 						<unittitle>Robert D. Miller, Articles on &gt; 0°</unittitle>
 					</did>
@@ -893,16 +886,16 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1971-</unitdate>
 						<unittitle>Robert D. Miller, Articles and Papers on &lt; 0°, 1</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1971-</unitdate>
 						<unittitle>Robert D. Miller, Articles and Papers on &lt; 0°, 2</unittitle>
 					</did>
@@ -913,25 +906,25 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>1971-</unitdate>
 						<unittitle>Robert D. Miller, Articles and Papers on &lt; 0°, 3</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">4</container>
-						<unitdate/>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">4</container>
+						
 						<unittitle>Robert D. Miller, Repints: Extra Copies</unittitle>
 					</did>
 				</c02>
 
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>1998</unitdate>
 						<unittitle>Review Copy of Capillary Thermodynamics in Serially Porous Media,
 							with Implications for Randomly Porous Media</unittitle>
@@ -950,35 +943,35 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">6</container>
-							<unitdate/>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">6</container>
+							
 							<unittitle>Soil Particles, Mechanical Analysis, Representative Samples,
 								Textual Triangle, Closely Packed Spheres</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">7</container>
-							<unitdate/>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">7</container>
+							
 							<unittitle>Soil Composition, Definitions, Idiosyncrasies</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">8</container>
-							<unitdate/>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">8</container>
+							
 							<unittitle>Water Contend, Bulk Density, Neutron Probe</unittitle>
 						</did>
 					</c03>
 
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">9</container>
-							<unitdate/>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">9</container>
+							
 							<unittitle>Forces, Ideal Gas Law, Properties of Water, Static
 								Equilibrium in Force Field</unittitle>
 						</did>
@@ -986,9 +979,9 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">10</container>
-							<unitdate/>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">10</container>
+							
 							<unittitle>Surface Tension, Capillary Rice, Bubbles, Phase
 								Barriers</unittitle>
 						</did>
@@ -996,9 +989,9 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">11</container>
-							<unitdate/>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">11</container>
+							
 							<unittitle>Wetting and Drying, Hysteresis, Air Entry, Independent
 								Domains</unittitle>
 						</did>
@@ -1006,9 +999,9 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">12</container>
-							<unitdate/>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">12</container>
+							
 							<unittitle>Haines and Fisher Analyses, Terzaghi Equation, Aitchison's
 								Concept, Synder's Work</unittitle>
 						</did>
@@ -1016,9 +1009,9 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">13</container>
-							<unitdate/>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">13</container>
+							
 							<unittitle>Clay Minerals, Electrophoresis and Electroosmosis,
 								Helmholz-Schmolvchowski Equation, Ideal Diffuse Electrical Double
 								Layer, Dispersion</unittitle>
@@ -1032,55 +1025,55 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">14</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">14</container>
 							<unittitle>Recapitulation, Component Potentials, Adsorption Versus
 								Capillary Space</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">15</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">15</container>
 							<unittitle>Flow in Saturated Soils, Darcy's Law, Kozeny Equations,
 								Geometric Mean Diameter</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">16</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">16</container>
 							<unittitle>Miscible Displacement, Dispersion and Diffusion</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">17</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">17</container>
 							<unittitle>Method of Images, Electrostatic Analogue, Flow Nets, Dupuit
 								Equation</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">18</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">18</container>
 							<unittitle>Flow in Unsaturated Soils, Equation of Continuity,
 								Diffusivity, Available Water Range</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">19</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">19</container>
 							<unittitle>Scale Modelling, Grain, Substance and Forle Analogues,
 								Scaling Statics, Scaling Dynamics</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">20</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">20</container>
 							<unittitle>Coupling of Transport Processes, Frost Heave, Freezing and
 								Thawing Versus Wetting and Drying, Schofield's Work</unittitle>
 						</did>
@@ -1094,17 +1087,17 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">21</container>
-							<unitdate/>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">21</container>
+							
 							<unittitle>Course Materials 1</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">22</container>
-							<unitdate/>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">22</container>
+							
 							<unittitle>Course Materials 2</unittitle>
 						</did>
 					</c03>
@@ -1116,16 +1109,16 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">23</container>
 						<unitdate>1993</unitdate>
 						<unittitle>Papers at '93 SSA Meeting</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">24</container>
 						<unitdate>1952</unitdate>
 						<unittitle>Capillary Conductivity of A Plate Perforated with Cylindrical
 							Holes</unittitle>
@@ -1134,8 +1127,8 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">25</container>
 						<unitdate>1979</unitdate>
 						<unittitle>Draft of A Revision to Hillel</unittitle>
 					</did>
@@ -1146,40 +1139,40 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">26</container>
 						<unitdate>1993-1994</unitdate>
 						<unittitle>Calculations on Various Topics</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">17</container>
 						<unitdate>1982</unitdate>
 						<unittitle>Scientific work and lectures from Russia trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">18</container>
 
 						<unittitle>Manuscript and reprint</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">19</container>
 
 						<unittitle>Illustrations and drawings for papers</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">20</container>
 						<unitdate>1980s</unitdate>
 						<unittitle>Consulting</unittitle>
 					</did>
@@ -1189,18 +1182,18 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle>Calculation notebooks</unittitle>
 					</did>
 					<scopecontent>
-						<p/>
+						
 					</scopecontent>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">23</container>
 
 						<unittitle>Skits and Speeches</unittitle>
 					</did>
@@ -1225,16 +1218,16 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">27</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">27</container>
 							<unittitle>Secondary Heaving HRB, Loch, Torrance, Cass, Hoekstra,
 								Koopmans</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">28</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">28</container>
 							<unittitle>Swelling Soil, Colbeck, Calgary 79, Dirksen</unittitle>
 						</did>
 					</c03>
@@ -1247,24 +1240,24 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">29</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">29</container>
 							<unittitle>Field Photos, Caldwell F, Taber, Beskow, Miller Baker
 								Kiolian, Römkens</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">30</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">30</container>
 							<unittitle>Phase Barrier, Massive Ice, O'NGM; Sunder,
 								Scaling</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">31</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">31</container>
 							<unittitle>P.Black, Horiguichi, Perfect, Massive Ice, Seminar
 								1981</unittitle>
 						</did>
@@ -1276,27 +1269,27 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">32</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">32</container>
 							<unittitle>Slides of RMD Experimental Apparatus</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">33</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">33</container>
 							<unittitle>Chahal, Gypsum</unittitle>
 						</did>
 					</c03>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle>Experiment photographs and presentation diagrams</unittitle>
 					</did>
 					<scopecontent>
-						<p/>
+						
 					</scopecontent>
 				</c02>
 			</c01>
@@ -1307,8 +1300,8 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">34</container>
 						<unitdate>1978</unitdate>
 						<unittitle>Permafrost III. Edmanton, Canada, Pictures of Experimental
 							Apparatus, Pictures of Freezing-related Phenomena</unittitle>
@@ -1319,8 +1312,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">35</container>
 						<unitdate>1980-1983</unitdate>
 						<unittitle>Pipeline Consulting Trips</unittitle>
 					</did>
@@ -1330,8 +1323,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1978</unitdate>
 						<unittitle>Correspondence with Northwest Alaskan Pipeline</unittitle>
 					</did>
@@ -1341,31 +1334,31 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1973</unitdate>
 						<unittitle>Slides from Yakutsk Siberia Trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle>Negatives of Many Presentation Slides and Yakutsk Trip Pictures,
 							1</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle>Negatives of Many Presentation Slides and Yakutsk Trip Pictures,
 							2</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
+						<container label="unspecified" type="box">4</container>
 						<unitdate>July, 1973</unitdate>
 						<unittitle>Photos of Trip to Siberia and Permafrost Conference, Album
 							1</unittitle>
@@ -1378,7 +1371,7 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
+						<container label="unspecified" type="box">4</container>
 						<unitdate>July, 1973</unitdate>
 						<unittitle>Photos of Trip to Siberia and Permafrost Conference, Album
 							2</unittitle>
@@ -1389,8 +1382,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>July, 1973</unitdate>
 						<unittitle>Materials Related to Trip to Siberia and Permafrost Conference,
 							1</unittitle>
@@ -1401,8 +1394,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>July, 1973</unitdate>
 						<unittitle>Materials Related to Trip to Siberia and Permafrost Conference,
 							2</unittitle>
@@ -1413,8 +1406,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>1982</unitdate>
 						<unittitle>Moscow, 1</unittitle>
 					</did>
@@ -1424,8 +1417,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>1982</unitdate>
 						<unittitle>Moscow, 2</unittitle>
 					</did>
@@ -1435,44 +1428,44 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>1982</unitdate>
 						<unittitle>Photos of Trip to Moscow</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>1982</unitdate>
 						<unittitle>Moscow Lectures Materials</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitid label="Film ">F-365</unitid>
 						<unittitle>Film of Trip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unittitle>Slides</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle>Unidentified Travel Photos</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">15</container>
 						<unitdate>1981</unitdate>
 						<unittitle>Forms from the U.S.S.R. Embassy regarding trip to
 							Russia</unittitle>
@@ -1480,7 +1473,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
+						<container label="unspecified" type="box">7</container>
 
 						<unitdate>1930s</unitdate>
 						<unittitle>Photo Album of Travels</unittitle>
@@ -1497,7 +1490,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
+						<container label="unspecified" type="box">7</container>
 
 						<unitdate>1934</unitdate>
 						<unittitle>Photo Album of Negatives from European trip</unittitle>
@@ -1510,14 +1503,14 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitdate>June 28, 1983</unitdate>
 						<unittitle>Certificate of Appreciation - The Federal Inspector</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitdate>September 21, 1973</unitdate>
 						<unittitle>Faculty-Alumni Award - Alumni Association of the University of
 							Missouri-Columbia</unittitle>
@@ -1525,14 +1518,14 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unittitle>Faculty-Alumni Award - University of
 							Missouri-Columbia</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitdate>June 28, 1983</unitdate>
 						<unittitle>Recognition of Outstanding Achievement in Agronomy - American
 							Society of Agronomy Northeastern Branch</unittitle>
@@ -1540,8 +1533,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle>Certificats from American Society of Agronomy, Soil Science
 							Society of America</unittitle>
 					</did>
@@ -1560,8 +1553,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle>High School Columbia</unittitle>
 					</did>
 					<scopecontent>
@@ -1572,8 +1565,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle>Prof. Miller's writings</unittitle>
 					</did>
 					<scopecontent>
@@ -1583,21 +1576,21 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unittitle>Family Photo</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitdate>2011</unitdate>
 						<unittitle>Obituaries</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1960</unitdate>
 						<unittitle>Article on Robert D. Miller and Edward E. Miller: "The Agronomy
 							Brothers"</unittitle>
@@ -1606,8 +1599,8 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">15</container>
 						<unitdate>1907</unitdate>
 						<unittitle>Family History, Newspaper copy of a report on Edward Mix, First
 							Cousin of Merritt F. Miller</unittitle>
@@ -1616,7 +1609,7 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
+						<container label="unspecified" type="box">4</container>
 						<unitdate>2011</unitdate>
 						<unittitle><emph render="italic">East-Central Illinois Landforms and
 								Ecosystems in the Making 20,000 Years</emph> by Elisabeth M.
@@ -1629,8 +1622,8 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle>Europe Autolog, 1</unittitle>
 					</did>
 					<scopecontent>
@@ -1641,8 +1634,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle>Europe Autolog, 2</unittitle>
 					</did>
 					<scopecontent>
@@ -1652,8 +1645,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle>Europe Autolog, 3</unittitle>
 					</did>
 					<scopecontent>
@@ -1663,24 +1656,24 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">19</container>
 						<unitdate>1986</unitdate>
 						<unittitle>Letter from Sam Walton, the founder of Walmart</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle>A Photograph of Obama, with the Signature of Joe Biden
 							Printed</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">21</container>
 						<unitdate>1996</unitdate>
 						<unittitle>Statement of Elisabeth Hanson (Prof. Muller's sister) regarding
 							Being on the Andrea Doria</unittitle>
@@ -1688,8 +1681,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle>Autobiography of Carl Julius Ernest (Prof. Miller's Maternal
 							Grandfather)</unittitle>
 					</did>
@@ -1699,16 +1692,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">23</container>
 						<unitdate>1965</unitdate>
 						<unittitle>Correspondence with Paul R. Day</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle>Copy of Note Scrap and Remark Book of Edward Eddy Miller (Prof.
 							Miller's Grandfather), with Prof. Miller's Introduction</unittitle>
 					</did>
@@ -1719,28 +1712,28 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitdate>1978-1985</unitdate>
 						<unittitle>Prof. Miller's Address and Appointment Books 1-3</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unittitle>Prof. Miller's Name Card</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unittitle>A Small Electrical Piece of Lab Equipment with A Brass Part
 							Machined by Prof. Miller</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>Various</unitdate>
 						<unittitle>Photographs</unittitle>
 					</did>
@@ -1752,8 +1745,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>Various</unitdate>
 						<unittitle>Personal files</unittitle>
 					</did>
@@ -1771,7 +1764,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
+						<container label="unspecified" type="box">6</container>
 
 						<unitdate>1966</unitdate>
 						<unittitle>The University in Transition by James A. Perkins</unittitle>
@@ -1783,7 +1776,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
+						<container label="unspecified" type="box">6</container>
 
 						<unitdate>1935</unitdate>
 						<unittitle>The Crescent Yearbook</unittitle>
@@ -1795,14 +1788,14 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitdate>1962-1966</unitdate>
 						<unittitle>Prof. Miller's Address and Appointment Books</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
+						<container label="unspecified" type="box">7</container>
 
 						<unitdate>1931-1939</unitdate>
 						<unittitle>Scrapbook from Junior and High School, and College</unittitle>
@@ -1822,60 +1815,60 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">36</container>
 						<unittitle>Materials Prepared for the Book <emph render="italic">Descent
 								from Niitaka</emph></unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">37</container>
 						<unittitle>Appendix, First Draft</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">38</container>
 						<unittitle>Appendix, Set-Asides</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">39</container>
 						<unittitle>Memorandum and Agreement of <emph render="italic">Descant from
 								Niitaka</emph>, Responses Received after the Publication</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">40</container>
 						<unittitle>Correspondence in Search of Information and Responses</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle>Material Prepared for History Classes at Ithaca High
 							School</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">26</container>
 						<unitdate>2001</unitdate>
 						<unittitle>Correspondence with D-Day Museum</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unittitle>Framed Photo</unittitle>
 					</did>
 					<scopecontent>
@@ -1885,20 +1878,20 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unittitle>Slides</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unittitle>Slides and Negatives from Pacific</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle>World War II and Military Materials</unittitle>
 					</did>
 					<scopecontent>
@@ -1913,7 +1906,7 @@
 
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
+						<container label="unspecified" type="box">5</container>
 						<unitid>CD-1423-1425</unitid>
 						<unittitle>CDs of photographs related to WWII</unittitle>
 					</did>
@@ -1948,5 +1941,12 @@
 					University, 1901</item>
 			</list>
 		</odd>
-	</archdesc>
+	<userestrict>
+				<head>Restrictions on Use:</head>
+				<p>Oral history may be restricted in part.</p>
+			</userestrict><prefercite>
+				<head>Cite As:</head>
+				<p>Robert D. Miller papers, #21-13-3960. Division of Rare and Manuscript
+					Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

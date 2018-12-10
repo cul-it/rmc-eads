@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06934::Guide to the Files and manuscripts regarding Frances (Fanny) D'Arusmont Wright)//EN">RMM06934</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06934::Guide to the Files and manuscripts regarding Frances (Fanny) D'Arusmont Wright)//EN">RMM06934</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Files and manuscripts regarding Frances (Fanny) D'Arusmont
@@ -25,20 +25,26 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>May 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
 			<titleproper>Guide to the Files And Manuscripts Regarding Frances (Fanny) D'Arusmont
-					Wright,<lb/><date type="inclusive" encodinganalog="245$f">1746-1967.</date></titleproper>
+					Wright,<date encodinganalog="245$f" type="inclusive">1746-1967.</date></titleproper>
 			<num>Collection Number: 6934</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -64,13 +70,12 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Files and manuscripts regarding Frances
-				(Fanny) D'Arusmont Wright, <unitdate encodinganalog="MARC 245" type="inclusive">1746-1967.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Files and manuscripts regarding Frances
+				(Fanny) D'Arusmont Wright, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1746-1967.</unitdate>
 			<unitid label="Collection Number:">6934</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Wolfson, Theresa,  1897-1972, ">Wolfson, Theresa,
 				</persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>3.7 cubic ft.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>3.7 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Correspondence, manuscripts</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -80,7 +85,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Research materials and manuscripts collected by Wolfson for the book Frances Wright:
 				Free Inquirer, published in 1939, which Wolfson co-authored with A. J. G. (Alice
 				Gray) Perkins.</p>
@@ -156,14 +161,7 @@
 				<geogname encodinganalog="MARC 651">United States</geogname>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Fanny Wright Research Materials, #6934. Division of Rare and Manuscript
-					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<relatedmaterial>
 			<head id="a5">RELATED MATERIALS</head>
 			<p>Related collection: 5136, 5216.</p>
@@ -172,32 +170,32 @@
 			<head>SERIES LIST</head>
 			<p>
 				<emph render="bold">
-					<ref target="s1" show="replace" actuate="onrequest">Series I.
+					<ref actuate="onrequest" show="replace" target="s1">Series I.
 						Correspondence</ref>
-				</emph><lb/>Box 1 <lb/>Correspondence between Wolfson and Perkins and also with
+				</emph>Box 1 Correspondence between Wolfson and Perkins and also with
 				various research institutes. </p>
 			<p>
 				<emph render="bold">
-					<ref target="s2" show="replace" actuate="onrequest">Series II. Drafts</ref>
-				</emph><lb/>Boxes 2-5 <lb/>Work copies of various chapters </p>
+					<ref actuate="onrequest" show="replace" target="s2">Series II. Drafts</ref>
+				</emph>Boxes 2-5 Work copies of various chapters </p>
 			<p>
 				<emph render="bold">
-					<ref target="s3" show="replace" actuate="onrequest">Series III. Notes</ref>
-				</emph><lb/>Boxes 5-12 <lb/>Mostly handwritten by co-author A.J. Perkins, from many
+					<ref actuate="onrequest" show="replace" target="s3">Series III. Notes</ref>
+				</emph>Boxes 5-12 Mostly handwritten by co-author A.J. Perkins, from many
 				sources. Most of these are copied word for word from Fanny Wright letters although
 				some are excerpts of letters. In chronological order except for the first 3 folders
 				of notes from newspapers. </p>
 			<p>
 				<emph render="bold">
-					<ref target="s4" show="replace" actuate="onrequest">Series IV. Wright
+					<ref actuate="onrequest" show="replace" target="s4">Series IV. Wright
 						Documents</ref>
-				</emph><lb/>Box 13-14 <lb/>Various speeches and lectures by Fanny Wright. These have been microfilmed
+				</emph>Box 13-14 Various speeches and lectures by Fanny Wright. These have been microfilmed
 				(Film #5216) and should be used rather than originals due to their deteriorating condition.
 			</p>
 			<p>
 				<emph render="bold">
-					<ref target="s5" show="replace" actuate="onrequest">Series V. Microfilm</ref>
-				</emph><lb/>Box 15
+					<ref actuate="onrequest" show="replace" target="s5">Series V. Microfilm</ref>
+				</emph>Box 15
 			</p>
 		</arrangement>
 		<dsc type="combined">
@@ -206,18 +204,18 @@
 				<did>
 					<unittitle id="s1">Series I. Correspondence</unittitle>
 				</did> 
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1-19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1-19</container>
 						<unitdate>1909-1967</unitdate>
-						<unittitle/>
+						
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">20</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Undated correspondence</unittitle>
 					</did>
@@ -227,122 +225,122 @@
 				<did>
 					<unittitle id="s2">Series II. Drafts</unittitle>
 				</did> 
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">21</container>
 						<unitdate>n.d</unitdate>
 						<unittitle>Introduction</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">22-23</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">22-23</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Chapter l - A Fling at the Stars</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1-3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1-3</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Chapter 2 - Fulfillment and Fiasco</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">4-5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">4-5</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Chapter 3 - New Harmony - An Escape</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">6-8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">6-8</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Chapter 4 - Educating the Masses</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9-10</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9-10</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Chapter 5 - Priestess of Beelzebub</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1-2</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1-2</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Chapter 5 - continued</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">3-5</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">3-5</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Chapter 6 - Haiti and Europe</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">6-8</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">6-8</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Chapter 7 - Phiquepal D'Arusmont &amp; Marriage</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">1-5</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">1-5</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Chapter 8 - The Swing of the Pendulum</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Chapter 9 - no title</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Index and Bibliography</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Biography</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">9-11</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">9-11</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Miscellaneous unidentified segments</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Draft corrections and suggestions</unittitle>
 					</did>
@@ -352,114 +350,114 @@
 				<did>
 					<unittitle id="s3">Series III. Notes</unittitle>
 				</did> 
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1925-1928</unitdate>
 						<unittitle>New Harmony Gazette</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>1928-1931</unitdate>
 						<unittitle>Free Inquirer</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Miscellaneous newspaper notes </unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">5-14</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">5-14</container>
 						<unitdate>1795-1820</unitdate>
 						<unittitle>Notes</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">1-6</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">1-6</container>
 						<unitdate>1821-1823</unitdate>
 						<unittitle>Notes</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">1-8</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">1-8</container>
 						<unitdate>1824-1827</unitdate>
 						<unittitle>Notes</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">1-2</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">1-2</container>
 						<unitdate>1827-1828</unitdate>
 						<unittitle>Notes</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">9</container>
-						<container type="folder">1-10</container>
+						<container label="unspecified" type="box">9</container>
+						<container label="unspecified" type="folder">1-10</container>
 						<unitdate>1829-1836</unitdate>
 						<unittitle>Notes</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">1-19</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">1-19</container>
 						<unitdate>1837-1878</unitdate>
 						<unittitle>Notes</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">1-6</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">1-6</container>
 						<unitdate>1882-1930</unitdate>
 						<unittitle>Notes</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">7-14</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">7-14</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Undated notes</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">15-16</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">15-16</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Undated miscellaneous and index cards</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Poetry by Fanny Wright</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>n.d.</unitdate>
 						<unittitle>Index cards</unittitle>
 					</did>
@@ -471,99 +469,99 @@
 				<did>
 					<unittitle id="s4">Series IV. Wright documents</unittitle>
 				</did> 
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">3-4</container>
-						<unitdate/>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">3-4</container>
+						
 						<unittitle>Speeches and lectures</unittitle>
 					</did><scopecontent><p>-use microfilm</p></scopecontent>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">1-6</container>
-						<unitdate/>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">1-6</container>
+						
 						<unittitle>Speeches and lectures</unittitle>
 					</did><scopecontent><p>-use microfilm</p></scopecontent>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">7</container>
-						<unitdate/>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">7</container>
+						
 						<unittitle>Last Will and Testament</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">8-13</container>
-						<unitdate/>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">8-13</container>
+						
 						<unittitle>Correspondences</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">14</container>
-						<container type="folder">1</container>
-						<unitdate/>
+						<container label="unspecified" type="box">14</container>
+						<container label="unspecified" type="folder">1</container>
+						
 						<unittitle>Nashoba - Trust and Deed, Maps</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">14</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">14</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1827</unitdate>
 						<unittitle>Nashoba - Address</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">14</container>
-						<container type="folder">3</container>
-						<unitdate/>
+						<container label="unspecified" type="box">14</container>
+						<container label="unspecified" type="folder">3</container>
+						
 						<unittitle>Nashville</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">14</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">14</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>1761-1834</unitdate>
 						<unittitle>Agreements</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">14</container>
-						<container type="folder">5</container>
-						<unitdate/>
+						<container label="unspecified" type="box">14</container>
+						<container label="unspecified" type="folder">5</container>
+						
 						<unittitle>Photographs</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">14</container>
-						<container type="folder">6</container>
-						<unitdate/>
+						<container label="unspecified" type="box">14</container>
+						<container label="unspecified" type="folder">6</container>
+						
 						<unittitle>Publications</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">14</container>
-						<container type="folder">7</container>
-						<unitdate/>
+						<container label="unspecified" type="box">14</container>
+						<container label="unspecified" type="folder">7</container>
+						
 						<unittitle>Clippings</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">14</container>
-						<container type="folder">8</container>
-						<unitdate/>
+						<container label="unspecified" type="box">14</container>
+						<container label="unspecified" type="folder">8</container>
+						
 						<unittitle>Miscellaneous</unittitle>
 					</did>
 				</c02>
@@ -572,42 +570,46 @@
 				<did>
 					<unittitle id="s5">Series V. Microfilm</unittitle>
 				</did> 
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">15</container>
+						<container label="unspecified" type="box">15</container>
 						<unitid>Reel 1</unitid>
 						<unittitle>Copies of contents in Boxes 5-8</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">15</container>
+						<container label="unspecified" type="box">15</container>
 						<unitid>Reel 2</unitid>
 						<unittitle>Copies of contents in Boxes 8-14</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">15</container>
+						<container label="unspecified" type="box">15</container>
 						<unitid>Reel 3</unitid>
 						<unittitle>Copies of contents in Box 13</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">15</container>
+						<container label="unspecified" type="box">15</container>
 						<unitid>Reel 4</unitid>
 						<unittitle>Copies of contents in Box 13</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">15</container>
+						<container label="unspecified" type="box">15</container>
 						<unitid>Reel 5</unitid>
 						<unittitle>Speeches and lectures</unittitle>
 					</did>
 				</c02>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Fanny Wright Research Materials, #6934. Division of Rare and Manuscript
+					Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

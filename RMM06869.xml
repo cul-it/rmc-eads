@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06869::Guide to the Charles William Shepherd archive of voyages to Iceland)//EN">RMM06869</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06869::Guide to the Charles William Shepherd archive of voyages to Iceland)//EN">RMM06869</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Charles William Shepherd archive of voyages to Iceland,
@@ -25,21 +24,27 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>February 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
 			<titleproper>Guide to the Charles William Shepherd Archive Of Voyages To
-					Iceland, <lb/><date type="inclusive" encodinganalog="245$f">circa
+					Iceland, <date encodinganalog="245$f" type="inclusive">circa
 					1844-1890.</date></titleproper>
 			<num>Collection Number: 6869</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -65,13 +70,11 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Charles William Shepherd archive of
-				voyages to Iceland, <unitdate encodinganalog="MARC 245" type="inclusive">circa
-					1844-1890.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Charles William Shepherd archive of
+				voyages to Iceland, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1844-1890.</unitdate>
 			<unitid label="Collection Number:">6869</unitid>
 			<origination label="Creator:"/>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent> 1 cubic foot.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Manuscripts</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -107,39 +110,32 @@
 				<geogname encodinganalog="MARC 651">Iceland</geogname>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Charles William Shepherd Archive of Voyages to Iceland, #6869. Division of Rare
-					and Manuscript Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<arrangement>
 			<head>SERIES LIST</head>
 			<p>
 				<emph render="bold">
-					<ref target="s1" show="replace" actuate="onrequest">Series I. Correspondence</ref>
+					<ref actuate="onrequest" show="replace" target="s1">Series I. Correspondence</ref>
 				</emph>
 			</p>
 
 			<p>
 				<emph render="bold">
-					<ref target="s2" show="replace" actuate="onrequest">Series II. Newspaper Book Reviews</ref>
+					<ref actuate="onrequest" show="replace" target="s2">Series II. Newspaper Book Reviews</ref>
 				</emph>
 			</p>
 
 		
 			<p>
 				<emph render="bold">
-					<ref target="s3" show="replace" actuate="onrequest">Series III. Bound
+					<ref actuate="onrequest" show="replace" target="s3">Series III. Bound
 						Manuscripts</ref>
 				</emph>
 			</p>
 
 			<p>
 				<emph render="bold">
-					<ref target="s4" show="replace" actuate="onrequest">Series iV. Additional
+					<ref actuate="onrequest" show="replace" target="s4">Series iV. Additional
 						Material</ref>
 				</emph>
 			</p>
@@ -154,8 +150,8 @@
 				</did>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>Undated</unitdate>						
 						<unitid label="Item #: ">1</unitid>
 						<unittitle>Miscellaneous Notes</unittitle>
@@ -166,8 +162,8 @@
 					</scopecontent>
 				</c02>		
 				<c02 level="item">
-					<did><container type="box">1</container>
-						<container type="folder">1</container>
+					<did><container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>Undated</unitdate>
 						<unitid label="Item #: ">2</unitid>
 						<unittitle>Supplies expenses</unittitle>
@@ -177,8 +173,8 @@
 					</scopecontent>
 				</c02>
 				<c02 level="item">
-					<did><container type="box">1</container>
-						<container type="folder">1</container>
+					<did><container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>May 1, 1862</unitdate>
 						<unitid label="Item #: ">3</unitid>
 						<unittitle>Supply expense ledger</unittitle>
@@ -188,8 +184,8 @@
 					</scopecontent>
 				</c02>	
 				<c02 level="item">
-					<did><container type="box">1</container>
-						<container type="folder">1</container>
+					<did><container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>May 4, 1862</unitdate>
 						<unitid label="Item #: ">4</unitid>
 						<unittitle>Letter from C. W. Shepherd to “My dear Father”</unittitle>
@@ -200,8 +196,8 @@
 				</c02>
 				
 				<c02 level="item">
-					<did><container type="box">1</container>
-						<container type="folder">1</container>
+					<did><container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>May 5, 1862</unitdate>
 						<unitid label="Item #: ">5</unitid>
 						<unittitle>Letter from C. W. Shepherd to “My dear Father”</unittitle>
@@ -212,8 +208,8 @@
 					</scopecontent>
 				</c02>
 				<c02 level="item">
-					<did><container type="box">1</container>
-						<container type="folder">1</container>
+					<did><container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>May, 25, 1862</unitdate>
 						<unitid label="Item #: ">6</unitid>
 						<unittitle>Letter from C. W. Shepherd to “My dear Father”</unittitle>
@@ -224,8 +220,8 @@
 					</scopecontent>
 				</c02>
 				<c02 level="item">
-					<did><container type="box">1</container>
-						<container type="folder">1</container>
+					<did><container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>May 28, 1862</unitdate>
 						<unitid label="Item #: ">7</unitid>
 						<unittitle>Letter "Accepted by Mr. Shepherd"</unittitle>
@@ -235,8 +231,8 @@
 					</scopecontent>
 				</c02>
 				<c02 level="item">
-					<did><container type="box">1</container>
-						<container type="folder">1</container>
+					<did><container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>August 25, 1862</unitdate>
 						<unitid label="Item #: ">8</unitid>
 						<unittitle>Letter from James Retcher to "My dear Shepherd"</unittitle>
@@ -249,8 +245,8 @@
 				
 				
 				<c02 level="item">
-					<did><container type="box">1</container>
-						<container type="folder">1</container>
+					<did><container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>April 24, 1864</unitdate>
 						<unitid label="Item #: ">9</unitid>
 						<unittitle>Letter from O. V. Gislason to "My dear friend"</unittitle>
@@ -262,8 +258,8 @@
 				</c02>
 				
 				<c02 level="item">
-					<did><container type="box">1</container>
-						<container type="folder">1</container>
+					<did><container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>March 19, 1867</unitdate>
 						<unitid label="Item #: ">10</unitid>
 						<unittitle>Letter from the Royal Geographical Society</unittitle>
@@ -275,8 +271,8 @@
 					</scopecontent>
 				</c02>
 				<c02 level="item">
-					<did><container type="box">1</container>
-						<container type="folder">1</container>
+					<did><container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>March 21, 1867</unitdate>
 						<unitid label="Item #: ">11</unitid>
 						<unittitle>Letter from the Zoological Society of London</unittitle>
@@ -287,8 +283,8 @@
 					</scopecontent>
 				</c02>
 				<c02 level="item">
-					<did><container type="box">1</container>
-						<container type="folder">1</container>
+					<did><container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>April 9, 1868</unitdate>
 						<unitid label="Item #: ">12</unitid>
 						<unittitle>Letter from W. M. James to “My dear Shepherd"</unittitle>
@@ -299,8 +295,8 @@
 					</scopecontent>
 				</c02>
 				<c02 level="item">
-					<did><container type="box">1</container>
-						<container type="folder">1</container>
+					<did><container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>July 21, 1870</unitdate>
 						<unitid label="Item #: ">13</unitid>
 						<unittitle>Letter to Cheriton Bickley Kent from Kenny Mac Cormac</unittitle>
@@ -318,7 +314,7 @@
 				</did>
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>February 6, 1863</unitdate>
 						<unittitle><title>The Morning Star </title></unittitle>
 					</did>
@@ -329,7 +325,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate> December 15, 1866 </unitdate>
 						<unittitle><title>Maidstone Telegraph</title> No. 419</unittitle>
 					</did>
@@ -343,8 +339,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>	
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>	
 						<unitdate>March 9, 1867</unitdate>
 						<unittitle><title>The Athenaeum:</title> Journal of English and Foreign
 							Literature, Science, and the Fine Arts, London</unittitle>
@@ -356,7 +352,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>March 16, 1867</unitdate>
 						<unittitle><title>Land and Water</title> Vol. 3 No. 60</unittitle>
 					</did>
@@ -367,7 +363,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>March 11, 1867</unitdate>
 						<unittitle>The Globe and Traveller<title> No. 21, 407,
 							Evening</title></unittitle>
@@ -380,8 +376,8 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>March 16, 1867</unitdate>
 						<unittitle><title>Gardeners Chronicle</title></unittitle>
 					</did>
@@ -391,8 +387,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>April 4, 1867</unitdate>
 						<unittitle><title>Morning Herald</title></unittitle>
 					</did>
@@ -402,8 +398,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>April 6, 1867</unitdate>
 						<unittitle><title>London Review</title></unittitle>
 					</did>
@@ -413,8 +409,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>April 20, 1867</unitdate>
 						<unittitle><title>The Spectator</title></unittitle>
 					</did>
@@ -435,8 +431,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>April 27, 1867</unitdate>
 						<unittitle><title>Daily News</title></unittitle>
 					</did>
@@ -446,7 +442,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>April 29, 1867</unitdate>
 						<unittitle><title>The Birmingham Daily Gazette</title> Vol. 9 No.
 							1290</unittitle>
@@ -458,8 +454,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>May 11, 1867</unitdate>
 						<unittitle><title>Lancet</title></unittitle>
 					</did>
@@ -470,7 +466,7 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>May 30, 1867</unitdate>
 						<unittitle><title>The Pall Mall Gazette:</title> An Evening Newspaper and
 							Review</unittitle>
@@ -483,7 +479,7 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>June 6, 1867</unitdate>
 						<unittitle><title>The Times</title></unittitle>
 					</did>
@@ -502,7 +498,7 @@
 				</did>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="Item #: ">14</unitid>
 						<unitdate>April 19, 1862 - June 27, 1862</unitdate>
 						<unittitle>Travel Journal of C. W. Shepherd</unittitle>
@@ -514,7 +510,7 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="Item #: ">15</unitid>
 						<unitdate>April 19, 1862 - July 30, 1862</unitdate>
 						<unittitle>Travel journal of H. M. Upchev</unittitle>
@@ -529,7 +525,7 @@
 				<c02 level="item">
 					<did>
 						<unitdate>April 28, 1862 - July 29, 1862</unitdate>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="Item #: ">16</unitid>
 						<unittitle>Small black notepad</unittitle>
 					</did>
@@ -542,7 +538,7 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="Item #: ">17</unitid>
 						<unitdate>July 17 186? - October 3, 186??</unitdate>
 						<unittitle>Journal with red cover</unittitle>
@@ -560,7 +556,7 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitid label="Item #: ">18</unitid>
 						<unittitle>Small black wallet/purse with writings</unittitle>
 					</did>
@@ -577,7 +573,7 @@
 				</did>
 					<c02 level="item">
 						<did>
-							<container type="box">1</container>
+							<container label="unspecified" type="box">1</container>
 							<unitid label="Item #: ">19</unitid>
 							<unitdate>1867</unitdate>
 							<unittitle><title>The North-West Peninsula of Iceland: Being the Journal of
@@ -591,8 +587,8 @@
 					</c02>
 					<c02 level="item">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">2</container>							
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">2</container>							
 							<unitid label="Item #: ">20</unitid>
 							<unitdate>1867</unitdate>
 							<unittitle>Pages from <title>The North-West Peninsula of
@@ -601,7 +597,7 @@
 					</c02>
 					<c02 level="item">
 						<did>
-							<container type="mapcase-folder">1</container>
+							<container label="unspecified" type="mapcase-folder">1</container>
 							<unittitle>Goða-Foss painting</unittitle>
 						</did>
 						<scopecontent>
@@ -611,7 +607,7 @@
 					</c02>
 					<c02 level="item">
 						<did>
-							<container type="mapcase-folder">1</container>
+							<container label="unspecified" type="mapcase-folder">1</container>
 							<unittitle>Ísa-Fjörðr Town painting</unittitle>
 						</did>
 						<scopecontent>
@@ -621,13 +617,13 @@
 					</c02>
 				<c02 level="subseries">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>1844</unitdate>
 						<unittitle>Uppdráttr Íslands (Carte d‘Islande) by Olafs Nikolas Olsens</unittitle>
 					</did>
 										<c03 level="item">
 						<did>
-							<container type="mapcase-folder">1</container>
+							<container label="unspecified" type="mapcase-folder">1</container>
 							<unitdate>1844</unitdate>
 							<unittitle>
 							Title page describing the four maps in Icelandic and French)
@@ -636,14 +632,14 @@
 										</c03>
 											<c03 level="item">
 												<did>
-													<container type="mapcase-folder">1</container>
+													<container label="unspecified" type="mapcase-folder">1</container>
 													<unitdate>1844</unitdate>
 													<unittitle>No. 1, Map of Iceland (Ísland: Suðvestr - Fjórðúngr)</unittitle>
 												</did>
 											</c03>
 											<c03 level="item">
 												<did>
-													<container type="mapcase-folder">1</container>
+													<container label="unspecified" type="mapcase-folder">1</container>
 													<unitdate>1844</unitdate>
 													<unittitle>No. 2, Map of Iceland (Ísland: Suðaustr - Fjórðúngr)</unittitle>
 												</did>
@@ -651,14 +647,14 @@
 										
 						<c03 level="item">
 						<did>
-							<container type="mapcase-folder">1</container>
+							<container label="unspecified" type="mapcase-folder">1</container>
 							<unitdate>1844</unitdate>
 							<unittitle>No. 3, Map of Iceland (Ísland: Norðaustr - Fjórðúngr)</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="mapcase-folder">1</container>
+							<container label="unspecified" type="mapcase-folder">1</container>
 							<unitdate>1844</unitdate>
 							<unittitle>No. 4, Map of Iceland (Ísland: Norðvestr - Fjórðúngr)</unittitle>
 						</did>
@@ -670,5 +666,9 @@
 
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Charles William Shepherd Archive of Voyages to Iceland, #6869. Division of Rare
+					and Manuscript Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02618::Guide to the Lauriston Sharp papers)//EN">RMA02618</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02618::Guide to the Lauriston Sharp papers)//EN">RMA02618</eadid>
 
     <filedesc>
       <titlestmt>
@@ -25,21 +25,27 @@
     <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>June 2010</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Lauriston Sharp Papers,<lb/>
-        <date type="inclusive" encodinganalog="245$f">[ca.1940-1990]</date></titleproper>
+      <titleproper>Guide to the Lauriston Sharp Papers,
+        <date encodinganalog="245$f" type="inclusive">[ca.1940-1990]</date></titleproper>
       <num>Collection Number: 14-25-2618</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-            Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/>
-            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+            Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
+            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 
         </defitem>
         <defitem>
@@ -65,13 +71,12 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">Lauriston Sharp papers, <unitdate encodinganalog="MARC 245" type="inclusive">[ca.1940-1990]</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">Lauriston Sharp papers, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1940-1990</unitdate>
       <unitid label="Collection Number:">14-25-2618</unitid>
       <origination label="Creator:">
         <persname encodinganalog="100" normal="Sharp, Lauriston. ">Lauriston. Sharp
         </persname></origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>82.8 cubic ft.</extent></physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>82.8 cubic feet</extent></physdesc>
       <physdesc label="Forms of Material:">Correspondence, Manuscripts, Printed Materials, Research
         Materials</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -82,7 +87,7 @@
 
     </did>
     <bioghist encodinganalog="MARC 545">
-      <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+      <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
       <p>Anthropologist and Goldwin Smith Professor of Anthropology and Asian Studies, emeritus,
         Cornell University.</p>
       <p>Lauriston Sharp received in B.A. in 1929 at the University of Wisconsin. He studied in
@@ -132,18 +137,7 @@
         <geogname encodinganalog="MARC 651">Thailand.</geogname>
       </controlaccess>
     </controlaccess>
-    <descgrp>
-      <head id="a8">INFORMATION FOR USERS</head>
-      <userestrict>
-        <head>Restrictions on Use:</head>
-        <p>Boxes 89 and 90, which contain graduate student files, are restricted to permission of the archivist or death of the individual whose folder is requested.</p>
-      </userestrict>
-      <prefercite>
-        <head>Cite As:</head>
-        <p>Lauriston Sharp papers, #14-25-2618. Division of Rare and Manuscript Collections, Cornell
-          University Library.</p>
-      </prefercite>
-    </descgrp>
+    
     <relatedmaterial>
       <head id="a5">RELATED MATERIALS</head>
       <p>See also Lauriston Sharp oral histories, collection #13-6-2082.</p>
@@ -158,5 +152,12 @@
         </did>
       </c01>
     </dsc>
-  </archdesc>
+  <userestrict>
+        <head>Restrictions on Use:</head>
+        <p>Boxes 89 and 90, which contain graduate student files, are restricted to permission of the archivist or death of the individual whose folder is requested.</p>
+      </userestrict><prefercite>
+        <head>Cite As:</head>
+        <p>Lauriston Sharp papers, #14-25-2618. Division of Rare and Manuscript Collections, Cornell
+          University Library.</p>
+      </prefercite></archdesc>
 </ead>

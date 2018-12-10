@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04439::Guide to the Stepping stones: Letters to Eunice 1932-1974 on paths of    architecture and planning and archaeology, article)//EN">RMM04439</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04439::Guide to the Stepping stones: Letters to Eunice 1932-1974 on paths of    architecture and planning and archaeology, article)//EN">RMM04439</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Stepping stones: Letters to Eunice 1932-1974 on paths of
@@ -27,20 +27,26 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>March 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Stepping Stones :<lb/>Letters To Eunice 1932-1974 On Paths Of
-				Architecture And Planning And Archaeology, Article,<lb/><date type="inclusive" encodinganalog="245$f">1974, 1989.</date></titleproper>
+			<titleproper>Guide to the Stepping Stones :Letters To Eunice 1932-1974 On Paths Of
+				Architecture And Planning And Archaeology, Article,<date encodinganalog="245$f" type="inclusive">1974, 1989.</date></titleproper>
 			<num>Collection Number: </num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -66,15 +72,14 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Stepping stones : Letters to Eunice
-				1932-1974 on paths of architecture and planning and archaeology, article, <unitdate encodinganalog="MARC 245" type="inclusive">1974, 1989.</unitdate>
-			</unittitle>
-			<unitid label="Collection Number:"/>
+			<unittitle encodinganalog="MARC 245" label="Title:">Stepping stones : Letters to Eunice
+				1932-1974 on paths of architecture and planning and archaeology, article, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1974, 1989.</unitdate>
+			<unitid label="Collection Number:">RMM04439</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="100" normal="Whittlesey, Julian H.   ">Whittlesey, Julian
 					H. </persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.1 cubic ft.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.1 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Copies of correspondence and printed
 				material.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -86,7 +91,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Architect and city planner.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
@@ -109,32 +114,29 @@
 				<subject encodinganalog="MARC 650">Archaeology.</subject>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Stepping stones: Letters to Eunice 1932-1974 on paths of architecture and
-					planning and archaeology, article, #4439. Division of Rare and Manuscript
-					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unittitle>Bound volume of typescript transcripts of letters, with
 						autobiographical notes.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>1947</unitdate>
 					<unittitle>"Aerial Archaeology: A Personal Account," by Whittlesey in JOURNAL OF
 						FIELD ARCHAEOLOGY, Vol. 1, Number 1/2</unittitle>
 				</did>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Stepping stones: Letters to Eunice 1932-1974 on paths of architecture and
+					planning and archaeology, article, #4439. Division of Rare and Manuscript
+					Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

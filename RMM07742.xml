@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07742::National Lesbian and Gay Law Association (U.S.) records)//EN">RMM07742</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07742::National Lesbian and Gay Law Association (U.S.) records)//EN">RMM07742</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the National Lesbian and Gay Law Association (U.S.)
@@ -30,6 +29,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -39,19 +44,19 @@
    <frontmatter>
       <titlepage>
          <titleproper>Guide to the National Lesbian And Gay Law Association (U.S.)
-            Records,<lb/>1988-2015.</titleproper>
+            Records,1988-2015.</titleproper>
          <num>Collection Number: 7742</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -63,7 +68,7 @@
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
-               <item>Michael Luther, January 2007 <lb/>Sara McDermott, October 2009</item>
+               <item>Michael Luther, January 2007 Sara McDermott, October 2009</item>
             </defitem>
             <defitem>
                <label>Date modified:</label>
@@ -76,15 +81,14 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">National Lesbian and Gay Law
-            Association (U.S.) records, <unitdate type="inclusive" encodinganalog="MARC 245">1988-2015.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">National Lesbian and Gay Law
+            Association (U.S.) records, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1988-2015.</unitdate>
          <unitid label="Collection Number:">7742</unitid>
          <origination label="Creator:">
             <corpname encodinganalog="MARC 110">National Lesbian and Gay Law Association
                (U.S.)</corpname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>6.4 cubic feet</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>6.4 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Administrative files, conference materials and
             ephemera, law publications</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -97,7 +101,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="organization">ORGANIZATIONAL HISTORY </head>
+         <head altrender="organization" id="a2">ORGANIZATIONAL HISTORY </head>
          <p>The National Lesbian and Gay Law Association (NLGLA) is a national association of
             lawyers, judges and other legal professionals, law students, activists, and affiliated
             lesbian, gay, bisexual, transgender legal organizations. NLGLA promotes justice in and
@@ -138,14 +142,7 @@
             <subject encodinganalog="MARC 650">Unmarried couples--Legal status, laws, etc.</subject>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>National Lesbian and Gay Law Association (U.S.) records, #7742. Division of Rare and
-               Manuscript Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <relatedmaterial>
          <head id="a5">RELATED MATERIALS</head>
          <p>Collecting program: Human Sexuality Collection.</p>
@@ -155,25 +152,25 @@
        
             <p>
                <emph render="bold">
-                  <ref target="s1" show="replace" actuate="onrequest">Series I. National Organization</ref>
-               </emph><lb/> Boxes 1-2, 10
+                  <ref actuate="onrequest" show="replace" target="s1">Series I. National Organization</ref>
+               </emph> Boxes 1-2, 10
             </p>  <p>
                <emph render="bold">
-                  <ref target="s2" show="replace" actuate="onrequest">Series II. Conferences</ref>
-               </emph><lb/> Boxes 2-9
+                  <ref actuate="onrequest" show="replace" target="s2">Series II. Conferences</ref>
+               </emph> Boxes 2-9
             </p> <p>
                <emph render="bold">
-                  <ref target="s3" show="replace" actuate="onrequest">Series III. Affiliate Organizations</ref>
-               </emph><lb/>Box 6
+                  <ref actuate="onrequest" show="replace" target="s3">Series III. Affiliate Organizations</ref>
+               </emph>Box 6
             </p> <p>
                <emph render="bold">
-                  <ref target="s4" show="replace" actuate="onrequest">Series IV. Educational and Informative Publications Related to Lesbian/Gay
+                  <ref actuate="onrequest" show="replace" target="s4">Series IV. Educational and Informative Publications Related to Lesbian/Gay
                   Law</ref>
-               </emph><lb/>Box 6, 9
+               </emph>Box 6, 9
             </p> <p>
                <emph render="bold">
-                  <ref target="s5" show="replace" actuate="onrequest">Series V. Audio-Visual Material</ref>
-               </emph><lb/> 
+                  <ref actuate="onrequest" show="replace" target="s5">Series V. Audio-Visual Material</ref>
+               </emph> 
             </p> 
          
       </arrangement>
@@ -189,128 +186,128 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">1</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">1</container>
                      <unittitle>Bylaws</unittitle>
                      <unitdate>October 18, 1998</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">2</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">2</container>
                      <unittitle>Bylaws</unittitle>
                      <unitdate>August 1, 1998</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">3</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">3</container>
                      <unittitle>Business Plan</unittitle>
                      <unitdate>August 1997</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">4</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">4</container>
                      <unittitle>Natalie Butto Restructure/Long Term Plan</unittitle>
                      <unitdate>July 1997</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">5-6</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">5-6</container>
                      <unittitle>Natalie Butto Restructure/Long Term Plan</unittitle>
                      <unitdate>January 1997</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">7</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">7</container>
                      <unittitle>James Schwartz Bylaw Committee</unittitle>
                      <unitdate>1997</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">8</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">8</container>
                      <unittitle>Board of Directors Policies and Procedures</unittitle>
                      <unitdate>1997</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">9</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">9</container>
                      <unittitle>Membership Marketing Plan</unittitle>
                      <unitdate>1996-1997</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">10</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">10</container>
                      <unittitle>Policies and Procedures</unittitle>
                      <unitdate>1995</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">11</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">11</container>
                      <unittitle>Bylaws</unittitle>
                      <unitdate>1994-1997</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">12</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">12</container>
                      <unittitle>Bylaws, Amendments, and Organizational Proposals</unittitle>
                      <unitdate>1994</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">13</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">13</container>
                      <unittitle>Long Range Planning</unittitle>
                      <unitdate>1993</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">14</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">14</container>
                      <unittitle>"Grants for Minorities"</unittitle>
                      <unitdate>1992</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">15</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">15</container>
                      <unittitle>How to Form a Lesbian/Gay Law Association</unittitle>
                      <unitdate>1990</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">16</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">16</container>
                      <unittitle>Bylaws and Articles of Incorporation of NLGLA
                         Organizations</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">17</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">17</container>
                      <unittitle>Policies and Procedures</unittitle>
                   </did>
                </c03>
@@ -321,96 +318,96 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">18</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">18</container>
                      <unittitle>Board of Directors Meeting--Agenda and Meeting Documents</unittitle>
                      <unitdate>1999</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">19</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">19</container>
                      <unittitle>Board Meeting Minutes</unittitle>
                      <unitdate>1998</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">20</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">20</container>
                      <unittitle>Agendas</unittitle>
                      <unitdate>1997</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">21</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">21</container>
                      <unittitle>Minutes</unittitle>
                      <unitdate>1997</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">22</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">22</container>
                      <unittitle>Messages Regarding Membership</unittitle>
                      <unitdate>1997</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">23</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">23</container>
                      <unittitle>Correspondence</unittitle>
                      <unitdate>1997</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">24</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">24</container>
                      <unittitle>Board Member Reports</unittitle>
                      <unitdate>1996-1997</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">25-26</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">25-26</container>
                      <unittitle>Board Meetings</unittitle>
                      <unitdate>1996</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">27</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">27</container>
                      <unittitle>Correspondence</unittitle>
                      <unitdate>1996</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">28</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">28</container>
                      <unittitle>History</unittitle>
                      <unitdate>1995</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">29</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">29</container>
                      <unittitle>Agendas, Miscellaneous</unittitle>
                      <unitdate>1994-1996</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">30</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">30</container>
                      <unittitle>Judicial Education and Selection Committee Board Member
                         Report</unittitle>
                      <unitdate>1994</unitdate>
@@ -418,163 +415,163 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">31</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">31</container>
                      <unittitle>Board of Directors</unittitle>
                      <unitdate>1994</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">32-33</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">32-33</container>
                      <unittitle>Correspondence</unittitle>
                      <unitdate>1994</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">34</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">34</container>
                      <unittitle>NLGLA Meeting Photographs</unittitle>
                      <unitdate>1994</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">35</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">35</container>
                      <unittitle>Board Meetings</unittitle>
                      <unitdate>1993-1994</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">36</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">36</container>
                      <unittitle>Board of Directors</unittitle>
                      <unitdate>1993</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">37</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">37</container>
                      <unittitle>Legal Counsil</unittitle>
                      <unitdate>1993</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">38</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">38</container>
                      <unittitle>Correspondence</unittitle>
                      <unitdate>1993</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">39</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">39</container>
                      <unittitle>Committees</unittitle>
                      <unitdate>1992-1993</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">40</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">40</container>
                      <unittitle>Correspondence</unittitle>
                      <unitdate>1992</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">41</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">41</container>
                      <unittitle>Balance Sheets</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">42</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">42</container>
                      <unittitle>Judicial Nominations Projects</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">43</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">43</container>
                      <unittitle>Membership</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">10</container>
-                     <container type="folder">1</container>
+                     <container label="unspecified" type="box">10</container>
+                     <container label="unspecified" type="folder">1</container>
                      <unittitle>Minutes</unittitle>
                      <unitdate>1998-2004</unitdate>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">10</container>
-                     <container type="folder">2</container>
+                     <container label="unspecified" type="box">10</container>
+                     <container label="unspecified" type="folder">2</container>
                      <unittitle>Correspondence and board lists</unittitle>
                      <unitdate>2003-2005</unitdate>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">10</container>
-                     <container type="folder">3</container>
+                     <container label="unspecified" type="box">10</container>
+                     <container label="unspecified" type="folder">3</container>
                      <unitdate>1991</unitdate>
                      <unittitle>Corporate Application for Exemption</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">10</container>
-                     <container type="folder">4</container>
+                     <container label="unspecified" type="box">10</container>
+                     <container label="unspecified" type="folder">4</container>
                      <unitdate>1987</unitdate>
                      <unittitle>March on Washington</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">10</container>
-                     <container type="folder">5</container>
+                     <container label="unspecified" type="box">10</container>
+                     <container label="unspecified" type="folder">5</container>
                      <unitdate>1999-2005</unitdate>
                      <unittitle>Profit and Loss Budget, membership directory</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">10</container>
-                     <container type="folder">6</container>
+                     <container label="unspecified" type="box">10</container>
+                     <container label="unspecified" type="folder">6</container>
                      <unitdate>1991-1994</unitdate>
                      <unittitle>Corporate papers</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">10</container>
-                     <container type="folder">7</container>
+                     <container label="unspecified" type="box">10</container>
+                     <container label="unspecified" type="folder">7</container>
                      <unitdate>1997-2000</unitdate>
                      <unittitle>Correspondence, Bylaws, and Lists of Board Members</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">10</container>
-                     <container type="folder">8-9</container>
+                     <container label="unspecified" type="box">10</container>
+                     <container label="unspecified" type="folder">8-9</container>
                      <unitdate>1990-1996</unitdate>
                      <unittitle>Bar Association Correspondence</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">10</container>
-                     <container type="folder">10</container>
+                     <container label="unspecified" type="box">10</container>
+                     <container label="unspecified" type="folder">10</container>
                      <unitdate>1991-1998</unitdate>
                      <unittitle>Minutes</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">10</container>
-                     <container type="folder">11</container>
+                     <container label="unspecified" type="box">10</container>
+                     <container label="unspecified" type="folder">11</container>
                      <unitdate>2000-2003</unitdate>
                      <unittitle>Board lists, outdated bylaws, and miscellaneous correspondence</unittitle>
                   </did>
@@ -586,30 +583,30 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">44</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">44</container>
                      <unittitle>NLGLA Amicus Curiae Brief Policy</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">1</container>
-                     <container type="folder">45-47</container>
+                     <container label="unspecified" type="box">1</container>
+                     <container label="unspecified" type="folder">45-47</container>
                      <unittitle>Forum for Academic and Institutional Rights v. Rumsfeld</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">1</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">1</container>
                      <unittitle>Amicus Curiae Briefs</unittitle>
                      <unitdate>1992</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">2</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">2</container>
                      <unittitle>Amicus Curiae Briefs</unittitle>
                   </did>
                </c03>
@@ -620,87 +617,87 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">3</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">3</container>
                      <unittitle>Brochures</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">4</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">4</container>
                      <unittitle>Law and Sexuality: The Official Legal Journal of the
                         NLGLA</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">5</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">5</container>
                      <unittitle>Correspondence Regarding Newsletters</unittitle>
                      <unitdate>1993-1997</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">6</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">6</container>
                      <unittitle>Newsletters</unittitle>
                      <unitdate>1995-2004</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">7</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">7</container>
                      <unittitle>Newsletters</unittitle>
                      <unitdate>1990-1994</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">8</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">8</container>
                      <unittitle>Membership Directory</unittitle>
                      <unitdate>2003-2004</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">9-10</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">9-10</container>
                      <unittitle>Membership Directory</unittitle>
                      <unitdate>2001</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">11</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">11</container>
                      <unittitle>Membership Directory</unittitle>
                      <unitdate>2000</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">12</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">12</container>
                      <unittitle>Membership Directory Correspondence</unittitle>
                      <unitdate>1999</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">13</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">13</container>
                      <unittitle>Membership Directory</unittitle>
                      <unitdate>1999</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">14</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">14</container>
                      <unittitle>Membership Directory</unittitle>
                      <unitdate>1993-1994</unitdate>
                   </did>
@@ -719,28 +716,28 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">15</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">15</container>
                      <unittitle>"Timeline" (Program Committee)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">16</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">16</container>
                      <unittitle>Speakers</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">17</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">17</container>
                      <unittitle>Publicity and Attendance</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">1</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">1</container>
                      <unittitle>Sourcebook, with some correspondence</unittitle>
                   </did>
                </c03>
@@ -751,98 +748,98 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">18</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">18</container>
                      <unittitle>Program Committee</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">19</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">19</container>
                      <unittitle>Speaker Suggestions</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">20</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">20</container>
                      <unittitle>Minority Speaker Suggestions</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">21-22</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">21-22</container>
                      <unittitle>Potential Speakers and Panels</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">23</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">23</container>
                      <unittitle>Speakers</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">24</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">24</container>
                      <unittitle>Topic Areas</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">25</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">25</container>
                      <unittitle>Sodomy Law Reform Day</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">26</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">26</container>
                      <unittitle>AIDS Law Day</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">27</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">27</container>
                      <unittitle>Publicity</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">28</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">28</container>
                      <unittitle>Correspondence</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">29</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">29</container>
                      <unittitle>Program and Schedule</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">30</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">30</container>
                      <unittitle>Post-Conference Reports</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">31</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">31</container>
                      <unittitle>Evaluations</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">2</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">2</container>
                      <unittitle>Mailer and pamphlet</unittitle>
                   </did>
                </c03>
@@ -851,8 +848,8 @@
                <did><unittitle>Lavender Law II, 1991</unittitle></did>
                <c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">3</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">3</container>
                      <unittitle>Program</unittitle>
                   </did>
                </c03></c02><c02 level="subseries">
@@ -861,49 +858,49 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">32</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">32</container>
                      <unittitle>Correspondence</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">33</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">33</container>
                      <unittitle>Biographies and Resumes</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">34</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">34</container>
                      <unittitle>"Activist Tract"--Civil Rights Speakers</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">35</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">35</container>
                      <unittitle>Conference materials</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">36</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">36</container>
                      <unittitle>Attendees' Welcome Materials</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">2</container>
-                     <container type="folder">37</container>
+                     <container label="unspecified" type="box">2</container>
+                     <container label="unspecified" type="folder">37</container>
                      <unittitle>AIDS Law Day</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">4</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">4</container>
                      <unittitle>Copies of Program pamphlet</unittitle>
                   </did>
                </c03>
@@ -911,8 +908,8 @@
                <did><unittitle>Lavender Law, 1993 Seattle</unittitle></did>
                <c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">5</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">5</container>
                      <unittitle>Schedule and program</unittitle>
                   </did>
                </c03></c02>
@@ -922,72 +919,72 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">1</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">1</container>
                      <unittitle>Executive Committee</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">2</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">2</container>
                      <unittitle>Location Selection Process</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">3</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">3</container>
                      <unittitle>Panelist Biographies</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">4</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">4</container>
                      <unittitle>Panelist Questionnaire</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">5</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">5</container>
                      <unittitle>Continuing Legal Education</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">6</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">6</container>
                      <unittitle>Tentative Agendas</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">7</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">7</container>
                      <unittitle>Publicity</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">8</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">8</container>
                      <unittitle>Materials for First Day (AIDS/Family/Anti-Gay Initiatives Law
                         Day)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">9-11</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">9-11</container>
                      <unittitle>Materials for General Conference Programming (Bound and Loose
                         Copies)</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">6</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">6</container>
                      <unittitle>Program</unittitle>
                   </did>
                </c03>
@@ -998,62 +995,62 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">12</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">12</container>
                      <unittitle>Location Selection Process</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">13</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">13</container>
                      <unittitle>Correspondence and Event Planning</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">14</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">14</container>
                      <unittitle>Continuing Legal Education</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">15</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">15</container>
                      <unittitle>Publicity and Mass Mailings</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">16-18</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">16-18</container>
                      <unittitle>Conference Materials (Binder 1)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">19-21</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">19-21</container>
                      <unittitle>Conference Materials (Binder 2)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">3</container>
-                     <container type="folder">22-24</container>
+                     <container label="unspecified" type="box">3</container>
+                     <container label="unspecified" type="folder">22-24</container>
                      <unittitle>Conference Materials (Binder 3--Official Copy)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">7</container>
+                     <container label="unspecified" type="box">7</container>
                      <unittitle>White and Black Lavender Law V T-Shirts</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">7</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">7</container>
                      <unittitle>Program</unittitle>
                   </did>
                </c03>
@@ -1064,63 +1061,63 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">1</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">1</container>
                      <unittitle>On-Site Inspection Report</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">2</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">2</container>
                      <unittitle>Correspondence and Event Planning</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">3</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">3</container>
                      <unittitle>Endorsements and Program Advertising</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">4</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">4</container>
                      <unittitle>Gill Foundation Grant</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">5</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">5</container>
                      <unittitle>Publicity and Mass Mailings</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">6</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">6</container>
                      <unittitle>Drafts of Welcome Materials</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">7-10</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">7-10</container>
                      <unittitle>Conference Materials</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">11</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">11</container>
                      <unittitle>Post-Conference Feedback</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">8</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">8</container>
                      <unittitle>Program and booklet</unittitle>
                   </did>
                </c03>
@@ -1131,21 +1128,21 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">12</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">12</container>
                      <unittitle>Correspondence and Event Planning</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">13</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">13</container>
                      <unittitle>Publicity and Mass Mailings</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">9</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">9</container>
                      <unittitle>Program and letter</unittitle>
                   </did>
                </c03>
@@ -1156,35 +1153,35 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">14</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">14</container>
                      <unittitle>Location Search: Madison Renaissance Hotel</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">15</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">15</container>
                      <unittitle>Publicity and Mass Mailings</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">16-18</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">16-18</container>
                      <unittitle>Conference Materials</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">7</container>
+                     <container label="unspecified" type="box">7</container>
                      <unittitle>Melinda M. Whiteway Nametag</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">10</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">10</container>
                      <unittitle>Program and schedule</unittitle>
                   </did>
                </c03>
@@ -1195,21 +1192,21 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">19</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">19</container>
                      <unittitle>Brochures and Website</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">20</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">20</container>
                      <unittitle>Conference Materials</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">11-12</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">11-12</container>
                      <unittitle>Programs, two volumes of conference session material</unittitle>
                   </did>
                </c03>
@@ -1220,20 +1217,20 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">21-24</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">21-24</container>
                      <unittitle>Conference Materials</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">13</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">13</container>
                      <unittitle>Employment Law Panel</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">13-14</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">13-14</container>
                      <unittitle>Session booklets</unittitle>
                   </did>
                </c03>
@@ -1244,28 +1241,28 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">25</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">25</container>
                      <unittitle>Publicity and Mass Mailings</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">4</container>
-                     <container type="folder">26</container>
+                     <container label="unspecified" type="box">4</container>
+                     <container label="unspecified" type="folder">26</container>
                      <unittitle>Conference Materials: Programs</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">1-5</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">1-5</container>
                      <unittitle>Conference Materials</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">15</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">15</container>
                      <unittitle>Program, Panels and Bios</unittitle>
                   </did>
                </c03>
@@ -1276,28 +1273,28 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">6</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">6</container>
                      <unittitle>Conference Materials: Programs, Brochures, and CD-ROMs</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">7-11</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">7-11</container>
                      <unittitle>Conference Materials (Binder 1)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">12-16</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">12-16</container>
                      <unittitle>Conference Materials (Binder 2)</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">7</container>
+                     <container label="unspecified" type="box">7</container>
                      <unittitle>White Lavender Law 2003 T-Shirt</unittitle>
                   </did>
                </c03>
@@ -1308,34 +1305,34 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">17</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">17</container>
                      <unittitle>Conference Materials: Programs, Brochures, and CD-ROMs</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">5</container>
-                     <container type="folder">18</container>
+                     <container label="unspecified" type="box">5</container>
+                     <container label="unspecified" type="folder">18</container>
                      <unittitle>Conference Materials</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">1-2</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">1-2</container>
                      <unittitle>Conference Materials, Continued</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">7</container>
+                     <container label="unspecified" type="box">7</container>
                      <unittitle>D'Arcy Kemnitz Nametags</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">16</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">16</container>
                      <unittitle>Career Fair</unittitle>
                   </did>
                </c03>
@@ -1346,14 +1343,14 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">3</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">3</container>
                      <unittitle>Conference Materials: Programs and Brochures</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">17</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">17</container>
                      <unittitle>Programs, Career Fair, and magnets</unittitle>
                   </did>
                </c03>
@@ -1364,15 +1361,15 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">4</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">4</container>
                      <unittitle>Publicity and Mass Mailings</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">5</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">5</container>
                      <unittitle>Programs and CD-ROMs</unittitle>
                   </did>
                </c03>
@@ -1383,14 +1380,14 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">6</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">6</container>
                      <unittitle>Publicity and CD-ROM</unittitle>
                   </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">18</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">18</container>
                      <unittitle>Publicity, mailers, and magnets</unittitle>
                   </did>
                </c03>
@@ -1401,8 +1398,8 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">7</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">7</container>
                      <unittitle>Publicity, Program, and CD-ROM</unittitle>
                   </did>
                </c03>
@@ -1412,8 +1409,8 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">19</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">19</container>
                      <unittitle>Program</unittitle>
                   </did>
                </c03>
@@ -1423,8 +1420,8 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">20</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">20</container>
                      <unittitle>Program</unittitle>
                   </did>
                </c03>
@@ -1434,8 +1431,8 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">21</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">21</container>
                      <unittitle>Program</unittitle>
                   </did>
                </c03>
@@ -1445,15 +1442,15 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">22</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">22</container>
                      <unittitle>Program</unittitle>
                   </did>
                </c03>
             </c02>
-            <c02>
+            <c02 level="otherlevel" otherlevel="unspecified">
                <did>
-                  <container type="box">8</container>
+                  <container label="unspecified" type="box">8</container>
                   <unitdate>2008-2015</unitdate>
                   <unittitle>Lavender Law conference programs and brochures</unittitle>
                </did>
@@ -1463,8 +1460,8 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">8</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">8</container>
                      <unittitle>"How to Do a Regional Conference" Packet (by Margaret
                         Fine)</unittitle>
                      <unitdate>1993</unitdate>
@@ -1472,38 +1469,38 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">9</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">9</container>
                      <unittitle>Brochures</unittitle>
                      <unitdate>1991-1995</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">10</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">10</container>
                      <unittitle>Regional Conferences</unittitle>
                      <unitdate>1993-1995</unitdate>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">6</container>
-                     <container type="folder">11</container>
+                     <container label="unspecified" type="box">6</container>
+                     <container label="unspecified" type="folder">11</container>
                      <unittitle>Regional Conferences</unittitle>
                      <unitdate>1992-1993</unitdate>
                   </did>
                </c03><c03 level="file">
                <did>
-                  <container type="box">9</container>
-                  <container type="folder">23</container>
+                  <container label="unspecified" type="box">9</container>
+                  <container label="unspecified" type="folder">23</container>
                   <unitdate>2013</unitdate>
                   <unittitle>Out and Proud Corporate Counsel Institute and Award Reception</unittitle>
                </did>
                </c03><c03 level="file">
                   <did>
-                     <container type="box">9</container>
-                     <container type="folder">23</container>
+                     <container label="unspecified" type="box">9</container>
+                     <container label="unspecified" type="folder">23</container>
                      <unitdate>2011</unitdate>
                      <unittitle>GLBT Legal Symposium and CLE Day</unittitle>
                   </did>
@@ -1517,23 +1514,23 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>Lists of Organizations</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Events</unittitle>
                   <unitdate>1993-2005</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>American Bar Association: Continuing Legal Education
                      Material</unittitle>
                   <unitdate>1994</unitdate>
@@ -1541,16 +1538,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">15</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">15</container>
                   <unittitle>American Bar Association: Allies for Justice Award</unittitle>
 
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">16</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">16</container>
                   <unittitle>American Bar Association: "Answering the Call" Service
                      Project</unittitle>
                   <unitdate>2005-2006</unitdate>
@@ -1558,79 +1555,79 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">17-18</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">17-18</container>
                   <unittitle>American Bar Association: HIV/AIDS Law and Practice</unittitle>
                   <unitdate>2006</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">19</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">19</container>
                   <unittitle>American Bar Association</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">20</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">20</container>
                   <unittitle>American Civil Liberties Union</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">21</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">21</container>
                   <unittitle>Bay Area Lawyers for Individual Freedom</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">22</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">22</container>
                   <unittitle>International Gay and Lesbian Association</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">23</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">23</container>
                   <unittitle>Gay and Lesbian Attorneys of Washington (GAYLAW)</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unittitle>Gay/Lesbian Legal Referral Service</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">25</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">25</container>
                   <unittitle>Lawyers for Human Rights</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">26</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">26</container>
                   <unittitle>Massachusetts Lesbian and Gay Bar Association</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">27</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">27</container>
                   <unittitle>National Center for Lesbian Rights</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">28</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">28</container>
                   <unittitle>National Youth Advocacy Coalition</unittitle>
                </did>
             </c02>
@@ -1642,93 +1639,93 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">29</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">29</container>
                   <unittitle>Law Journals A-G</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">30</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">30</container>
                   <unittitle>Law Journals L-Y</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">31</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">31</container>
                   <unittitle>News Publications</unittitle>
                   <unitdate>1990-1999</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <container type="folder">32</container>
+                  <container label="unspecified" type="box">6</container>
+                  <container label="unspecified" type="folder">32</container>
                   <unittitle>Educational Materials</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">8</container>
+                  <container label="unspecified" type="box">8</container>
                   <unitdate>1999-2000</unitdate>
                   <unittitle>Report of the DC Bar Task Force on sexual orientation and the legal workplace</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">9</container>
-                  <container type="folder">24</container>
+                  <container label="unspecified" type="box">9</container>
+                  <container label="unspecified" type="folder">24</container>
                   <unitdate>1994</unitdate>
                   <unittitle>Los Angeles Bar Studies</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">9</container>
-                  <container type="folder">25</container>
+                  <container label="unspecified" type="box">9</container>
+                  <container label="unspecified" type="folder">25</container>
                   <unitdate>1991, 1996</unitdate>
                   <unittitle>San Francisco Bar Studies</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">9</container>
-                  <container type="folder">26</container>
+                  <container label="unspecified" type="box">9</container>
+                  <container label="unspecified" type="folder">26</container>
                   <unitdate>2005</unitdate>
                   <unittitle>New York Bar Studies</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">9</container>
-                  <container type="folder">27</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">9</container>
+                  <container label="unspecified" type="folder">27</container>
+                  
                   <unittitle>Bar Oath Association</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">9</container>
-                  <container type="folder">28</container>
+                  <container label="unspecified" type="box">9</container>
+                  <container label="unspecified" type="folder">28</container>
                   <unitdate>1996, 2008</unitdate>
                   <unittitle>Biases</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">9</container>
-                  <container type="folder">29</container>
+                  <container label="unspecified" type="box">9</container>
+                  <container label="unspecified" type="folder">29</container>
                   <unitdate>2006</unitdate>
                   <unittitle>Solomon Amendment</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">9</container>
-                  <container type="folder">30</container>
-                  <unitdate/>
+                  <container label="unspecified" type="box">9</container>
+                  <container label="unspecified" type="folder">30</container>
+                  
                   <unittitle>Domestic Violence materials</unittitle>
                </did>
             </c02>
@@ -1737,103 +1734,107 @@
             <did><unittitle id="s5">Series V. Audio-Visual Material</unittitle></did>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unitid>tr-10854-10879</unitid>
                   <unitdate>1988</unitdate>
                   <unittitle>Lavender Law Conference cassettes</unittitle>
                </did>
             </c02><c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unitid>V-9074-9076</unitid>
                   <unitdate>September 9, 2006</unitdate>
                   <unittitle>Ambassador Ballroom</unittitle>
                </did>
             </c02> <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unitid>V-9077</unitid>
                   <unitdate>September 9, 2006</unitdate>
                   <unittitle>Diplomat Ballroom, Dan Bradley luncheon</unittitle>
                </did>
             </c02> <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unitid>V-9078</unitid>
                   <unitdate>August 26, 2010</unitdate>
                   <unittitle>Dan Bradley award ceremony</unittitle>
                </did>
             </c02> <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unitid>V-9079-9080</unitid>
                   <unitdate>September 8, 2006</unitdate>
                   <unittitle>Regency</unittitle>
                </did>
             </c02> <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unitid>V-9081</unitid>
                   <unitdate>September 8, 2007</unitdate>
                   <unittitle>Lavender Law: Same Sex Relationships</unittitle>
                </did>
             </c02> <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unitid>V-9082</unitid>
                   <unitdate>2007</unitdate>
                   <unittitle>Ethics in Immigration</unittitle>
                </did>
             </c02> <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unitid>V-9083</unitid>
                   <unitdate>2007</unitdate>
                   <unittitle>Leveraging your professional advantage through diversity</unittitle>
                </did>
             </c02> <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unitid>V-9084</unitid>
                   <unitdate>2007</unitdate>
                   <unittitle>Lavender Law</unittitle>
                </did>
             </c02> <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unitid>V-9085</unitid>
                   <unitdate>2007</unitdate>
                   <unittitle>Lavender Law: Dismantling Gender</unittitle>
                </did>
             </c02> <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unitid>V-9086</unitid>
                   <unitdate>2007</unitdate>
                   <unittitle>Estate Planning for Same Sex Couples</unittitle>
                </did>
             </c02> <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unitid>V-9087</unitid>
                   <unitdate>2007</unitdate>
                   <unittitle>Lavender Law: Examining 'Backlash'</unittitle>
                </did>
             </c02> <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unitid>V-9088</unitid>
                   <unitdate>2007</unitdate>
                   <unittitle>LGBT ProBono in Private Practice</unittitle>
                </did>
             </c02> <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unitid>V-9089</unitid>
                   <unitdate>2007</unitdate>
                   <unittitle>Lavender Law: Speech in the Culture Wars</unittitle>
                </did>
             </c02>  </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>National Lesbian and Gay Law Association (U.S.) records, #7742. Division of Rare and
+               Manuscript Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

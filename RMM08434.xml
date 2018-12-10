@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08434::Guide to the Ben Grauer collection of French music correspondence)//EN">RMM08434</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08434::Guide to the Ben Grauer collection of French music correspondence)//EN">RMM08434</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Ben Grauer collection of French music correspondence,
@@ -23,20 +23,26 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>March 2014</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
 			<titleproper>Guide to the Ben Grauer Collection of French Music
-					Correspondence,<lb/><date type="inclusive" encodinganalog="245$f">1835-1915.</date></titleproper>
+					Correspondence,<date encodinganalog="245$f" type="inclusive">1835-1915.</date></titleproper>
 			<num>Collection Number: 8434</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -58,12 +64,11 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Ben Grauer collection of French
-				music correspondence, <unitdate encodinganalog="MARC 245" type="inclusive">1835-1915.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Ben Grauer collection of French
+				music correspondence, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1835-1915.</unitdate>
 			<unitid label="Collection Number:">8434</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Grauer, Ben,   ">Grauer, Ben.</persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1.3 cubic feet.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1.3 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Correspondence, manuscripts, newspapers.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -104,21 +109,14 @@
 					century.</geogname>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Ben Grauer collection of French music correspondence, #8434. Division of Rare and
-					Manuscript Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
+					
 					<unittitle>A</unittitle>
 				</did>
 				<scopecontent>
@@ -127,9 +125,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
+					
 					<unittitle>Ba_</unittitle>
 				</did>
 				<scopecontent>
@@ -138,9 +136,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
+					
 					<unittitle>Be_/Bi_</unittitle>
 				</did>
 				<scopecontent>
@@ -149,9 +147,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
+					
 					<unittitle>Bl_/Bo_</unittitle>
 				</did>
 				<scopecontent>
@@ -160,9 +158,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
+					
 					<unittitle>Br_/Bu_</unittitle>
 				</did>
 				<scopecontent>
@@ -171,9 +169,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
+					
 					<unittitle>Ca_</unittitle>
 				</did>
 				<scopecontent>
@@ -182,9 +180,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
+					
 					<unittitle>Ch_/Cl_</unittitle>
 				</did>
 				<scopecontent>
@@ -193,9 +191,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
+					
 					<unittitle>Cl_/Co_/Cr_</unittitle>
 				</did>
 				<scopecontent>
@@ -204,9 +202,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
+					
 					<unittitle>Da_</unittitle>
 				</did>
 				<scopecontent>
@@ -215,9 +213,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
+					
 					<unittitle>De_</unittitle>
 				</did>
 				<scopecontent>
@@ -226,9 +224,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
+					
 					<unittitle>Do_</unittitle>
 				</did>
 				<scopecontent>
@@ -237,9 +235,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
+					
 					<unittitle>Du_</unittitle>
 				</did>
 				<scopecontent>
@@ -248,9 +246,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
+					
 					<unittitle>E</unittitle>
 				</did>
 				<scopecontent>
@@ -259,9 +257,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
+					
 					<unittitle>F</unittitle>
 				</did>
 				<scopecontent>
@@ -270,9 +268,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
+					
 					<unittitle>Ga_</unittitle>
 				</did>
 				<scopecontent>
@@ -281,9 +279,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
+					
 					<unittitle>Ge_/Gh_/Gi_</unittitle>
 				</did>
 				<scopecontent>
@@ -292,9 +290,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
+					
 					<unittitle>Go_/Gr_/Gu_</unittitle>
 				</did>
 				<scopecontent>
@@ -303,9 +301,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">18</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">18</container>
+					
 					<unittitle>Gounod, Charles</unittitle>
 				</did>
 				<scopecontent>
@@ -314,9 +312,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">19</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">19</container>
+					
 					<unittitle>Ha_</unittitle>
 				</did>
 				<scopecontent>
@@ -325,9 +323,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">20</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">20</container>
+					
 					<unittitle>Halévy, Fromenthal</unittitle>
 				</did>
 				<scopecontent>
@@ -336,9 +334,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">21</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">21</container>
+					
 					<unittitle>He_</unittitle>
 				</did>
 				<scopecontent>
@@ -347,9 +345,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">22</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">22</container>
+					
 					<unittitle>Hi_</unittitle>
 				</did>
 				<scopecontent>
@@ -358,9 +356,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
+					
 					<unittitle>Ho_</unittitle>
 				</did>
 				<scopecontent>
@@ -369,9 +367,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">24</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">24</container>
+					
 					<unittitle>Hu_/Hy_</unittitle>
 				</did>
 				<scopecontent>
@@ -380,9 +378,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">25</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">25</container>
+					
 					<unittitle>I</unittitle>
 				</did>
 				<scopecontent>
@@ -391,9 +389,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">26</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">26</container>
+					
 					<unittitle>J</unittitle>
 				</did>
 				<scopecontent>
@@ -402,9 +400,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">27</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">27</container>
+					
 					<unittitle>K</unittitle>
 				</did>
 				<scopecontent>
@@ -413,9 +411,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">28</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">28</container>
+					
 					<unittitle>Kalkbrenner, Friedrich</unittitle>
 				</did>
 				<scopecontent>
@@ -424,9 +422,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">29</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">29</container>
+					
 					<unittitle>La_</unittitle>
 				</did>
 				<scopecontent>
@@ -435,9 +433,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">30</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">30</container>
+					
 					<unittitle>Le_</unittitle>
 				</did>
 				<scopecontent>
@@ -446,9 +444,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">31</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">31</container>
+					
 					<unittitle>Lesueur, Jean-Francois</unittitle>
 				</did>
 				<scopecontent>
@@ -457,21 +455,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">32</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">32</container>
+					
 					<unittitle>Lesueur [ALS n.d. M. Alkan]</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">33</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">33</container>
+					
 					<unittitle>Lh_/Li_</unittitle>
 				</did>
 				<scopecontent>
@@ -481,9 +479,9 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">34</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">34</container>
+					
 					<unittitle>Lo_/Lu_</unittitle>
 				</did>
 				<scopecontent>
@@ -493,9 +491,9 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">35</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">35</container>
+					
 					<unittitle>Mag_/Mai_/Mal_/Man_</unittitle>
 				</did>
 				<scopecontent>
@@ -505,9 +503,9 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">36</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">36</container>
+					
 					<unittitle>Mar_</unittitle>
 				</did>
 				<scopecontent>
@@ -517,9 +515,9 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">37</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">37</container>
+					
 					<unittitle>Marchesi, Mathilde</unittitle>
 				</did>
 				<scopecontent>
@@ -529,9 +527,9 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">38</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">38</container>
+					
 					<unittitle>Mas_/Mau_</unittitle>
 				</did>
 				<scopecontent>
@@ -541,9 +539,9 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">39</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">39</container>
+					
 					<unittitle>Massenet, Jules</unittitle>
 				</did>
 				<scopecontent>
@@ -553,21 +551,21 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">40</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">40</container>
+					
 					<unittitle>Letters to Massenet</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">41</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">41</container>
+					
 					<unittitle>Me_</unittitle>
 				</did>
 				<scopecontent>
@@ -577,9 +575,9 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">42</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">42</container>
+					
 					<unittitle>Mi_</unittitle>
 				</did>
 				<scopecontent>
@@ -589,9 +587,9 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">43</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">43</container>
+					
 					<unittitle>Mo_</unittitle>
 				</did>
 				<scopecontent>
@@ -601,9 +599,9 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">44</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">44</container>
+					
 					<unittitle>Moscheles, Ignaz</unittitle>
 				</did>
 				<scopecontent>
@@ -613,9 +611,9 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">45</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">45</container>
+					
 					<unittitle>Mu_</unittitle>
 				</did>
 				<scopecontent>
@@ -625,9 +623,9 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">46</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">46</container>
+					
 					<unittitle>N</unittitle>
 				</did>
 				<scopecontent>
@@ -637,9 +635,9 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">47</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">47</container>
+					
 					<unittitle>O</unittitle>
 				</did>
 				<scopecontent>
@@ -649,9 +647,9 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">48</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">48</container>
+					
 					<unittitle>Pa_/Pe_/Ph_</unittitle>
 				</did>
 				<scopecontent>
@@ -661,9 +659,9 @@
 			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">49</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">49</container>
+					
 					<unittitle>Pl_/Po_/Pr_/Pu_</unittitle>
 				</did>
 				<scopecontent>
@@ -672,9 +670,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">50</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">50</container>
+					
 					<unittitle>Ra_/Re_/Ri_</unittitle>
 				</did>
 				<scopecontent>
@@ -683,9 +681,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">51</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">51</container>
+					
 					<unittitle>Ro_/Ru_</unittitle>
 				</did>
 				<scopecontent>
@@ -694,9 +692,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">52</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">52</container>
+					
 					<unittitle>S</unittitle>
 				</did>
 				<scopecontent>
@@ -705,9 +703,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">53</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">53</container>
+					
 					<unittitle>Saint-Saëns, Victor [father of Camille]</unittitle>
 				</did>
 				<scopecontent>
@@ -716,9 +714,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">54</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">54</container>
+					
 					<unittitle>Scribe, Eugène</unittitle>
 				</did>
 				<scopecontent>
@@ -727,9 +725,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">55</container>
-					<unitdate/>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">55</container>
+					
 					<unittitle>Schmitt, Florent</unittitle>
 				</did>
 				<scopecontent>
@@ -738,9 +736,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
+					
 					<unittitle>Letters to Georges Servières (musicologist)</unittitle>
 				</did>
 				<scopecontent>
@@ -749,9 +747,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
+					
 					<unittitle>Letters to Georges Servières II</unittitle>
 				</did>
 				<scopecontent>
@@ -760,9 +758,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
+					
 					<unittitle>Letters to Georges Servières III</unittitle>
 				</did>
 				<scopecontent>
@@ -771,9 +769,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
+					
 					<unittitle>Letters to Georges Servières IV</unittitle>
 				</did>
 				<scopecontent>
@@ -782,9 +780,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
+					
 					<unittitle>T</unittitle>
 				</did>
 				<scopecontent>
@@ -793,9 +791,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
+					
 					<unittitle>U</unittitle>
 				</did>
 				<scopecontent>
@@ -804,9 +802,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
+					
 					<unittitle>Va_/Ve_</unittitle>
 				</did>
 				<scopecontent>
@@ -815,9 +813,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
+					
 					<unittitle>Vi_/Vo_/Vu</unittitle>
 				</did>
 				<scopecontent>
@@ -826,9 +824,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
+					
 					<unittitle>W</unittitle>
 				</did>
 				<scopecontent>
@@ -837,9 +835,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
+					
 					<unittitle>Widor, Charles-Marie</unittitle>
 				</did>
 				<scopecontent>
@@ -848,9 +846,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
+					
 					<unittitle>Z</unittitle>
 				</did>
 				<scopecontent>
@@ -859,75 +857,75 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
+					
 					<unittitle>2 copies of poem  "Le maire d'Eu"</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">13</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">13</container>
+					
 					<unittitle>Libretti of two revues (1915)</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">14</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">14</container>
+					
 					<unittitle>Song lyrics</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">15</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">15</container>
+					
 					<unittitle>Sheet music</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">16</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">16</container>
+					
 					<unittitle>Program of French premiere of Arthur Honegger's oratorio Jeanne d'Arc au Bûcher</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">17</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">17</container>
+					
 					<unittitle>Newspaper clippings</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">18</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">18</container>
+					
 					<unittitle>Jean Louis Lasalle</unittitle>
 				</did>
 				<scopecontent>
@@ -936,9 +934,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">19</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">19</container>
+					
 					<unittitle>Mme Aino Ackte</unittitle>
 				</did>
 				<scopecontent>
@@ -947,20 +945,20 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">20</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">20</container>
+					
 					<unittitle>Misc. letters</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">21</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">21</container>
+					
 					<unittitle>Portraits of musicians</unittitle>
 				</did>
 				<scopecontent>
@@ -969,26 +967,30 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">22</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">22</container>
+					
 					<unittitle>Misc. documents</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">23</container>
-					<unitdate/>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">23</container>
+					
 					<unittitle>Letters with illegible signatures</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Ben Grauer collection of French music correspondence, #8434. Division of Rare and
+					Manuscript Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

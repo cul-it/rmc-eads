@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07607::Rochella Thorpe oral history project files)//EN">RMM07607</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07607::Rochella Thorpe oral history project files)//EN">RMM07607</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Rochella Thorpe oral history project
@@ -29,6 +28,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -38,19 +43,19 @@
    <frontmatter>
       <titlepage>
          <titleproper>Guide to the Rochella Thorpe Oral History Project
-            Files,<lb/>1992-1995</titleproper>
+            Files,1992-1995</titleproper>
          <num>Collection Number: 7607</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -62,7 +67,7 @@
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
-               <item>Andrea Hektor<lb/>Peter Martinez, June 2003<lb/>Sarah Keen, November
+               <item>Andrea HektorPeter Martinez, June 2003Sarah Keen, November
                   2008</item>
             </defitem>
             <defitem>
@@ -76,14 +81,15 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Rochella Thorpe oral history project
-            files, <unitdate type="inclusive" encodinganalog="MARC 245">1992-1995.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Rochella Thorpe oral history project
+            files, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1992-1995.</unitdate>
          <unitid label="Collection Number:">7607</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Thorpe, Rochella. ">Rochella Thorpe</persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.4 cubic ft.; 137 tape recordings,
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>.4 cubic ft.; 137 tape recordings,
             plus one box.</extent></physdesc>
          <physdesc label="Forms of Material:">Audiotapes and transcripts.</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -95,7 +101,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>As a doctoral student in the History Department of Binghamton University, Rochella
             (Roey) Thorpe researched lesbian life in Detroit, 1947-1975. She looked at the quite
             separate environments of African-American and white lesbians created in the Post War
@@ -138,23 +144,10 @@
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Interviews</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Interviews</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <userestrict encodinganalog="MARC 540">
-            <head>Restrictions on Use:</head>
-            <p>Box 2 contains copies of the transcripts in box 1. Any patron copies should be made
-               from the items in box 2. <lb/> Audiocassettes may not be played. All of the tapes
-               have been digitized, for access to audio, please contact RMC staff.</p>
-         </userestrict>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Rochella Thorpe oral history project files, #7607. Division of Rare and Manuscript
-               Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <relatedmaterial>
          <head id="a5">RELATED MATERIALS</head>
          <p>Collecting Program: Human Sexuality Collection.</p>
@@ -163,8 +156,8 @@
          <head>CONTAINER LIST</head>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <container type="folder">1-23</container>
+               <container label="unspecified" type="box">1</container>
+               <container label="unspecified" type="folder">1-23</container>
                <unittitle>Transcripts for tapes 7360a-7426a</unittitle>
             </did>
             <userestrict>
@@ -173,8 +166,8 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
-               <container type="folder">1-23</container>
+               <container label="unspecified" type="box">2</container>
+               <container label="unspecified" type="folder">1-23</container>
                <unittitle>Copies of transcripts in box 1</unittitle>
             </did>
             <userestrict>
@@ -543,5 +536,14 @@
             </c02>
          </c01>
       </dsc>
-   </archdesc>
+   <userestrict encodinganalog="MARC 540">
+            <head>Restrictions on Use:</head>
+            <p>Box 2 contains copies of the transcripts in box 1. Any patron copies should be made
+               from the items in box 2.  Audiocassettes may not be played. All of the tapes
+               have been digitized, for access to audio, please contact RMC staff.</p>
+         </userestrict><prefercite>
+            <head>Cite As:</head>
+            <p>Rochella Thorpe oral history project files, #7607. Division of Rare and Manuscript
+               Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

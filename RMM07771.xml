@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1"
-		scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us"
-			publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07771::Guide to the Harry H. Weintraub Collection of Gay-Related Photography and Historical Documentation)//EN"
-			>RMM07771</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07771::Guide to the Harry H. Weintraub Collection of Gay-Related Photography and Historical Documentation)//EN">RMM07771</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Harry H. Weintraub Collection of Gay-Related Photography
@@ -31,25 +27,26 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>May 2018</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
 			<titleproper>Guide to the Harry H. Weintraub Collection Of Gay-Related Photography And
-				Historical Documentation, <lb/><date type="inclusive" encodinganalog="245$f"
-					>1850s-2010.</date></titleproper>
+				Historical Documentation, <date encodinganalog="245$f" type="inclusive">1850s-2010.</date></titleproper>
 			<num>Collection Number: 7771</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref
-							href="mailto:rareref@cornell.edu"
-							>rareref@cornell.edu</extref><lb/><extref
-							href="http://rmc.library.cornell.edu"
-							>http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -75,16 +72,14 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Harry H. Weintraub Collection of
-				Gay-Related Photography and Historical Documentation, <unitdate
-					encodinganalog="MARC 245" type="inclusive">1850s-2010.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Harry H. Weintraub Collection of
+				Gay-Related Photography and Historical Documentation, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1850s-2010.</unitdate>
 			<unitid label="Collection Number:">7771</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="100" normal="Weintraub, Harry, ">Harry Weintraub
 				</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">
+			<physdesc encodinganalog="MARC 300" label="Quantity:">
 				<extent>89.6 cubic feet</extent>
 			</physdesc>
 			<physdesc label="Forms of Material:">Photographs</physdesc>
@@ -100,8 +95,7 @@
 				images of drag queens, sexual activity, men together, men in the military, in
 				athletics, and in dance, opera, and theater. Included are significant photographs of
 				men of color and about 100 images of U.S. and European lesbians and women in drag. </abstract>
-			<langmaterial label="Language:">Collection material in <language encodinganalog="041"
-					langcode="eng">English</language></langmaterial>
+			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<scopecontent encodinganalog="MARC 520">
 			<head id="a3">COLLECTION DESCRIPTION</head>
@@ -155,17 +149,7 @@
 				<genreform encodinganalog="MARC 655" source="aat">Sound recordings.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Harry H. Weintraub Collection of Gay-Related Photography and Historical
-					Documentation, #7771. Division of Rare and Manuscript Collections, Cornell
-					University Library.</p>
-				<p>Collection webpage: <extref href="http://rmc.library.cornell.edu/weintraub"
-						show="new">http://rmc.library.cornell.edu/weintraub</extref></p>
-			</prefercite>
-		</descgrp>
+		
 		<odd type="notes">
 			<head id="a6">NOTES</head>
 			<p>Books cataloged individually.</p>
@@ -180,7 +164,7 @@
 				</did>
 				<c02 level="subseries">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unittitle>The first photograph Harry Weintraub purchased, which led to the
 							creation of this collection. Plus, other select images.</unittitle>
 
@@ -196,7 +180,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A6</container>
+							<container label="unspecified" type="box">A6</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>420 photographs</physdesc>
@@ -213,7 +197,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A29</container>
+							<container label="unspecified" type="box">A29</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>456 photographs</physdesc>
@@ -223,7 +207,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A30</container>
+							<container label="unspecified" type="box">A30</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>25 photographs</physdesc>
@@ -239,7 +223,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A51</container>
+							<container label="unspecified" type="box">A51</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>21 photographs</physdesc>
@@ -256,7 +240,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A1</container>
+							<container label="unspecified" type="box">A1</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -266,7 +250,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A2</container>
+							<container label="unspecified" type="box">A2</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>450 photographs</physdesc>
@@ -276,7 +260,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A35</container>
+							<container label="unspecified" type="box">A35</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>260 photographs</physdesc>
@@ -285,7 +269,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A66</container>
+							<container label="unspecified" type="box">A66</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>19 photographs</physdesc>
@@ -297,7 +281,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A97</container>
+							<container label="unspecified" type="box">A97</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>3 photographs</physdesc>
@@ -309,7 +293,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B1</container>
+							<container label="unspecified" type="box">B1</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>29 photographs</physdesc>
@@ -318,7 +302,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B168</container>
+							<container label="unspecified" type="box">B168</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -333,7 +317,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">D2</container>
+							<container label="unspecified" type="box">D2</container>
 
 							<unittitle>Oversize format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -350,7 +334,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C10</container>
+							<container label="unspecified" type="box">C10</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -367,7 +351,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">D3</container>
+							<container label="unspecified" type="box">D3</container>
 
 							<unittitle>Oversize format</unittitle>
 							<physdesc>Items</physdesc>
@@ -386,7 +370,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B166</container>
+							<container label="unspecified" type="box">B166</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -403,7 +387,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A38</container>
+							<container label="unspecified" type="box">A38</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>480 photographs</physdesc>
@@ -413,7 +397,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A57</container>
+							<container label="unspecified" type="box">A57</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>800 photographs</physdesc>
@@ -425,7 +409,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A67</container>
+							<container label="unspecified" type="box">A67</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>400 photographs</physdesc>
@@ -435,7 +419,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A77</container>
+							<container label="unspecified" type="box">A77</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>800 photographs</physdesc>
@@ -447,7 +431,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A81</container>
+							<container label="unspecified" type="box">A81</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>810 photographs</physdesc>
@@ -457,7 +441,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B38</container>
+							<container label="unspecified" type="box">B38</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -467,7 +451,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B135</container>
+							<container label="unspecified" type="box">B135</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -485,7 +469,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A47</container>
+							<container label="unspecified" type="box">A47</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>350 photographs</physdesc>
@@ -503,7 +487,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">D5</container>
+							<container label="unspecified" type="box">D5</container>
 
 							<unittitle>Oversize format</unittitle>
 							<physdesc>Items</physdesc>
@@ -520,7 +504,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A8</container>
+							<container label="unspecified" type="box">A8</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>290 photographs</physdesc>
@@ -533,7 +517,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A69</container>
+							<container label="unspecified" type="box">A69</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>80 photographs</physdesc>
@@ -545,7 +529,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A92</container>
+							<container label="unspecified" type="box">A92</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>384 photographs</physdesc>
@@ -557,7 +541,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B6</container>
+							<container label="unspecified" type="box">B6</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>60 photographs</physdesc>
@@ -570,7 +554,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B40</container>
+							<container label="unspecified" type="box">B40</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>81 photographs</physdesc>
@@ -583,7 +567,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B49</container>
+							<container label="unspecified" type="box">B49</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -595,7 +579,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B77</container>
+							<container label="unspecified" type="box">B77</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -607,7 +591,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B78</container>
+							<container label="unspecified" type="box">B78</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -619,7 +603,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B79</container>
+							<container label="unspecified" type="box">B79</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>72 photographs</physdesc>
@@ -631,7 +615,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B99</container>
+							<container label="unspecified" type="box">B99</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>20 photographs</physdesc>
@@ -643,7 +627,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C15</container>
+							<container label="unspecified" type="box">C15</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -663,7 +647,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B66</container>
+							<container label="unspecified" type="box">B66</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>61 items</physdesc>
@@ -680,7 +664,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A5</container>
+							<container label="unspecified" type="box">A5</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>278 photographs</physdesc>
@@ -697,7 +681,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B137</container>
+							<container label="unspecified" type="box">B137</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>29 photographs</physdesc>
@@ -714,7 +698,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A91</container>
+							<container label="unspecified" type="box">A91</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>134 photographs</physdesc>
@@ -731,7 +715,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B112</container>
+							<container label="unspecified" type="box">B112</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -749,7 +733,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B126</container>
+							<container label="unspecified" type="box">B126</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -769,7 +753,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B174</container>
+							<container label="unspecified" type="box">B174</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs, 1 framed portrait</physdesc>
@@ -787,7 +771,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B167</container>
+							<container label="unspecified" type="box">B167</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -804,7 +788,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B18</container>
+							<container label="unspecified" type="box">B18</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>2 photographs</physdesc>
@@ -821,7 +805,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A72</container>
+							<container label="unspecified" type="box">A72</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>228 photographs</physdesc>
@@ -843,7 +827,7 @@
 					</scopecontent>
 					<c03 level="file">
 						<did>
-							<container type="box">A12</container>
+							<container label="unspecified" type="box">A12</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>450 photographs</physdesc>
@@ -855,7 +839,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A14</container>
+							<container label="unspecified" type="box">A14</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>350 photographs</physdesc>
@@ -867,7 +851,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A18</container>
+							<container label="unspecified" type="box">A18</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>353 photographs</physdesc>
@@ -879,7 +863,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A25</container>
+							<container label="unspecified" type="box">A25</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>450 photographs</physdesc>
@@ -891,7 +875,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A31</container>
+							<container label="unspecified" type="box">A31</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -903,7 +887,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A32</container>
+							<container label="unspecified" type="box">A32</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>400 photographs</physdesc>
@@ -915,7 +899,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A86</container>
+							<container label="unspecified" type="box">A86</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>63 photographs</physdesc>
@@ -927,7 +911,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B10</container>
+							<container label="unspecified" type="box">B10</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>130 photographs</physdesc>
@@ -936,7 +920,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B16</container>
+							<container label="unspecified" type="box">B16</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>52 photographs</physdesc>
@@ -945,7 +929,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B22</container>
+							<container label="unspecified" type="box">B22</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>5 photographs</physdesc>
@@ -954,7 +938,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B25</container>
+							<container label="unspecified" type="box">B25</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>104 photographs</physdesc>
@@ -963,7 +947,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B48</container>
+							<container label="unspecified" type="box">B48</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>338 photographs</physdesc>
@@ -972,7 +956,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B50</container>
+							<container label="unspecified" type="box">B50</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -981,7 +965,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B63</container>
+							<container label="unspecified" type="box">B63</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -990,7 +974,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B134</container>
+							<container label="unspecified" type="box">B134</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1011,7 +995,7 @@
 					</scopecontent>
 					<c03 level="file">
 						<did>
-							<container type="box">A23</container>
+							<container label="unspecified" type="box">A23</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>290 photographs</physdesc>
@@ -1023,7 +1007,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A52</container>
+							<container label="unspecified" type="box">A52</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>88 photographs</physdesc>
@@ -1044,7 +1028,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B144</container>
+							<container label="unspecified" type="box">B144</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -1065,7 +1049,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A61</container>
+							<container label="unspecified" type="box">A61</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>200 photographs</physdesc>
@@ -1075,7 +1059,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A89</container>
+							<container label="unspecified" type="box">A89</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>15 photographs</physdesc>
@@ -1092,7 +1076,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B45</container>
+							<container label="unspecified" type="box">B45</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>65 photographs</physdesc>
@@ -1109,7 +1093,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B119</container>
+							<container label="unspecified" type="box">B119</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Includes items by: Accu-Jac [T], Ah Men (West Hollywood),
@@ -1142,7 +1126,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B17</container>
+							<container label="unspecified" type="box">B17</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>15 items</physdesc>
@@ -1160,7 +1144,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A55</container>
+							<container label="unspecified" type="box">A55</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>350 photographs</physdesc>
@@ -1179,7 +1163,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A48</container>
+							<container label="unspecified" type="box">A48</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>336 photographs</physdesc>
@@ -1197,7 +1181,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B5</container>
+							<container label="unspecified" type="box">B5</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>114 items</physdesc>
@@ -1209,7 +1193,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B156</container>
+							<container label="unspecified" type="box">B156</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1224,7 +1208,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B162</container>
+							<container label="unspecified" type="box">B162</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>35 photographs</physdesc>
@@ -1243,7 +1227,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B82</container>
+							<container label="unspecified" type="box">B82</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>95 photographs</physdesc>
@@ -1260,7 +1244,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C11</container>
+							<container label="unspecified" type="box">C11</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Items</physdesc>
@@ -1277,7 +1261,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B14</container>
+							<container label="unspecified" type="box">B14</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>120 photographs</physdesc>
@@ -1294,7 +1278,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A17</container>
+							<container label="unspecified" type="box">A17</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>93 photographs</physdesc>
@@ -1311,7 +1295,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C16</container>
+							<container label="unspecified" type="box">C16</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1328,7 +1312,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A15</container>
+							<container label="unspecified" type="box">A15</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>309 photographs</physdesc>
@@ -1338,7 +1322,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B2</container>
+							<container label="unspecified" type="box">B2</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>147 photographs</physdesc>
@@ -1347,7 +1331,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B80</container>
+							<container label="unspecified" type="box">B80</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>97 photographs</physdesc>
@@ -1356,7 +1340,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B169</container>
+							<container label="unspecified" type="box">B169</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1377,7 +1361,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B34</container>
+							<container label="unspecified" type="box">B34</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -1395,7 +1379,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C23</container>
+							<container label="unspecified" type="box">C23</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Items</physdesc>
@@ -1412,7 +1396,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A79</container>
+							<container label="unspecified" type="box">A79</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>480 photographs</physdesc>
@@ -1424,7 +1408,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A84</container>
+							<container label="unspecified" type="box">A84</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>200 photographs</physdesc>
@@ -1436,7 +1420,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B111</container>
+							<container label="unspecified" type="box">B111</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1456,7 +1440,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A37</container>
+							<container label="unspecified" type="box">A37</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>350 items</physdesc>
@@ -1468,7 +1452,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B36</container>
+							<container label="unspecified" type="box">B36</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1485,7 +1469,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B4</container>
+							<container label="unspecified" type="box">B4</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>127 photographs</physdesc>
@@ -1495,7 +1479,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B51</container>
+							<container label="unspecified" type="box">B51</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1505,7 +1489,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B55</container>
+							<container label="unspecified" type="box">B55</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1515,7 +1499,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B67</container>
+							<container label="unspecified" type="box">B67</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>86 photographs</physdesc>
@@ -1525,7 +1509,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B71</container>
+							<container label="unspecified" type="box">B71</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>121 photographs</physdesc>
@@ -1535,7 +1519,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B75</container>
+							<container label="unspecified" type="box">B75</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1545,7 +1529,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B95</container>
+							<container label="unspecified" type="box">B95</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1555,7 +1539,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B107</container>
+							<container label="unspecified" type="box">B107</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>200 photographs</physdesc>
@@ -1565,7 +1549,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B114</container>
+							<container label="unspecified" type="box">B114</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>118 photographs</physdesc>
@@ -1575,7 +1559,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B136</container>
+							<container label="unspecified" type="box">B136</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>186 photographs</physdesc>
@@ -1585,7 +1569,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B140</container>
+							<container label="unspecified" type="box">B140</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1602,7 +1586,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C13</container>
+							<container label="unspecified" type="box">C13</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1619,7 +1603,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B138</container>
+							<container label="unspecified" type="box">B138</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>53 photographs</physdesc>
@@ -1636,7 +1620,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A58</container>
+							<container label="unspecified" type="box">A58</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>91 photographs</physdesc>
@@ -1646,7 +1630,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B61</container>
+							<container label="unspecified" type="box">B61</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>107 photographs</physdesc>
@@ -1665,7 +1649,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B132</container>
+							<container label="unspecified" type="box">B132</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -1688,7 +1672,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A13</container>
+							<container label="unspecified" type="box">A13</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>98 photographs</physdesc>
@@ -1705,7 +1689,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A4</container>
+							<container label="unspecified" type="box">A4</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>450 photographs</physdesc>
@@ -1720,7 +1704,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B92</container>
+							<container label="unspecified" type="box">B92</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1736,7 +1720,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B128</container>
+							<container label="unspecified" type="box">B128</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>90 photographs</physdesc>
@@ -1749,7 +1733,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B129</container>
+							<container label="unspecified" type="box">B129</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1768,7 +1752,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B139</container>
+							<container label="unspecified" type="box">B139</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -1787,7 +1771,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">D1</container>
+							<container label="unspecified" type="box">D1</container>
 
 							<unittitle>Oversize format</unittitle>
 							<physdesc>Items</physdesc>
@@ -1797,7 +1781,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">D4</container>
+							<container label="unspecified" type="box">D4</container>
 
 							<unittitle>Oversize format</unittitle>
 							<physdesc>Items</physdesc>
@@ -1814,7 +1798,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A10</container>
+							<container label="unspecified" type="box">A10</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>211 photographs</physdesc>
@@ -1824,7 +1808,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B52</container>
+							<container label="unspecified" type="box">B52</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1841,7 +1825,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A3</container>
+							<container label="unspecified" type="box">A3</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>336 photographs</physdesc>
@@ -1851,7 +1835,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A9</container>
+							<container label="unspecified" type="box">A9</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>450 photographs</physdesc>
@@ -1860,7 +1844,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A42</container>
+							<container label="unspecified" type="box">A42</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>323 photographs</physdesc>
@@ -1869,7 +1853,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A59</container>
+							<container label="unspecified" type="box">A59</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>146 photographs</physdesc>
@@ -1881,7 +1865,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A76</container>
+							<container label="unspecified" type="box">A76</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>450 photographs</physdesc>
@@ -1891,7 +1875,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A87</container>
+							<container label="unspecified" type="box">A87</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>110 photographs</physdesc>
@@ -1901,7 +1885,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B11</container>
+							<container label="unspecified" type="box">B11</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>97 photographs</physdesc>
@@ -1910,7 +1894,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B57</container>
+							<container label="unspecified" type="box">B57</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1919,7 +1903,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B65</container>
+							<container label="unspecified" type="box">B65</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>29 photographs</physdesc>
@@ -1928,7 +1912,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B76</container>
+							<container label="unspecified" type="box">B76</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1937,7 +1921,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B83</container>
+							<container label="unspecified" type="box">B83</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>100 photographs</physdesc>
@@ -1946,7 +1930,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B149</container>
+							<container label="unspecified" type="box">B149</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1962,7 +1946,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B47</container>
+							<container label="unspecified" type="box">B47</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -1981,7 +1965,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A11</container>
+							<container label="unspecified" type="box">A11</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>63 items</physdesc>
@@ -2003,7 +1987,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A90</container>
+							<container label="unspecified" type="box">A90</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>113 items</physdesc>
@@ -2020,7 +2004,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A83</container>
+							<container label="unspecified" type="box">A83</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>200 items</physdesc>
@@ -2039,7 +2023,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A45</container>
+							<container label="unspecified" type="box">A45</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>232 items</physdesc>
@@ -2049,7 +2033,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A64</container>
+							<container label="unspecified" type="box">A64</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>450 items</physdesc>
@@ -2059,7 +2043,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A80</container>
+							<container label="unspecified" type="box">A80</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>200 items</physdesc>
@@ -2069,7 +2053,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A94</container>
+							<container label="unspecified" type="box">A94</container>
 
 							<unittitle>Small format</unittitle>
 
@@ -2079,7 +2063,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B53</container>
+							<container label="unspecified" type="box">B53</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -2096,7 +2080,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A44</container>
+							<container label="unspecified" type="box">A44</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>300 items</physdesc>
@@ -2113,7 +2097,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B69</container>
+							<container label="unspecified" type="box">B69</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -2132,7 +2116,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B68</container>
+							<container label="unspecified" type="box">B68</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>49 photographs</physdesc>
@@ -2151,7 +2135,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B172</container>
+							<container label="unspecified" type="box">B172</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>photographs</physdesc>
@@ -2176,7 +2160,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A62</container>
+							<container label="unspecified" type="box">A62</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>230 photographs</physdesc>
@@ -2195,7 +2179,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A46</container>
+							<container label="unspecified" type="box">A46</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>340 photographs</physdesc>
@@ -2214,7 +2198,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B13</container>
+							<container label="unspecified" type="box">B13</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>94 photographs, 1 pamphlet, 1 album</physdesc>
@@ -2238,7 +2222,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A78</container>
+							<container label="unspecified" type="box">A78</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>300 photographs</physdesc>
@@ -2250,7 +2234,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B29</container>
+							<container label="unspecified" type="box">B29</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>132 photographs</physdesc>
@@ -2262,7 +2246,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B125</container>
+							<container label="unspecified" type="box">B125</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -2274,7 +2258,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B145</container>
+							<container label="unspecified" type="box">B145</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -2286,7 +2270,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B146</container>
+							<container label="unspecified" type="box">B146</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -2298,8 +2282,7 @@
 				</c02>
 				<c02 level="subseries">
 					<did>
-						<unitdate type="inclusive" certainty="Circa" normal="1930/1955"
-							>1930-1955</unitdate>
+						<unitdate certainty="approximate" normal="1930/1955" type="inclusive">1930-1955</unitdate>
 						<unittitle>George Platt Lynes</unittitle>
 						<origination label="Creator">
 							<persname>Lynes, George Platt, 1907-1955</persname>
@@ -2312,9 +2295,8 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B173</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1941/1951"
-								>1941-1951</unitdate>
+							<container label="unspecified" type="box">B173</container>
+							<unitdate certainty="approximate" normal="1941/1951" type="inclusive">1941-1951</unitdate>
 							<unittitle>Male Nudes</unittitle>
 							<origination label="Creator">
 								<persname>Lynes, George Platt, 1907-1955</persname>
@@ -2345,10 +2327,9 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C24</container>
-							<container type="folder">1</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1935/1940"
-								>1935-1940</unitdate>
+							<container label="unspecified" type="box">C24</container>
+							<container label="unspecified" type="folder">1</container>
+							<unitdate certainty="approximate" normal="1935/1940" type="inclusive">1935-1940</unitdate>
 							<unittitle>Jacques d'Amboise</unittitle>
 							<physdesc>
 								<extent>2 photographs</extent>
@@ -2362,10 +2343,9 @@
 						</controlaccess>
 						<c04 level="item">
 							<did>
-								<container type="box">C24</container>
-								<container type="folder">1</container>
-								<unitdate type="inclusive" certainty="Circa" normal="1935/1940"
-									>1935-1940</unitdate>
+								<container label="unspecified" type="box">C24</container>
+								<container label="unspecified" type="folder">1</container>
+								<unitdate certainty="approximate" normal="1935/1940" type="inclusive">1935-1940</unitdate>
 								<unittitle>Two nude men</unittitle>
 								<physdesc>
 									<dimensions>25.6 x 20.4 cm</dimensions>
@@ -2380,10 +2360,9 @@
 						</c04>
 						<c04 level="item">
 							<did>
-								<container type="box">C24</container>
-								<container type="folder">1</container>
-								<unitdate type="inclusive" certainty="Circa" normal="1935/1940"
-									>1935-1940</unitdate>
+								<container label="unspecified" type="box">C24</container>
+								<container label="unspecified" type="folder">1</container>
+								<unitdate certainty="approximate" normal="1935/1940" type="inclusive">1935-1940</unitdate>
 								<unittitle>Jacques d'Amboise</unittitle>
 								<physdesc>
 									<dimensions>25.6 x 20.6 cm</dimensions>
@@ -2396,10 +2375,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">C24</container>
-							<container type="folder">2</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1940/1950"
-								>1940-1950</unitdate>
+							<container label="unspecified" type="box">C24</container>
+							<container label="unspecified" type="folder">2</container>
+							<unitdate certainty="approximate" normal="1940/1950" type="inclusive">1940-1950</unitdate>
 							<unittitle>Ruth Ford</unittitle>
 							<physdesc>
 								<dimensions>25.3 x 20.3 cm</dimensions>
@@ -2420,10 +2398,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">C24</container>
-							<container type="folder">3</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1940/1950"
-								>1940-1950</unitdate>
+							<container label="unspecified" type="box">C24</container>
+							<container label="unspecified" type="folder">3</container>
+							<unitdate certainty="approximate" normal="1940/1950" type="inclusive">1940-1950</unitdate>
 							<unittitle>John Hohnsbeen</unittitle>
 							<physdesc>
 								<dimensions>20.5 x 25.5 cm </dimensions>
@@ -2441,10 +2418,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">C24</container>
-							<container type="folder">4</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1945/1950"
-								>1945-1950</unitdate>
+							<container label="unspecified" type="box">C24</container>
+							<container label="unspecified" type="folder">4</container>
+							<unitdate certainty="approximate" normal="1945/1950" type="inclusive">1945-1950</unitdate>
 							<unittitle>Tanaquil Le Clercq</unittitle>
 							<physdesc>
 								<dimensions>19 x 23.5 cm</dimensions>
@@ -2465,10 +2441,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">C24</container>
-							<container type="folder">5</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1940/1950"
-								>1940-1950</unitdate>
+							<container label="unspecified" type="box">C24</container>
+							<container label="unspecified" type="folder">5</container>
+							<unitdate certainty="approximate" normal="1940/1950" type="inclusive">1940-1950</unitdate>
 							<unittitle>Wilbur Pippin</unittitle>
 							<physdesc>
 								<dimensions>17.8 x 11.5 cm, 23.8 x 18.5 cm, 35.5 x 28
@@ -2490,9 +2465,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">C24</container>
-							<container type="folder">6</container>
-							<unitdate type="inclusive" normal="1947">1947</unitdate>
+							<container label="unspecified" type="box">C24</container>
+							<container label="unspecified" type="folder">6</container>
+							<unitdate normal="1947" type="inclusive">1947</unitdate>
 							<unittitle>Aldous Huxley</unittitle>
 							<physdesc>
 								<dimensions>33.6 x 26.7 cm</dimensions>
@@ -2513,10 +2488,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">C24</container>
-							<container type="folder">7</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1946/1950"
-								>1946-1950</unitdate>
+							<container label="unspecified" type="box">C24</container>
+							<container label="unspecified" type="folder">7</container>
+							<unitdate certainty="approximate" normal="1946/1950" type="inclusive">1946-1950</unitdate>
 							<unittitle>Alfred C. Kinsey</unittitle>
 							<physdesc>
 								<dimensions>35.3 x 28.2 cm</dimensions>
@@ -2537,10 +2511,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">C24</container>
-							<container type="folder">8</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1935/1950"
-								>1935-1950</unitdate>
+							<container label="unspecified" type="box">C24</container>
+							<container label="unspecified" type="folder">8</container>
+							<unitdate certainty="approximate" normal="1935/1950" type="inclusive">1935-1950</unitdate>
 							<unittitle>W. H. Auden</unittitle>
 							<physdesc>
 								<dimensions>35.5 x 28.1 cm</dimensions>
@@ -2561,9 +2534,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">C24</container>
-							<container type="folder">9</container>
-							<unitdate type="inclusive" normal="1948">1948</unitdate>
+							<container label="unspecified" type="box">C24</container>
+							<container label="unspecified" type="folder">9</container>
+							<unitdate normal="1948" type="inclusive">1948</unitdate>
 							<unittitle>Kay Thompson</unittitle>
 							<physdesc>
 								<dimensions>35.4 x 28.2 cm</dimensions>
@@ -2584,10 +2557,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">C24</container>
-							<container type="folder">10</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1935/1950"
-								>1935-1950</unitdate>
+							<container label="unspecified" type="box">C24</container>
+							<container label="unspecified" type="folder">10</container>
+							<unitdate certainty="approximate" normal="1935/1950" type="inclusive">1935-1950</unitdate>
 							<unittitle>Named portraits</unittitle>
 							<physdesc>
 								<extent>12 photographs</extent>
@@ -2601,10 +2573,9 @@
 						</controlaccess>
 						<c04 level="item">
 							<did>
-								<container type="box">C24</container>
-								<container type="folder">10</container>
-								<unitdate type="inclusive" certainty="Circa" normal="1935/1950"
-									>1935-1950</unitdate>
+								<container label="unspecified" type="box">C24</container>
+								<container label="unspecified" type="folder">10</container>
+								<unitdate certainty="approximate" normal="1935/1950" type="inclusive">1935-1950</unitdate>
 								<unittitle>Rory Calhoun</unittitle>
 								<physdesc>
 									<dimensions>35.4 x 28.2 cm</dimensions>
@@ -2616,10 +2587,9 @@
 						</c04>
 						<c04 level="item">
 							<did>
-								<container type="box">C24</container>
-								<container type="folder">10</container>
-								<unitdate type="inclusive" certainty="Circa" normal="1940/1950"
-									>1940-1950</unitdate>
+								<container label="unspecified" type="box">C24</container>
+								<container label="unspecified" type="folder">10</container>
+								<unitdate certainty="approximate" normal="1940/1950" type="inclusive">1940-1950</unitdate>
 								<unittitle>Marsden Hartley</unittitle>
 								<physdesc>
 									<dimensions>33.2 x 26.7 cm</dimensions>
@@ -2631,10 +2601,9 @@
 						</c04>
 						<c04 level="item">
 							<did>
-								<container type="box">C24</container>
-								<container type="folder">10</container>
-								<unitdate type="inclusive" certainty="Circa" normal="1945/1950"
-									>1945-1950</unitdate>
+								<container label="unspecified" type="box">C24</container>
+								<container label="unspecified" type="folder">10</container>
+								<unitdate certainty="approximate" normal="1945/1950" type="inclusive">1945-1950</unitdate>
 								<unittitle>Todd Bolender</unittitle>
 								<physdesc>
 									<dimensions>32.6 x 27 cm</dimensions>
@@ -2646,10 +2615,9 @@
 						</c04>
 						<c04 level="item">
 							<did>
-								<container type="box">C24</container>
-								<container type="folder">10</container>
-								<unitdate type="inclusive" certainty="Circa" normal="1935/1950"
-									>1935-1950</unitdate>
+								<container label="unspecified" type="box">C24</container>
+								<container label="unspecified" type="folder">10</container>
+								<unitdate certainty="approximate" normal="1935/1950" type="inclusive">1935-1950</unitdate>
 								<unittitle>Isabel Bolton</unittitle>
 								<physdesc>
 									<dimensions>31 x 26.5 cm</dimensions>
@@ -2661,10 +2629,9 @@
 						</c04>
 						<c04 level="item">
 							<did>
-								<container type="box">C24</container>
-								<container type="folder">10</container>
-								<unitdate type="inclusive" certainty="Circa" normal="1935/1945"
-									>1935-1945</unitdate>
+								<container label="unspecified" type="box">C24</container>
+								<container label="unspecified" type="folder">10</container>
+								<unitdate certainty="approximate" normal="1935/1945" type="inclusive">1935-1945</unitdate>
 								<unittitle>Margaret Hamilton</unittitle>
 								<physdesc>
 									<dimensions>35.4 x 28.2 cm</dimensions>
@@ -2676,10 +2643,9 @@
 						</c04>
 						<c04 level="item">
 							<did>
-								<container type="box">C24</container>
-								<container type="folder">10</container>
-								<unitdate type="inclusive" certainty="Circa" normal="1935/1950"
-									>1935-1950</unitdate>
+								<container label="unspecified" type="box">C24</container>
+								<container label="unspecified" type="folder">10</container>
+								<unitdate certainty="approximate" normal="1935/1950" type="inclusive">1935-1950</unitdate>
 								<unittitle>Gertrude Stein</unittitle>
 								<physdesc>
 									<dimensions>27.9 x 35.3 cm</dimensions>
@@ -2691,10 +2657,9 @@
 						</c04>
 						<c04 level="item">
 							<did>
-								<container type="box">C24</container>
-								<container type="folder">10</container>
-								<unitdate type="inclusive" certainty="Circa" normal="1945/1950"
-									>1945-1950</unitdate>
+								<container label="unspecified" type="box">C24</container>
+								<container label="unspecified" type="folder">10</container>
+								<unitdate certainty="approximate" normal="1945/1950" type="inclusive">1945-1950</unitdate>
 								<unittitle>Maria Tallchief</unittitle>
 								<physdesc>
 									<dimensions>28.8 x 15.2 cm</dimensions>
@@ -2706,9 +2671,9 @@
 						</c04>
 						<c04 level="item">
 							<did>
-								<container type="box">C24</container>
-								<container type="folder">10</container>
-								<unitdate type="inclusive" normal="1947">1947</unitdate>
+								<container label="unspecified" type="box">C24</container>
+								<container label="unspecified" type="folder">10</container>
+								<unitdate normal="1947" type="inclusive">1947</unitdate>
 								<unittitle>Jessica Tandy</unittitle>
 								<physdesc>
 									<dimensions>35.5 x 28.2 cm</dimensions>
@@ -2720,10 +2685,9 @@
 						</c04>
 						<c04 level="item">
 							<did>
-								<container type="box">C24</container>
-								<container type="folder">10</container>
-								<unitdate type="inclusive" certainty="Circa" normal="1930/1950"
-									>1930-1950</unitdate>
+								<container label="unspecified" type="box">C24</container>
+								<container label="unspecified" type="folder">10</container>
+								<unitdate certainty="approximate" normal="1930/1950" type="inclusive">1930-1950</unitdate>
 								<unittitle>Joseph Platt</unittitle>
 								<physdesc>
 									<dimensions>33.6 x 26.3 cm</dimensions>
@@ -2732,10 +2696,9 @@
 						</c04>
 						<c04 level="item">
 							<did>
-								<container type="box">C24</container>
-								<container type="folder">10</container>
-								<unitdate type="inclusive" certainty="Circa" normal="1945/1950"
-									>1945-1950</unitdate>
+								<container label="unspecified" type="box">C24</container>
+								<container label="unspecified" type="folder">10</container>
+								<unitdate certainty="approximate" normal="1945/1950" type="inclusive">1945-1950</unitdate>
 								<unittitle>Thomas Mann</unittitle>
 								<physdesc>
 									<dimensions>35.3 x 28 cm</dimensions>
@@ -2747,10 +2710,9 @@
 						</c04>
 						<c04 level="item">
 							<did>
-								<container type="box">C24</container>
-								<container type="folder">10</container>
-								<unitdate type="inclusive" certainty="Circa" normal="1930/1940"
-									>1930-1940</unitdate>
+								<container label="unspecified" type="box">C24</container>
+								<container label="unspecified" type="folder">10</container>
+								<unitdate certainty="approximate" normal="1930/1940" type="inclusive">1930-1940</unitdate>
 								<unittitle>Marc Chagall</unittitle>
 								<physdesc>
 									<dimensions>33.6 x 26.7 cm</dimensions>
@@ -2762,10 +2724,9 @@
 						</c04>
 						<c04 level="item">
 							<did>
-								<container type="box">C24</container>
-								<container type="folder">10</container>
-								<unitdate type="inclusive" certainty="Circa" normal="1930/1950"
-									>1930-1950</unitdate>
+								<container label="unspecified" type="box">C24</container>
+								<container label="unspecified" type="folder">10</container>
+								<unitdate certainty="approximate" normal="1930/1950" type="inclusive">1930-1950</unitdate>
 								<unittitle>Fedoris Palvacinni</unittitle>
 								<physdesc>
 									<dimensions>23.8 x 18.6 cm</dimensions>
@@ -2775,10 +2736,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">C24</container>
-							<container type="folder">11</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1930/1950"
-								>1930-1950</unitdate>
+							<container label="unspecified" type="box">C24</container>
+							<container label="unspecified" type="folder">11</container>
+							<unitdate certainty="approximate" normal="1930/1950" type="inclusive">1930-1950</unitdate>
 							<unittitle>Unnamed Portraits</unittitle>
 							<physdesc>
 								<dimensions>19.8 x 24.5 cm, 35.5 x 28 cm</dimensions>
@@ -2796,13 +2756,12 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">C24</container>
-							<container type="folder">12</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1930/1950"
-								>1930-1950</unitdate>
+							<container label="unspecified" type="box">C24</container>
+							<container label="unspecified" type="folder">12</container>
+							<unitdate certainty="approximate" normal="1930/1950" type="inclusive">1930-1950</unitdate>
 							<unittitle>Still Lifes</unittitle>
 							<physdesc>
-								<extent>1 photograph</extent>
+								<extent>1 photographs</extent>
 							</physdesc>
 						</did>
 						<controlaccess>
@@ -2825,7 +2784,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B27</container>
+							<container label="unspecified" type="box">B27</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>58 photographs</physdesc>
@@ -2835,7 +2794,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B41</container>
+							<container label="unspecified" type="box">B41</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>117 photographs</physdesc>
@@ -2845,7 +2804,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B42</container>
+							<container label="unspecified" type="box">B42</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -2855,7 +2814,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B103</container>
+							<container label="unspecified" type="box">B103</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -2872,7 +2831,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B30</container>
+							<container label="unspecified" type="box">B30</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>350 photographs</physdesc>
@@ -2889,7 +2848,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B171</container>
+							<container label="unspecified" type="box">B171</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -2906,7 +2865,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A49</container>
+							<container label="unspecified" type="box">A49</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -2916,7 +2875,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A56</container>
+							<container label="unspecified" type="box">A56</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>161 photographs</physdesc>
@@ -2928,7 +2887,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A63</container>
+							<container label="unspecified" type="box">A63</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>450 photographs</physdesc>
@@ -2938,7 +2897,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A68</container>
+							<container label="unspecified" type="box">A68</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>450 photographs</physdesc>
@@ -2948,7 +2907,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A85</container>
+							<container label="unspecified" type="box">A85</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>400 photographs</physdesc>
@@ -2958,7 +2917,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B3</container>
+							<container label="unspecified" type="box">B3</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>33 photographs</physdesc>
@@ -2967,7 +2926,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B60</container>
+							<container label="unspecified" type="box">B60</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -2979,7 +2938,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B74</container>
+							<container label="unspecified" type="box">B74</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>72 photographs</physdesc>
@@ -2991,7 +2950,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B98</container>
+							<container label="unspecified" type="box">B98</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3000,7 +2959,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B170</container>
+							<container label="unspecified" type="box">B170</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3016,7 +2975,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B54</container>
+							<container label="unspecified" type="box">B54</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3033,7 +2992,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B73</container>
+							<container label="unspecified" type="box">B73</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>9 photographs</physdesc>
@@ -3043,7 +3002,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B85</container>
+							<container label="unspecified" type="box">B85</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>black and white, mostly studio, photographs</physdesc>
@@ -3062,7 +3021,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A7</container>
+							<container label="unspecified" type="box">A7</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>30 items</physdesc>
@@ -3074,7 +3033,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B90</container>
+							<container label="unspecified" type="box">B90</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>20 items</physdesc>
@@ -3091,7 +3050,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B15</container>
+							<container label="unspecified" type="box">B15</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>36 items</physdesc>
@@ -3108,7 +3067,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C21</container>
+							<container label="unspecified" type="box">C21</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3118,7 +3077,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C22</container>
+							<container label="unspecified" type="box">C22</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3135,7 +3094,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B12</container>
+							<container label="unspecified" type="box">B12</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>180 items</physdesc>
@@ -3155,7 +3114,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B123</container>
+							<container label="unspecified" type="box">B123</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3173,7 +3132,7 @@
 					<!--This box has extra room-->
 					<c03 level="file">
 						<did>
-							<container type="box">B175</container>
+							<container label="unspecified" type="box">B175</container>
 							<unittitle>Small to Medium format</unittitle>
 							<physdesc>Celebrity Photographs, Books, Poster</physdesc>
 						</did>
@@ -3189,7 +3148,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B173</container>
+							<container label="unspecified" type="box">B173</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>photographs</physdesc>
@@ -3199,7 +3158,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C25</container>
+							<container label="unspecified" type="box">C25</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>photographs</physdesc>
@@ -3216,7 +3175,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A22</container>
+							<container label="unspecified" type="box">A22</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>110 items</physdesc>
@@ -3226,7 +3185,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B97</container>
+							<container label="unspecified" type="box">B97</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>8 items</physdesc>
@@ -3243,7 +3202,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B43</container>
+							<container label="unspecified" type="box">B43</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>162 photographs</physdesc>
@@ -3253,7 +3212,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C12</container>
+							<container label="unspecified" type="box">C12</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3269,7 +3228,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B164</container>
+							<container label="unspecified" type="box">B164</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3287,7 +3246,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C6</container>
+							<container label="unspecified" type="box">C6</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3304,7 +3263,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B21</container>
+							<container label="unspecified" type="box">B21</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3324,7 +3283,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B19</container>
+							<container label="unspecified" type="box">B19</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>338 photographs</physdesc>
@@ -3334,7 +3293,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B142</container>
+							<container label="unspecified" type="box">B142</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3351,7 +3310,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A19</container>
+							<container label="unspecified" type="box">A19</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>376 photographs</physdesc>
@@ -3390,7 +3349,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A21</container>
+							<container label="unspecified" type="box">A21</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3405,7 +3364,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A24</container>
+							<container label="unspecified" type="box">A24</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3417,19 +3376,19 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A26</container>
+							<container label="unspecified" type="box">A26</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>116 photographs</physdesc>
 						</did>
 						<scopecontent>
-							<p>Includes sets, amateur, modern photographs<lb/></p>
+							<p>Includes sets, amateur, modern photographs</p>
 						</scopecontent>
 					</c03>
 
 					<c03 level="file">
 						<did>
-							<container type="box">A27</container>
+							<container label="unspecified" type="box">A27</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>246 photographs</physdesc>
@@ -3441,7 +3400,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A36</container>
+							<container label="unspecified" type="box">A36</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>91 photographs</physdesc>
@@ -3453,7 +3412,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A39</container>
+							<container label="unspecified" type="box">A39</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>160 photographs</physdesc>
@@ -3465,7 +3424,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A40</container>
+							<container label="unspecified" type="box">A40</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>350 photographs</physdesc>
@@ -3484,7 +3443,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A41</container>
+							<container label="unspecified" type="box">A41</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>350 photographs</physdesc>
@@ -3513,7 +3472,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A43</container>
+							<container label="unspecified" type="box">A43</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3537,7 +3496,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A50</container>
+							<container label="unspecified" type="box">A50</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>60 photographs</physdesc>
@@ -3551,7 +3510,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A54</container>
+							<container label="unspecified" type="box">A54</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3562,7 +3521,7 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">A65</container>
+							<container label="unspecified" type="box">A65</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>167 photographs</physdesc>
@@ -3574,7 +3533,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A70</container>
+							<container label="unspecified" type="box">A70</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3586,7 +3545,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A75</container>
+							<container label="unspecified" type="box">A75</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>162 photographs</physdesc>
@@ -3603,7 +3562,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A88</container>
+							<container label="unspecified" type="box">A88</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>200 photographs</physdesc>
@@ -3615,7 +3574,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A70</container>
+							<container label="unspecified" type="box">A70</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3627,7 +3586,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B20</container>
+							<container label="unspecified" type="box">B20</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3645,7 +3604,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B24</container>
+							<container label="unspecified" type="box">B24</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3657,7 +3616,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B62</container>
+							<container label="unspecified" type="box">B62</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>105 photographs</physdesc>
@@ -3676,7 +3635,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B70</container>
+							<container label="unspecified" type="box">B70</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3697,7 +3656,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B81</container>
+							<container label="unspecified" type="box">B81</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>118 photographs</physdesc>
@@ -3709,7 +3668,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B101</container>
+							<container label="unspecified" type="box">B101</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3725,7 +3684,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B102</container>
+							<container label="unspecified" type="box">B102</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>87 photographs</physdesc>
@@ -3741,7 +3700,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B104</container>
+							<container label="unspecified" type="box">B104</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3754,7 +3713,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B105</container>
+							<container label="unspecified" type="box">B105</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3768,7 +3727,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B106</container>
+							<container label="unspecified" type="box">B106</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>69 photographs</physdesc>
@@ -3790,7 +3749,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B110</container>
+							<container label="unspecified" type="box">B110</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3802,7 +3761,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B120</container>
+							<container label="unspecified" type="box">B120</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -3816,7 +3775,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B143</container>
+							<container label="unspecified" type="box">B143</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3828,7 +3787,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B157</container>
+							<container label="unspecified" type="box">B157</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3840,7 +3799,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C2</container>
+							<container label="unspecified" type="box">C2</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3852,7 +3811,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C4</container>
+							<container label="unspecified" type="box">C4</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3866,7 +3825,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C5</container>
+							<container label="unspecified" type="box">C5</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3882,7 +3841,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C14</container>
+							<container label="unspecified" type="box">C14</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -3908,7 +3867,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B84</container>
+							<container label="unspecified" type="box">B84</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>133 items</physdesc>
@@ -3933,7 +3892,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B115</container>
+							<container label="unspecified" type="box">B115</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>187 items</physdesc>
@@ -3971,7 +3930,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B116</container>
+							<container label="unspecified" type="box">B116</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -3983,7 +3942,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B117</container>
+							<container label="unspecified" type="box">B117</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -3995,7 +3954,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B130</container>
+							<container label="unspecified" type="box">B130</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4008,7 +3967,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B131</container>
+							<container label="unspecified" type="box">B131</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4039,7 +3998,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B151</container>
+							<container label="unspecified" type="box">B151</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4051,7 +4010,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B152</container>
+							<container label="unspecified" type="box">B152</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4063,7 +4022,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B153</container>
+							<container label="unspecified" type="box">B153</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4075,7 +4034,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B154</container>
+							<container label="unspecified" type="box">B154</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4088,7 +4047,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B155</container>
+							<container label="unspecified" type="box">B155</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4107,7 +4066,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C7</container>
+							<container label="unspecified" type="box">C7</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4129,7 +4088,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A71</container>
+							<container label="unspecified" type="box">A71</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>279 items</physdesc>
@@ -4154,7 +4113,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B58</container>
+							<container label="unspecified" type="box">B58</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>120 items</physdesc>
@@ -4179,7 +4138,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B127</container>
+							<container label="unspecified" type="box">B127</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>50 items</physdesc>
@@ -4197,7 +4156,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B133</container>
+							<container label="unspecified" type="box">B133</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4209,7 +4168,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B141</container>
+							<container label="unspecified" type="box">B141</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4230,7 +4189,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C9</container>
+							<container label="unspecified" type="box">C9</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>130 Items</physdesc>
@@ -4249,7 +4208,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">D6</container>
+							<container label="unspecified" type="box">D6</container>
 
 							<unittitle>Oversize format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4266,7 +4225,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C9</container>
+							<container label="unspecified" type="box">C9</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4284,7 +4243,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C17</container>
+							<container label="unspecified" type="box">C17</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4301,7 +4260,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B165</container>
+							<container label="unspecified" type="box">B165</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -4318,7 +4277,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B122</container>
+							<container label="unspecified" type="box">B122</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4337,7 +4296,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C3</container>
+							<container label="unspecified" type="box">C3</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4354,7 +4313,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B72</container>
+							<container label="unspecified" type="box">B72</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>68 photographs</physdesc>
@@ -4373,7 +4332,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B147</container>
+							<container label="unspecified" type="box">B147</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4400,7 +4359,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C18</container>
+							<container label="unspecified" type="box">C18</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4423,7 +4382,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A60</container>
+							<container label="unspecified" type="box">A60</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>67 photographs</physdesc>
@@ -4433,7 +4392,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B56</container>
+							<container label="unspecified" type="box">B56</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>26 photographs</physdesc>
@@ -4450,7 +4409,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B37</container>
+							<container label="unspecified" type="box">B37</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>3 items</physdesc>
@@ -4460,7 +4419,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B39</container>
+							<container label="unspecified" type="box">B39</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4470,7 +4429,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B44</container>
+							<container label="unspecified" type="box">B44</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>4 items</physdesc>
@@ -4487,7 +4446,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C20</container>
+							<container label="unspecified" type="box">C20</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4506,7 +4465,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">D7</container>
+							<container label="unspecified" type="box">D7</container>
 
 							<unittitle>Oversize format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4523,7 +4482,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C19</container>
+							<container label="unspecified" type="box">C19</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4543,7 +4502,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B148</container>
+							<container label="unspecified" type="box">B148</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4560,7 +4519,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A16</container>
+							<container label="unspecified" type="box">A16</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>450 photographs</physdesc>
@@ -4570,7 +4529,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A34</container>
+							<container label="unspecified" type="box">A34</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>265 photographs</physdesc>
@@ -4579,7 +4538,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B7</container>
+							<container label="unspecified" type="box">B7</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>129 photographs</physdesc>
@@ -4588,7 +4547,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B8</container>
+							<container label="unspecified" type="box">B8</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -4597,7 +4556,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B31</container>
+							<container label="unspecified" type="box">B31</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>132 photographs</physdesc>
@@ -4607,7 +4566,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B163</container>
+							<container label="unspecified" type="box">B163</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>110 photographs</physdesc>
@@ -4616,7 +4575,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C1</container>
+							<container label="unspecified" type="box">C1</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -4631,7 +4590,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B124</container>
+							<container label="unspecified" type="box">B124</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -4650,7 +4609,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B26</container>
+							<container label="unspecified" type="box">B26</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>144 photographs</physdesc>
@@ -4667,7 +4626,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B91</container>
+							<container label="unspecified" type="box">B91</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -4684,7 +4643,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A74</container>
+							<container label="unspecified" type="box">A74</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>91 photographs</physdesc>
@@ -4701,7 +4660,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A95</container>
+							<container label="unspecified" type="box">A95</container>
 
 							<unittitle>Small format</unittitle>
 
@@ -4718,7 +4677,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B23</container>
+							<container label="unspecified" type="box">B23</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4735,7 +4694,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B160</container>
+							<container label="unspecified" type="box">B160</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -4752,7 +4711,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B89</container>
+							<container label="unspecified" type="box">B89</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>111 photographs</physdesc>
@@ -4772,7 +4731,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B118</container>
+							<container label="unspecified" type="box">B118</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4784,7 +4743,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B121</container>
+							<container label="unspecified" type="box">B121</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>150 items</physdesc>
@@ -4800,7 +4759,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B161</container>
+							<container label="unspecified" type="box">B161</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -4817,7 +4776,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">A53</container>
+							<container label="unspecified" type="box">A53</container>
 
 							<unittitle>Small format</unittitle>
 							<physdesc>281 items</physdesc>
@@ -4829,7 +4788,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B64</container>
+							<container label="unspecified" type="box">B64</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -4842,7 +4801,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B100</container>
+							<container label="unspecified" type="box">B100</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Photographs</physdesc>
@@ -4861,7 +4820,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">C8</container>
+							<container label="unspecified" type="box">C8</container>
 
 							<unittitle>Large format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4879,7 +4838,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B87</container>
+							<container label="unspecified" type="box">B87</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>7 items</physdesc>
@@ -4889,7 +4848,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B88</container>
+							<container label="unspecified" type="box">B88</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>88 items</physdesc>
@@ -4899,7 +4858,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B158</container>
+							<container label="unspecified" type="box">B158</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4909,7 +4868,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B159</container>
+							<container label="unspecified" type="box">B159</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4925,7 +4884,7 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">B96</container>
+							<container label="unspecified" type="box">B96</container>
 
 							<unittitle>Medium format</unittitle>
 							<physdesc>Items</physdesc>
@@ -4936,7 +4895,7 @@
 				</c02>
 
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
 					<unitid>CD-2364</unitid>
 					<unittitle>Additional images</unittitle>
@@ -4946,125 +4905,125 @@
 				<did>
 					<unittitle>Posters and Oversized Images</unittitle>
 				</did>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">1</container>
-						<unitdate/>
+						<container label="unspecified" type="mapcase-folder">1</container>
+						
 						<unittitle>Tony Sansone Poster</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">1</container>
-						<unitdate/>
+						<container label="unspecified" type="mapcase-folder">1</container>
+						
 						<unittitle>Pop-up Poster</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">1</container>
+						<container label="unspecified" type="mapcase-folder">1</container>
 						<unitdate>1980</unitdate>
 						<unittitle>Broadway Production of "Bent" Photo - Richard Gere and David
 							Dukes</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">1</container>
-						<unitdate/>
+						<container label="unspecified" type="mapcase-folder">1</container>
+						
 						<unittitle>Nickerson Lumber Co Boy Scouts of America Poster</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">2</container>
-						<unitdate/>
+						<container label="unspecified" type="mapcase-folder">2</container>
+						
 						<unittitle>DSI Poster 8</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">2</container>
-						<unitdate/>
+						<container label="unspecified" type="mapcase-folder">2</container>
+						
 						<unittitle>Oversized Drawings</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">2</container>
-						<unitdate/>
+						<container label="unspecified" type="mapcase-folder">2</container>
+						
 						<unittitle>Colt Studios Ship Shape</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">2</container>
-						<unitdate/>
+						<container label="unspecified" type="mapcase-folder">2</container>
+						
 						<unittitle>Marlon Brando Posters</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">2</container>
-						<unitdate/>
+						<container label="unspecified" type="mapcase-folder">2</container>
+						
 						<unittitle>Navy Posters</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">3</container>
+						<container label="unspecified" type="mapcase-folder">3</container>
 						<unitdate>November 6-30, 2001</unitdate>
 						<unittitle>Wall House 2 - John Hedjuk - Cooper Union Exhibit
 							Poster</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">3</container>
+						<container label="unspecified" type="mapcase-folder">3</container>
 						<unittitle>Photoflexion - Art Zeller, Franco Columbu, Signed Exhibit Poster
 						</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">3</container>
+						<container label="unspecified" type="mapcase-folder">3</container>
 						<unittitle>Forbidden Love - Movie Poster</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">3</container>
+						<container label="unspecified" type="mapcase-folder">3</container>
 						<unitdate>December 1, 1989</unitdate>
 						<unittitle>Day Without Art: International Day of Action and Mourning in
 							Response to the AIDS Crisis</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">3</container>
+						<container label="unspecified" type="mapcase-folder">3</container>
 						<unitdate>1993</unitdate>
 						<unittitle>Helvey Stalked Schindler into a Public Toilet and Beat Him [To
 							Death] Because He was a Homosexual - Poster</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-folder">3</container>
-						<unitdate/>
+						<container label="unspecified" type="mapcase-folder">3</container>
+						
 						<unittitle>To Die For: Radioman Allen R. Schindler: 1971-1992 -
 							Poster</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-item">1</container>
+						<container label="unspecified" type="mapcase-item">1</container>
 						<unittitle>"The Eminent Yiddish Artist Bernard Elving" Framed
 							Print</unittitle>
 					</did>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="mapcase-item">2</container>
+						<container label="unspecified" type="mapcase-item">2</container>
 						<unittitle>Sizi Lianische Bavernehre - Pietro Mascagni, Caralleria Rusticana
 							Framed Print </unittitle>
 					</did>
@@ -5074,10 +5033,10 @@
 				<did>
 					<unittitle>CD's</unittitle>
 				</did>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">A112</container>
-						<unitdate type="inclusive" normal="2003/2007">2003-2007</unitdate>
+						<container label="unspecified" type="box">A112</container>
+						<unitdate normal="2003/2007" type="inclusive">2003-2007</unitdate>
 						<unitid>CD-3471-3500</unitid>
 						<unittitle>Various color/black and white physique photos by Mark
 							Lynch</unittitle>
@@ -5085,5 +5044,11 @@
 				</c02>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Harry H. Weintraub Collection of Gay-Related Photography and Historical
+					Documentation, #7771. Division of Rare and Manuscript Collections, Cornell
+					University Library.</p>
+				<p>Collection webpage: <extref href="http://rmc.library.cornell.edu/weintraub" show="new">http://rmc.library.cornell.edu/weintraub</extref></p>
+			</prefercite></archdesc>
 </ead>

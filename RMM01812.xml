@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
- 
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM01812::Hoyt family papers)//EN">RMM01812</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM01812::Hoyt family papers)//EN">RMM01812</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Hoyt family papers, <date>1828-1956.</date></titleproper>
@@ -31,6 +29,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -39,22 +43,22 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Hoyt Family Papers, <lb/>1828-1956</titleproper>
+         <titleproper>Guide to the Hoyt Family Papers, 1828-1956</titleproper>
          <num>Collection Number: 1812</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University Library</publisher>
+         <publisher>Division of Rare and Manuscript Collections Cornell University Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/>
-2B Carl A. Kroch Library<lb/>
-Cornell University<lb/>
-Ithaca, NY 14853<lb/>
-(607) 255-3530<lb/>
-Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections
+2B Carl A. Kroch Library
+Cornell University
+Ithaca, NY 14853
+(607) 255-3530
+Fax: (607) 255-9524
 <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
 <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -79,15 +83,16 @@ Fax: (607) 255-9524<lb/>
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Hoyt family papers, <unitdate type="inclusive" encodinganalog="MARC 245">1828-1956.</unitdate> 
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Hoyt family papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1828-1956.</unitdate>
          <unitid label="Collection Number:">1812</unitid>
          <origination label="Creator:"> 
 		  
             <persname encodinganalog="100" normal="Hoyt family. "> </persname>
 		
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>2.1 cubic ft.; volumes; map case items.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>2.1 cubic ft.; volumes; map case items.</extent></physdesc>
          <physdesc label="Forms of Material:">Papers of the Hoyt family, including Civil War documentation and Jean Broughton Hoyt Smith's papers relating to her training as a nurse and her career as an interior decorator.</physdesc>
          <repository label="Repository:"> Division of Rare and Manuscript Collections, Cornell University Library</repository>
          <abstract label="Abstract:">Scrapbooks, diaries, account books, address books, and other notebooks (40 volumes); correspondence, typescripts, notes, photographs and albums, diplomas and commissions, bills and receipts, newspaper clippings, and miscellaneous papers of Charles S. Hoyt of Potter, his daughter and son-in-law, Mr. and Mrs. Frederick
@@ -134,263 +139,260 @@ Fax: (607) 255-9524<lb/>
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Accounts.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Diaries.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Photographs.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Scrapbooks.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Accounts.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Diaries.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Scrapbooks.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Hoyt family papers, #1812. Division of Rare and Manuscript Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 1 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 1 </container>
                <unitdate> 1839-1186 </unitdate>
                <unittitle> Correspondence </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 2 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 2 </container>
                <unitdate> 1889-1908 </unitdate>
                <unittitle> Correspondence </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 3 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 3 </container>
                <unitdate> 1911-1920 </unitdate>
                <unittitle> Correspondence </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 4-5 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 4-5 </container>
                <unitdate> 1918 </unitdate>
                <unittitle> Correspondence </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 6 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 6 </container>
                <unitdate> n.d. </unitdate>
                <unittitle> Correspondence </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 7 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 7 </container>
                <unittitle> Hoyt Family Research </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 8 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 8 </container>
                <unittitle> Genealogy: Bouton-Boughton 1350-1860 </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 1 </container>
-               <container type="folder"> 9-10 </container>
+               <container label="unspecified" type="box"> 1 </container>
+               <container label="unspecified" type="folder"> 9-10 </container>
                <unitdate> 1860's </unitdate>
                <unittitle> Newsclippings primarily by/about Charles R. Hoyt </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 1-2 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 1-2 </container>
                <unitdate> 1828-1865 </unitdate>
                <unittitle> Jean Hoyt Smith Papers </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 3-7 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 3-7 </container>
                <unittitle> Transcript: Charles S. Hoyt Diary </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 8 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 8 </container>
                <unittitle> "A surgeon's Diary 1861-1865" by Hean Hoyt Smith </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 9-13 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 9-13 </container>
                <unittitle> Jean Hoyt Smith Manuscripts </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 2 </container>
-               <container type="folder"> 14 </container>
+               <container label="unspecified" type="box"> 2 </container>
+               <container label="unspecified" type="folder"> 14 </container>
                <unittitle> Journal: Jean Hoyt Smith [?]- Historical Notes </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 1 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 1 </container>
                <unitdate> 1890-1951 </unitdate>
                <unittitle> Frank B. Sanborn: Correspondence by and about Sanborn </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 2 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 2 </container>
                <unitdate> 1946 </unitdate>
                <unittitle> Drix Duryea, Inc. </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 3 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 3 </container>
                <unitdate> 1947 </unitdate>
                <unittitle> Drix Duryea, Inc. </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 4 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 4 </container>
                <unitdate> 1945 </unitdate>
                <unittitle> Louisa King </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 5-11 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 5-11 </container>
                <unittitle> Jean Hoyt Smith Manuscripts </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 12 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 12 </container>
                <unitdate> 1946-1950 </unitdate>
                <unittitle> Newsclippings </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 3 </container>
-               <container type="folder"> 13 </container>
+               <container label="unspecified" type="box"> 3 </container>
+               <container label="unspecified" type="folder"> 13 </container>
                <unittitle> Notebook: "Nova Scotia" [C. S. Hoyt?] </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 4 </container>
+               <container label="unspecified" type="box"> 4 </container>
                <unittitle> Journals, Scrapbooks </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 5 </container>
+               <container label="unspecified" type="box"> 5 </container>
                <unittitle> Diaries, Address Books </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box"> 6 </container>
+               <container label="unspecified" type="box"> 6 </container>
                <unittitle> Photographs, Photograph Albums </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="mapcase-folder">1</container>
+               <container label="unspecified" type="mapcase-folder">1</container>
                <unitdate>1864</unitdate>
                <unittitle>Military Commission - New York State Volunteers</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="mapcase-folder">1</container>
+               <container label="unspecified" type="mapcase-folder">1</container>
                <unitdate>1865</unitdate>
                <unittitle>Military Commission - New York State Volunteers</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="mapcase-folder">1</container>
+               <container label="unspecified" type="mapcase-folder">1</container>
                <unitdate>1889</unitdate>
                <unittitle>"Companion of the first Class ..." signed by Rutherford B. Hayes</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="mapcase-folder">1</container>
+               <container label="unspecified" type="mapcase-folder">1</container>
                <unitdate>1890</unitdate>
                <unittitle>Diploma: Canandaigua Academy</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="mapcase-folder">1</container>
+               <container label="unspecified" type="mapcase-folder">1</container>
                <unitdate>1895</unitdate>
                <unittitle>Certificate of appointment - State board of Charities</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="mapcase-folder">1</container>
+               <container label="unspecified" type="mapcase-folder">1</container>
                <unitdate>Undated</unitdate>
                <unittitle>Photographs</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="volume">1, 3-7, 9-12, 17</container>
+               <container label="unspecified" type="volume">1, 3-7, 9-12, 17</container>
                <unittitle>10 Scrapbooks: Interior Decorating-related pictures, articles</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="volume">2</container>
+               <container label="unspecified" type="volume">2</container>
                <unittitle>1 Scrapbook: Magazine: newsclippings re: recipes, cooking, etc.</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="volume">13-14</container>
+               <container label="unspecified" type="volume">13-14</container>
                <unittitle>1 Scrapbook: News clippings</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="volume">15</container>
+               <container label="unspecified" type="volume">15</container>
                <unittitle>1 Scrapbook: Illustrations</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="volume">16</container>
+               <container label="unspecified" type="volume">16</container>
                <unittitle>1 Scrapbook: Cornell</unittitle>
             </did>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Hoyt family papers, #1812. Division of Rare and Manuscript Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

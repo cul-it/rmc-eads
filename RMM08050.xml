@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08050::Guide to the Photography pamphlets and ephemera)//EN">RMM08050</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08050::Guide to the Photography pamphlets and ephemera)//EN">RMM08050</eadid>
     
     <filedesc> 
       <titlestmt> 
@@ -27,22 +27,28 @@
       <creation>Finding aid encoded by RMC Staff, 
         <date>June 2011</date></creation> 
     </profiledesc> 
-  </eadheader> 
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader> 
   <frontmatter> 
     <titlepage> 
-      <titleproper>Guide to the Photography Pamphlets And Ephemera,<lb/> 
-        <date type="inclusive" encodinganalog="245$f">1890-1950.</date></titleproper> 
+      <titleproper>Guide to the Photography Pamphlets And Ephemera, 
+        <date encodinganalog="245$f" type="inclusive">1890-1950.</date></titleproper> 
       <num>Collection Number: 8050</num> 
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+      <publisher>Division of Rare and Manuscript Collections Cornell
         University Library</publisher> 
       <list type="deflist"> 
         <defitem> 
           <label>Contact Information:</label> 
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-            Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/> 
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/> 
-            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A.
+            Kroch Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524 
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
+            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
           
         </defitem> 
         <defitem> 
@@ -69,12 +75,14 @@
   <archdesc level="collection"> 
     <did> 
       <head id="a1">DESCRIPTIVE SUMMARY</head> 
-      <unittitle label="Title:" encodinganalog="MARC 245">Photography pamphlets
+      <unittitle encodinganalog="MARC 245" label="Title:">Photography pamphlets
         and ephemera, 
-        <unitdate encodinganalog="MARC 245" type="inclusive">1890-1950.</unitdate> </unittitle> 
+        </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1890-1950.</unitdate> 
       <unitid label="Collection Number:">8050</unitid> 
       <origination label="Creator:"/> 
-        <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.5 cubic
+        <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>.5 cubic
           feet.</extent></physdesc> 
         <physdesc label="Forms of Material:">Printed Materials</physdesc> 
         <repository label="Repository:">Division of Rare and Manuscript
@@ -107,20 +115,13 @@
           supplies.</subject> 
       </controlaccess> 
     </controlaccess> 
-    <descgrp> 
-      <head id="a8">INFORMATION FOR USERS</head> 
-      <prefercite> 
-        <head>Cite As:</head> 
-        <p>Photography pamphlets and ephemera, #8050. Division of Rare and
-          Manuscript Collections, Cornell University Library.</p> 
-      </prefercite> 
-    </descgrp> 
+     
     <dsc type="combined"> 
       <head>CONTAINER LIST</head>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1911</unitdate><unittitle>Ansco Company
             
                     
@@ -129,8 +130,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>undated</unitdate>   <unittitle>Bell &amp; Howell Company
             
            
@@ -140,8 +141,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>undated</unitdate> <unittitle>Cameragraph Company
             
           
@@ -151,8 +152,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>undated</unitdate> <unittitle>Defender Photo Supply Company
             
             
@@ -162,8 +163,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1930-1939</unitdate> <unittitle>Eastman Kodak Company
             
            
@@ -173,8 +174,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1909-1937</unitdate>   <unittitle>Eastman Kodak instruction publications
             
           
@@ -184,8 +185,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1895-1938</unitdate>  <unittitle>Eastman Kodak product catalogs
             
          
@@ -195,8 +196,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1938</unitdate> <unittitle>Folmer Graflex Company
             
         
@@ -206,8 +207,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>undated</unitdate>  <unittitle>General Electric Company photo bulbs
             
        
@@ -217,8 +218,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1928</unitdate> <unittitle>Housh albums, photo mountings, calendars, and frames
             
           
@@ -228,8 +229,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>undated</unitdate> <unittitle>Kalart Company: micromatic speed flash
             
          
@@ -239,8 +240,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1940</unitdate><unittitle>Lafayette Camera Division of Radio Wire Television, Inc.
             
           
@@ -250,8 +251,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>undated</unitdate>  <unittitle>Leica
             
            
@@ -261,8 +262,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>undated</unitdate>  <unittitle>Selvaggio Accordion Band
             
          
@@ -272,8 +273,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>1908-1909</unitdate><unittitle>Shepard Cameras, photographic apparatus and supplies
             
          
@@ -283,8 +284,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>undated</unitdate>  <unittitle>Vaporate: Peerless Film Treatment            
                      
           </unittitle>
@@ -292,8 +293,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">17</container>
           <unitdate>1917-1918</unitdate>  <unittitle>Kodak: Premo camera and general photographic equipment          
                       
           </unittitle>
@@ -301,13 +302,17 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>undated</unitdate>  <unittitle>Photostat Corporation: Photostat recording equipment          
             
           </unittitle>
         </did>
       </c01>
     </dsc> 
-  </archdesc> 
+  <prefercite> 
+        <head>Cite As:</head> 
+        <p>Photography pamphlets and ephemera, #8050. Division of Rare and
+          Manuscript Collections, Cornell University Library.</p> 
+      </prefercite></archdesc> 
 </ead>

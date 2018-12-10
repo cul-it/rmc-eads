@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead>
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08120::Diego Cortez No Wave Collection)//EN">RMM08120</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM08120::Diego Cortez No Wave Collection)//EN">RMM08120</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the Diego Cortez No Wave Collection, <date>circa
@@ -24,18 +24,24 @@
   <profiledesc>
    <creation>Finding aid encoded by RMC Staff, <date>October 2018</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the Diego Cortez No Wave Collection,<lb/><date type="inclusive" encodinganalog="245$f">circa 1972-1981.</date></titleproper>
+   <titleproper>Guide to the Diego Cortez No Wave Collection,<date encodinganalog="245$f" type="inclusive">circa 1972-1981.</date></titleproper>
    <num>Collection Number: 8120</num>
-   <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+   <publisher>Division of Rare and Manuscript Collections Cornell University
     Library</publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell
-      University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+     <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell
+      University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
     </defitem>
     <defitem>
      <label>Compiled by:</label>
@@ -61,14 +67,15 @@
  <archdesc level="collection">
   <did>
    <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245">Diego Cortez No Wave Collection, <unitdate encodinganalog="MARC 245" type="inclusive">circa 1972-1981.</unitdate>
-   </unittitle>
+   <unittitle encodinganalog="MARC 245" label="Title:">Diego Cortez No Wave Collection, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1972-1981.</unitdate>
    <unitid label="Collection Number:">8120</unitid>
    <origination label="Creator:">
     <persname encodinganalog="100" normal="Cortez, Diego, "> Diego, Cortez</persname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>Circa 1.5 cubic
-    feet.</extent></physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>Circa 1.5 cubic
+    feet.</extent></physdesc><physdesc>Extent is approximate.</physdesc>
    <physdesc label="Forms of Material:">Photographs, artwork, correspondence, manuscripts, and
     printed material.</physdesc>
    <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University
@@ -84,7 +91,7 @@
    </langmaterial>
   </did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+   <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
    <p>Born James Allen Curtis in Geneva, Illinois in 1946, Curtis moved to New York City in 1973 and
     assumed the name Diego Cortez. He became well-known as an artist, club manager, promoter, and
     independent curator, co-founding the influential NYC nightspot The Mudd Club, which offered an
@@ -129,58 +136,51 @@
     <geogname encodinganalog="MARC 651">New York (N.Y.).</geogname>
    </controlaccess>
   </controlaccess>
-  <descgrp>
-   <head id="a8">INFORMATION FOR USERS</head>
-   <prefercite>
-    <head>Cite As:</head>
-    <p>Diego Cortez No Wave Collection, #8120. Division of Rare and Manuscript Collections, Cornell
-     University Library. </p>
-   </prefercite>
-  </descgrp>
+  
   <arrangement>
    <head>SERIES LIST</head>
    <p>
     <emph render="bold">
-     <ref target="s1" show="replace" actuate="onrequest">Series I. Correspondence</ref>
+     <ref actuate="onrequest" show="replace" target="s1">Series I. Correspondence</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s2" show="replace" actuate="onrequest">Series II. Exhibitions</ref>
+     <ref actuate="onrequest" show="replace" target="s2">Series II. Exhibitions</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s3" show="replace" actuate="onrequest">Series III. Manuscripts</ref>
+     <ref actuate="onrequest" show="replace" target="s3">Series III. Manuscripts</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s4" show="replace" actuate="onrequest">Series IV. Periodicals/press
+     <ref actuate="onrequest" show="replace" target="s4">Series IV. Periodicals/press
       materials</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s5" show="replace" actuate="onrequest">Series V. Photographs</ref>
+     <ref actuate="onrequest" show="replace" target="s5">Series V. Photographs</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s6" show="replace" actuate="onrequest">Series VI. Posters and flyers</ref>
+     <ref actuate="onrequest" show="replace" target="s6">Series VI. Posters and flyers</ref>
     </emph>
-    <lb/>
+    
    </p>
    <p>
     <emph render="bold">
-     <ref target="s7" show="replace" actuate="onrequest">Series VII. Recordings and artwork</ref>
+     <ref actuate="onrequest" show="replace" target="s7">Series VII. Recordings and artwork</ref>
     </emph>
-    <lb/>
+    
    </p>
   </arrangement>
   <dsc type="combined">
@@ -191,8 +191,8 @@
     </did>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Letter by Marina Abramovic to Diego Cortez</unittitle>
       <origination label="Creator"><persname>Abramovic , Marina</persname></origination>
       <physdesc>Typed letter with signature and flower drawing in ink, written from Belgrade,
@@ -202,9 +202,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1975">1975</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
+      <unitdate certainty="approximate" normal="1975" type="inclusive">1975</unitdate>
       <unittitle>Handwritten letter from Jimmy DeSana to Diego Cortez</unittitle>
       <physdesc>Red ink on paper, signed by DeSana with artist's stamp of camera/hands at top. With
        envelope with 'CORTEZ' handwritten on it.</physdesc>
@@ -212,15 +212,15 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Postcard to Diego and Jim DeSana from "cf"</unittitle>
      </did>
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Letter by Liz Rhodes to Diego Cortez</unittitle>
       <physdesc>Two-sided handwritten letter with signature, written from London, with notations by
        Cortez. At the behest of Peter Gidal, Rhodes invites Cortez to show films at the London Film
@@ -229,8 +229,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Letter to DC from Udo Breger</unittitle>
       <physdesc>One page letter with attached photograph of Breger.</physdesc>
      </did>
@@ -244,8 +244,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Letter to DC c/o Betsy Sussler from Udo Breger</unittitle>
       <physdesc>Two small pages, one with attached photo of Breger. In postmarked
        envelope.</physdesc>
@@ -256,8 +256,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Letter by Peter Gidal to "Hernando Cortez"</unittitle>
       <physdesc>Signed.</physdesc>
      </did>
@@ -268,8 +268,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Letter by Norman Rosenthal to Diego Cortez</unittitle>
       <physdesc>Two-sided handwritten letter by Rosenthal from London. Signature on
        verso.</physdesc>
@@ -280,15 +280,15 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Letter from Pasquale Trisorio to Diego</unittitle>
      </did>
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Postcard from Marek Konieczny, Warsaw</unittitle>
       <physdesc>Signed by Makarewicz.</physdesc>
      </did>
@@ -298,8 +298,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Letter by Zbigniew Makarewicz to Consulate General of Poland to the US</unittitle>
      </did>
      <scopecontent>
@@ -308,8 +308,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Letter by Makarewicz to Cortez</unittitle>
      </did>
      <scopecontent>
@@ -318,8 +318,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Typed letter by Diego Cortez to Candida HÃ¶ffer</unittitle>
      </did>
      <scopecontent>
@@ -328,8 +328,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Letter by Diego Cortez to Robin Winters</unittitle>
       <physdesc>Two-sided typed letter with handwritten notations in ink, written from
        Germany.</physdesc>
@@ -340,8 +340,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Postcard from Ingrid Oppenheim to DC</unittitle>
       <origination label="Creator"><persname>Oppenheim, Ingrid</persname></origination>
      </did>
@@ -355,8 +355,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Letter from DeSana to DC</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
       <physdesc>Handwritten. In handwritten envelope "Por Diego Cortez."</physdesc>
@@ -370,8 +370,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Postcard from UK to Diego Cortez</unittitle>
       <origination label="Creator"><persname>Phillips, Anya</persname></origination>
      </did>
@@ -381,8 +381,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Mailgram</unittitle>
      </did>
      <scopecontent>
@@ -391,8 +391,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>Fab Five Freddy</unittitle>
       <physdesc>Offset on card stock.</physdesc>
      </did>
@@ -402,8 +402,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unitdate>Undated</unitdate>
       <unittitle>Draft of a letter to Yossy Aoren</unittitle>
      </did>
@@ -438,16 +438,16 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">3</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">3</container>
        <unittitle>Manila envelope</unittitle>
        <physdesc>Hand-titled by Cortez.</physdesc>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">3</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">3</container>
        <unittitle>Images taken at MoMA security office</unittitle>
        <physdesc>One photo contact sheet, including arrest pictures of Tony Shafrazi.</physdesc>
       </did>
@@ -457,8 +457,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">3</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">3</container>
        <unittitle>MoMA security work ephemera</unittitle>
        <physdesc>30 assorted handwritten-in-ink notebook pages from MoMA security work for Whitney
         Downtown Museum exhibition by Cortez (most written on both sides); one check stub, one
@@ -467,8 +467,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">4</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">4</container>
        <unittitle>Works from 1975 Whitney Downtown Museum show</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
        <physdesc>75 Xerox works.</physdesc>
@@ -476,8 +476,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">5</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">5</container>
        <unittitle>Announcements for 1975 "Xerox and Blood" show at Whitney Downtown
         Museum</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
@@ -489,8 +489,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">3</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">3</container>
        <unittitle>Installation plan for 1975 Whitney Downtown Museum show</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
       </did>
@@ -505,8 +505,8 @@
      </did>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">6</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">6</container>
        <unittitle>Notes for photo series 'Cataratta Riflesso Rosso' for 1976 Galleria Trisorio
         exhibition</unittitle>
        <physdesc>Blue ink on paper.</physdesc>
@@ -517,8 +517,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">6</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">6</container>
        <unittitle>Sketches for wall paintings for 1976 'Cataratta Riflesso Rosso' exhibition,
         Galleria Trisorio</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
@@ -530,7 +530,7 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="folder">6</container>
+       <container label="unspecified" type="folder">6</container>
        <unittitle>Sketches, notes re: medical photo works in "Cataratta Riflesso Rosso"</unittitle>
       </did>
       <scopecontent>
@@ -542,8 +542,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">6</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">6</container>
        <unittitle>Prints documenting Cortez's gallery exhibition 'Cataratta Riflesso Rosso' at
         Galleria Trisorio</unittitle>
        <origination label="Creator"><persname>del Monaco, Bruno</persname></origination>
@@ -564,8 +564,8 @@
      </did>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">2</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">2</container>
        <unittitle>Kodachrome slides</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
       </did>
@@ -577,8 +577,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">8</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">8</container>
        <unittitle>Study for announcement card for Diego Cortez "SMEAR" exhibition</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
        <physdesc>Color Xerox.</physdesc>
@@ -592,8 +592,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">6</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">6</container>
        <unittitle>Two-sided handwritten note by Diego Cortez</unittitle>
       </did>
       <scopecontent>
@@ -603,8 +603,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">7</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">7</container>
        <unittitle>Notes for "The Batman Show"</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
       </did>
@@ -617,8 +617,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">7</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">7</container>
        <unittitle>Batman's Left Nipple</unittitle>
        <origination label="Creator"><persname>Johnson, Ray</persname></origination>
        <physdesc>Collage, mirror mounted on red construction paper.</physdesc>
@@ -636,8 +636,8 @@
      </did>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">9</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">9</container>
        <unittitle>Initial List of Artists, "New York/New Wave" exhibition (1981)</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
        <physdesc>Typed list of artists, 6 pages.</physdesc>
@@ -645,8 +645,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">9</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">9</container>
        <unittitle>Rene Ricard</unittitle>
        <origination label="Creator"><persname>Armstrong, David</persname></origination>
        <physdesc>Signed and titled with notations on verso (handwritten specs as to larger print to
@@ -664,8 +664,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">28</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">28</container>
        <unittitle>Untitled (New York/New Wave)</unittitle>
        <origination label="Creator"><persname>Maripol</persname></origination>
       </did>
@@ -684,8 +684,8 @@
      </did>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">10</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">10</container>
        <unittitle>Remarks on Graffiti (Unpublished)</unittitle>
        <origination label="Creator"><persname>Smith, Duncan</persname></origination>
        <physdesc>Photocopy with hand-written edits and notations by Cortez. 13 pages.</physdesc>
@@ -693,8 +693,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">10</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">10</container>
        <unittitle>Graffiti 1980, America's Underground Art Come of Age, Subterranean Calligraphy,
         1981 | From Steel to Canvas, The Graffiti 1980 Experience, Zoo York Magazine,
         1980</unittitle>
@@ -704,8 +704,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">10</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">10</container>
        <unittitle>Graffiti Exhibition Proposal</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
        <physdesc>Blue envelope with hand-written title by Cortez.</physdesc>
@@ -719,8 +719,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">10</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">10</container>
        <unittitle>Original Proposal Notes for Unrealized Graffiti Exhibition Project,
         Spring</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
@@ -740,8 +740,8 @@
      </did>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">11</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">11</container>
        <unittitle>Notes for screenings in European cinematheque tour by Cortez</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
        <physdesc>7-paged handwritten notes.</physdesc>
@@ -755,8 +755,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">11</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">11</container>
        <unittitle>Notes for screenings in European cinematheque tour by Cortez</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
       </did>
@@ -769,8 +769,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">11</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">11</container>
        <unittitle>Notes on MusÃ©e du CinÃ©ma</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
        <physdesc>One-page typed notes on Brussels letterhead</physdesc>
@@ -782,8 +782,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">11</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">11</container>
        <unittitle>Bio and Notes on Screening for Candida Hoffer</unittitle>
        <physdesc>2-paged xerox.</physdesc>
       </did>
@@ -793,8 +793,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">11</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">11</container>
        <unittitle>Notes for "Poisoning"</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
       </did>
@@ -805,8 +805,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">11</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">11</container>
        <unittitle>Notes re: possible programming of films by Diego Cortez</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
        <physdesc>5 pgs. typewritten</physdesc>
@@ -820,8 +820,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">11</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">11</container>
        <unittitle>Notes re: "New American Performance" proposal for Stadtische
         Kunsthalle</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
@@ -838,8 +838,8 @@
     </did>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">12</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">12</container>
       <unittitle>APO-33 Bulletin, A Metabolic Regulator</unittitle>
       <origination label="Creator"><persname>Burroughs, William S.</persname></origination>
       <physdesc>Signed by DC on page 1.</physdesc>
@@ -853,8 +853,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">12</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">12</container>
       <unittitle>Notes for "Cansearch Report"</unittitle>
       <origination label="Creator"><persname>Cortez, Diego</persname></origination>
      </did>
@@ -865,7 +865,7 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">4</container>
+      <container label="unspecified" type="box">4</container>
       <unittitle>Storyboads for William S. Burroughs film project, Blade Runner</unittitle>
       <origination label="Creator"><persname>Cortez, Diego</persname></origination>
      </did>
@@ -891,8 +891,8 @@
     </did>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">13</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">13</container>
       <unittitle>Art Rite, Issue No. Ten, Fall</unittitle>
      </did>
      <scopecontent>
@@ -902,16 +902,16 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">13</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">13</container>
       <unittitle>Art Rite, Issue No. Ten, Fall</unittitle>
       <physdesc>Single page of Cortez's 'Notes on Painter/Patient Performance'</physdesc>
      </did>
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">13</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">13</container>
       <unittitle>Art Rite, Issue No. 11-12, Winter/Spring</unittitle>
       <physdesc>Edward Ruscha on cover.</physdesc>
      </did>
@@ -921,8 +921,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">2</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">2</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>File Magazine, "New York City" Edition, Spring</unittitle>
      </did>
      <scopecontent>
@@ -940,8 +940,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">14</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">14</container>
       <unittitle>Announcement re: publication of books by Hermann Nitsch</unittitle>
       <physdesc>Offset on cards.</physdesc>
      </did>
@@ -954,8 +954,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">2</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">2</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>File Magazine, "Special People Issue" Edition, Spring</unittitle>
      </did>
      <scopecontent>
@@ -973,8 +973,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">2</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">2</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle>File Magazine, "Punk 'Til You Puke" Edition, Fall</unittitle>
      </did>
      <controlaccess>
@@ -986,8 +986,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">14</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">14</container>
       <unittitle>Protokolle der Gerfangenen aus der RAF sun Uberfall in Stammheim</unittitle>
       <physdesc>Typed list of artists, 10 pages.</physdesc>
      </did>
@@ -997,16 +997,16 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">14</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">14</container>
       <unittitle>MOVED catalogue, Collaborative Projects (COLAB)</unittitle>
       <physdesc>Typed list of artists, 10 pages.</physdesc>
      </did>
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">14</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">14</container>
       <unittitle>New York/New Wave exhibition catalogues, P.S. 1</unittitle>
       <physdesc>Offset fold-out, 4 pages.</physdesc>
      </did>
@@ -1021,8 +1021,8 @@
     </did>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">15</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">15</container>
       <unittitle>Photo booth auto-portrait</unittitle>
       <origination label="Creator"><persname>Cortez, Diego</persname></origination>
       <physdesc>Two variant images on one strip photograph.</physdesc>
@@ -1034,8 +1034,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">15</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">15</container>
       <unittitle>Nam June Paik</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
       <physdesc>Unsigned</physdesc>
@@ -1053,8 +1053,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">15</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">15</container>
       <unittitle>Chuck Berry</unittitle>
       <origination label="Creator"><persname>Gruen, Bob</persname></origination>
       <physdesc>Artist's stamp and date on verso.</physdesc>
@@ -1065,8 +1065,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">15</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">15</container>
       <unittitle>Byron Reed</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
      </did>
@@ -1082,8 +1082,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">15</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">15</container>
       <unittitle>Photograph of Bobby Daren with Marie Keller</unittitle>
      </did>
      <scopecontent>
@@ -1097,17 +1097,17 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">15</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">15</container>
       <unittitle>Untitled (Self-portrait as airman)</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
      </did>
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">15</container>
-      <unitdate type="inclusive" normal="1976/1976">Expression</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">15</container>
+      <unitdate normal="1976/1976" type="inclusive">Expression</unitdate>
       <unittitle>Edit DeAk, Diego Cortez</unittitle>
      </did>
      <scopecontent>
@@ -1119,9 +1119,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">15</container>
-      <unitdate type="inclusive" normal="1976">1976</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">15</container>
+      <unitdate normal="1976" type="inclusive">1976</unitdate>
       <unittitle>James Nares, Diego Cortez, East Village</unittitle>
       <origination label="Creator"><persname>Tillett, Seth</persname></origination>
      </did>
@@ -1131,9 +1131,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">15</container>
-      <unitdate type="inclusive" normal="1976">1976</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">15</container>
+      <unitdate normal="1976" type="inclusive">1976</unitdate>
       <unittitle>Gioia Meller-Marcovicz, Diego Cortez, Stanton St.</unittitle>
       <origination label="Creator"><persname>Tillett, Seth</persname></origination>
      </did>
@@ -1146,9 +1146,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">15</container>
-      <unitdate type="inclusive" normal="1976">1976</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">15</container>
+      <unitdate normal="1976" type="inclusive">1976</unitdate>
       <unittitle>Auto-portrait with dog</unittitle>
       <origination label="Creator"><persname>Konieczny, Marek</persname></origination>
      </did>
@@ -1162,17 +1162,17 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">28</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1976">1976</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">28</container>
+      <unitdate certainty="approximate" normal="1976" type="inclusive">1976</unitdate>
       <unittitle>Joseph Beuys</unittitle>
      </did>
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">16</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">16</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Untitled (Self-portrait w/ flash)</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
      </did>
@@ -1182,9 +1182,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">16</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">16</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Diego Cortez</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
       <physdesc>Stamped by artist's stamp on verso.</physdesc>
@@ -1195,9 +1195,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">16</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">16</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Judy Nylon</unittitle>
       <origination label="Creator"><persname>Phillips, Anya</persname></origination>
      </did>
@@ -1210,9 +1210,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">16</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">16</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>James Chance</unittitle>
       <origination label="Creator"><persname>Phillips, Anya</persname></origination>
      </did>
@@ -1225,9 +1225,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">16</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">16</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Hal Ludiger</unittitle>
       <origination label="Creator"><persname>Phillips, Anya</persname></origination>
      </did>
@@ -1240,9 +1240,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">16</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">16</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>James Chance, Anya Phillips</unittitle>
       <origination label="Creator"><persname>Phillips, Anya</persname></origination>
      </did>
@@ -1255,9 +1255,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">16</container>
-      <unitdate type="inclusive" normal="1977-04-12">1977-04-12</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">16</container>
+      <unitdate normal="1977-04-12" type="inclusive">1977-04-12</unitdate>
       <unittitle>Debbie Harry, Anya Phillips, San Francisco boarding house</unittitle>
       <origination label="Creator"><persname>Phillips, Anya</persname></origination>
      </did>
@@ -1270,9 +1270,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">16</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">16</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Diego Cortez</unittitle>
       <origination label="Creator"><persname>Vogl, Harald</persname></origination>
      </did>
@@ -1285,9 +1285,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">16</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">16</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Anya Phillips</unittitle>
       <origination label="Creator"><persname>Cortez, Diego</persname></origination>
      </did>
@@ -1297,9 +1297,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">16</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">16</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>New Cinema Group</unittitle>
       <origination label="Creator"><persname>Godlis, David</persname></origination>
       <physdesc>Offset newspaper print.</physdesc>
@@ -1307,9 +1307,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">16</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">16</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Jimmy DeSana, Mercer St. Loft, Soho</unittitle>
       <origination label="Creator"><persname>Cortez, Diego</persname></origination>
       <physdesc>Hand notated by Cortez on verso.</physdesc>
@@ -1320,9 +1320,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">16</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">16</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Katharina Sieverding, Diego Cortez</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
       <physdesc>Artist's stamp on verso.</physdesc>
@@ -1336,9 +1336,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">16</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">16</container>
+      <unitdate certainty="approximate" normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Robert Stefanotty, Jimmy DeSana, Gregory Battcock aboard the Queen Elizabeth
        2</unittitle>
       <physdesc>In Cunard Lines matte.</physdesc>
@@ -1352,9 +1352,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">2</container>
-      <container type="folder">2</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">2</container>
+      <container label="unspecified" type="folder">2</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>James Chance</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
      </did>
@@ -1367,9 +1367,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">2</container>
-      <container type="folder">2</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">2</container>
+      <container label="unspecified" type="folder">2</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Diego Cortez as Elvis Presley in 'Grutzi Elvis' film</unittitle>
       <origination label="Creator"><persname>Meller-Marcovic, Digne</persname></origination>
       <physdesc>Artist's stamp on verso.</physdesc>
@@ -1383,9 +1383,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">17</container>
-      <unitdate type="inclusive" normal="1978">1978</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">17</container>
+      <unitdate normal="1978" type="inclusive">1978</unitdate>
       <unittitle>Untitled (Self-portrait w/ graduation cap)</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
      </did>
@@ -1398,9 +1398,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">17</container>
-      <unitdate type="inclusive" normal="1978">1978</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">17</container>
+      <unitdate normal="1978" type="inclusive">1978</unitdate>
       <unittitle>Untitled (Self-portrait w/ Spanish hat)</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
      </did>
@@ -1413,9 +1413,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">17</container>
-      <unitdate type="inclusive" normal="1978">1978</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">17</container>
+      <unitdate normal="1978" type="inclusive">1978</unitdate>
       <unittitle>Bob Gruen</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
       <physdesc>Artist's stamp on verso.</physdesc>
@@ -1426,9 +1426,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">17</container>
-      <unitdate type="inclusive" normal="1978">1978</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">17</container>
+      <unitdate normal="1978" type="inclusive">1978</unitdate>
       <unittitle>Diego Cortez, Odeon, NYC</unittitle>
       <origination label="Creator"><persname>Grossman, Bobby</persname></origination>
      </did>
@@ -1441,9 +1441,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">17</container>
-      <unitdate type="inclusive" normal="1978">1978</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">17</container>
+      <unitdate normal="1978" type="inclusive">1978</unitdate>
       <unittitle>Anya Phillips, James Chance</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
       <physdesc>Artist's stamp on verso.</physdesc>
@@ -1457,9 +1457,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">17</container>
-      <unitdate type="inclusive" normal="1978">1978</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">17</container>
+      <unitdate normal="1978" type="inclusive">1978</unitdate>
       <unittitle>Billy Idol</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
       <physdesc>Artist's stamp on verso.</physdesc>
@@ -1470,9 +1470,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">17</container>
-      <unitdate type="inclusive" normal="1978">1978</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">17</container>
+      <unitdate normal="1978" type="inclusive">1978</unitdate>
       <unittitle>Robert Gordon</unittitle>
      </did>
      <scopecontent>
@@ -1484,9 +1484,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">17</container>
-      <unitdate type="inclusive" normal="1978">1978</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">17</container>
+      <unitdate normal="1978" type="inclusive">1978</unitdate>
       <unittitle>Diego Cortez (Esoterrorists)</unittitle>
       <origination label="Creator"><persname>Phillips, Anya</persname></origination>
      </did>
@@ -1501,9 +1501,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">17</container>
-      <unitdate type="inclusive" normal="1978">1978</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">17</container>
+      <unitdate normal="1978" type="inclusive">1978</unitdate>
       <unittitle>Esoterrorists</unittitle>
       <origination label="Creator"><persname>Vogl, Harald</persname></origination>
       <physdesc>Unsigned.</physdesc>
@@ -1522,9 +1522,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">17</container>
-      <unitdate type="inclusive" normal="1978">1978</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">17</container>
+      <unitdate normal="1978" type="inclusive">1978</unitdate>
       <unittitle>Andy Warhol, Diego Cortez and others</unittitle>
       <origination label="Creator"><persname>Grossman, Bobby</persname></origination>
      </did>
@@ -1534,9 +1534,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">17</container>
-      <unitdate type="inclusive" normal="1978">1978</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">17</container>
+      <unitdate normal="1978" type="inclusive">1978</unitdate>
       <unittitle>Andy Warhol, Diego Cortez</unittitle>
       <origination label="Creator"><persname>Grossman, Bobby</persname></origination>
      </did>
@@ -1546,9 +1546,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">17</container>
-      <unitdate type="inclusive" normal="1978">1978</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">17</container>
+      <unitdate normal="1978" type="inclusive">1978</unitdate>
       <unittitle>Anya Phillips, Tim Guest, Diego Cortez</unittitle>
       <origination label="Creator"><persname>Grossman, Bobby</persname></origination>
      </did>
@@ -1558,9 +1558,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">17</container>
-      <unitdate type="inclusive" normal="1978">1978</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">17</container>
+      <unitdate normal="1978" type="inclusive">1978</unitdate>
       <unittitle>Brian Eno</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
      </did>
@@ -1570,9 +1570,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">2</container>
-      <container type="folder">2</container>
-      <unitdate type="inclusive" normal="1978">1978</unitdate>
+      <container label="unspecified" type="box">2</container>
+      <container label="unspecified" type="folder">2</container>
+      <unitdate normal="1978" type="inclusive">1978</unitdate>
       <unittitle>Diego Cortez</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
      </did>
@@ -1585,9 +1585,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">18</container>
-      <unitdate type="inclusive" normal="1979">1979</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">18</container>
+      <unitdate normal="1979" type="inclusive">1979</unitdate>
       <unittitle>Boris Policeband, Diego Cortez</unittitle>
       <origination label="Creator"><persname>Starr, Michael</persname></origination>
       <physdesc>Signed and titled on verso.</physdesc>
@@ -1604,9 +1604,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">18</container>
-      <unitdate type="inclusive" normal="1979">1979</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">18</container>
+      <unitdate normal="1979" type="inclusive">1979</unitdate>
       <unittitle>Untitled (Self-portrait)</unittitle>
       <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
      </did>
@@ -1616,9 +1616,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">18</container>
-      <unitdate type="inclusive" normal="1980">1980</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">18</container>
+      <unitdate normal="1980" type="inclusive">1980</unitdate>
       <unittitle>Untitled</unittitle>
       <origination label="Creator"><persname>Gruen, Bob</persname></origination>
       <physdesc>Stamped with artist's stamp and hand-notated as to series.</physdesc>
@@ -1642,9 +1642,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">2</container>
-      <container type="folder">3</container>
-      <unitdate type="inclusive" normal="1981">1981</unitdate>
+      <container label="unspecified" type="box">2</container>
+      <container label="unspecified" type="folder">3</container>
+      <unitdate normal="1981" type="inclusive">1981</unitdate>
       <unittitle>Untitled (Modena, Italy)</unittitle>
       <origination label="Creator"><persname>Basquiat, Jean-Michel</persname></origination>
       <physdesc>Unsigned and mounted in window matte.</physdesc>
@@ -1664,16 +1664,16 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">18</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">18</container>
       <unitdate>Undated</unitdate>
       <unittitle>Photo booth portrait</unittitle>
      </did>
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">18</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">18</container>
       <unitdate>Undated</unitdate>
       <unittitle>Untitled</unittitle>
      </did>
@@ -1683,8 +1683,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">18</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">18</container>
       <unitdate>Undated</unitdate>
       <unittitle>Untitled</unittitle>
      </did>
@@ -1694,8 +1694,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">18</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">18</container>
       <unitdate>Undated</unitdate>
       <unittitle>Diego Cortez</unittitle>
       <physdesc>Handwritten note on verso</physdesc>
@@ -1710,9 +1710,9 @@
      </did>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">19</container>
-       <unitdate type="inclusive" normal="1976">1976</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">19</container>
+       <unitdate normal="1976" type="inclusive">1976</unitdate>
        <unittitle>A.A. Bronson, Boris Policeband</unittitle>
        <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
        <physdesc>Handwritten notes by DC on verso.</physdesc>
@@ -1726,9 +1726,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">19</container>
-       <unitdate type="inclusive" normal="1976">1976</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">19</container>
+       <unitdate normal="1976" type="inclusive">1976</unitdate>
        <unittitle>Holly Woodlawn</unittitle>
        <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
        <physdesc>Handwritten notes by DC on verso.</physdesc>
@@ -1742,9 +1742,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">19</container>
-       <unitdate type="inclusive" normal="1976">1976</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">19</container>
+       <unitdate normal="1976" type="inclusive">1976</unitdate>
        <unittitle>A.A. Bronson, Holly Woodlawn</unittitle>
        <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
        <physdesc>Handwritten notes by DC on verso.</physdesc>
@@ -1758,9 +1758,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">19</container>
-       <unitdate type="inclusive" normal="1976">1976</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">19</container>
+       <unitdate normal="1976" type="inclusive">1976</unitdate>
        <unittitle>Andy Warhol at Factory</unittitle>
        <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
        <physdesc>Handwritten notes by DC on verso.</physdesc>
@@ -1779,8 +1779,8 @@
      </did>
      <c03 level="item">
       <did>
-       <container type="box">3</container>
-       <unitdate type="inclusive" normal="1977">1977</unitdate>
+       <container label="unspecified" type="box">3</container>
+       <unitdate normal="1977" type="inclusive">1977</unitdate>
        <unittitle>Autonomia-Post Political Politics, Semiotext(e)</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
        <physdesc>31 photographs with printers' notations (used in "Autonomia" issue co-edited and
@@ -1793,9 +1793,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">18</container>
-       <unitdate type="inclusive" normal="1979">1979</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">18</container>
+       <unitdate normal="1979" type="inclusive">1979</unitdate>
        <unittitle>P.S.1 Performance</unittitle>
        <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
        <physdesc>Credit to DeSana handwritten by DC on verso</physdesc>
@@ -1815,9 +1815,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">20</container>
-       <unitdate type="inclusive" normal="1979">1979</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">20</container>
+       <unitdate normal="1979" type="inclusive">1979</unitdate>
        <unittitle>Diego Cortez, PS1</unittitle>
        <origination label="Creator"><persname>Kahane, Lisa</persname></origination>
        <physdesc>Artist's stamp on verso.</physdesc>
@@ -1834,9 +1834,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">20</container>
-       <unitdate type="inclusive" normal="1979">1979</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">20</container>
+       <unitdate normal="1979" type="inclusive">1979</unitdate>
        <unittitle>Diego Cortez, PS1</unittitle>
        <origination label="Creator"><persname>Kahane, Lisa</persname></origination>
        <physdesc>Artist's stamp on verso.</physdesc>
@@ -1853,9 +1853,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">20</container>
-       <unitdate type="inclusive" normal="1979">1979</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">20</container>
+       <unitdate normal="1979" type="inclusive">1979</unitdate>
        <unittitle>Diego Cortez, PS1</unittitle>
        <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
        <physdesc>Artist's stamp on verso.</physdesc>
@@ -1872,9 +1872,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">20</container>
-       <unitdate type="inclusive" normal="1979">1979</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">20</container>
+       <unitdate normal="1979" type="inclusive">1979</unitdate>
        <unittitle>Diego Cortez, PS1</unittitle>
        <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
        <physdesc>Artist's stamp on verso.</physdesc>
@@ -1891,9 +1891,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">20</container>
-       <unitdate type="inclusive" normal="1979">1979</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">20</container>
+       <unitdate normal="1979" type="inclusive">1979</unitdate>
        <unittitle>Diego Cortez, PS1</unittitle>
        <origination label="Creator"><persname>Kahane, Lisa</persname></origination>
        <physdesc>Artist's stamp on verso.</physdesc>
@@ -1910,9 +1910,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">20</container>
-       <unitdate type="inclusive" normal="1980">1980</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">20</container>
+       <unitdate normal="1980" type="inclusive">1980</unitdate>
        <unittitle>Diego Cortez, PS1</unittitle>
        <origination label="Creator"><persname>DeSana, Jimmy</persname></origination>
        <physdesc>Artist's stamp on verso.</physdesc>
@@ -1935,9 +1935,9 @@
     </did>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">21</container>
-      <unitdate type="inclusive" normal="1973-06-09">1973-06-09</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">21</container>
+      <unitdate normal="1973-06-09" type="inclusive">1973-06-09</unitdate>
       <unittitle>First Buddha University Meeting for Mary Josephson</unittitle>
       <origination label="Creator"><persname>Johnson, Ray</persname></origination>
       <physdesc>Xerox handout for performance at Paula Cooper Gallery.</physdesc>
@@ -1948,9 +1948,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">21</container>
-      <unitdate type="inclusive" normal="1975">1975</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">21</container>
+      <unitdate normal="1975" type="inclusive">1975</unitdate>
       <unittitle>FILMS poster</unittitle>
      </did>
      <scopecontent>
@@ -1962,9 +1962,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">21</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1976">1976</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">21</container>
+      <unitdate certainty="approximate" normal="1976" type="inclusive">1976</unitdate>
       <unittitle>La Conversation Surprise</unittitle>
       <origination label="Creator"><persname>Boltanski, Christian</persname></origination>
       <physdesc>B/W offset foldout for performance at AQ Nr. 12 Theater, Frankfurt.</physdesc>
@@ -1972,9 +1972,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">22</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">22</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Talking Heads, Village Gate</unittitle>
       <physdesc>Flier. Offset print on paper.</physdesc>
      </did>
@@ -1984,9 +1984,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">22</container>
-      <unitdate type="inclusive" normal="1977-09-27">1977-09-27</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">22</container>
+      <unitdate normal="1977-09-27" type="inclusive">1977-09-27</unitdate>
       <unittitle>Tues. Night</unittitle>
       <origination label="Creator"><persname>Asher, Dan</persname></origination>
       <physdesc>Punk zine poster. Xerox.</physdesc>
@@ -1997,9 +1997,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">22</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">22</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>CBGB</unittitle>
       <physdesc>Punk concert poster. Xerox.</physdesc>
      </did>
@@ -2009,9 +2009,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">22</container>
-      <unitdate type="inclusive" normal="1977-08-31">1977-08-31</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">22</container>
+      <unitdate normal="1977-08-31" type="inclusive">1977-08-31</unitdate>
       <unittitle>Stumblebunny, Max's Kansas City</unittitle>
       <physdesc>Punk poster. Xerox.</physdesc>
      </did>
@@ -2021,9 +2021,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">22</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">22</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>China, CBGB</unittitle>
       <physdesc>Punk concert poster. Xerox.</physdesc>
      </did>
@@ -2036,9 +2036,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">22</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">22</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Dead Boys Fan Club</unittitle>
       <physdesc>Punk poster. Xerox.</physdesc>
      </did>
@@ -2048,9 +2048,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">23</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">23</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Mumps, CBGB</unittitle>
       <physdesc>Punk concert poster. Xerox.</physdesc>
      </did>
@@ -2060,9 +2060,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">23</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">23</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>The Diodes, CBGB</unittitle>
       <physdesc>Punk poster. Xerox.</physdesc>
      </did>
@@ -2072,9 +2072,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">23</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">23</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Student Teachers (w/ Bill Arning), CBGB</unittitle>
       <physdesc>Punk poster. Xerox.</physdesc>
      </did>
@@ -2084,9 +2084,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">23</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">23</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>24 Hours of Terror, CBGB</unittitle>
       <physdesc>Punk concert poster. Xerox.</physdesc>
      </did>
@@ -2096,9 +2096,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">23</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">23</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>Mumps, CBGB</unittitle>
       <physdesc>Punk concert poster. Xerox.</physdesc>
      </did>
@@ -2108,9 +2108,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">23</container>
-      <unitdate type="inclusive" normal="1977">1977</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">23</container>
+      <unitdate normal="1977" type="inclusive">1977</unitdate>
       <unittitle>The Looters</unittitle>
       <physdesc>Punk concert poster. Xerox.</physdesc>
      </did>
@@ -2129,9 +2129,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">23</container>
-      <unitdate type="inclusive" certainty="Circa" normal="1977-09">1977-09</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">23</container>
+      <unitdate certainty="approximate" normal="1977-09" type="inclusive">1977-09</unitdate>
       <unittitle>Flyer with a note from Herman Badillo</unittitle>
      </did>
      <scopecontent>
@@ -2140,8 +2140,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">23</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">23</container>
       <unitdate>Undated</unitdate>
       <unittitle>Optica, un centre au service de l'art contemporain</unittitle>
      </did>
@@ -2154,8 +2154,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="mapcase-folder"> 1</container>
-      <unitdate type="inclusive" normal="1975-05-23/1975-07-13">1975-05-23-1975-07-13</unitdate>
+      <container label="unspecified" type="mapcase-folder"> 1</container>
+      <unitdate normal="1975-05-23/1975-07-13" type="inclusive">1975-05-23-1975-07-13</unitdate>
       <unittitle>Art D'aujourd'hui - Kunst Van Heden</unittitle>
      </did>
      <controlaccess>
@@ -2164,8 +2164,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="mapcase-folder"> 1</container>
-      <unitdate type="inclusive" normal="1977-10">1977-10</unitdate>
+      <container label="unspecified" type="mapcase-folder"> 1</container>
+      <unitdate normal="1977-10" type="inclusive">1977-10</unitdate>
       <unittitle>Never Mind the Bollocks, Here's the Sex Pistols</unittitle>
      </did>
      <scopecontent>
@@ -2174,8 +2174,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="mapcase-folder"> 1</container>
-      <unitdate type="inclusive" normal="1977-10">1977-10</unitdate>
+      <container label="unspecified" type="mapcase-folder"> 1</container>
+      <unitdate normal="1977-10" type="inclusive">1977-10</unitdate>
       <unittitle>Never Mind the Bollocks, Here's the Sex Pistols</unittitle>
      </did>
      <scopecontent>
@@ -2184,8 +2184,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="mapcase-folder"> 1</container>
-      <unitdate type="inclusive" normal="1979">1979</unitdate>
+      <container label="unspecified" type="mapcase-folder"> 1</container>
+      <unitdate normal="1979" type="inclusive">1979</unitdate>
       <unittitle>In Person!</unittitle>
       <origination label="Creator"><persname>Sex, John</persname></origination>
       <physdesc>Hand-made artists' poster. Silkscreen on paper.</physdesc>
@@ -2193,8 +2193,8 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="mapcase-folder"> 1</container>
-      <unitdate type="inclusive" normal="1979">1979</unitdate>
+      <container label="unspecified" type="mapcase-folder"> 1</container>
+      <unitdate normal="1979" type="inclusive">1979</unitdate>
       <unittitle>Annual Group Erotic and Pornographic Art Exhibition (Club 57)</unittitle>
       <origination label="Creator"><persname>Sex, John</persname></origination>
       <physdesc>Hand-made artists' poster. Silkscreen on paper, pink spray paint.</physdesc>
@@ -2209,9 +2209,9 @@
      </did>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">24</container>
-       <unitdate type="inclusive" normal="1975">1975</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">24</container>
+       <unitdate normal="1975" type="inclusive">1975</unitdate>
        <unittitle>MoMA exhibition "Eight Contemporary Artists"</unittitle>
       </did>
       <scopecontent>
@@ -2237,9 +2237,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">24</container>
-       <unitdate type="inclusive" normal="1975-04">1975-04</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">24</container>
+       <unitdate normal="1975-04" type="inclusive">1975-04</unitdate>
        <unittitle>DC performance/film screening at Anthology Film Archives</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
        <physdesc>Offset on card stock.</physdesc>
@@ -2250,9 +2250,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">24</container>
-       <unitdate type="inclusive" normal="1975-12">1975-12</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">24</container>
+       <unitdate normal="1975-12" type="inclusive">1975-12</unitdate>
        <unittitle>Performance/video event at Kvindeudstillingen, Charlottenborg</unittitle>
        <origination label="Creator"><persname>Abramovic, Marina</persname></origination>
        <physdesc>Printers ink on card stock.</physdesc>
@@ -2267,9 +2267,9 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">24</container>
-       <unitdate type="inclusive" normal="1976">1976</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">24</container>
+       <unitdate normal="1976" type="inclusive">1976</unitdate>
        <unittitle>DC solo exhibition at Arte Fiera Bologna, Galleria Trisorio</unittitle>
        <physdesc>Printers ink on card stock.</physdesc>
       </did>
@@ -2279,18 +2279,18 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">24</container>
-       <unitdate type="inclusive" normal="1977">1977</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">24</container>
+       <unitdate normal="1977" type="inclusive">1977</unitdate>
        <unittitle>Robert Gordon album announcement card (w/ Link Wray)</unittitle>
        <physdesc>Offset photo card.</physdesc>
       </did>
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">25</container>
-       <unitdate type="inclusive" normal="1976-04">1976-04</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">25</container>
+       <unitdate normal="1976-04" type="inclusive">1976-04</unitdate>
        <unittitle>DC performance/film screening at Artists Space</unittitle>
        <origination label="Creator"><persname>Cortez, Diego</persname></origination>
       </did>
@@ -2301,8 +2301,8 @@
      </c03>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">25</container>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">25</container>
        <unitdate>Undated</unitdate>
        <unittitle>S/RS Network show featuring Liza Bear and Keith Sonnier at the Kitchen</unittitle>
       </did>
@@ -2319,9 +2319,9 @@
      </did>
      <c03 level="item">
       <did>
-       <container type="box">1</container>
-       <container type="folder">26</container>
-       <unitdate type="inclusive" normal="1979">1979</unitdate>
+       <container label="unspecified" type="box">1</container>
+       <container label="unspecified" type="folder">26</container>
+       <unitdate normal="1979" type="inclusive">1979</unitdate>
        <unittitle>POLICEBAND - Stereo/Mono</unittitle>
        <origination label="Creator"><persname>Policeband, Boris</persname></origination>
       </did>
@@ -2346,9 +2346,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">2</container>
-      <container type="folder">4</container>
-      <unitdate type="inclusive" normal="1975-01-27">1975-01-27</unitdate>
+      <container label="unspecified" type="box">2</container>
+      <container label="unspecified" type="folder">4</container>
+      <unitdate normal="1975-01-27" type="inclusive">1975-01-27</unitdate>
       <unittitle>MoMA Guard</unittitle>
       <origination label="Creator"><persname>Cortez, Diego</persname></origination>
       <physdesc>Two panel work: MoMA letterhead, large type, red ball point pen; Black/white xerox
@@ -2364,9 +2364,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">2</container>
-      <container type="folder">4</container>
-      <unitdate type="inclusive" normal="1976">1976</unitdate>
+      <container label="unspecified" type="box">2</container>
+      <container label="unspecified" type="folder">4</container>
+      <unitdate normal="1976" type="inclusive">1976</unitdate>
       <unittitle>Seven collage works</unittitle>
       <origination label="Creator"><persname>Cortez, Diego</persname></origination>
       <physdesc>Mixed media mounted on butcher paper.</physdesc>
@@ -2382,9 +2382,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">1</container>
-      <container type="folder">27</container>
-      <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">27</container>
+      <unitdate normal="1972/1973" type="inclusive">1972-1973</unitdate>
       <unittitle>El grupo de los trece en arte de sistemas</unittitle>
       <origination label="Creator"><persname>Beuys, Joseph</persname></origination>
      </did>
@@ -2394,9 +2394,9 @@
     </c02>
     <c02 level="item">
      <did>
-      <container type="box">2</container>
-      <container type="folder">5</container>
-      <unitdate type="inclusive" normal="1975">1975</unitdate>
+      <container label="unspecified" type="box">2</container>
+      <container label="unspecified" type="folder">5</container>
+      <unitdate normal="1975" type="inclusive">1975</unitdate>
       <unittitle>Untitled (Prinzendorf 24-hour Aktion)</unittitle>
       <origination label="Creator"><persname>Nitsch, Hermann</persname></origination>
       <physdesc>Animal blood on linen.</physdesc>
@@ -2408,5 +2408,9 @@
     </c02>
    </c01>
   </dsc>
- </archdesc>
+ <prefercite>
+    <head>Cite As:</head>
+    <p>Diego Cortez No Wave Collection, #8120. Division of Rare and Manuscript Collections, Cornell
+     University Library. </p>
+   </prefercite></archdesc>
 </ead>

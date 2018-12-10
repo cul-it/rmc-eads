@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00844::Glenn Washington Herrick papers)//EN">RMA00844</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00844::Glenn Washington Herrick papers)//EN">RMA00844</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Glenn Washington Herrick papers, 1872-1963.</titleproper>
@@ -28,6 +27,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -36,19 +41,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Glenn Washington Herrick Papers,<lb/>1872-1963</titleproper>
+         <titleproper>Guide to the Glenn Washington Herrick Papers,1872-1963</titleproper>
          <num>Collection Number: 21-23-844</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
@@ -65,14 +70,13 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Glenn Washington Herrick papers,
-               <unitdate type="inclusive" encodinganalog="MARC 245">1872-1963.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Glenn Washington Herrick papers,
+               </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1872-1963.</unitdate>
          <unitid label="Collection Number:">21-23-844</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Herrick, Glenn W.(Glenn Washington), 1870-1965.">Glenn W. (Glenn Washington) Herrick, 1870-1965.</persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>5.2 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>5.2 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Scientific addresses, lecture notes, articles,
             bulletins, drawing and illustrations. </physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -90,7 +94,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>Professor of entomology, Cornell University.</p>
          <p>Cornell University Class of 1896.</p>
       </bioghist>
@@ -133,34 +137,27 @@
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Bibliographies.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Drawings.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Genealogies.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Lecture notes.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Oral histories.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Photographs.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Bibliographies.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Drawings.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Genealogies.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Lecture notes.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Oral histories.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Glenn Washington Herrick papers, #21-23-844. Division of Rare and Manuscript
-               Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Correspondence, 52 pcs.</unittitle>
-               <unitdate>Dec. 17, 1921-Aug. 14, 1963, and n.d.</unitdate>
+               <unitdate certainty="approximate">Dec. 17, 1921-Aug. 14, 1963, and n.d.</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Genealogy, 11 pcs.</unittitle>
             </did>
             <scopecontent>
@@ -172,14 +169,14 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Newspaper clippings, 25 pcs.</unittitle>
                <unitdate>Aug. 20, 1924-Oct. 7, 1953, and n.d.</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Photographs, 14 pcs.</unittitle>
             </did>
             <scopecontent>
@@ -192,7 +189,7 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Certificates, 13 pcs.</unittitle>
             </did>
             <scopecontent>
@@ -202,51 +199,51 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
+               <container label="unspecified" type="box">1</container>
                <unittitle>Papers concerning retirement, 53 pcs., 3 items</unittitle>
                <unitdate>June 16, 1920-Jan. 7, 1947, and n.d.</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
+               <container label="unspecified" type="box">2</container>
                <unittitle>Scientific drawings and photographs, 25 pcs.</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
+               <container label="unspecified" type="box">2</container>
                <unittitle>Galerucella cavicollis (?) 2nd stage</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
+               <container label="unspecified" type="box">2</container>
                <unittitle>Agricultural ant nest</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
+               <container label="unspecified" type="box">2</container>
                <unittitle>American Syrphus-fly</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
+               <container label="unspecified" type="box">2</container>
                <unittitle>1 folder containing three pcs. labelled as probably pine-bark
                   aphid</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
+               <container label="unspecified" type="box">2</container>
                <unittitle>19 unidentified pieces</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>Scientific addresses, 90 pcs.:</unittitle>
             </did>
             <c02 level="item">
@@ -287,7 +284,7 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>Scientific abstract, made by Herrick: "Transportation of the Alfalfa
                   Weevil by Railway Cars," by George I. Reeves, U.S. Bureau of
                   Entomology</unittitle>
@@ -295,7 +292,7 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>Typed historical sketches, 11 pcs.</unittitle>
             </did>
             <scopecontent>
@@ -311,21 +308,21 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>Entomology Course 3 and 4 Spider Lecture (with assorted notes in
                   folder)</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
+               <container label="unspecified" type="box">3</container>
                <unittitle>Folder of "Outline Talks" in various scientific and non-scientific topics
                   (an index on binding of folder)</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
+               <container label="unspecified" type="box">4</container>
                <unittitle>Scientific journals, articles, and C.U. scientific bulletins, 57
                   items</unittitle>
                <unitdate>Nov. 1910-Oct. 1948 and n.d.</unitdate>
@@ -336,14 +333,14 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
+               <container label="unspecified" type="box">4</container>
                <unittitle>Verifax bibliog. of Herrick's works</unittitle>
                <unitdate>1901-1938</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
+               <container label="unspecified" type="box">4</container>
                <unittitle>Proofs and corrected pages of <title>Insect Enemies of Shade
                   Trees</title>, by Herrick</unittitle>
                <unitdate>1935</unitdate>
@@ -351,14 +348,14 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
+               <container label="unspecified" type="box">5</container>
                <unittitle>Pamphlets, on non-scientific subjects, 32 items</unittitle>
                <unitdate>1872-Oct. 1949, and n.d.</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">6</container>
+               <container label="unspecified" type="box">6</container>
                <unittitle>Travel, 66 items, 122 pcs.:</unittitle>
             </did>
             <c02 level="item">
@@ -403,56 +400,56 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">7A</container>
+               <container label="unspecified" type="box">7A</container>
                <unittitle>Accounts (sheets of accounts tied together); 18 items</unittitle>
                <unitdate>1917-1934</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">7A</container>
+               <container label="unspecified" type="box">7A</container>
                <unittitle>Checkbook</unittitle>
                <unitdate>1943</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">7A</container>
+               <container label="unspecified" type="box">7A</container>
                <unittitle>Back of account book with poem pasted in</unittitle>
                <unitdate>?</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">7A</container>
+               <container label="unspecified" type="box">7A</container>
                <unittitle>Bills, 67 pcs.</unittitle>
                <unitdate>Mar. 26-Sept. 4, 1934, and n.d.</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">7A</container>
+               <container label="unspecified" type="box">7A</container>
                <unittitle>Account books, 14 items</unittitle>
                <unitdate>1930-1943</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">7B</container>
+               <container label="unspecified" type="box">7B</container>
                <unittitle>Account books, 20 items</unittitle>
                <unitdate>1944-1963</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">8</container>
+               <container label="unspecified" type="box">8</container>
                <unittitle>Theater, concert, and misc. programs, 46 items, 6 pcs.</unittitle>
                <unitdate>Nov. 1922-Aug. 18, 1928, and n.d.</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">8</container>
+               <container label="unspecified" type="box">8</container>
                <unittitle>Books:</unittitle>
             </did>
             <c02 level="item">
@@ -488,7 +485,7 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>Misc. manuscripts, 15 pcs.:</unittitle>
             </did>
             <c02 level="item">
@@ -515,7 +512,7 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>Names and addresses, 2 items</unittitle>
             </did>
             <scopecontent>
@@ -530,78 +527,78 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>Two logs and two passenger lists from ship "Orduna"</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>Autograph book (Herrick)</unittitle>
                <unitdate>1888</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>Class of '96 button</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>Academic robe material samples</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>List of MA's and PhD's granted</unittitle>
                <unitdate>1926-1930</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>Postcard booklet (Cornell University pictures)</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>5 pcs. pertaining to Glenn's home in Cayuga Heights</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>Big Red Cheers, 1 pc.</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>Paper accompanying first issue of commemorative stamp - Michigan State
                   U.</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>1942 Report of Jacob Riis Neighborhood House, N.Y.C.</unittitle>
                <unitdate>1942</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
+               <container label="unspecified" type="box">9</container>
                <unittitle>Menu - R.M.S.P. "Orca"</unittitle>
                <unitdate>Sept. 3, 1926</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">11</container>
+               <container label="unspecified" type="box">11</container>
                <unittitle>Original illustrations for <title>Insect Enemies of Shade Trees</title>;
                   28 folders, frontispiece and figures 1-321; numbers 240, 241 are
                   missing</unittitle>
@@ -609,50 +606,54 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">12</container>
+               <container label="unspecified" type="box">12</container>
                <unittitle>Diaries, 6 items</unittitle>
                <unitdate>1938-1940, 1955-1959</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">13</container>
+               <container label="unspecified" type="box">13</container>
                <unittitle>Diaries, 3 items</unittitle>
                <unitdate>1960-1962</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">14</container>
+               <container label="unspecified" type="box">14</container>
                <unittitle>Correspondence files A-W, special</unittitle>
                <unitdate>1930-1931</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">15</container>
+               <container label="unspecified" type="box">15</container>
                <unittitle>Oral history (copy)</unittitle>
                <unitdate>1963</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">15</container>
+               <container label="unspecified" type="box">15</container>
                <unittitle>Cornell items</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">15</container>
+               <container label="unspecified" type="box">15</container>
                <unittitle>Letters to the Herricks</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">15</container>
+               <container label="unspecified" type="box">15</container>
                <unittitle>Photographs</unittitle>
             </did>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Glenn Washington Herrick papers, #21-23-844. Division of Rare and Manuscript
+               Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

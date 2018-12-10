@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02588::Guide to the Ray June papers)//EN">RMM02588</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02588::Guide to the Ray June papers)//EN">RMM02588</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Ray June papers,<date>1915-1958.</date></titleproper>
@@ -22,19 +22,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>May 2012</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Ray June Papers,<lb/><date type="inclusive" encodinganalog="245$f">1915-1958.</date></titleproper>
+			<titleproper>Guide to the Ray June Papers,<date encodinganalog="245$f" type="inclusive">1915-1958.</date></titleproper>
 			<num>Collection Number: 2588</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -60,11 +66,10 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Ray June papers, <unitdate encodinganalog="MARC 245" type="inclusive">1915-1958.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Ray June papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1915-1958.</unitdate>
 			<unitid label="Collection Number:">2588</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="June, Ray,  1898-1958. ">Ray June 1898-1958.</persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.4 cubic ft.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.4 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Photographs</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -73,7 +78,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Cinematographer, nicknamed “the ace cameraman of MGM,” and singled out in 1939 by
 				pioneer film historian Lewis Jacobs as one of America's finest cinematographers.
 				Born in Ithaca, N.Y., June attended Columbia University (evidently without
@@ -137,300 +142,297 @@
 				<genreform encodinganalog="MARC 655" source="aat">Photographs.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Ray June papers, #2588. Division of Rare and Manuscript Collections, Cornell
-					University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unitdate>1938</unitdate>
 					<unittitle>"Now or Never"</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unitdate>1937</unitdate>
 					<unittitle>"Night Must Fall", Lew Ayers</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unitdate>1958</unitdate>
 					<unittitle>"Gigi", Louis Jourdan</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Jean Harlow and June</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unitdate>1952</unitdate>
 					<unittitle>"Above and Beyond", cast and crew</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
-					<unitdate>ca. 1933</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
+					<unitdate certainty="approximate">1933</unitdate>
 					<unittitle>Mary Pickford ("Secrets"?)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unitdate>1949</unitdate>
 					<unittitle>"Reformer and The Red Head", cast and crew</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
-					<unitdate>ca. 1926</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
+					<unitdate certainty="approximate">1926</unitdate>
 					<unittitle>Rin Tin Tin ("The Phantom of The Forest"?)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>"Sporting Age", train scene, June behind camera</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unitdate>1940</unitdate>
 					<unittitle>"Strike Up The Band", Judy Garland and Mickey Rooney</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unitdate>1941</unitdate>
 					<unittitle>"Ziegfeld Girl", Judy Garland</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unitdate>1956</unitdate>
 					<unittitle>"Funny Face", photos of Paris set including Audrey Hepburn, Montmartre, entrence to Louvre, Eiffel Tower, Paris Opera House, Champs Elysses, Goose Bay, Labrador Airport</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unitdate>1931</unitdate>
 					<unittitle>"Indiscreet", including Gloria Swanson with Leo McCarey, Adm. Byrd, Ben Lyon and June</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unitdate>1940</unitdate>
 					<unittitle>"And One Was Beautiful"</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Montage with Marx Brothers and others</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Lana Turner and June</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Photos from set of "Easy To Love", including Esther Williams, 100 female swimmers, and color picture of June in rowboat</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Myrna Loy, William Powell, June and others with birthday cake</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
-					<unitdate>ca. 1933</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
+					<unitdate certainty="approximate">1933</unitdate>
 					<unittitle>Robert Montgomery, Myrna Loy, June ("When Ladies Meet"?)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>"Death In a Doll House"</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>"Callaway Went That Way"</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>"H.M. Pullman Esq."</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">18</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Several unidentified photographs</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">19</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Glossy and dull prints of June as a young, middle aged, and older man, both on and off sets, sometimes with other crewmen</unittitle>
 				</did><scopecontent><p>-includes 1 color photo and 1 photo of a young man dated 1915, which may not be June</p></scopecontent>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">20</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>glossy and dull prints of animals: dogs, cats, foxes, raccoons</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">21</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Boat set and crowd from "Showboat"</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">22</container>
 					<unitdate>1935</unitdate>
 					<unittitle>"China Sea", Clark Gable, Jean Harlow</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
 					<unitdate>1954</unitdate>
 					<unittitle>Letter dated 1954</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
 					<unitdate>1981</unitdate>
 					<unittitle>June's promotion to Sgt. 1st Class, Signal Corps</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
-					<unitdate>ca. 1932</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
+					<unitdate certainty="approximate">1932</unitdate>
 					<unittitle>Clippings of advertisement for movie "Arrowsmith"</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
-					<unitdate>ca. 1957</unitdate>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
+					<unitdate certainty="approximate">1957</unitdate>
 					<unittitle>Galley proof for "Filmdom's Famous Five"</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
 					<unitdate>1958</unitdate>
 					<unittitle>Brochure promoting Biblical film "The Day of Triumph", with accompany note</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>1932-1957</unitdate>
 					<unittitle>Certificate mounted on wooden plaques, including certificates of nomination for award from Academy of Motion Picture Arts and Sciences (1932, 1935, 1957), and certificate of membership in American Society of Cinematographers (1927)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="map-case">Folder 1</container>
+					<container label="unspecified" type="map-case">Folder 1</container>
 					<unitdate>1940</unitdate>
 					<unittitle>Matted portrait of Ray June</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="map-case">Folder 1</container>
+					<container label="unspecified" type="map-case">Folder 1</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Portrait montage titled "Nancy Goes to Rio With 'Pop'", with photos of June, crewmen (?) and movie stars as the heads of the figures</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="map-case">Folder 1</container>
+					<container label="unspecified" type="map-case">Folder 1</container>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Oversized photo mounted on cardboard showing Mary Pickford and other girls on balcony, camera and sound crew on left, Pickford superimposed on right (back of cardboard is labeled "Secrets")</unittitle>
 				</did><scopecontent><p>-also on back is a charcoal drawing of a man and woman in a study, possible story board?</p></scopecontent>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Ray June papers, #2588. Division of Rare and Manuscript Collections, Cornell
+					University Library.</p>
+			</prefercite></archdesc>
 </ead>

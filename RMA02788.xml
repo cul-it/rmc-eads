@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead>
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02788::Cornell University maps)//EN">RMA02788</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02788::Cornell University maps)//EN">RMA02788</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the Cornell University maps, <date>1870-1995</date></titleproper>
@@ -15,7 +15,7 @@
    <notestmt>
     <note audience="internal">
      <p>
-      <subject/>
+      
      </p>
     </note>
    </notestmt>
@@ -23,18 +23,24 @@
   <profiledesc>
    <creation>Finding aid encoded by RMC Staff, <date>October 2018</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the Cornell University maps,<lb/><date type="inclusive" encodinganalog="245$f">1870-1995</date></titleproper>
+   <titleproper>Guide to the Cornell University maps,<date encodinganalog="245$f" type="inclusive">1870-1995</date></titleproper>
    <num>Collection Number: 47/1/2788</num>
-   <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+   <publisher>Division of Rare and Manuscript Collections Cornell University
     Library</publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/> Cornell
-      University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+     <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library Cornell
+      University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
     </defitem>
     <defitem>
      <label>Compiled by:</label>
@@ -60,13 +66,14 @@
  <archdesc level="collection">
   <did>
    <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245">Cornell University maps, <unitdate encodinganalog="MARC 245" type="inclusive">1870-1995</unitdate>
-   </unittitle>
+   <unittitle encodinganalog="MARC 245" label="Title:">Cornell University maps, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1870-1995</unitdate>
    <unitid label="Collection Number:">47/1/2788</unitid>
    <origination label="Creator:">
     <corpname encodinganalog="110" normal="Cornell University. ">Cornell University. </corpname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>0.4 cubic feet, 2 mapcase
+   <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>0.4 cubic feet, 2 mapcase
      folders</extent></physdesc>
    <physdesc label="Forms of Material:">Printed Materials.</physdesc>
    <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell University
@@ -94,22 +101,15 @@
     <genreform encodinganalog="MARC 655" source="aat">Maps.</genreform>
    </controlaccess>
   </controlaccess>
-  <descgrp>
-   <head id="a8">INFORMATION FOR USERS</head>
-   <prefercite>
-    <head>Cite As:</head>
-    <p>Cornell University Maps, #47/1/2788. Division of Rare and Manuscript Collections, Cornell
-     University Library. </p>
-   </prefercite>
-  </descgrp>
+  
   <dsc type="combined">
    <head>CONTAINER LIST</head>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
 
-     <unitdate type="inclusive" normal="1873-01-31">1873-01-31</unitdate>
+     <unitdate normal="1873-01-31" type="inclusive">1873-01-31</unitdate>
      <unittitle>A Map of Cornell University: The Cornell Grill</unittitle>
     </did>
     <scopecontent>
@@ -119,9 +119,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
-     <unitdate type="inclusive" normal="1896">1896</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
+     <unitdate normal="1896" type="inclusive">1896</unitdate>
      <unittitle>Cornell University Campus</unittitle>
     </did>
     <scopecontent>
@@ -130,17 +130,17 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
      <unitdate>Undated</unitdate>
      <unittitle>Cornell Campus and Farms of the New York State College of Agriculture</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
-     <unitdate type="inclusive" normal="1900">1900</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
+     <unitdate normal="1900" type="inclusive">1900</unitdate>
      <unittitle>Cornell University Campus</unittitle>
     </did>
     <scopecontent>
@@ -149,9 +149,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
-     <unitdate type="inclusive" normal="1900">1900</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
+     <unitdate normal="1900" type="inclusive">1900</unitdate>
      <unittitle>Cornell University Campus</unittitle>
     </did>
     <scopecontent>
@@ -160,9 +160,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
-     <unitdate type="inclusive" normal="1900">1900</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
+     <unitdate normal="1900" type="inclusive">1900</unitdate>
      <unittitle>Cornell University Campus</unittitle>
     </did>
     <scopecontent>
@@ -171,9 +171,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
-     <unitdate type="inclusive" normal="1902">1902</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
+     <unitdate normal="1902" type="inclusive">1902</unitdate>
      <unittitle>Cyclorama of Cornell University</unittitle>
     </did>
     <scopecontent>
@@ -182,25 +182,25 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
-     <unitdate type="inclusive" normal="1903-07-15">1903-07-15</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
+     <unitdate normal="1903-07-15" type="inclusive">1903-07-15</unitdate>
      <unittitle>University Campus with New Athletic Field</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
-     <unitdate type="inclusive" normal="1905">1905</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
+     <unitdate normal="1905" type="inclusive">1905</unitdate>
      <unittitle>Cornell University Campus</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
-     <unitdate type="inclusive" normal="1906">1906</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
+     <unitdate normal="1906" type="inclusive">1906</unitdate>
      <unittitle>Cornell University Campus</unittitle>
     </did>
     <scopecontent>
@@ -209,9 +209,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
-     <unitdate type="inclusive" normal="1910">1910</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
+     <unitdate normal="1910" type="inclusive">1910</unitdate>
      <unittitle>Map of the Property of the Cornell University</unittitle>
     </did>
     <scopecontent>
@@ -220,9 +220,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
-     <unitdate type="inclusive" normal="1910">1910</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
+     <unitdate normal="1910" type="inclusive">1910</unitdate>
      <unittitle>Cornell University Campus</unittitle>
     </did>
     <scopecontent>
@@ -231,9 +231,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
-     <unitdate type="inclusive" normal="1913">1913</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
+     <unitdate normal="1913" type="inclusive">1913</unitdate>
      <unittitle>Cornell University and Vicinity</unittitle>
     </did>
     <scopecontent>
@@ -243,8 +243,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
      <unitdate>Undated</unitdate>
      <unittitle>Map of Campus and Dorms</unittitle>
     </did>
@@ -254,17 +254,17 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
-     <unitdate type="inclusive" normal="1914">1914</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
+     <unitdate normal="1914" type="inclusive">1914</unitdate>
      <unittitle>Campus Map</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
-     <unitdate type="inclusive" normal="1914">1914</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
+     <unitdate normal="1914" type="inclusive">1914</unitdate>
      <unittitle>Campus Map with Key to University Buildings</unittitle>
     </did>
     <scopecontent>
@@ -273,9 +273,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
-     <unitdate type="inclusive" normal="1914">1914</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
+     <unitdate normal="1914" type="inclusive">1914</unitdate>
      <unittitle>Campus Map</unittitle>
     </did>
     <scopecontent>
@@ -284,9 +284,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
-     <unitdate type="inclusive" normal="1914">1914</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
+     <unitdate normal="1914" type="inclusive">1914</unitdate>
      <unittitle>Residential Section</unittitle>
     </did>
     <scopecontent>
@@ -295,9 +295,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
-     <unitdate type="inclusive" certainty="Circa" normal="1924">1924</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
+     <unitdate certainty="approximate" normal="1924" type="inclusive">1924</unitdate>
      <unittitle>Campus Map with Locations of Stay for Alumni</unittitle>
     </did>
     <scopecontent>
@@ -306,17 +306,17 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
-     <unitdate type="inclusive" normal="1924">1924</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
+     <unitdate normal="1924" type="inclusive">1924</unitdate>
      <unittitle>Campus Map</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
-     <unitdate type="inclusive" normal="1926">1926</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
+     <unitdate normal="1926" type="inclusive">1926</unitdate>
      <unittitle>Campus Map with Red Annotations</unittitle>
     </did>
     <scopecontent>
@@ -326,8 +326,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
      <unitdate>Undated</unitdate>
      <unittitle>Campus Map</unittitle>
     </did>
@@ -337,25 +337,25 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
-     <unitdate type="inclusive" normal="1925-11">1925-11</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
+     <unitdate normal="1925-11" type="inclusive">1925-11</unitdate>
      <unittitle>General Plan for Cornell University Plan Commission</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
-     <unitdate type="inclusive" normal="1925-11/1926-04">1925-11-1926-04</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
+     <unitdate normal="1925-11/1926-04" type="inclusive">1925-11-1926-04</unitdate>
      <unittitle>General Plan for Cornell University Plan Commission</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" normal="1926">1926</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate normal="1926" type="inclusive">1926</unitdate>
      <unittitle>Residential Section and Campus</unittitle>
     </did>
     <scopecontent>
@@ -364,9 +364,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" normal="1926">1926</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate normal="1926" type="inclusive">1926</unitdate>
      <unittitle>Residential Section and Campus</unittitle>
     </did>
     <scopecontent>
@@ -376,8 +376,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <unitdate type="inclusive" normal="1926">1926</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <unitdate normal="1926" type="inclusive">1926</unitdate>
      <unittitle>Residential Section and Campus</unittitle>
     </did>
     <scopecontent>
@@ -387,17 +387,17 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" normal="1929">1929</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate normal="1929" type="inclusive">1929</unitdate>
      <unittitle>The Campus of Cornell University</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" certainty="Circa" normal="1932">1932</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate certainty="approximate" normal="1932" type="inclusive">1932</unitdate>
      <unittitle>Campus Map and Traffic Regulation</unittitle>
     </did>
     <scopecontent>
@@ -406,9 +406,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" normal="1934-09-24">1934-09-24</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate normal="1934-09-24" type="inclusive">1934-09-24</unitdate>
      <unittitle>Campus of Cornell University and Collegetown</unittitle>
     </did>
     <scopecontent>
@@ -417,24 +417,24 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" normal="1935-03">1935-03</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate normal="1935-03" type="inclusive">1935-03</unitdate>
      <unittitle>Campus Map</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" normal="1939-09">1939-09</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate normal="1939-09" type="inclusive">1939-09</unitdate>
      <unittitle>Map of the Campus - Compliments of the Triangle Book Shop</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
      <unitdate>Undated</unitdate>
      <unittitle>Campus Tour Map of the Willard Straight Hostess Committee</unittitle>
     </did>
@@ -444,9 +444,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" normal="1940">1940</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate normal="1940" type="inclusive">1940</unitdate>
      <unittitle>Campus Map and a 30-minute Tour Route</unittitle>
     </did>
     <scopecontent>
@@ -455,9 +455,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" normal="1942-01">1942-01</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate normal="1942-01" type="inclusive">1942-01</unitdate>
      <unittitle>Campus Development Plan</unittitle>
     </did>
     <scopecontent>
@@ -466,16 +466,16 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" normal="1945-06-01">1945-06-01</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate normal="1945-06-01" type="inclusive">1945-06-01</unitdate>
      <unittitle>Campus Map</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
      <unitdate>Undated</unitdate>
      <unittitle>Map of Campus</unittitle>
     </did>
@@ -485,17 +485,17 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" normal="1946">1946</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate normal="1946" type="inclusive">1946</unitdate>
      <unittitle>Campus Map</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" normal="1946-05">1946-05</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate normal="1946-05" type="inclusive">1946-05</unitdate>
      <unittitle>Campus Development Plan</unittitle>
     </did>
     <scopecontent>
@@ -504,9 +504,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" normal="1948-05">1948-05</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate normal="1948-05" type="inclusive">1948-05</unitdate>
      <unittitle>Campus Development Plan</unittitle>
     </did>
     <scopecontent>
@@ -515,9 +515,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
-     <unitdate type="inclusive" normal="1948">1948</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
+     <unitdate normal="1948" type="inclusive">1948</unitdate>
      <unittitle>Campus Map</unittitle>
     </did>
     <scopecontent>
@@ -526,16 +526,16 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unitdate>Undated</unitdate>
      <unittitle>Campus of Cornell University</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unitdate>Undated</unitdate>
      <unittitle>Campus of Cornell University</unittitle>
     </did>
@@ -545,8 +545,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unitdate>Undated</unitdate>
      <unittitle>Campus of Cornell University and a 30-minute Tour Route</unittitle>
     </did>
@@ -556,8 +556,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unitdate>Undated</unitdate>
      <unittitle>Campus Map - Cornell Co-Op</unittitle>
     </did>
@@ -567,8 +567,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unitdate>Undated</unitdate>
      <unittitle>Campus of Cornell University</unittitle>
     </did>
@@ -578,8 +578,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unitdate>Undated</unitdate>
      <unittitle>Campus of Cornell University - "A Map to Help You Find Your Way to The Cornell
       Co-Op"</unittitle>
@@ -591,8 +591,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unitdate>Undated</unitdate>
      <unittitle>Campus of Cornell University</unittitle>
     </did>
@@ -602,8 +602,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unitdate>Undated</unitdate>
      <unittitle>Map of Campus and Collegetown - Compliments of The Triangle Book Shop</unittitle>
     </did>
@@ -613,8 +613,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unitdate>Undated</unitdate>
      <unittitle>Map of Campus and Collegetown - Compliments of The Triangle Book Shop</unittitle>
     </did>
@@ -624,41 +624,41 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1951">1951</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="1951" type="inclusive">1951</unitdate>
      <unittitle>Campus Map</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1951-06">1951-06</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="1951-06" type="inclusive">1951-06</unitdate>
      <unittitle>Campus Development Plan</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1951">1951</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="1951" type="inclusive">1951</unitdate>
      <unittitle>Campus Map</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1954-01">1954-01</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="1954-01" type="inclusive">1954-01</unitdate>
      <unittitle>Campus Development Plan</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1954-01">1954-01</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="1954-01" type="inclusive">1954-01</unitdate>
      <unittitle>Campus Development Plan</unittitle>
     </did>
     <scopecontent>
@@ -667,8 +667,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
      <unitdate>Undated</unitdate>
      <unittitle>Plan for the Improvement of the Cornell University Campus</unittitle>
     </did>
@@ -678,49 +678,49 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1967">1967</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="1967" type="inclusive">1967</unitdate>
      <unittitle>Copy of Campus Map from The Cornell Desk Book</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1977">1977</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="1977" type="inclusive">1977</unitdate>
      <unittitle>Map of Campus Parking</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1977-08">1977-08</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="1977-08" type="inclusive">1977-08</unitdate>
      <unittitle>Map of Campus Parking</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1978-08">1978-08</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="1978-08" type="inclusive">1978-08</unitdate>
      <unittitle>Map of Campus Parking</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1979-08">1979-08</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="1979-08" type="inclusive">1979-08</unitdate>
      <unittitle>Map of Campus Parking</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1980-06">1980-06</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="1980-06" type="inclusive">1980-06</unitdate>
      <unittitle>Map of Bus Services and Routes</unittitle>
     </did>
     <scopecontent>
@@ -729,9 +729,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1981">1981</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="1981" type="inclusive">1981</unitdate>
      <unittitle>Transportation Services Map</unittitle>
     </did>
     <scopecontent>
@@ -740,17 +740,17 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1981">1981</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="1981" type="inclusive">1981</unitdate>
      <unittitle>Campus Bus Routes and Visitor Parking</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="1986">1986</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="1986" type="inclusive">1986</unitdate>
      <unittitle>Cornell University Libraries</unittitle>
     </did>
     <scopecontent>
@@ -759,16 +759,16 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
      <unitdate>Undated</unitdate>
      <unittitle>Campus Map - Visitor Parking and Walking Tours</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
      <unitdate>Undated</unitdate>
      <unittitle>Campus Map - Visitor Parking and Walking Tours</unittitle>
     </did>
@@ -778,8 +778,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
      <unitdate>Undated</unitdate>
      <unittitle>Campus and Area Maps</unittitle>
     </did>
@@ -789,9 +789,9 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
-     <unitdate type="inclusive" normal="2002-04">2002-04</unitdate>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
+     <unitdate normal="2002-04" type="inclusive">2002-04</unitdate>
      <unittitle>Interests Abroad - Cornell University Around the Globe</unittitle>
     </did>
     <scopecontent>
@@ -801,8 +801,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="mapcase-folder">1</container>
-     <unitdate type="inclusive" normal="1928">1928</unitdate>
+     <container label="unspecified" type="mapcase-folder">1</container>
+     <unitdate normal="1928" type="inclusive">1928</unitdate>
      <unittitle>Campus of Cornell University and Vicinity</unittitle>
     </did>
     <scopecontent>
@@ -810,5 +810,9 @@
     </scopecontent>
    </c01>
   </dsc>
- </archdesc>
+ <prefercite>
+    <head>Cite As:</head>
+    <p>Cornell University Maps, #47/1/2788. Division of Rare and Manuscript Collections, Cornell
+     University Library. </p>
+   </prefercite></archdesc>
 </ead>

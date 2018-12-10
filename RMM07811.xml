@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07811::Robbie Sanders papers)//EN">RMM07811</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07811::Robbie Sanders papers)//EN">RMM07811</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Robbie Sanders papers,
@@ -23,19 +23,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>December 2014</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Robbie Sanders Papers,<lb/><date type="inclusive" encodinganalog="245$f">1992-2006</date></titleproper>
+			<titleproper>Guide to the Robbie Sanders Papers,<date encodinganalog="245$f" type="inclusive">1992-2006</date></titleproper>
 			<num>Collection Number: 7811</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -57,11 +63,10 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Robbie Sanders papers, <unitdate encodinganalog="MARC 245" type="inclusive">1992-2006</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Robbie Sanders papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1992-2006</unitdate>
 			<unitid label="Collection Number:">7811</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Sanders, Robbie   ">Sanders, Robbie </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.4 cubic foot.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.4 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Photocopies, printed materials and
 				newspapers.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -71,7 +76,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Special education teacher at Ithaca's Belle Sherman Elementary School, September
 				1992- June 2006. Started COLAGE about 1994 and continued thru 2006. Social worker at
 				Fall Creek School, Harriet Alpert, ran a Colage group there and they had a joint
@@ -110,79 +115,76 @@
 					NY.</geogname>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Robbie Sanders papers, #7811. Division of Rare and Manuscript Collections,
-					Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>1992-2006</unitdate>
 					<unittitle>Materials from Robbie Sanders' work with Colage</unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>DVD-1191</unitid>
 					<unitdate>2005</unitdate>
 					<unittitle><title>In My Shoes: Stories of Youth with LGBT Parents</title></unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>DVD-1192</unitid>
 					<unitdate>1965</unitdate>
 					<unittitle><title>Gay Pioneers: July 4, 1965. Independence Hall</title></unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>DVD-1193</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle><title>"The Tool Box", </title>by Glsen</unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>V-7157</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle><title>I Just Want To Say, </title>by Glsen [VHS]</unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>V-7158</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle>Judy Shepard PSA Network Version [VHS]</unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>V-7159</unitid>
 					<unitdate>1994</unitdate>
 					<unittitle><title>Both of my Moms’ Names are Judy: Children of Lesbians and Gays Speak Out</title> [VHS]</unittitle>
 				</did>
 			</c01>
-			<c01>
+			<c01 level="otherlevel" otherlevel="unspecified">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid>V-7160</unitid>
 					<unitdate>n.d.</unitdate>
 					<unittitle><title>Speaking for Ourselves: Portraits of Gay and Lesbian Youths</title> [VHS]</unittitle>
 				</did>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Robbie Sanders papers, #7811. Division of Rare and Manuscript Collections,
+					Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

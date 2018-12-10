@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07779::Ed Wood, Jr. collection)//EN">RMM07779</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM07779::Ed Wood, Jr. collection)//EN">RMM07779</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Ed Wood, Jr.
@@ -23,19 +23,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>October 2012</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Ed Wood, Jr. Collection,<lb/><date type="inclusive" encodinganalog="245$f">1966-2006.</date></titleproper>
+			<titleproper>Guide to the Ed Wood, Jr. Collection,<date encodinganalog="245$f" type="inclusive">1966-2006.</date></titleproper>
 			<num>Collection Number: 7779</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -61,12 +67,11 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Ed Wood, Jr. collection, <unitdate encodinganalog="MARC 245" type="inclusive">1966-2006.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Ed Wood, Jr. collection, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1966-2006.</unitdate>
 			<unitid label="Collection Number:">7779</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Wood, Edward D. (Edward Davis), 1924-1978. ">Wood, Edward D.(Edward
 					Davis)</persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>2 cubic feet.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>2 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Books, magazines, print outs, placards, poster, DVD.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -77,7 +82,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Edward Davis Wood, Jr. (October 10, 1924 to December 10, 1978), better known as Ed
 				Wood, was an American screenwriter, director, producer, actor, author, and editor,
 				who made a number of low-budget genre films and published pulp novels under various
@@ -118,14 +123,7 @@
 				<persname encodinganalog="MARC 100">Wood, Edward D., Jr. (Edward Davis), 1924-1978.</persname>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Ed Wood, Jr. collection, #7779. Division of Rare and Manuscript Collections,
-					Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<odd type="notes">
 			<head id="a6">NOTES</head>
 			<p>Collecting Program: Human Sexuality Collection.</p>
@@ -139,35 +137,35 @@
 
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1963</unitdate>
-						<unittitle><emph render="underline">Black Lace Drag</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Black Lace Drag</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	160	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Raven Books,	North Hollywood<lb/>[Wood’s first novel] </p>
+						<p>Publisher: 	Raven Books,	North Hollywood[Wood’s first novel] </p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1965</unitdate>
-						<unittitle><emph render="underline">Killer in Drag</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Killer in Drag</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Imperial Books/Star News Co.,	Union City, NJ<lb/>[same as Black Lace Drag (Raven, 1963), Wood’s first novel.  Also printed as Black Lace Drag (Private Edition, 1967) and The Twilight Land (Europa, 1967) credited to Sheri Blue.]</p>
+						<p>Publisher: 	Imperial Books/Star News Co.,	Union City, NJ[same as Black Lace Drag (Raven, 1963), Wood’s first novel.  Also printed as Black Lace Drag (Private Edition, 1967) and The Twilight Land (Europa, 1967) credited to Sheri Blue.]</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1965</unitdate>
-						<unittitle><emph render="underline">The Homosexual Generation</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Ken Worthy</persname></unittitle>
+						<unittitle><emph render="underline">The Homosexual Generation</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Ken Worthy</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	imperial Books/L.S. Publications Corp.,	New York<lb/>[purported socio-sexual study of the leanings of the current generation.  
+						<p>Publisher: 	imperial Books/L.S. Publications Corp.,	New York[purported socio-sexual study of the leanings of the current generation.  
 							Generally derogatory in nature.  Page 105: "A fair sample of what is happening to the man-woman relationship can be seen in the movie, 
 							‘The Knack – and How to Get it.’  Like, ‘Goodbye, Charley,’ and ‘Some Like It Hot,’ this is another thinly disguised homosexual movie in which a 
 							young girl goes about begging one of three young men to rape her.  The men show no interest whatsoever, and the homosexual element is brought 
@@ -182,13 +180,13 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1966</unitdate>
-						<unittitle><emph render="underline">Mask of Evil</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Charlene White</persname></unittitle>
+						<unittitle><emph render="underline">Mask of Evil</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Charlene White</persname></unittitle>
 						<physdesc>Pages: 	157	</physdesc>
 					</did>
-					<scopecontent><p>Publisher: 	First Niter Books, Inc.,	Buffalo<lb/>Cover art by Eric Stanton; also includes an interior advertisement 
-						for Stanton's "Stantoons."<lb/>[Page 94: "The intruder was going deeper, penetrating further and further into her sensitive, exquisite tenderness.  
+					<scopecontent><p>Publisher: 	First Niter Books, Inc.,	BuffaloCover art by Eric Stanton; also includes an interior advertisement 
+						for Stanton's "Stantoons."[Page 94: "The intruder was going deeper, penetrating further and further into her sensitive, exquisite tenderness.  
 						She moaned and moved, trying to escape the sweet pain, yet now quite wanting not to do so.  Her movements only made the pain go deeper.  ‘Oh, no! No.’  
 						She moaned.  ‘Stop.  Please stop.  Don’t stop!  It’s good.  It hurts, Ohh-h-h-h-h!’  The pressure on her became unbearably good.  Her senses were reeling.  
 						Colors were whirling and swirling under her closed eyelids.  Then suddenly, sweetly, inexplicably, she was past the pain and was moving and twisting in 
@@ -198,25 +196,25 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1966</unitdate>
-						<unittitle><emph render="underline">Orgy of the Dead</emph><lb/>By: <persname>	Edward D. Wood, Jr., intro by Forrest J. Ackerman</persname></unittitle>
+						<unittitle><emph render="underline">Orgy of the Dead</emph>By: <persname>	Edward D. Wood, Jr., intro by Forrest J. Ackerman</persname></unittitle>
 						<physdesc>Pages: 	160	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Greenleaf Classics, Inc.,	San Diego<lb/>Photo Illustrated by R. Charleton Wilson (b&amp;w)<lb/>[novelization of the film by the same name, 
+						<p>Publisher: 	Greenleaf Classics, Inc.,	San DiegoPhoto Illustrated by R. Charleton Wilson (b&amp;w)[novelization of the film by the same name, 
 							scripted by Ed Wood, directed by A. C. Stephen (Stephen Apostolof).  Cover art done by adult paperback master Robert Bonfils.  The wolfman on the cover 
 							is not actually in the book, but only in the film.  Illustrated with stills from the film.] add compiled info/summarize/excerpt </p>
 					</scopecontent>
 				</c02><c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1966</unitdate>
-						<unittitle><emph render="underline">Parisian Passions</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	J. X. Williams (on cvr only, inside TP is Wood)</persname></unittitle>
+						<unittitle><emph render="underline">Parisian Passions</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	J. X. Williams (on cvr only, inside TP is Wood)</persname></unittitle>
 						<physdesc>Pages: 	191	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Corinth Publications,	San Diego<lb/>[cover reads by J. X. Williams, a house name for Corinth, however the inside title page 
+						<p>Publisher: 	Corinth Publications,	San Diego[cover reads by J. X. Williams, a house name for Corinth, however the inside title page 
 							states Wood’s real name.  Original title was reported as 69 Rue Pigalle.  The story follows Parisian Inspector Goulet tracking down the 
 							killer of a number of strippers on the Rue Morgue.  He brings in Texas man Sherriff Buck Rhodes and female impersonator Lorraine Peters 
 							for assistance.  Page 79: "Buck poured his glass full from the second bottle of wine.  It was apparent from the tensions in the room that 
@@ -227,12 +225,12 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1966</unitdate>
-						<unittitle><emph render="underline">Side-Show Siren</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Side-Show Siren</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	190	</physdesc>
 					</did><scopecontent>
-						<p>Publisher: 	Corinth Publications,	San Diego<lb/>[Rudolph Grey detailed: "When Karl the Abominable Snowman escapes from a carnival, 
+						<p>Publisher: 	Corinth Publications,	San Diego[Rudolph Grey detailed: "When Karl the Abominable Snowman escapes from a carnival, 
 							a series of gruesome murders ensues.  Change from the original title Naked Bones as more marketable for the paperback trade, 
 							Side-Show Siren is possibly the first of Wood’s carnival novels.  It resembles films like The Ape (with Boris Karloff, Monogram, 
 							1940) and Circus of Horrors (AIP, 1960).  The character of Jinx Dixon, a cowboy sharpshooter, is modeled after Wood’s close friend, 
@@ -244,9 +242,9 @@
 			
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">A Half World</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Michael Sharon</persname></unittitle>
+						<unittitle><emph render="underline">A Half World</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Michael Sharon</persname></unittitle>
 						<physdesc>Pages: 	159	</physdesc>
 					</did>
 					<scopecontent>
@@ -255,25 +253,25 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">Black Lace Drag</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Black Lace Drag</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	160	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Private Edition Books,	Canoga Park<lb/>[1967 reprint of 1963 Raven Books Black Lace Drag, Wood’s first book.  
+						<p>Publisher: 	Private Edition Books,	Canoga Park[1967 reprint of 1963 Raven Books Black Lace Drag, Wood’s first book.  
 							Verso of title page claims "first printing 1967".]</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">Bloodiest Sex Crimes in History</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Spenser and West</persname></unittitle>
+						<unittitle><emph render="underline">Bloodiest Sex Crimes in History</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Spenser and West</persname></unittitle>
 						<physdesc>Pages: 	160	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Pad Library/Nite Time,	Agoura, CA<lb/>[in the style of Spenser and West, "sexological" studies of vampirism, murder, necrophilia, prostitution,
+						<p>Publisher: 	Pad Library/Nite Time,	Agoura, CA[in the style of Spenser and West, "sexological" studies of vampirism, murder, necrophilia, prostitution,
 							and contains a glossary of terminology.  Page 61: "This is not to suggest that ALL or even MOST morticians are Necrophiles.  It merely supposes that if 
 							one is inclined toward the Necrophile practice – the choice of being a Mortician is logical."] read, excerpt, what is up with catalog numbers corresponding 
 							to other pub. companies?</p>
@@ -281,38 +279,38 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">Confessions of a Hollywood Starlet</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Spenser and West</persname></unittitle>
+						<unittitle><emph render="underline">Confessions of a Hollywood Starlet</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Spenser and West</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Cougar Publications,	Los Angeles<lb/>[Not mentioned elsewhere in Wood literature, this book contains many Woodian hallmarks, 
+						<p>Publisher: 	Cougar Publications,	Los Angeles[Not mentioned elsewhere in Wood literature, this book contains many Woodian hallmarks, 
 							i.e. gratuitous ellipses and Hollywood sleaze, however the writing is slightly more sober than usual.  The story concerns casting couch shenanigans, 
 							with character names such as Jake Palerack, Wolfgang von Klienshimdt, Fritz Dykeman, and Beverly Fuller.] </p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">Death of a Transvestite</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Death of a Transvestite</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Pad Library/Nite Time,	Agoura, CA<lb/>[the follow-up to Black Lace Drag, concerns contract killer Glen/Glenda on death row who demands 
+						<p>Publisher: 	Pad Library/Nite Time,	Agoura, CA[the follow-up to Black Lace Drag, concerns contract killer Glen/Glenda on death row who demands 
 							to be allowed to die in drag.  Told in a Gothic epistolary style via clippings, confessions, etc.  Considered one of Wood’s finest works.] excerpt </p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">Devil Girls</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Devil Girls</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Pad Library,	Agoura, CA<lb/>[Rudolph Grey writes: "In the small town of Almanac, Texas, Sheriff Buck Rhodes tangles with drug smugglers 
+						<p>Publisher: 	Pad Library,	Agoura, CA[Rudolph Grey writes: "In the small town of Almanac, Texas, Sheriff Buck Rhodes tangles with drug smugglers 
 							and teenage gangs, including the wild girl gang, The Chicks.  A series of sexual liaisons and violence culminate in their tragic end."  David Hayes 
 							qualified, "Owing chiefly to the year it was printed, Devil Girls stands as the testament to Wood’s writing in the Golden Age.  Low on smut, but high 
 							on intrigue and scandal, the novel moves along at a brisk pace and creates characters that are both believable and interesting (aside from Wood’s usual 
@@ -321,13 +319,13 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">Drag Trade</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Drag Trade</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	159	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Triumph News Co., Inc.,	Van Nuys<lb/>[Page 38: "But come as it may, for the first time in his life he felt like a human being.  
+						<p>Publisher: 	Triumph News Co., Inc.,	Van Nuys[Page 38: "But come as it may, for the first time in his life he felt like a human being.  
 							Before, with only the panties and the half slip he hadn’t been quite sure. He knew he liked the feeling of the clothes then, but once he had dressed 
 							completely as a girl, he knew it was the life he must lead.  None of their hair would ever grow to any length, but wigs took care of that small problem.  
 							And being young they taught him just how far his bust line should extend.  He love sweaters, the soft cashmeres and angoras...and he liked to see the 
@@ -336,24 +334,24 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">It Takes One to Know One</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">It Takes One to Know One</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	191	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Pad Library/Imperial,	Agoura, CA<lb/>[excerpt]</p>
+						<p>Publisher: 	Pad Library/Imperial,	Agoura, CA[excerpt]</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">Security Risk</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Security Risk</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Pad Library,	Agoura, CA<lb/>[Grey writes: "Espionage, Wood style, involving hard communists, sabotage at a movie set, and hard-loving, 
+						<p>Publisher: 	Pad Library,	Agoura, CA[Grey writes: "Espionage, Wood style, involving hard communists, sabotage at a movie set, and hard-loving, 
 							hard smoking and hard drinking Col. Harvey Tate."  Hayes: "This is another classic case of Wood’s real-world experience (minus the freaky sex) 
 							shoved smack dab into a smut novel."  The plot surrounds terrorists murdering employees at a government operated low-budget film company, 
 							much like Autonetics Aviation, a company Wood had briefly made films for in the past.]</p>
@@ -361,13 +359,13 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">Sex Life of the Alcoholic</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Johnny J.</persname></unittitle>
+						<unittitle><emph render="underline">Sex Life of the Alcoholic</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Johnny J.</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Griffon Enterprises/Nite Time Books,	Beverly Hills<lb/>[case histories of boozy sexual encounters, dedication reads: 
+						<p>Publisher: 	Griffon Enterprises/Nite Time Books,	Beverly Hills[case histories of boozy sexual encounters, dedication reads: 
 							"To those anonymous booze-fighters whose stories are presented in these pages – and to the scores of others, likewise not to be named, 
 							who have helped in the preparation of this book. – Johnny J."  Book topics include "Early Drinking and Introduction to Sex", "Alcohol as a Sexual Lubricant",
 							"Breakdown of Sexual Inhibitions", "Rape, Incest and Homosexuality Through Release by Alcohol", and "Housewife Prostitution and Alcohol."]</p>
@@ -375,13 +373,13 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">Strange Sisters</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Sheri Blue</persname></unittitle>
+						<unittitle><emph render="underline">Strange Sisters</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Sheri Blue</persname></unittitle>
 						<physdesc>Pages: 	160	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Europa Books Limited/Pad Library,	Los Angeles<lb/>[this book is indicative of a bibliographical problem found elsewhere in both the 
+						<p>Publisher: 	Europa Books Limited/Pad Library,	Los Angeles[this book is indicative of a bibliographical problem found elsewhere in both the 
 							Ed Wood Collection and in the greater adult paperback business.  Due to the illegal nature of many publications, tax evasion, reusing old book components 
 							for new publications, and ties to more savage legal infractions, companies were constantly starting, collapsing and renaming themselves in a fly-by-night 
 							fashion.  Therefore we find ourselves with situations like Strange Sisters which has a Pad Library ID# on the cover, yet on the verso of the title page 
@@ -393,50 +391,50 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">Suburbia Confidential</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Emil Moreau</persname></unittitle>
+						<unittitle><emph render="underline">Suburbia Confidential</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Emil Moreau</persname></unittitle>
 						<physdesc>Pages: 	159	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Triumph News Co., Inc.,	Van Nuys<lb/>[A collection of case histories as reported to Emil Moreau, "M. D."  Beyond the basic concept, 
+						<p>Publisher: 	Triumph News Co., Inc.,	Van Nuys[A collection of case histories as reported to Emil Moreau, "M. D."  Beyond the basic concept, 
 							allegedly Wood and the book had nothing to do with the Apostolof film of 1966.] </p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">The Twilight Land</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Sheri Blue</persname></unittitle>
+						<unittitle><emph render="underline">The Twilight Land</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Sheri Blue</persname></unittitle>
 						<physdesc>Pages: 	160	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Europa Books Limited/Pad Library,	Los Angeles<lb/>[another 1967 reprint of Wood’s Black Lace Drag this time under alternate title and pen name.
+						<p>Publisher: 	Europa Books Limited/Pad Library,	Los Angeles[another 1967 reprint of Wood’s Black Lace Drag this time under alternate title and pen name.
 							David C. Hayes claims a 1965 edition of The Twilight Land exists as well, though he may be mistaken.] </p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">Watts...After</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Watts...After</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	191	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Pad Library,	Agoura, CA<lb/>[Follow-up to Watts...The Difference, more exploits with black nationalists and low-budget filmmakers] 
+						<p>Publisher: 	Pad Library,	Agoura, CA[Follow-up to Watts...The Difference, more exploits with black nationalists and low-budget filmmakers] 
 							excerpt/summary
 						</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1967</unitdate>
-						<unittitle><emph render="underline">Watts...The Difference</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Watts...The Difference</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Pad Library,	Agoura, CA<lb/>Cover art is signed but tough to read; looks like "Chad Collen"<lb/>[a Watts riot exploitation piece, 
+						<p>Publisher: 	Pad Library,	Agoura, CACover art is signed but tough to read; looks like "Chad Collen"[a Watts riot exploitation piece, 
 							it’s rumored that Wood’s home was firebombed after the books release.  Other stories include death threats from the Black Panthers.  
 							Alternate version is said to exist as Burn Baby Burn (1969) by Ray Jones] excerpt/summary</p>
 					</scopecontent>
@@ -445,13 +443,13 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">Bye Bye Broadie</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Bye Bye Broadie</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	157	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Pendulum Publishers,	Los Angeles<lb/>Photo Illustrated (b&amp;w)<lb/>[another pictorial, this time with stills from a Image 4 motion picture 
+						<p>Publisher: 	Pendulum Publishers,	Los AngelesPhoto Illustrated (b&amp;w)[another pictorial, this time with stills from a Image 4 motion picture 
 							production.  Wood biographer Rudolph Grey summarized Broadie, "A peeping tom rapist spies on a group of young women making love in a boarding school.  
 							He approaches them and joins in on thethe action.  The man-hating schoolmistress, Mrs. Grundy, discovers the orgy and beats the man to death with her cane.  
 							The headmistress then coerces the girls to assist her in burying the body in a nearby pet cemetery.  After the burial, a hand appears out of the ground 
@@ -463,13 +461,13 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">Carnival Piece</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Kathleen Everett</persname></unittitle>
+						<unittitle><emph render="underline">Carnival Piece</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Kathleen Everett</persname></unittitle>
 						<physdesc>Pages: 	160	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Private Edition Books,	Canoga Park<lb/>[Kathleen Everett was in fact Wood’s wife’s maiden name.  Akin to Side-Show Siren the novel follows a 
+						<p>Publisher: 	Private Edition Books,	Canoga Park[Kathleen Everett was in fact Wood’s wife’s maiden name.  Akin to Side-Show Siren the novel follows a 
 							"murder-at-the-carnival" plot.  Grey writes: "Imbroglios concerning carnivals, a murdered dancing girl and her stunning young blonde replacement who 
 							attracts the attentions of the local sheriff, the owner of the carnival and Mama Tate, a fat lesbian.  Characters include Wheezy the Skeleton, who prefers 
 							wine to food; the Geek, another wino who bites the heads off snakes and chickens; Bertha the 450 pound fat woman; the tattoo man; the magician 
@@ -479,13 +477,13 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">For Love Or Money</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Arthur Windsor</persname></unittitle>
+						<unittitle><emph render="underline">For Love Or Money</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Arthur Windsor</persname></unittitle>
 						<physdesc>Pages: 	149	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	B. B. Sales Co.,	New York, NY<lb/>Photo Illustrated by Bill New (b&amp;w)<lb/>[For Love Or Money originally began as the novel 
+						<p>Publisher: 	B. B. Sales Co.,	New York, NYPhoto Illustrated by Bill New (b&amp;w)[For Love Or Money originally began as the novel 
 							The Sexecutives (1968) by Donald L. Westermier (pseudonym of Edward D. Wood, Jr.).  Wood turned the novel into a script named For Love Or Money 
 							that was in turn realized by sexploitation director Don A. Davis.  As was popular, the film was turned into a Foto-Reader which featured text opposite film 
 							stills.  The For Love Or Money Foto-Reader is an abridged version of The Sexecutives, with much of Wood’s unique syntactical approaches excised, 
@@ -494,13 +492,13 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">Hell Chicks</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	N. V. Jason</persname></unittitle>
+						<unittitle><emph render="underline">Hell Chicks</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	N. V. Jason</persname></unittitle>
 						<physdesc>Pages: 	188	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Private Edition Books,	Canoga Park<lb/>Cover art signed "H"<lb/>[Rudolph Grey wrote: "Ghosted under ‘N. V. Jason’, Hell Chicks, 
+						<p>Publisher: 	Private Edition Books,	Canoga ParkCover art signed "H"[Rudolph Grey wrote: "Ghosted under ‘N. V. Jason’, Hell Chicks, 
 							is one of Wood’s most crazed, anarchistic novels.  The complete disregard for normal rules of grammar suggest that it was written in one sitting.  
 							Unleashed in distorted, alcoholic twists of consciousness, the novel takes girl gangs from his screenplays for The Violent Years and Fugitive Girls 
 							to the ne plus ultra of sex and violence.  The Hell Chicks are twelve rough tough broads in black leather jackets.  Their credo: ‘Rules are LAWS and LAWS 
@@ -514,23 +512,23 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">Purple Thighs</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Purple Thighs</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	156	</physdesc>
 					</did>
-					<scopecontent><p>Publisher: 	Private Edition Books,	Canoga Park<lb/>[Hippie sexploitation, cover says "Originally titled Lost Souls Delivered", Wood’s personal acronym for LSD.  Main characters Adam and Eve.] excerpt</p>
+					<scopecontent><p>Publisher: 	Private Edition Books,	Canoga Park[Hippie sexploitation, cover says "Originally titled Lost Souls Delivered", Wood’s personal acronym for LSD.  Main characters Adam and Eve.] excerpt</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">Raped in the Grass</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Raped in the Grass</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	157	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Pendulum Publishers,	Los Angeles<lb/>Photo Illustrated (b&amp;w)<lb/>[This Wood novelization of a "film" by D-M Productions, Los Angeles, 
+						<p>Publisher: 	Pendulum Publishers,	Los AngelesPhoto Illustrated (b&amp;w)[This Wood novelization of a "film" by D-M Productions, Los Angeles, 
 							was likely written from scratch and no film was ever produced.  Raped in the Grass is a pre-Hearst/SLA Helsinki syndrome psycho-sexual fantasy.  
 							The book concerns two American girls who get captured by guerillas in a Central American country.  A large amount of sexual and violent torture is 
 							unleashed by the guerillas on the girls who desperately want to leave.  Yet, by the end of the pictorial, the American girls realize they have found a 
@@ -543,13 +541,13 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">Sex Museum</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Jason Nichols</persname></unittitle>
+						<unittitle><emph render="underline">Sex Museum</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Jason Nichols</persname></unittitle>
 						<physdesc>Pages: 	160	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Viceroy Books,	Canoga Park<lb/>[Sex Museum is a retelling of various sexual rites and occurrences throughout history.  
+						<p>Publisher: 	Viceroy Books,	Canoga Park[Sex Museum is a retelling of various sexual rites and occurrences throughout history.  
 							[Page 81: "The father of our country, the U.S.A., may very well have tried to be just that, the FATHER of our country!  
 							He certainly made one hell of an attempt at propagating the race of early Americans to a point where many a colonial mother locked their 
 							alluring daughter behind doors when they saw the young militia colonel approaching.  George Washington, the first President of the new states of America 
@@ -558,13 +556,13 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">Sex Shrouds and Caskets</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Sex Shrouds and Caskets</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	187	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Viceroy Books,	Canoga Park<lb/>[Writings on the intermingling of sex and religion.  Page 113: 
+						<p>Publisher: 	Viceroy Books,	Canoga Park[Writings on the intermingling of sex and religion.  Page 113: 
 							"Harry TURNED the girls ON as he had done all of his adult life.  But he TURNED THEM ON with a completely new, foolproof line.  
 							‘The force of evil is within all of us!  It is for me to turn that evil out of your souls.’  Then he would open the BOOK at random 
 							and read a short paragraph, then put in his own interpretation.  None could deny his words because as so many of his predecessors, 
@@ -573,12 +571,12 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">1</container>
+						<container label="unspecified" type="box">1</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">The Erotic Spy</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Abbott Smith</persname></unittitle>
+						<unittitle><emph render="underline">The Erotic Spy</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Abbott Smith</persname></unittitle>
 						<physdesc>Pages: 	157	</physdesc>
 					</did>
-					<scopecontent><p>Publisher: 	Pendulum Publishers,	Los Angeles<lb/>Photo Illustrated (b&amp;w)<lb/>[Pendulum Pictorials was a series akin to the 
+					<scopecontent><p>Publisher: 	Pendulum Publishers,	Los AngelesPhoto Illustrated (b&amp;w)[Pendulum Pictorials was a series akin to the 
 						Olympic Foto-Reader, wherein text was accompanied by photo stills from a film.  As far as the Pendulum Pictorials go, it is highly doubtful that 
 						any moving picture ever existed and rather the still photographs were taken with the purpose of illustrating the book.  The Erotic Spy featured the character 
 						"The Gold Girl" who was also in the film Orgy of the Dead, played by Pat Barrington.  A note from the Editor: "Gold Girl is one of the most exciting characters 
@@ -589,37 +587,37 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">The Gay Underworld</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">The Gay Underworld</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Viceroy Books,	Canoga Park<lb/>[Rudolph Grey writes: "Similar to Wood’s Drag Trade of 1967, with several episodes slightly rewritten.]</p>
+						<p>Publisher: 	Viceroy Books,	Canoga Park[Rudolph Grey writes: "Similar to Wood’s Drag Trade of 1967, with several episodes slightly rewritten.]</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">The Love of the Dead</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	V. N. Jensen</persname></unittitle>
+						<unittitle><emph render="underline">The Love of the Dead</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	V. N. Jensen</persname></unittitle>
 						<physdesc>Pages: 	156	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Viceroy Books,	Canoga Park<lb/>[Page 66: "The [r]evulsion would last only a short time...
+						<p>Publisher: 	Viceroy Books,	Canoga Park[Page 66: "The [r]evulsion would last only a short time...
 							Then there must be another dead partner...Soon there would never be the signs of revulsion again...
 							       Only hope...and the exercising of his demands."] </p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">The Perverts</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Jason Nichols</persname></unittitle>
+						<unittitle><emph render="underline">The Perverts</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Jason Nichols</persname></unittitle>
 						<physdesc>Pages: 	160	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Viceroy Books,	Canoga Park<lb/>[a proposed socio-cultural study of contemporary perversions and ‘deviations’, topics include Necrophilia, 
+						<p>Publisher: 	Viceroy Books,	Canoga Park[a proposed socio-cultural study of contemporary perversions and ‘deviations’, topics include Necrophilia, 
 							Troilism, Prostitution, Fetishes, S&amp;M, Bestiality, Homosexuality, Transvestitism, Incest, Lesbianism.  Page 52: Man will seek out woman wherever he is 
 							– the steaming jungles of the Amazon or the same steaming jungles of his own home town.  SEX WILL OUT!  And there will always be the whore to take care of 
 							his needs.  She might be hidden or she might be out in the open.  The law will close up her PUSSY for a time, but once she is released the PUSSY will again 
@@ -630,25 +628,25 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">The Sexecutives</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	David L. Westermier</persname></unittitle>
+						<unittitle><emph render="underline">The Sexecutives</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	David L. Westermier</persname></unittitle>
 						<physdesc>Pages: 	160	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Private Edition Books,	Canoga Park<lb/>Cover art may be by Paul Rader, recycled from a lesbian pulp novel. [PROOF?]
-							<lb/>[Surrounds a group of sex spies, "Instant Secretaries, Inc."  Was later turned into the Foto-Reader For Love Or Money.] excerpt heavily</p>
+						<p>Publisher: 	Private Edition Books,	Canoga ParkCover art may be by Paul Rader, recycled from a lesbian pulp novel. [PROOF?]
+							[Surrounds a group of sex spies, "Instant Secretaries, Inc."  Was later turned into the Foto-Reader For Love Or Money.] excerpt heavily</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">The Svengali of Sex</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Edgar Andrews</persname></unittitle>
+						<unittitle><emph render="underline">The Svengali of Sex</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Edgar Andrews</persname></unittitle>
 						<physdesc>Pages: 	157	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Pendulum Publishers,	Los Angeles<lb/>Photo Illustrated (b&amp;w)<lb/>[Svengali concerns the exploits of a hypno-therapist, Larry, 
+						<p>Publisher: 	Pendulum Publishers,	Los AngelesPhoto Illustrated (b&amp;w)[Svengali concerns the exploits of a hypno-therapist, Larry, 
 							who gives his hypnotized female patients the full-treatment.  Page 111: "Under hypnosis at least, she no longer thought of that.  Shirley stood 
 							in front of the mirror, turning this way and that to look at herself.  The look on her face was one of critical satisfaction.  Now she turned to face Larry.
 							"I think you’re right."  Larry got up and joined her at the mirror.  Casually he placed his hand around her waist.  ‘Now Shirley,’ he said, ‘can’t you see 
@@ -659,13 +657,13 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1968</unitdate>
-						<unittitle><emph render="underline">Young, Black and Gay</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Young, Black and Gay</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	158	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Publishers Export Co., Inc./French Line Novel ,	San Diego<lb/>A PEC French Line novel<lb/>[Rudolph Grey writes: 
+						<p>Publisher: 	Publishers Export Co., Inc./French Line Novel ,	San DiegoA PEC French Line novel[Rudolph Grey writes: 
 							"A homosexual transvestite adapts to prison life, taking the female sex role while absorbing convict philosophy.  
 							He winds up the victim of a brutal beating in a filthy alley."]</p>
 					</scopecontent>
@@ -674,48 +672,48 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
-						<unitdate>no year/c. 1969/70</unitdate>
-						<unittitle><emph render="underline">A Study of the Lesbian the Homosexual the Bi-sexual</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Dr. T. K. Peters with S. T. Lee</persname></unittitle>
+						<container label="unspecified" type="box">2</container>
+						<unitdate certainty="approximate">no year/ 1969/70</unitdate>
+						<unittitle><emph render="underline">A Study of the Lesbian the Homosexual the Bi-sexual</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Dr. T. K. Peters with S. T. Lee</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	SECS Press,	Los Angeles<lb/>Photo Illustrated (color/b&amp;w)<lb/>"Sex Education Clinical Series vol. XI"
-							<lb/>[double check to see if this is Wood] </p>
+						<p>Publisher: 	SECS Press,	Los AngelesPhoto Illustrated (color/b&amp;w)"Sex Education Clinical Series vol. XI"
+							[double check to see if this is Wood] </p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1969</unitdate>
-						<unittitle><emph render="underline">Let Me Die in Drag</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Woodrow Edwards</persname></unittitle>
+						<unittitle><emph render="underline">Let Me Die in Drag</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Woodrow Edwards</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Classic Publications,	Los Angeles<lb/>[reissue of Death of a Transvestite]</p>
+						<p>Publisher: 	Classic Publications,	Los Angeles[reissue of Death of a Transvestite]</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1969</unitdate>
-						<unittitle><emph render="underline">Male Wives</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Norman Bates</persname></unittitle>
+						<unittitle><emph render="underline">Male Wives</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Norman Bates</persname></unittitle>
 						<physdesc>Pages: 	191	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Barclay House,	North Hollywood<lb/>A Barclay House Psycho-Sex Study<lb/>[Bibliography includes Hollywood Babylon by Kenneth Anger, 
+						<p>Publisher: 	Barclay House,	North HollywoodA Barclay House Psycho-Sex Study[Bibliography includes Hollywood Babylon by Kenneth Anger, 
 							The Seven Pillars of Wisdom by T. E. Lawrence, and more, as well as many adult books.]</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1969</unitdate>
-						<unittitle><emph render="underline">The Oralists</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Spenser and West</persname></unittitle>
+						<unittitle><emph render="underline">The Oralists</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Spenser and West</persname></unittitle>
 						<physdesc>Pages: 	190	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Tiger Books/Powell Publications,	Reseda<lb/>[Spenser &amp; West were progressive "sexologists" who wrote based off of "interviews and case 
+						<p>Publisher: 	Tiger Books/Powell Publications,	Reseda[Spenser &amp; West were progressive "sexologists" who wrote based off of "interviews and case 
 							histories", Introduction reads: "Oralism is the word that has been kept behind closed doors, hidden under hats and seldom spoken above a whisper.  
 							It is scorned by thousands, yet secretly enjoyed by millions and is gaining an ever-increasing circle of aficionados.  Why? The hypocrisy intrigued us 
 							and we ventured forth into the land of the oralist to find out.  Why is he different from other people?"] </p>
@@ -726,14 +724,14 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1970</unitdate>
-						<unittitle><emph render="underline">A Study of Stag Films</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	S. T. Lee with Dr. T. K. Peters</persname></unittitle>
+						<unittitle><emph render="underline">A Study of Stag Films</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	S. T. Lee with Dr. T. K. Peters</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	SECS Press,	Los Angeles<lb/>Photo Illustrated (color/b&amp;w)<lb/>"Sex Education Clinical Series vol. XVI"
-							<lb/>[contains glossary of film lingo in back, bibliography, possibly not Ed Wood, book discussions include set design, cinematography, gay films,
+						<p>Publisher: 	SECS Press,	Los AngelesPhoto Illustrated (color/b&amp;w)"Sex Education Clinical Series vol. XVI"
+							[contains glossary of film lingo in back, bibliography, possibly not Ed Wood, book discussions include set design, cinematography, gay films,
 							S&amp;M films, and art films, "‘Flaming Creatures’ is another example of underground invasion of the stag market.  The film’s climactic cunnilingual 
 							rape scene is expressed with calculated crudity and very primitive photography."  Also discusses Warhol amongst less pretentious pornography.  
 							"Maybe a new sexuality is upon us.  Sort of a good-natured narcissism in which sex is a public demonstration whose feelings are best relished by the participant
@@ -743,34 +741,34 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1970</unitdate>
-						<unittitle><emph render="underline">Gay Black</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Gay Black</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	157	</physdesc>
 					</did>
-					<scopecontent><p>Publisher: 	Regency Publishing Co.,	El Cajon<lb/>Reissue of Young, Black and Gay<lb/>[excerpt]</p>
+					<scopecontent><p>Publisher: 	Regency Publishing Co.,	El CajonReissue of Young, Black and Gay[excerpt]</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1970</unitdate>
-						<unittitle><emph render="underline">Teen-Sex Swapping</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Norman Bates</persname></unittitle>
+						<unittitle><emph render="underline">Teen-Sex Swapping</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Norman Bates</persname></unittitle>
 						<physdesc>Pages: 	c. 191	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Ben's Books Ltd.,	London<lb/>Photo Illustrated (b&amp;w)<lb/>[North Hollywood Barclay copyright, UK print]</p>
+						<p>Publisher: 	Ben's Books Ltd.,	LondonPhoto Illustrated (b&amp;w)[North Hollywood Barclay copyright, UK print]</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1970</unitdate>
-						<unittitle><emph render="underline">The Adult Version of Dracula</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Anon.</persname></unittitle>
+						<unittitle><emph render="underline">The Adult Version of Dracula</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Anon.</persname></unittitle>
 						<physdesc>Pages: 	190	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Calga Publishers, Inc.,	Los Angeles<lb/>[part of Calga’s "Adult Versions of the World’s Standards", 
+						<p>Publisher: 	Calga Publishers, Inc.,	Los Angeles[part of Calga’s "Adult Versions of the World’s Standards", 
 							among these advertised were The Escapades of Cleopatra and A Jack London Trilogy.  Told in an epistolary fashion via Jonathan Harker’s journal, 
 							letters, clippings, etc. From Johnathan Harker’s journal May 5th (page 33): "My flesh shivered and my hands sank lower.  
 							Across her tossing belly and down between her quivering thighs.  She arched the mound of her pussy against my hand, 
@@ -782,67 +780,67 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1971</unitdate>
-						<unittitle><emph render="underline">A Study of Sexual Practices in Witchcraft and Black Magic: Book 1</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Frank Lennon with Dt. T. K. Peters</persname></unittitle>
+						<unittitle><emph render="underline">A Study of Sexual Practices in Witchcraft and Black Magic: Book 1</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Frank Lennon with Dt. T. K. Peters</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	SECS Press,	Los Angeles<lb/>Photo Illustrated (color/b&amp;w)
-							<lb/>"Sex Education Clinical Series vol. XVII"<lb/>["From time immemorial, sex and Satanism have been one and the same thing.  
+						<p>Publisher: 	SECS Press,	Los AngelesPhoto Illustrated (color/b&amp;w)
+							"Sex Education Clinical Series vol. XVII"["From time immemorial, sex and Satanism have been one and the same thing.  
 							As you will see in later pages, worship of the devil involves sexual excesses on a scale so large, 
 							that the so-called Hollywood sex orgies grow pale by comparison."]  off the walls photography and captions – must reproduce</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1971</unitdate>
-						<unittitle><emph render="underline">A Study of Sexual Practices in Witchcraft and Black Magic: Book 2</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Frank Lennon with Dt. T. K. Peters</persname></unittitle>
+						<unittitle><emph render="underline">A Study of Sexual Practices in Witchcraft and Black Magic: Book 2</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Frank Lennon with Dt. T. K. Peters</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	SECS Press,	Los Angeles<lb/>Photo Illustrated (color/b&amp;w)<lb/>"Sex Education Clinical Series vol. XVIII"
-							<lb/>["It is not the purpose of this book to condemn, condone or to accept the Black Arts, but to set forth some facts which have been hidden deep 
+						<p>Publisher: 	SECS Press,	Los AngelesPhoto Illustrated (color/b&amp;w)"Sex Education Clinical Series vol. XVIII"
+							["It is not the purpose of this book to condemn, condone or to accept the Black Arts, but to set forth some facts which have been hidden deep 
 							in volumes on shelves of libraries, and hidden even deeper in court records."] off the walls photography and captions – must reproduce </p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1971</unitdate>
-						<unittitle><emph render="underline">A Study of The Sexual Man: Book Two</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Frank Leonard with Dr. T. K. Peters</persname></unittitle>
+						<unittitle><emph render="underline">A Study of The Sexual Man: Book Two</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Frank Leonard with Dr. T. K. Peters</persname></unittitle>
 						<physdesc>Pages: 	191	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	SECS Press,	Los Angeles<lb/>Photo Illustrated (color/b&amp;w)<lb/>"Sex Education Clinical Series vol. XXXIII"
-							<lb/>["Who is the sexual man? What special qualities does he possess that other men don't have? Can you become a sexual man?
+						<p>Publisher: 	SECS Press,	Los AngelesPhoto Illustrated (color/b&amp;w)"Sex Education Clinical Series vol. XXXIII"
+							["Who is the sexual man? What special qualities does he possess that other men don't have? Can you become a sexual man?
 							These are all questions that this book will answer."]</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1971</unitdate>
-						<unittitle><emph render="underline">A Study of The Sexual Woman: Book Two</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Mandy Merrill with Dr. T. K. Peters</persname></unittitle>
+						<unittitle><emph render="underline">A Study of The Sexual Woman: Book Two</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Mandy Merrill with Dr. T. K. Peters</persname></unittitle>
 						<physdesc>Pages: 	191	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	SECS Press,	Los Angeles<lb/>Photo Illustrated (color/b&amp;w)
-							<lb/>"Sex Education Clinical Series vol. XXXI"<lb/>"[Wood and Charles Anderson (Outlaws of the Old West), wrote and directed twelve 8mm films for SECS in 1975]
+						<p>Publisher: 	SECS Press,	Los AngelesPhoto Illustrated (color/b&amp;w)
+							"Sex Education Clinical Series vol. XXXI""[Wood and Charles Anderson (Outlaws of the Old West), wrote and directed twelve 8mm films for SECS in 1975]
 							possibly scan photo with captions
 						</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1971</unitdate>
-						<unittitle><emph render="underline">A Study of the Sons and Daughters of Erotica</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	compiled by Dick Trent with Dr. T. K. Peters</persname></unittitle>
+						<unittitle><emph render="underline">A Study of the Sons and Daughters of Erotica</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	compiled by Dick Trent with Dr. T. K. Peters</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	SECS Press,	Los Angeles<lb/>Photo Illustrated (color/b&amp;w)<lb/>"Sex Education Clinical Series vol. XXVIII"<lb/>[Akin to EDUSEX, 
+						<p>Publisher: 	SECS Press,	Los AngelesPhoto Illustrated (color/b&amp;w)"Sex Education Clinical Series vol. XXVIII"[Akin to EDUSEX, 
 							more pornography in the guise of education, ‘...as a pictorial and editorial representation of phases and mores in our contemporary society.’  
 							Most likely SECS was Calga Publishers since they shared the same 5585 W. Pico address.  As suggested elsewhere also probably the same as Pendulum. 
 							Bibliography includes: Criswell Predicts by Criswell, Black Myth by Trent and Peters (Ed Wood) (listed as Pendulum 1971 in bibliography, listed as 
@@ -851,25 +849,25 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1971</unitdate>
-						<unittitle><emph render="underline">A Study of the Swappers</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	S. T. Lee with Dr. T. K. Peters</persname></unittitle>
+						<unittitle><emph render="underline">A Study of the Swappers</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	S. T. Lee with Dr. T. K. Peters</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	SECS Press,	Los Angeles<lb/>Photo Illustrated (color/b&amp;w)<lb/>"Sex Education Clinical Series vol. XXVII"</p>
+						<p>Publisher: 	SECS Press,	Los AngelesPhoto Illustrated (color/b&amp;w)"Sex Education Clinical Series vol. XXVII"</p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1971</unitdate>
-						<unittitle><emph render="underline">Black Myth</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Dick Trent with Dr. T. K. Peters</persname></unittitle>
+						<unittitle><emph render="underline">Black Myth</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Dick Trent with Dr. T. K. Peters</persname></unittitle>
 						<physdesc>Pages: 	192	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	SECS Press,	Los Angeles<lb/>Photo Illustrated (color/b&amp;w)<lb/>"Sex Education Clinical Series vol. XXII"
-							<lb/>["A detailed analysis of the sexual and sociological misinformation surrounding black sexuality."  
+						<p>Publisher: 	SECS Press,	Los AngelesPhoto Illustrated (color/b&amp;w)"Sex Education Clinical Series vol. XXII"
+							["A detailed analysis of the sexual and sociological misinformation surrounding black sexuality."  
 							It was suggested by reported ex-Pendulum/Calga writer Leo Eaton, that Dr. T. K. Peters was in fact actually a real card-carrying doctor, 
 							his website relays: "Pendulum had bought a serious, boring and excruciatingly long scientific study of sexuality from Dr. T. K. Peters. 
 							It was an unpublished manuscript that the doctor had probably labored on for years without finding a buyer (he was a Kinsey-style researcher). 
@@ -881,14 +879,14 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1971</unitdate>
-						<unittitle><emph render="underline">The Cat's Urge</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Elliot Parker Ph.D.,</persname></unittitle>
+						<unittitle><emph render="underline">The Cat's Urge</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Elliot Parker Ph.D.,</persname></unittitle>
 						<physdesc>Pages: 	160	</physdesc>
 					</did>
 					<scopecontent>
 						<p>Publisher: 	Echelon Book Publishers, Inc.,	Los Angeles
-							<lb/>[Contains salacious sexological case histories of female abandon - swapping, drunken sex, adulterous behavior, fetishes, and more.  
+							[Contains salacious sexological case histories of female abandon - swapping, drunken sex, adulterous behavior, fetishes, and more.  
 							Page 24: "The room began to smell like a whorehouse on dollar day.  Frantic, hot bodies give off a real musky smell when they’re in a close space.  
 							And that apartment was like a closet.  Hell, I could have reached out and patted Benny on the butt."  Page 89: "While the majority of housewives 
 							enter the forbidden world of animalism out of a profound despair, this is not an iron rule."  While much of Wood’s approaches to African-American 
@@ -909,26 +907,26 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1972</unitdate>
-						<unittitle><emph render="underline">Mary-Go-Round</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Mary-Go-Round</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	191	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Little Library Press,	Atlanta<lb/>[similar to Carnival Piece but more explicit as LLP tended to be.]</p>
+						<p>Publisher: 	Little Library Press,	Atlanta[similar to Carnival Piece but more explicit as LLP tended to be.]</p>
 					</scopecontent>
 				</c02>
 				
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1973</unitdate>
-						<unittitle><emph render="underline">Diary of a Transvestite Hooker</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Randy, as told to Dick Trent</persname></unittitle>
+						<unittitle><emph render="underline">Diary of a Transvestite Hooker</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Randy, as told to Dick Trent</persname></unittitle>
 						<physdesc>Pages: 	182	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Eros Publishing Co.,	Wilmington, Del. <lb/>Photo Illustrated (b&amp;w)
-							<lb/>[an Eros Goldstripe production, a telling of escapades in the life of transvestite hooker, told in the pictorial style.  
+						<p>Publisher: 	Eros Publishing Co.,	Wilmington, Del. Photo Illustrated (b&amp;w)
+							[an Eros Goldstripe production, a telling of escapades in the life of transvestite hooker, told in the pictorial style.  
 							Page 173: "Summation – One might ask the question: ‘Why the life of a prostitute?’ of any number of prostitutes and there would be just as many, 
 							individually different answers...but their answers might not be considered true answers by the sociologists, sexologists and psychiatrists, 
 							because the girls themselves don’t have any true answers for themselves and why they first decided upon the profession.  
@@ -943,14 +941,14 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1973</unitdate>
-						<unittitle><emph render="underline">Outlaws of the Old West</emph><lb/>By: <persname>	Charles D. Anderson (ed.), Edward D. Wood, Jr. (contrib.)</persname></unittitle>
+						<unittitle><emph render="underline">Outlaws of the Old West</emph>By: <persname>	Charles D. Anderson (ed.), Edward D. Wood, Jr. (contrib.)</persname></unittitle>
 						<physdesc>Pages: 	253	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Mankind Publishing Company,	Los Angeles<lb/>Ilustrated (photo/drawing)
-							<lb/>The Mankind Series of Great Adventures of History<lb/>["Selected Readings By Mankind Magazine", 
+						<p>Publisher: 	Mankind Publishing Company,	Los AngelesIlustrated (photo/drawing)
+							The Mankind Series of Great Adventures of History["Selected Readings By Mankind Magazine", 
 							contains the story "Pearl Hart and the Last Stage".  Non-pornographic work in the Western genre.  
 							Tells the tale of Pearl Hart, a girl who dressed as a boy and became a famous stagecoach robber.  
 							Page 232:  "She would have still been in the boys clothes she wore during the robbery, 
@@ -966,28 +964,28 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1973</unitdate>
-						<unittitle><emph render="underline">Tales for a Sexy Night Vol. 2</emph><lb/>By: <persname>	Chuck Kelly (ed.)</persname></unittitle>
+						<unittitle><emph render="underline">Tales for a Sexy Night Vol. 2</emph>By: <persname>	Chuck Kelly (ed.)</persname></unittitle>
 						<physdesc>Pages: 	160	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Gallery Press,	Los Angeles<lb/>Illustrated by Neil Weisbecker
-							<lb/>[contains stories by Edw. D. Wood, Jr., "Final Curtain", "To Kill a Saturday Night" 
+						<p>Publisher: 	Gallery Press,	Los AngelesIllustrated by Neil Weisbecker
+							[contains stories by Edw. D. Wood, Jr., "Final Curtain", "To Kill a Saturday Night" 
 							(this one is a Beckett-esque masterpiece, should be excerpted), "Craps", and "Calamity Jane Loves Hosenose Kate Loves Cattle Anne".  
 							Also includes a contribution from collaborator Charles D. Anderson.] </p>
 					</scopecontent>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1977</unitdate>
-						<unittitle><emph render="underline">TV Lust</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>	Dick Trent</persname></unittitle>
+						<unittitle><emph render="underline">TV Lust</emph>By: <persname>	Edward D. Wood, Jr.</persname>Pseudonym: <persname>	Dick Trent</persname></unittitle>
 						<physdesc>Pages: 	180	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Eros Publishing Co.,	Wilmington, Del. <lb/>Photo Illustrated (b&amp;w)<lb/>Transexual Library
-							<lb/>[Written a year before his death, Hayes describes "The rigors of writing smut were definitely telling on Wood at this point.  
+						<p>Publisher: 	Eros Publishing Co.,	Wilmington, Del. Photo Illustrated (b&amp;w)Transexual Library
+							[Written a year before his death, Hayes describes "The rigors of writing smut were definitely telling on Wood at this point.  
 							The rehashed plot of the transvestite hitman certainly wasn’t original this time around, and the usual colorful characters are almost nonexistent.  
 							The flair that made some of his other novels and films bearable, even through a thin plot and the strange grammar, was noticeably absent from TV Lust.  
 							It seems as though Ed Wood had finally given up."  Page 40: "Chris slipped into the fur-like coat, and he was ready for his first walk on the street in girl’s clothes...
@@ -999,13 +997,13 @@
 				
 				<c02 level="item">
 					<did>
-						<container type="box">2</container>
+						<container label="unspecified" type="box">2</container>
 						<unitdate>1995</unitdate>
-						<unittitle><emph render="underline">Let Me Die in Drag</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
+						<unittitle><emph render="underline">Let Me Die in Drag</emph>By: <persname>	Edward D. Wood, Jr.</persname></unittitle>
 						<physdesc>Pages: 	172	</physdesc>
 					</did>
 					<scopecontent>
-						<p>Publisher: 	Gorse,	London<lb/>[modern reprint of Pad Library’s Let Me Die in Drag] 
+						<p>Publisher: 	Gorse,	London[modern reprint of Pad Library’s Let Me Die in Drag] 
 						</p>
 					</scopecontent>
 				</c02>
@@ -1020,7 +1018,7 @@
 
 				<c02 level="file">
 					<did>
-						<container type="map-case">Z-17</container>
+						<container label="unspecified" type="map-case">Z-17</container>
 						<unitdate>1953</unitdate>
 						<unittitle>"Glen or Glenda?", movie poster</unittitle>
 					</did>
@@ -1028,15 +1026,15 @@
 				
 				<c02 level="file">
 					<did>
-						<container type="map-case">Z-17</container>
+						<container label="unspecified" type="map-case">Z-17</container>
 						<unitdate>1971</unitdate>
 						<unittitle>"The Undergraduate", movie poster</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1968</unitdate>
 						<unittitle><title>Fetish in Films</title> No. 1</unittitle>
 					</did>
@@ -1046,8 +1044,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>Feb. 1969</unitdate>
 						<unittitle><title>Caper</title> Vol. 13 No. 8</unittitle>
 					</did>
@@ -1057,8 +1055,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>Aug./Sept. 1971</unitdate>
 						<unittitle><title>Case Histories</title> Vol. 2 No. 2</unittitle>
 					</did>
@@ -1069,8 +1067,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>Aug./Sept. 1971</unitdate>
 						<unittitle><title>Pendulum</title> Vol. 3 No. 3</unittitle>
 					</did>
@@ -1080,8 +1078,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>Aug./Sept. 1971</unitdate>
 						<unittitle><title>Lezo</title> Vol. 5 No. 3</unittitle>
 					</did>
@@ -1091,9 +1089,9 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">6</container>
-						<unitdate>Nov./Dec. 1971</unitdate>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">6</container>
+						<unitdate certainty="approximate">Nov./Dec. 1971</unitdate>
 						<unittitle><title>Belly Button</title> Vol. 2 No. 3</unittitle>
 					</did>
 					<scopecontent>
@@ -1103,8 +1101,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>Jan. 1972</unitdate>
 						<unittitle><title>Horror Sex Tales</title> Vol. 1 No. 1</unittitle>
 					</did>
@@ -1118,8 +1116,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>Mar./Apr. 1972</unitdate>
 						<unittitle><title>Suck-Em-Up</title> Vol. 2 No. 1</unittitle>
 					</did>
@@ -1129,8 +1127,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>Apr./May 1972</unitdate>
 						<unittitle><title>Savage Sex</title> Vol. 4 No. 2</unittitle>
 					</did>
@@ -1140,8 +1138,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>July/Aug. 1972</unitdate>
 						<unittitle><title>Body and Soul</title> Vol. 6 No. 2</unittitle>
 					</did>
@@ -1152,8 +1150,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">11</container>
 						<unitdate>July/Aug. 1972</unitdate>
 						<unittitle><title>Weird Sex Tales</title> Vol. 1 No. 1</unittitle>
 					</did>
@@ -1164,8 +1162,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>Aug./Sept. 1972</unitdate>
 						<unittitle><title>Monster Sex Tales</title> Vol. 1 No. 1</unittitle>
 					</did>
@@ -1177,8 +1175,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>Sept./Oct. 1972</unitdate>
 						<unittitle><title>Legendary Sex Tales</title> Vol. 1 No. 1</unittitle>
 					</did>
@@ -1188,8 +1186,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>Sept./Oct. 1972</unitdate>
 						<unittitle><title>Orgy</title> Vol. 4 No. 2</unittitle>
 					</did>
@@ -1200,8 +1198,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">15</container>
 						<unitdate>Jan./Feb. 1973</unitdate>
 						<unittitle><title>Orgy</title> Vol. 5 No. 1</unittitle>
 					</did>
@@ -1212,8 +1210,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">16</container>
 						<unitdate>Jan./Feb. 1973</unitdate>
 						<unittitle><title>Hellcats</title> Vol. 2 No. 1</unittitle>
 					</did>
@@ -1224,8 +1222,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">17</container>
 						<unitdate>Jan./Feb. 1973</unitdate>
 						<unittitle><title>Swap</title> Vol. 7 No. 1</unittitle>
 					</did>
@@ -1235,8 +1233,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">18</container>
 						<unitdate>June/July 1973</unitdate>
 						<unittitle><title>Turn On</title> Vol. 2 No. 3</unittitle>
 					</did>
@@ -1247,8 +1245,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">19</container>
 						<unitdate>May/June 1975</unitdate>
 						<unittitle><title>Body and Soul</title> Vol. 8 No. 1</unittitle>
 					</did>
@@ -1259,8 +1257,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">20</container>
 						<unitdate>1975?</unitdate>
 						<unittitle><title>Body and Soul</title> Annual</unittitle>
 					</did>
@@ -1273,9 +1271,9 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">21</container>
-						<unitdate>Dec. 1976</unitdate>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">21</container>
+						<unitdate certainty="approximate">Dec. 1976</unitdate>
 						<unittitle><title>Ace</title> Vol. 21 No. 6</unittitle>
 					</did>
 					<scopecontent>
@@ -1285,8 +1283,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">22</container>
 						<unitdate>June 1998</unitdate>
 						<unittitle><title>Femme Fatales</title> Vol. 7 No. 1</unittitle>
 					</did>
@@ -1297,8 +1295,8 @@
 				
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">23</container>
 						<unitdate>1999</unitdate>
 						<unittitle><title>Outre</title> No. 16</unittitle>
 					</did>
@@ -1320,135 +1318,135 @@
 						<unittitle id="s3ss1">Print Outs</unittitle>
 					</did>
 					
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">1</container>
 							<unittitle>Ace Magazine</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">2</container>
 							<unittitle>A Study of Censorship, Sex, and the Movies bk.2</unittitle>
 						</did>
-					</c03><c03>
+					</c03><c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">3</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">3</container>
 							<unittitle>A Study of Sexual Practices and Witchcraft v.1 and v.2</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">4</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">4</container>
 							<unittitle>A Study of Stag Films</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">5</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">5</container>
 							<unittitle>Bellybutton Magazine</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">6</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">6</container>
 							<unittitle>Body and Soul Magazine</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">7</container>
 							<unittitle>Bye Bye Broadie</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">8</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">8</container>
 							<unittitle>Glen or Glenda</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">9</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">9</container>
 							<unittitle>Horror Sex Tales Magazine</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">10</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">10</container>
 							<unittitle>Monster Sex Tales Magazine</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">11</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">11</container>
 							<unittitle>Orgy of the Dead</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">12</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">12</container>
 							<unittitle>Sleeze Paperbacks</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">13</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">13</container>
 							<unittitle>Tales for a Sexy Night</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">14</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">14</container>
 							<unittitle>The Book of the Sexual Woman, The Book of the Sexual Man</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">15</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">15</container>
 							<unittitle>The Erotic Spy</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">16</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">16</container>
 							<unittitle>The Sons and Daughters of Erotica</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">17</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">17</container>
 							<unittitle>Various Magazine Printouts</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">18</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">18</container>
 							<unittitle>Various Novel Printouts</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">19</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">19</container>
 							<unittitle>Weird Sex Tales Magazine</unittitle>
 						</did>
 					</c03>
@@ -1459,31 +1457,31 @@
 						<unittitle id="s3ss2">Drafts</unittitle>
 					</did>
 				
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">20</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">20</container>
 							<unittitle>Catalogue Drafts</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">21</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">21</container>
 							<unittitle>Research Writing Drafts</unittitle>
 						</did>
 					</c03>
-					<c03>
+					<c03 level="otherlevel" otherlevel="unspecified">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">22</container>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">22</container>
 							<unittitle>Text Drafts</unittitle>
 						</did>
 					</c03>
 				</c02>
-				<c02>
+				<c02 level="otherlevel" otherlevel="unspecified">
 					<did>
-						<container type="box">4</container>
+						<container label="unspecified" type="box">4</container>
 						<unittitle>Exhibit Placards</unittitle>
 					</did>
 				</c02>
@@ -1505,28 +1503,32 @@
 		<separatedmaterial>
 			<head>SEPARATED MATERIAL</head>
 			<p>The following materials have been separated from the collection. Some have been cataloged individually:</p>
-			<p><emph render="underline">A Study of Fetishes &amp; Fantasies</emph><lb/>By: <persname>Edward D. Wood, Jr.</persname><lb/>Pseudonym: <persname>Norman Bates &amp; Dick Trent</persname>
-				<lb/>Location: Human Sexuality HQ57.3 .W77 1973
-				<lb/>Pages: 191 Published: 1971
-				<lb/>[indicative of the fast and loose publishing culture: though the outer boards attribute the book to Wood &amp; Bates, 
+			<p><emph render="underline">A Study of Fetishes &amp; Fantasies</emph>By: <persname>Edward D. Wood, Jr.</persname>Pseudonym: <persname>Norman Bates &amp; Dick Trent</persname>
+				Location: Human Sexuality HQ57.3 .W77 1973
+				Pages: 191 Published: 1971
+				[indicative of the fast and loose publishing culture: though the outer boards attribute the book to Wood &amp; Bates, 
 				inside title page attributes "by Norman Bates &amp; Dick Trent".  Bibliography of this "educational" book cites a myriad of sources including Freud, 
 				Krafft-Ebing, Stekel, and Theodore Sturgeon.]
 			</p>
-			<p><emph render="underline">A Study in the Motivation of Censorship, Sex &amp; The Movies: Book I</emph><lb/>By: <persname>	Edward D. Wood, Jr.</persname>
-				<lb/>Location: Human Sexuality PN1995.9.S45 S89 1973 bk.1
-				<lb/>Pages: 190 Published: 1973
-				<lb/>[the EDUSEX Press imprint under Gallery was similar to SECS in that in provided an educational guise for pornography that made it exempt from 
+			<p><emph render="underline">A Study in the Motivation of Censorship, Sex &amp; The Movies: Book I</emph>By: <persname>	Edward D. Wood, Jr.</persname>
+				Location: Human Sexuality PN1995.9.S45 S89 1973 bk.1
+				Pages: 190 Published: 1973
+				[the EDUSEX Press imprint under Gallery was similar to SECS in that in provided an educational guise for pornography that made it exempt from 
 				obscenity prosecution, this "study" in particular allowed Wood to flex his knowledge of the film world.  Preface reads: "The President’s Commission 
 				on Obscenity and Pornography has found that the law ‘is not the only or necessarily the most effective way’ to deal with pornography.  The report 
 				recommends a massive and extensive sex education program to blunt the American’s taste for smut and to forge an informed public consensus on the 
 				problem."]
 			</p>
-			<p><emph render="underline">A Study in the Motivation of Censorship, Sex &amp; The Movies: Book II</emph><lb/>By: <persname>Edward D. Wood, Jr.</persname>
-				<lb/>Location: Human Sexuality PN1995.9.S45 S89 1973 bk.2
-				<lb/>Pages: 191 Published: 1973
-				<lb/>[sequel to Censorship, Sex, &amp; The Movies: Book 1]
+			<p><emph render="underline">A Study in the Motivation of Censorship, Sex &amp; The Movies: Book II</emph>By: <persname>Edward D. Wood, Jr.</persname>
+				Location: Human Sexuality PN1995.9.S45 S89 1973 bk.2
+				Pages: 191 Published: 1973
+				[sequel to Censorship, Sex, &amp; The Movies: Book 1]
 			</p>
 		</separatedmaterial>
 		
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Ed Wood, Jr. collection, #7779. Division of Rare and Manuscript Collections,
+					Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

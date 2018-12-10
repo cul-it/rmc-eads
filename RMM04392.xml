@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04392::William Warntz papers)//EN">RMM04392</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04392::William Warntz papers)//EN">RMM04392</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the William Warntz papers, [ca. 1955-1985]</titleproper>
@@ -28,6 +27,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -36,19 +41,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the William Warntz Papers,<lb/>[ca. 1955-1985]</titleproper>
+         <titleproper>Guide to the William Warntz Papers,[ca. 1955-1985]</titleproper>
          <num>Collection Number: 4392</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -73,14 +78,13 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">William Warntz papers, <unitdate type="inclusive" encodinganalog="MARC 245">[ca. 1955-1985]</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">William Warntz papers, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1955-1985</unitdate>
          <unitid label="Collection Number:">4392</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Warntz, William, 1922-">William Warntz,
                1922-.</persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>54 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>54 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, teaching materials, notes, reports,
             professional papers, source materials, manuscripts.</physdesc>
          <repository label="Repository:"> Division of Rare and Manuscript Collections, Cornell
@@ -92,7 +96,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>Geographer.</p>
          <p>William Warntz received a B.S., A.M., and Ph.D. in Economics from the University of
             Pennsylvania. He taught at the University of Pennsylvania and was a research associate
@@ -131,14 +135,7 @@
             <subject encodinganalog="MARC 650">Regional science.</subject>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>William Warntz papers, #4392. Division of Rare and Manuscript Collections, Cornell
-               University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <relatedmaterial>
          <head id="a5">RELATED MATERIALS</head>
          <p>Part of Regional Science Archive.</p>
@@ -151,10 +148,8 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
-                  <unittitle>
-                     <unitdate>mid-1960's-1980's</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">1</container>
+                  <unitdate>mid-1960's-1980's</unitdate>
                </did>
                <scopecontent>
                   <p>
@@ -168,10 +163,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
-                  <unittitle>
-                     <unitdate>mostly 1980's</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">2</container>
+                  <unitdate>mostly 1980's</unitdate>
                </did>
                <scopecontent>
                   <p>
@@ -184,10 +177,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
-                  <unittitle>
-                     <unitdate>1985-1988</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">3</container>
+                  <unitdate>1985-1988</unitdate>
                </did>
                <scopecontent>
                   <p>Mostly period at the University of Cambridge</p>
@@ -195,21 +186,19 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
-                  <unittitle>
-                     <unitdate>1970's-1980's</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">4</container>
+                  <unitdate>1970's-1980's</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">54</container>
+                  <container label="unspecified" type="box">54</container>
                   <unittitle>Correspondence from Bill Bunge, 1980's</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">18</container>
+                  <container label="unspecified" type="box">18</container>
                   <unittitle>Miscellaneous correspondence</unittitle>
                </did>
             </c02>
@@ -220,7 +209,7 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">5</container>
+                  <container label="unspecified" type="box">5</container>
                   <unittitle>Research analyses on a variety of topics</unittitle>
                </did>
                <scopecontent>
@@ -229,9 +218,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">6</container>
-                  <unittitle>Correspondence and reports, <unitdate>1950's-1960's</unitdate>
-                  </unittitle>
+                  <container label="unspecified" type="box">6</container>
+                  <unittitle>Correspondence and reports, </unittitle><unitdate>1950's-1960's</unitdate>
                </did>
                <scopecontent>
                   <p>
@@ -245,14 +233,14 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">7-9</container>
+                  <container label="unspecified" type="box">7-9</container>
                   <unittitle>Correspondence, research reports and proposals, Harvard
                      period</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">10</container>
+                  <container label="unspecified" type="box">10</container>
                   <unittitle>Harvard series on theoretical geography</unittitle>
                </did>
                <scopecontent>
@@ -261,13 +249,13 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unittitle>Research: Harvard computer graphics</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
+                  <container label="unspecified" type="box">11</container>
                   <unittitle>Correspondence, Harvard period</unittitle>
                </did>
                <scopecontent>
@@ -281,22 +269,21 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
+                  <container label="unspecified" type="box">12</container>
                   <unittitle>Administrative correspondence as Chairman of Geography Department,
-                     University of Western Ontario, <unitdate>1970's</unitdate>
-                  </unittitle>
+                     University of Western Ontario, </unittitle><unitdate>1970's</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13-14</container>
+                  <container label="unspecified" type="box">13-14</container>
                   <unittitle>Correspondence and reports as Chairman of Geography department,
                      University of Western Ontario</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15-16</container>
+                  <container label="unspecified" type="box">15-16</container>
                   <unittitle>Teaching materials, University of Western Ontario</unittitle>
                </did>
                <scopecontent>
@@ -315,61 +302,61 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
+                  <container label="unspecified" type="box">17</container>
                   <unittitle>Annual calendars (diaries of events, schedules)</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
+                  <container label="unspecified" type="box">17</container>
                   <unittitle>Book order/purchase receipts</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
+                  <container label="unspecified" type="box">17</container>
                   <unittitle>Research expense records</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">18</container>
+                  <container label="unspecified" type="box">18</container>
                   <unittitle>Research proposals</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">18</container>
+                  <container label="unspecified" type="box">18</container>
                   <unittitle>Research expenses</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">18</container>
+                  <container label="unspecified" type="box">18</container>
                   <unittitle>CVs and geographical details</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">52</container>
+                  <container label="unspecified" type="box">52</container>
                   <unittitle>Job applications</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">19</container>
+                  <container label="unspecified" type="box">19</container>
                   <unittitle>Warntz's papers as a student</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">20</container>
+                  <container label="unspecified" type="box">20</container>
                   <unittitle>Audio and data tapes</unittitle>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">20</container>
+                  <container label="unspecified" type="box">20</container>
                   <unittitle>Films and slides</unittitle>
                </did>
             </c02>
@@ -384,7 +371,7 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">21</container>
+                     <container label="unspecified" type="box">21</container>
                      <unittitle>Source material (photocopies)</unittitle>
                   </did>
                   <c04 level="item">
@@ -400,7 +387,7 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">22-23</container>
+                     <container label="unspecified" type="box">22-23</container>
                      <unittitle>Supporting source material (photocopies)</unittitle>
                   </did>
                   <c04 level="item">
@@ -416,7 +403,7 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">24-25</container>
+                     <container label="unspecified" type="box">24-25</container>
                      <unittitle>Research on <title>Geographia Generalis</title> by
                         Varenius</unittitle>
                   </did>
@@ -449,7 +436,7 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">26-27</container>
+                     <container label="unspecified" type="box">26-27</container>
                      <unittitle>Photocopies of Latin, German and English editions of <title>Varenius
                            and Newton</title>: source materials for Warntz's research</unittitle>
                   </did>
@@ -461,26 +448,26 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">28-29</container>
+                     <container label="unspecified" type="box">28-29</container>
                      <unittitle>Source materials (photocopies) for research on European printing,
                         universities and population potentials, 1500-1800</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">30-31</container>
+                     <container label="unspecified" type="box">30-31</container>
                      <unittitle>Diffusion of universities and printing in Europe
                         1500-1800</unittitle>
                   </did>
                   <c04 level="item">
                      <did>
-                        <container type="box">30</container>
+                        <container label="unspecified" type="box">30</container>
                         <unittitle>Population potentials</unittitle>
                      </did>
                   </c04>
                   <c04 level="item">
                      <did>
-                        <container type="box">30-31</container>
+                        <container label="unspecified" type="box">30-31</container>
                         <unittitle>Original analysis/data</unittitle>
                      </did>
                   </c04>
@@ -492,7 +479,7 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">32-33</container>
+                     <container label="unspecified" type="box">32-33</container>
                      <unittitle>Macrogeography</unittitle>
                   </did>
                   <c04 level="item">
@@ -508,7 +495,7 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">34-35</container>
+                     <container label="unspecified" type="box">34-35</container>
                      <unittitle>Macrogeography and income U.S.A. (computer output)</unittitle>
                   </did>
                   <c04 level="item">
@@ -524,13 +511,13 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">36</container>
+                     <container label="unspecified" type="box">36</container>
                      <unittitle>Place names: research data and analysis</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">37</container>
+                     <container label="unspecified" type="box">37</container>
                      <unittitle>Place names: research, analysis</unittitle>
                   </did>
                </c03>
@@ -541,7 +528,7 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">38-39</container>
+                     <container label="unspecified" type="box">38-39</container>
                      <unittitle>Research analysis</unittitle>
                   </did>
                   <c04 level="item">
@@ -569,7 +556,7 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">40-41</container>
+                     <container label="unspecified" type="box">40-41</container>
                      <unittitle>Values research of university students</unittitle>
                   </did>
                   <c04 level="item">
@@ -590,14 +577,14 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">42</container>
+                     <container label="unspecified" type="box">42</container>
                      <unittitle>United States migration research tabulations, graphics, computer
                         printout</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">43-44</container>
+                     <container label="unspecified" type="box">43-44</container>
                      <unittitle>Research analyses</unittitle>
                   </did>
                   <c04 level="item">
@@ -619,7 +606,7 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">45</container>
+                     <container label="unspecified" type="box">45</container>
                      <unittitle>Geography, the Innocent Science</unittitle>
                   </did>
                   <c04 level="item">
@@ -645,20 +632,20 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">46</container>
+                     <container label="unspecified" type="box">46</container>
                      <unittitle>Map projection projects</unittitle>
                   </did>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
                         <unittitle>Historical mapping</unittitle>
                      </did>
                   </c04>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
                         <unittitle>Q problem on sphere</unittitle>
                      </did>
                   </c04>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
                         <unittitle>Shape of earth</unittitle>
                      </did>
@@ -666,30 +653,30 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">47-48</container>
+                     <container label="unspecified" type="box">47-48</container>
                      <unittitle>Research analysis</unittitle>
                   </did>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
                         <unittitle>Contour mapping</unittitle>
                      </did>
                   </c04>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
                         <unittitle>Properties of surfaces</unittitle>
                      </did>
                   </c04>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
                         <unittitle>Networks</unittitle>
                      </did>
                   </c04>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
                         <unittitle>Pressure patterns</unittitle>
                      </did>
                   </c04>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
                         <unittitle>Continentality</unittitle>
                      </did>
@@ -697,15 +684,15 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">49-50</container>
+                     <container label="unspecified" type="box">49-50</container>
                      <unittitle>Global patterns</unittitle>
                   </did>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
                         <unittitle>Global patterns of populations potential</unittitle>
                      </did>
                   </c04>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
                         <unittitle>Global patterns of temperature/pressure (computer
                            output)</unittitle>
@@ -719,20 +706,20 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">51</container>
+                     <container label="unspecified" type="box">51</container>
                      <unittitle>United States space economy</unittitle>
                   </did>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
                         <unittitle>Intensification</unittitle>
                      </did>
                   </c04>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
                         <unittitle>Potentials</unittitle>
                      </did>
                   </c04>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
                         <unittitle>Income fronts (data, graphics, manuscripts)</unittitle>
                      </did>
@@ -745,57 +732,57 @@
                </did>
                <c03 level="file">
                   <did>
-                     <container type="box">19, 52</container>
+                     <container label="unspecified" type="box">19, 52</container>
                      <unittitle>Original unpublished materials</unittitle>
                   </did>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
-                        <container type="box">52</container>
+                        <container label="unspecified" type="box">52</container>
                         <unittitle>Distances in the man-made environment</unittitle>
                      </did>
                   </c04>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
-                        <container type="box">52</container>
+                        <container label="unspecified" type="box">52</container>
                         <unittitle>Translation/commentaries of 19th- and early-20th-century
                            books/papers, from Polish, German and French</unittitle>
                      </did>
                   </c04>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
-                        <container type="box">52</container>
+                        <container label="unspecified" type="box">52</container>
                         <unittitle>Correspondence with publishers</unittitle>
                      </did>
                   </c04>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
-                        <container type="box">52</container>
+                        <container label="unspecified" type="box">52</container>
                         <unittitle>Research on Canadian universities and the Canadian space
                            economy</unittitle>
                      </did>
                   </c04>
-                  <c04>
+                  <c04 level="otherlevel" otherlevel="unspecified">
                      <did>
-                        <container type="box">52</container>
+                        <container label="unspecified" type="box">52</container>
                         <unittitle>Computer research on tall buildings</unittitle>
                      </did>
                   </c04>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">20, 53</container>
+                     <container label="unspecified" type="box">20, 53</container>
                      <unittitle>Surface properties research, computer graphics, etc.</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">53</container>
+                     <container label="unspecified" type="box">53</container>
                      <unittitle>Research: U.S. college/football</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">53</container>
+                     <container label="unspecified" type="box">53</container>
                      <unittitle>
                         <title>Geography of and for College Students</title>
                      </unittitle>
@@ -803,7 +790,7 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">53</container>
+                     <container label="unspecified" type="box">53</container>
                      <unittitle>Correspondence and drafts</unittitle>
                   </did>
                   <c04 level="item">
@@ -830,7 +817,7 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">54</container>
+                     <container label="unspecified" type="box">54</container>
                      <unittitle>Television series, Philadelphia</unittitle>
                   </did>
                   <c04 level="item">
@@ -848,26 +835,26 @@
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">54</container>
+                     <container label="unspecified" type="box">54</container>
                      <unittitle>Drafts: <title>Breakthroughs in Geography</title>
                      </unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">19</container>
+                     <container label="unspecified" type="box">19</container>
                      <unittitle>Reprints of publications</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">20</container>
+                     <container label="unspecified" type="box">20</container>
                      <unittitle>Warntz TV show on geography</unittitle>
                   </did>
                </c03>
                <c03 level="file">
                   <did>
-                     <container type="box">54</container>
+                     <container label="unspecified" type="box">54</container>
                      <unittitle>Various/translations by Warntz</unittitle>
                   </did>
                </c03>
@@ -898,5 +885,9 @@
             </c02>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>William Warntz papers, #4392. Division of Rare and Manuscript Collections, Cornell
+               University Library.</p>
+         </prefercite></archdesc>
 </ead>

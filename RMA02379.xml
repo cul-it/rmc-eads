@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
- 
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02379::Guide to the Cornell University Department of Agricultural Engineering records)//EN">RMA02379</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02379::Guide to the Cornell University Department of Agricultural Engineering records)//EN">RMA02379</eadid>
 
 		<filedesc>
 			<titlestmt>
@@ -27,22 +26,28 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>September 2013</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Cornell University Department Of Agricultural Engineering Records,<lb/>
-				<date type="inclusive" encodinganalog="245$f">1921-2009.</date></titleproper>
+			<titleproper>Guide to the Cornell University Department Of Agricultural Engineering Records,
+				<date encodinganalog="245$f" type="inclusive">1921-2009.</date></titleproper>
 			<num>Collection Number: 21-11-2379</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/>
-						<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/>
-						<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524
+						<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
+						<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 
 				</defitem>
 				<defitem>
@@ -69,14 +74,13 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Cornell University Department of Agricultural
-				Engineering records, <unitdate encodinganalog="MARC 245" type="inclusive">1921-2009.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Cornell University Department of Agricultural
+				Engineering records, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1921-2009.</unitdate>
 			<unitid label="Collection Number:">21-11-2379</unitid>
 			<origination label="Creator:">
 				<corpname encodinganalog="MARC 110">New York State College of Agriculture and Life
 					Sciences. Department of Agricultural Engineering.</corpname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>12.8 cubic ft.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>12.8 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Correspondence, legal documents, photographs,
 				printed material.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
@@ -87,7 +91,7 @@
 
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="organization">ORGANIZATIONAL HISTORY </head>
+			<head altrender="organization" id="a2">ORGANIZATIONAL HISTORY </head>
 			<p>Department status came in 1909 with the name Department of Farm Mechanics. In 1913 it
 				was renamed the Department of Rural Engineering and in 1930 the name changed to
 				Department of Agricultural Engineering. This name stayed until 1988 when it was
@@ -132,17 +136,7 @@
 				<genreform encodinganalog="MARC 655" source="aat">Negatives.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<p>See also Clesson Nathan Turner papers #21-11-810</p>
-
-			<p>Publications can be found online here: <extref href="http://ecommons.cornell.edu/handle/1813/7642" show="new">http://ecommons.cornell.edu/handle/1813/7642</extref></p>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Cornell University Department of Agricultural Engineering records, #21-11-2379. Division of Rare and
-					Manuscript Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="series">
@@ -151,7 +145,7 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
+						<container label="unspecified" type="box">3</container>
 
 						<unitdate>1979</unitdate>
 						<unittitle>Agricultural Engineering - SEA/CR Review</unittitle>
@@ -159,7 +153,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
+						<container label="unspecified" type="box">3</container>
 
 						<unitdate>1985</unitdate>
 						<unittitle>Agricultural Engineering - CSRS Review</unittitle>
@@ -167,464 +161,464 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1921-1922</unitdate>
 						<unittitle>Rural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1922-1923</unitdate>
 						<unittitle>Rural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>1923-1924</unitdate>
 						<unittitle>Rural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>1924-1925</unitdate>
 						<unittitle>Rural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>1925-1926</unitdate>
 						<unittitle>Rural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">6</container>
 						<unitdate>1926-1927</unitdate>
 						<unittitle>Rural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>1927-1928</unitdate>
 						<unittitle>Rural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>1928-1929</unitdate>
 						<unittitle>Rural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>1929-1930</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>1930-1931</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">11</container>
 						<unitdate>1931-1932</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>1932-1933</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>1933-1934</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1934-1935</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">15</container>
 						<unitdate>1935-1936</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">16</container>
 						<unitdate>1936-1937</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">17</container>
 						<unitdate>1937-1938</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">18</container>
 						<unitdate>1938-1939</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">19</container>
 						<unitdate>1939-1940</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">20</container>
 						<unitdate>1940-1941</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">21</container>
 						<unitdate>1941-1942</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">1</container>
 						<unitdate>1942-1943</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">2</container>
 						<unitdate>1943-1944</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>1944-1945</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>1945-1946</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">5</container>
 						<unitdate>1946-1947</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">6-7</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">6-7</container>
 						<unitdate>1947-1948</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">8-9</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">8-9</container>
 						<unitdate>1948-1949</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">10-11</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">10-11</container>
 						<unitdate>1949-1950</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>1950-1951</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">13-14</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">13-14</container>
 						<unitdate>1951-1952</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">1-2</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">1-2</container>
 						<unitdate>1952-1953</unitdate>
 						<unittitle>Agricultural Engineering Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">3</container>
 						<unitdate>1932; 1933; 1934-1935</unitdate>
 						<unittitle>Agricultural Engineering Extension Plans of Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">4</container>
 						<unitdate>1935-1936; 1936-1937; 1945</unitdate>
 						<unittitle>Agricultural Engineering Extension Plans of Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>1946-1948</unitdate>
 						<unittitle>Agricultural Engineering Extension Plans of Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>1950; 1953; 1954</unitdate>
 						<unittitle>Agricultural Engineering Extension Plans of Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">7</container>
 						<unitdate>1955; 1956</unitdate>
 						<unittitle>Agricultural Engineering Extension Plans of Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">8</container>
 						<unitdate>1957; 1958</unitdate>
 						<unittitle>Agricultural Engineering Extension Plans of Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">9</container>
 						<unitdate>1959; 1960</unitdate>
 						<unittitle>Agricultural Engineering Extension Plans of Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">10</container>
 						<unitdate>1962-1964</unitdate>
 						<unittitle>Agricultural Engineering Extension Plans of Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">11</container>
 						<unitdate>1965-1967</unitdate>
 						<unittitle>Agricultural Engineering Extension Plans of Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">12</container>
 						<unitdate>1968-1970</unitdate>
 						<unittitle>Agricultural Engineering Extension Plans of Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">13</container>
 						<unitdate>1971-1972</unitdate>
 						<unittitle>Agricultural Engineering Extension Plan of Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">14</container>
 						<unitdate>1973-1974</unitdate>
 						<unittitle>Agricultural Engineering Extension Plan of Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">15</container>
 						<unitdate>1975</unitdate>
 						<unittitle>Agricultural Engineering Extension Plan of Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">16</container>
 						<unitdate>1941-1942</unitdate>
 						<unittitle>Emergency Farm Machinery Repair Reports</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">17</container>
 						<unitdate>1943-1945</unitdate>
 						<unittitle>Agricultural Engineering Extension Plans of Work</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">18</container>
 						<unitdate>1953-1955</unitdate>
 						<unittitle>Agricultural Engineering Annual Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">19</container>
 						<unitdate>1955-1956</unitdate>
 						<unittitle>Agricultural Engineering Annual Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">20</container>
 						<unitdate>1956-1957</unitdate>
 						<unittitle>Agricultural Engineering Annual Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">21</container>
 						<unitdate>1957-1958</unitdate>
 						<unittitle>Agricultural Engineering Annual Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">22</container>
 						<unitdate>1958-1959</unitdate>
 						<unittitle>Agricultural Engineering Annual Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">23</container>
 						<unitdate>1959-1960</unitdate>
 						<unittitle>Agricultural Engineering Annual Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">24</container>
 						<unitdate>1961-1963</unitdate>
 						<unittitle>Agricultural Engineering Annual Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">25</container>
 						<unitdate>1965</unitdate>
 						<unittitle>Agricultural Engineering Annual Extension Report</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">26</container>
 						<unitdate>1966-1967</unitdate>
 						<unittitle>Agricultural Engineering Extension Progress Reports</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">27</container>
 						<unitdate>1970-1974</unitdate>
 						<unittitle>Agricultural Engineering Extension Progress Reports</unittitle>
 					</did>
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">3</container>
-						<unitdate type="inclusive" normal="1979-10-22/1979-10-15">1979-10-22-1979-10-15</unitdate>
+						<container label="unspecified" type="box">3</container>
+						<unitdate type="inclusive">1979-10-22-1979-10-15</unitdate>
 						<unittitle>SEA/CR Review</unittitle>
 					</did>
 					<scopecontent>
@@ -633,8 +627,8 @@
 				</c02>
 				<c02 level="item">
 					<did>
-						<container type="box">3</container>
-						<unitdate type="inclusive" normal="1985-10-21/1985-10-24">1985-10-21-1985-10-24</unitdate>
+						<container label="unspecified" type="box">3</container>
+						<unitdate normal="1985-10-21/1985-10-24" type="inclusive">1985-10-21-1985-10-24</unitdate>
 						<unittitle>CSRS Review</unittitle>
 					</did>
 					<scopecontent>
@@ -661,9 +655,9 @@
 
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">1</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1964/1982">1964-1982</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">1</container>
+							<unitdate certainty="approximate" normal="1964/1982" type="inclusive">1964-1982</unitdate>
 							<unittitle>Black, Richard D.</unittitle>
 						</did>
 						<scopecontent>
@@ -672,9 +666,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">2</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1967/1997">1967-1997</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">2</container>
+							<unitdate certainty="approximate" normal="1967/1997" type="inclusive">1967-1997</unitdate>
 							<unittitle>Campbell, Joseph Kearns (1)</unittitle>
 						</did>
 						<scopecontent>
@@ -683,98 +677,98 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">3</container>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">3</container>
 							<unittitle>Campbell, Joseph Kearns (2)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">4</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1969/1991">1969-1991</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">4</container>
+							<unitdate certainty="approximate" normal="1969/1991" type="inclusive">1969-1991</unitdate>
 							<unittitle>Campbell, Joseph Kearns (3)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">5</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1990/1995">1990-1995</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">5</container>
+							<unitdate certainty="approximate" normal="1990/1995" type="inclusive">1990-1995</unitdate>
 							<unittitle>Campbell, Joseph Kearns (4) Retirement</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">6</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1970/1992">1970-1992</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">6</container>
+							<unitdate certainty="approximate" normal="1970/1992" type="inclusive">1970-1992</unitdate>
 							<unittitle>Campbell, Joseph Kearns (5)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">7</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1973/1993">1973-1993</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">7</container>
+							<unitdate certainty="approximate" normal="1973/1993" type="inclusive">1973-1993</unitdate>
 							<unittitle>Campbell, Joseph Kearns (6) Sabbatical</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">8</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1988/1993">1988-1993</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">8</container>
+							<unitdate certainty="approximate" normal="1988/1993" type="inclusive">1988-1993</unitdate>
 							<unittitle>Campbell, Joseph Kearns (7)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">9</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1987/1989">1987-1989</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">9</container>
+							<unitdate certainty="approximate" normal="1987/1989" type="inclusive">1987-1989</unitdate>
 							<unittitle>Campbell, Joseph Kearns (8)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">10</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1983/1988">1983-1988</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">10</container>
+							<unitdate certainty="approximate" normal="1983/1988" type="inclusive">1983-1988</unitdate>
 							<unittitle>Campbell, Joseph Kearns (9)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">11</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1961/1994">1961-1994</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">11</container>
+							<unitdate certainty="approximate" normal="1961/1994" type="inclusive">1961-1994</unitdate>
 							<unittitle>Davis, Hollis R.</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">12</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1959/2012">1959-2012</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">12</container>
+							<unitdate certainty="approximate" normal="1959/2012" type="inclusive">1959-2012</unitdate>
 							<unittitle>Eaton, Edward O.</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">13</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1957/1993">1957-1993</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">13</container>
+							<unitdate certainty="approximate" normal="1957/1993" type="inclusive">1957-1993</unitdate>
 							<unittitle>Foss, Edward W.</unittitle>
 						</did>
 						<scopecontent>
@@ -783,9 +777,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">14</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1937/1999">1937-1999</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">14</container>
+							<unitdate certainty="approximate" normal="1937/1999" type="inclusive">1937-1999</unitdate>
 							<unittitle>French, Orval C (1)</unittitle>
 						</did>
 						<scopecontent>
@@ -794,9 +788,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">15</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1954/1973">1954-1973</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">15</container>
+							<unitdate certainty="approximate" normal="1954/1973" type="inclusive">1954-1973</unitdate>
 							<unittitle>French, Orval C (2)</unittitle>
 						</did>
 						<scopecontent>
@@ -805,9 +799,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">16</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1949/1984">1949-1984</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">16</container>
+							<unitdate certainty="approximate" normal="1949/1984" type="inclusive">1949-1984</unitdate>
 							<unittitle>Gray, Harold F.</unittitle>
 						</did>
 						<scopecontent>
@@ -816,27 +810,27 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">17</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1991/1997">1991-1997</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">17</container>
+							<unitdate certainty="approximate" normal="1991/1997" type="inclusive">1991-1997</unitdate>
 							<unittitle>Guest, Richard (1) Retirement</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">18</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1963/1995">1963-1995</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">18</container>
+							<unitdate certainty="approximate" normal="1963/1995" type="inclusive">1963-1995</unitdate>
 							<unittitle>Guest, Richard (2) </unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">19</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1958/1990">1958-1990</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">19</container>
+							<unitdate certainty="approximate" normal="1958/1990" type="inclusive">1958-1990</unitdate>
 							<unittitle>Guest, Richard (3)</unittitle>
 						</did>
 						<scopecontent>
@@ -845,27 +839,27 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">20</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1983/1990">1983-1990</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">20</container>
+							<unitdate certainty="approximate" normal="1983/1990" type="inclusive">1983-1990</unitdate>
 							<unittitle>Guest, Richard (4)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">21</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1991/2000">1991-2000</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">21</container>
+							<unitdate certainty="approximate" normal="1991/2000" type="inclusive">1991-2000</unitdate>
 							<unittitle>Gunkel, Wesley W. (1) Retirement</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">13</container>
-							<container type="folder">22</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1964/1994">1964-1994</unitdate>
+							<container label="unspecified" type="box">13</container>
+							<container label="unspecified" type="folder">22</container>
+							<unitdate certainty="approximate" normal="1964/1994" type="inclusive">1964-1994</unitdate>
 							<unittitle>Gunkel, Wesley W. (2)</unittitle>
 						</did>
 						<scopecontent>
@@ -874,63 +868,63 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">1</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1963/1991">1963-1991</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">1</container>
+							<unitdate certainty="approximate" normal="1963/1991" type="inclusive">1963-1991</unitdate>
 							<unittitle>Gunkel, Wesley W. (3)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">2</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1986/1989">1986-1989</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">2</container>
+							<unitdate certainty="approximate" normal="1986/1989" type="inclusive">1986-1989</unitdate>
 							<unittitle>Gunkel, Wesley W. (4)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">3</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1954/1985">1954-1985</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">3</container>
+							<unitdate certainty="approximate" normal="1954/1985" type="inclusive">1954-1985</unitdate>
 							<unittitle>Gunkel, Wesley W. (5)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">4</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1967/1994">1967-1994</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">4</container>
+							<unitdate certainty="approximate" normal="1967/1994" type="inclusive">1967-1994</unitdate>
 							<unittitle>Irwin, Lynne H, Lynne H. - Teaching/Advising (1)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">5</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1998/2005">1998-2005</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">5</container>
+							<unitdate certainty="approximate" normal="1998/2005" type="inclusive">1998-2005</unitdate>
 							<unittitle>Irwin, Lynne H - Proposals/Funding/Grants (2)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">6</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1982/1990">1982-1990</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">6</container>
+							<unitdate certainty="approximate" normal="1982/1990" type="inclusive">1982-1990</unitdate>
 							<unittitle>Irwin, Lynne H - Awards/Nominations (3)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">7</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1981/2004">1981-2004</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">7</container>
+							<unitdate certainty="approximate" normal="1981/2004" type="inclusive">1981-2004</unitdate>
 							<unittitle>Irwin, Lynne H - PR (4)</unittitle>
 						</did>
 						<scopecontent>
@@ -939,84 +933,84 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">8</container>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">8</container>
 							<unittitle>Irwin, Lynne H - Start Up (5)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">9</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1972/2005">1972-2005</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">9</container>
+							<unitdate certainty="approximate" normal="1972/2005" type="inclusive">1972-2005</unitdate>
 							<unittitle>Irwin, Lynne H - HR/Salary (6)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">10</container>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">10</container>
 							<unittitle>Irwin, Lynne H - CV/Bio (7)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">11</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1974/1996">1974-1996</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">11</container>
+							<unitdate certainty="approximate" normal="1974/1996" type="inclusive">1974-1996</unitdate>
 							<unittitle>Irwin, Lynne H - Research/Publications (8)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">12</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1979/2001">1979-2001</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">12</container>
+							<unitdate certainty="approximate" normal="1979/2001" type="inclusive">1979-2001</unitdate>
 							<unittitle>Irwin, Lynne H - Sabbatical/Leaves (9)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">13</container>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">13</container>
 							<unittitle>Irwin, Lynne H - Course Evaluations (10)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">14</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1974/1991">1974-1991</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">14</container>
+							<unitdate certainty="approximate" normal="1974/1991" type="inclusive">1974-1991</unitdate>
 							<unittitle>Irwin, Lynne H - Promotions/Reappointments (11)</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">15</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1974/2004">1974-2004</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">15</container>
+							<unitdate certainty="approximate" normal="1974/2004" type="inclusive">1974-2004</unitdate>
 							<unittitle>Irwin, Lynne H - Mentoring Committee (12)</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">16</container>
-							<unitdate type="inclusive" certainty="Circa" normal="2007/2008">2007-2008</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">16</container>
+							<unitdate certainty="approximate" normal="2007/2008" type="inclusive">2007-2008</unitdate>
 							<unittitle>Irwin, Lynne H - LTAP (13)</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">17</container>
-							<unitdate type="inclusive" certainty="Circa" normal="2015/2016">2015-2016</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">17</container>
+							<unitdate certainty="approximate" normal="2015/2016" type="inclusive">2015-2016</unitdate>
 							<unittitle>Irwin, Lynne H, Lynne (14)</unittitle>
 						</did>
 						<scopecontent>
@@ -1025,9 +1019,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">18</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1988/1999">1988-1999</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">18</container>
+							<unitdate certainty="approximate" normal="1988/1999" type="inclusive">1988-1999</unitdate>
 							<unittitle>Irwin, Lynne H, Lynne (15)</unittitle>
 						</did>
 						<scopecontent>
@@ -1036,9 +1030,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">19</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1987/1990">1987-1990</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">19</container>
+							<unitdate certainty="approximate" normal="1987/1990" type="inclusive">1987-1990</unitdate>
 							<unittitle>Irwin, Lynne H, Lynne (16)</unittitle>
 						</did>
 						<scopecontent>
@@ -1047,9 +1041,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">20</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1974/1987">1974-1987</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">20</container>
+							<unitdate certainty="approximate" normal="1974/1987" type="inclusive">1974-1987</unitdate>
 							<unittitle>Irwin, Lynne H, Lynne (17)</unittitle>
 						</did>
 						<scopecontent>
@@ -1058,97 +1052,97 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">21</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1984/2011">1984-2011</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">21</container>
+							<unitdate certainty="approximate" normal="1984/2011" type="inclusive">1984-2011</unitdate>
 							<unittitle>Lorenzen, Robert T.</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">22</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1991/1994">1991-1994</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">22</container>
+							<unitdate certainty="approximate" normal="1991/1994" type="inclusive">1991-1994</unitdate>
 							<unittitle>Ludington, David C. (1) Evaluations</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">23</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1979/1992">1979-1992</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">23</container>
+							<unitdate certainty="approximate" normal="1979/1992" type="inclusive">1979-1992</unitdate>
 							<unittitle>Ludington, David C. (2) Evaluations</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">24</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1968/2011">1968-2011</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">24</container>
+							<unitdate certainty="approximate" normal="1968/2011" type="inclusive">1968-2011</unitdate>
 							<unittitle>Ludington, David C. (3)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">25</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1953/1994">1953-1994</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">25</container>
+							<unitdate certainty="approximate" normal="1953/1994" type="inclusive">1953-1994</unitdate>
 							<unittitle>Ludington, David C. (4)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">26</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1966/1991">1966-1991</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">26</container>
+							<unitdate certainty="approximate" normal="1966/1991" type="inclusive">1966-1991</unitdate>
 							<unittitle>Ludington, David C. (5) Sabbatical</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">27</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1988/1995">1988-1995</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">27</container>
+							<unitdate certainty="approximate" normal="1988/1995" type="inclusive">1988-1995</unitdate>
 							<unittitle>Lund, Daryl</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">14</container>
-							<container type="folder">28</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1949/2002">1949-2002</unitdate>
+							<container label="unspecified" type="box">14</container>
+							<container label="unspecified" type="folder">28</container>
+							<unitdate certainty="approximate" normal="1949/2002" type="inclusive">1949-2002</unitdate>
 							<unittitle>Millier, William F.</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">1</container>
 							<unittitle>Spanswick, Roger M. (1) CV/Bio</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">2</container>
 							<unittitle>Spanswick, Roger M. (2) Research publications</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">3</container>
-							<unitdate type="inclusive" certainty="Circa" normal="2002/2003">2002-2003</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">3</container>
+							<unitdate certainty="approximate" normal="2002/2003" type="inclusive">2002-2003</unitdate>
 							<unittitle>Spanswick, Roger M. (3) Teaching/Advising</unittitle>
 						</did>
 						<scopecontent>
@@ -1157,8 +1151,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">4</container>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">4</container>
 							<unittitle>Spanswick, Roger M. (4) Awards/Nominations</unittitle>
 						</did>
 						<scopecontent>
@@ -1167,9 +1161,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">5</container>
-							<unitdate type="inclusive" certainty="Circa" normal="2002/2004">2002-2004</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">5</container>
+							<unitdate certainty="approximate" normal="2002/2004" type="inclusive">2002-2004</unitdate>
 							<unittitle>Spanswick, Roger M. (5) PR</unittitle>
 						</did>
 						<scopecontent>
@@ -1179,35 +1173,35 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">6</container>
-							<unitdate type="inclusive" certainty="Circa" normal="2000/2004">2000-2004</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">6</container>
+							<unitdate certainty="approximate" normal="2000/2004" type="inclusive">2000-2004</unitdate>
 							<unittitle>Spanswick, Roger M. (6) BEE Affiliation</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">7</container>
 							<unittitle>Spanswick Affiliation Votes (7)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">8</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1999/2000">1999-2000</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">8</container>
+							<unitdate certainty="approximate" normal="1999/2000" type="inclusive">1999-2000</unitdate>
 							<unittitle>Spanswick, Roger M. (8) Promotions/Reapps</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">9</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1946/2005">1946-2005</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">9</container>
+							<unitdate certainty="approximate" normal="1946/2005" type="inclusive">1946-2005</unitdate>
 							<unittitle>Stan Shepardson Memorial Statement - R. B. Furry</unittitle>
 						</did>
 						<scopecontent>
@@ -1217,9 +1211,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">10</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1953/1994">1953-1994</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">10</container>
+							<unitdate certainty="approximate" normal="1953/1994" type="inclusive">1953-1994</unitdate>
 							<unittitle>Terry, Cyrl W.</unittitle>
 						</did>
 						<scopecontent>
@@ -1228,9 +1222,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">11</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1945/1999">1945-1999</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">11</container>
+							<unitdate certainty="approximate" normal="1945/1999" type="inclusive">1945-1999</unitdate>
 							<unittitle>Turner, Clesson N.</unittitle>
 						</did>
 						<scopecontent>
@@ -1239,18 +1233,18 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">12</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1966/2009">1966-2009</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">12</container>
+							<unitdate certainty="approximate" normal="1966/2009" type="inclusive">1966-2009</unitdate>
 							<unittitle>Winkelblech, Carl S. (1)</unittitle>
 						</did>
 
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">13</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1954/1996">1954-1996</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">13</container>
+							<unitdate certainty="approximate" normal="1954/1996" type="inclusive">1954-1996</unitdate>
 							<unittitle>Winkelblech, Carl S. (2)</unittitle>
 						</did>
 
@@ -1262,9 +1256,9 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">14</container>
-							<unitdate type="inclusive" normal="1997-04-28/1998">1997-04-28-1998</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">14</container>
+							<unitdate normal="1997-04-28/1998" type="inclusive">1997-04-28-1998</unitdate>
 							<unittitle>ABEN Budget Conference</unittitle>
 						</did>
 						<scopecontent>
@@ -1273,15 +1267,15 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">15</container>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">15</container>
 							<unittitle>Cornell Chronicle</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">16</container>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">16</container>
 							<unittitle>CALS Centennial</unittitle>
 						</did>
 						<scopecontent>
@@ -1291,9 +1285,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">17</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1996/1997">1996-1997</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">17</container>
+							<unitdate certainty="approximate" normal="1996/1997" type="inclusive">1996-1997</unitdate>
 							<unittitle>Agriculture and Biological Engineering Department
 								Outreach</unittitle>
 						</did>
@@ -1304,9 +1298,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">18</container>
-							<unitdate type="inclusive" certainty="Circa" normal="2006/2007">2006-2007</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">18</container>
+							<unitdate certainty="approximate" normal="2006/2007" type="inclusive">2006-2007</unitdate>
 							<unittitle>Undergrad Programs</unittitle>
 						</did>
 						<scopecontent>
@@ -1316,9 +1310,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">19</container>
-							<unitdate type="inclusive" normal="2005">2005</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">19</container>
+							<unitdate normal="2005" type="inclusive">2005</unitdate>
 							<unittitle>NYS Dairy Stats, Annual Summary</unittitle>
 						</did>
 						<scopecontent>
@@ -1327,9 +1321,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">20</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1887/1997">1887-1997</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">20</container>
+							<unitdate certainty="approximate" normal="1887/1997" type="inclusive">1887-1997</unitdate>
 							<unittitle>Research</unittitle>
 						</did>
 						<scopecontent>
@@ -1339,9 +1333,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">21</container>
-							<unitdate type="inclusive" normal="2002-04-08/2002-04-13">2002-04-08-2002-04-13</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">21</container>
+							<unitdate normal="2002-04-08/2002-04-13" type="inclusive">2002-04-08-2002-04-13</unitdate>
 							<unittitle>Academic Review</unittitle>
 						</did>
 						<scopecontent>
@@ -1351,9 +1345,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">22</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1957/1993">1957-1993</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">22</container>
+							<unitdate certainty="approximate" normal="1957/1993" type="inclusive">1957-1993</unitdate>
 							<unittitle>Publications (1)</unittitle>
 						</did>
 						<scopecontent>
@@ -1362,9 +1356,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">23</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1956/1970">1956-1970</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">23</container>
+							<unitdate certainty="approximate" normal="1956/1970" type="inclusive">1956-1970</unitdate>
 							<unittitle>Publications (2)</unittitle>
 						</did>
 						<scopecontent>
@@ -1374,9 +1368,9 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">24</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1957/1959">1957-1959</unitdate>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">24</container>
+							<unitdate certainty="approximate" normal="1957/1959" type="inclusive">1957-1959</unitdate>
 							<unittitle>Publications (3)</unittitle>
 						</did>
 						<scopecontent>
@@ -1386,8 +1380,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">15</container>
-							<container type="folder">25</container>
+							<container label="unspecified" type="box">15</container>
+							<container label="unspecified" type="folder">25</container>
 							<unittitle>Microcomputing project document</unittitle>
 						</did>
 						<scopecontent>
@@ -1398,13 +1392,13 @@
 				</c02>
 				<c02 level="subseries">
 					<did>
-						<container type="box">3</container>
+						<container label="unspecified" type="box">3</container>
 						<unittitle>Engineering drawing sheets and schematic drawings</unittitle>
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1941">1941</unitdate>
+							<container label="unspecified" type="box">3</container>
+							<unitdate certainty="approximate" normal="1941" type="inclusive">1941</unitdate>
 							<unittitle>"Engineering Drawing Sheets Series D"</unittitle>
 						</did>
 						<scopecontent>
@@ -1413,8 +1407,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<unitdate type="inclusive" certainty="Circa" normal="1949/1950">1949-1950</unitdate>
+							<container label="unspecified" type="box">4</container>
+							<unitdate certainty="approximate" normal="1949/1950" type="inclusive">1949-1950</unitdate>
 							<unittitle>Thermostatically Controlled Exhaust Positioning Louvre, Sheet
 								2 of 2</unittitle>
 						</did>
@@ -1425,7 +1419,7 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
+							<container label="unspecified" type="box">4</container>
 							<unitdate>Undated</unitdate>
 							<unittitle>Total and Latent Heat Production of Cattle</unittitle>
 						</did>
@@ -1435,7 +1429,7 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
+							<container label="unspecified" type="box">4</container>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled drawing, louvers and exhaust</unittitle>
 						</did>
@@ -1445,7 +1439,7 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
+							<container label="unspecified" type="box">4</container>
 							<unitdate>Undated</unitdate>
 							<unittitle>Psychrometric Density Chart</unittitle>
 						</did>
@@ -1455,7 +1449,7 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
+							<container label="unspecified" type="box">4</container>
 							<unitdate>Undated</unitdate>
 							<unittitle>Thermostatically Controlled Exhaust Positioning Louvre, Sheet
 								1 of 2</unittitle>
@@ -1466,7 +1460,7 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
+							<container label="unspecified" type="box">4</container>
 							<unitdate>Undated</unitdate>
 							<unittitle>Chart No 11, Psychrometric Chart for Normal
 								Temperatures</unittitle>
@@ -1477,7 +1471,7 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
+							<container label="unspecified" type="box">4</container>
 							<unitdate>Undated</unitdate>
 							<unittitle>Chart No 12, Psychrometric Chart for Low
 								Temperatures</unittitle>
@@ -1488,7 +1482,7 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
+							<container label="unspecified" type="box">4</container>
 							<unitdate>Undated</unitdate>
 							<unittitle>Apple Harvester</unittitle>
 						</did>
@@ -1499,8 +1493,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<unitdate type="inclusive" normal="1981">1981</unitdate>
+							<container label="unspecified" type="box">4</container>
+							<unitdate normal="1981" type="inclusive">1981</unitdate>
 							<unittitle>Experimental Recoil-Impulse Trunk Shaker</unittitle>
 						</did>
 						<scopecontent>
@@ -1520,17 +1514,17 @@
 					</did>
 					<c03 level="item">
 						<did>
-							<container type="box">9</container>
+							<container label="unspecified" type="box">9</container>
 							<unitid>F-1909</unitid>
-							<unitdate type="inclusive" normal="1929">1929</unitdate>
+							<unitdate normal="1929" type="inclusive">1929</unitdate>
 							<unittitle>Canadian Plow Math, Jennings 1929</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">10</container>
+							<container label="unspecified" type="box">10</container>
 							<unitid>F-1914</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1959-04">1959-04</unitdate>
+							<unitdate certainty="approximate" normal="1959-04" type="inclusive">1959-04</unitdate>
 							<unittitle>Braking of an Agr. Tractor! By K. Ryan, C.W.
 								Terry</unittitle>
 						</did>
@@ -1540,17 +1534,17 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1887</unitid>
-							<unitdate type="inclusive" normal="1960">1960</unitdate>
+							<unitdate normal="1960" type="inclusive">1960</unitdate>
 							<unittitle>Principles of Refrigeration</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">9</container>
+							<container label="unspecified" type="box">9</container>
 							<unitid>F-1910</unitid>
-							<unitdate type="inclusive" normal="1974">1974</unitdate>
+							<unitdate normal="1974" type="inclusive">1974</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -1560,17 +1554,17 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1897</unitid>
-							<unitdate type="inclusive" normal="1975-04">1975-04</unitdate>
+							<unitdate normal="1975-04" type="inclusive">1975-04</unitdate>
 							<unittitle>Tandem Parlor Astarc</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">10</container>
+							<container label="unspecified" type="box">10</container>
 							<unitid>F-1917</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1979/1980">1979-1980</unitdate>
+							<unitdate certainty="approximate" normal="1979/1980" type="inclusive">1979-1980</unitdate>
 							<unittitle>Impact Shaking</unittitle>
 						</did>
 						<scopecontent>
@@ -1580,7 +1574,7 @@
 					
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitdate>Undated</unitdate>
 							<unitid>F-1886</unitid>
 							<unittitle>Checking the System, Part 1: General Procedure</unittitle>
@@ -1588,14 +1582,14 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1887</unitid>
 							<unittitle>Principles of Refrigeration</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1888</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Ed Eaton, Chisels and Gouges</unittitle>
@@ -1603,7 +1597,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1889</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Planes</unittitle>
@@ -1614,7 +1608,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1890</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Reel IV</unittitle>
@@ -1625,7 +1619,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1891</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -1633,7 +1627,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1892</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -1641,7 +1635,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1893</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Potato Spray Reel I</unittitle>
@@ -1649,7 +1643,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1895</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Potato Spray Reel II</unittitle>
@@ -1657,7 +1651,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1894</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -1666,7 +1660,7 @@
 					
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1896</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -1675,7 +1669,7 @@
 					
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1898</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Boring and Drilling Tools</unittitle>
@@ -1683,7 +1677,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1899</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Farm Machinery 2</unittitle>
@@ -1691,7 +1685,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1900</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Henry R. Head, Ithaca NY</unittitle>
@@ -1702,7 +1696,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">8</container>
+							<container label="unspecified" type="box">8</container>
 							<unitid>F-1901</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Ed. Eaton, Ag, Engineering</unittitle>
@@ -1711,7 +1705,7 @@
 					
 					<c03 level="item">
 						<did>
-							<container type="box">9</container>
+							<container label="unspecified" type="box">9</container>
 							<unitid>F-1911</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Agricultural Engineering: Profession With A
@@ -1723,7 +1717,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">9</container>
+							<container label="unspecified" type="box">9</container>
 							<unitid>F-1903</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Checking the Electrical System</unittitle>
@@ -1731,7 +1725,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">9</container>
+							<container label="unspecified" type="box">9</container>
 							<unitid>F-1902</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Checking the Electrical System Part II</unittitle>
@@ -1740,7 +1734,7 @@
 					
 					<c03 level="item">
 						<did>
-							<container type="box">9</container>
+							<container label="unspecified" type="box">9</container>
 							<unitid>F-1905</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Checking and Adjusting the Expansion Valve</unittitle>
@@ -1748,7 +1742,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">9</container>
+							<container label="unspecified" type="box">9</container>
 							<unitid>F-1906</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -1756,7 +1750,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">9</container>
+							<container label="unspecified" type="box">9</container>
 							<unitid>F-1907</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -1764,7 +1758,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">9</container>
+							<container label="unspecified" type="box">9</container>
 							<unitid>F-1908</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Walking Plow</unittitle>
@@ -1773,7 +1767,7 @@
 					
 					<c03 level="item">
 						<did>
-							<container type="box">10</container>
+							<container label="unspecified" type="box">10</container>
 							<unitid>F-1920</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Mechanical Harvesting Research</unittitle>
@@ -1784,7 +1778,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">10</container>
+							<container label="unspecified" type="box">10</container>
 							<unitid>F-1921</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -1792,7 +1786,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">10</container>
+							<container label="unspecified" type="box">10</container>
 							<unitid>F-1912</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Apple Harvesting</unittitle>
@@ -1800,7 +1794,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">10</container>
+							<container label="unspecified" type="box">10</container>
 							<unitid>F-1913</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Mechanical Harvesting</unittitle>
@@ -1812,7 +1806,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">10</container>
+							<container label="unspecified" type="box">10</container>
 							<unitid>F-1922</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>The Investment of Many Print #14</unittitle>
@@ -1820,7 +1814,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">10</container>
+							<container label="unspecified" type="box">10</container>
 							<unitid>F-1930</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -1828,7 +1822,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">10</container>
+							<container label="unspecified" type="box">10</container>
 							<unitid>F-1919</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -1836,7 +1830,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">10</container>
+							<container label="unspecified" type="box">10</container>
 							<unitid>F-1918</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -1849,7 +1843,7 @@
 					
 					<c03 level="item">
 						<did>
-							<container type="box">10</container>
+							<container label="unspecified" type="box">10</container>
 							<unitid>F-1915</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Apple Harvest In Tree Collection</unittitle>
@@ -1860,7 +1854,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">10</container>
+							<container label="unspecified" type="box">10</container>
 							<unitid>F-1916</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -1874,9 +1868,9 @@
 		
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2025</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1950">1950</unitdate>
+							<unitdate certainty="approximate" normal="1950" type="inclusive">1950</unitdate>
 							<unittitle>1st Ball</unittitle>
 						</did>
 						<scopecontent>
@@ -1885,9 +1879,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2028</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1950">1950</unitdate>
+							<unitdate certainty="approximate" normal="1950" type="inclusive">1950</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -1896,26 +1890,26 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2000</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1959">1959</unitdate>
+							<unitdate certainty="approximate" normal="1959" type="inclusive">1959</unitdate>
 							<unittitle>Cherry Harvest (Sodus) </unittitle>
 						</did>
 					</c03>
 				
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2022</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1959">1959</unitdate>
+							<unitdate certainty="approximate" normal="1959" type="inclusive">1959</unitdate>
 							<unittitle>Harvester</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2031</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1959">1959</unitdate>
+							<unitdate certainty="approximate" normal="1959" type="inclusive">1959</unitdate>
 							<unittitle>Extra Film From Dorn Farm Operation (1)</unittitle>
 						</did>
 						<scopecontent>
@@ -1924,9 +1918,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2032</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1959">1959</unitdate>
+							<unitdate certainty="approximate" normal="1959" type="inclusive">1959</unitdate>
 							<unittitle>Extra Film From Dorn Farm Operation (2)</unittitle>
 						</did>
 						<scopecontent>
@@ -1936,34 +1930,34 @@
 					
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2051</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1959">1959</unitdate>
+							<unitdate certainty="approximate" normal="1959" type="inclusive">1959</unitdate>
 							<unittitle>Cherry Harvest Sodus 1959</unittitle>
 						</did>
 					</c03>
 					
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2011</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1960">1960</unitdate>
+							<unitdate certainty="approximate" normal="1960" type="inclusive">1960</unitdate>
 							<unittitle>Cornell Harvester</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2018</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1960">1960</unitdate>
+							<unitdate certainty="approximate" normal="1960" type="inclusive">1960</unitdate>
 							<unittitle>Harvest Stopper at Serturga</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2038</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1960">1960</unitdate>
+							<unitdate certainty="approximate" normal="1960" type="inclusive">1960</unitdate>
 							<unittitle>Good Film of Cherry Harvest</unittitle>
 						</did>
 						<scopecontent>
@@ -1972,9 +1966,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2039</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1960">1960</unitdate>
+							<unitdate certainty="approximate" normal="1960" type="inclusive">1960</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -1983,9 +1977,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2044</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1960">1960</unitdate>
+							<unitdate certainty="approximate" normal="1960" type="inclusive">1960</unitdate>
 							<unittitle>Apple Harvesting</unittitle>
 						</did>
 						<scopecontent>
@@ -1994,9 +1988,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2047</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1960">1960</unitdate>
+							<unitdate certainty="approximate" normal="1960" type="inclusive">1960</unitdate>
 							<unittitle>Potato Harvesting, Apple Harvesting</unittitle>
 						</did>
 						<scopecontent>
@@ -2005,9 +1999,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2033</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1961">1961</unitdate>
+							<unitdate certainty="approximate" normal="1961" type="inclusive">1961</unitdate>
 							<unittitle>Film Pieces Cut Out of Apple Harvesting Film</unittitle>
 						</did>
 						<scopecontent>
@@ -2016,9 +2010,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2035</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1961">1961</unitdate>
+							<unitdate certainty="approximate" normal="1961" type="inclusive">1961</unitdate>
 							<unittitle>1 Roll of Harvesting (Not Fast)</unittitle>
 						</did>
 						<scopecontent>
@@ -2027,9 +2021,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2041</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1961">1961</unitdate>
+							<unitdate certainty="approximate" normal="1961" type="inclusive">1961</unitdate>
 							<unittitle>Cherry Harvest </unittitle>
 						</did>
 						<scopecontent>
@@ -2038,9 +2032,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2049</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1961">1961</unitdate>
+							<unitdate certainty="approximate" normal="1961" type="inclusive">1961</unitdate>
 							<unittitle>Decelerator Stops</unittitle>
 						</did>
 						<scopecontent>
@@ -2049,17 +2043,17 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2017</unitid>
-							<unitdate type="inclusive" normal="1962-02-23">1962-02-23</unitdate>
+							<unitdate normal="1962-02-23" type="inclusive">1962-02-23</unitdate>
 							<unittitle>Markwardt Ag Eng</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2005</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1962">1962</unitdate>
+							<unitdate certainty="approximate" normal="1962" type="inclusive">1962</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2068,9 +2062,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2021</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1962">1962</unitdate>
+							<unitdate certainty="approximate" normal="1962" type="inclusive">1962</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2079,9 +2073,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2023</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1962">1962</unitdate>
+							<unitdate certainty="approximate" normal="1962" type="inclusive">1962</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2090,9 +2084,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2026</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1962">1962</unitdate>
+							<unitdate certainty="approximate" normal="1962" type="inclusive">1962</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2101,9 +2095,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2043</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1962">1962</unitdate>
+							<unitdate certainty="approximate" normal="1962" type="inclusive">1962</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2112,9 +2106,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2048</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1962">1962</unitdate>
+							<unitdate certainty="approximate" normal="1962" type="inclusive">1962</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2124,9 +2118,9 @@
 					
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2050</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1962">1962</unitdate>
+							<unitdate certainty="approximate" normal="1962" type="inclusive">1962</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2135,9 +2129,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2024</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1963">1963</unitdate>
+							<unitdate certainty="approximate" normal="1963" type="inclusive">1963</unitdate>
 							<unittitle>Decelerator (dark)</unittitle>
 						</did>
 						<scopecontent>
@@ -2146,9 +2140,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2009</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1963">1963</unitdate>
+							<unitdate certainty="approximate" normal="1963" type="inclusive">1963</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2157,9 +2151,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2056</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1963">1963</unitdate>
+							<unitdate certainty="approximate" normal="1963" type="inclusive">1963</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2168,9 +2162,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2007</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1964">1964</unitdate>
+							<unitdate certainty="approximate" normal="1964" type="inclusive">1964</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2179,17 +2173,17 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2066</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1964">1964</unitdate>
+							<unitdate certainty="approximate" normal="1964" type="inclusive">1964</unitdate>
 							<unittitle>1964 Apple Harvester</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2006</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1965">1965</unitdate>
+							<unitdate certainty="approximate" normal="1965" type="inclusive">1965</unitdate>
 							<unittitle>"Apple Harvesting"</unittitle>
 						</did>
 						<scopecontent>
@@ -2198,17 +2192,17 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2003</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1965">1965</unitdate>
+							<unitdate certainty="approximate" normal="1965" type="inclusive">1965</unitdate>
 							<unittitle>Harvester</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2037</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1965">1965</unitdate>
+							<unitdate certainty="approximate" normal="1965" type="inclusive">1965</unitdate>
 							<unittitle>Apple Harv. (Last)</unittitle>
 						</did>
 						<scopecontent>
@@ -2218,9 +2212,9 @@
 					
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2040</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1965">1965</unitdate>
+							<unitdate certainty="approximate" normal="1965" type="inclusive">1965</unitdate>
 							<unittitle>Catching Apples</unittitle>
 						</did>
 						<scopecontent>
@@ -2229,9 +2223,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2046</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1965">1965</unitdate>
+							<unitdate certainty="approximate" normal="1965" type="inclusive">1965</unitdate>
 							<unittitle>Apple Harvesting</unittitle>
 						</did>
 						<scopecontent>
@@ -2241,17 +2235,17 @@
 					
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2004</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1966">1966</unitdate>
+							<unitdate certainty="approximate" normal="1966" type="inclusive">1966</unitdate>
 							<unittitle>Apple Harvester</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2029</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1966">1966</unitdate>
+							<unitdate certainty="approximate" normal="1966" type="inclusive">1966</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2260,9 +2254,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2052</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1966">1966</unitdate>
+							<unitdate certainty="approximate" normal="1966" type="inclusive">1966</unitdate>
 							<unittitle>Meyers Operation</unittitle>
 						</did>
 						<scopecontent>
@@ -2271,9 +2265,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2053</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1966">1966</unitdate>
+							<unitdate certainty="approximate" normal="1966" type="inclusive">1966</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2282,9 +2276,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2054</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1966">1966</unitdate>
+							<unitdate certainty="approximate" normal="1966" type="inclusive">1966</unitdate>
 							<unittitle>Tomato Harvesting</unittitle>
 						</did>
 						<scopecontent>
@@ -2293,9 +2287,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2057</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1966">1966</unitdate>
+							<unitdate certainty="approximate" normal="1966" type="inclusive">1966</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2304,9 +2298,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2027</unitid>
-							<unitdate type="inclusive" normal="1967-11-03">1967-11-03</unitdate>
+							<unitdate normal="1967-11-03" type="inclusive">1967-11-03</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2315,9 +2309,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2010</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1967">1967</unitdate>
+							<unitdate certainty="approximate" normal="1967" type="inclusive">1967</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2326,25 +2320,25 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2016</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1967">1967</unitdate>
+							<unitdate certainty="approximate" normal="1967" type="inclusive">1967</unitdate>
 							<unittitle>Composite Harvester Film and Tomato Harvester</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2020</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1967">1967</unitdate>
+							<unitdate certainty="approximate" normal="1967" type="inclusive">1967</unitdate>
 							<unittitle>McConnell 500 Planter</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2034</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1967">1967</unitdate>
+							<unitdate certainty="approximate" normal="1967" type="inclusive">1967</unitdate>
 							<unittitle>Harvester</unittitle>
 						</did>
 						<scopecontent>
@@ -2353,9 +2347,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2036</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1967">1967</unitdate>
+							<unitdate certainty="approximate" normal="1967" type="inclusive">1967</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2364,9 +2358,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2045</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1967">1967</unitdate>
+							<unitdate certainty="approximate" normal="1967" type="inclusive">1967</unitdate>
 							<unittitle>Airplane Spraying, Tomato Harvest F.M.C.</unittitle>
 						</did>
 						<scopecontent>
@@ -2375,35 +2369,35 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2059</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1967">1967</unitdate>
+							<unitdate certainty="approximate" normal="1967" type="inclusive">1967</unitdate>
 							<unittitle> Large Cat. Frame and Trunk Shaker</unittitle>
 						</did>
 					</c03>
 				
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2015</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1968">1968</unitdate>
+							<unitdate certainty="approximate" normal="1968" type="inclusive">1968</unitdate>
 							<unittitle>E. Markwardt 1968 Cont. Harv. Duplicate</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2019</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1968">1968</unitdate>
+							<unitdate certainty="approximate" normal="1968" type="inclusive">1968</unitdate>
 							<unittitle>Cabbage Harvester</unittitle>
 						</did>
 					</c03>
 					
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2042</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1968">1968</unitdate>
+							<unitdate certainty="approximate" normal="1968" type="inclusive">1968</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2412,17 +2406,17 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2058</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1968">1968</unitdate>
+							<unitdate certainty="approximate" normal="1968" type="inclusive">1968</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2030</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1971">1971</unitdate>
+							<unitdate certainty="approximate" normal="1971" type="inclusive">1971</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2431,9 +2425,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2060</unitid>
-							<unitdate type="inclusive" certainty="Circa" normal="1971">1971</unitdate>
+							<unitdate certainty="approximate" normal="1971" type="inclusive">1971</unitdate>
 							<unittitle>Untitled</unittitle>
 						</did>
 						<scopecontent>
@@ -2442,7 +2436,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-1999</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>FMC Tomato Harvester</unittitle>
@@ -2451,7 +2445,7 @@
 					
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2001</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Leader and Blank Film for Editing</unittitle>
@@ -2459,7 +2453,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2002</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>PR65519</unittitle>
@@ -2467,7 +2461,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2008</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Rice</unittitle>
@@ -2475,7 +2469,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2012</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Apple Sorting Machine</unittitle>
@@ -2483,7 +2477,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2013</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -2494,7 +2488,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2014</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Furnow, Foster Lab.</unittitle>
@@ -2502,7 +2496,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2055</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Cottage Harvest</unittitle>
@@ -2513,7 +2507,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2061</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -2521,7 +2515,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2062</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -2529,7 +2523,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2063</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -2537,7 +2531,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2064</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -2545,7 +2539,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2065</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -2553,7 +2547,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>F-2067</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -2569,7 +2563,7 @@
 					</did>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>TR-15913</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Agricultural Engineers In Pictures</unittitle>
@@ -2580,9 +2574,9 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>TR-15914</unitid>
-							<unitdate type="inclusive" normal="1979-12-13">1979-12-1</unitdate>
+							<unitdate normal="1979-12-13" type="inclusive">1979-12-1</unitdate>
 							<unittitle>Agricultural Engineering Alumni Breakfast</unittitle>
 						</did>
 						<scopecontent>
@@ -2591,7 +2585,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>TR-15915</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Tractor Rollover Film 16mm Color Print</unittitle>
@@ -2599,7 +2593,7 @@
 					</c03>
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>V-9985</unitid>
 							<unitdate>Undated</unitdate>
 							<unittitle>Untitled</unittitle>
@@ -2608,7 +2602,7 @@
 					
 					<c03 level="item">
 						<did>
-							<container type="box">11</container>
+							<container label="unspecified" type="box">11</container>
 							<unitid>DVD-2670</unitid>
 							<unitdate>2005-08-03</unitdate>
 							<unittitle>Research Experience for Undergraduates</unittitle>
@@ -2622,8 +2616,8 @@
 					</did>
 					<c03 level="item">
 						<did>
-							<container type="box">9</container>
-							<unitdate type="inclusive" normal="1986-04-18">1986-04-18</unitdate>
+							<container label="unspecified" type="box">9</container>
+							<unitdate normal="1986-04-18" type="inclusive">1986-04-18</unitdate>
 							<unittitle>Jim Bartsch on J.K. Campbell</unittitle>
 						</did>
 						<scopecontent>
@@ -2638,8 +2632,8 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<unitdate type="inclusive" normal="1912">1912</unitdate>
+						<container label="unspecified" type="box">3</container>
+						<unitdate normal="1912" type="inclusive">1912</unitdate>
 						<unittitle>"Troy Photo"</unittitle>
 					</did>
 					<scopecontent>
@@ -2651,7 +2645,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
+						<container label="unspecified" type="box">8</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Agricultural Machine Guarding</unittitle>
 					</did>
@@ -2661,7 +2655,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
+						<container label="unspecified" type="box">8</container>
 						<unitdate>Undated</unitdate>
 						<unittitle>Farm Safety - A Hazard Survey</unittitle>
 					</did>
@@ -2672,5 +2666,9 @@
 			</c01>
 			
 		</dsc>
-	</archdesc>
+	<odd><p>See also Clesson Nathan Turner papers #21-11-810</p></odd><odd><p>Publications can be found online here: <extref href="http://ecommons.cornell.edu/handle/1813/7642" show="new">http://ecommons.cornell.edu/handle/1813/7642</extref></p></odd><prefercite>
+				<head>Cite As:</head>
+				<p>Cornell University Department of Agricultural Engineering records, #21-11-2379. Division of Rare and
+					Manuscript Collections, Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04260::E. Stanley Shepardson papers)//EN">RMA04260</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA04260::E. Stanley Shepardson papers)//EN">RMA04260</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the E. Stanley Shepardson papers, <date>circa
@@ -23,19 +23,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>September 2017</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the E. Stanley Shepardson Papers,<lb/><date type="inclusive" encodinganalog="245$f">circa 1950s-1980s.</date></titleproper>
+			<titleproper>Guide to the E. Stanley Shepardson Papers,<date encodinganalog="245$f" type="inclusive">circa 1950s-1980s.</date></titleproper>
 			<num>Collection Number: 21-11-4260</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -57,14 +63,14 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">E. Stanley Shepardson papers,
-					<unitdate encodinganalog="MARC 245" type="inclusive">circa
-					1950s-1980s.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">E. Stanley Shepardson papers,
+					</unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1950s-1980s.</unitdate>
 			<unitid label="Collection Number:">21-11-4260</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Shepardson, Edwin Stanley,   ">Shepardson, Edwin Stanley,
 				</persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>1</extent></physdesc>
 			<physdesc label="Forms of Material:">Printed materials, correspondence, newspapers, slides.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -72,7 +78,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>E. Stanley Shepardson obtained his B.S. degree from Cornell University in 1936. That
 				same year he joined the extension staff of the Department of Agricultural
 				Engineering at Cornell as an extension instructor in agricultural engineering with
@@ -108,50 +114,47 @@
 				<subject encodinganalog="MARC 650">Harvesting.</subject>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
+		
+		<dsc type="combined">
+			<head>CONTAINER LIST</head>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">1</container><unitdate normal="1978" type="inclusive">1978</unitdate><unittitle>Resume</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">2</container><unitdate normal="1995/1999" type="inclusive">1995-1999</unitdate><unittitle>Awards, recognition, obituaries</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">3</container><unitdate normal="1996/2000" type="inclusive">1996-2000</unitdate><unittitle>Memorials</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">4</container><unitdate certainty="approximate" normal="1949" type="inclusive">1949</unitdate><unittitle>Notebook</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">5</container><unitdate certainty="approximate" normal="1957/1966" type="inclusive">1957-1966</unitdate><unittitle>News clippings</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">6</container><unitdate normal="1968/1996" type="inclusive">1968, 1994-1996</unitdate><unittitle>ALC</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">7</container><unitdate certainty="approximate" normal="1958/1972" type="inclusive">1958-1972</unitdate><unittitle>Booklets and articles on drainage</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">8</container><unitdate>Undated</unitdate><unittitle>Water heaters</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">9</container><unitdate normal="1999" type="inclusive">1999</unitdate><unittitle>Bridges etc. </unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">10</container><unitdate normal="1996/1999" type="inclusive">1996-1999</unitdate><unittitle>Brakes, steering, trucks</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">11</container><unitdate certainty="approximate" normal="1968/1973" type="inclusive">1968-1973</unitdate><unittitle>Water supply</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">12</container><unitdate normal="1991/1995" type="inclusive">1991-1995</unitdate><unittitle>Alumni</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">13</container><unitdate normal="1994" type="inclusive">1994</unitdate><unittitle>Cornell fly tyers</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">14</container><unitdate normal="1940/1949" type="inclusive">1940, 1949</unitdate><unittitle>Pumping equipment</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">15</container><unitdate normal="1960/1964" type="inclusive">1960-1964</unitdate><unittitle>Grape harvesting research at Cornell</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">16</container><unitdate normal="1987" type="inclusive">1987</unitdate><unittitle>Site plan - sanitary waste disposal renovations, Adirondack League Club</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">17</container><unitdate normal="1982/1989" type="inclusive">1982-1989</unitdate><unittitle>Sewage plans, Bisby</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">18</container><unitdate normal="1957" type="inclusive">1957</unitdate><unittitle>A.M. Goodman Memorial Library plaque</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">19</container><unitdate>Undated</unitdate><unittitle>Hatchery pipeline, ALC</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">20</container><unitdate normal="1987" type="inclusive">1987</unitdate><unittitle>Little Moose sewage system</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">21</container><unitdate normal="1984" type="inclusive">1984</unitdate><unittitle>Sewage, Bisby</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">22</container><unitdate normal="1984/1987" type="inclusive">1984-1987</unitdate><unittitle>Sewage plans, ALC</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">23</container><unitdate>Date unknown</unitdate><unittitle>Sewage, ALC</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">24</container><unitdate certainty="approximate" normal="1930/1970" type="inclusive">1930's-1970's</unitdate><unittitle>Soil and water</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">25</container><unitdate>Undated</unitdate><unittitle>Drainage</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">26</container><unitdate normal="1950" type="inclusive">1950</unitdate><unittitle>Machinery and equipment</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">27</container><unitdate>Undated</unitdate><unittitle>Pumping equipment</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">28</container><unitdate normal="1963" type="inclusive">1963</unitdate><unittitle>Repair and remodeling</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">29</container><unitdate certainty="approximate" normal="1962/1967" type="inclusive">1962-1967</unitdate><unittitle>Filters, publications and softening</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">30</container><unitdate normal="1963/1969" type="inclusive">1963, 1969</unitdate><unittitle>System</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">31</container><unitdate normal="1966/1971" type="inclusive">1966-1971</unitdate><unittitle>#454 Submarine harrow, manufacturers, lectures and correspondence</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">32</container><unitdate normal="1968/1971" type="inclusive">1968-1971</unitdate><unittitle>#454 Submarine harrow, reports, correspondence, sketches</unittitle></did></c01>
+			<c01 level="file"><did><container label="unspecified" type="box">1</container><container label="unspecified" type="folder">33</container><unitdate certainty="approximate" normal="1960" type="inclusive">1960's, undated</unitdate><unittitle>Slides</unittitle></did></c01>
+			
+		</dsc>
+	<prefercite>
 				<head>Cite As:</head>
 				<p>E. Stanley Shepardson papers, #21-11-4260. Division of Rare and Manuscript
 					Collections, Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
-		<dsc type="combined">
-			<head>CONTAINER LIST</head>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">1</container><unitdate type="inclusive" normal="1978">1978</unitdate><unittitle>Resume</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">2</container><unitdate type="inclusive" normal="1995/1999">1995-1999</unitdate><unittitle>Awards, recognition, obituaries</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">3</container><unitdate type="inclusive" normal="1996/2000">1996-2000</unitdate><unittitle>Memorials</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">4</container><unitdate type="inclusive" certainty="Circa" normal="1949">1949</unitdate><unittitle>Notebook</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">5</container><unitdate type="inclusive" certainty="Circa" normal="1957/1966">1957-1966</unitdate><unittitle>News clippings</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">6</container><unitdate type="inclusive" normal="1968/1996">1968, 1994-1996</unitdate><unittitle>ALC</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">7</container><unitdate type="inclusive" certainty="Circa" normal="1958/1972">1958-1972</unitdate><unittitle>Booklets and articles on drainage</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">8</container><unitdate>Undated</unitdate><unittitle>Water heaters</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">9</container><unitdate type="inclusive" normal="1999">1999</unitdate><unittitle>Bridges etc. </unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">10</container><unitdate type="inclusive" normal="1996/1999">1996-1999</unitdate><unittitle>Brakes, steering, trucks</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">11</container><unitdate type="inclusive" certainty="Circa" normal="1968/1973">1968-1973</unitdate><unittitle>Water supply</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">12</container><unitdate type="inclusive" normal="1991/1995">1991-1995</unitdate><unittitle>Alumni</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">13</container><unitdate type="inclusive" normal="1994">1994</unitdate><unittitle>Cornell fly tyers</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">14</container><unitdate type="inclusive" normal="1940/1949">1940, 1949</unitdate><unittitle>Pumping equipment</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">15</container><unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate><unittitle>Grape harvesting research at Cornell</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">16</container><unitdate type="inclusive" normal="1987">1987</unitdate><unittitle>Site plan - sanitary waste disposal renovations, Adirondack League Club</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">17</container><unitdate type="inclusive" normal="1982/1989">1982-1989</unitdate><unittitle>Sewage plans, Bisby</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">18</container><unitdate type="inclusive" normal="1957">1957</unitdate><unittitle>A.M. Goodman Memorial Library plaque</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">19</container><unitdate>Undated</unitdate><unittitle>Hatchery pipeline, ALC</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">20</container><unitdate type="inclusive" normal="1987">1987</unitdate><unittitle>Little Moose sewage system</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">21</container><unitdate type="inclusive" normal="1984">1984</unitdate><unittitle>Sewage, Bisby</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">22</container><unitdate type="inclusive" normal="1984/1987">1984-1987</unitdate><unittitle>Sewage plans, ALC</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">23</container><unitdate>Date unknown</unitdate><unittitle>Sewage, ALC</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">24</container><unitdate type="inclusive" certainty="Circa" normal="1930/1970">1930's-1970's</unitdate><unittitle>Soil and water</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">25</container><unitdate>Undated</unitdate><unittitle>Drainage</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">26</container><unitdate type="inclusive" normal="1950">1950</unitdate><unittitle>Machinery and equipment</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">27</container><unitdate>Undated</unitdate><unittitle>Pumping equipment</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">28</container><unitdate type="inclusive" normal="1963">1963</unitdate><unittitle>Repair and remodeling</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">29</container><unitdate type="inclusive" certainty="Circa" normal="1962/1967">1962-1967</unitdate><unittitle>Filters, publications and softening</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">30</container><unitdate type="inclusive" normal="1963/1969">1963, 1969</unitdate><unittitle>System</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">31</container><unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate><unittitle>#454 Submarine harrow, manufacturers, lectures and correspondence</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">32</container><unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate><unittitle>#454 Submarine harrow, reports, correspondence, sketches</unittitle></did></c01>
-			<c01 level="file"><did><container type="box">1</container><container type="folder">33</container><unitdate type="inclusive" certainty="Circa" normal="1960">1960's, undated</unitdate><unittitle>Slides</unittitle></did></c01>
-			
-		</dsc>
-	</archdesc>
+			</prefercite></archdesc>
 </ead>

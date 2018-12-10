@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-	 <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00973::Mabel Doremus papers)//EN">RMA00973</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+	 <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA00973::Mabel Doremus papers)//EN">RMA00973</eadid>
 	 
 	 <filedesc> 
 		<titlestmt> 
@@ -29,7 +28,13 @@
 		<creation>Finding aid encoded by Martin Heggestad
 		  <date>June 2003</date> </creation> 
 	 </profiledesc> 
-	 <revisiondesc> 
+	 <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+ 
 		<change encodinganalog="583"> 
 		  <date normal="2007-05-29">2007-05-29</date> 
 		  <item>converted from EAD 1.0 to EAD 2002 </item> 
@@ -39,19 +44,19 @@
   <frontmatter> 
 	 <titlepage> 
 		<titleproper>Guide to the Mabel Doremus
-		  Papers,<lb/>1950-1966</titleproper> 
+		  Papers,1950-1966</titleproper> 
 		<num>Collection Number: 23-14-973</num> 
-		<publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+		<publisher>Division of Rare and Manuscript Collections Cornell
 		  University Library</publisher> 
 		<list type="deflist"> 
 		  <defitem> 
 			 <label>Contact Information:</label> 
-			 <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-				Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-				255-3530<lb/> Fax: (607) 255-9524<lb/>
-				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> <lb/>
+			 <item>Division of Rare and Manuscript Collections 2B Carl A.
+				Kroch Library Cornell University Ithaca, NY 14853 (607)
+				255-3530 Fax: (607) 255-9524
+				<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
 				<extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-				<lb/></item> 
+				</item> 
 		  </defitem> 
 		  <defitem> 
 			 <label>Compiled by:</label> 
@@ -77,14 +82,16 @@
   <archdesc level="collection"> 
 	 <did> 
 		<head id="a1">DESCRIPTIVE SUMMARY</head> 
-		<unittitle label="Title:" encodinganalog="MARC 245">Mabel Doremus papers,
+		<unittitle encodinganalog="MARC 245" label="Title:">Mabel Doremus papers,
 		  
-		  <unitdate type="inclusive" encodinganalog="MARC 245">1950-1966.</unitdate> </unittitle> 
+		  </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1950-1966.</unitdate> 
 		<unitid label="Collection Number:">23-14-973</unitid> 
 		<origination label="Creator:"> 
 		  <persname encodinganalog="100" normal="Doremus, Mabel, ">Mabel Doremus,
 			 1905- </persname> </origination> 
-		<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>1 cubic
+		<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>1 cubic
 		  ft.</extent></physdesc> 
 		<physdesc label="Forms of Material:">Publications, memos, and
 		  reports.</physdesc> 
@@ -99,7 +106,7 @@
 		  </langmaterial> 
 	 </did> 
 	 <bioghist encodinganalog="MARC 545"> 
-		<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head> 
+		<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head> 
 		<p>Doremus received a B.S. from the University of Nebraska in 1928 and an M.A. 
 		in 1937 in home economics from Columbia University. She joined the Department
 		 of Food and Nutrition at Cornell University in 1950 as an assistant professor 
@@ -126,164 +133,157 @@
 		  <subject encodinganalog="MARC 650">Civil defense.</subject> 
 		</controlaccess> 
 	 </controlaccess> 
-	 <descgrp type="admininfo"> 
-		<head id="a8">INFORMATION FOR USERS</head> 
-		<prefercite> 
-		  <head>Cite As:</head> 
-		  <p>Mabel Doremus papers, #23-14-973. Division of Rare and Manuscript
-			 Collections, Cornell University Library.</p> 
-		</prefercite> 
-	 </descgrp> 
+	  
 	 <dsc type="combined"> 
 		<head>CONTAINER LIST</head> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">1</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">1</container> 
 			 <unittitle>Memos and reports</unittitle> 
 			 <unitdate>1962-1965</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">2</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">2</container> 
 			 <unittitle>Cornell</unittitle> 
 			 <unitdate>1964, n.d.</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">3</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">3</container> 
 			 <unittitle>New York State</unittitle> 
 			 <unitdate>1951-1964</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">4</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">4</container> 
 			 <unittitle>Cooperative Extension</unittitle> 
 			 <unitdate>1951-1964</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">5</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">5</container> 
 			 <unittitle>NYS Civil Defense Commission New Digest</unittitle> 
 			 <unitdate>1965</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">6</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">6</container> 
 			 <unittitle>NYS Radioactivity Bulletins</unittitle> 
 			 <unitdate>1964</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">7</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">7</container> 
 			 <unittitle>NYS Radioactivity Bulletins</unittitle> 
 			 <unitdate>1965</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">8</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">8</container> 
 			 <unittitle>Rural Civil Defense Office Newsletter</unittitle> 
 			 <unitdate>1963-1965</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">9</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">9</container> 
 			 <unittitle>Government Surplus Food</unittitle> 
 			 <unitdate>1962</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">10</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">10</container> 
 			 <unittitle>Government Surplus Food</unittitle> 
 			 <unitdate>1963</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">11</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">11</container> 
 			 <unittitle>Government Surplus Food</unittitle> 
 			 <unitdate>1964</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">12</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">12</container> 
 			 <unittitle>Government Surplus Food</unittitle> 
 			 <unitdate>1965</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">13</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">13</container> 
 			 <unittitle>Government Surplus Food</unittitle> 
 			 <unitdate>1966</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">14</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">14</container> 
 			 <unittitle>USDA publications</unittitle> 
 			 <unitdate>1952-1964</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">15</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">15</container> 
 			 <unittitle>USDA publications</unittitle> 
 			 <unitdate>1962-1964</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">16</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">16</container> 
 			 <unittitle>USDA publications</unittitle> 
 			 <unitdate>1964</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">17</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">17</container> 
 			 <unittitle>Federal Extension Service</unittitle> 
 			 <unitdate>1953-1963</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">18</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">18</container> 
 			 <unittitle>You Can Survive, USDA Federal Extension</unittitle> 
 			 <unitdate>n.d.</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">19</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">19</container> 
 			 <unittitle>Knowledge for Survival, USDA Federal Extension</unittitle>
 			 
 			 <unitdate>1962-1964</unitdate> 
@@ -291,8 +291,8 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">20</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">20</container> 
 			 <unittitle>Wake Up and Live, Rural Civil Defense Material</unittitle>
 			 
 			 <unitdate>1959-1960</unitdate> 
@@ -300,48 +300,48 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">21</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">21</container> 
 			 <unittitle>U.S. Government Civil Defense publications</unittitle> 
 			 <unitdate>1954-1964</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">22</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">22</container> 
 			 <unittitle>U.S. Government Civil Defense publications</unittitle> 
 			 <unitdate>1960</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">23</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">23</container> 
 			 <unittitle>U.S. Government Civil Defense publications</unittitle> 
 			 <unitdate>1961</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">24</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">24</container> 
 			 <unittitle>U.S. Government Civil Defense publications</unittitle> 
 			 <unitdate>1961</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">25</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">25</container> 
 			 <unittitle>Civil Defense Technical Bulletin</unittitle> 
 			 <unitdate>1961-1962</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">26</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">26</container> 
 			 <unittitle>Civil Defense Training Course for the Food
 				Industry</unittitle> 
 			 <unitdate>1963</unitdate> 
@@ -349,44 +349,48 @@
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">27</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">27</container> 
 			 <unittitle>United Nations publications</unittitle> 
 			 <unitdate>1950</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">28</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">28</container> 
 			 <unittitle>Other publications and reprints</unittitle> 
 			 <unitdate>1951-1962</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">29</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">29</container> 
 			 <unittitle>Clippings</unittitle> 
 			 <unitdate>1961, n.d.</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">30</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">30</container> 
 			 <unittitle>Journals</unittitle> 
 			 <unitdate>1959-1962</unitdate> 
 		  </did> 
 		</c01> 
 		<c01 level="file"> 
 		  <did> 
-			 <container type="box">1</container> 
-			 <container type="folder">31</container> 
+			 <container label="unspecified" type="box">1</container> 
+			 <container label="unspecified" type="folder">31</container> 
 			 <unittitle>Magazines</unittitle> 
 			 <unitdate>1961</unitdate> 
 		  </did> 
 		</c01> 
 	 </dsc> 
-  </archdesc>
+  <prefercite> 
+		  <head>Cite As:</head> 
+		  <p>Mabel Doremus papers, #23-14-973. Division of Rare and Manuscript
+			 Collections, Cornell University Library.</p> 
+		</prefercite></archdesc>
 </ead>

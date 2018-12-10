@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02523::Leander Crawford Purdy and Louisa (Canfield))//EN">RMM02523</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM02523::Leander Crawford Purdy and Louisa (Canfield))//EN">RMM02523</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Leander Crawford Purdy and Louisa (Canfield), collectors,
@@ -14,7 +13,7 @@
          <publicationstmt>
             <publisher>Division of Rare and Manuscript Collections, Cornell University
                Library</publisher>
-            <date/>
+            
          </publicationstmt>
          <notestmt>
             <note audience="internal">
@@ -31,6 +30,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -40,19 +45,19 @@
    <frontmatter>
       <titlepage>
          <titleproper>Guide to the Leander Crawford Purdy And Louisa (Canfield), Collectors, Family
-            Papers,<lb/>1738-1925</titleproper>
+            Papers,1738-1925</titleproper>
          <num>Collection Number: 2523</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -73,16 +78,15 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Leander Crawford Purdy and Louisa
-            (Canfield), collectors, family papers, <unitdate type="inclusive" encodinganalog="MARC 245">1738-1925.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Leander Crawford Purdy and Louisa
+            (Canfield), collectors, family papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1738-1925.</unitdate>
          <unitid label="Collection Number:">2523</unitid>
          <origination label="Creator:">
 
             <persname encodinganalog="100" normal="Purdy, Leander Crawford. ">Leander Crawford.
                Purdy </persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.4 cubic ft.,</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.4 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Diary, books, legal and financial documents and
             microfilm.</physdesc>
          <repository label="Repository:"> Division of Rare and Manuscript Collections, Cornell
@@ -150,20 +154,13 @@
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Accounts.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Diaries.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Genealogies.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Recipes.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Accounts.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Diaries.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Genealogies.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Recipes.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Leander Crawford Purdy and Louisa (Canfield), collectors, family papers, #2523.
-               Division of Rare and Manuscript Collections, Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="series">
@@ -178,5 +175,9 @@
             </scopecontent>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Leander Crawford Purdy and Louisa (Canfield), collectors, family papers, #2523.
+               Division of Rare and Manuscript Collections, Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b"> 
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04100::Arthur H. Dean Papers)//EN">RMM04100</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink"> 
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924"> 
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM04100::Arthur H. Dean Papers)//EN">RMM04100</eadid>
     
     <filedesc> 
       <titlestmt> 
@@ -28,7 +27,13 @@
       <creation>EAD encoding by Mireille Lee, August 2000 </creation> 
       <langusage> <language>ENG</language> </langusage> 
     </profiledesc> 
-    <revisiondesc> 
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+ 
       <change encodinganalog="583"> 
         <date normal="2007-05-29">2007-05-29</date> 
         <item>converted from EAD 1.0 to EAD 2002 </item> 
@@ -38,19 +43,19 @@
   <frontmatter> 
     <titlepage> 
       <titleproper>Guide to the Arthur H. Dean Papers,
-        <lb/>1937-1980</titleproper> 
+        1937-1980</titleproper> 
       <num>Collection Number: 4100</num> 
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell
+      <publisher>Division of Rare and Manuscript Collections Cornell
         University Library</publisher> 
       <list type="deflist"> 
         <defitem> 
           <label>Contact Information:</label> 
-          <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A.
-            Kroch Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-            255-3530<lb/> Fax: (607) 255-9524<lb/>
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> <lb/>
+          <item>Division of Rare and Manuscript Collections 2B Carl A.
+            Kroch Library Cornell University Ithaca, NY 14853 (607)
+            255-3530 Fax: (607) 255-9524
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref> 
             <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-            <lb/></item> 
+            </item> 
         </defitem> 
         <defitem> 
           <label>Compiled by:</label> 
@@ -73,12 +78,12 @@
     <did> 
       <head>DESCRIPTIVE SUMMARY</head> 
       <unittitle label="Title:">Arthur H. Dean papers, 
-        <unitdate type="inclusive">1937-1980</unitdate> </unittitle> 
+        </unittitle><unitdate type="inclusive">1937-1980</unitdate> 
       <unitid label="Collection Number:">4100</unitid> 
       <origination label="Creator:"> 
         <persname normal="Dean, Arthur H.">Arthur H. Dean</persname>
         </origination> 
-      <physdesc label="Quantity:"><extent>146.9 cubic ft.</extent></physdesc> 
+      <physdesc label="Quantity:"><extent>146.9 cubic feet</extent></physdesc> 
       <physdesc label="Forms of Material:">Correspondence, legal briefs, audio
         tapes, speeches, research material, pamphlets, clippings, scrapbooks,
         diaries.</physdesc> 
@@ -257,10 +262,10 @@
       </controlaccess> 
       <controlaccess> 
         <head>Subjects:</head> 
-        <subject source="lcsh" encodinganalog="MARC 611">Bilderberg
+        <subject encodinganalog="MARC 611" source="lcsh">Bilderberg
           Meetings.</subject>
-        <subject source="lcsh" encodinganalog="MARC 650">Korean War.</subject> 
-        <subject source="lcsh" encodinganalog="MARC 650">Libraries.</subject> 
+        <subject encodinganalog="MARC 650" source="lcsh">Korean War.</subject> 
+        <subject encodinganalog="MARC 650" source="lcsh">Libraries.</subject> 
       </controlaccess> 
       <controlaccess> 
         <head>Places:</head> 
@@ -269,88 +274,81 @@
       </controlaccess> 
       <controlaccess> 
         <head>Form and Genre Terms:</head> 
-        <genreform source="aat" encodinganalog="MARC 655">Reminiscences.</genreform> 
+        <genreform encodinganalog="MARC 655" source="aat">Reminiscences.</genreform> 
       </controlaccess> 
     </controlaccess> 
-    <descgrp type="admininfo"> 
-      <head>INFORMATION FOR USERS</head> 
-      <prefercite> 
-        <head>Cite As:</head> 
-        <p>Arthur H. Dean papers, #4100. Division of Rare and Manuscript
-          Collections, Cornell University Library.</p> 
-      </prefercite> 
-    </descgrp> 
+     
     <arrangement> 
       <head>SERIES LIST</head> 
       <p>
         <emph render="bold">
-          <ref target="s1" show="replace" actuate="onrequest">Series I. Personal</ref>
+          <ref actuate="onrequest" show="replace" target="s1">Series I. Personal</ref>
         </emph>
-        <lb/>Boxes 1, 2, 79-83, 156-158</p>
+        Boxes 1, 2, 79-83, 156-158</p>
       <p>
         <emph render="bold">
-          <ref target="s2" show="replace" actuate="onrequest">Series II. Diaries</ref>
+          <ref actuate="onrequest" show="replace" target="s2">Series II. Diaries</ref>
         </emph>
-        <lb/>Boxes 3, 4</p>
+        Boxes 3, 4</p>
       <p>
         <emph render="bold">
-          <ref target="s3" show="replace" actuate="onrequest">Series III. Speeches/Articles</ref>
+          <ref actuate="onrequest" show="replace" target="s3">Series III. Speeches/Articles</ref>
         </emph>
-        <lb/>Boxes 5-13</p>
+        Boxes 5-13</p>
       <p>
         <emph render="bold">
-          <ref target="s4" show="replace" actuate="onrequest">Series IV. Cornell University</ref>
+          <ref actuate="onrequest" show="replace" target="s4">Series IV. Cornell University</ref>
         </emph>
-        <lb/>Boxes 14-31, 140-141</p>
+        Boxes 14-31, 140-141</p>
       <p>
         <emph render="bold">
-          <ref target="s5" show="replace" actuate="onrequest">Series V. Subject Files</ref>
+          <ref actuate="onrequest" show="replace" target="s5">Series V. Subject Files</ref>
         </emph>
-        <lb/>Boxes 32-78; 84-139; 142-155</p>
+        Boxes 32-78; 84-139; 142-155</p>
       
       <p><ref target="s5ss1">Nuclear Test Ban Treaty</ref>
-        <lb/><ref target="s5ss2">Disarmament</ref>
-        <lb/><ref target="s5ss3">American Institute of Pacific Relations</ref>
-        <lb/><ref target="s5ss4">Committee for an Effective and Durable Peace in
+        <ref target="s5ss2">Disarmament</ref>
+        <ref target="s5ss3">American Institute of Pacific Relations</ref>
+        <ref target="s5ss4">Committee for an Effective and Durable Peace in
           Asia</ref>
-        <lb/><ref target="s5ss5">Korea</ref>
-        <lb/><ref target="s5ss6">Japan Society</ref>
-        <lb/><ref target="s5ss7">Asia Society</ref>
-        <lb/><ref target="s5ss8">Asia Foundation</ref>
-        <lb/><ref target="s5ss9">Association for the Promotion and Protection of Private
+        <ref target="s5ss5">Korea</ref>
+        <ref target="s5ss6">Japan Society</ref>
+        <ref target="s5ss7">Asia Society</ref>
+        <ref target="s5ss8">Asia Foundation</ref>
+        <ref target="s5ss9">Association for the Promotion and Protection of Private
           Foreign Investments (APPI)</ref>
-        <lb/><ref target="s5ss10">Council on Foreign Relations, Inc.</ref>
-        <lb/><ref target="s5ss11">Foreign Affairs, President Johnson's Panel of
+        <ref target="s5ss10">Council on Foreign Relations, Inc.</ref>
+        <ref target="s5ss11">Foreign Affairs, President Johnson's Panel of
           Consultants on</ref>
-        <lb/><ref target="s5ss12">English Speaking Union of the United States</ref>
-        <lb/><ref target="s5ss13">Bilderberg</ref>
-        <lb/><ref target="s5ss14">Law of the Sea, Department of State Advisory Panel
+        <ref target="s5ss12">English Speaking Union of the United States</ref>
+        <ref target="s5ss13">Bilderberg</ref>
+        <ref target="s5ss14">Law of the Sea, Department of State Advisory Panel
           on</ref>
-        <lb/><ref target="s5ss15">State University of New York Board of Trustees</ref>
-        <lb/><ref target="s5ss16">European Recovery (World War II)</ref>
-        <lb/><ref target="s5ss17">United National Association of the United States of
+        <ref target="s5ss15">State University of New York Board of Trustees</ref>
+        <ref target="s5ss16">European Recovery (World War II)</ref>
+        <ref target="s5ss17">United National Association of the United States of
           America</ref>
-        <lb/><ref target="s5ss18">White House</ref>
-        <lb/><ref target="s5ss19">Nantucket Sound Island Trust-Bill</ref>
-        <lb/><ref target="s5ss20">American Bar Association</ref>
-        <lb/><ref target="s5ss21">New York State Bar Association</ref>
-        <lb/><ref target="s5ss22">New York City Bar Association</ref>
-        <lb/><ref target="s5ss23">American Law Institute</ref>
-        <lb/><ref target="s5ss24">Lawyer's Committee for Civil Rights Under Law</ref>
-        <lb/><ref target="s5ss25">Sullivan and Cromwell - includes U.S. v. Stanley Morgan,
+        <ref target="s5ss18">White House</ref>
+        <ref target="s5ss19">Nantucket Sound Island Trust-Bill</ref>
+        <ref target="s5ss20">American Bar Association</ref>
+        <ref target="s5ss21">New York State Bar Association</ref>
+        <ref target="s5ss22">New York City Bar Association</ref>
+        <ref target="s5ss23">American Law Institute</ref>
+        <ref target="s5ss24">Lawyer's Committee for Civil Rights Under Law</ref>
+        <ref target="s5ss25">Sullivan and Cromwell - includes U.S. v. Stanley Morgan,
           et al; El Paso; Standard Oil</ref>
-        <lb/><ref target="s5ss26">Teagle Foundation</ref>
-        <lb/><ref target="s5ss27">National Citizens Committee for Community Relations
+        <ref target="s5ss26">Teagle Foundation</ref>
+        <ref target="s5ss27">National Citizens Committee for Community Relations
           (Civil Rights)</ref>
-        <lb/><ref target="s5ss28">Committee for Corporate Support of American
+        <ref target="s5ss28">Committee for Corporate Support of American
           Universities</ref>
-        <lb/><ref target="s5ss29">Twentieth Century Fund</ref>
-        <lb/><ref target="s5ss30">Association for the Aid of Crippled Children</ref>
-        <lb/><ref target="s5ss31">Corporate Directorships</ref>
-        <lb/><ref target="s5ss32">Treaty Powers, Amendment of</ref>
-        <lb/><ref target="s5ss33">Conference on Indian - American Relations</ref>
-        <lb/><ref target="s5ss34">Other Subject Files</ref>
-        <lb/><ref target="s5ss35">Additional Material</ref>
+        <ref target="s5ss29">Twentieth Century Fund</ref>
+        <ref target="s5ss30">Association for the Aid of Crippled Children</ref>
+        <ref target="s5ss31">Corporate Directorships</ref>
+        <ref target="s5ss32">Treaty Powers, Amendment of</ref>
+        <ref target="s5ss33">Conference on Indian - American Relations</ref>
+        <ref target="s5ss34">Other Subject Files</ref>
+        <ref target="s5ss35">Additional Material</ref>
       </p>      
     
     </arrangement> 
@@ -363,50 +361,50 @@
         </did> 
         <c02 level="file"> 
           <did> 
-            <container type="box">1-2</container> 
+            <container label="unspecified" type="box">1-2</container> 
             <unittitle>Personal</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">78</container> 
+            <container label="unspecified" type="box">78</container> 
             <unittitle>Personal: Photo Albums; Panmonjom, Korea Photo Scrap
               Book, 1953; Mystery Scrap Book</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">79</container> 
+            <container label="unspecified" type="box">79</container> 
             <unittitle>Personal: Photo/Scrap Books, 1959-62</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">80</container> 
+            <container label="unspecified" type="box">80</container> 
             <unittitle>Personal: Photo/Scrap Books, 1961-64</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">81</container> 
+            <container label="unspecified" type="box">81</container> 
             <unittitle>Personal: Photo/Scrap Books, 1961-69</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">82</container> 
+            <container label="unspecified" type="box">82</container> 
             <unittitle>Personal: Proposer - Seconder, 1945-70</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">83</container> 
+            <container label="unspecified" type="box">83</container> 
             <unittitle>Personal: Proposer - Seconder, 1970-80</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">156-158</container> 
+            <container label="unspecified" type="box">156-158</container> 
             <unittitle>Certificates of award, merit, membership, and honorary
               degrees</unittitle> 
           </did> 
@@ -418,13 +416,13 @@
         </did> 
         <c02 level="file"> 
           <did> 
-            <container type="box">3</container> 
+            <container label="unspecified" type="box">3</container> 
             <unittitle>Diaries: 1947-62, 1976-78</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">4</container> 
+            <container label="unspecified" type="box">4</container> 
             <unittitle>Diaries: 1963-65</unittitle> 
           </did> 
         </c02> 
@@ -435,32 +433,32 @@
         </did> 
         <c02 level="file"> 
           <did> 
-            <container type="box">5-9</container> 
+            <container label="unspecified" type="box">5-9</container> 
             <unittitle>Speeches/Articles</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">10</container> 
+            <container label="unspecified" type="box">10</container> 
             <unittitle>Speeches/Articles: Jan. 1933 - Jun. 1952</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">11</container> 
+            <container label="unspecified" type="box">11</container> 
             <unittitle>Speeches/Articles: Jan. 1953 - Jul. 1956; Business
               Income Group Material, 1949-51</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">12</container> 
+            <container label="unspecified" type="box">12</container> 
             <unittitle>Speeches/Articles: Oct. 1956 - Feb. 1962</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">13</container> 
+            <container label="unspecified" type="box">13</container> 
             <unittitle>Speeches/Articles: May 1962 - Jan. 1969</unittitle> 
           </did> 
         </c02> 
@@ -471,28 +469,28 @@
         </did> 
         <c02 level="file"> 
           <did> 
-            <container type="box">14</container> 
+            <container label="unspecified" type="box">14</container> 
             <unittitle>Cornell University: Board of Trustees, 6/45 - 1/64
               </unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">15</container> 
+            <container label="unspecified" type="box">15</container> 
             <unittitle>Cornell University: Board of Trustees, 1/64 -
               12/68</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">16</container> 
+            <container label="unspecified" type="box">16</container> 
             <unittitle>Cornell University: Board of Trustees, 1/69 - 6/70;
               Executive Committee, 7/46 - 12/68</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">17</container> 
+            <container label="unspecified" type="box">17</container> 
             <unittitle>Cornell University: Executive Committee, 12/64 - 12/68;
               Investment Committee, 6/48 - 12/74; Building and Grounds Committee, 6/47 -
               5/68; Acquisition of Country Club Property, 1957 </unittitle> 
@@ -500,7 +498,7 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">18</container> 
+            <container label="unspecified" type="box">18</container> 
             <unittitle>Cornell University: Cornell Dinner, The Links, 12/5/57;
               Olin Library Building Project, 3/50 - 7/66; Building Projects, general
               correspondence 1947 - </unittitle> 
@@ -508,7 +506,7 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">19</container> 
+            <container label="unspecified" type="box">19</container> 
             <unittitle>Cornell University: Building Projects, general
               correspondence 1947 - ; Board of Trustees, committees of the board </unittitle>
             
@@ -516,21 +514,21 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">20</container> 
+            <container label="unspecified" type="box">20</container> 
             <unittitle>Cornell University: Board of Trustees, committees of the
               board</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">21</container> 
+            <container label="unspecified" type="box">21</container> 
             <unittitle>Cornell University: Cornell University Council,
               Centennial Development Program, 1959 - 66</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">22</container> 
+            <container label="unspecified" type="box">22</container> 
             <unittitle>New York Hospital - Cornell Medical Center: Joint
               Administrative Board 1946 - ; Joint Operating Agreement; Agreements of
               Affiliation</unittitle> 
@@ -538,20 +536,20 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">23</container> 
+            <container label="unspecified" type="box">23</container> 
             <unittitle>Cornell University: General Correspondence</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">24</container> 
+            <container label="unspecified" type="box">24</container> 
             <unittitle>Cornell University: Endowment Funds 1945- ; Uses:
               Capital gains, Classification of Funds</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">25</container> 
+            <container label="unspecified" type="box">25</container> 
             <unittitle>Cornell University: Endowment Funds - Uses: Contract
               Dining and Deferred Rushing, 1953-70; Cary Correspondence, 1967-70; 10-year
               Financial Report, 1937-47; 13-year Financial Report, 1937-50; President's
@@ -560,21 +558,21 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">26</container> 
+            <container label="unspecified" type="box">26</container> 
             <unittitle>Cornell University: Aeronautical Laboratory; Ad Hoc
               Committee on CAL, 1946-68; Sale of CAL, 1972; Lefkowitz v. Cornell</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">27</container> 
+            <container label="unspecified" type="box">27</container> 
             <unittitle>Cornell University: Campus Unrest, 1969; City Council -
               non-discrimination in Medical College, 1946</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">28</container> 
+            <container label="unspecified" type="box">28</container> 
             <unittitle>Cornell University: Greater New York Committee, 1946-51;
               General Correspondence, 1951 - ; Development Program, 1965 - ; Alumni
               Association; Common Market Conference Council, 1962-63</unittitle> 
@@ -582,14 +580,14 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">29</container> 
+            <container label="unspecified" type="box">29</container> 
             <unittitle>Cornell University: By-Laws Relating to
               Cornell</unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">30</container> 
+            <container label="unspecified" type="box">30</container> 
             <unittitle>Cornell University: Special Gifts to Cornell and
               Miscellaneous Will Provisions, 1949- ; Alumni News, President Reports, and
               Associated Financial Material</unittitle> 
@@ -597,14 +595,14 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">31</container> 
+            <container label="unspecified" type="box">31</container> 
             <unittitle>Cornell University: Gifts; Financial Committee Budgets
               </unittitle> 
           </did> 
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">140</container> 
+            <container label="unspecified" type="box">140</container> 
             <unittitle>Committee for Corporate Support of American
               Universities: Bound reports; Higher Education for American Democracy; Harvard
               University Center for International Affairs; Medical Education (CU Medical,
@@ -614,7 +612,7 @@
         </c02> 
         <c02 level="file"> 
           <did> 
-            <container type="box">141</container> 
+            <container label="unspecified" type="box">141</container> 
             <unittitle>Cornell Medical Center, N.Y.</unittitle> 
           </did> 
         </c02> 
@@ -629,35 +627,35 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">32</container> 
+              <container label="unspecified" type="box">32</container> 
               <unittitle>Nuclear Test Ban Negotiations: Press clippings,
                 12/1/58 - 4/26/62</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">33</container> 
+              <container label="unspecified" type="box">33</container> 
               <unittitle>Nuclear Test Ban Negotiations: Press clippings,
                 4/27/62 - 9/1/63</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">34</container> 
+              <container label="unspecified" type="box">34</container> 
               <unittitle>Nuclear Test Ban Negotiations: Press clippings,
                 9/17/63 - 5/15/64</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">35</container> 
+              <container label="unspecified" type="box">35</container> 
               <unittitle>Nuclear Test Ban Negotiations: Press clippings,
                 5/18/64 - 1/25/65</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">36</container> 
+              <container label="unspecified" type="box">36</container> 
               <unittitle>Nantucket Island Sound Trust Bill (Kennedy Bill):
                 Transcripts of Proceedings (Senate Hearing)</unittitle> 
             </did> 
@@ -671,42 +669,42 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">37</container> 
+              <container label="unspecified" type="box">37</container> 
               <unittitle>Nuclear Test Ban Negotiations: Press clippings,
                 1/26/65 - 4/29/66</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">43</container> 
+              <container label="unspecified" type="box">43</container> 
               <unittitle>Nuclear Test Ban Negotiations: Press clippings, 1/4/67
                 - 11/5/69; 18-Nation Disarmament Conference </unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">45</container> 
+              <container label="unspecified" type="box">45</container> 
               <unittitle>Fund For a Peaceful Atomic Development, Inc., 1954-66;
                 Fund for the Republic, Inc., 1953-55 </unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">46</container> 
+              <container label="unspecified" type="box">46</container> 
               <unittitle>Nuclear Test Ban Negotiations: Correspondence,
                 1960-69; Clippings, 1970-73; Crank Letters</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">47</container> 
+              <container label="unspecified" type="box">47</container> 
               <unittitle>Nuclear Test Ban Negotiations: Treaty Manuscripts;
                 Outside material</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">48</container> 
+              <container label="unspecified" type="box">48</container> 
               <unittitle>Nuclear Test Ban Negotiations, 1961-62;
                 Correspondence, 1970-73; Educational Committee to Halt Nuclear Weapons Spread,
                 1969-71; Committee to Maintain a Prudent Defense Policy, (ABM Debate)
@@ -720,7 +718,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">38</container> 
+              <container label="unspecified" type="box">38</container> 
               <unittitle>Disarmament Reports: Conference of the Committee on
                 Disarmament; Final Records of Conference of the Committee on Disarmament
                 (records of meetings are numbered)</unittitle> 
@@ -728,7 +726,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">39</container> 
+              <container label="unspecified" type="box">39</container> 
               <unittitle>Disarmament Reports: Conference of the Committee on
                 Disarmament; Final Records of Conference of the Committee on Disarmament
                 (records of meetings are numbered); The Nature of Radioactive Fallout and its
@@ -737,7 +735,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">40</container> 
+              <container label="unspecified" type="box">40</container> 
               <unittitle>Disarmament Subject Files: Aggression; Anti-Ballistic
                 Missiles; Communist China and Arms Control; Military Balance and National
                 Security; On-Site Inspection; Peacekeeping Proposals; Production of Fissionable
@@ -746,7 +744,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">41</container> 
+              <container label="unspecified" type="box">41</container> 
               <unittitle>Arthur Dean Disarmament Book: Correspondence; Letters
                 of Comment; Reviews; Manuscripts/Drafts, 1963-64; 1 copy each, Spanish and
                 English</unittitle> 
@@ -754,14 +752,14 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">42</container> 
+              <container label="unspecified" type="box">42</container> 
               <unittitle>Arthur Dean Disarmament Book: Manuscripts 1965;
                 Nuclear Test Ban Negotiations; Press clippings, 5/2/66 - 12/22/66</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">44</container> 
+              <container label="unspecified" type="box">44</container> 
               <unittitle>Disarmament Subject Files: Nuclear Proliferation;
                 Strategic Arms Limitation Talks (SALT); Space Treaty; Underground Test
                 Detection</unittitle> 
@@ -769,7 +767,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">49</container> 
+              <container label="unspecified" type="box">49</container> 
               <unittitle>Disarmament: Disarmament Conference, clippings;
                 Personal File - Geneva; Nuclear Test Ban Negotiations; Cooper Resolution;
                 Commitments to Foreign Powers, 1967</unittitle> 
@@ -782,14 +780,14 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">50</container> 
+              <container label="unspecified" type="box">50</container> 
               <unittitle>American Institute of Pacific Relations: Communist
                 Allegations, 1945-57; Fund Raising; Minutes of Board of Trustees</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">51</container> 
+              <container label="unspecified" type="box">51</container> 
               <unittitle>American Institute of Pacific Relations: General;
                 Executive Committee; Board of Trustees; McCarran Committee Hearings,
                 1942-55</unittitle> 
@@ -803,7 +801,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">52</container> 
+              <container label="unspecified" type="box">52</container> 
               <unittitle>Committee for an Effective and Durable Peace in Asia:
                 Correspondence, 1965-70; New York Times Advertisement, 1965; Form Letters and
                 Lists of Responses; Coupon Responses, Aa - Az</unittitle> 
@@ -811,14 +809,14 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">53</container> 
+              <container label="unspecified" type="box">53</container> 
               <unittitle>Committee for an Effective and Durable Peace in Asia:
                 Coupon Responses, B - S</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">54</container> 
+              <container label="unspecified" type="box">54</container> 
               <unittitle>Committee for an Effective and Durable Peace in Asia:
                 Coupon Responses, T - Z; Fund Raising Correspondence; Financial and Tax
                 Records, 1965-70</unittitle> 
@@ -831,14 +829,14 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">55</container> 
+              <container label="unspecified" type="box">55</container> 
               <unittitle>Korea: Press clippings and reference material gathered
                 for 1968 speech.</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">56</container> 
+              <container label="unspecified" type="box">56</container> 
               <unittitle>Korea: 1953 and following</unittitle> 
             </did> 
           </c03> 
@@ -849,7 +847,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">57</container> 
+              <container label="unspecified" type="box">57</container> 
               <unittitle>The Japan Society, Inc., 1948-74</unittitle> 
             </did> 
           </c03> 
@@ -860,19 +858,19 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">58</container> 
+              <container label="unspecified" type="box">58</container> 
               <unittitle>Asia Society: 1956-71</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">59</container> 
+              <container label="unspecified" type="box">59</container> 
               <unittitle>Asia Society: 1971-74</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">60</container> 
+              <container label="unspecified" type="box">60</container> 
               <unittitle>Asia Society: Barnet/Raskin Manuscripts; Blum
                 Manuscript; Young Manuscript; Dulles Manuscript</unittitle> 
             </did> 
@@ -884,13 +882,13 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">60</container> 
+              <container label="unspecified" type="box">60</container> 
               <unittitle>Asia Foundation: 1974-75</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">61</container> 
+              <container label="unspecified" type="box">61</container> 
               <unittitle>Asia Foundation: 1954-70</unittitle> 
             </did> 
           </c03> 
@@ -902,32 +900,32 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">62</container> 
+              <container label="unspecified" type="box">62</container> 
               <unittitle>APPI: General Papers, 1958-62</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">63</container> 
+              <container label="unspecified" type="box">63</container> 
               <unittitle>APPI: General Papers, 1962-66</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">64</container> 
+              <container label="unspecified" type="box">64</container> 
               <unittitle>APPI: General Papers, 1966-74; Stikker Report; LaBrea
                 y Perinas Papers, 1964-69</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">65</container> 
+              <container label="unspecified" type="box">65</container> 
               <unittitle>APPI: Correspondence, 1958-76</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">66</container> 
+              <container label="unspecified" type="box">66</container> 
               <unittitle>APPI: Committee for Effective Use of International
                 Court by Repeal of Self-Judging Reservation, (Connally Amendment) 1960-66;
                 National Committee for International Development, (Foreign Aid) 1965-66; The
@@ -941,14 +939,14 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">67</container> 
+              <container label="unspecified" type="box">67</container> 
               <unittitle>Council on Foreign Relations, Inc.: Board of
                 Directors, 1955-75</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">68</container> 
+              <container label="unspecified" type="box">68</container> 
               <unittitle>Council on Foreign Relations, Inc.: General, 1937-73;
                 Directors Policy Group, 1960; William Bundy Appointment as Editor of Foreign
                 Affairs, 1971; Grand jury Subpoena for Ellsberg Paper, 1971; Foreign Affairs -
@@ -958,7 +956,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">69</container> 
+              <container label="unspecified" type="box">69</container> 
               <unittitle>Council on Foreign Relations, Inc.: Norwegian Nobel
                 Institute Conference on Western Democracies and World Problem; Committee on
                 Membership, 1956-73 </unittitle> 
@@ -966,7 +964,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">70</container> 
+              <container label="unspecified" type="box">70</container> 
               <unittitle>Council on Foreign Relations, Inc. Discussion and
                 Study Groups: Security Agreements in the Far East, 1956-60; Russian Group,
                 1945-48; Draft General Report on Soviet-American Relations, 1952-59;
@@ -975,7 +973,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">71</container> 
+              <container label="unspecified" type="box">71</container> 
               <unittitle>Council on Foreign Relations, Inc. Discussion and
                 Study Groups: German Unity, 1952; France, 1945; Poland, 1945; Western Europe,
                 1945-57; Argentina, Brazil, and Mexico, 1944-45; Southern Africa: The Place of
@@ -991,7 +989,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">72</container> 
+              <container label="unspecified" type="box">72</container> 
               <unittitle>Council on Foreign Relations, Inc. Discussion and
                 Study Groups: American Policy in Middle East, 1951-56; Neutralism in Asia,
                 1957-58; Southeast Asia as a Focus of World Politics, 1966-67; Conference on
@@ -1001,7 +999,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">73</container> 
+              <container label="unspecified" type="box">73</container> 
               <unittitle>Council on Foreign Relations, Inc. Discussion and
                 Study Groups and Steering Committee: Far Eastern Affairs - American Policy in
                 the Far East (China, Japan, Korea, etc.) 1945-51; American Chinese Group, 1944;
@@ -1018,7 +1016,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">74</container> 
+              <container label="unspecified" type="box">74</container> 
               <unittitle>President Lyndon B. Johnson's Panel of Consultants on
                 Foreign Affairs: Correspondence, 1964-69; General Papers on: Communist China;
                 India-Pakistan; NATO; U.S.S.R.; Vietnam</unittitle> 
@@ -1031,7 +1029,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">75</container> 
+              <container label="unspecified" type="box">75</container> 
               <unittitle>The English-Speaking Union of the United States:
                 Correspondence, 1959-66; Minutes, 1959-74 </unittitle> 
             </did> 
@@ -1043,13 +1041,13 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">76</container> 
+              <container label="unspecified" type="box">76</container> 
               <unittitle>Bilderberg: 1962-68</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">77</container> 
+              <container label="unspecified" type="box">77</container> 
               <unittitle>Bilderberg: 1968-80; American Friends of Bilderberg,
                 Inc., 1973-79 </unittitle> 
             </did> 
@@ -1062,42 +1060,42 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">84</container> 
+              <container label="unspecified" type="box">84</container> 
               <unittitle>Department of State Advisory Panel: International Law,
                 1970-73 Law of the Sea, 1970-76</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">85</container> 
+              <container label="unspecified" type="box">85</container> 
               <unittitle>Law of the Sea: Correspondence and Documents on U.N.
                 Conference on Law of the Sea, 1958 and 1960</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">86</container> 
+              <container label="unspecified" type="box">86</container> 
               <unittitle>Law Of the Sea: Third United Nations, Conference on
                 Law of the Sea, Session at Caracas, Venezuela, 1974</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">87</container> 
+              <container label="unspecified" type="box">87</container> 
               <unittitle>Law of the Sea: Far East Trip, 1960; Correspondence
                 and Documents, 1961-69; Oil and Gas Documents, 1965</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">88</container> 
+              <container label="unspecified" type="box">88</container> 
               <unittitle>Department of State Advisory Panel: Law of the Sea,
                 1970-76</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">89</container> 
+              <container label="unspecified" type="box">89</container> 
               <unittitle>Law of the Sea: Maps, 1958 Conference</unittitle> 
             </did> 
           </c03> 
@@ -1109,14 +1107,14 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">90</container> 
+              <container label="unspecified" type="box">90</container> 
               <unittitle>State University of New York Board of Trustees,
                 1949-53 </unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">91</container> 
+              <container label="unspecified" type="box">91</container> 
               <unittitle>State University of New York Board of Trustees:
                 Committee on Medical Education Centers, 1950; Minutes, 1948-52; Budgets,
                 1951-53</unittitle> 
@@ -1129,7 +1127,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">92</container> 
+              <container label="unspecified" type="box">92</container> 
               <unittitle>Recovery, (World War II): Documents re Foreign Assets
                 Control, including White Paper and Reports on Dutch Economy; Federal Reserve
                 Regulations re Defense Production, etc.; Reconstruction Finance Corporation
@@ -1140,7 +1138,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">93</container> 
+              <container label="unspecified" type="box">93</container> 
               <unittitle>Recovery (World War II): Neutrality Act of 1939;
                 Renegotiation of War Contracts; Hearings on Manpower, 1942-43; Reports and
                 Hearings on Mobilization and Postwar Economics; Hearings on Extension of
@@ -1150,13 +1148,13 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">94</container> 
+              <container label="unspecified" type="box">94</container> 
               <unittitle>Recovery (World War II): Bound material</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">111</container> 
+              <container label="unspecified" type="box">111</container> 
               <unittitle>European Recovery: Bound Material</unittitle> 
             </did> 
           </c03> 
@@ -1168,14 +1166,14 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">95</container> 
+              <container label="unspecified" type="box">95</container> 
               <unittitle>United Nations Association of the U.S.A.: General,
                 1964-75; International Cooperation year</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">96</container> 
+              <container label="unspecified" type="box">96</container> 
               <unittitle>United Nations Association of the U.S.A.: China Panel,
                 1966-67; Pamphlets</unittitle> 
             </did> 
@@ -1187,14 +1185,14 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">97</container> 
+              <container label="unspecified" type="box">97</container> 
               <unittitle>White House: Arms Control and Disarmament Agency;
                 Atomic Energy Commission; LOS Document Log</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">98</container> 
+              <container label="unspecified" type="box">98</container> 
               <unittitle>White House</unittitle> 
             </did> 
           </c03> 
@@ -1205,21 +1203,21 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">99</container> 
+              <container label="unspecified" type="box">99</container> 
               <unittitle>Nantucket Sound Trust-Bill: Related Legislation;
                 Correspondence; Newspaper Clippings; Maps</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">100</container> 
+              <container label="unspecified" type="box">100</container> 
               <unittitle>Nantucket Sound Trust-Bill: Legislative History
                 Correspondence</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">123</container> 
+              <container label="unspecified" type="box">123</container> 
               <unittitle>Nantucket Sound Trust Bill: Planting Fields
                 Foundation, 1964 - 79</unittitle> 
             </did> 
@@ -1237,13 +1235,13 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">101</container> 
+              <container label="unspecified" type="box">101</container> 
               <unittitle>Special and Standing Committees of American Bar
                 Association: Standing Committee on Education Against Communism, 1966-67 (Dean
                 not a member); Advisory Committee to Cooperate With the World Peace Through Law
-                Center, 1969<lb/> ABA Sections: Section of Antitrust Law, 1951-67; Section of
+                Center, 1969 ABA Sections: Section of Antitrust Law, 1951-67; Section of
                 Public Utility Law, 1951-59; Section of Corporation, Banking, and Business Law:
-                Committee on Money, Credit, and Monetary; Policy (Dean Chairman) 1960-63<lb/>
+                Committee on Money, Credit, and Monetary; Policy (Dean Chairman) 1960-63
                 Section of International and Comparative Law, including: General - 1946-67;
                 Council - 1954-58; Special Committee to Study the Council: Dirksen Bill, 1955;
                 Membership Committee, 1958-59; Special Committee on Cooperation with Legal
@@ -1255,7 +1253,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">102</container> 
+              <container label="unspecified" type="box">102</container> 
               <unittitle>American Bar Association Meetings for which Dean was a
                 Member of House of Delegates: Union International Des Avocats - Paris, July
                 15-20, 1956; 1956 Annual Meeting, Dallas, Texas; 1956 Mid-Year Meeting,
@@ -1268,7 +1266,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">103</container> 
+              <container label="unspecified" type="box">103</container> 
               <unittitle> Special and Standing Committees of the American Bar
                 Association: Committee on Judicial Salaries, 1944-45; Association and Advisory
                 Committee to the 1955-56 Standing committee of Public Relations, 1956-60;
@@ -1279,7 +1277,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">105</container> 
+              <container label="unspecified" type="box">105</container> 
               <unittitle>American Bar Association: General, 1956-75; Space Law
                 Advisory Committee, 1964-70</unittitle> 
             </did> 
@@ -1291,14 +1289,14 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">104</container> 
+              <container label="unspecified" type="box">104</container> 
               <unittitle>New York State Bar Association: Committee on
                 Corporation Law, 1939-43</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">105</container> 
+              <container label="unspecified" type="box">105</container> 
               <unittitle>New York State Bar Association: Antitrust Section:
                 Committee on Sherman Law, 1950-56; Banking Law Section, 1952-64; Committee on
                 Federal Constitution, 1956-64; Committee on Amendment to Federal Constitution,
@@ -1307,14 +1305,14 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">106</container> 
+              <container label="unspecified" type="box">106</container> 
               <unittitle>New York State Bar Association: Committee on
                 Corporation Law, 1944-51</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">107</container> 
+              <container label="unspecified" type="box">107</container> 
               <unittitle>New York State Bar Association: Committee on
                 Corporation Law, 1951-54; Committee on Federal Legislation, 1943-44</unittitle>
               
@@ -1327,19 +1325,19 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">108</container> 
+              <container label="unspecified" type="box">108</container> 
               <unittitle>Association of the Bar of the City of New York:
-                General, 1946-68<lb/> American Judicature Society: General, 1956-64<lb/>
+                General, 1946-68 American Judicature Society: General, 1956-64
                 American Society of International Law: General, 1955-64; Executive Committee,
                 1956-75; Consultative Committee, 1960-61; Committee on Financing and Endowment,
-                1959-72<lb/> Inter-American Bar Association: General, 1960-65<lb/>
+                1959-72 Inter-American Bar Association: General, 1960-65
                 International Law Association: General, 1946-64; Fund Raising for 55th
                 Conference, New York, 1972</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">109</container> 
+              <container label="unspecified" type="box">109</container> 
               <unittitle>Association of the Bar of the City of New York:
                 Committee on Federal Legislation, 1943-50; Executive Committee, 1945-47;
                 Solicitation Of Funds for Committee in Defense of Constitution (Bricker
@@ -1350,7 +1348,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">110</container> 
+              <container label="unspecified" type="box">110</container> 
               <unittitle>Association of the Bar of the City of New York:
                 Committee on Federal Legislation, 1938-43</unittitle> 
             </did> 
@@ -1362,7 +1360,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">112</container> 
+              <container label="unspecified" type="box">112</container> 
               <unittitle>American Law Institute: General, 1955-75; Private
                 Corporate Law, 1949; Investment Committee, 1968-73</unittitle> 
             </did> 
@@ -1375,28 +1373,28 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">113</container> 
+              <container label="unspecified" type="box">113</container> 
               <unittitle>Lawyers Committee for Civil Rights Under Law:
                 Mississippi Project, 1965-74; General, 1972-75</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">114</container> 
+              <container label="unspecified" type="box">114</container> 
               <unittitle>Lawyers Committee for Civil Rights Under Law: Israel
                 Correspondence</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">115</container> 
+              <container label="unspecified" type="box">115</container> 
               <unittitle>Lawyers Committee for Civil Rights Under Law: General,
                 1963-68</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">116</container> 
+              <container label="unspecified" type="box">116</container> 
               <unittitle>Lawyers Committee for Civil Rights Under Law: General,
                 1968-71</unittitle> 
             </did> 
@@ -1408,59 +1406,59 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">117-122</container> 
+              <container label="unspecified" type="box">117-122</container> 
               <unittitle>U.S. v Stanley Morgan et al.</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">124125</container> 
+              <container label="unspecified" type="box">124125</container> 
               <unittitle>Sullivan and Cromwell: Bound briefs and case
                 material</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">126-128</container> 
+              <container label="unspecified" type="box">126-128</container> 
               <unittitle>El Paso: Bound briefs and case material</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">129-130</container> 
+              <container label="unspecified" type="box">129-130</container> 
               <unittitle>Standard Oil: Bound briefs and case
                 material</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">149-150</container> 
+              <container label="unspecified" type="box">149-150</container> 
               <unittitle>Sullivan and Cromwell: Bound briefs and case
                 material</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">151</container> 
+              <container label="unspecified" type="box">151</container> 
               <unittitle>Sullivan and Cromwell: Petroleum (anti-trust);
                 O'Mahoney Reports (anti-trust)</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">152</container> 
+              <container label="unspecified" type="box">152</container> 
               <unittitle>Sullivan and Cromwell: Anti-trust</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">153</container> 
+              <container label="unspecified" type="box">153</container> 
               <unittitle>Corporate Re-Organization</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">154</container> 
+              <container label="unspecified" type="box">154</container> 
               <unittitle>Kennecott vs. Federal Trade Commission</unittitle> 
             </did> 
           </c03> 
@@ -1471,7 +1469,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">133</container> 
+              <container label="unspecified" type="box">133</container> 
               <unittitle>Teagle Foundation, Inc: 1963 - 1980</unittitle> 
             </did> 
           </c03> 
@@ -1483,14 +1481,14 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">134</container> 
+              <container label="unspecified" type="box">134</container> 
               <unittitle>Civil Rights: National Citizens Committee for
                 Community Relations (Dean was Chairman) 1964 - 67</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">135</container> 
+              <container label="unspecified" type="box">135</container> 
               <unittitle>Civil Rights: 1964 - 67</unittitle> 
             </did> 
           </c03> 
@@ -1502,7 +1500,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">136</container> 
+              <container label="unspecified" type="box">136</container> 
               <unittitle>Committee For Corporate Support of American
                 Universities: (formerly, Informal Advisory Committee on Corporate Aid to Higher
                 Education, a program for Harvard College) 1957 - 68</unittitle> 
@@ -1510,14 +1508,14 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">137</container> 
+              <container label="unspecified" type="box">137</container> 
               <unittitle>Committee for Corporate Support of American
                 Universities: 1969 - 74</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">138</container> 
+              <container label="unspecified" type="box">138</container> 
               <unittitle>Committee for Corporate Support of American
                 Universities: Committee Brochures, 1959 - 71; Minutes of Meetings, 1966 -
                 72</unittitle> 
@@ -1530,7 +1528,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">142</container> 
+              <container label="unspecified" type="box">142</container> 
               <unittitle>20th Century Fund: Arthur Dean, Chairman of Committee
                 on Economic Needs of Older People</unittitle> 
             </did> 
@@ -1543,7 +1541,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">143</container> 
+              <container label="unspecified" type="box">143</container> 
               <unittitle>Association for the Aid of Crippled Children: (later,
                 Foundation for Child Development) 1948 - 1975 </unittitle> 
             </did> 
@@ -1555,7 +1553,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">145</container> 
+              <container label="unspecified" type="box">145</container> 
               <unittitle>Corporate Directorships: Dean's Directorships listed A
                 - Z</unittitle> 
             </did> 
@@ -1567,7 +1565,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">147</container> 
+              <container label="unspecified" type="box">147</container> 
               <unittitle>Treaty Powers, Amendment of</unittitle> 
             </did> 
           </c03> 
@@ -1578,7 +1576,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">148</container> 
+              <container label="unspecified" type="box">148</container> 
               <unittitle>Conference on Indian - American Relations</unittitle> 
             </did> 
           </c03> 
@@ -1589,7 +1587,7 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">131</container> 
+              <container label="unspecified" type="box">131</container> 
               <unittitle>Subject Files: Allen W. Dulles, 1953 - 69; American
                 Academy of Arts and Sciences, 1963 - 65; American College of Trial Lawyers,
                 1955 - 64; Dinner Party Group, 1955 - 60; Hampton Institute, Centennial Fund,
@@ -1600,14 +1598,14 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">132</container> 
+              <container label="unspecified" type="box">132</container> 
               <unittitle>Business Income Study Group: Dean speeches; Study
                 Group Report; Correspondence 1948 - 52</unittitle> 
             </did> 
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">139</container> 
+              <container label="unspecified" type="box">139</container> 
               <unittitle>Subject Files: Advisory Committee of Federal
                 Government and Higher Education, 1960 - 61; American Council of Learned
                 Societies, 1963 - 67; Communism in Education Committee, 1953; Educational
@@ -1619,7 +1617,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">144</container> 
+              <container label="unspecified" type="box">144</container> 
               <unittitle>Subject Files: International Chamber of Commerce,
                 Inc., 1963 - 74; Pilgrims of the United States, 1956 - 77; Navy League of the
                 United States, 1964; St. John of Jerusalem, American Society of the Most
@@ -1629,7 +1627,7 @@
           </c03> 
           <c03 level="file"> 
             <did> 
-              <container type="box">146</container> 
+              <container label="unspecified" type="box">146</container> 
               <unittitle>Subject Files: American Metals; Barkley Bill; Changing
                 Non-redeemable Preferred Stock into Redeemable Stock; Securities Exchange
                 Committee; Shields Plan, (rights offerings)</unittitle> 
@@ -1642,12 +1640,16 @@
           </did> 
           <c03 level="file"> 
             <did> 
-              <container type="box">155</container> 
+              <container label="unspecified" type="box">155</container> 
               <unittitle>Additional Material</unittitle> 
             </did> 
           </c03> 
         </c02> 
       </c01> 
     </dsc> 
-  </archdesc>
+  <prefercite> 
+        <head>Cite As:</head> 
+        <p>Arthur H. Dean papers, #4100. Division of Rare and Manuscript
+          Collections, Cornell University Library.</p> 
+      </prefercite></archdesc>
 </ead>

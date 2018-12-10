@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM00128::Guide to the Marshall family papers)//EN">RMM00128</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM00128::Guide to the Marshall family papers)//EN">RMM00128</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Marshall family papers,
@@ -26,19 +26,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>March 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Marshall Family Papers,<lb/><date type="inclusive" encodinganalog="245$f">1849-1898.</date></titleproper>
+			<titleproper>Guide to the Marshall Family Papers,<date encodinganalog="245$f" type="inclusive">1849-1898.</date></titleproper>
 			<num>Collection Number: 128</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -64,14 +70,13 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">Marshall family papers, <unitdate encodinganalog="MARC 245" type="inclusive">1849-1898.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">Marshall family papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1849-1898.</unitdate>
 			<unitid label="Collection Number:">128</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="100" normal="Marshall family.   ">Marshall family.
 				</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>.3 cubic ft.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>.3 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Correspondence and manuscripts.</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -126,19 +131,12 @@
 				<genreform encodinganalog="MARC 655" source="aat">Genealogies.</genreform>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>Marshall family papers, #128. Division of Rare and Manuscript Collections,
-					Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="file">
 				<did>
-					<container type="volume">a</container>
+					<container label="unspecified" type="volume">a</container>
 					<unitdate>February 6, 1849</unitdate>
 					<unittitle>First "Book of Marshalls" of Edward C. Marshall</unittitle>
 				</did>
@@ -154,8 +152,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="volume">b</container>
-					<unitdate/>
+					<container label="unspecified" type="volume">b</container>
+					
 					<unittitle>Second Book of Marshall</unittitle>
 				</did>
 				<scopecontent>
@@ -168,8 +166,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="volume">c</container>
-					<unitdate/>
+					<container label="unspecified" type="volume">c</container>
+					
 					<unittitle>Genealogical book of Edward C. Marshall</unittitle>
 				</did>
 				<scopecontent>
@@ -181,7 +179,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="volume">d</container>
+					<container label="unspecified" type="volume">d</container>
 					<unitdate>1891</unitdate>
 					<unittitle>Genealogical facts compiled by Adeline L. Marshall, Macoa, New
 						York</unittitle>
@@ -193,8 +191,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">e</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">e</container>
+					<container label="unspecified" type="folder">1</container>
 					<unitdate>1892</unitdate>
 					<unittitle>Letters of Anna Marshall Bellows of Gloversville, daughter of Hon.
 						L.T. Marshall born Vernon New York, 1808, son of Levi (Harvey) Marshall of
@@ -203,8 +201,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">e</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">e</container>
+					<container label="unspecified" type="folder">2</container>
 					<unitdate>January 9-May 15, 1893</unitdate>
 					<unittitle>Letters of Anna Marshall Bellows, Mrs. Morris Cushman, Mrs. Nellie B.
 						Parkinson; sketch of Levi T. Marshall by son J.A. Marshall. </unittitle>
@@ -212,34 +210,34 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">e</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">e</container>
+					<container label="unspecified" type="folder">3</container>
 					<unitdate>August 16-December 21, 1893</unitdate>
 					<unittitle>Letters from D.M. Marshall, Forestport, New York recording
 						activities, character and descendants of Morgan Lewis Marshall; from Edward
 						D. Griswald.</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 
 			<c01 level="file">
 				<did>
-					<container type="box">e</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">e</container>
+					<container label="unspecified" type="folder">4</container>
 					<unitdate>March 19-November 12, 1894</unitdate>
 					<unittitle>Letters of Anna Marshall Bellows and Nellie Parkinson</unittitle>
 				</did>
 				<scopecontent>
-					<p/>
+					
 				</scopecontent>
 			</c01>
 
 			<c01 level="file">
 				<did>
-					<container type="box">e</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">e</container>
+					<container label="unspecified" type="folder">5</container>
 					<unitdate>1895-1898</unitdate>
 					<unittitle>Letters concerning David Heacock; letters of Anna Marshall Bellows
 						from Washington, Georgis; from Seth Marshall, San Bernadino, California;
@@ -249,9 +247,9 @@
 
 			<c01 level="file">
 				<did>
-					<container type="box">e</container>
-					<container type="folder">6</container>
-					<unitdate/>
+					<container label="unspecified" type="box">e</container>
+					<container label="unspecified" type="folder">6</container>
+					
 					<unittitle>Leaves from an old note book on Marshalls of Leyden, Holland and
 						Kioke, Georgia and Baptist history. Notes on Nathan Higley family -
 						descendent of Mrs. T.E. Bird, Cedar Rapids, Nebraska. Horace Higley on
@@ -260,5 +258,9 @@
 				</did>
 			</c01>
 		</dsc>
-	</archdesc>
+	<prefercite>
+				<head>Cite As:</head>
+				<p>Marshall family papers, #128. Division of Rare and Manuscript Collections,
+					Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

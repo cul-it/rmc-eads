@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM00753::Simon Newton Dexter papers)//EN">RMM00753</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM00753::Simon Newton Dexter papers)//EN">RMM00753</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Simon Newton Dexter papers, 1785-1862.</titleproper>
@@ -33,6 +32,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -41,19 +46,19 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Simon Newton Dexter Papers,<lb/>1785-1862</titleproper>
+         <titleproper>Guide to the Simon Newton Dexter Papers,1785-1862</titleproper>
          <num>Collection Number: 753</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -78,8 +83,7 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Simon Newton Dexter papers, <unitdate type="inclusive" encodinganalog="MARC 245">1785-1862.</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Simon Newton Dexter papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1785-1862.</unitdate>
          <unitid label="Collection Number:">753</unitid>
          <origination label="Creator:">
 
@@ -87,7 +91,9 @@
                Dexter.</persname>
 
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>12.8 cubic ft; 9 v.; 4 rolls
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>1 collection</extent>
+
+<extent>12.8 cubic ft; 9 v.; 4 rolls
             microfilm.</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, accounts, orders, receipts, notes,
             contracts, and other papers.</physdesc>
@@ -99,7 +105,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>Merchant, banker, Erie Canal commissioner, and cotton and woolen manufacturer.</p>
       </bioghist>
       <scopecontent encodinganalog="MARC 520">
@@ -260,19 +266,12 @@
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Account books.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Accounts.</genreform>
-            <genreform source="aat" encodinganalog="MARC 655">Receipts.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Account books.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Accounts.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Receipts.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Simon Newton Dexter papers, #753. Division of Rare and Manuscript Collections,
-               Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="series">
@@ -288,297 +287,221 @@
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">1</container>
-               <unittitle>
-
-                  <unitdate>1793-1807</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">1</container>
+               <unitdate>1793-1807</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">2</container>
-               <unittitle>
-
-                  <unitdate>1808-1818</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">2</container>
+               <unitdate>1808-1818</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">3</container>
-               <unittitle>
-
-                  <unitdate>1819-1820</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">3</container>
+               <unitdate>1819-1820</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">5</container>
-               <unittitle>
-
-                  <unitdate>1821</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">5</container>
+               <unitdate>1821</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">4</container>
-               <unittitle>
-
-                  <unitdate>1822-Oct. 1823</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">4</container>
+               <unitdate>1822-Oct. 1823</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">23</container>
+               <container label="unspecified" type="box">23</container>
                <unittitle>
-                  <unitdate>1841-1870</unitdate> , printed material (see list in accession
-                  folder)</unittitle>
+                  1841-1870 , printed material (see list in accession
+                  folder)</unittitle><unitdate>1841-1870</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">6</container>
-               <unittitle>
-
-                  <unitdate>Nov. 1823-1824</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">6</container>
+               <unitdate>Nov. 1823-1824</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">7</container>
-               <unittitle>
-
-                  <unitdate>1825-1826</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">7</container>
+               <unitdate>1825-1826</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">8</container>
-               <unittitle>
-
-                  <unitdate>1827-1828</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">8</container>
+               <unitdate>1827-1828</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">9</container>
-               <unittitle>
-
-                  <unitdate>1828-1831</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">9</container>
+               <unitdate>1828-1831</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">10</container>
-               <unittitle>
-
-                  <unitdate>1832-1838</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">10</container>
+               <unitdate>1832-1838</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">11</container>
-               <unittitle>
-
-                  <unitdate>1839</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">11</container>
+               <unitdate>1839</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">12</container>
-               <unittitle>
-
-                  <unitdate>1840</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">12</container>
+               <unitdate>1840</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">13</container>
-               <unittitle>
-
-                  <unitdate>1841</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">13</container>
+               <unitdate>1841</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">14</container>
-               <unittitle>
-
-                  <unitdate>1842-1845</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">14</container>
+               <unitdate>1842-1845</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">15</container>
-               <unittitle>
-
-                  <unitdate>1846-1848</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">15</container>
+               <unitdate>1846-1848</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">16</container>
-               <unittitle>
-
-                  <unitdate>1849-1850</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">16</container>
+               <unitdate>1849-1850</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">17</container>
-               <unittitle>
-
-                  <unitdate>1851-1853</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">17</container>
+               <unitdate>1851-1853</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">18</container>
-               <unittitle>
-
-                  <unitdate>1854</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">18</container>
+               <unitdate>1854</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">19</container>
-               <unittitle>
-
-                  <unitdate>1855-1856</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">19</container>
+               <unitdate>1855-1856</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">20</container>
-               <unittitle>
-
-                  <unitdate>1857-1859</unitdate>
-
-               </unittitle>
+               <container label="unspecified" type="box">20</container>
+               <unitdate>1857-1859</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">21</container>
+               <container label="unspecified" type="box">21</container>
                <unittitle>
-                  <unitdate>1860-1905</unitdate> , incomplete</unittitle>
+                  1860-1905 , incomplete</unittitle><unitdate>1860-1905</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">22</container>
+               <container label="unspecified" type="box">22</container>
                <unittitle>Undated</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">24</container>
+               <container label="unspecified" type="box">24</container>
                <unittitle>Periodicals</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">25</container>
+               <container label="unspecified" type="box">25</container>
                <unittitle>Pamphlets</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">26</container>
+               <container label="unspecified" type="box">26</container>
                <unittitle>Account books, bank books, two receipt books for contracts in connection
-                  with work on the enlargement of the Erie Canal, <unitdate>Feb.1-June 7,
-                     1841</unitdate> and <unitdate>June 7-Sept. 17, 1841 (see accession folder for
+                  with work on the enlargement of the Erie Canal, Feb.1-June 7,
+                     1841 and </unittitle><unitdate>Feb.1-June 7,
+                     1841</unitdate><unitdate>June 7-Sept. 17, 1841 (see accession folder for
                      detailed list)</unitdate>
-               </unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">27</container>
+               <container label="unspecified" type="box">27</container>
                <unittitle>Newspapers and periodicals</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">28</container>
+               <container label="unspecified" type="box">28</container>
                <unittitle>Newspapers and printed material</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">29</container>
+               <container label="unspecified" type="box">29</container>
                <unittitle>Broadsides, maps, music, etc. (see list in accession folder)</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">30</container>
+               <container label="unspecified" type="box">30</container>
                <unittitle>Family photos, news clippings in scrapbook</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">31</container>
+               <container label="unspecified" type="box">31</container>
                <unittitle>Bills, receipts</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="box">32</container>
+               <container label="unspecified" type="box">32</container>
                <unittitle>7 volumes (see list in accession folder)</unittitle>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="reel">1</container>
-               <unittitle>Correspondence, <unitdate>1800-1860</unitdate> , on microfilm
-                  (see list in accession folder)</unittitle>
+               <container label="unspecified" type="reel">1</container>
+               <unittitle>Correspondence, 1800-1860 , on microfilm
+                  (see list in accession folder)</unittitle><unitdate>1800-1860</unitdate>
             </did>
          </c01>
          <c01 level="file">
             <did>
-               <container type="reel">2</container>
-               <unittitle>Correspondence, <unitdate>1800-1860</unitdate> , on microfilm
-                  (see list in accession folder)</unittitle>
+               <container label="unspecified" type="reel">2</container>
+               <unittitle>Correspondence, 1800-1860 , on microfilm
+                  (see list in accession folder)</unittitle><unitdate>1800-1860</unitdate>
             </did>
          </c01>
       </dsc>
-   </archdesc>
+   <prefercite>
+            <head>Cite As:</head>
+            <p>Simon Newton Dexter papers, #753. Division of Rare and Manuscript Collections,
+               Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>

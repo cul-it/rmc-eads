@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06694::Guide to the American Wine Society records, 1967-2003)//EN">RMM06694</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06694::Guide to the American Wine Society records, 1967-2003)//EN">RMM06694</eadid>
 
     <filedesc>
       <titlestmt>
-        <titleproper>Guide to the American Wine Society records, 1967-2003 <date/></titleproper>
+        <titleproper>Guide to the American Wine Society records, 1967-2003 </titleproper>
         <titleproper type="sort">American Wine Society records, 1967-2003</titleproper>
         <author>Compiled by RMC Staff</author>
       </titlestmt>
@@ -25,21 +25,27 @@
     <profiledesc>
       <creation>Finding aid encoded by RMC Staff, <date>June 2011</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the American Wine Society records, 1967-2003<lb/>
-        <date type="inclusive" encodinganalog="245$f"/></titleproper>
+      <titleproper>Guide to the American Wine Society records, 1967-2003
+        </titleproper>
       <num>Collection Number: 6694</num>
-      <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+      <publisher>Division of Rare and Manuscript Collections Cornell University
         Library</publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-            Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
-            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/>
-            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+          <item> Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+            Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
+            <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
+            <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 
         </defitem>
         <defitem>
@@ -65,10 +71,9 @@
   <archdesc level="collection">
     <did>
       <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245">American Wine Society Records, <unitdate encodinganalog="MARC 245" type="inclusive">1967-2003</unitdate>
-      </unittitle>
+      <unittitle encodinganalog="MARC 245" label="Title:">American Wine Society Records, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1967-2003</unitdate>
       <origination label="Creator:">RMC Staff </origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>2 cubic feet</extent></physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>2 cubic feet</extent></physdesc>
       <physdesc label="Forms of Material:">Correspondence, Publications, Printed material</physdesc>
       <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
         University Library</repository>
@@ -76,7 +81,8 @@
         Society from 1967 to 2003</abstract>
       <langmaterial>Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 
-    </did>
+        <unitid>RMM06694</unitid>
+</did>
     <scopecontent encodinganalog="MARC 520">
       <head id="a3">COLLECTION DESCRIPTION</head>
       <p>The American Wine Society records from 1967 to 2003 contains many documents from the
@@ -103,20 +109,12 @@
         <subject encodinganalog="MARC 650"> Wine. Marketing.</subject>
       </controlaccess>
     </controlaccess>
-    <descgrp type="admininfo">
-      <head id="a8">INFORMATION FOR USERS</head>
-      <prefercite>
-        <head>Cite As:</head>
-        <p> American Wine Society records, #6694. Division of Rare and Manuscript Collections, Cornell
-        University Library.</p>
-        <p>Forms part of the Eastern Wine and Grape Archive. (EWGA)</p>
-      </prefercite>
-    </descgrp>  <dsc type="combined">
+      <dsc type="combined">
       <head>CONTAINER LIST</head>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1967-1970</unitdate>
           <unittitle>AWS Board of Directors Meeting Reports</unittitle>
         </did>
@@ -126,8 +124,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">2</container>
           <unitdate>1971-1972</unitdate>
           <unittitle>AWS Board of Directors Meeting Reports</unittitle>
         </did>
@@ -137,8 +135,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">3</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">3</container>
           <unitdate>1973-1974</unitdate>
           <unittitle>AWS Board of Directors, Executive Board of Directors, and Executive Committee
             Meeting Reports</unittitle>
@@ -149,8 +147,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1975-1976</unitdate>
           <unittitle>AWS Board of Directors and Executive Committee Meeting Reports</unittitle>
         </did>
@@ -160,8 +158,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">5</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">5</container>
           <unitdate>1977-1978</unitdate>
           <unittitle>AWS Board of Directors and Executive Committee Meeting Reports</unittitle>
         </did>
@@ -171,8 +169,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">6</container>
           <unitdate>1979-1980</unitdate>
           <unittitle>AWS Board of Directors and Executive Committee Meeting Reports</unittitle>
         </did>
@@ -182,8 +180,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">7</container>
           <unitdate>1981-1982</unitdate>
           <unittitle>AWS Board of Directors and Executive Committee Meeting Reports</unittitle>
         </did>
@@ -193,8 +191,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1983-1984</unitdate>
           <unittitle>AWS Board of Directors and Executive Committee Meeting Reports</unittitle>
         </did>
@@ -204,8 +202,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1985-1986</unitdate>
           <unittitle>AWS Board of Directors and Executive Committee Meeting Reports</unittitle>
         </did>
@@ -215,8 +213,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1987-1988</unitdate>
           <unittitle>AWS Board of Directors and Executive Committee Meeting Reports</unittitle>
         </did>
@@ -226,8 +224,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1989-1990</unitdate>
           <unittitle>AWS Board of Directors and Executive Committee Meeting Reports</unittitle>
         </did>
@@ -237,8 +235,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1991-1992</unitdate>
           <unittitle>AWS Board of Directors and Executive Committee Meeting Reports</unittitle>
         </did>
@@ -248,8 +246,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">13</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">13</container>
           <unitdate>1993-1995</unitdate>
           <unittitle>AWS Board of Directors and Executive Committee Meeting Reports</unittitle>
         </did>
@@ -259,8 +257,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">14</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">14</container>
           <unitdate>1968-1989</unitdate>
           <unittitle>Various Documents</unittitle>
         </did>
@@ -272,8 +270,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">15</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">15</container>
           <unitdate>1968-2002</unitdate>
           <unittitle>AWS Tax Exemption Documents and Applications</unittitle>
         </did>
@@ -283,8 +281,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">16</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">16</container>
           <unitdate>1974-1982</unitdate>
           <unittitle>AWS IRS and Tax Exemption</unittitle>
         </did>
@@ -294,8 +292,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">17</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">17</container>
           <unitdate>1973-1998</unitdate>
           <unittitle>AWS Historical Information</unittitle>
         </did>
@@ -305,8 +303,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">18</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">18</container>
           <unitdate>1989</unitdate>
           <unittitle>Chapter Program Manual</unittitle>
         </did>
@@ -316,8 +314,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">19</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">19</container>
           <unitdate>1998</unitdate>
           <unittitle>Manual for Chapter Chairpersons, Regionals, Vice Presidents</unittitle>
         </did>
@@ -327,8 +325,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">20</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">20</container>
           <unitdate>1984-2003</unitdate>
           <unittitle>AWS Election Documents</unittitle>
         </did>
@@ -338,8 +336,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">21</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">21</container>
           <unitdate>January 1983 - November 1994</unitdate>
           <unittitle>American Wine Society binder</unittitle>
         </did>
@@ -350,8 +348,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">1</container>
           <unitdate>1973-1983</unitdate>
           <unittitle>Letters from Margaret Jackisch</unittitle>
         </did>
@@ -362,9 +360,9 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">2</container>
-          <unitdate/>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">2</container>
+          
           <unittitle>Konstantin Frank</unittitle>
         </did>
         <scopecontent>
@@ -373,9 +371,9 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">3</container>
-          <unitdate/>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">3</container>
+          
           <unittitle>AWS Publications</unittitle>
         </did>
         <scopecontent>
@@ -385,8 +383,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">4</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">4</container>
           <unitdate>1969-1973</unitdate>
           <unittitle>"Understanding a Vintage Chart" and updates 1982-2000</unittitle>
         </did>
@@ -396,19 +394,19 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">5</container>
-          <unitdate/>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">5</container>
+          
           <unittitle>AWS letters, certificates, photos</unittitle>
         </did>
         <scopecontent>
-          <p/>
+          
         </scopecontent>
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">6</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">6</container>
           <unittitle>Binder from Angel Nardone, Executive Secretary of AWS, part 1</unittitle>
         </did>
         <scopecontent>
@@ -417,8 +415,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">7</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">7</container>
           <unittitle>Binder from Angel Nardone, Executive Secretary of AWS, part 2</unittitle>
         </did>
         <scopecontent>
@@ -427,8 +425,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">8</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">8</container>
           <unitdate>1969-1973</unitdate>
           <unittitle>Complete file of VINTAGE</unittitle>
         </did>
@@ -438,8 +436,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">9</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">9</container>
           <unitdate>1973-2001</unitdate>
           <unittitle>Annual Conference Documents part 1</unittitle>
         </did>
@@ -449,8 +447,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">10</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">10</container>
           <unitdate>1973-2001</unitdate>
           <unittitle>Annual Conference Documents part 2</unittitle>
         </did>
@@ -460,8 +458,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">11</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">11</container>
           <unitdate>1984-2003</unitdate>
           <unittitle>Wine Competition and Judging Information</unittitle>
         </did>
@@ -471,8 +469,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">2</container>
-          <container type="folder">12</container>
+          <container label="unspecified" type="box">2</container>
+          <container label="unspecified" type="folder">12</container>
           <unitdate>1974-1992</unitdate>
           <unittitle>Certificate of Copyrights</unittitle>
         </did>
@@ -483,5 +481,10 @@
 
 
     </dsc>
-  </archdesc>
+  <prefercite>
+        <head>Cite As:</head>
+        <p> American Wine Society records, #6694. Division of Rare and Manuscript Collections, Cornell
+        University Library.</p>
+        <p>Forms part of the Eastern Wine and Grape Archive. (EWGA)</p>
+      </prefercite></archdesc>
 </ead>

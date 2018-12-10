@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ead xmlns:xlink="https://www.w3.org/1999/xlink">
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02495::David Bates papers)//EN">RMA02495</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMA02495::David Bates papers)//EN">RMA02495</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the David Bates papers,<date>1953-2002.</date></titleproper>
@@ -22,19 +22,25 @@
 		<profiledesc>
 			<creation>Finding aid encoded by RMC Staff, <date>May 2012</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the David Bates Papers,<lb/><date type="inclusive" encodinganalog="245$f">1953-2002.</date></titleproper>
+			<titleproper>Guide to the David Bates Papers,<date encodinganalog="245$f" type="inclusive">1953-2002.</date></titleproper>
 			<num>Collection Number: 34-1-2495</num>
-			<publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+			<publisher>Division of Rare and Manuscript Collections Cornell University
 				Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch
-						Library<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-						255-3530<lb/> Fax: (607) 255-9524<lb/><extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><lb/><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref><lb/></item>
+					<item> Division of Rare and Manuscript Collections 2B Carl A. Kroch
+						Library Cornell University Ithaca, NY 14853 (607)
+						255-3530 Fax: (607) 255-9524<extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref><extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -60,11 +66,10 @@
 	<archdesc level="collection">
 		<did>
 			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">David Bates papers, <unitdate encodinganalog="MARC 245" type="inclusive">1953-2002.</unitdate>
-			</unittitle>
+			<unittitle encodinganalog="MARC 245" label="Title:">David Bates papers, </unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1953-2002.</unitdate>
 			<unitid label="Collection Number:">34-1-2495</unitid>
 			<origination label="Creator:"><persname encodinganalog="100" normal="Bates, David M.   "> Bates </persname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300"><extent>6 cubic ft.</extent></physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:"><extent>6 cubic feet</extent></physdesc>
 			<physdesc label="Forms of Material:">Correspondence, printed material, publications</physdesc>
 			<repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
 				University Library</repository>
@@ -75,7 +80,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		</did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+			<head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
 			<p>Bates is Professor Emeritus, Plant Biology (Bailey Hortorium) and former Director of
 				the L. H. Bailey Hortorium at Cornell University.</p>
 		</bioghist>
@@ -102,54 +107,47 @@
 				<corpname encodinganalog="MARC 710">Society for Economic Botany (U.S.) </corpname>
 			</controlaccess>
 		</controlaccess>
-		<descgrp>
-			<head id="a8">INFORMATION FOR USERS</head>
-			<prefercite>
-				<head>Cite As:</head>
-				<p>David Bates papers, #34-1-2495. Division of Rare and Manuscript Collections,
-					Cornell University Library.</p>
-			</prefercite>
-		</descgrp>
+		
 		<dsc type="combined">
 			<head>CONTAINER LIST</head>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitdate>1967-1986</unitdate>
 					<unittitle>Correspondence-A-H</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitdate>1967-1986</unitdate>
 					<unittitle>Correspondence-H-Z</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitdate>1969-2001</unitdate>
 					<unittitle>Correspondence arranged by year and by subject</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitdate>1963-1991</unitdate>
 					<unittitle>Subject files</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitdate>1953-1980</unitdate>
 					<unittitle>Manual and Cyclopedia of Horticulture and Hortus III</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitdate>1990s</unitdate>
 					<unittitle>Conservation Farming in the Tropical Uplands (CFTU) and 
 						Cornell International Institute for Food, Agriculture and Development (CIIFAD)</unittitle>
@@ -157,7 +155,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitdate>1987-2002</unitdate>
 					<unittitle>Conservation Farming in the Tropical Uplands CFTU; Organization for Tropical Studies; 
 						Society for Economic Botany</unittitle>
@@ -165,11 +163,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitdate>1982-04-15</unitdate>
 					<unittitle>"The L.H. Bailey Hortorium: Future Directions" by David Bates</unittitle>
 				</did>
 			</c01>
 		</dsc>
-		</archdesc>
+		<prefercite>
+				<head>Cite As:</head>
+				<p>David Bates papers, #34-1-2495. Division of Rare and Manuscript Collections,
+					Cornell University Library.</p>
+			</prefercite></archdesc>
 </ead>

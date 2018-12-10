@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Transformed with v1v2002_4_cornell.xsl -->
-<ead xmlns:xlink="https://www.w3.org/1999/xlink">
-   <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-      <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06561::Katherine Camp Mayhew papers)//EN">RMM06561</eadid>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Transformed with v1v2002_4_cornell.xsl --><ead xmlns:xlink="https://www.w3.org/1999/xlink">
+   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+      <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Division of Rare and Manuscript Collections//TEXT(US::NIC::RMM06561::Katherine Camp Mayhew papers)//EN">RMM06561</eadid>
       <filedesc>
          <titlestmt>
             <titleproper>Guide to the Katherine Camp Mayhew papers, [ca. 1896-1949],</titleproper>
@@ -27,6 +26,12 @@
          </creation>
       </profiledesc>
       <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20181207">12/07/2018</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+
          <change encodinganalog="583">
             <date normal="2007-05-29">2007-05-29</date>
             <item>converted from EAD 1.0 to EAD 2002 </item>
@@ -35,20 +40,20 @@
    </eadheader>
    <frontmatter>
       <titlepage>
-         <titleproper>Guide to the Katherine Camp Mayhew Papers,<lb/>[ca. 1896-1949],[ca. 1896-1902]
+         <titleproper>Guide to the Katherine Camp Mayhew Papers,[ca. 1896-1949],[ca. 1896-1902]
             (bulk)</titleproper>
          <num>Collection Number: 6561</num>
-         <publisher>Division of Rare and Manuscript Collections <lb/>Cornell University
+         <publisher>Division of Rare and Manuscript Collections Cornell University
             Library</publisher>
          <list type="deflist">
             <defitem>
                <label>Contact Information:</label>
-               <item>Division of Rare and Manuscript Collections<lb/> 2B Carl A. Kroch Library<lb/>
-                  Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3530<lb/> Fax: (607) 255-9524<lb/>
+               <item>Division of Rare and Manuscript Collections 2B Carl A. Kroch Library
+                  Cornell University Ithaca, NY 14853 (607) 255-3530 Fax: (607) 255-9524
                   <extref href="mailto:rareref@cornell.edu">rareref@cornell.edu</extref>
-                  <lb/>
+                  
                   <extref href="http://rmc.library.cornell.edu">http://rmc.library.cornell.edu</extref>
-                  <lb/></item>
+                  </item>
             </defitem>
             <defitem>
                <label>Compiled by:</label>
@@ -60,7 +65,7 @@
             </defitem>
             <defitem>
                <label>EAD encoding:</label>
-               <item>Peter Martinez, February 2006<lb/> Jenny Harrison, February 2006</item>
+               <item>Peter Martinez, February 2006 Jenny Harrison, February 2006</item>
             </defitem>
             <defitem>
                <label>Date modified:</label>
@@ -73,15 +78,13 @@
    <archdesc level="collection">
       <did>
          <head id="a1">DESCRIPTIVE SUMMARY</head>
-         <unittitle label="Title:" encodinganalog="MARC 245">Katherine Camp Mayhew papers, <unitdate type="inclusive" encodinganalog="MARC 245">[ca. 1896-1949],</unitdate>
-            <unitdate type="bulk" encodinganalog="MARC 245">[ca. 1896-1902] (bulk)</unitdate>
-         </unittitle>
+         <unittitle encodinganalog="MARC 245" label="Title:">Katherine Camp Mayhew papers, </unittitle><unitdate certainty="approximate" encodinganalog="MARC 245" type="inclusive">1896-1949,</unitdate><unitdate certainty="approximate" encodinganalog="MARC 245" type="bulk">1896-1902 (bulk)</unitdate>
          <unitid label="Collection Number:">6561</unitid>
          <origination label="Creator:">
             <persname encodinganalog="100" normal="Mayhew, Katherine Camp. ">Katherine Camp. Mayhew
             </persname>
          </origination>
-         <physdesc label="Quantity:" encodinganalog="MARC 300"><extent>5.7 cubic ft.</extent></physdesc>
+         <physdesc encodinganalog="MARC 300" label="Quantity:"><extent>5.7 cubic feet</extent></physdesc>
          <physdesc label="Forms of Material:">Correspondence, drafts, notes, logbooks</physdesc>
          <repository label="Repository:">Division of Rare and Manuscript Collections, Cornell
             University Library</repository>
@@ -101,7 +104,7 @@
          </langmaterial>
       </did>
       <bioghist encodinganalog="MARC 545">
-         <head id="a2" altrender="biography">BIOGRAPHICAL NOTE </head>
+         <head altrender="biography" id="a2">BIOGRAPHICAL NOTE </head>
          <p>Teacher, author.</p>
          <p>Mayhew taught at the Laboratory School of the University of Chicago.</p>
       </bioghist>
@@ -142,18 +145,10 @@
          </controlaccess>
          <controlaccess>
             <head>Form and Genre Terms:</head>
-            <genreform source="aat" encodinganalog="MARC 655">Photoprints.</genreform>
+            <genreform encodinganalog="MARC 655" source="aat">Photoprints.</genreform>
          </controlaccess>
       </controlaccess>
-      <descgrp type="admininfo">
-         <head id="a8">INFORMATION FOR USERS</head>
-         <p>There is a gap in the box numbering sequence:  numbers skip from Box 4 to Box 11.</p>
-         <prefercite>
-            <head>Cite As:</head>
-            <p>Katherine Camp Mayhew papers, #6561. Division of Rare and Manuscript Collections,
-               Cornell University Library.</p>
-         </prefercite>
-      </descgrp>
+      
       <dsc type="combined">
          <head>CONTAINER LIST</head>
          <c01 level="series">
@@ -162,7 +157,7 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
+                  <container label="unspecified" type="box">1</container>
                   <unittitle>Elementary School - school plan and notes, news clippings about the
                      school</unittitle>
                   <unitdate>1896-1899, April and June 1900</unitdate>
@@ -170,35 +165,35 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
+                  <container label="unspecified" type="box">1</container>
                   <unittitle>History - Groups IV-VI</unittitle>
                   <unitdate>1899-1901</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">1</container>
+                  <container label="unspecified" type="box">1</container>
                   <unittitle>Science - Groups IV-IX and history and science</unittitle>
                   <unitdate>1899-1901</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unittitle>Math and Science - Groups III-X</unittitle>
                   <unitdate>1899-1901</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unittitle>History - Groups IV-X Elementary Record Nos. 2, 7 &amp; 8</unittitle>
                   <unitdate>1900-1901</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">2</container>
+                  <container label="unspecified" type="box">2</container>
                   <unittitle>Quarterly Reports - various subjects; list of students enrolled
                      1899-1902; child study, Group IV</unittitle>
                   <unitdate>1901-1902</unitdate>
@@ -206,14 +201,14 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Group Reports - all subjects and groups</unittitle>
                   <unitdate>1901-1902</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Sewing; Children's Record; History of Ab (story created by pupils about
                      cave people) typed children's essays</unittitle>
                   <unitdate>1899-1901, 1896-1897</unitdate>
@@ -221,21 +216,21 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">3</container>
+                  <container label="unspecified" type="box">3</container>
                   <unittitle>Cooking - subprimary-Group X</unittitle>
                   <unitdate>1899-1900</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unittitle>Cooking - all groups</unittitle>
                   <unitdate>1900-1901</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unittitle>All primary - suggested outlines; curriculum for subprimary and
                      kindergarten; "Three Years of the University Elementary School"; outlines for
                      courses</unittitle>
@@ -244,7 +239,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unittitle>Miscellaneous - instructions for children's health; teachers' circular
                      1899; reports on courses; Play: "Colonial Days in Virginia"; outline of history
                      courses; class schedule</unittitle>
@@ -253,30 +248,30 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unittitle> "The University Elementary School"</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">4</container>
+                  <container label="unspecified" type="box">4</container>
                   <unittitle> "Three Years of the University Elementary School"</unittitle>
                   <unitdate>January 1899</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">11</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>University Record, excerpts</unittitle>
                   <unitdate>1897-1898</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">11</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">11</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>University Record</unittitle>
                   <unitdate>1898-1899</unitdate>
                </did>
@@ -288,40 +283,40 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Chapter Outlines</unittitle>
                   <unitdate>1896-1900, 1930</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Chapter I, "General History" - notes, drafts, teacher lists</unittitle>
                   <unitdate>1896-1902</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Chapter I, "General History" - notes, drafts, teacher lists</unittitle>
                   <unitdate>1896-1902</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Chapter I, "General History" - drafts</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Chapter 1, "General History" - published material describing
                      school</unittitle>
                   <unitdate>1896-1902</unitdate>
@@ -329,8 +324,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Chapters II &amp; III - articles relating to chapters on
                      curriculum</unittitle>
                   <unitdate>1895-n.d.</unitdate>
@@ -338,8 +333,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Chapters II &amp; III - notes and drafts, articles by John and Alice
                      Dewey on curriculum</unittitle>
                   <unitdate>n.d.</unitdate>
@@ -347,24 +342,24 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Chapters II &amp; III - on curriculum drafts</unittitle>
                   <unitdate>November 18, 1930 &amp; n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Chapters II &amp; III - on curriculum drafts</unittitle>
                   <unitdate>November 18, 1930 &amp; n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Chapter III, "Experimental Practices Developing the Curriculum"-
                      drafts</unittitle>
                   <unitdate>n.d.</unitdate>
@@ -372,8 +367,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Chapter III, "Experimental Practices Developing the Curriculum"-
                      drafts</unittitle>
                   <unitdate>n.d.</unitdate>
@@ -381,8 +376,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>Chapter III, "Experimental Practices Developing the Curriculum"-
                      drafts</unittitle>
                   <unitdate>n.d.</unitdate>
@@ -390,16 +385,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Chapter IV, "Household Occupations" - notes</unittitle>
                   <unitdate>1896-1902</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">12</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">12</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Chapter IV, "Household Occupations" - article by Katherine B.
                      Camp</unittitle>
                   <unitdate>October 1901</unitdate>
@@ -407,16 +402,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Chapter IV, "Household Occupations" - drafts</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Chapters IV &amp; V on household occupations - excerpts not used -
                      notes and drafts</unittitle>
                   <unitdate>1896-1902</unitdate>
@@ -424,8 +419,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Chapters IV &amp; V on household occupations - excerpts not used -
                      notes and drafts</unittitle>
                   <unitdate>1896-1902</unitdate>
@@ -433,8 +428,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Chapters IV &amp; V on household occupations - excerpts not used -
                      notes and drafts</unittitle>
                   <unitdate>1896-1902</unitdate>
@@ -442,8 +437,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Chapters IV &amp; V on household occupations - excerpts not used -
                      notes and drafts</unittitle>
                   <unitdate>1896-1902</unitdate>
@@ -451,8 +446,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Chapter V, "Social Occupations Serving the Household" -
                      notes</unittitle>
                   <unitdate>1898-1901</unitdate>
@@ -460,8 +455,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Chapter V, "Social Occupations Serving the Household" - notes and
                      drafts</unittitle>
                   <unitdate>1896-1901</unitdate>
@@ -469,8 +464,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Chapter V, "Social Occupations Serving the Household" - notes and
                      drafts</unittitle>
                   <unitdate>1896-1901</unitdate>
@@ -478,8 +473,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Chapter V, "Social Occupations Serving the Household" - notes and
                      drafts</unittitle>
                   <unitdate>1896-1901</unitdate>
@@ -487,8 +482,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Chapter V, "Social Occupations Serving the Household" - notes and
                      drafts</unittitle>
                   <unitdate>1896-1901</unitdate>
@@ -496,16 +491,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Chapters V &amp; VI - drafts</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>Chapter VI, "Progress Through Invention and Discovery" -
                      notes</unittitle>
                   <unitdate>1898-1899</unitdate>
@@ -513,8 +508,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Chapter VI, "Progress Through Invention and Discovery" -
                      notes</unittitle>
                   <unitdate>1898-1899</unitdate>
@@ -522,8 +517,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Chapter VI, "Progress Through Invention and Discovery" -
                      notes</unittitle>
                   <unitdate>1898-1899</unitdate>
@@ -531,8 +526,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">15</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">15</container>
                   <unittitle>Chapter VI, "Progress Through Invention and Discovery" -
                      notes</unittitle>
                   <unitdate>1898-1899</unitdate>
@@ -540,8 +535,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">13</container>
-                  <container type="folder">16</container>
+                  <container label="unspecified" type="box">13</container>
+                  <container label="unspecified" type="folder">16</container>
                   <unittitle>Chapter VI, "Progress Through Invention and Discovery" -
                      notes</unittitle>
                   <unitdate>1898-1899</unitdate>
@@ -549,8 +544,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Chapter VI-X, XVI on teaching history; Thesis by Laura L. Runyon with
                      correspondence</unittitle>
                   <unitdate>1906</unitdate>
@@ -558,8 +553,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Chapter VII, "Progress Through Exploration and Discovery" - reports on
                      Group V</unittitle>
                   <unitdate>1898-1902</unitdate>
@@ -567,8 +562,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Chapter VII, "Progress Through Exploration and Discovery" - reports on
                      Group V</unittitle>
                   <unitdate>1898-1902</unitdate>
@@ -576,8 +571,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Chapter VII, "Progress Through Exploration and Discovery" -
                      notes</unittitle>
                   <unitdate>1898-1902</unitdate>
@@ -585,8 +580,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Chapter VII, "Progress Through Exploration and Discovery" -
                      drafts</unittitle>
                   <unitdate>n.d.</unitdate>
@@ -594,48 +589,48 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Chapter VIII, "Local History" - notes and drafts</unittitle>
                   <unitdate>1898-1901</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Chapter VIII, "Local History" - notes and drafts</unittitle>
                   <unitdate>1898-1901</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Chapter VIII, "Local History" - notes and drafts</unittitle>
                   <unitdate>1898-1901</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Chapter VIII, "Local History" - notes and drafts</unittitle>
                   <unitdate>1898-1901</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Chapter VIII, "Local History" - notes and drafts</unittitle>
                   <unitdate>1898-1901</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle> Chapter IX, "Colonial History and the Revolution" - excerpts not
                      used</unittitle>
                   <unitdate>1898-1902</unitdate>
@@ -643,8 +638,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle> Chapter IX, "Colonial History and the Revolution" - excerpts not
                      used</unittitle>
                   <unitdate>1898-1902</unitdate>
@@ -652,16 +647,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">14</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">14</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Chapter IX &amp; X on colonists - notes and drafts</unittitle>
                   <unitdate>1896-1899</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Chapter X, "European Background of the Colonists" - notes and
                      drafts</unittitle>
                   <unitdate>1898-1902</unitdate>
@@ -669,8 +664,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Chapter X, "European Background of the Colonists" - notes and
                      drafts</unittitle>
                   <unitdate>1898-1902</unitdate>
@@ -678,8 +673,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Chapter X, "European Background of the Colonists" - notes and
                      drafts</unittitle>
                   <unitdate>1898-1902</unitdate>
@@ -687,8 +682,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Chapter X, "European Background of the Colonists" - unused material -
                      notes and drafts</unittitle>
                   <unitdate>1898-1902</unitdate>
@@ -696,8 +691,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Chapter X, "European Background of the Colonists" - unused material -
                      notes and drafts</unittitle>
                   <unitdate>1898-1902</unitdate>
@@ -705,8 +700,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Chapter X, "European Background of the Colonists" - unused material -
                      notes and drafts</unittitle>
                   <unitdate>1898-1902</unitdate>
@@ -714,8 +709,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Chapter X, "European Background of the Colonists" - unused material -
                      notes and drafts</unittitle>
                   <unitdate>1898-1902</unitdate>
@@ -723,16 +718,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Chapter XI, "Experiments in Specialized Activities" - notes</unittitle>
                   <unitdate>1898-1900</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Chapter XI, "Experiments in Specialized Activities" - printed extract
                      from <title>Elementary School Teacher</title> and notes</unittitle>
                   <unitdate>1902-1903</unitdate>
@@ -740,16 +735,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Chapter XI, "Experiments in Specialized Activities" - draft</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Chapter XII, "Experiments in Specialized Activities" -
                      notes</unittitle>
                   <unitdate>n.d., 1901</unitdate>
@@ -757,8 +752,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle> Chapter XII, "Experiments in Specialized Activities" - notes, draft,
                      suggested titles for book</unittitle>
                   <unitdate>1899-1901</unitdate>
@@ -766,8 +761,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">15</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">15</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle> Chapter XII, "Experiments in Specialized Activities" - notes, draft,
                      suggested titles for book</unittitle>
                   <unitdate>1899-1901</unitdate>
@@ -775,8 +770,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Chapter XIII, "Experiments in Specialized Activities " - notes and
                      Chapter XIV, "Principles of Growth Guiding Selection of Activities" - draft,
                      revised copy</unittitle>
@@ -785,8 +780,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Chapter XIV, "Principles of Growth Guiding Selection of Activities" -
                      drafts including one by Dewey</unittitle>
                   <unitdate>August 1930 &amp; October 1934</unitdate>
@@ -794,8 +789,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Chapter XV, "Experimental Activities Developing Scientific Method and
                      Concepts" - notes and drafts</unittitle>
                   <unitdate>1897-1904, 1930</unitdate>
@@ -803,8 +798,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Chapter XV, "Experimental Activities Developing Scientific Method and
                      Concepts" - notes and drafts</unittitle>
                   <unitdate>1897-1904, 1930</unitdate>
@@ -812,8 +807,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Chapter XV, "Experimental Activities Developing Scientific Method and
                      Concepts" - notes and drafts</unittitle>
                   <unitdate>1897-1904, 1930</unitdate>
@@ -821,8 +816,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Chapter XV, "Experimental Activities Developing Scientific Method and
                      Concepts" - notes and drafts</unittitle>
                   <unitdate>1897-1904, 1930</unitdate>
@@ -830,8 +825,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Chapter XV, "Experimental Activities Developing Scientific Method and
                      Concepts" - notes and drafts</unittitle>
                   <unitdate>1897-1904, 1930</unitdate>
@@ -839,8 +834,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Chapter XV, "Experimental Activities Developing Scientific Method and
                      Concepts" - notes and drafts</unittitle>
                   <unitdate>1897-1904, 1930</unitdate>
@@ -848,8 +843,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Chapter XV, "Experimental Activities Developing Scientific Method and
                      Concepts" - articles pertaining to chapter</unittitle>
                   <unitdate>June &amp; September 1903</unitdate>
@@ -857,8 +852,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Chapter XV, "Experimental Activities Developing Scientific Method and
                      Concepts" - notes</unittitle>
                   <unitdate>1899-1902</unitdate>
@@ -866,8 +861,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">16</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">16</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Chapter XVI, "Experimental Activities Developing Origins and
                      Backgrounds of Social Life" - notes and drafts</unittitle>
                   <unitdate>April 1900-n.d.</unitdate>
@@ -875,8 +870,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Chapter XVII, "Experimental Activities Developing Skills in
                      Communications and Expression" - notes, drafts, article from Elementary School
                      Record 1900</unittitle>
@@ -885,8 +880,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Chapter XVII, "Experimental Activities Developing Skills in
                      Communication and Expression" - articles and drafts</unittitle>
                   <unitdate>1898, 1903</unitdate>
@@ -894,8 +889,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Chapter XVII, "Experimental Activities Developing Skills in
                      Communication and Expression" - articles and drafts</unittitle>
                   <unitdate>1898, 1903</unitdate>
@@ -903,8 +898,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Chapter XVIII, "Teachers and School Organization" - drafts and
                      correspondence</unittitle>
                   <unitdate>August 1929</unitdate>
@@ -912,8 +907,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Chapter XVIII, "Teachers and School Organization" - material cut from
                      chapter</unittitle>
                   <unitdate>n.d.</unitdate>
@@ -921,8 +916,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Chapter XVIII, "Teachers and School Organization" - material cut from
                      chapter</unittitle>
                   <unitdate>n.d.</unitdate>
@@ -930,16 +925,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Chapter XIX, "Parents and Children" - notes</unittitle>
                   <unitdate>1900</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Chapter XIX, "Parents and Children" - notes, lists of parents, courses,
                      teachers, notes on teachers meeting, correspondence</unittitle>
                   <unitdate>n.d.</unitdate>
@@ -947,16 +942,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Chapter XIX, "Parents and Children" - photographs</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Chapter XIX, " Parents and Children" - notes, drafts, correspondence
                      (signed) from Dewey</unittitle>
                   <unitdate>April 22, 1901</unitdate>
@@ -964,8 +959,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">17</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">17</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Chapter XIX, "Parents and Children" - teachers notes on students,
                      correspondence</unittitle>
                   <unitdate> 1900-1903, 1929</unitdate>
@@ -973,8 +968,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">18</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">18</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Chapter XIX, "Parents and Children" - correspondence, lists of parents
                      and children</unittitle>
                   <unitdate>1900-1901, 1928-1930, 1933</unitdate>
@@ -982,24 +977,24 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">18</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">18</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Chapter XIX, "Parents and Children" - notes and drafts</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">18</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">18</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Chapter XIX, "Parents and Children" - notes and drafts</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">18</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">18</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Chapter XX, "Evaluation of Principles and Practices" - notes and
                      articles</unittitle>
                   <unitdate>1896-1897, 1904</unitdate>
@@ -1007,8 +1002,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">18</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">18</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Chapter XX, "Evaluation of Principles and Practices" - notes and
                      articles</unittitle>
                   <unitdate>1896-1897, 1904</unitdate>
@@ -1016,8 +1011,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">18</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">18</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Chapter XX, "Evaluation of Principles and Practices" - notes and
                      drafts</unittitle>
                   <unitdate>n.d.</unitdate>
@@ -1025,8 +1020,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">18</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">18</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Chapter XX, "Evaluation of Principles and Practices" - notes and
                      drafts</unittitle>
                   <unitdate>n.d.</unitdate>
@@ -1034,8 +1029,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">18</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">18</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Appendix I, "The Evolution of Mr. Dewey's Principles of Education" -
                      draft</unittitle>
                   <unitdate>n.d.</unitdate>
@@ -1043,8 +1038,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">18</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">18</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>Appendix II, "Theory of the Chicago Experiment" - draft written by John
                      Dewey</unittitle>
                   <unitdate>n.d.</unitdate>
@@ -1057,7 +1052,7 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">19</container>
+                  <container label="unspecified" type="box">19</container>
                   <unittitle>
                      <title>The Elementary School Teacher</title>
                   </unittitle>
@@ -1066,7 +1061,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">19</container>
+                  <container label="unspecified" type="box">19</container>
                   <unittitle>
                      <title>The Elementary School Teacher</title>
                   </unittitle>
@@ -1075,7 +1070,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">19</container>
+                  <container label="unspecified" type="box">19</container>
                   <unittitle>
                      <title>The Elementary School Teacher</title>
                   </unittitle>
@@ -1084,7 +1079,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">19</container>
+                  <container label="unspecified" type="box">19</container>
                   <unittitle>
                      <title>The Elementary School Teacher</title>
                   </unittitle>
@@ -1093,7 +1088,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">19</container>
+                  <container label="unspecified" type="box">19</container>
                   <unittitle>
                      <title>The Elementary School Teacher</title>
                   </unittitle>
@@ -1102,7 +1097,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">20</container>
+                  <container label="unspecified" type="box">20</container>
                   <unittitle>
                      <title>The Elementary School Teacher</title>
                   </unittitle>
@@ -1111,7 +1106,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">20</container>
+                  <container label="unspecified" type="box">20</container>
                   <unittitle>
                      <title>The Elementary School Teacher</title>
                   </unittitle>
@@ -1120,7 +1115,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">20</container>
+                  <container label="unspecified" type="box">20</container>
                   <unittitle>
                      <title>The Elementary School Teacher</title>
                   </unittitle>
@@ -1129,7 +1124,7 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">20</container>
+                  <container label="unspecified" type="box">20</container>
                   <unittitle>
                      <title>The Elementary School Teacher</title>
                   </unittitle>
@@ -1138,8 +1133,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">21</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">21</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Ella Flagg Young: <title>Contributions to Education No. I: Isolation in
                         the School</title>; Review of <title> Isolation in the School</title>;
                         <title>Contributions to Education No. VI: Some Types of Modern Educational
@@ -1151,8 +1146,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">21</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">21</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Alice C. Dewey: notes, syllabus: <title>Elementary Education</title>
                   </unittitle>
                   <unitdate>1903, 1907</unitdate>
@@ -1160,16 +1155,16 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">21</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">21</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Source articles by teachers</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">21</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">21</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>William H. Kilpatrick: <title>The Project Method</title>
                   </unittitle>
                   <unitdate>October 12, 1918</unitdate>
@@ -1177,8 +1172,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">21</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">21</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Miscellaneous articles by George H. Mead and S. F.
                      MacLennan</unittitle>
                   <unitdate>April 1898</unitdate>
@@ -1186,72 +1181,72 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">21</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">21</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Notes on source material; correspondence</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">21</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">21</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Stories by pupils</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">21</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">21</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>College Curriculum including College of Education</unittitle>
                   <unitdate>1904, n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">21</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">21</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>News clippings on education, etc.</unittitle>
                   <unitdate> 1939-1947, n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">21</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">21</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>Miscellaneous material; notes and drafts</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">21</container>
-                  <container type="folder">11</container>
+                  <container label="unspecified" type="box">21</container>
+                  <container label="unspecified" type="folder">11</container>
                   <unittitle>Miscellaneous material; notes and drafts</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">21</container>
-                  <container type="folder">12</container>
+                  <container label="unspecified" type="box">21</container>
+                  <container label="unspecified" type="folder">12</container>
                   <unittitle>Miscellaneous material; notes and drafts</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">21</container>
-                  <container type="folder">13</container>
+                  <container label="unspecified" type="box">21</container>
+                  <container label="unspecified" type="folder">13</container>
                   <unittitle>Miscellaneous material; notes and drafts</unittitle>
                   <unitdate>n.d.</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">21</container>
-                  <container type="folder">14</container>
+                  <container label="unspecified" type="box">21</container>
+                  <container label="unspecified" type="folder">14</container>
                   <unittitle>Miscellaneous material - correspondence, syllabus - Creative Teaching,
                      notes</unittitle>
                   <unitdate>May 16, 1933 &amp; n.d.</unitdate>
@@ -1264,8 +1259,8 @@
             </did>
             <c02 level="file">
                <did>
-                  <container type="box">22</container>
-                  <container type="folder">1</container>
+                  <container label="unspecified" type="box">22</container>
+                  <container label="unspecified" type="folder">1</container>
                   <unittitle>Chapter I, "General History" - Dewey's 1st report after merger of
                      Laboratory School with School of Education</unittitle>
                   <unitdate>1902-1903</unitdate>
@@ -1273,8 +1268,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">22</container>
-                  <container type="folder">2</container>
+                  <container label="unspecified" type="box">22</container>
+                  <container label="unspecified" type="folder">2</container>
                   <unittitle>Chapter 1, "General History" - articles by Dewey mentioned in footnote
                      pp. 4-5</unittitle>
                   <unitdate>1895-1897</unitdate>
@@ -1282,8 +1277,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">22</container>
-                  <container type="folder">3</container>
+                  <container label="unspecified" type="box">22</container>
+                  <container label="unspecified" type="folder">3</container>
                   <unittitle>Chapter 1, "General History" - articles by Dewey mentioned in footnote
                      pp. 4-5</unittitle>
                   <unitdate>1895-1897</unitdate>
@@ -1291,8 +1286,8 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">22</container>
-                  <container type="folder">4</container>
+                  <container label="unspecified" type="box">22</container>
+                  <container label="unspecified" type="folder">4</container>
                   <unittitle>Chapter I, "General History" - notes, prospectus, drafts, one by John
                      Dewey; one by Alice Dewey</unittitle>
                   <unitdate>1899-1900</unitdate>
@@ -1300,40 +1295,40 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">22</container>
-                  <container type="folder">5</container>
+                  <container label="unspecified" type="box">22</container>
+                  <container label="unspecified" type="folder">5</container>
                   <unittitle>Notes of Conference with Dewey</unittitle>
                   <unitdate>September 1930</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">22</container>
-                  <container type="folder">6</container>
+                  <container label="unspecified" type="box">22</container>
+                  <container label="unspecified" type="folder">6</container>
                   <unittitle>Miscellaneous writing of John Dewey</unittitle>
                   <unitdate>1896-1900</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">22</container>
-                  <container type="folder">7</container>
+                  <container label="unspecified" type="box">22</container>
+                  <container label="unspecified" type="folder">7</container>
                   <unittitle>Miscellaneous writing of John Dewey</unittitle>
                   <unitdate>1896-1900</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">22</container>
-                  <container type="folder">8</container>
+                  <container label="unspecified" type="box">22</container>
+                  <container label="unspecified" type="folder">8</container>
                   <unittitle>Miscellaneous writing of John Dewey</unittitle>
                   <unitdate>1900</unitdate>
                </did>
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">22</container>
-                  <container type="folder">9</container>
+                  <container label="unspecified" type="box">22</container>
+                  <container label="unspecified" type="folder">9</container>
                   <unittitle>John Dewey: History of Education: Volumes I-VII; Psychology for
                      Teachers: Volumes I-IV</unittitle>
                   <unitdate>1907</unitdate>
@@ -1341,13 +1336,17 @@
             </c02>
             <c02 level="file">
                <did>
-                  <container type="box">22</container>
-                  <container type="folder">10</container>
+                  <container label="unspecified" type="box">22</container>
+                  <container label="unspecified" type="folder">10</container>
                   <unittitle>John Dewey at 90 - articles</unittitle>
                   <unitdate>October 1949</unitdate>
                </did>
             </c02>
          </c01>
       </dsc>
-   </archdesc>
+   <odd><p>There is a gap in the box numbering sequence:  numbers skip from Box 4 to Box 11.</p></odd><prefercite>
+            <head>Cite As:</head>
+            <p>Katherine Camp Mayhew papers, #6561. Division of Rare and Manuscript Collections,
+               Cornell University Library.</p>
+         </prefercite></archdesc>
 </ead>
