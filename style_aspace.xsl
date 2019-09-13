@@ -3,7 +3,7 @@
     xmlns:HTML="http://www.w3.org/Profiles/XHTML-transitional"
     xmlns:fn="http://www.w3.org/2005/xpath-functions"
     xpath-default-namespace="urn:isbn:1-931666-22-9">
-    
+
     <xsl:template match="/">
 
         <html>    
@@ -117,8 +117,8 @@
     <xsl:template name="remove-collection-number-from-title">
         <xsl:param name="titleproper" />
         <xsl:param name="num" />
-        <xsl:variable name="titlelen" select="string-length($titleproper) - string-length($num) - 1" />
-        <xsl:value-of select="substring($titleproper, 1, $titlelen)" />
+        <xsl:variable name="titlelen" select="string-length($titleproper) - string-length($num)" />
+        <xsl:value-of select="normalize-space(substring($titleproper, 1, $titlelen))" />
     </xsl:template>
     
     <!-- "num" is the collection number -->
@@ -256,12 +256,12 @@
 		 maybe not the right solution -->
 	<xsl:template match="head">
 		<xsl:choose>
-			<xsl:when test=". = 'Scope and Contents'"></xsl:when>
-			<xsl:when test=". = 'Processing Information'"></xsl:when>
-			<xsl:when test=". = 'Arrangement'"></xsl:when>
-			<xsl:when test=". = 'Existence and Location of Copies'"></xsl:when>
-			<xsl:when test=". = 'General'"></xsl:when>
-			<xsl:when test=". = 'Conditions Governing Access'"></xsl:when>
+			<xsl:when test="lower-case(.) = 'scope and contents'
+				or lower-case(.) = 'processing information'
+				or lower-case(.) = 'arrangement'
+				or lower-case(.) = 'existence and location of copies'
+				or lower-case(.) = 'conditions governing access'" >
+			</xsl:when>
 			<xsl:otherwise>
 				<div class="H4">
 					<a name="{generate-id()}"><xsl:apply-templates /></a>  <!-- +++++ generate links for headings - kaw5 -->
@@ -273,11 +273,20 @@
 	
 	<xsl:template match="head" mode="toc"> 
 		<xsl:choose>
-			<xsl:when test=". = 'General' or . = 'Cite As:' or . = 'Scope and Contents' or . = 'Processing Information' 
-				or . = 'Arrangement' or . = 'Existence and Location of Copies' or . = 'Conditions Governing Access'
-				or . = 'General Note' or . = 'Preferred Citation' or . = 'Biographical / Historical'
-				or . = 'Scope and content'" >
-				<!-- this stuff doesn't seem to show up in current EADs so we probably don't want a link -->
+			<xsl:when test="lower-case(.) = 'general' 
+				or lower-case(.) = 'cite as:' 
+				or lower-case(.) = 'scope and contents' 
+				or lower-case(.) = 'processing information' 
+				or lower-case(.) = 'arrangement' 
+				or lower-case(.) = 'existence and location of copies' 
+				or lower-case(.) = 'conditions governing access'
+				or lower-case(.) = 'general note' 
+				or lower-case(.) = 'preferred citation' 
+				or lower-case(.) = 'biographical / historical'
+				or lower-case(.) = 'scope and content' 
+				or lower-case(.) = 'conditions governing use' 
+				or lower-case(.) = 'restrictions on use:'" >
+					<!-- this stuff doesn't seem to show up in current EADs so we probably don't want a link -->
 			</xsl:when>
 			<xsl:otherwise>
 				<li><a href="#{generate-id()}"><xsl:apply-templates /></a></li>
@@ -426,10 +435,10 @@
 		<div class="H4"><hr/>
 			<a name="subjects">SUBJECTS</a>
 		</div> <p/>
-		<xsl:if test="corpname | geogname | persname">
+		<xsl:if test="corpname | persname | famname">
 			<div class="heading">Names:</div>
 		</xsl:if>
-		<xsl:for-each select="corpname | persname">
+		<xsl:for-each select="corpname | persname | famname">
 			<div class="item"><xsl:value-of select="."/></div>
 		</xsl:for-each>
 		<xsl:if test="geogname">
@@ -745,14 +754,12 @@
 						<xsl:choose>
 							<xsl:when test="container[@type = 'box']"> Box <xsl:apply-templates select="container[@type = 'box']" />
 							</xsl:when>
-							<!-- ADDED 1-2012 -->
-
 							<xsl:when test="container[@type = 'mapcase-folder']"> Mapcase Folder <!-- changed map-case to mapcase-folder at all levels - msf252 -->
 									<xsl:apply-templates select="container[@type = 'mapcase-folder']" />
 							</xsl:when>
-
-							<!-- END 1-2012 ADD -->
-
+							<xsl:when test="container[@type = 'mapcase folder']"> Mapcase Folder 
+								<xsl:apply-templates select="container[@type = 'mapcase folder']" />
+							</xsl:when>
 						</xsl:choose>
 					</td>
 					<td nowrap="1" align="CENTER" valign="center">
@@ -793,6 +800,9 @@
 							</xsl:when>
 							<xsl:when test="container[@type = 'mapcase-folder']"> Mapcase Folder 
 								<xsl:apply-templates select="container[@type = 'mapcase-folder']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'mapcase folder']"> Mapcase Folder 
+								<xsl:apply-templates select="container[@type = 'mapcase folder']" />
 							</xsl:when>
 						</xsl:choose>
 					</td>
@@ -839,6 +849,9 @@
 							<xsl:when test="container[@type = 'mapcase-folder']"> Mapcase Folder 
 								<xsl:apply-templates select="container[@type = 'mapcase-folder']" />
 							</xsl:when>
+							<xsl:when test="container[@type = 'mapcase folder']"> Mapcase Folder 
+								<xsl:apply-templates select="container[@type = 'mapcase folder']" />
+							</xsl:when>
 							<xsl:when test="container[@type = 'reel']"> Reel <xsl:apply-templates select="container[@type = 'reel']" />
 							</xsl:when>
 							<xsl:when test="container[@type = 'file-drawer']"> File Drawer
@@ -846,6 +859,16 @@
 							</xsl:when>
 							<xsl:when test="container[@type = 'cabinet']"> Cabinet
 									<xsl:apply-templates select="container[@type = 'cabinet']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'manuscript box']"> 
+								<xsl:variable name = "str" select = "container[@type = 'manuscript box']"/>
+								<xsl:variable name = "boxnum" select = "substring-before($str, '-')" />
+								Manuscript Box <xsl:value-of select = "$boxnum" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'manuscript-box']"> 
+								<xsl:variable name = "str" select = "container[@type = 'manuscript-box']"/>
+								<xsl:variable name = "boxnum" select = "substring-before($str, '-')" />
+								Manuscript Box <xsl:value-of select = "$boxnum" />
 							</xsl:when>
 						</xsl:choose>
 					</td>
@@ -870,6 +893,7 @@
 							</xsl:when>
 							<xsl:when test="container[@type = 'page']"> Page <xsl:apply-templates select="container[@type = 'page']" />
 							</xsl:when>
+			
 						</xsl:choose>
 					</td>
 									
@@ -1167,6 +1191,9 @@
 		</tr>
 	</xsl:template>
 
+	<!-- these were getting picked up somewhere else and generating invalid tags for a table, resulting in the browser just dropping it above -->
+	<xsl:template match="c01/userestrict/head | c02/userestrict/head | c03/userestrict/head | c04/userestrict/head | c05/userestrict/head | c06/userestrict/head | c07/userestrict/head" />
+		
 	<xsl:template match="c01/userestrict/p | c02/userestrict/p | c03/userestrict/p | c04/userestrict/p | c05/userestrict/p | c06/userestrict/p | c07/userestrict/p">
 
 		<xsl:variable name="indent-value">
@@ -1179,6 +1206,7 @@
 			<td />
 				
 			<td>
+				<div class="heading"><xsl:value-of select="../head"/></div>
 				<div>
 					<xsl:attribute name="STYLE">margin-left: <xsl:value-of select="$indent-value - 3" />em; </xsl:attribute>
 					<xsl:apply-templates />
