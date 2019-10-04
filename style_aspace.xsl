@@ -28,7 +28,9 @@
                     	     don't have a head element to make this work -->
                     	<li><a href="#a1">DESCRIPTIVE SUMMARY</a></li>
                         <xsl:apply-templates select="//head" mode="toc" />
-                    	<li><a href="#info_for_users">INFORMATION FOR USERS</a></li>
+                    	<xsl:if test="//prefercite">
+	                    	<li><a href="#info_for_users">INFORMATION FOR USERS</a></li>
+                    	</xsl:if>
                     	<li><a href="#subjects">SUBJECTS</a></li>
                     	<li><a href="#a10">CONTAINER LIST</a></li>
                     </ul>
@@ -226,8 +228,14 @@
         <div class="item"><xsl:apply-templates/></div>
     </xsl:template>
     
-    <!-- it looks to me like the contact information stuff shouldn't be displayed -->
-    <xsl:template match="ead/archdesc/odd"/>
+    <!-- some of this stuff shouldn't be displayed but general notes should -->
+    <xsl:template match="ead/archdesc/odd">
+    	<xsl:if test="./head = 'NOTES'">
+	    	<xsl:apply-templates select="./head" />
+	    	<xsl:apply-templates select="./p" />
+	    	<hr />
+    	</xsl:if>
+    </xsl:template>
     
     <!-- I'm not sure where the "information for users" heading came from before, but it no longer
     	 exists in the aspace export -->
@@ -260,7 +268,8 @@
 				or lower-case(.) = 'processing information'
 				or lower-case(.) = 'arrangement'
 				or lower-case(.) = 'existence and location of copies'
-				or lower-case(.) = 'conditions governing access'" >
+				or lower-case(.) = 'conditions governing access'
+				or lower-case(.) = 'general'" >
 			</xsl:when>
 			<xsl:otherwise>
 				<div class="H4">
@@ -271,6 +280,8 @@
 		</xsl:choose>
 	</xsl:template>
 	
+	<!-- this is probably the more correct way to handle the stuff we don't want in the TOC sidebar -->
+	<xsl:template match="separatedmaterial/list/head" mode="toc"/>
 	<xsl:template match="head" mode="toc"> 
 		<xsl:choose>
 			<xsl:when test="lower-case(.) = 'general' 
@@ -285,15 +296,17 @@
 				or lower-case(.) = 'biographical / historical'
 				or lower-case(.) = 'scope and content' 
 				or lower-case(.) = 'conditions governing use' 
-				or lower-case(.) = 'restrictions on use:'" >
-					<!-- this stuff doesn't seem to show up in current EADs so we probably don't want a link -->
+				or lower-case(.) = 'restrictions on use:'
+				" >
+				<!-- this stuff doesn't seem to show up in current EADs so we probably don't want a link -->
 			</xsl:when>
 			<xsl:otherwise>
 				<li><a href="#{generate-id()}"><xsl:apply-templates /></a></li>
 			</xsl:otherwise>
 		</xsl:choose>
-	</xsl:template> 
+	</xsl:template>
 	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	
 	
     <xsl:template match="archdesc/bioghist">
         <hr />
@@ -720,11 +733,22 @@
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<!-- surprisingly simple way to toss in an anchor row for the series list links to href to -->
+	<!-- surprisingly simple way to toss in an anchor row for the series list links to href to -
+		 unfortunately this sort of approach only goes so far (what if one has a hyphen in the middle, etc)	-->
 	<xsl:template name="ref_to_id_row">
 		<xsl:param name="text"></xsl:param>
 		<xsl:for-each select="/ead/archdesc/arrangement//ref">
-			<xsl:if test="contains(., $text)">
+			<xsl:variable name="stripped_text">
+				<xsl:choose>
+					<xsl:when test="starts-with(normalize-space(lower-case($text)), 'series')">
+						<xsl:value-of select="normalize-space(substring-after($text, '.'))"/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:value-of select="normalize-space($text)"/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:variable>
+			<xsl:if test="contains(., $stripped_text)">
 				<xsl:element name="tr">
 					<xsl:attribute name="id" select="@target" />
 				</xsl:element>
@@ -738,110 +762,123 @@
 			<xsl:call-template name="depth-of-node" />
 		</xsl:variable>
 	
+		<!-- first (inadequate) attempt at getting series links working
 		<xsl:if test="../@level='series' or ../@level='subseries' or ../@level='subsubseries'">
 			<xsl:call-template name="ref_to_id_row">
 				<xsl:with-param name="text" select="unittitle" />
 			</xsl:call-template>
 		</xsl:if>
+		-->
 		
-		<tr>
+		<!--<tr>-->
 			<xsl:choose>
 
 				<xsl:when test="../@level = 'series'"><!-- switched date and container(Box, Mapcase, Folder, Volume) columns - kaw5 -->
-					
-					
-					<td nowrap="1" align="CENTER" valign="center">
-						<xsl:choose>
-							<xsl:when test="container[@type = 'box']"> Box <xsl:apply-templates select="container[@type = 'box']" />
-							</xsl:when>
-							<xsl:when test="container[@type = 'mapcase-folder']"> Mapcase Folder <!-- changed map-case to mapcase-folder at all levels - msf252 -->
-									<xsl:apply-templates select="container[@type = 'mapcase-folder']" />
-							</xsl:when>
-							<xsl:when test="container[@type = 'mapcase folder']"> Mapcase Folder 
-								<xsl:apply-templates select="container[@type = 'mapcase folder']" />
-							</xsl:when>
-						</xsl:choose>
-					</td>
-					<td nowrap="1" align="CENTER" valign="center">
-						<xsl:choose>
-							<xsl:when test="container[@type = 'folder']"> Folder
-									<xsl:apply-templates select="container[@type = 'folder']" />
-							</xsl:when>
-							<xsl:when test="unitid">
-								<xsl:value-of select="unitid/@label" />
-								<xsl:apply-templates select="unitid" />
-							</xsl:when>
-							<xsl:when test="container[@type = 'volume']"> Volume
-									<xsl:apply-templates select="container[@type = 'volume']" />
-							</xsl:when>
-						</xsl:choose>
-					</td>
-								
-					<td>
-						<div class="serieslabel">
-							<xsl:apply-templates select="unittitle" />
-						</div>
-					</td>
-								
-					<xsl:if test="//did/unitdate">
-						<td>
-							<xsl:apply-templates select="unitdate" />
+					<xsl:element name="tr">
+						<!-- construct id for series links:
+							 this looks complicated, but it's apparently not possible to just do something like ../position() 
+						-->
+						<xsl:attribute name="id" select="concat('s', string(count(../preceding-sibling::*[@level = 'series']) + 1))" />
+						
+						<td nowrap="1" align="CENTER" valign="center">
+							<xsl:choose>
+								<xsl:when test="container[@type = 'box']"> Box <xsl:apply-templates select="container[@type = 'box']" />
+								</xsl:when>
+								<xsl:when test="container[@type = 'mapcase-folder']"> Mapcase Folder <!-- changed map-case to mapcase-folder at all levels - msf252 -->
+										<xsl:apply-templates select="container[@type = 'mapcase-folder']" />
+								</xsl:when>
+								<xsl:when test="container[@type = 'mapcase folder']"> Mapcase Folder 
+									<xsl:apply-templates select="container[@type = 'mapcase folder']" />
+								</xsl:when>
+							</xsl:choose>
 						</td>
-					</xsl:if>
+						<td nowrap="1" align="CENTER" valign="center">
+							<xsl:choose>
+								<xsl:when test="container[@type = 'folder']"> Folder
+										<xsl:apply-templates select="container[@type = 'folder']" />
+								</xsl:when>
+								<xsl:when test="unitid">
+									<xsl:value-of select="unitid/@label" />
+									<xsl:apply-templates select="unitid" />
+								</xsl:when>
+								<xsl:when test="container[@type = 'volume']"> Volume
+										<xsl:apply-templates select="container[@type = 'volume']" />
+								</xsl:when>
+							</xsl:choose>
+						</td>
+									
+						<td>
+							<div class="serieslabel">
+								<xsl:apply-templates select="unittitle" />
+							</div>
+						</td>
+									
+						<xsl:if test="//did/unitdate">
+							<td>
+								<xsl:apply-templates select="unitdate" />
+							</td>
+						</xsl:if>
+						
+						<xsl:apply-templates select="abstract" />
+					</xsl:element>
 					
-					<xsl:apply-templates select="abstract" />
 				</xsl:when>
 
 				<xsl:when test="../@level = 'subseries'"><!-- switched date and container(Box, Mapcase, Folder, Volume) columns - kaw5 -->
+					<!-- construct id for series links -->
+					<xsl:element name="tr">
+						<xsl:variable name="series_str" select="concat('s', string(count(../../preceding-sibling::*[@level = 'series']) + 1))"/>
+						<xsl:attribute name="id" select="concat($series_str, 'ss', string(count(../preceding-sibling::*[@level = 'subseries']) + 1))" />
 					
-					<td nowrap="1" align="CENTER" valign="TOP">
-						<xsl:choose>
-							<xsl:when test="container[@type = 'box']"> Box <xsl:apply-templates select="container[@type = 'box']" />
-							</xsl:when>
-							<xsl:when test="container[@type = 'mapcase-folder']"> Mapcase Folder 
-								<xsl:apply-templates select="container[@type = 'mapcase-folder']" />
-							</xsl:when>
-							<xsl:when test="container[@type = 'mapcase folder']"> Mapcase Folder 
-								<xsl:apply-templates select="container[@type = 'mapcase folder']" />
-							</xsl:when>
-						</xsl:choose>
-					</td>
-					<td nowrap="1" align="CENTER" valign="TOP">
-						<xsl:choose>
-							<xsl:when test="container[@type = 'folder']"> Folder
-									<xsl:apply-templates select="container[@type = 'folder']" />
-							</xsl:when>
-							<xsl:when test="unitid">
-								<xsl:value-of select="unitid/@label" />
-								<xsl:apply-templates select="unitid" />
-							</xsl:when>
-							<xsl:when test="container[@type = 'volume']"> Volume
-									<xsl:apply-templates select="container[@type = 'volume']" />
-							</xsl:when>
-						</xsl:choose>
-					</td>
-					
-					
-					<td>
-						<div class="subserieslabel">
-							<xsl:attribute name="STYLE">margin-left: <xsl:value-of select="$indent-value - 3" />em; text-indent:
-								-2em;</xsl:attribute>
-							<xsl:apply-templates select="unittitle" />
-						</div>
-					</td>
-					
-					
-					<xsl:if test="//did/unitdate">
-						<td>
-							<xsl:apply-templates select="unitdate" />
+						<td nowrap="1" align="CENTER" valign="TOP">
+							<xsl:choose>
+								<xsl:when test="container[@type = 'box']"> Box <xsl:apply-templates select="container[@type = 'box']" />
+								</xsl:when>
+								<xsl:when test="container[@type = 'mapcase-folder']"> Mapcase Folder 
+									<xsl:apply-templates select="container[@type = 'mapcase-folder']" />
+								</xsl:when>
+								<xsl:when test="container[@type = 'mapcase folder']"> Mapcase Folder 
+									<xsl:apply-templates select="container[@type = 'mapcase folder']" />
+								</xsl:when>
+							</xsl:choose>
 						</td>
-					</xsl:if>		
-					
-					<xsl:apply-templates select="abstract" />
+						<td nowrap="1" align="CENTER" valign="TOP">
+							<xsl:choose>
+								<xsl:when test="container[@type = 'folder']"> Folder
+										<xsl:apply-templates select="container[@type = 'folder']" />
+								</xsl:when>
+								<xsl:when test="unitid">
+									<xsl:value-of select="unitid/@label" />
+									<xsl:apply-templates select="unitid" />
+								</xsl:when>
+								<xsl:when test="container[@type = 'volume']"> Volume
+										<xsl:apply-templates select="container[@type = 'volume']" />
+								</xsl:when>
+							</xsl:choose>
+						</td>
+						
+						
+						<td>
+							<div class="subserieslabel">
+								<xsl:attribute name="STYLE">margin-left: <xsl:value-of select="$indent-value - 3" />em; text-indent:
+									-2em;</xsl:attribute>
+								<xsl:apply-templates select="unittitle" />
+							</div>
+						</td>
+						
+						
+						<xsl:if test="//did/unitdate">
+							<td>
+								<xsl:apply-templates select="unitdate" />
+							</td>
+						</xsl:if>		
+						
+						<xsl:apply-templates select="abstract" />
+					</xsl:element>
 				</xsl:when>
 
 				<xsl:otherwise><!-- switched date and container(Box, Mapcase, Folder, Volume) columns - kaw5 -->
-					
+					<tr>
 					<td nowrap="1" align="CENTER" valign="TOP">
 						<xsl:choose>
 							<xsl:when test="container[@type = 'box']"> Box <xsl:apply-templates select="container[@type = 'box']" />
@@ -857,6 +894,9 @@
 							<xsl:when test="container[@type = 'file-drawer']"> File Drawer
 									<xsl:apply-templates select="container[@type = 'file-drawer']" />
 							</xsl:when>
+							<xsl:when test="container[@type = 'file cabinet']"> File Cabinet
+								<xsl:apply-templates select="container[@type = 'file cabinet']" />
+							</xsl:when>
 							<xsl:when test="container[@type = 'cabinet']"> Cabinet
 									<xsl:apply-templates select="container[@type = 'cabinet']" />
 							</xsl:when>
@@ -870,6 +910,78 @@
 								<xsl:variable name = "boxnum" select = "substring-before($str, '-')" />
 								Manuscript Box <xsl:value-of select = "$boxnum" />
 							</xsl:when>
+							<xsl:when test="container[@type = 'tube']">
+								Tube <xsl:apply-templates select="container[@type = 'tube']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'microfilm reel']">
+								Microfilm Reel <xsl:apply-templates select="container[@type = 'microfilm reel']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'microfilm box']">
+								Microfilm Box <xsl:apply-templates select="container[@type = 'microfilm box']" />
+							</xsl:when>							
+							<xsl:when test="container[@type = 'portfolio']">
+								Portfolio <xsl:apply-templates select="container[@type = 'portfolio']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'audiocassette']">
+								Audiocassette <xsl:apply-templates select="container[@type = 'audiocassette']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'video']">
+								Video <xsl:apply-templates select="container[@type = 'video']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'unspecified']">
+								(unspecified) <xsl:apply-templates select="container[@type = 'unspecified']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'item']">
+								Item <xsl:apply-templates select="container[@type = 'item']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'transcript']">
+								Transcript <xsl:apply-templates select="container[@type = 'transcript']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'transcript box']">
+								Transcript Box <xsl:apply-templates select="container[@type = 'transcript box']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'huntington box']">
+								Huntington Box <xsl:apply-templates select="container[@type = 'huntington box']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'tr']">
+								Tape Recording <xsl:apply-templates select="container[@type = 'tr']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'mu']">
+								MU <xsl:apply-templates select="container[@type = 'mu']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'cd']">
+								CD <xsl:apply-templates select="container[@type = 'cd']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'dvd']">
+								DVD <xsl:apply-templates select="container[@type = 'dvd']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'mapcase item']">
+								Mapcase Item <xsl:apply-templates select="container[@type = 'mapcase item']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'v']">
+								V <xsl:apply-templates select="container[@type = 'v']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'f']">
+								F <xsl:apply-templates select="container[@type = 'f']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'sr']">
+								Sound recording <xsl:apply-templates select="container[@type = 'sr']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'dvc']">
+								DVC <xsl:apply-templates select="container[@type = 'dvc']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'museum item box']"> 
+								Museum Item Box	<xsl:apply-templates select="container[@type = 'museum item box']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'cassette box']">
+								Cassette Box <xsl:apply-templates select="container[@type = 'cassette box']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'goldsen box']">
+								Goldsen Box <xsl:apply-templates select="container[@type = 'goldsen box']" />
+							</xsl:when>
+							<xsl:when test="container[@type = 'hard drive']">
+								Hard Drive <xsl:apply-templates select="container[@type = 'hard drive']" />
+							</xsl:when>							
 						</xsl:choose>
 					</td>
 					<td nowrap="1" align="CENTER" valign="TOP">
@@ -893,7 +1005,6 @@
 							</xsl:when>
 							<xsl:when test="container[@type = 'page']"> Page <xsl:apply-templates select="container[@type = 'page']" />
 							</xsl:when>
-			
 						</xsl:choose>
 					</td>
 									
@@ -920,27 +1031,32 @@
 					<xsl:apply-templates select="origination" />
 					<xsl:apply-templates select="physdesc" />
 					<xsl:apply-templates select="physloc" />
+						
+					</tr>
 				</xsl:otherwise>
-
-			</xsl:choose>
-		</tr>
+		</xsl:choose>
 	</xsl:template>
 
+	<!-- I don't understand why this was done in this fashion - it doesn't work right and seems to cause
+		other nodes under scopecontent to end up being matched twice, at least with XSL 2.0
 	<xsl:template match="c01/scopecontent/p | c02/scopecontent/p | c03/scopecontent/p | c04/scopecontent/p | c05/scopecontent/p | c06/scopecontent/p | c07/scopecontent/p">
 
 		<xsl:variable name="indent-value">
 			<xsl:call-template name="depth-of-node" />
 		</xsl:variable>
 
-		<tr><!-- switched date column to end, added two blank tds at front - kaw5-->
+		<tr>
 			
 			<td />
 			<td />
-			<td><!-- kaw5 removed colspan="3" -->
+			<td>
 				<div class="heading"><xsl:value-of select="../head"/></div>
 				<div>
 					<xsl:attribute name="STYLE">margin-left: <xsl:value-of select="$indent-value - 3" />em; </xsl:attribute>
 					<xsl:apply-templates />
+				</div>
+				<div>
+					<xsl:attribute name="STYLE">margin-left: <xsl:value-of select="$indent-value - 3" />em; </xsl:attribute>
 				</div>
 			</td>
 			
@@ -950,7 +1066,31 @@
 				</xsl:when>
 			</xsl:choose>
 		</tr>
+	</xsl:template> -->
+
+	<xsl:template match="c01/scopecontent | c02/scopecontent | c03/scopecontent | c04/scopecontent | c05/scopecontent | c06/scopecontent | c07/scopecontent">
+		<xsl:variable name="indent-value">
+			<xsl:call-template name="depth-of-node" />
+		</xsl:variable>
+		<tr>
+			<td /> <td />
+			<td>
+				<div class="heading"><xsl:value-of select="head"/></div>
+				<div>
+					<xsl:attribute name="STYLE">margin-left: <xsl:value-of select="$indent-value - 3" />em; </xsl:attribute>
+					<xsl:apply-templates />
+				</div>
+			</td>
+			
+			<!-- this seems to have been done to fill in the row in case there is a date column -->
+			<xsl:choose>
+				<xsl:when test="//did/unitdate">
+					<td />
+				</xsl:when>
+			</xsl:choose>
+		</tr>
 	</xsl:template>
+	
 <!-- THESE CONTROL ACCESS TAGS WERE ADDED SO THAT TERMS COULD BE ENTERED AND VIEWED BELOW THE COLLECTION LEVEL, OTHERWISE THEY WERE NOT SHOWING UP, OR BEING ADDED TO THE TOP OF THE GUIDE AND NOT WITH THEIR CORRESPONDING FILE -  ERIN AND MARCIE, FEB 2017 -->
 
 	<xsl:template match="c01/controlaccess/geogname | c02/controlaccess/geogname | c03/controlaccess/geogname | c04/controlaccess/geogname | c05/controlaccess/geogname | c06/controlaccess/geogname | c07/controlaccess/geogname">
@@ -1667,7 +1807,11 @@
 
 
 	<!-- CERTAIN LISTS -->
-
+	
+	<!-- TODO I don't know if this worked differently in XSL 1.0 or what,
+		 but at least with the container scopecontents, these things are
+		 being explicitly selected and then ending up matching and 
+		 output again -->
 
 	<xsl:template match="p/list | descgrp/list | arrangement/list | odd/list | separatedmaterial/list | relatedmaterial/list | scopecontent/list">
 		<xsl:apply-templates select="head" />
