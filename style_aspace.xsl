@@ -238,7 +238,8 @@
     </xsl:template>
     
     <!-- I'm not sure where the "information for users" heading came from before, but it no longer
-    	 exists in the aspace export -->
+    	 exists in the aspace export; there does however seem to be one prefercite element
+    	 in each to stand in for it -->
 	<xsl:template match="prefercite">
 		<hr/><a name="info_for_users">
 		<div class="H4">INFORMATION FOR USERS</div> <p />
@@ -247,6 +248,13 @@
 		<xsl:apply-templates />
 		
 	</xsl:template> 
+	
+	<xsl:template match="accessrestrict">
+		<xsl:if test="count(preceding-sibling::accessrestrict) = 0">
+			<xsl:apply-templates select="head" />
+		</xsl:if>
+		<xsl:apply-templates select="p" />
+	</xsl:template>
 	
 	<!-- this is a special case hack to stop the sidebar series list from stealing the href -->
 	<xsl:template match="head" mode="sidebar_series">
@@ -297,6 +305,7 @@
 				or lower-case(.) = 'scope and content' 
 				or lower-case(.) = 'conditions governing use' 
 				or lower-case(.) = 'restrictions on use:'
+				or lower-case(.) = 'access restrictions:'
 				" >
 				<!-- this stuff doesn't seem to show up in current EADs so we probably don't want a link -->
 			</xsl:when>
@@ -473,6 +482,7 @@
 			<div class="item"><xsl:value-of select="."/></div>
 		</xsl:for-each>
 	</xsl:template>
+	
 	<!--
 	<xsl:template match="controlaccess">   
 		<hr />
@@ -734,7 +744,7 @@
 	</xsl:template>
 
 	<!-- surprisingly simple way to toss in an anchor row for the series list links to href to -
-		 unfortunately this sort of approach only goes so far (what if one has a hyphen in the middle, etc)	-->
+		 unfortunately this sort of approach only goes so far (what if one has a hyphen in the middle, etc)	
 	<xsl:template name="ref_to_id_row">
 		<xsl:param name="text"></xsl:param>
 		<xsl:for-each select="/ead/archdesc/arrangement//ref">
@@ -755,6 +765,7 @@
 			</xsl:if>
 		</xsl:for-each>
 	</xsl:template>
+	-->
 	
 	<xsl:template match="c01/did | c02/did | c03/did | c04/did | c05/did | c06/did">
 
@@ -877,6 +888,7 @@
 					</xsl:element>
 				</xsl:when>
 
+<!-- why no subsubseries? because it doesn't actually seem to exist in the container list -->
 				<xsl:otherwise><!-- switched date and container(Box, Mapcase, Folder, Volume) columns - kaw5 -->
 					<tr>
 					<td nowrap="1" align="CENTER" valign="TOP">
