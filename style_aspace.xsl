@@ -4,6 +4,43 @@
     xmlns:fn="http://www.w3.org/2005/xpath-functions"
     xpath-default-namespace="urn:isbn:1-931666-22-9">
 
+	<xsl:output method="html" version="5.0" use-character-maps="no-control-characters"/>
+	<xsl:character-map name="no-control-characters">
+		<xsl:output-character character="&#127;" string=" "/>
+		<xsl:output-character character="&#128;" string=" "/>
+		<xsl:output-character character="&#129;" string=" "/>
+		<xsl:output-character character="&#130;" string=" "/>
+		<xsl:output-character character="&#131;" string=" "/>
+		<xsl:output-character character="&#132;" string=" "/>
+		<xsl:output-character character="&#133;" string=" "/>
+		<xsl:output-character character="&#134;" string=" "/>
+		<xsl:output-character character="&#135;" string=" "/>
+		<xsl:output-character character="&#136;" string=" "/>
+		<xsl:output-character character="&#137;" string=" "/>
+		<xsl:output-character character="&#138;" string=" "/>
+		<xsl:output-character character="&#139;" string=" "/>
+		<xsl:output-character character="&#140;" string=" "/>
+		<xsl:output-character character="&#141;" string=" "/>
+		<xsl:output-character character="&#142;" string=" "/>
+		<xsl:output-character character="&#143;" string=" "/>
+		<xsl:output-character character="&#144;" string=" "/>
+		<xsl:output-character character="&#145;" string=" "/>
+		<xsl:output-character character="&#146;" string=" "/>
+		<xsl:output-character character="&#147;" string=" "/>
+		<xsl:output-character character="&#148;" string=" "/>
+		<xsl:output-character character="&#149;" string=" "/>
+		<xsl:output-character character="&#150;" string=" "/>
+		<xsl:output-character character="&#151;" string=" "/>
+		<xsl:output-character character="&#152;" string=" "/>
+		<xsl:output-character character="&#153;" string=" "/>
+		<xsl:output-character character="&#154;" string=" "/>
+		<xsl:output-character character="&#155;" string=" "/>
+		<xsl:output-character character="&#156;" string=" "/>
+		<xsl:output-character character="&#157;" string=" "/>
+		<xsl:output-character character="&#158;" string=" "/>
+		<xsl:output-character character="&#159;" string=" "/>
+	</xsl:character-map>
+	
     <xsl:template match="/">
 
         <html>    
@@ -262,6 +299,14 @@
 			<xsl:apply-templates /> 
 		</div>
 		<p />
+	</xsl:template>
+	
+	<xsl:template name="generate_series_list">
+		<xsl:for-each select="//dsc/c01">
+			<xsl:if test="@level='series'">
+				
+			</xsl:if>
+		</xsl:for-each>
 	</xsl:template>
  
  <!-- NOTE: stuff from here copied/pasted straight out of old sytlesheet and then possibly modified -->
@@ -591,15 +636,22 @@
 	<!-- relatedmaterial lists handled below under add at end -->
 <!--<xsl:variable name="colnum" select="//unitid"/> put collection number in variable - kaw5 -->
 	<!-- COLLECTION ARRANGEMENT/SERIES LIST -->
-
-<xsl:template match="archdesc/arrangement" mode="toc"> 
-<!-- ++++++++++++++++++++++++++  added series list and links to sidebar - kaw5 -->
-<!-- had to make this even more hacky to get it to work (see "ref" template later on) -->
-<div id="serieslist">
-	<xsl:apply-templates select="head" mode="sidebar_series"/>
-	<xsl:apply-templates select="//ref"/>
-</div>
-<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+	
+	<xsl:template match="archdesc/arrangement" mode="toc"> 
+		<!-- ++++++++++++++++++++++++++  added series list and links to sidebar - kaw5 -->
+		<!-- had to make this even more hacky to get it to work (see "ref" template later on) -->
+		<div id="serieslist">
+			<xsl:choose>
+				<xsl:when test=".//ref">
+					<xsl:apply-templates select="head" mode="sidebar_series"/>
+					<xsl:apply-templates select=".//ref"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:apply-templates />
+				</xsl:otherwise>
+			</xsl:choose>
+		</div>
+		<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
 	</xsl:template>
 
 	<xsl:template match="archdesc/arrangement/list | archdesc/arrangement/list/defitem/item | defitem/item/list | item/list/defitem/item | list/item/list">
