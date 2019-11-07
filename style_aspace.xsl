@@ -4,7 +4,7 @@
     xmlns:fn="http://www.w3.org/2005/xpath-functions"
     xpath-default-namespace="urn:isbn:1-931666-22-9">
 
-	<xsl:output method="html" version="5.0" use-character-maps="no-control-characters"/>
+	<!--<xsl:output method="html" version="5.0" use-character-maps="no-control-characters"/>-->
 	<xsl:character-map name="no-control-characters">
 		<xsl:output-character character="&#127;" string=" "/>
 		<xsl:output-character character="&#128;" string=" "/>
@@ -71,7 +71,9 @@
                     	<li><a href="#subjects">SUBJECTS</a></li>
                     	<li><a href="#a10">CONTAINER LIST</a></li>
                     </ul>
-                    <xsl:apply-templates select="//archdesc/arrangement[last()]" mode="toc" />
+                    <!-- <xsl:apply-templates select="//archdesc/arrangement[last()]" mode="toc" /> -->
+                	<xsl:call-template name="generate_series_list" />
+                	
                     <p id="sidebarlinks">
                         CTRL+F to search this guide | 
                         <a href="javascript:window.print()">
@@ -302,14 +304,33 @@
 	</xsl:template>
 	
 	<xsl:template name="generate_series_list">
-		<xsl:for-each select="//dsc/c01">
-			<xsl:if test="@level='series'">
-				
-			</xsl:if>
+		<xsl:for-each select="/ead/archdesc/dsc/c01[@level='series']">
+			<xsl:variable name="series_level" select="concat('s', string(count(preceding-sibling::c01[@level = 'series']) + 1))" />
+			<p> 
+				<a href="#{$series_level}">
+					<xsl:apply-templates select="./did/unittitle"/>
+				</a>
+				<xsl:for-each select="./c02[@level='subseries']">
+					<xsl:variable name="subseries_level" select="concat('ss', string(count(preceding-sibling::c02[@level = 'subseries']) + 1))" />
+					<p>
+						<a href="#{concat($series_level, $subseries_level)}">
+							<xsl:apply-templates select="./did/unittitle"/>
+						</a>
+						<xsl:for-each select="./c03[@level='subseries']">
+							<xsl:variable name="subsubseries_level" select="concat('sss', string(count(preceding-sibling::c03[@level = 'subseries']) + 1))"/>
+							<p>
+								<a href="#{concat($series_level, $subseries_level, $subsubseries_level)}">
+									<xsl:apply-templates select="./did/unittitle"/>
+								</a>
+							</p>
+						</xsl:for-each>
+					</p>
+				</xsl:for-each>
+			</p>
 		</xsl:for-each>
 	</xsl:template>
- 
- <!-- NOTE: stuff from here copied/pasted straight out of old sytlesheet and then possibly modified -->
+	
+	<!-- NOTE: stuff from here copied/pasted straight out of old sytlesheet and then possibly modified -->
 	
 	<!-- HEAD -->
 	
@@ -923,8 +944,7 @@
 						
 						<td>
 							<div class="subserieslabel">
-								<xsl:attribute name="STYLE">margin-left: <xsl:value-of select="$indent-value - 3" />em; text-indent:
-									-2em;</xsl:attribute>
+								<xsl:attribute name="STYLE">margin-left: <xsl:value-of select="$indent-value - 3" />em; text-indent: -2em;</xsl:attribute>
 								<xsl:apply-templates select="unittitle" />
 							</div>
 						</td>
@@ -1074,8 +1094,7 @@
 									
 					<td>
 						<div>
-							<xsl:attribute name="STYLE">margin-left: <xsl:value-of select="$indent-value - 3" />em; text-indent:
-								-2em;</xsl:attribute>
+							<xsl:attribute name="STYLE">margin-left: <xsl:value-of select="$indent-value - 3" />em; text-indent: -2em;</xsl:attribute>
 							<xsl:apply-templates select="unittitle" />
 							<xsl:if test="unitid and container[@type = 'folder']">
 								<br />
