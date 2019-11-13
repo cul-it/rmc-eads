@@ -857,7 +857,7 @@
 		<!--<tr>-->
 			<xsl:choose>
 
-				<xsl:when test="../@level = 'series'"><!-- switched date and container(Box, Mapcase, Folder, Volume) columns - kaw5 -->
+				<xsl:when test="../../c01[@level = 'series']"><!-- switched date and container(Box, Mapcase, Folder, Volume) columns - kaw5 -->
 					<xsl:element name="tr">
 						<!-- construct id for series links:
 							 this looks complicated, but it's apparently not possible to just do something like ../position() 
@@ -908,7 +908,7 @@
 					
 				</xsl:when>
 
-				<xsl:when test="../@level = 'subseries'"><!-- switched date and container(Box, Mapcase, Folder, Volume) columns - kaw5 -->
+				<xsl:when test="../../c02[@level = 'subseries']"><!-- switched date and container(Box, Mapcase, Folder, Volume) columns - kaw5 -->
 					<!-- construct id for series links -->
 					<xsl:element name="tr">
 						<xsl:variable name="series_str" select="concat('s', string(count(../../preceding-sibling::*[@level = 'series']) + 1))"/>
@@ -962,6 +962,14 @@
 
 <!-- why no subsubseries? because it doesn't actually seem to exist in the container list -->
 				<xsl:otherwise><!-- switched date and container(Box, Mapcase, Folder, Volume) columns - kaw5 -->
+					<!-- since there's no subsubseries attribute and no distinction for c03 from lower levels, we need a special 
+						 conditional anchor row -->
+					<xsl:if test="../../c03[@level='subseries']">
+						<xsl:variable name="s_str" select="concat('s', count(../../../preceding-sibling::c01[@level='series']) + 1)"/>
+						<xsl:variable name="ss_str" select="concat('ss', count(../../preceding-sibling::c02[@level='subseries']) + 1)"/>
+						<xsl:variable name="sss_str" select="concat('sss', count(../preceding-sibling::c03[@level='subseries']) + 1)"/>
+						<tr id="{concat($s_str, $ss_str, $sss_str)}" />
+					</xsl:if>
 					<tr>
 					<td nowrap="1" align="CENTER" valign="TOP">
 						<xsl:choose>
