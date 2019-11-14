@@ -71,8 +71,12 @@
                     	<li><a href="#subjects">SUBJECTS</a></li>
                     	<li><a href="#a10">CONTAINER LIST</a></li>
                     </ul>
+                	
                     <!-- <xsl:apply-templates select="//archdesc/arrangement[last()]" mode="toc" /> -->
-                	<xsl:call-template name="generate_series_list" />
+                	<div id="serieslist">
+						<div class="h4" align="center"> Series List </div>
+                		<xsl:call-template name="generate_series_list" />
+                	</div>
                 	
                     <p id="sidebarlinks">
                         CTRL+F to search this guide | 
@@ -308,19 +312,19 @@
 			<xsl:variable name="series_level" select="concat('s', string(count(preceding-sibling::c01[@level = 'series']) + 1))" />
 			<p> 
 				<a href="#{$series_level}">
-					<xsl:apply-templates select="./did/unittitle"/>
+					<xsl:apply-templates select="./did/unittitle" /> 
 				</a>
 				<xsl:for-each select="./c02[@level='subseries']">
 					<xsl:variable name="subseries_level" select="concat('ss', string(count(preceding-sibling::c02[@level = 'subseries']) + 1))" />
-					<p>
+					<p style="margin-left: +1em;">
 						<a href="#{concat($series_level, $subseries_level)}">
-							<xsl:apply-templates select="./did/unittitle"/>
+							<xsl:apply-templates select="./did/unittitle" />
 						</a>
 						<xsl:for-each select="./c03[@level='subseries']">
 							<xsl:variable name="subsubseries_level" select="concat('sss', string(count(preceding-sibling::c03[@level = 'subseries']) + 1))"/>
-							<p>
+							<p style="margin-left: +2em;">
 								<a href="#{concat($series_level, $subseries_level, $subsubseries_level)}">
-									<xsl:apply-templates select="./did/unittitle"/>
+									<xsl:apply-templates select="./did/unittitle" />
 								</a>
 							</p>
 						</xsl:for-each>
