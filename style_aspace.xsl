@@ -662,6 +662,7 @@
 <!--<xsl:variable name="colnum" select="//unitid"/> put collection number in variable - kaw5 -->
 	<!-- COLLECTION ARRANGEMENT/SERIES LIST -->
 	
+	<!-- NOTE: this has been replaced with a dynamic construction template based on the container list -->
 	<xsl:template match="archdesc/arrangement" mode="toc"> 
 		<!-- ++++++++++++++++++++++++++  added series list and links to sidebar - kaw5 -->
 		<!-- had to make this even more hacky to get it to work (see "ref" template later on) -->
@@ -683,6 +684,9 @@
 		<xsl:apply-templates />
 	</xsl:template>
 
+	<!-- this subtree should be ignored at this point -->
+	<xsl:template match="archdesc/arrangement/*" />
+	
 	<xsl:template match="archdesc/arrangement/list/defitem">
 		<xsl:choose>
 			<xsl:when test="item/list/defitem">
@@ -819,49 +823,16 @@
 	<xsl:template match="c01 | c02 | c03 | c04 | c05 | c06">
 		<xsl:apply-templates/>
 	</xsl:template>
-
-	<!-- surprisingly simple way to toss in an anchor row for the series list links to href to -
-		 unfortunately this sort of approach only goes so far (what if one has a hyphen in the middle, etc)	
-	<xsl:template name="ref_to_id_row">
-		<xsl:param name="text"></xsl:param>
-		<xsl:for-each select="/ead/archdesc/arrangement//ref">
-			<xsl:variable name="stripped_text">
-				<xsl:choose>
-					<xsl:when test="starts-with(normalize-space(lower-case($text)), 'series')">
-						<xsl:value-of select="normalize-space(substring-after($text, '.'))"/>
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:value-of select="normalize-space($text)"/>
-					</xsl:otherwise>
-				</xsl:choose>
-			</xsl:variable>
-			<xsl:if test="contains(., $stripped_text)">
-				<xsl:element name="tr">
-					<xsl:attribute name="id" select="@target" />
-				</xsl:element>
-			</xsl:if>
-		</xsl:for-each>
-	</xsl:template>
-	-->
 	
 	<xsl:template match="c01/did | c02/did | c03/did | c04/did | c05/did | c06/did">
 
 		<xsl:variable name="indent-value">
 			<xsl:call-template name="depth-of-node" />
 		</xsl:variable>
-	
-		<!-- first (inadequate) attempt at getting series links working
-		<xsl:if test="../@level='series' or ../@level='subseries' or ../@level='subsubseries'">
-			<xsl:call-template name="ref_to_id_row">
-				<xsl:with-param name="text" select="unittitle" />
-			</xsl:call-template>
-		</xsl:if>
-		-->
 		
-		<!--<tr>-->
 			<xsl:choose>
 
-				<xsl:when test="../../c01[@level = 'series']"><!-- switched date and container(Box, Mapcase, Folder, Volume) columns - kaw5 -->
+				<xsl:when test="../@level = 'series'"><!-- switched date and container(Box, Mapcase, Folder, Volume) columns - kaw5 -->
 					<xsl:element name="tr">
 						<!-- construct id for series links:
 							 this looks complicated, but it's apparently not possible to just do something like ../position() 
@@ -912,7 +883,7 @@
 					
 				</xsl:when>
 
-				<xsl:when test="../../c02[@level = 'subseries']"><!-- switched date and container(Box, Mapcase, Folder, Volume) columns - kaw5 -->
+				<xsl:when test="name(..) = 'c02' and ../@level = 'subseries'"><!-- switched date and container(Box, Mapcase, Folder, Volume) columns - kaw5 -->
 					<!-- construct id for series links -->
 					<xsl:element name="tr">
 						<xsl:variable name="series_str" select="concat('s', string(count(../../preceding-sibling::*[@level = 'series']) + 1))"/>
@@ -968,7 +939,7 @@
 				<xsl:otherwise><!-- switched date and container(Box, Mapcase, Folder, Volume) columns - kaw5 -->
 					<!-- since there's no subsubseries attribute and no distinction for c03 from lower levels, we need a special 
 						 conditional anchor row -->
-					<xsl:if test="../../c03[@level='subseries']">
+					<xsl:if test="name(..) = 'c03' and ../@level='subseries'">
 						<xsl:variable name="s_str" select="concat('s', count(../../../preceding-sibling::c01[@level='series']) + 1)"/>
 						<xsl:variable name="ss_str" select="concat('ss', count(../../preceding-sibling::c02[@level='subseries']) + 1)"/>
 						<xsl:variable name="sss_str" select="concat('sss', count(../preceding-sibling::c03[@level='subseries']) + 1)"/>
