@@ -853,6 +853,9 @@
 								<xsl:when test="container[@type = 'mapcase folder']"> Mapcase Folder 
 									<xsl:apply-templates select="container[@type = 'mapcase folder']" />
 								</xsl:when>
+								<xsl:when test="container[@type = 'electronic']"> Electronic 
+									<xsl:apply-templates select="container[@type = 'electronic']" />
+								</xsl:when>
 							</xsl:choose>
 						</td>
 						<td nowrap="1" align="CENTER" valign="center">
@@ -902,6 +905,9 @@
 								</xsl:when>
 								<xsl:when test="container[@type = 'mapcase folder']"> Mapcase Folder 
 									<xsl:apply-templates select="container[@type = 'mapcase folder']" />
+								</xsl:when>
+								<xsl:when test="container[@type = 'electronic']"> Electronic 
+									<xsl:apply-templates select="container[@type = 'electronic']" />
 								</xsl:when>
 							</xsl:choose>
 						</td>
@@ -1045,7 +1051,10 @@
 							</xsl:when>
 							<xsl:when test="container[@type = 'hard drive']">
 								Hard Drive <xsl:apply-templates select="container[@type = 'hard drive']" />
-							</xsl:when>							
+							</xsl:when>
+							<xsl:when test="container[@type = 'electronic']">
+								Electronic <xsl:apply-templates select="container[@type = 'electronic']" />
+							</xsl:when>								
 						</xsl:choose>
 					</td>
 					<td nowrap="1" align="CENTER" valign="TOP">
