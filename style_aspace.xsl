@@ -291,6 +291,7 @@
 		<xsl:apply-templates />
 		
 	</xsl:template> 
+
 	
 	<xsl:template match="accessrestrict">
 		<xsl:if test="count(preceding-sibling::accessrestrict) = 0">
@@ -343,7 +344,7 @@
 	<xsl:template match="head">
 		<xsl:choose>
 			<xsl:when test="lower-case(.) = 'scope and contents'
-				or lower-case(.) = 'processing information'
+				or lower-case(.) = 'Processing Information'
 				or lower-case(.) = 'arrangement'
 				or lower-case(.) = 'existence and location of copies'
 				or lower-case(.) = 'conditions governing access'
@@ -586,7 +587,7 @@
 -->
 
 	<!-- ADMININFO/INFORMATION FOR USERS -->
-	<!-- NOTE: "descgrp" doesn't show up in aspace export -->
+	<!-- NOTE: "descgrp" doesn't show up in aspace export Commenting out for now EEF
 	<xsl:template match="descgrp">
 		<xsl:choose>
 			<xsl:when test="accessrestrict | userestrict | altformavail | processinfo | prefercite | otherfindaid">
@@ -599,8 +600,8 @@
 		</xsl:choose>
 	</xsl:template>
 
-	<xsl:template match="descgrp/custodhist | descgrp/acqinfo" />
-
+	<xsl:template match="descgrp/custodhist | descgrp/acqinfo" />-->
+	<!-- Don't think this is being used anymore EEF
 	<xsl:template match="descgrp/accessrestrict | descgrp/userestrict | descgrp/altformavail | descgrp/processinfo | descgrp/prefercite | descgrp/otherfindaid">
 		<div class="heading">
 			<xsl:choose>
@@ -619,7 +620,7 @@
 			<xsl:apply-templates select="p" />
 		</div>
 
-	</xsl:template>
+	</xsl:template>-->
 
 
 	<!-- RELATED MATERIAL -->
@@ -650,7 +651,7 @@
 					<xsl:attribute name="name">#<xsl:value-of select="@id"/></xsl:attribute><xsl:apply-templates/>
 				</a>
 			</xsl:when>
-			<xsl:otherwise>
+			<xsl:otherwise
 				<xsl:apply-templates/>
 			</xsl:otherwise>
 		</xsl:choose>
@@ -1195,6 +1196,9 @@
 	</xsl:template>
 	<!-- THESE CONTROL ACCESS TAGS WERE ADDED SO THAT TERMS COULD BE ENTERED AND VIEWED BELOW THE COLLECTION LEVEL, OTHERWISE THEY WERE NOT SHOWING UP, OR BEING ADDED TO THE TOP OF THE GUIDE AND NOT WITH THEIR CORRESPONDING FILE -  Marcie 2017-11-08 -->
 	
+	<!-- these were getting picked up somewhere else and generating invalid tags for a table, resulting in the browser just dropping it above -->
+	<xsl:template match="c01/bioghist/head | c02/bioghist/head | c03/bioghist/head | c04/bioghist/head | c05/bioghist/head | c06/bioghist/head | c07/bioghist/head" />
+	
 	<xsl:template match="c01/bioghist/p | c02/bioghist/p | c03/bioghist/p | c04/bioghist/p | c05/bioghist/p | c06/bioghist/p | c07/bioghist/p">
 		
 		<xsl:variable name="indent-value">
@@ -1345,6 +1349,33 @@
 			</td>
 			
 				<xsl:choose>
+				<xsl:when test="//did/unitdate">
+					<td />
+				</xsl:when>
+			</xsl:choose>
+		</tr>
+		
+		
+	</xsl:template>
+	
+	<xsl:template match="c01/controlaccess/function | c02/controlaccess/function  | c03/controlaccess/function  | c04/controlaccess/function  | c05/controlaccess/function  | c06/controlaccess/function | c07/controlaccess/function">
+		
+		<xsl:variable name="indent-value">
+			<xsl:call-template name="depth-of-node" />
+		</xsl:variable>
+		<tr><!-- switched date column to end, added two blank tds at front - kaw5-->
+			
+			<td />
+			<td />	
+			
+			<td>
+				<div>
+					<xsl:attribute name="STYLE">margin-left: <xsl:value-of select="$indent-value - 3" />em; </xsl:attribute>
+					<xsl:apply-templates />
+				</div>
+			</td>
+			
+			<xsl:choose>
 				<xsl:when test="//did/unitdate">
 					<td />
 				</xsl:when>
@@ -1544,6 +1575,10 @@
 	<!-- aspace seems to be exporting rogue prcessinfo elements with another one nested inside them;
 		 this should grab that and stop if from messing other things up -->
 	<xsl:template match="//processinfo/processinfo" />
+	
+	<!-- these were getting picked up somewhere else and generating invalid tags for a table, resulting in the browser just dropping it above -->
+	<xsl:template match="c01/processinfo/head | c02/processinfo/head | c03/processinfo/head | c04/processinfo/head | c05/processinfo/head | c06/processinfo/head | c07/processinfo/head" />
+	
 	
 	<xsl:template match="c01/processinfo/p | c02/processinfo/p | c03/processinfo/p | c04/processinfo/p | c05/processinfo/p | c06/processinfo/p | c07/processinfo/p">
 		
