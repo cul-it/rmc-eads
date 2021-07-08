@@ -355,7 +355,9 @@
 					or lower-case(.) = 'arrangement'
 					or lower-case(.) = 'existence and location of copies'
 					or lower-case(.) = 'conditions governing access'
-					or lower-case(.) = 'general'"> </xsl:when>
+					or lower-case(.) = 'general'">
+				
+			</xsl:when>
 			<xsl:otherwise>
 				<div class="H4">
 					<a name="{generate-id()}">
@@ -387,6 +389,8 @@
 					or lower-case(.) = 'conditions governing use'
 					or lower-case(.) = 'restrictions on use:'
 					or lower-case(.) = 'access restrictions:'
+					or lower-case(.) = 'related materials'
+					or lower-case(.) = 'custodial history:'
 					">
 				<!-- this stuff doesn't seem to show up in current EADs so we probably don't want a link -->
 			</xsl:when>
@@ -1556,7 +1560,7 @@
 		</tr>
 	</xsl:template>
 
-	<xsl:template match="c01/relatedmaterial/p | c02/relatedmaterial/p | c03/relatedmaterial/p | c04/relatedmaterial/p | c05/relatedmaterial/p | c06/relatedmaterial/p | c07/relatedmaterial/p">
+	<xsl:template match="c01/relatedmaterial | c02/relatedmaterial | c03/relatedmaterial | c04/relatedmaterial | c05/relatedmaterial | c06/relatedmaterial | c07/relatedmaterial">
 
 		<xsl:variable name="indent-value">
 			<xsl:call-template name="depth-of-node"/>
@@ -1564,16 +1568,20 @@
 
 		<tr>
 			<!-- switched date column to end, added two blank tds at front - kaw5-->
-
+			
 			<td/>
 			<td/>
-
+			
 			<td>
+				<div class="heading">
+					<xsl:value-of select="../head"/>
+				</div>
 				<div>
-					<xsl:attribute name="STYLE">margin-left: <xsl:value-of select="$indent-value - 3"/>em; </xsl:attribute> Related Materials: <xsl:apply-templates/>
+					<xsl:attribute name="STYLE">margin-left: <xsl:value-of select="$indent-value - 3"/>em; </xsl:attribute>
+					<xsl:apply-templates/>
 				</div>
 			</td>
-
+			
 			<xsl:choose>
 				<xsl:when test="//did/unitdate">
 					<td/>
@@ -1581,6 +1589,37 @@
 			</xsl:choose>
 		</tr>
 	</xsl:template>
+
+	<xsl:template match="c01/custodhist | c02/custodhist | c03/custodhist | c04/custodhist | c05/custodhist | c06/custodhist | c07/custodhist">
+		
+		<xsl:variable name="indent-value">
+			<xsl:call-template name="depth-of-node"/>
+		</xsl:variable>
+		
+		<tr>
+			<!-- switched date column to end, added two blank tds at front - kaw5-->
+			
+			<td/>
+			<td/>
+			
+			<td>
+				<div class="heading">
+					<xsl:value-of select="../head"/>
+				</div>
+				<div>
+					<xsl:attribute name="STYLE">margin-left: <xsl:value-of select="$indent-value - 3"/>em; </xsl:attribute>
+					<xsl:apply-templates/>
+				</div>
+			</td>
+			
+			<xsl:choose>
+				<xsl:when test="//did/unitdate">
+					<td/>
+				</xsl:when>
+			</xsl:choose>
+		</tr>
+	</xsl:template>
+	
 
 	<xsl:template match="c01/separatedmaterial/p | c02/separatedmaterial/p | c03/separatedmaterial/p | c04/separatedmaterial/p | c05/separatedmaterial/p | c06/separatedmaterial/p | c07/separatedmaterial/p">
 
