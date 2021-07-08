@@ -853,11 +853,11 @@
 
 	</xsl:template>
 
-	<xsl:template match="c01 | c02 | c03 | c04 | c05 | c06">
+	<xsl:template match="c01 | c02 | c03 | c04 | c05 | c06 | c07">
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<xsl:template match="c01/did | c02/did | c03/did | c04/did | c05/did | c06/did">
+	<xsl:template match="c01/did | c02/did | c03/did | c04/did | c05/did | c06/did | c07/did">
 
 		<xsl:variable name="indent-value">
 			<xsl:call-template name="depth-of-node"/>
@@ -1465,7 +1465,7 @@
 		</tr>
 	</xsl:template>
 
-	<xsl:template match="c01/accessrestrict/p | c02/accessrestrict/p | c03/accessrestrict/p | c04/accessrestrict/p | c05/accessrestrict/p | c06/accessrestrict/p | c07/accessrestrict">
+	<xsl:template match="c01/accessrestrict/p | c02/accessrestrict/p | c03/accessrestrict/p | c04/accessrestrict/p | c05/accessrestrict/p | c06/accessrestrict/p | c07/accessrestrict/p">
 
 		<xsl:variable name="indent-value">
 			<xsl:call-template name="depth-of-node"/>
@@ -1707,7 +1707,7 @@
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<xsl:template match="c01/did/unitid | c02/did/unitid | c03/did/unitid | c04/did/unitid | c05/did/unitid | c06/did/unitid">
+	<xsl:template match="c01/did/unitid | c02/did/unitid | c03/did/unitid | c04/did/unitid | c05/did/unitid | c06/did/unitid | c07/did/unitid">
 		<xsl:choose>
 			<xsl:when test="@audience = 'internal'">
 				<!-- don't output these ones -->
@@ -1722,7 +1722,7 @@
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<xsl:template match="c01/did/unittitle | c02/did/unittitle | c03/did/unittitle | c04/did/unittitle | c05/did/unittitle | c06/did/unittitle">
+	<xsl:template match="c01/did/unittitle | c02/did/unittitle | c03/did/unittitle | c04/did/unittitle | c05/did/unittitle | c06/did/unittitle | c07/did/unittitle">
 		<xsl:choose>
 			<xsl:when test="@id">
 				<a>
@@ -1739,7 +1739,7 @@
 	</xsl:template>
 
 
-	<xsl:template match="c01/did/abstract | c02/did/abstract | c03/did/abstract | c04/did/abstract | c05/did/abstract | c06/did/abstract">
+	<xsl:template match="c01/did/abstract | c02/did/abstract | c03/did/abstract | c04/did/abstract | c05/did/abstract | c06/did/abstract | c07/did/abstract">
 
 		<xsl:variable name="indent-value">
 			<xsl:call-template name="depth-of-node"/>
@@ -1768,7 +1768,7 @@
 		</tr>
 	</xsl:template>
 
-	<xsl:template match="c01/did/origination | c02/did/origination | c03/did/origination | c04/did/origination | c05/did/origination | c06/did/origination">
+	<xsl:template match="c01/did/origination | c02/did/origination | c03/did/origination | c04/did/origination | c05/did/origination | c06/did/origination | c07/did/origination">
 
 		<xsl:variable name="indent-value">
 			<xsl:call-template name="depth-of-node"/>
@@ -1800,7 +1800,7 @@
 	</xsl:template>
 
 
-	<xsl:template match="c01/did/physdesc | c02/did/physdesc | c03/did/physdesc | c04/did/physdesc | c05/did/physdesc | c06/did/physdesc">
+	<xsl:template match="c01/did/physdesc | c02/did/physdesc | c03/did/physdesc | c04/did/physdesc | c05/did/physdesc | c06/did/physdesc | c07/did/physdesc">
 
 		<xsl:variable name="indent-value">
 			<xsl:call-template name="depth-of-node"/>
@@ -1830,7 +1830,7 @@
 		</tr>
 	</xsl:template>
 
-	<xsl:template match="c01/did/physloc | c02/did/physloc | c03/did/physloc | c04/did/physloc | c05/did/physloc | c06/did/physloc">
+	<xsl:template match="c01/did/physloc | c02/did/physloc | c03/did/physloc | c04/did/physloc | c05/did/physloc | c06/did/physloc | c07/did/physloc">
 
 		<xsl:variable name="indent-value">
 			<xsl:call-template name="depth-of-node"/>
