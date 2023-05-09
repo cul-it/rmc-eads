@@ -2180,7 +2180,7 @@
 			<xsl:when test="@show = 'new'">
 				<a target="_blank">
 					<xsl:attribute name="HREF">
-						<xsl:value-of select="@href"/>
+						<xsl:value-of select="@xlink:href"/>
 					</xsl:attribute>
 					<xsl:apply-templates/>
 				</a>
@@ -2188,7 +2188,7 @@
 			<xsl:otherwise>
 				<a target="_top">
 					<xsl:attribute name="HREF">
-						<xsl:value-of select="@href"/>
+						<xsl:value-of select="@xlink:href"/>
 					</xsl:attribute>
 					<xsl:apply-templates/>
 				</a>
